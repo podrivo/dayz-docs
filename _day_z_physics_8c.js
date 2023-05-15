@@ -1,0 +1,36 @@
+var _day_z_physics_8c =
+[
+    [ "RaycastRVParams", "class_raycast_r_v_params.html", "class_raycast_r_v_params" ],
+    [ "RaycastRVResult", "class_raycast_r_v_result.html", "class_raycast_r_v_result" ],
+    [ "CollisionOverlapCallback", "class_collision_overlap_callback.html", "class_collision_overlap_callback" ],
+    [ "DayZPhysics", "class_day_z_physics.html", "class_day_z_physics" ],
+    [ "PhxInteractionLayers", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3a", [
+      [ "NOCOLLISION", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aafc24505d887d19c4bf63c00ec3134834", null ],
+      [ "DEFAULT", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aad20935afa9af8d1f162c113cfbbf111d", null ],
+      [ "BUILDING", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1ae565a2eb1b9ddd41f0cefc3f33a087", null ],
+      [ "CHARACTER", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa762041e95dc7b081aaf6b0019dca8586", null ],
+      [ "VEHICLE", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada30f0dfe7c99ccb74e83ba77c5c118d", null ],
+      [ "DYNAMICITEM", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa34cb6e132dc8c920ea4899c94a47e156", null ],
+      [ "ROADWAY", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaa40171ea8c0980e35c7ad0ee529c8cfa", null ],
+      [ "VEHICLE_NOTERRAIN", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac2053b3830bd5273a2c24c014d6abc61", null ],
+      [ "CHARACTER_NO_GRAVITY", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa416166834c71f523dcfaa6bee6f3418f", null ],
+      [ "FIREGEOM", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a", null ],
+      [ "DOOR", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9", null ],
+      [ "RAGDOLL", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6dd34476b864b389cb28b655222b1858", null ],
+      [ "WATERLAYER", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa44021f1a52edc2c884a544a38c672a56", null ],
+      [ "TERRAIN", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa58c2bc22908015ec088d6cb81dd3112f", null ],
+      [ "GHOST", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa61fe741a013aba041eb9a4a3d55e46bc", null ],
+      [ "WORLDBOUNDS", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aabfac00358e0647fc33e06e78543f44d8", null ],
+      [ "FENCE", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac9c04652d7bde83489037a941f229e65", null ],
+      [ "AI", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9c74caa56a3c05723eb1dbad44bc9bc3", null ],
+      [ "AI_NO_COLLISION", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6b82657907572c302a95f00c7b5b51dc", null ],
+      [ "AI_COMPLEX", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0972cd715c6aa0be3d4ec31461b9933d", null ],
+      [ "TINYCAPSULE", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaaa60e119b1b1f70feca0c15be782a0fc", null ],
+      [ "TRIGGER", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa16be61c7643c97ef03953cad704f0345", null ],
+      [ "TRIGGER_NOTERRAIN", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0ce2fcefb8d2bbd1b045c2130074778a", null ],
+      [ "ITEM_SMALL", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1e31c1d3e8d0acd75fe8a066c2b01396", null ],
+      [ "ITEM_LARGE", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa01f4dcc45340182711ad5c949bfa440b", null ],
+      [ "CAMERA", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada31f516cdf218b68b790fb31e8a6956", null ],
+      [ "TEMP", "_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa5937389a60030a604f0efdf5e3927325", null ]
+    ] ]
+];

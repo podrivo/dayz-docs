@@ -1,0 +1,4 @@
+var _exhaust_smoke_8c =
+[
+    [ "EffExhaustSmoke", "class_eff_exhaust_smoke.html", "class_eff_exhaust_smoke" ]
+];

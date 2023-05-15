@@ -1,0 +1,15 @@
+var class_i_t_e_m___hologram_data =
+[
+    [ "InitServer", "class_i_t_e_m___hologram_data.html#a252cc19f9c828b933c1ddb8172c9baf7", null ],
+    [ "ValidateServer", "class_i_t_e_m___hologram_data.html#a14ccfee252ee1bc560f82d20b0acc28f", null ],
+    [ "disableHeightPlacementCheck", "class_i_t_e_m___hologram_data.html#a211ebe60da77036634fa7dfc35c82e60", null ],
+    [ "disableIsBaseViableCheck", "class_i_t_e_m___hologram_data.html#afd1911ec099ada59f709b7ee5996c1a8", null ],
+    [ "disableIsClippingRoofCheck", "class_i_t_e_m___hologram_data.html#add01e94b96a080ed8bdd5ef03d310574", null ],
+    [ "disableIsCollidingAngleCheck", "class_i_t_e_m___hologram_data.html#ab6d14cd056ae70fa7ae30dcd5002e16a", null ],
+    [ "disableIsCollidingBBoxCheck", "class_i_t_e_m___hologram_data.html#a8670457e698a5bffd89d5dd02d5a321f", null ],
+    [ "disableIsCollidingGPlotCheck", "class_i_t_e_m___hologram_data.html#ab9c12e649aa78dfcc75c4ed5c3f768fe", null ],
+    [ "disableIsCollidingPlayerCheck", "class_i_t_e_m___hologram_data.html#a9f2adc764d9a559d0c84ce1714add00d", null ],
+    [ "disableIsInTerrainCheck", "class_i_t_e_m___hologram_data.html#ad918da2410d8a28ec029b1a2b3ea12b1", null ],
+    [ "disableIsPlacementPermittedCheck", "class_i_t_e_m___hologram_data.html#a3f8a8a4800f6f9e278240f5f5332356d", null ],
+    [ "disableIsUnderwaterCheck", "class_i_t_e_m___hologram_data.html#a15f9749f29a10f395d24c328c26c52af", null ]
+];

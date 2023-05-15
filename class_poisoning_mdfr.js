@@ -1,0 +1,17 @@
+var class_poisoning_mdfr =
+[
+    [ "ActivateCondition", "class_poisoning_mdfr.html#a97b1b398e0e2e6cce5972768a7b8f39f", null ],
+    [ "DeactivateCondition", "class_poisoning_mdfr.html#a059bd10ac861238e50fb792a3607e3d2", null ],
+    [ "GetDebugText", "class_poisoning_mdfr.html#a3fae6d6b0946cbe842c50c8ab274e1e4", null ],
+    [ "Init", "class_poisoning_mdfr.html#a8045e088b31fe0754fb20cb0a5ff0dc9", null ],
+    [ "OnActivate", "class_poisoning_mdfr.html#a1b847c98f31a47197791a456d871074d", null ],
+    [ "OnDeactivate", "class_poisoning_mdfr.html#aa123400511540c534d11d2f0771d862e", null ],
+    [ "OnReconnect", "class_poisoning_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13", null ],
+    [ "OnTick", "class_poisoning_mdfr.html#a77cb9670680e8fd9dc2b6457c73c7952", null ],
+    [ "AGENT_THRESHOLD_ACTIVATE", "class_poisoning_mdfr.html#a26f9fd15a00330c021c7d5c1a55d039a", null ],
+    [ "AGENT_THRESHOLD_DEACTIVATE", "class_poisoning_mdfr.html#a8a52175bb14433033248c7c28f7ba038", null ],
+    [ "ENERGY_DRAIN_FROM_VOMIT", "class_poisoning_mdfr.html#ae0f0aca190fecf6d4dbcddc4d0046682", null ],
+    [ "VOMIT_OCCURRENCES_PER_HOUR_MAX", "class_poisoning_mdfr.html#a74f18bf5dc2f02c373d6276a886bb8b9", null ],
+    [ "VOMIT_OCCURRENCES_PER_HOUR_MIN", "class_poisoning_mdfr.html#aed771a47382aad5d9da1d53221ccab9a", null ],
+    [ "WATER_DRAIN_FROM_VOMIT", "class_poisoning_mdfr.html#a4e971213e62da8093efc912a5f666dd2", null ]
+];
