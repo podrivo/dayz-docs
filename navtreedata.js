@@ -24,7 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "DayZ", "index.html", [
+  [ "DayZ Scripts", "index.html", [
+    [ "DayZ Scripts Documentation", "index.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -237,21 +238,21 @@ var NAVTREEINDEX =
 "classarray.html#af41951f0ce4d4186d8bccdb5637c9f0a",
 "dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3226a724ea01d5e2a2ef248813684ebe",
 "dayzplayer_8c.html#a7074bf2b8c380d543bfaf1f1133d5a88",
-"dir_a476d1481b22b070ddc77c2f4337980a.html",
-"gameplay_8c.html#a00769c7470f89691107ab88bebe38e9f",
-"globals_func_p.html",
-"group___cpp_enums.html#ga2c94d8437f2470540caedf41f31359b1",
-"group___emote_i_ds.html#ga5464449e1908d6b07b9b1d37166e064d",
-"group___enforce.html#gaefc5e9efda4ef9f025ae7b56609c1642",
-"group___environment_cfg.html#gaf1414eae6c75d593f6d3e7cd93bc1dad",
+"dir_9f77779eaa2f6397094e7ee725687ab6.html",
+"gameplay_8c.html",
+"globals_func_o.html",
+"group___cpp_enums.html#ga290fbe7409c8381b52e369d1d4de59f5",
+"group___emote_i_ds.html#ga542f3d85f5288320e20c5390255980cb",
+"group___enforce.html#gaee2e70b9c6607d7afa3dc60ce2426377",
+"group___environment_cfg.html#gaef42e98242cbc31430fe4f426391744d",
 "group___keyboard.html#gga7885f47644a0388f981f416fa20389b2a3e36fe991b789fcdccd4f6f0cf19f718",
-"group___materials.html#gacc347625336c4c7bd1249f80e2ee777f",
-"group___ocean.html#gaced6f419258e615b2d9674595510ea56",
-"group___stamina_handler_cfg.html#gab196fe74b9e96857f518f0f739d4de00",
-"group___widget_a_p_i.html#ga829a1a91095d818cd1e56e0a5ed7e18f",
+"group___materials.html#gabf56c72043efec5df6f3df0a48ff82be",
+"group___ocean.html#gac962e893ec78983e5706da3921fb5a17",
+"group___stamina_handler_cfg.html#gaac27f3e8d96d68dcb95eaa77048dcae2",
+"group___widget_a_p_i.html#ga827577a24a9d326efdc65bd0b7e07160",
 "group___world_trace.html#ggae6702e9d0693293d048382c4f6547bcdab34be3daa76509c03e82c513fcb7d50f",
-"human_8c.html#a820c03aa64fd141da82be6d50b8e0ff2",
-"humansettings_8c.html#a8a9394c54bcc59e3bb971b685c514bbd"
+"human_8c.html#a8180a5c89d9a996e3ae954f8465f9534",
+"humansettings_8c.html#a884ff5d100e5906a59983ff33593a1d3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

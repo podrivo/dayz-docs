@@ -1,0 +1,18 @@
+#titlearea {
+    border-bottom:0 !important;
+}
+
+.sm-dox a, .sm-dox a:focus, .sm-dox a:active, .sm-dox a:hover, .sm-dox a.highlighted {
+    padding: 0 16px;
+    background: none;
+}
+
+.footer {
+    display: none;
+}
+
+.navpath ul {
+    border: 0;
+    background: none;
+    background-color: ghostwhite;
+}
