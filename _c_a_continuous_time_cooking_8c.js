@@ -1,4 +1,0 @@
-var _c_a_continuous_time_cooking_8c =
-[
-    [ "CAContinuousTimeCooking", "class_c_a_continuous_time_cooking.html", "class_c_a_continuous_time_cooking" ]
-];
