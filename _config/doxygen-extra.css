@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+#titlearea {
+    border-bottom: 0;
+    padding: 28px 0 24px;
+}
+
+#projectname {
+    font-size: 260%;
+    font-weight: 700;
+}
+
+#projectnumber {
+    opacity: 0.6;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+.sm-dox a, .sm-dox a:focus, .sm-dox a:active, .sm-dox a:hover, .sm-dox a.highlighted {
+    /* padding: 0 16px; */
+    background: none;
+}
+
+.footer {
+    display: none;
+}
+
+.navpath ul {
+    border: 0;
+    background: none;
+    background-color: var(--nav-background-color);
+}
+
+#nav-sync {
+    display: none;
+}
+
+.ui-resizable-e {
+    background: none;
+}
+
+#projectalign {
+    padding-left: 22px;
+}
+
+div.header {
+    background: none;
+    border: 0;
+}
+
+div.header .title {
+    margin: 24px 0px;
+}
+
+div.headertitle {
+    padding: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+div.contents {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#nav-tree .selected {
+    text-shadow: none;
+    /* background: none; */
+    /* background-color: var(--nav-menu-toggle-color); */
+}
+
+#MSearchBox {
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+#MSearchBox .left {
+    height: 1.85em;
+    padding-top: 3px;
+}
+
+#MSearchField {
+    width: 15em;
+}
