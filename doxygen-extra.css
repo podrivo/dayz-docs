@@ -145,6 +145,13 @@ div.contents a {
     text-decoration: underline;
 }
 
+#bigger ~ p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
 
 /* Sidebar */
 #side-nav {
@@ -183,9 +190,16 @@ div.contents a {
     width: 15em;
 }
 
+
+
+/* Dark Mode Toggle */
 dark-mode-toggle {
     margin-left: 22px;
 }
+
+
+
+
 
 .sm-dox {
     background-image: none !important;
@@ -217,4 +231,14 @@ dark-mode-toggle {
 /* Footer */
 .footer {
     display: none;
+}
+
+
+
+
+
+
+.arrow {
+    font-size: 75%;
+    width: 14px;
 }

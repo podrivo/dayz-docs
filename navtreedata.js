@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "DayZ Scripts", "index.html", [
-    [ "Homepage", "index.html", null ],
+    [ "Welcome", "index.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
