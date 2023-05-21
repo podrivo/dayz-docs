@@ -225,6 +225,7 @@ dark-mode-toggle {
     height: 24px;
     display: flex;
     align-items: center;
+    padding-left: 16px;
 }
 
 
@@ -241,4 +242,42 @@ dark-mode-toggle {
 .arrow {
     font-size: 75%;
     width: 14px;
+}
+
+
+
+@media(max-width:768px) {
+    #nav-tree {
+        display: none;
+    }
+    
+    #side-nav {
+        width: 100% !important;
+        height: auto !important;
+        position: relative;
+    }
+
+    #side-nav::before {
+        content: 'Not mobile ready. Limited experience.';
+        background-color: var(--extra-bg-treeview-color);
+        font-size: 12px;
+        line-height: 16px;
+        display: block;
+        padding: 12px 24px;
+    }
+
+    #doc-content {
+        margin-left: 0 !important;
+        height: auto !important;
+    }
+
+    div.headertitle {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    div.contents {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
 }
