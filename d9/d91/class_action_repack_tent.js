@@ -4,6 +4,7 @@ var class_action_repack_tent =
     [ "ActionCondition", "d9/d91/class_action_repack_tent.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
     [ "ActionConditionContinue", "d9/d91/class_action_repack_tent.html#a1f7399d8d410ac172ef0e5f4c4bbb4eb", null ],
     [ "CreateConditionComponents", "d9/d91/class_action_repack_tent.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
+    [ "GetAdminLogMessage", "d9/d91/class_action_repack_tent.html#a5cf7c0a3bd1ed2154d3b917244047a40", null ],
     [ "HasAlternativeInterrupt", "d9/d91/class_action_repack_tent.html#a8776280df4c7e336f026407579b68872", null ],
     [ "HasProgress", "d9/d91/class_action_repack_tent.html#a6201cf1bf986bd9c1f571cb58a6946ed", null ],
     [ "HasTarget", "d9/d91/class_action_repack_tent.html#ab80733e1a8c145c8ee7b04476d535d72", null ],

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,43 +101,34 @@ $(document).ready(function(){initNavTree('d1/d3b/_welding_mask_8c_source.html','
   <div class="headertitle"><div class="title">WeldingMask.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/d3b/_welding_mask_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">class </span>WeldingMask <span class="keyword">extends</span> <a class="code hl_class" href="../../d2/d89/class_clothing_base.html">ClothingBase</a></div>
+<a href="../../d1/d3b/_welding_mask_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">class </span>WeldingMask <span class="keyword">extends</span> <a class="code hl_class" href="../../d2/d41/class_helmet_base.html">HelmetBase</a></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>{</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d2/d89/class_clothing_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f">    3</a></span>    <span class="keyword">override</span> <a class="code hl_class" href="../../d2/d41/classarray.html">array&lt;int&gt;</a> <a class="code hl_function" href="../../d2/d89/class_clothing_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f">GetEffectWidgetTypes</a>()</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d2/d41/class_helmet_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f">    3</a></span>    <span class="keyword">override</span> <a class="code hl_class" href="../../d2/d41/classarray.html">array&lt;int&gt;</a> <a class="code hl_function" href="../../d2/d41/class_helmet_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f">GetEffectWidgetTypes</a>()</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    {</div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        <span class="keywordflow">return</span> {EffectWidgetsTypes.HELMET_OCCLUDER<span class="comment">/*,EffectWidgetsTypes.HELMET_BREATH*/</span>};</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    }</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d2/d89/class_clothing_base.html#abbd8d4142787998dba20c9b75567c440">    8</a></span>    <span class="keyword">override</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d89/class_clothing_base.html#abbd8d4142787998dba20c9b75567c440">CanPutAsAttachment</a>( <a class="code hl_class" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent )</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d2/d41/class_helmet_base.html#abe8ed5894e859cd82d75710d34f1d71c">    8</a></span>    <span class="keyword">override</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d41/class_helmet_base.html#abe8ed5894e859cd82d75710d34f1d71c">GetGlassesEffectID</a>()</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keywordflow">if</span>(!super.CanPutAsAttachment(parent)) {<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a> eyewear = <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a>.Cast(parent.FindAttachmentBySlotName(<span class="stringliteral">&quot;Eyewear&quot;</span>));</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keywordflow">if</span> ( eyewear &amp;&amp; eyewear.ConfigGetBool(<span class="stringliteral">&quot;isStrap&quot;</span>) )</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        }</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a> mask = <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a>.Cast(parent.FindAttachmentBySlotName(<span class="stringliteral">&quot;Mask&quot;</span>));</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">if</span> ( mask &amp;&amp; mask.ConfigGetBool(<span class="stringliteral">&quot;noHelmet&quot;</span>) &amp;&amp; !SantasBeard.Cast(mask) )</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        }</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d2/d89/class_clothing_base.html#abe8ed5894e859cd82d75710d34f1d71c">   27</a></span>    <span class="keyword">override</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d89/class_clothing_base.html#abe8ed5894e859cd82d75710d34f1d71c">GetGlassesEffectID</a>()</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> PPERequesterBank.REQ_GLASSESWELDING;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
-<div class="ttc" id="aclass_clothing_base_html"><div class="ttname"><a href="../../d2/d89/class_clothing_base.html">ClothingBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/_burlap_sack_cover_8c_source.html#l00001">BurlapSackCover.c:2</a></div></div>
-<div class="ttc" id="aclass_clothing_base_html_aad5d9cab4ab598511b9ff00ab8dc9b0f"><div class="ttname"><a href="../../d2/d89/class_clothing_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f">ClothingBase::GetEffectWidgetTypes</a></div><div class="ttdeci">override array&lt; int &gt; GetEffectWidgetTypes()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3b/_welding_mask_8c_source.html#l00003">WeldingMask.c:3</a></div></div>
-<div class="ttc" id="aclass_clothing_base_html_abbd8d4142787998dba20c9b75567c440"><div class="ttname"><a href="../../d2/d89/class_clothing_base.html#abbd8d4142787998dba20c9b75567c440">ClothingBase::CanPutAsAttachment</a></div><div class="ttdeci">override bool CanPutAsAttachment(EntityAI parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3b/_welding_mask_8c_source.html#l00008">WeldingMask.c:8</a></div></div>
-<div class="ttc" id="aclass_clothing_base_html_abe8ed5894e859cd82d75710d34f1d71c"><div class="ttname"><a href="../../d2/d89/class_clothing_base.html#abe8ed5894e859cd82d75710d34f1d71c">ClothingBase::GetGlassesEffectID</a></div><div class="ttdeci">override int GetGlassesEffectID()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3b/_welding_mask_8c_source.html#l00027">WeldingMask.c:27</a></div></div>
-<div class="ttc" id="aclass_clothing_html"><div class="ttname"><a href="../../d8/db4/class_clothing.html">Clothing</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/_alice_bag___color_base_8c_source.html#l00001">AliceBag_ColorBase.c:1</a></div></div>
-<div class="ttc" id="aclass_entity_a_i_html"><div class="ttname"><a href="../../df/df9/class_entity_a_i.html">EntityAI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00001">Building.c:2</a></div></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keywordflow">return</span> PPERequesterBank.REQ_GLASSESWELDING;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    }</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec">   13</a></span>    <span class="keyword">override</span> <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec">InitGlobalExclusionValues</a>()</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        super.InitGlobalExclusionValues();</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_HEADGEAR_HELMET_0);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_MASK_0);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_MASK_1);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_MASK_2);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_HEADSTRAP_0);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
+<div class="ttc" id="aclass_helmet_base_html"><div class="ttname"><a href="../../d2/d41/class_helmet_base.html">HelmetBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d95/_great_helm_8c_source.html#l00001">GreatHelm.c:2</a></div></div>
+<div class="ttc" id="aclass_helmet_base_html_aad5d9cab4ab598511b9ff00ab8dc9b0f"><div class="ttname"><a href="../../d2/d41/class_helmet_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f">HelmetBase::GetEffectWidgetTypes</a></div><div class="ttdeci">override array&lt; int &gt; GetEffectWidgetTypes()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3b/_welding_mask_8c_source.html#l00003">WeldingMask.c:3</a></div></div>
+<div class="ttc" id="aclass_helmet_base_html_abb31df34d18be9cfd04b07d55bba5eec"><div class="ttname"><a href="../../d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec">HelmetBase::InitGlobalExclusionValues</a></div><div class="ttdeci">override protected void InitGlobalExclusionValues()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3b/_welding_mask_8c_source.html#l00013">WeldingMask.c:13</a></div></div>
+<div class="ttc" id="aclass_helmet_base_html_abe8ed5894e859cd82d75710d34f1d71c"><div class="ttname"><a href="../../d2/d41/class_helmet_base.html#abe8ed5894e859cd82d75710d34f1d71c">HelmetBase::GetGlassesEffectID</a></div><div class="ttdeci">override int GetGlassesEffectID()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3b/_welding_mask_8c_source.html#l00008">WeldingMask.c:8</a></div></div>
 <div class="ttc" id="aclassarray_html"><div class="ttname"><a href="../../d2/d41/classarray.html">array</a></div><div class="ttdoc">Result for an object found in CGame.IsBoxCollidingGeometryProxy.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c_source.html#l00027">IsBoxCollidingGeometryProxyClasses.c:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

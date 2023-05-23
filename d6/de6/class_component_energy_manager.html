@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -365,6 +365,11 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ab978bbd74b77dbbdea33b3b4243fd8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a72fb4a7f92280e017791ff364415b8"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/class_component_energy_manager.html#a7a72fb4a7f92280e017791ff364415b8">StopUpdates</a> ()</td></tr>
 <tr class="separator:a7a72fb4a7f92280e017791ff364415b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681323592cf41191bfadb0f782a8ba7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/class_component_energy_manager.html#a681323592cf41191bfadb0f782a8ba7e">InteractBranch</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> originalCaller, Man player=null, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> system=0)</td></tr>
+<tr class="separator:a681323592cf41191bfadb0f782a8ba7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a843eaabd104025bf559459f7b50ccbc1"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/class_component_energy_manager.html#a843eaabd104025bf559459f7b50ccbc1">OnInteractBranch</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> originalCaller, Man player, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> system)</td></tr>
+<tr class="memdesc:a843eaabd104025bf559459f7b50ccbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the player is interacting with an item containing this energy component, or when interacting with an item this device is connected to.  <br /></td></tr>
+<tr class="separator:a843eaabd104025bf559459f7b50ccbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd21161408abe215d65f4570671679ae"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/class_component_energy_manager.html#afd21161408abe215d65f4570671679ae">WakeUpWholeBranch</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> original_caller)</td></tr>
 <tr class="separator:afd21161408abe215d65f4570671679ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6999aa7a56d57f087bfcc8d1869449"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/class_component_energy_manager.html#a7c6999aa7a56d57f087bfcc8d1869449">PlugCordIntoSocket</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> device_to_plug, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> socket_id=-1)</td></tr>
@@ -593,9 +598,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">1227</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01221">GetEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01259">GetEnergyMax()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01477">OnEnergyAdded()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01471">OnEnergyConsumed()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00523">SetEnergy()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">StartUpdates()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01221">GetEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01259">GetEnergyMax()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01475">OnEnergyAdded()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01469">OnEnergyConsumed()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00523">SetEnergy()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">StartUpdates()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01665">FindAndConsumeEnergy()</a>, and <a class="el" href="../../d2/d58/_blowtorch_8c_source.html#l00081">ItemBase::OnIgnitedTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01692">FindAndConsumeEnergy()</a>, and <a class="el" href="../../d2/d58/_blowtorch_8c_source.html#l00081">ItemBase::OnIgnitedTarget()</a>.</p>
 
 </div>
 </div>
@@ -661,7 +666,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00924">HasFreeSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00954">IsPlugCompatible()</a>, and <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>.</p>
 
 </div>
 </div>
@@ -801,7 +806,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00055">m_WetnessExposure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -828,11 +833,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01712">1712</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01739">1739</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00054">m_LastUpdateTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -864,9 +869,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00901">901</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01665">FindAndConsumeEnergy()</a>, and <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01692">FindAndConsumeEnergy()</a>, and <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -895,7 +900,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00107">107</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00149">DrawArrow()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00355">GetDebugPlugs()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00022">m_DebugPlugArrow</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00074">m_DebugUpdate</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00077">Timer::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00149">DrawArrow()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00355">GetDebugPlugs()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00022">m_DebugPlugArrow</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00074">m_DebugUpdate</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00064">Timer::Stop()</a>.</p>
 
 </div>
 </div>
@@ -922,9 +927,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">1728</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">1755</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga05c70a953db2edfff0a8cd481dd7e230">ScriptModule::CallFunction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00850">CheckWetness()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01712">ClearLastUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00901">ConsumeEnergy()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00012">CGame::GameScript</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01722">GetCurrentUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01215">GetEnergyUsage()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00873">IsSwitchedOn()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00907">IsWorking()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00031">m_AutoSwitchOff</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00029">m_CanStopWork</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">m_CanWork</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00054">m_LastUpdateTime</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01362">OnWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01717">RememberLastUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01659">SetPowered()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01494">StopUpdates()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">WakeUpWholeBranch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga05c70a953db2edfff0a8cd481dd7e230">ScriptModule::CallFunction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00850">CheckWetness()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01739">ClearLastUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00901">ConsumeEnergy()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00012">CGame::GameScript</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01749">GetCurrentUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01215">GetEnergyUsage()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00873">IsSwitchedOn()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00907">IsWorking()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00031">m_AutoSwitchOff</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00029">m_CanStopWork</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">m_CanWork</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00054">m_LastUpdateTime</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01362">OnWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01744">RememberLastUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01686">SetPowered()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01492">StopUpdates()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">WakeUpWholeBranch()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00439">SetPassiveState()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
 
@@ -1015,7 +1020,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">174</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">_PLUGGED</a>, <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00008">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a3f154fa4ec8f3cdfc049cbd0bce89236">CGame::ConfigGetFloat()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a4e7e694c9e4693ad02cdaaa3b82f77c8">CGame::ConfigGetIntArray()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00020">DEFAULT_UPDATE_INTERVAL</a>, <a class="el" href="../../d0/d62/group___debug.html#gad40897900c6420e1c23bace98c84e7c7">DPrint()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01109">GetSocketsCount()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00913">HasEnoughStoredEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00954">IsPlugCompatible()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00044">m_AttachmentActionType</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00031">m_AutoSwitchOff</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00034">m_AutoSwitchOffWhenInCargo</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">m_CanWork</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00067">m_CompatiblePlugTypes</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00036">m_ConvertEnergyToQuantity</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00053">m_CordLength</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00058">m_CordTextureFile</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00070">m_DeviceByPlugSelection</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00049">m_Energy</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00050">m_EnergyStorageMax</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00048">m_EnergyUsage</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00033">m_HasElectricityIcon</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00069">m_PluggedDevices</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00039">m_PlugType</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00051">m_ReduceMaxEnergyByDamageCoef</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00032">m_ShowSocketsInInventory</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00077">m_Sockets</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00052">m_SocketsCount</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00073">m_UpdateQuantityTimer</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00055">m_WetnessExposure</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00076">MAX_SOCKETS_COUNT</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00025">PLUG_COMMON_APPLIANCE</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">SEL_CORD_PLUGGED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00730">SetUpdateInterval()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">SOCKET_</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>, and <a class="el" href="../../d5/da2/group___strings.html#gade32b9d9b0a8625d7e264b43ab34d6fd">string::ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">_PLUGGED</a>, <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00008">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a3f154fa4ec8f3cdfc049cbd0bce89236">CGame::ConfigGetFloat()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a4e7e694c9e4693ad02cdaaa3b82f77c8">CGame::ConfigGetIntArray()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00020">DEFAULT_UPDATE_INTERVAL</a>, <a class="el" href="../../d0/d62/group___debug.html#gad40897900c6420e1c23bace98c84e7c7">DPrint()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01109">GetSocketsCount()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00913">HasEnoughStoredEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00954">IsPlugCompatible()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00044">m_AttachmentActionType</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00031">m_AutoSwitchOff</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00034">m_AutoSwitchOffWhenInCargo</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">m_CanWork</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00067">m_CompatiblePlugTypes</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00036">m_ConvertEnergyToQuantity</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00053">m_CordLength</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00058">m_CordTextureFile</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00070">m_DeviceByPlugSelection</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00049">m_Energy</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00050">m_EnergyStorageMax</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00048">m_EnergyUsage</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00033">m_HasElectricityIcon</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00069">m_PluggedDevices</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00039">m_PlugType</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00051">m_ReduceMaxEnergyByDamageCoef</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00032">m_ShowSocketsInInventory</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00077">m_Sockets</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00052">m_SocketsCount</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00073">m_UpdateQuantityTimer</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00055">m_WetnessExposure</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00076">MAX_SOCKETS_COUNT</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00025">PLUG_COMMON_APPLIANCE</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">SEL_CORD_PLUGGED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00730">SetUpdateInterval()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">SOCKET_</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>, and <a class="el" href="../../d5/da2/group___strings.html#gade32b9d9b0a8625d7e264b43ab34d6fd">string::ToString()</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +1093,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01665">1665</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01692">1692</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00894">IsPlugged()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00873">IsSwitchedOn()</a>, and <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
@@ -1123,7 +1128,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00044">m_AttachmentActionType</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01420">OnAttachmentAdded()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01438">OnAttachmentRemoved()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01418">OnAttachmentAdded()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01436">OnAttachmentRemoved()</a>.</p>
 
 </div>
 </div>
@@ -1273,11 +1278,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01722">1722</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01749">1749</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#af8e27e0944f725da66c033ad4d75e191">CGame::GetTime()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01717">RememberLastUpdateTime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01744">RememberLastUpdateTime()</a>.</p>
 
 </div>
 </div>
@@ -1342,7 +1347,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00077">m_Sockets</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00924">HasFreeSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01527">PlugCordIntoSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00924">HasFreeSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01552">PlugCordIntoSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
 
 </div>
 </div>
@@ -1375,7 +1380,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00049">m_Energy</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d2/d58/_blowtorch_8c_source.html#l00120">ItemBase::HasEnoughEnergyForRepair()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00913">HasEnoughStoredEnergy()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00287">TransferItemVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d2/d58/_blowtorch_8c_source.html#l00120">ItemBase::HasEnoughEnergyForRepair()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00913">HasEnoughStoredEnergy()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00288">TransferItemVariables()</a>.</p>
 
 </div>
 </div>
@@ -1536,7 +1541,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00068">m_EnergySource</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00107">DebugUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01665">FindAndConsumeEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01038">IsEnergySourceAtReach()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01438">OnAttachmentRemoved()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00492">UnplugThis()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00107">DebugUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01692">FindAndConsumeEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01038">IsEnergySourceAtReach()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01436">OnAttachmentRemoved()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00492">UnplugThis()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
 
 </div>
 </div>
@@ -1743,7 +1748,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00048">m_EnergyUsage</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00913">HasEnoughStoredEnergy()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00523">SetEnergy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00913">HasEnoughStoredEnergy()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00523">SetEnergy()</a>.</p>
 
 </div>
 </div>
@@ -1770,7 +1775,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01696">1696</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01723">1723</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00038">m_MySocketID</a>.</p>
 
@@ -1836,7 +1841,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00069">m_PluggedDevices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01317">GetPluggedDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01163">GetPluggedDevicesCount()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01340">GetPoweredDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00504">UnplugAllDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">WakeUpWholeBranch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01317">GetPluggedDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01163">GetPluggedDevicesCount()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01340">GetPoweredDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">InteractBranch()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00504">UnplugAllDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">WakeUpWholeBranch()</a>.</p>
 
 </div>
 </div>
@@ -2054,7 +2059,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00052">m_SocketsCount</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00924">HasFreeSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01527">PlugCordIntoSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">WakeUpWholeBranch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00924">HasFreeSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">InteractBranch()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01552">PlugCordIntoSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">WakeUpWholeBranch()</a>.</p>
 
 </div>
 </div>
@@ -2116,7 +2121,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00056">m_UpdateInterval</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">StartUpdates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">StartUpdates()</a>.</p>
 
 </div>
 </div>
@@ -2339,6 +2344,55 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a681323592cf41191bfadb0f782a8ba7e" name="a681323592cf41191bfadb0f782a8ba7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681323592cf41191bfadb0f782a8ba7e">&#9670;&#160;</a></span>InteractBranch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractBranch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>originalCaller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Man&#160;</td>
+          <td class="paramname"><em>player</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>system</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets called originally when the player is interacting with an item containing this energy component, then recursively following the branches of connection from the original item to the peripheries External calling of this function is not automatic for all item interactions and may need to be implemented on case by case bases Avoid using for gameplay logic, use 'OnInteractBranch' instead </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">1504</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01334">GetPluggedDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01109">GetSocketsCount()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01522">OnInteractBranch()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>.</p>
+
+</div>
+</div>
 <a id="ac005f48f445969f95adefe9f584c042d" name="ac005f48f445969f95adefe9f584c042d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac005f48f445969f95adefe9f584c042d">&#9670;&#160;</a></span>IsCordFolded()</h2>
 
@@ -2536,7 +2590,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00035">m_IsPlugged</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01508">Hologram::CorrectMaterialPathName()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01665">FindAndConsumeEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00879">IsCordFolded()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01038">IsEnergySourceAtReach()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01508">Hologram::CorrectMaterialPathName()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01692">FindAndConsumeEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00879">IsCordFolded()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01038">IsEnergySourceAtReach()</a>.</p>
 
 </div>
 </div>
@@ -2601,7 +2655,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00024">m_IsSwichedOn</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00856">CanSwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00748">CanSwitchOn()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01665">FindAndConsumeEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01340">GetPoweredDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00718">HandleMoveInsideCargo()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00287">TransferItemVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00856">CanSwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00748">CanSwitchOn()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01692">FindAndConsumeEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01340">GetPoweredDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00718">HandleMoveInsideCargo()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00288">TransferItemVariables()</a>.</p>
 
 </div>
 </div>
@@ -2634,7 +2688,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00027">m_IsWorking</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>.</p>
 
 </div>
 </div>
@@ -2662,7 +2716,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01420">1420</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01418">1418</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01121">GetAttachmentAction()</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00036">PLUG_ATTACHMENTS_INTO_THIS</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00035">PLUG_THIS_INTO_ATTACHMENT</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00742">PlugThisInto()</a>.</p>
 
@@ -2692,7 +2746,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01438">1438</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01436">1436</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01121">GetAttachmentAction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00036">PLUG_ATTACHMENTS_INTO_THIS</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00035">PLUG_THIS_INTO_ATTACHMENT</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00492">UnplugThis()</a>.</p>
 
@@ -2723,7 +2777,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">320</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01659">SetPowered()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00504">UnplugAllDevices()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00492">UnplugThis()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01686">SetPowered()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00504">UnplugAllDevices()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00492">UnplugThis()</a>.</p>
 
 </div>
 </div>
@@ -2752,9 +2806,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Energy manager: Called when energy was added on this device. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01477">1477</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01475">1475</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00073">m_UpdateQuantityTimer</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00077">Timer::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00073">m_UpdateQuantityTimer</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00064">Timer::Stop()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>.</p>
 
@@ -2785,11 +2839,61 @@ Static Private Attributes</h2></td></tr>
 
 <p>Energy manager: Called when energy was consumed on this device. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01471">1471</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01469">1469</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>.</p>
+
+</div>
+</div>
+<a id="a843eaabd104025bf559459f7b50ccbc1" name="a843eaabd104025bf559459f7b50ccbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a843eaabd104025bf559459f7b50ccbc1">&#9670;&#160;</a></span>OnInteractBranch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void OnInteractBranch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>originalCaller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Man&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>system</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the player is interacting with an item containing this energy component, or when interacting with an item this device is connected to. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01522">1522</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">InteractBranch()</a>.</p>
 
 </div>
 </div>
@@ -2847,7 +2951,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01385">1385</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01384">1384</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>.</p>
 
@@ -2877,7 +2981,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01406">1406</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01404">1404</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00025">PLUG_COMMON_APPLIANCE</a>.</p>
 
@@ -2909,11 +3013,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01393">1393</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01391">1391</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00025">PLUG_COMMON_APPLIANCE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>.</p>
 
 </div>
 </div>
@@ -2945,7 +3049,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -2983,11 +3087,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01527">1527</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01552">1552</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01300">GetDeviceBySocketID()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01109">GetSocketsCount()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">UpdateSocketSelections()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01300">GetDeviceBySocketID()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01109">GetSocketsCount()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">UpdateSocketSelections()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>.</p>
 
 </div>
 </div>
@@ -3025,9 +3129,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">1602</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">1627</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00983">CanReceivePlugFrom()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01334">GetPluggedDevices()</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01393">OnOwnSocketTaken()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01527">PlugCordIntoSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00065">SEL_CORD_FOLDED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">SEL_CORD_PLUGGED</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">WakeUpWholeBranch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00983">CanReceivePlugFrom()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01334">GetPluggedDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">InteractBranch()</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01391">OnOwnSocketTaken()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01552">PlugCordIntoSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00065">SEL_CORD_FOLDED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">SEL_CORD_PLUGGED</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">WakeUpWholeBranch()</a>.</p>
 
 </div>
 </div>
@@ -3071,7 +3175,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01420">OnAttachmentAdded()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01418">OnAttachmentAdded()</a>.</p>
 
 </div>
 </div>
@@ -3129,11 +3233,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01717">1717</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01744">1744</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01722">GetCurrentUpdateTime()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00054">m_LastUpdateTime</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01749">GetCurrentUpdateTime()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00054">m_LastUpdateTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -3360,7 +3464,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00077">m_Sockets</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">UpdateSocketSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">UpdateSocketSelections()</a>.</p>
 
 </div>
 </div>
@@ -3426,7 +3530,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01215">GetEnergyUsage()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00049">m_Energy</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d5/d98/group___math.html#gaa0f2c378e27a265cf9eb06121dfb1e19">Math::Min()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00539">SetEnergy0To1()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00287">TransferItemVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00539">SetEnergy0To1()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00288">TransferItemVariables()</a>.</p>
 
 </div>
 </div>
@@ -3518,9 +3622,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">1573</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">1598</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00068">m_EnergySource</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00046">m_EnergySourceNetworkIDHigh</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00045">m_EnergySourceNetworkIDLow</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00035">m_IsPlugged</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">StartUpdates()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01707">Synch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00068">m_EnergySource</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00046">m_EnergySourceNetworkIDHigh</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00045">m_EnergySourceNetworkIDLow</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00035">m_IsPlugged</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">StartUpdates()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01734">Synch()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00680">SetEnergySourceClient()</a>.</p>
 
@@ -3552,7 +3656,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00680">680</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>.</p>
 
 </div>
 </div>
@@ -3612,7 +3716,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01702">1702</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01729">1729</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00038">m_MySocketID</a>.</p>
 
@@ -3646,7 +3750,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00439">439</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>.</p>
 
 </div>
 </div>
@@ -3684,11 +3788,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01631">1631</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01658">1658</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00070">m_DeviceByPlugSelection</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">UpdateSocketSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">UpdateSocketSelections()</a>.</p>
 
 </div>
 </div>
@@ -3746,11 +3850,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01659">1659</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01686">1686</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00027">m_IsWorking</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">OnDeviceDestroyed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">OnDeviceDestroyed()</a>.</p>
 
 </div>
 </div>
@@ -3811,11 +3915,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">1456</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">1454</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00008">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01197">GetUpdateInterval()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">m_IsPassiveDevice</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00072">m_UpdateTimer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01227">AddEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
 
 </div>
 </div>
@@ -3842,11 +3946,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01494">1494</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01492">1492</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00072">m_UpdateTimer</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00077">Timer::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00072">m_UpdateTimer</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00064">Timer::Stop()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>.</p>
 
 </div>
 </div>
@@ -3929,9 +4033,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">404</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga05c70a953db2edfff0a8cd481dd7e230">ScriptModule::CallFunction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00856">CanSwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00012">CGame::GameScript</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00907">IsWorking()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00024">m_IsSwichedOn</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00025">m_IsSwichedOnPreviousState</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01494">StopUpdates()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01707">Synch()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">WakeUpWholeBranch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga05c70a953db2edfff0a8cd481dd7e230">ScriptModule::CallFunction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00856">CanSwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00012">CGame::GameScript</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00907">IsWorking()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00024">m_IsSwichedOn</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00025">m_IsSwichedOnPreviousState</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01492">StopUpdates()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01734">Synch()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">WakeUpWholeBranch()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00718">HandleMoveInsideCargo()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">OnDeviceDestroyed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00718">HandleMoveInsideCargo()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">OnDeviceDestroyed()</a>.</p>
 
 </div>
 </div>
@@ -3962,9 +4066,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">373</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga05c70a953db2edfff0a8cd481dd7e230">ScriptModule::CallFunction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00748">CanSwitchOn()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00012">CGame::GameScript</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00024">m_IsSwichedOn</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00025">m_IsSwichedOnPreviousState</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">StartUpdates()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01707">Synch()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">WakeUpWholeBranch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga05c70a953db2edfff0a8cd481dd7e230">ScriptModule::CallFunction()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00748">CanSwitchOn()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00012">CGame::GameScript</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00024">m_IsSwichedOn</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00025">m_IsSwichedOnPreviousState</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">StartUpdates()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01734">Synch()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">WakeUpWholeBranch()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00287">TransferItemVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00288">TransferItemVariables()</a>.</p>
 
 </div>
 </div>
@@ -3991,11 +4095,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01707">1707</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01734">1734</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>.</p>
 
 </div>
 </div>
@@ -4056,9 +4160,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">1641</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">1668</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00063">_AVAILABLE</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">_PLUGGED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01300">GetDeviceBySocketID()</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00686">SetDeviceBySocketID()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01631">SetPlugOwner()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">SOCKET_</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#afa7657e4f6687b78bc860ddff41c3bef">ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00063">_AVAILABLE</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">_PLUGGED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01300">GetDeviceBySocketID()</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00686">SetDeviceBySocketID()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01658">SetPlugOwner()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">SOCKET_</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#afa7657e4f6687b78bc860ddff41c3bef">ToString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>.</p>
 
@@ -4092,7 +4196,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">449</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01334">GetPluggedDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01163">GetPluggedDevicesCount()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00022">m_DebugPlugArrow</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00021">m_DebugPlugs</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01406">OnOwnSocketReleased()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00065">SEL_CORD_FOLDED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">SEL_CORD_PLUGGED</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01334">GetPluggedDevices()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01163">GetPluggedDevicesCount()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00022">m_DebugPlugArrow</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00021">m_DebugPlugs</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01404">OnOwnSocketReleased()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00065">SEL_CORD_FOLDED</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">SEL_CORD_PLUGGED</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00504">UnplugAllDevices()</a>.</p>
 
@@ -4127,7 +4231,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01438">OnAttachmentRemoved()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">OnDeviceDestroyed()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00588">UpdatePlugState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01436">OnAttachmentRemoved()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00320">OnDeviceDestroyed()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00588">UpdatePlugState()</a>.</p>
 
 </div>
 </div>
@@ -4156,9 +4260,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">699</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">m_CanWork</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01707">Synch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">m_CanWork</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01734">Synch()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01368">OnIsPlugged()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01385">OnIsUnplugged()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00523">SetEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01368">OnIsPlugged()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01384">OnIsUnplugged()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00523">SetEnergy()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
 
 </div>
 </div>
@@ -4258,11 +4362,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">1555</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">1580</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00063">_AVAILABLE</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">_PLUGGED</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00686">SetDeviceBySocketID()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01631">SetPlugOwner()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">SOCKET_</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#afa7657e4f6687b78bc860ddff41c3bef">ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00063">_AVAILABLE</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">_PLUGGED</a>, <a class="el" href="../../d1/d31/_component_8c_source.html#l00024">Component::m_ThisEntityAI</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00686">SetDeviceBySocketID()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01658">SetPlugOwner()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">SOCKET_</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#afa7657e4f6687b78bc860ddff41c3bef">ToString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01527">PlugCordIntoSocket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01552">PlugCordIntoSocket()</a>.</p>
 
 </div>
 </div>
@@ -4290,11 +4394,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01504">1504</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01529">1529</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01334">GetPluggedDevices()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01109">GetSocketsCount()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00404">SwitchOff()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00373">SwitchOn()</a>.</p>
 
 </div>
 </div>
@@ -4321,7 +4425,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00063">63</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">UpdateSocketSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">UpdateSocketSelections()</a>.</p>
 
 </div>
 </div>
@@ -4347,7 +4451,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00062">62</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">UpdateSocketSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">UpdateSocketSelections()</a>.</p>
 
 </div>
 </div>
@@ -4425,7 +4529,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00031">31</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>.</p>
 
 </div>
 </div>
@@ -4477,7 +4581,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00029">29</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -4503,7 +4607,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00028">28</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00764">CanWork()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00699">UpdateCanWork()</a>.</p>
 
 </div>
 </div>
@@ -4711,7 +4815,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00070">70</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01306">GetPlugOwner()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01631">SetPlugOwner()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01306">GetPlugOwner()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01658">SetPlugOwner()</a>.</p>
 
 </div>
 </div>
@@ -4763,7 +4867,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00068">68</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01294">GetEnergySource()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>.</p>
 
 </div>
 </div>
@@ -4789,7 +4893,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00046">46</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01157">GetEnergySourceNetworkIDHigh()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01157">GetEnergySourceNetworkIDHigh()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>.</p>
 
 </div>
 </div>
@@ -4815,7 +4919,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00045">45</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01151">GetEnergySourceNetworkIDLow()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01151">GetEnergySourceNetworkIDLow()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>.</p>
 
 </div>
 </div>
@@ -5023,7 +5127,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00026">26</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00888">IsPassive()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00439">SetPassiveState()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">StartUpdates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00888">IsPassive()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00439">SetPassiveState()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">StartUpdates()</a>.</p>
 
 </div>
 </div>
@@ -5049,7 +5153,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00035">35</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00894">IsPlugged()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01573">SetEnergySource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00894">IsPlugged()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01598">SetEnergySource()</a>.</p>
 
 </div>
 </div>
@@ -5127,7 +5231,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00027">27</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00907">IsWorking()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01659">SetPowered()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00907">IsWorking()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01686">SetPowered()</a>.</p>
 
 </div>
 </div>
@@ -5153,7 +5257,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00054">54</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01712">ClearLastUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01728">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01717">RememberLastUpdateTime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01739">ClearLastUpdateTime()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01755">DeviceUpdate()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01744">RememberLastUpdateTime()</a>.</p>
 
 </div>
 </div>
@@ -5179,7 +5283,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00038">38</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01696">GetMySocketID()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01702">SetMySocketID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01723">GetMySocketID()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01729">SetMySocketID()</a>.</p>
 
 </div>
 </div>
@@ -5413,7 +5517,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00073">73</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01477">OnEnergyAdded()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01475">OnEnergyAdded()</a>.</p>
 
 </div>
 </div>
@@ -5439,7 +5543,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00072">72</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01456">StartUpdates()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01494">StopUpdates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01454">StartUpdates()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01492">StopUpdates()</a>.</p>
 
 </div>
 </div>
@@ -5517,7 +5621,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00065">65</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
 
 </div>
 </div>
@@ -5543,7 +5647,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00064">64</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/db2/_action_unplug_this_by_cord_8c_source.html#l00013">ActionUnplugThisByCord::ActionCondition()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01602">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/db2/_action_unplug_this_by_cord_8c_source.html#l00013">ActionUnplugThisByCord::ActionCondition()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01627">PlugInDevice()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00449">UnplugDevice()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>.</p>
 
 </div>
 </div>
@@ -5569,7 +5673,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00061">61</a> of file <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html">ComponentEnergyManager.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01641">UnplugCordFromSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01555">UpdateSocketSelections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00174">Event_OnAwake()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01085">IsSelectionAPlug()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01668">UnplugCordFromSocket()</a>, <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l00548">UpdateSelections()</a>, and <a class="el" href="../../d9/df6/_component_energy_manager_8c_source.html#l01580">UpdateSocketSelections()</a>.</p>
 
 </div>
 </div>

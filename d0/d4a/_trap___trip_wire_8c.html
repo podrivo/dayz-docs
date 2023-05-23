@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -140,6 +140,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1320fa5889e47c848cbb7b33a142bda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafac0842577356f878e87cbecd8dbdc1"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#aafac0842577356f878e87cbecd8dbdc1">EEItemLocationChanged</a> (notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> oldLoc, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> newLoc)</td></tr>
 <tr class="separator:aafac0842577356f878e87cbecd8dbdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56edaa75fb618ddf0aa2354f005cdd6e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a56edaa75fb618ddf0aa2354f005cdd6e">EEHealthLevelChanged</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> oldLevel, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> newLevel, <a class="el" href="../../d5/d92/classstring.html">string</a> zone)</td></tr>
+<tr class="separator:a56edaa75fb618ddf0aa2354f005cdd6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fd5a669e6eaaaeeae8a27282c448a49"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a7fd5a669e6eaaaeeae8a27282c448a49">SetInactive</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> stop_timer=true)</td></tr>
 <tr class="separator:a7fd5a669e6eaaaeeae8a27282c448a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e3d598591ab6157454067618b6ef39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#ac1e3d598591ab6157454067618b6ef39">SetState</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> state_ID)</td></tr>
@@ -246,7 +248,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00211">211</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00234">234</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>.</p>
 
@@ -278,7 +280,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00202">202</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00225">225</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>.</p>
 
@@ -302,6 +304,44 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00070">70</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dbe/_area_damage_manager_8c_source.html#l00306">GetOrientation()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00044">m_TrapTrigger</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00116">Trigger::SetExtents()</a>, <a class="el" href="../../d6/d8c/_trap_trigger_8c_source.html#l00010">TrapTrigger::SetParentObject()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a4cf7baeb7d617d5aef0081be3934f510">SPAWN_FLAGS</a>.</p>
+
+</div>
+</div>
+<a id="a56edaa75fb618ddf0aa2354f005cdd6e" name="a56edaa75fb618ddf0aa2354f005cdd6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56edaa75fb618ddf0aa2354f005cdd6e">&#9670;&#160;</a></span>EEHealthLevelChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void EEHealthLevelChanged </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>oldLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>newLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td>
+          <td class="paramname"><em>zone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00144">144</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00374">RefreshState()</a>, <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00742">GameConstants::STATE_RUINED</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00014">TRIGGERED</a>.</p>
 
 </div>
 </div>
@@ -331,9 +371,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00219">219</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00242">242</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>.</p>
 
 </div>
 </div>
@@ -363,9 +403,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00226">226</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00249">249</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>.</p>
 
 </div>
 </div>
@@ -395,9 +435,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00118">118</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00119">119</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00019">m_ResultOfAdvancedPlacing</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00044">m_TrapTrigger</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00021">m_TriggerOrientation</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00020">m_TriggerPosition</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00463">SetActive()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00542">DeleteTrigger()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">FOLDED</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00019">m_ResultOfAdvancedPlacing</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00044">m_TrapTrigger</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00021">m_TriggerOrientation</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00020">m_TriggerPosition</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00374">RefreshState()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00463">SetActive()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00510">SetInactive()</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
 
 </div>
 </div>
@@ -417,9 +457,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00233">233</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00256">256</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00044">m_TrapTrigger</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00193">StartDeactivate()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00044">m_TrapTrigger</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00216">StartDeactivate()</a>.</p>
 
 </div>
 </div>
@@ -438,11 +478,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00244">244</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00267">267</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00032">m_AnimationPhaseGrounded</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00033">m_AnimationPhaseSet</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00034">m_AnimationPhaseTriggered</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00177">RefreshState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00200">RefreshState()</a>.</p>
 
 </div>
 </div>
@@ -461,7 +501,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00358">358</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00381">381</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 </div>
 </div>
@@ -480,7 +520,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00363">363</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00386">386</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 </div>
 </div>
@@ -502,11 +542,11 @@ Variables</h2></td></tr>
 <p>returns one of STATE_... </p>
 <p>returns the state of climb (enum value of ClimbStates); </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00161">161</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00184">184</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00020">m_State</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00536">ItemBase::CanAttach()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00524">ItemBase::CanBeManipulated()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00511">ItemBase::CanBePacked()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00211">CanDisplayAttachmentSlot()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00488">FireworksLauncher::CanPutInCargo()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00493">FireworksLauncher::CanPutIntoHands()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00202">CanReceiveAttachment()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00237">ItemBase::EEHealthLevelChanged()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00380">GetStateString()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00429">ItemBase::GetViewIndex()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00955">ItemBase::HandleOpeningsPhysics()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00566">FireworksLauncher::IsIgnited()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00353">IsTakeable()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00387">FireworksLauncher::OnPlacementComplete()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00177">RefreshState()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00650">ItemBase::UpdatePhysics()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00380">UpdateProxySelections()</a>, and <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00623">ItemBase::UpdateVisuals()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00529">ItemBase::CanAttach()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00517">ItemBase::CanBeManipulated()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00504">ItemBase::CanBePacked()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00234">CanDisplayAttachmentSlot()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00488">FireworksLauncher::CanPutInCargo()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00493">FireworksLauncher::CanPutIntoHands()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00225">CanReceiveAttachment()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00232">ItemBase::EEHealthLevelChanged()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00383">GetStateString()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00422">ItemBase::GetViewIndex()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00948">ItemBase::HandleOpeningsPhysics()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00566">FireworksLauncher::IsIgnited()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00376">IsTakeable()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00387">FireworksLauncher::OnPlacementComplete()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00200">RefreshState()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00643">ItemBase::UpdatePhysics()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00403">UpdateProxySelections()</a>, and <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00616">ItemBase::UpdateVisuals()</a>.</p>
 
 </div>
 </div>
@@ -525,7 +565,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00171">171</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00194">194</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00017">m_WireMaterial</a>.</p>
 
@@ -546,7 +586,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00347">347</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00370">370</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 </div>
 </div>
@@ -565,9 +605,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00353">353</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00376">376</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>, and <a class="el" href="../../dd/d93/_object_8c_source.html#l01052">IsRuined()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>.</p>
 
 </div>
 </div>
@@ -587,7 +627,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00259">259</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00282">282</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">FOLDED</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
 
@@ -621,7 +661,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00107">107</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00193">StartDeactivate()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00216">StartDeactivate()</a>.</p>
 
 </div>
 </div>
@@ -641,7 +681,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00338">338</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00361">361</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">FOLDED</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00019">m_ResultOfAdvancedPlacing</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
 
@@ -679,9 +719,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00323">323</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00346">346</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00019">m_ResultOfAdvancedPlacing</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00021">m_TriggerOrientation</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00020">m_TriggerPosition</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08852">SetIsPlaceSound()</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00019">m_ResultOfAdvancedPlacing</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00021">m_TriggerOrientation</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00020">m_TriggerPosition</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08900">SetIsPlaceSound()</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
 
 </div>
 </div>
@@ -778,7 +818,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00037">37</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08857">IsPlaceSound()</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08890">PlayPlaceSound()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08905">IsPlaceSound()</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08938">PlayPlaceSound()</a>.</p>
 
 </div>
 </div>
@@ -797,9 +837,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00177">177</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00200">200</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">FOLDED</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00244">FoldTripWire()</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">FOLDED</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00267">FoldTripWire()</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>.</p>
 
 </div>
 </div>
@@ -818,7 +858,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00368">368</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00391">391</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d59/_action_deploy_object_8c_source.html#l00009">ActionDeployObject()</a>, and <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -840,7 +880,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00135">135</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00158">158</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 </div>
 </div>
@@ -860,7 +900,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00156">156</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00179">179</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00020">m_State</a>.</p>
 
@@ -892,7 +932,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00187">187</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00210">210</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">DEPLOYED</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
 
@@ -914,7 +954,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00166">166</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00189">189</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00017">m_WireMaterial</a>.</p>
 
@@ -936,11 +976,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00193">193</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00216">216</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00542">DeleteTrigger()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">FOLDED</a>, and <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00030">SetState()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00233">EEKilled()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00107">OnItemLocationChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00256">EEKilled()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00107">OnItemLocationChanged()</a>.</p>
 
 </div>
 </div>
@@ -982,7 +1022,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00380">380</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00403">403</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>.</p>
 
@@ -1011,7 +1051,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00013">13</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00211">CanDisplayAttachmentSlot()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00202">CanReceiveAttachment()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00353">IsTakeable()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00323">OnPlacementComplete()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00187">SetupTrapPlayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00234">CanDisplayAttachmentSlot()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00225">CanReceiveAttachment()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00376">IsTakeable()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00346">OnPlacementComplete()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00210">SetupTrapPlayer()</a>.</p>
 
 </div>
 </div>
@@ -1027,7 +1067,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00092">Inventory_Base::CanBeManipulated()</a>, <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00104">Inventory_Base::Fold()</a>, <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00013">Inventory_Base::HescoBox()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00259">OnInventoryEnter()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00338">OnPlacementCancelled()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00055">OnStoreLoad()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00177">RefreshState()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00193">StartDeactivate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00092">Inventory_Base::CanBeManipulated()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00119">EEItemLocationChanged()</a>, <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00104">Inventory_Base::Fold()</a>, <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00013">Inventory_Base::HescoBox()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00282">OnInventoryEnter()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00361">OnPlacementCancelled()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00055">OnStoreLoad()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00200">RefreshState()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00216">StartDeactivate()</a>.</p>
 
 </div>
 </div>
@@ -1045,7 +1085,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00019">19</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00118">EEItemLocationChanged()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00338">OnPlacementCancelled()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00323">OnPlacementComplete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00119">EEItemLocationChanged()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00361">OnPlacementCancelled()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00346">OnPlacementComplete()</a>.</p>
 
 </div>
 </div>
@@ -1079,7 +1119,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00021">21</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00118">EEItemLocationChanged()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00323">OnPlacementComplete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00119">EEItemLocationChanged()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00346">OnPlacementComplete()</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1137,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00020">20</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00118">EEItemLocationChanged()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00323">OnPlacementComplete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00119">EEItemLocationChanged()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00346">OnPlacementComplete()</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1155,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00017">17</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00171">GetWireType()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00166">SetWireType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00194">GetWireType()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00189">SetWireType()</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1181,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00014">14</a> of file <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html">Trap_TripWire.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00080">OnSteppedOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00144">EEHealthLevelChanged()</a>, and <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00080">OnSteppedOn()</a>.</p>
 
 </div>
 </div>

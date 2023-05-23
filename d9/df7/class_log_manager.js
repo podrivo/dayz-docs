@@ -12,6 +12,7 @@ var class_log_manager =
     [ "IsLogsEnable", "d9/df7/class_log_manager.html#a4b6e534c82ed27543ca4af564f39c2bf", null ],
     [ "IsSymptomLogEnable", "d9/df7/class_log_manager.html#ad17af8d9fd502b9bb89e01e041316180", null ],
     [ "IsWeaponLogEnable", "d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654", null ],
+    [ "IsWeatherLogEnabled", "d9/df7/class_log_manager.html#a4ff7b9b5ccc58d40a5d9a3b30fa70fef", null ],
     [ "SetLogsEnabled", "d9/df7/class_log_manager.html#a5fcd63a1dc8ebe3deae3a5c4a932bc0c", null ],
     [ "SymptomLogEnable", "d9/df7/class_log_manager.html#a31686db009e8a415d46dc4c7334621a9", null ],
     [ "WeaponLogEnable", "d9/df7/class_log_manager.html#ae239d2637a770378c99bed543798a3f0", null ],
@@ -21,5 +22,6 @@ var class_log_manager =
     [ "m_DoInventoryReservationLog", "d9/df7/class_log_manager.html#a2c44058a8574b74e5367cdff885bb6b6", null ],
     [ "m_DoLogs", "d9/df7/class_log_manager.html#a28bdb78373871c6e9f6561a868a7e633", null ],
     [ "m_DoSymptomDebugLog", "d9/df7/class_log_manager.html#a82b1f451656dbf416dd94ba1002b0c4c", null ],
-    [ "m_DoWeaponLog", "d9/df7/class_log_manager.html#aa53d3b6b3fd02c789ae1518471a1f4f6", null ]
+    [ "m_DoWeaponLog", "d9/df7/class_log_manager.html#aa53d3b6b3fd02c789ae1518471a1f4f6", null ],
+    [ "m_DoWeatherLog", "d9/df7/class_log_manager.html#ace5743c0a30f6a5927bac067f0f93c66", null ]
 ];

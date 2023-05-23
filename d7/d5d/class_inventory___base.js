@@ -76,6 +76,7 @@ var class_inventory___base =
     [ "SetActions", "d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SetActions", "d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SetActions", "d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
+    [ "SetActions", "d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SetState", "d7/d5d/class_inventory___base.html#afe03306085a33e0097294153ec76f4c5", null ],
     [ "SoundCookingStart", "d7/d5d/class_inventory___base.html#af4208c4c11a8d66b41bb998181d143ff", null ],
     [ "SoundCookingStop", "d7/d5d/class_inventory___base.html#a0d113a790ab36c87b409bafc48ee23ed", null ],

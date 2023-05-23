@@ -1,4 +1,4 @@
 var _mace_8c =
 [
-    [ "Mace", "d2/da6/class_mace.html", null ]
+    [ "Inventory_Base", "d7/d5d/class_inventory___base.html", "d7/d5d/class_inventory___base" ]
 ];

@@ -172,6 +172,7 @@ var class_weapon_state_base =
     [ "WeaponCharging", "d2/db4/class_weapon_state_base.html#aba8c30aaecc3d23fe7b8a8eef3e9dd5f", null ],
     [ "WeaponChargingInnerMag", "d2/db4/class_weapon_state_base.html#a5165ba7c1ee1bb803a1f31a02942b745", null ],
     [ "WeaponChargingMultiple", "d2/db4/class_weapon_state_base.html#acc4fc3963942ca264088a31b9b21faf4", null ],
+    [ "WeaponChargingStretch", "d2/db4/class_weapon_state_base.html#a78175f7a14414b4b2723c1afec8e5986", null ],
     [ "WeaponDetachingMag", "d2/db4/class_weapon_state_base.html#a769c5c13557fbc1bb771eda32b212e02", null ],
     [ "WeaponEjectAllMuzzles", "d2/db4/class_weapon_state_base.html#a09f7b444192325e3c5d02a425915a9f1", null ],
     [ "WeaponEjectBullet", "d2/db4/class_weapon_state_base.html#a7f5e9f0b9338be0f50c849cf24a2b3a3", null ],

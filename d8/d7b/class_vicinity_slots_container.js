@@ -2,9 +2,7 @@ var class_vicinity_slots_container =
 [
     [ "VicinitySlotsContainer", "d8/d7b/class_vicinity_slots_container.html#a3b4330264364140379382c7c751239a2", null ],
     [ "~VicinitySlotsContainer", "d8/d7b/class_vicinity_slots_container.html#a2053d8f125d239376dc05d5217090acb", null ],
-    [ "CanCombine", "d8/d7b/class_vicinity_slots_container.html#a639624b9df1cb4b65cd897c2dfc949fb", null ],
     [ "CanCombineAmmo", "d8/d7b/class_vicinity_slots_container.html#a9f6e3b1133e790bc71784c5cfcb975e4", null ],
-    [ "CanEquip", "d8/d7b/class_vicinity_slots_container.html#aee6830274144485e993702bfd4f8965c", null ],
     [ "Combine", "d8/d7b/class_vicinity_slots_container.html#aa2acb04588ab948a8893be1d95f9cd1f", null ],
     [ "DoubleClick", "d8/d7b/class_vicinity_slots_container.html#a9136df4f7ed866294bb073b8ad7fb30e", null ],
     [ "EquipItem", "d8/d7b/class_vicinity_slots_container.html#aa30b3eef807e23fba8bef8d18c8632a8", null ],

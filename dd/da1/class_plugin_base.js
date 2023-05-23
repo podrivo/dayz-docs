@@ -359,6 +359,7 @@ var class_plugin_base =
     [ "ToggleHelpScreen", "dd/da1/class_plugin_base.html#a76cc19a41a973346c6f1113056792bb1", null ],
     [ "ToggleMissionLoader", "dd/da1/class_plugin_base.html#a0b8de208a54e3a793ac5508536804cb2", null ],
     [ "ToggleScriptConsole", "dd/da1/class_plugin_base.html#a89eb14bab9b1c7b090c0cdf4f51964e1", null ],
+    [ "TotemFlagChange", "dd/da1/class_plugin_base.html#a2fde174730777ba3cf4cdd25c959ac6a", null ],
     [ "TransmitAgents", "dd/da1/class_plugin_base.html#a024e453d4b59b03503a99ffb259fca41", null ],
     [ "TransmitAgentsEx", "dd/da1/class_plugin_base.html#a882a8e3bfc3f959d0d13f40cf28a4810", null ],
     [ "UnconStart", "dd/da1/class_plugin_base.html#aa6d56d90411dfd2825b6cf7c69f9d8fc", null ],

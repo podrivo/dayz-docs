@@ -31,7 +31,6 @@ var class_plastic___explosive =
     [ "PairRemote", "da/d42/class_plastic___explosive.html#a887b6004c3899ea2c9888d8f3e1d90f9", null ],
     [ "SetActions", "da/d42/class_plastic___explosive.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "UnlockTriggerSlots", "da/d42/class_plastic___explosive.html#a70a964f84d094e2f1bdc1ab539b22a1e", null ],
-    [ "UnpairRemote", "da/d42/class_plastic___explosive.html#aabae2c5fd3871959ff0c1d57baa2d354", null ],
     [ "UpdateLED", "da/d42/class_plastic___explosive.html#a08fc35b80c7cbd9a298b4e81841c7c25", null ],
     [ "UpdateVisuals", "da/d42/class_plastic___explosive.html#a0f9e1857cf6ed85460fd5e61e97578a0", null ],
     [ "ANIM_PHASE_TRIGGER_REMOTE", "da/d42/class_plastic___explosive.html#a0150c9d41d23b6664acb7a61f99d64eb", null ],

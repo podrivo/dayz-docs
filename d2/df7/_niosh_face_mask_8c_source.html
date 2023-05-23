@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,25 +101,21 @@ $(document).ready(function(){initNavTree('d2/df7/_niosh_face_mask_8c_source.html
   <div class="headertitle"><div class="title">NioshFaceMask.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/df7/_niosh_face_mask_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno"><a class="line" href="../../d7/dff/class_niosh_face_mask.html">    1</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d7/dff/class_niosh_face_mask.html">NioshFaceMask</a>: <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a></div>
+<a href="../../d2/df7/_niosh_face_mask_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno"><a class="line" href="../../d7/dff/class_niosh_face_mask.html">    1</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d7/dff/class_niosh_face_mask.html">NioshFaceMask</a>: <a class="code hl_class" href="../../d6/de1/class_mask___base.html">Mask_Base</a></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>{</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d7/dff/class_niosh_face_mask.html#abbd8d4142787998dba20c9b75567c440">    3</a></span>    <span class="keyword">override</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d7/dff/class_niosh_face_mask.html#abbd8d4142787998dba20c9b75567c440">CanPutAsAttachment</a>( <a class="code hl_class" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent )</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d7/dff/class_niosh_face_mask.html#abb31df34d18be9cfd04b07d55bba5eec">    3</a></span>    <span class="keyword">override</span> <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dff/class_niosh_face_mask.html#abb31df34d18be9cfd04b07d55bba5eec">InitGlobalExclusionValues</a>()</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    {</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        <span class="keywordflow">if</span> (!super.CanPutAsAttachment(parent)) {<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        super.InitGlobalExclusionValues();</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>        </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>        <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a> headgear = <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a>.Cast(parent.FindAttachmentBySlotName(<span class="stringliteral">&quot;Headgear&quot;</span>));</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        <span class="keywordflow">if</span> ( headgear &amp;&amp; headgear.ConfigGetBool(<span class="stringliteral">&quot;noMask&quot;</span>) )</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        }</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    }</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
-<div class="ttc" id="aclass_clothing_html"><div class="ttname"><a href="../../d8/db4/class_clothing.html">Clothing</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/_alice_bag___color_base_8c_source.html#l00001">AliceBag_ColorBase.c:1</a></div></div>
-<div class="ttc" id="aclass_entity_a_i_html"><div class="ttname"><a href="../../df/df9/class_entity_a_i.html">EntityAI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00001">Building.c:2</a></div></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_MASK_0);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_MASK_1);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_HEADGEAR_HELMET_0);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    }</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>}</div>
+<div class="ttc" id="aclass_mask___base_html"><div class="ttname"><a href="../../d6/de1/class_mask___base.html">Mask_Base</a></div><div class="ttdoc">gas mask base</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d74/_balaclava3_holes___color_base_8c_source.html#l00001">Balaclava3Holes_ColorBase.c:2</a></div></div>
 <div class="ttc" id="aclass_niosh_face_mask_html"><div class="ttname"><a href="../../d7/dff/class_niosh_face_mask.html">NioshFaceMask</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df7/_niosh_face_mask_8c_source.html#l00001">NioshFaceMask.c:2</a></div></div>
-<div class="ttc" id="aclass_niosh_face_mask_html_abbd8d4142787998dba20c9b75567c440"><div class="ttname"><a href="../../d7/dff/class_niosh_face_mask.html#abbd8d4142787998dba20c9b75567c440">NioshFaceMask::CanPutAsAttachment</a></div><div class="ttdeci">override bool CanPutAsAttachment(EntityAI parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df7/_niosh_face_mask_8c_source.html#l00003">NioshFaceMask.c:3</a></div></div>
+<div class="ttc" id="aclass_niosh_face_mask_html_abb31df34d18be9cfd04b07d55bba5eec"><div class="ttname"><a href="../../d7/dff/class_niosh_face_mask.html#abb31df34d18be9cfd04b07d55bba5eec">NioshFaceMask::InitGlobalExclusionValues</a></div><div class="ttdeci">override protected void InitGlobalExclusionValues()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df7/_niosh_face_mask_8c_source.html#l00003">NioshFaceMask.c:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

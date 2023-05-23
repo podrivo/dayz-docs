@@ -29,7 +29,6 @@ var class_human_inventory =
     [ "OnHandsEnteredStableState", "d8/d86/class_human_inventory.html#aa9d5b0eb4f93042aeb41d32849b1b4ef", null ],
     [ "OnHandsExitedStableState", "d8/d86/class_human_inventory.html#af769d141ffcaf6e8c4f6157f115bcde7", null ],
     [ "OnHandsStateChanged", "d8/d86/class_human_inventory.html#acaf2d4506fb1c8cee0b326ba9a22daed", null ],
-    [ "ProccessInputData", "d8/d86/class_human_inventory.html#ae8da69dc81bb4230f88d3b1b9ad18625", null ],
     [ "ProcessHandEvent", "d8/d86/class_human_inventory.html#ad0e080aa43f6b82517ba97f9e0ecff05", null ],
     [ "RedirectToHandEvent", "d8/d86/class_human_inventory.html#ae93d6ed30a6375f1d9245a413253fe05", null ],
     [ "ReplaceItemElsewhereWithNewInHands", "d8/d86/class_human_inventory.html#abd8eaff4c2453b1ba124a4a3ef441d69", null ],
@@ -48,5 +47,6 @@ var class_human_inventory =
     [ "TestAddEntityInHands", "d8/d86/class_human_inventory.html#ae1370458691ed1eeb857b702c4fa20c7", null ],
     [ "ThrowEntity", "d8/d86/class_human_inventory.html#a8a70504f37285e34e6201981dc6954c8", null ],
     [ "Update", "d8/d86/class_human_inventory.html#a9d85fb887603ea275dcc3b5dcc7a427a", null ],
+    [ "ValidateUserReservationCancel", "d8/d86/class_human_inventory.html#a2f2131a74219850a7a790ebb7d2104ce", null ],
     [ "m_syncClearUserReservationindex", "d8/d86/class_human_inventory.html#ac700201f4ea1cd5764f28b73e8f64feb", null ]
 ];

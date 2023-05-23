@@ -1,5 +1,6 @@
 var 3___game_2_systems_2_inventory_2_inventory_8c =
 [
+    [ "InventoryValidation", "da/d63/class_inventory_validation.html", "da/d63/class_inventory_validation" ],
     [ "GameInventory", "dc/d11/class_game_inventory.html", "dc/d11/class_game_inventory" ],
     [ "InventoryCheckContext", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aff38d492065d677f2f43d58a04925a34", [
       [ "DEFAULT", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aff38d492065d677f2f43d58a04925a34a88ec7d5086d2469ba843c7fcceade8a6", null ],
@@ -22,8 +23,18 @@ var 3___game_2_systems_2_inventory_2_inventory_8c =
     [ "InventoryMode", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4d", [
       [ "PREDICTIVE", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4da8bdfe883bc13e6651b35f5fabc13e5e8", null ],
       [ "LOCAL", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4dad0ef00e708ed18ba004480dceb79ecfb", null ],
-      [ "JUNCTURE", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4dadef94f5cee24e0f2533a458ef7777c55", null ],
+      [ "JUNCTURE", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aa2cfb68f7d9347742b6ffa2a8a870592ab150fd21af10cceb4e3771311af848de", null ],
       [ "SERVER", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4da67c96b24b23bcb408bae7626730a04b7", null ]
+    ] ],
+    [ "InventoryValidationReason", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959a", [
+      [ "UNKNOWN", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959aa6ce26a62afab55d7606ad4e92428b30c", null ],
+      [ "JUNCTURE_DENIED", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959aaa78b997ca34ad88214a031235f42c243", null ],
+      [ "DROP_PREVENTED", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959aa4e3afe1a3f032ca3b606d38252cf7786", null ]
+    ] ],
+    [ "InventoryValidationResult", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aa2cfb68f7d9347742b6ffa2a8a870592", [
+      [ "FAILED", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aa2cfb68f7d9347742b6ffa2a8a870592aecedb56d1405a60c6069f4a0139bdec5", null ],
+      [ "JUNCTURE", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aa2cfb68f7d9347742b6ffa2a8a870592ab150fd21af10cceb4e3771311af848de", null ],
+      [ "SUCCESS", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aa2cfb68f7d9347742b6ffa2a8a870592ac7f69f7c9e5aea9b8f54cf02870e2bf8", null ]
     ] ],
     [ "DST", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a773c902f2be978404c673d9e4e7d4c6d", null ],
     [ "EQUAL", "dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a4c276b37e4b52f22ebf74c438f47b667", null ],

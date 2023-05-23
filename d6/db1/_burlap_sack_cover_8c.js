@@ -1,4 +1,4 @@
 var _burlap_sack_cover_8c =
 [
-    [ "ClothingBase", "d2/d89/class_clothing_base.html", "d2/d89/class_clothing_base" ]
+    [ "HeadGear_Base", "dc/d7d/class_head_gear___base.html", "dc/d7d/class_head_gear___base" ]
 ];

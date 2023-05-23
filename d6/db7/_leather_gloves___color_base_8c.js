@@ -1,5 +1,5 @@
 var _leather_gloves___color_base_8c =
 [
-    [ "Clothing", "d8/db4/class_clothing.html", "d8/db4/class_clothing" ],
+    [ "Gloves_Base", "df/d53/class_gloves___base.html", "df/d53/class_gloves___base" ],
     [ "LeatherGloves_ColorBase", "dd/d59/class_leather_gloves___color_base.html", null ]
 ];

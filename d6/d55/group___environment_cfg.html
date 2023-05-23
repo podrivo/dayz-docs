@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -233,6 +233,8 @@ Variables</h2></td></tr>
 <tr class="separator:ga90e1a2fc789388d3710d71f48d78b2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga70260f32b7b1a1c84df11ee5ee7eaeb4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d55/group___environment_cfg.html#ga70260f32b7b1a1c84df11ee5ee7eaeb4">ENVIRO_TEMP_SOURCES_LOOKUP_RADIUS</a> = 20.0</td></tr>
 <tr class="separator:ga70260f32b7b1a1c84df11ee5ee7eaeb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41a8e268414525aab2019136dd096e50"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d55/group___environment_cfg.html#ga41a8e268414525aab2019136dd096e50">LIQUID_RAIN_AMOUNT_COEF_BASE</a> = 10.0</td></tr>
+<tr class="separator:ga41a8e268414525aab2019136dd096e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae2cdedd022de5904984cc90685fc6aac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d55/group___environment_cfg.html#gae2cdedd022de5904984cc90685fc6aac">FIRE_ATTACHMENT_DAMAGE_PER_SECOND</a> = 0.07</td></tr>
 <tr class="memdesc:gae2cdedd022de5904984cc90685fc6aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">various damage per second constants  <br /></td></tr>
 <tr class="separator:gae2cdedd022de5904984cc90685fc6aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,9 +264,9 @@ Variables</h2></td></tr>
 
 <p>how much is the generic temp effect increased when player is next to a fireplace </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00659">659</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00663">663</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00395">Environment::GetWetDelta()</a>.</p>
 
 </div>
 </div>
@@ -290,9 +292,9 @@ Variables</h2></td></tr>
 
 <p>how many % of ENVIRO_SUN_INCREMENT is reduced by fog </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00661">661</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00665">665</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -318,9 +320,9 @@ Variables</h2></td></tr>
 
 <p>how many time is water colder than air </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00667">667</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00671">671</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00225">Environment::GetPlayerHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00229">Environment::GetPlayerHeat()</a>.</p>
 
 </div>
 </div>
@@ -346,9 +348,9 @@ Variables</h2></td></tr>
 
 <p>amount of wetness added to items wet value each tick if is raining </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00656">656</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00660">660</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00395">Environment::GetWetDelta()</a>.</p>
 
 </div>
 </div>
@@ -374,9 +376,7 @@ Variables</h2></td></tr>
 
 <p>(not used) amount of wetness subtracted from items wet value each tick if is not raining due to sun </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00658">658</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00662">662</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
 </div>
 </div>
@@ -402,9 +402,9 @@ Variables</h2></td></tr>
 
 <p>how many % of ENVIRO_SUN_INCREMENT is reduced by cloudy sky </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00660">660</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00664">664</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00395">Environment::GetWetDelta()</a>.</p>
 
 </div>
 </div>
@@ -430,9 +430,9 @@ Variables</h2></td></tr>
 
 <p>how many % of environment temperature can be lowered by clouds </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00662">662</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00666">666</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -458,9 +458,9 @@ Variables</h2></td></tr>
 
 <p>how much this head parts (clothing) affects final heatcomfort </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00677">677</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00681">681</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -486,9 +486,9 @@ Variables</h2></td></tr>
 
 <p>how much this body parts (clothing) affects final heatcomfort </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00678">678</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00682">682</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -514,9 +514,9 @@ Variables</h2></td></tr>
 
 <p>when is sun highest on sky </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00676">676</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00680">680</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -542,9 +542,9 @@ Variables</h2></td></tr>
 
 <p>how much this feet parts (clothing) affects final heatcomfort </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00679">679</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00683">683</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00796">Environment::BodyPartHeatProperties()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00863">Environment::BodyPartHeatProperties()</a>.</p>
 
 </div>
 </div>
@@ -570,9 +570,9 @@ Variables</h2></td></tr>
 
 <p>weight of back for the sum of heat isolation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00680">680</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00684">684</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00796">Environment::BodyPartHeatProperties()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00863">Environment::BodyPartHeatProperties()</a>.</p>
 
 </div>
 </div>
@@ -598,7 +598,7 @@ Variables</h2></td></tr>
 
 <p>amount of % wind affect drying/wetting </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00674">674</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00678">678</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
 </div>
 </div>
@@ -624,9 +624,9 @@ Variables</h2></td></tr>
 
 <p>lowest temperature(deg Celsius) where the player gets lowest possible heat comfort (-1) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00682">682</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00686">686</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00780">Environment::EnvTempToCoef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00847">Environment::EnvTempToCoef()</a>.</p>
 
 </div>
 </div>
@@ -650,9 +650,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00699">699</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00703">703</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -676,9 +676,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00698">698</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00702">702</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -704,9 +704,9 @@ Variables</h2></td></tr>
 
 <p>impact of item health (state) to the heat isolation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00696">696</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00700">700</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -730,9 +730,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00700">700</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00704">704</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -756,9 +756,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00697">697</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00701">701</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -782,9 +782,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00691">691</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00695">695</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -808,9 +808,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00694">694</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00698">698</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -837,9 +837,9 @@ Variables</h2></td></tr>
 <p>Heat buffer static timer tick (set for 2s enviro tick, 180s to 1.0) </p>
 <p>impact of item wetness to the heat isolation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00690">690</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00694">694</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -863,9 +863,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00693">693</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00697">697</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -889,9 +889,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00692">692</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00696">696</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01059">GetCurrentItemHeatIsolation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01062">GetCurrentItemHeatIsolation()</a>.</p>
 
 </div>
 </div>
@@ -917,9 +917,9 @@ Variables</h2></td></tr>
 
 <p>how many times slower is wetting/drying items in backpacks </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00665">665</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00669">669</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -945,9 +945,9 @@ Variables</h2></td></tr>
 
 <p>weight of vest for the sum of heat isolation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00681">681</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00685">685</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00780">Environment::EnvTempToCoef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00847">Environment::EnvTempToCoef()</a>.</p>
 
 </div>
 </div>
@@ -973,9 +973,9 @@ Variables</h2></td></tr>
 
 <p>highest temperature(deg Celsius) where the player gets highest possible heat comfort (1) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00683">683</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00687">687</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00780">Environment::EnvTempToCoef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00847">Environment::EnvTempToCoef()</a>.</p>
 
 </div>
 </div>
@@ -1001,9 +1001,9 @@ Variables</h2></td></tr>
 
 <p>impact of enviro temperature on player (lower value = higher, cannot be zero or below!) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00685">685</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00689">689</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -1029,9 +1029,9 @@ Variables</h2></td></tr>
 
 <p>Multiplier of enviro temperature for heat buffer decrease (after its static timer runs out) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00686">686</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00690">690</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -1057,9 +1057,9 @@ Variables</h2></td></tr>
 
 <p>How much heat buffer increases per one enviro tick. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00687">687</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00691">691</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00708">Environment::ProcessItemsHeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00775">Environment::ProcessItemsHeat()</a>.</p>
 
 </div>
 </div>
@@ -1085,7 +1085,7 @@ Variables</h2></td></tr>
 
 <p>amount of wetness subtracted from items wet value each tick if is not raining due to player heat </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00657">657</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00661">661</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
 </div>
 </div>
@@ -1111,9 +1111,9 @@ Variables</h2></td></tr>
 
 <p>comfort temperature of environment for the player </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00684">684</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00688">688</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00780">Environment::EnvTempToCoef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00847">Environment::EnvTempToCoef()</a>.</p>
 
 </div>
 </div>
@@ -1137,9 +1137,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00702">702</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00706">706</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00868">Environment::GatherTemperatureSources()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00935">Environment::GatherTemperatureSources()</a>.</p>
 
 </div>
 </div>
@@ -1165,9 +1165,9 @@ Variables</h2></td></tr>
 
 <p>heat entity generates if not moving </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00668">668</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00672">672</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00315">Environment::GetTemperatureHeightCorrection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00334">Environment::GetTemperatureHeightCorrection()</a>.</p>
 
 </div>
 </div>
@@ -1193,9 +1193,9 @@ Variables</h2></td></tr>
 
 <p>amount of ?C reduced for each 100 meteres of height above water level </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00669">669</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00673">673</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -1221,9 +1221,9 @@ Variables</h2></td></tr>
 
 <p>increases temp in interiors </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00670">670</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00674">674</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -1249,9 +1249,9 @@ Variables</h2></td></tr>
 
 <p>increases temp inside vehicles </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00671">671</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00675">675</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -1275,9 +1275,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00672">672</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00676">676</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -1301,9 +1301,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00652">652</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00656">656</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00622">Environment::ApplyDrynessToItem()</a>, <a class="el" href="../../d7/dca/_environment_8c_source.html#l00549">Environment::ApplyWetnessToItem()</a>, and <a class="el" href="../../d7/dca/_environment_8c_source.html#l00152">Environment::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00676">Environment::ApplyDrynessToItemEx()</a>, <a class="el" href="../../d7/dca/_environment_8c_source.html#l00583">Environment::ApplyWetnessToItem()</a>, <a class="el" href="../../d7/dca/_environment_8c_source.html#l00545">Environment::ProcessItemsDryness()</a>, <a class="el" href="../../d7/dca/_environment_8c_source.html#l00510">Environment::ProcessItemsWetness()</a>, and <a class="el" href="../../d7/dca/_environment_8c_source.html#l00156">Environment::Update()</a>.</p>
 
 </div>
 </div>
@@ -1329,9 +1329,9 @@ Variables</h2></td></tr>
 
 <p>each X (ticks) is processed wetness on items on player </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00654">654</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00658">658</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l01050">Environment::GetNextRoofCheck()</a>, and <a class="el" href="../../d7/dca/_environment_8c_source.html#l00152">Environment::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l01111">Environment::GetNextRoofCheck()</a>, and <a class="el" href="../../d7/dca/_environment_8c_source.html#l00156">Environment::Update()</a>.</p>
 
 </div>
 </div>
@@ -1357,9 +1357,9 @@ Variables</h2></td></tr>
 
 <p>in secs. how often should enviro effet process </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00653">653</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00657">657</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>, and <a class="el" href="../../d7/dca/_environment_8c_source.html#l00152">Environment::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00395">Environment::GetWetDelta()</a>, and <a class="el" href="../../d7/dca/_environment_8c_source.html#l00156">Environment::Update()</a>.</p>
 
 </div>
 </div>
@@ -1385,9 +1385,9 @@ Variables</h2></td></tr>
 
 <p>converts temperature of items to entities heatcomfort gain </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00666">666</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00670">670</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00332">Environment::GetEnvironmentTemperature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00354">Environment::GetEnvironmentTemperature()</a>.</p>
 
 </div>
 </div>
@@ -1413,9 +1413,9 @@ Variables</h2></td></tr>
 
 <p>in secs. how often we should check if player is under the roof (raycast) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00655">655</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00659">659</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00395">Environment::GetWetDelta()</a>.</p>
 
 </div>
 </div>
@@ -1441,7 +1441,7 @@ Variables</h2></td></tr>
 
 <p>at which state of item wetness (0-1) will heat isolation start having negative effect on heat comfort of item </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00664">664</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00668">668</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
 </div>
 </div>
@@ -1467,7 +1467,7 @@ Variables</h2></td></tr>
 
 <p>how many % of environment temperature can be lowered by fog </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00663">663</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00667">667</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
 </div>
 </div>
@@ -1493,9 +1493,9 @@ Variables</h2></td></tr>
 
 <p>windchill effect on base temperature </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00673">673</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00677">677</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00373">Environment::GetWetDelta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/_environment_8c_source.html#l00395">Environment::GetWetDelta()</a>.</p>
 
 </div>
 </div>
@@ -1521,9 +1521,35 @@ Variables</h2></td></tr>
 
 <p>various damage per second constants </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00706">706</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00712">712</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02273">AddDamageToItemByFireEx()</a>, <a class="el" href="../../d3/d53/_c_a_continuous_time_cooking_8c_source.html#l00051">CAContinuousTimeCooking::Execute()</a>, and <a class="el" href="../../d9/dd4/_portable_gas_stove_8c_source.html#l00182">ItemBase::OnWork()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02199">AddDamageToItemByFireEx()</a>, <a class="el" href="../../d3/d53/_c_a_continuous_time_cooking_8c_source.html#l00051">CAContinuousTimeCooking::Execute()</a>, and <a class="el" href="../../d9/dd4/_portable_gas_stove_8c_source.html#l00182">ItemBase::OnWork()</a>.</p>
+
+</div>
+</div>
+<a id="ga41a8e268414525aab2019136dd096e50" name="ga41a8e268414525aab2019136dd096e50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga41a8e268414525aab2019136dd096e50">&#9670;&#160;</a></span>LIQUID_RAIN_AMOUNT_COEF_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> LIQUID_RAIN_AMOUNT_COEF_BASE = 10.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00708">708</a> of file <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html">constants.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/def/_rain_procurement_component_8c_source.html#l00070">RainProcurementComponentBase::GetBaseLiquidAmount()</a>.</p>
 
 </div>
 </div>

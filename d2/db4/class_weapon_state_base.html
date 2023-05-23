@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -290,6 +290,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a554194fbf83f198e8f8e9ecb7a31e330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40f8697dfa587f8adabc8640bc98ad8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/class_weapon_state_base.html#aa40f8697dfa587f8adabc8640bc98ad8">OnExit</a> (<a class="el" href="../../d7/db7/class_weapon_event_base.html">WeaponEventBase</a> e)</td></tr>
 <tr class="separator:aa40f8697dfa587f8adabc8640bc98ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78175f7a14414b4b2723c1afec8e5986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/class_weapon_state_base.html#a78175f7a14414b4b2723c1afec8e5986">WeaponChargingStretch</a> (<a class="el" href="../../d3/d9c/class_weapon___base.html">Weapon_Base</a> w=NULL, <a class="el" href="../../d2/db4/class_weapon_state_base.html">WeaponStateBase</a> parent=NULL, <a class="el" href="../../d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093">WeaponActions</a> action=WeaponActions.NONE, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> actionType=-1)</td></tr>
+<tr class="separator:a78175f7a14414b4b2723c1afec8e5986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a554194fbf83f198e8f8e9ecb7a31e330"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/class_weapon_state_base.html#a554194fbf83f198e8f8e9ecb7a31e330">OnEntry</a> (<a class="el" href="../../d7/db7/class_weapon_event_base.html">WeaponEventBase</a> e)</td></tr>
 <tr class="separator:a554194fbf83f198e8f8e9ecb7a31e330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a832fd16d806aa9791c4e3eefa9849d21"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/class_weapon_state_base.html#a832fd16d806aa9791c4e3eefa9849d21">OnAbort</a> (<a class="el" href="../../d7/db7/class_weapon_event_base.html">WeaponEventBase</a> e)</td></tr>
@@ -824,11 +826,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00879">879</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00886">886</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d5/d98/group___math.html#ga304fc098b3bfab620490e942af5e58b4">Math::WrapInt()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00895">OnEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00902">OnEntry()</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1043,7 @@ Private Attributes</h2></td></tr>
 <p>waiting for active animation action/actionType finish </p>
 <dl class="section return"><dt>Returns</dt><dd>true if this state or active substate is waiting for finish signal </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00364">364</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00365">365</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -1299,7 +1301,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00087">87</a> of file <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html">RifleChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1339,7 +1341,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00106">106</a> of file <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html">RifleReChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1421,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00055">55</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1457,9 +1459,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00586">586</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00593">593</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1497,9 +1499,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01165">1165</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01172">1172</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1539,7 +1541,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00250">250</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1579,7 +1581,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00510">510</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00570">OptionalLocationReadFromContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -1819,7 +1821,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html#l00088">88</a> of file <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html">WeaponReChamber.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -2019,7 +2021,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00054">54</a> of file <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html">WeaponStateBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00158">IsIdle()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00017">wpnDebugSpam()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00158">IsIdle()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00017">wpnDebugSpam()</a>.</p>
 
 </div>
 </div>
@@ -2117,7 +2119,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00027">27</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00621">m_endActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_endLoop</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00620">m_startActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_w4sb2</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00628">m_endActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00637">m_endLoop</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_startActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00636">m_w4sb2</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -2175,7 +2177,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00286">286</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00621">m_endActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_endLoop</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00620">m_startActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_w4sb2</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00628">m_endActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00637">m_endLoop</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_startActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00636">m_w4sb2</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -2205,7 +2207,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00062">62</a> of file <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html">RifleChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>.</p>
 
 </div>
 </div>
@@ -2235,7 +2237,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00074">74</a> of file <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html">RifleReChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>.</p>
 
 </div>
 </div>
@@ -2293,7 +2295,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00190">190</a> of file <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html">WeaponAttachMagazine.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2321,9 +2323,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00447">447</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00454">454</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2351,9 +2353,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01085">1085</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01092">1092</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2383,7 +2385,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00170">170</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2413,7 +2415,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00431">431</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2645,7 +2647,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00260">260</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2675,7 +2677,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00502">502</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2705,7 +2707,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00129">129</a> of file <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html">WeaponStateBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2883,7 +2885,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00042">42</a> of file <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html">RifleChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2913,7 +2915,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00043">43</a> of file <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html">RifleReChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#abe7eeafe230d96149c5a06881d4d9c25">CGame::IsMultiplayer()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a92e229b8533bf1aedfc6abf71f2a4a0d">CGame::IsServer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00005">m_dstMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00190">DayZPlayerUtils::SelectStoreCartridge()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#abe7eeafe230d96149c5a06881d4d9c25">CGame::IsMultiplayer()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a92e229b8533bf1aedfc6abf71f2a4a0d">CGame::IsServer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00005">m_dstMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2943,7 +2945,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00012">12</a> of file <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html">WeaponAttachMagazine.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2973,7 +2975,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00163">163</a> of file <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html">WeaponAttachMagazine.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3061,9 +3063,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00410">410</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00417">417</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3091,9 +3093,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00895">895</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00902">902</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00879">FindNextFreeMuzzle()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00886">FindNextFreeMuzzle()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>.</p>
 
 </div>
 </div>
@@ -3121,9 +3123,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00987">987</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00994">994</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3153,7 +3155,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00073">73</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3183,7 +3185,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00336">336</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3363,7 +3365,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00138">138</a> of file <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html">WeaponDetachingMag.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00009">m_dst</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00013">m_dst</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00008">m_magazine</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00009">m_dst</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00013">m_dst</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00008">m_magazine</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3393,7 +3395,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d3e/_weapon_eject_bullet_8c_source.html#l00085">85</a> of file <a class="el" href="../../d1/d3e/_weapon_eject_bullet_8c_source.html">WeaponEjectBullet.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00005">m_dstMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00005">m_dstMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3423,7 +3425,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html#l00006">6</a> of file <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html">WeaponEjectCasingAndChamberFromAttMag.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3453,7 +3455,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html#l00027">27</a> of file <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html">WeaponEjectCasingAndChamberFromAttMag.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3483,7 +3485,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html#l00061">61</a> of file <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html">WeaponEjectCasingAndChamberFromAttMag.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d44/weapon__utils_8c_source.html#l00058">ejectBulletAndStoreInMagazine()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d44/weapon__utils_8c_source.html#l00058">ejectBulletAndStoreInMagazine()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3603,7 +3605,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html#l00035">35</a> of file <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html">WeaponReChamber.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00005">m_dstMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00190">DayZPlayerUtils::SelectStoreCartridge()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00005">m_dstMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00005">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3661,7 +3663,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00126">126</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3691,7 +3693,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00230">230</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3721,7 +3723,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00406">406</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aed2e00f456e063d47cb1b4fbb963f844">InventoryLocation::SetItem()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aed2e00f456e063d47cb1b4fbb963f844">InventoryLocation::SetItem()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3751,7 +3753,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d15/_weapon_start_action_8c_source.html#l00015">15</a> of file <a class="el" href="../../d7/d15/_weapon_start_action_8c_source.html">WeaponStartAction.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a17128bfc2e8aa6ede6bade55bd4f1b98">HumanCommandWeapons::GetRunningAction()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#aef67e2ed747524101cc661b3e6d2c3d1">HumanCommandWeapons::GetRunningActionType()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l01081">HumanCommandAdditives()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a1e5cbf2716edb4b109bd74fdbaefc5f0">HumanCommandWeapons::IsActionFinished()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#ae3089fc8afbdc58ed95bfd5edb1f26d9">HumanCommandWeapons::StartAction()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00918">WeaponActionTypeToString()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a17128bfc2e8aa6ede6bade55bd4f1b98">HumanCommandWeapons::GetRunningAction()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#aef67e2ed747524101cc661b3e6d2c3d1">HumanCommandWeapons::GetRunningActionType()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l01088">HumanCommandAdditives()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a1e5cbf2716edb4b109bd74fdbaefc5f0">HumanCommandWeapons::IsActionFinished()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#ae3089fc8afbdc58ed95bfd5edb1f26d9">HumanCommandWeapons::StartAction()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00925">WeaponActionTypeToString()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3781,7 +3783,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00103">103</a> of file <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html">WeaponStateBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -3841,7 +3843,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html#l00212">212</a> of file <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html">WeaponUnjamming.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>, <a class="el" href="../../dd/d57/_weapon_fire_and_chamber_next_8c_source.html#l00006">m_dtAccumulator</a>, <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html#l00173">m_jamTime</a>, and <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>, <a class="el" href="../../dd/d57/_weapon_fire_and_chamber_next_8c_source.html#l00006">m_dtAccumulator</a>, <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html#l00173">m_jamTime</a>, and <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>.</p>
 
 </div>
 </div>
@@ -4011,7 +4013,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00068">68</a> of file <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html">RifleChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>.</p>
 
 </div>
 </div>
@@ -4041,7 +4043,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00081">81</a> of file <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html">RifleReChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>.</p>
 
 </div>
 </div>
@@ -4185,9 +4187,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00507">507</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00514">514</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4215,9 +4217,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01025">1025</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01032">1032</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4247,7 +4249,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00111">111</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4277,7 +4279,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00372">372</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0db8118e33c384e67a708fad10a4b90a">InventoryLocation::GetPos()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">GameInventory::LocationCanMoveEntity()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00003">WeaponManager::MAX_DROP_MAGAZINE_DISTANCE_SQ</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4419,7 +4421,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00032">32</a> of file <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html">WeaponDetachingMag.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00013">m_dst</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00013">m_dst</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4625,7 +4627,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00028">28</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4711,7 +4713,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00455">455</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">GameInventory::LocationSyncMoveEntity()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00008">m_oldMagazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4769,7 +4771,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00143">143</a> of file <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html">WeaponStateBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -5133,7 +5135,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00012">12</a> of file <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html">RifleChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -5185,7 +5187,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d6e/_rifle_eject_casing_8c_source.html#l00010">10</a> of file <a class="el" href="../../d4/d6e/_rifle_eject_casing_8c_source.html">RifleEjectCasing.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -5237,7 +5239,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00013">13</a> of file <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html">RifleReChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -5267,7 +5269,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00074">74</a> of file <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html">RifleChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00154">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::SaveCurrentFSMState()</a>.</p>
 
@@ -5299,7 +5301,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html#l00088">88</a> of file <a class="el" href="../../d5/df4/_rifle_re_chambering_8c_source.html">RifleReChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5361,7 +5363,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00027">27</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5389,9 +5391,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00567">567</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00574">574</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5419,9 +5421,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01145">1145</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l01152">1152</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5451,7 +5453,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00230">230</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5481,7 +5483,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html#l00491">491</a> of file <a class="el" href="../../dc/d12/_weapon_chambering_looped_8c_source.html">WeaponChamberingLooped.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00623">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_srcMagazinePrevLocation</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00548">OptionalLocationWriteToContext()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5661,7 +5663,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html#l00070">70</a> of file <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html">WeaponReChamber.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00622">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_srcMagazine</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
 </div>
 </div>
@@ -5811,7 +5813,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00034">34</a> of file <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html">WeaponStateBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00158">IsIdle()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00637">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00017">wpnDebugSpam()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00028">HasFSM()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00158">IsIdle()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00014">m_fsm</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00012">m_weapon</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00017">wpnDebugSpam()</a>.</p>
 
 </div>
 </div>
@@ -5957,7 +5959,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00125">125</a> of file <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html">WeaponAttachMagazine.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
 
 </div>
 </div>
@@ -6157,9 +6159,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00379">379</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00381">381</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html#l00015">WeaponRechamber()</a>.</p>
 
@@ -6213,7 +6215,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d90/_weapon_charging_8c_source.html#l00014">14</a> of file <a class="el" href="../../de/d90/_weapon_charging_8c_source.html">WeaponCharging.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
 
 </div>
 </div>
@@ -6265,7 +6267,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d90/_weapon_charging_8c_source.html#l00206">206</a> of file <a class="el" href="../../de/d90/_weapon_charging_8c_source.html">WeaponCharging.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -6317,7 +6319,59 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d90/_weapon_charging_8c_source.html#l00281">281</a> of file <a class="el" href="../../de/d90/_weapon_charging_8c_source.html">WeaponCharging.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+
+</div>
+</div>
+<a id="a78175f7a14414b4b2723c1afec8e5986" name="a78175f7a14414b4b2723c1afec8e5986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78175f7a14414b4b2723c1afec8e5986">&#9670;&#160;</a></span>WeaponChargingStretch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WeaponChargingStretch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d9c/class_weapon___base.html">Weapon_Base</a>&#160;</td>
+          <td class="paramname"><em>w</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/db4/class_weapon_state_base.html">WeaponStateBase</a>&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093">WeaponActions</a>&#160;</td>
+          <td class="paramname"><em>action</em> = <code>WeaponActions.NONE</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>actionType</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d90/_weapon_charging_8c_source.html#l00348">348</a> of file <a class="el" href="../../de/d90/_weapon_charging_8c_source.html">WeaponCharging.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -6369,7 +6423,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html#l00112">112</a> of file <a class="el" href="../../d6/dc9/_weapon_detaching_mag_8c_source.html">WeaponDetachingMag.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, and <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>.</p>
 
 </div>
 </div>
@@ -6409,7 +6463,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html#l00059">59</a> of file <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html">WeaponEjectCasingAndChamberFromAttMag.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00934">WeaponMagnumChambering()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00941">WeaponMagnumChambering()</a>.</p>
 
 </div>
 </div>
@@ -6461,7 +6515,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d3e/_weapon_eject_bullet_8c_source.html#l00050">50</a> of file <a class="el" href="../../d1/d3e/_weapon_eject_bullet_8c_source.html">WeaponEjectBullet.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html#l00015">WeaponRechamber()</a>.</p>
 
@@ -6751,9 +6805,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00934">934</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00941">941</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00621">m_endActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00630">m_endLoop</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00620">m_startActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00629">m_w4sb2</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html#l00059">WeaponEjectAllMuzzles()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00628">m_endActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00637">m_endLoop</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_startActionType</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00636">m_w4sb2</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../dc/d61/_weapon_eject_casing_and_chamber_from_att_mag_8c_source.html#l00059">WeaponEjectAllMuzzles()</a>.</p>
 
 </div>
 </div>
@@ -6817,7 +6871,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html#l00015">15</a> of file <a class="el" href="../../d5/d51/_weapon_re_chamber_8c_source.html">WeaponReChamber.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00379">WeaponChambering()</a>, and <a class="el" href="../../d1/d3e/_weapon_eject_bullet_8c_source.html#l00050">WeaponEjectBullet()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00381">WeaponChambering()</a>, and <a class="el" href="../../d1/d3e/_weapon_eject_bullet_8c_source.html#l00050">WeaponEjectBullet()</a>.</p>
 
 </div>
 </div>
@@ -6869,7 +6923,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html#l00357">357</a> of file <a class="el" href="../../db/dbe/_weapon_replacing_mag_and_chamber_next_8c_source.html">WeaponReplacingMagAndChamberNext.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
 
 </div>
 </div>
@@ -6975,7 +7029,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html#l00180">180</a> of file <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html">WeaponUnjamming.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00627">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00626">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00625">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a9088984af4ef30aa23a15d4c50db9458">m_action</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00634">m_chamber</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00633">m_eject</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00632">m_start</a>, <a class="el" href="../../de/dc3/_guards_8c.html#ad0af4429be0c56056dbf78f31157a010">m_weapon</a>, and <a class="el" href="../../de/dc3/_guards_8c_source.html#l00099">WeaponGuardHasAmmo()</a>.</p>
 
 </div>
 </div>
@@ -7242,7 +7296,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00929">929</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00936">936</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -7517,7 +7571,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00927">927</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00934">934</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -7589,7 +7643,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00922">922</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00929">929</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -7613,7 +7667,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00931">931</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00938">938</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -8118,7 +8172,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00928">928</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00935">935</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -8172,7 +8226,7 @@ Private Attributes</h2></td></tr>
 
 <p>source of the cartridge </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00372">372</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00373">373</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -8322,7 +8376,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00921">921</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00928">928</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>
@@ -8418,7 +8472,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00930">930</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00937">937</a> of file <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html">WeaponChambering.c</a>.</p>
 
 </div>
 </div>

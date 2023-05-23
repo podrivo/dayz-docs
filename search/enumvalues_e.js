@@ -19,13 +19,14 @@ var searchData=
   ['option_5fcrosshair_16',['OPTION_CROSSHAIR',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae7d6214c6549e06b387c7ed96185c7a4',1,'gameplay.c']]],
   ['option_5fgame_5fmessages_17',['OPTION_GAME_MESSAGES',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada844d3e06c3d58512ac6f3ea97e169d3f',1,'gameplay.c']]],
   ['option_5fhud_18',['OPTION_HUD',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adaf3784cc9b98ba8bbab7c2aa8d3a925a7',1,'gameplay.c']]],
-  ['option_5fplayer_5fmessages_19',['OPTION_PLAYER_MESSAGES',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada36a803a7039579c0e9acac674f25c98f',1,'gameplay.c']]],
-  ['option_5fquickbar_20',['OPTION_QUICKBAR',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adaaf2921a66245877678df3b4d92bb5f37',1,'gameplay.c']]],
-  ['option_5fserver_5finfo_21',['OPTION_SERVER_INFO',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada7544c05c474f207de7fc4553ed50653f',1,'gameplay.c']]],
-  ['orthographic_22',['ORTHOGRAPHIC',['../dd/dd2/group___camera.html#ggaf7eb92b45c5f7f64f02821f87c385ebbae7bf29f117630a30ba5ffc75b33ac624',1,'EnWorld.c']]],
-  ['other_23',['OTHER',['../d5/d95/_remote_player_stat_debug_8c.html#a7ffee518582401de98e87c381aa36259adbf1dee1b8cd7ea3c82661943c7b74f4',1,'RemotePlayerStatDebug.c']]],
-  ['outer_24',['OUTER',['../d4/dd4/_underground_handler_client_8c.html#ad4ecd0babe6f8233807957f56e96fe8bac415dd9ea3a56ec2f64c410958fcdbe4',1,'UndergroundHandlerClient.c']]],
-  ['overall_5fdrain_25',['OVERALL_DRAIN',['../d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2acdde5090a10d5f7b9c3d01406c497e23',1,'EStaminaModifiers.c']]],
-  ['overcast_26',['OVERCAST',['../d9/d98/_weather_8c.html#a5dca7ad77003ac5339f198b78de6d463a39529022e3209444d46d1b8d69e67bc1',1,'Weather.c']]],
-  ['override_27',['OVERRIDE',['../d1/d76/_p_p_e_constants_8c.html#a055fe6645543d5aac6f214277f064edaa67d5ac1e9b5fd2e56cdc36392c69db70',1,'PPEConstants.c']]]
+  ['option_5fhud_5fbrightness_19',['OPTION_HUD_BRIGHTNESS',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae9596ece45e1c755aab044b6192f07b1',1,'gameplay.c']]],
+  ['option_5fplayer_5fmessages_20',['OPTION_PLAYER_MESSAGES',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada36a803a7039579c0e9acac674f25c98f',1,'gameplay.c']]],
+  ['option_5fquickbar_21',['OPTION_QUICKBAR',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adaaf2921a66245877678df3b4d92bb5f37',1,'gameplay.c']]],
+  ['option_5fserver_5finfo_22',['OPTION_SERVER_INFO',['../d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada7544c05c474f207de7fc4553ed50653f',1,'gameplay.c']]],
+  ['orthographic_23',['ORTHOGRAPHIC',['../dd/dd2/group___camera.html#ggaf7eb92b45c5f7f64f02821f87c385ebbae7bf29f117630a30ba5ffc75b33ac624',1,'EnWorld.c']]],
+  ['other_24',['OTHER',['../d5/d95/_remote_player_stat_debug_8c.html#a7ffee518582401de98e87c381aa36259adbf1dee1b8cd7ea3c82661943c7b74f4',1,'RemotePlayerStatDebug.c']]],
+  ['outer_25',['OUTER',['../d4/dd4/_underground_handler_client_8c.html#ad4ecd0babe6f8233807957f56e96fe8bac415dd9ea3a56ec2f64c410958fcdbe4',1,'UndergroundHandlerClient.c']]],
+  ['overall_5fdrain_26',['OVERALL_DRAIN',['../d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2acdde5090a10d5f7b9c3d01406c497e23',1,'EStaminaModifiers.c']]],
+  ['overcast_27',['OVERCAST',['../d9/d98/_weather_8c.html#a5dca7ad77003ac5339f198b78de6d463a39529022e3209444d46d1b8d69e67bc1',1,'Weather.c']]],
+  ['override_28',['OVERRIDE',['../d1/d76/_p_p_e_constants_8c.html#a055fe6645543d5aac6f214277f064edaa67d5ac1e9b5fd2e56cdc36392c69db70',1,'PPEConstants.c']]]
 ];

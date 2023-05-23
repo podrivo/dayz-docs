@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -111,6 +111,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a849ff856a2db5534bfa36ec20677f1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e17efdff93a76c3dde21fda48c99ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a85e17efdff93a76c3dde21fda48c99ca">~MissionBase</a> ()</td></tr>
 <tr class="separator:a85e17efdff93a76c3dde21fda48c99ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e5c4c9be8126a908f0e038e106051bc"><td class="memItemLeft" align="right" valign="top">override ObjectSnapCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a2e5c4c9be8126a908f0e038e106051bc">GetInventoryDropCallback</a> ()</td></tr>
+<tr class="separator:a2e5c4c9be8126a908f0e038e106051bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f399303f7de3720663dc1f5585bb3b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a8f399303f7de3720663dc1f5585bb3b9">InitialiseWorldData</a> ()</td></tr>
 <tr class="separator:a8f399303f7de3720663dc1f5585bb3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a710a0409386e60ed9150ab4717864d57"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/dfa/class_world_lighting.html">WorldLighting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a710a0409386e60ed9150ab4717864d57">GetWorldLighting</a> ()</td></tr>
@@ -158,6 +160,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a094f1fda9005d7aa72633893eb3a49af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5731953a29bdc3a683617e6c93627323"><td class="memItemLeft" align="right" valign="top">ref <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a5731953a29bdc3a683617e6c93627323">m_DummyPlayers</a> = new <a class="el" href="../../d2/d41/classarray.html">array</a>&lt;<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&gt;</td></tr>
 <tr class="separator:a5731953a29bdc3a683617e6c93627323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92877698d5016254ddb754444febeee4"><td class="memItemLeft" align="right" valign="top">autoptr ObjectSnapCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a92877698d5016254ddb754444febeee4">m_InventoryDropCallback</a></td></tr>
+<tr class="separator:a92877698d5016254ddb754444febeee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00a3ec615766eeb74e5f31100a20e826"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#a00a3ec615766eeb74e5f31100a20e826">m_WidgetsTotal</a></td></tr>
 <tr class="separator:a00a3ec615766eeb74e5f31100a20e826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5a19232c96b6443ddf783b86ee7079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d26/class_mission_base_world.html#aee5a19232c96b6443ddf783b86ee7079">m_WidgetsInvisible</a></td></tr>
@@ -190,9 +194,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00045">45</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00049">49</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00019">TriggerEffectManager::DestroyInstance()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03181">GetDayZGame()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00297">PluginManagerDelete()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00019">TriggerEffectManager::DestroyInstance()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00297">PluginManagerDelete()</a>.</p>
 
 </div>
 </div>
@@ -221,7 +225,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00391">391</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00400">400</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -249,9 +253,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00088">88</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00097">97</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dd0/_inventory_menu_8c_source.html#l00020">InventoryMenu()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00169">MENU_BOOK</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00178">MENU_CAMERA_TOOLS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00151">MENU_CHARACTER</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_CHAT_INPUT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00188">MENU_CONNECT_ERROR</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00166">MENU_CONTROLS_PRESET</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00182">MENU_CREDITS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00153">MENU_EARLYACCESS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00171">MENU_GESTURES</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00170">MENU_HELP_SCREEN</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00155">MENU_INGAME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00156">MENU_INSPECT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00157">MENU_INVENTORY</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00183">MENU_INVITE_TIMER</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00180">MENU_KEYBINDINGS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00158">MENU_LOADING</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00149">MENU_LOC_ADD</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00176">MENU_LOGIN_QUEUE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00184">MENU_LOGIN_TIME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00172">MENU_LOGOUT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00159">MENU_MAIN</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00168">MENU_MAP</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00167">MENU_NOTE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00160">MENU_OPTIONS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00175">MENU_RADIAL_QUICKBAR</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00186">MENU_RESPAWN_DIALOGUE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00154">MENU_SCENE_EDITOR</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00162">MENU_SCRIPTCONSOLE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00164">MENU_SCRIPTCONSOLE_DIALOG_PRESET_NAME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00165">MENU_SCRIPTCONSOLE_DIALOG_PRESET_RENAME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00177">MENU_SERVER_BROWSER</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00161">MENU_STARTUP</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00173">MENU_TITLE_SCREEN</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00181">MENU_TUTORIAL</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00179">MENU_VIDEO</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00189">MENU_WARNING_INPUTDEVICE_DISCONNECT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00185">MENU_WARNING_ITEMDROP</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00187">MENU_WARNING_TELEPORT</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00174">MENU_XBOX_CONTROLS</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dd0/_inventory_menu_8c_source.html#l00020">InventoryMenu()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00170">MENU_BOOK</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00179">MENU_CAMERA_TOOLS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00152">MENU_CHARACTER</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00164">MENU_CHAT_INPUT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00189">MENU_CONNECT_ERROR</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00167">MENU_CONTROLS_PRESET</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00183">MENU_CREDITS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00154">MENU_EARLYACCESS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00172">MENU_GESTURES</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00171">MENU_HELP_SCREEN</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00156">MENU_INGAME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00157">MENU_INSPECT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00158">MENU_INVENTORY</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00184">MENU_INVITE_TIMER</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00181">MENU_KEYBINDINGS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00159">MENU_LOADING</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00150">MENU_LOC_ADD</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00177">MENU_LOGIN_QUEUE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00185">MENU_LOGIN_TIME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00173">MENU_LOGOUT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00160">MENU_MAIN</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00169">MENU_MAP</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00168">MENU_NOTE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00161">MENU_OPTIONS</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00176">MENU_RADIAL_QUICKBAR</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00187">MENU_RESPAWN_DIALOGUE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00155">MENU_SCENE_EDITOR</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00165">MENU_SCRIPTCONSOLE_DIALOG_PRESET_NAME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00166">MENU_SCRIPTCONSOLE_DIALOG_PRESET_RENAME</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00178">MENU_SERVER_BROWSER</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00162">MENU_STARTUP</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00174">MENU_TITLE_SCREEN</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00182">MENU_TUTORIAL</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00180">MENU_VIDEO</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00190">MENU_WARNING_INPUTDEVICE_DISCONNECT</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00186">MENU_WARNING_ITEMDROP</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00188">MENU_WARNING_TELEPORT</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00175">MENU_XBOX_CONTROLS</a>.</p>
 
 </div>
 </div>
@@ -279,9 +283,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00229">229</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00238">238</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00192">GUI_WINDOW_MISSION_LOADER</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00193">GUI_WINDOW_MISSION_LOADER</a>.</p>
 
 </div>
 </div>
@@ -308,7 +312,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00262">262</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00271">271</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d7/d75/class_u_i_manager.html#a67ce9a10c307353939a4bfbf63b4fb93">UIManager::GetMenu()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ac7e6886eef7485897279cffc48f83fca">CGame::GetUIManager()</a>, and <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>.</p>
 
@@ -348,9 +352,36 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00284">284</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00293">293</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>.</p>
+
+</div>
+</div>
+<a id="a2e5c4c9be8126a908f0e038e106051bc" name="a2e5c4c9be8126a908f0e038e106051bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e5c4c9be8126a908f0e038e106051bc">&#9670;&#160;</a></span>GetInventoryDropCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override ObjectSnapCallback GetInventoryDropCallback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00060">60</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -377,7 +408,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00083">83</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00092">92</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -404,7 +435,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00078">78</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00087">87</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -431,7 +462,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00056">56</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00065">65</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a0f3b862594d1275a141c988ec7672c76">CGame::GetWorldName()</a>, and <a class="el" href="../../d5/da2/group___strings.html#gad79d97f841c94fe94ecb04ae5695292b">string::ToLower()</a>.</p>
 
@@ -460,9 +491,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00013">13</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00015">15</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00481">SEffectManager::Cleanup()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03181">GetDayZGame()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00316">GetPlugin()</a>, <a class="el" href="../../de/dae/_sound_set_map_8c_source.html#l00006">SoundSetMap::Init()</a>, <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00179">MissionBase::IsServer()</a>, <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00287">PluginManagerInit()</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00031">SetDispatcher()</a>, and <a class="el" href="../../d6/daf/mission_gameplay_8c_source.html#l00205">MissionBase::UpdateInputDevicesAvailability()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00481">SEffectManager::Cleanup()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00316">GetPlugin()</a>, <a class="el" href="../../de/dae/_sound_set_map_8c_source.html#l00006">SoundSetMap::Init()</a>, <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00182">MissionBase::IsServer()</a>, <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00287">PluginManagerInit()</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00031">SetDispatcher()</a>, and <a class="el" href="../../d6/daf/mission_gameplay_8c_source.html#l00205">MissionBase::UpdateInputDevicesAvailability()</a>.</p>
 
 </div>
 </div>
@@ -490,7 +521,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00247">247</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00256">256</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -518,7 +549,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00326">326</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00335">335</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -548,9 +579,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00365">365</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00374">374</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00179">MissionBase::IsServer()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00182">MissionBase::IsServer()</a>.</p>
 
 </div>
 </div>
@@ -578,7 +609,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00339">339</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00348">348</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -608,7 +639,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00352">352</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00361">361</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -662,7 +693,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00380">380</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00389">389</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -713,6 +744,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00011">11</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+
+</div>
+</div>
+<a id="a92877698d5016254ddb754444febeee4" name="a92877698d5016254ddb754444febeee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92877698d5016254ddb754444febeee4">&#9670;&#160;</a></span>m_InventoryDropCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autoptr ObjectSnapCallback m_InventoryDropCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00013">13</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -808,7 +863,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00260">260</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00269">269</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>
@@ -832,7 +887,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00259">259</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00268">268</a> of file <a class="el" href="../../d9/d68/mission_base_8c_source.html">missionBase.c</a>.</p>
 
 </div>
 </div>

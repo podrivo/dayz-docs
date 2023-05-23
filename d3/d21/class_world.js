@@ -1,5 +1,6 @@
 var class_world =
 [
+    [ "AddEnvShootingSource", "d3/d21/class_world.html#af08f73fc158dc71348a63c9161d05c0f", null ],
     [ "CheckSoundObstruction", "d3/d21/class_world.html#ac855b296b3d8a82ba931115433502ffd", null ],
     [ "DisableReceiveVoN", "d3/d21/class_world.html#a775739300eb8af3220dba5e2663d4035", null ],
     [ "DisableTransmitVoN", "d3/d21/class_world.html#aab1ca6fe8c8dac90e9c77edf632771f3", null ],
@@ -30,6 +31,8 @@ var class_world =
     [ "IsNight", "d3/d21/class_world.html#ac3452d1b1af112ce5952c970fad29611", null ],
     [ "LoadNewLightingCfg", "d3/d21/class_world.html#a3578037c7976a832df0af0b28530dac1", null ],
     [ "LoadUserLightingCfg", "d3/d21/class_world.html#ae84cd1678b72f38ca5b410d403ffd9ed", null ],
+    [ "MarkObjectForPathgraphUpdate", "d3/d21/class_world.html#ace4e50ad18a239fed9678820a01605ca", null ],
+    [ "ProcessMarkedObjectsForPathgraphUpdate", "d3/d21/class_world.html#aa39c4fe387f59fe1a51e0bc75f22a64d", null ],
     [ "SetAperture", "d3/d21/class_world.html#acf375f3a50725f1d4186d9d4eaf19c5c", null ],
     [ "SetBuldozerWaterEnabled", "d3/d21/class_world.html#a3d6a01cd30c33b3e22743d8a98bb013c", null ],
     [ "SetCameraPostProcessEffect", "d3/d21/class_world.html#a00fb0cbb9818be313a6a7cba61ef637f", null ],

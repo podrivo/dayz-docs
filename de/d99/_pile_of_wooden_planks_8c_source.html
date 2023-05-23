@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -107,16 +107,16 @@ $(document).ready(function(){initNavTree('de/d99/_pile_of_wooden_planks_8c_sourc
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    {</div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        <span class="keywordflow">if</span> ( <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().IsServer() )</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>        {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>            <a class="code hl_function" href="../../dd/d93/_object_8c.html#a102e048d433b15db2c708466dea213f6">SetAllowDamage</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>            SetAllowDamage(<span class="keyword">false</span>);</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        }</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    }</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="comment">// Shows/Hides selections. Call this in init or after every quantity change.</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../de/d7a/class_item_base.html#a83797d3c0b408c9db09693ff76e1c0b7">   12</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d7a/class_item_base.html#a83797d3c0b408c9db09693ff76e1c0b7">UpdateSelections</a>()</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <a class="code hl_function" href="../../dd/d93/_object_8c.html#ac654369164252566a49639d8d4e49bf3">RemoveProxyPhysics</a>( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <a class="code hl_function" href="../../dd/d93/_object_8c.html#ac654369164252566a49639d8d4e49bf3">RemoveProxyPhysics</a>( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <a class="code hl_function" href="../../dd/d93/_object_8c.html#ac654369164252566a49639d8d4e49bf3">RemoveProxyPhysics</a>( <span class="stringliteral">&quot;stage_3&quot;</span> );</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        RemoveProxyPhysics( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        RemoveProxyPhysics( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        RemoveProxyPhysics( <span class="stringliteral">&quot;stage_3&quot;</span> );</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="comment">// Show/Hide selections according to the current quantity</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">if</span> ( <span class="keyword">this</span> )</div>
@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('de/d99/_pile_of_wooden_planks_8c_sourc
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                HideSelection ( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                HideSelection ( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                <a class="code hl_function" href="../../dd/d93/_object_8c.html#a1e9dff40d480cad820892146a91dc68e">AddProxyPhysics</a>( <span class="stringliteral">&quot;stage_3&quot;</span> );</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                AddProxyPhysics( <span class="stringliteral">&quot;stage_3&quot;</span> );</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            }</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keywordflow">if</span> ( quantity &gt; quantity_max *0.33  &amp;&amp;  quantity &lt;= quantity_max *0.66 )</div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('de/d99/_pile_of_wooden_planks_8c_sourc
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                ShowSelection ( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                HideSelection ( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                <a class="code hl_function" href="../../dd/d93/_object_8c.html#a1e9dff40d480cad820892146a91dc68e">AddProxyPhysics</a>( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                AddProxyPhysics( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            }</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordflow">if</span> ( quantity &gt; 0  &amp;&amp;  quantity &lt;= quantity_max *0.33 )</div>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('de/d99/_pile_of_wooden_planks_8c_sourc
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                HideSelection ( <span class="stringliteral">&quot;stage_2&quot;</span> );</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                ShowSelection ( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                <a class="code hl_function" href="../../dd/d93/_object_8c.html#a1e9dff40d480cad820892146a91dc68e">AddProxyPhysics</a>( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                AddProxyPhysics( <span class="stringliteral">&quot;stage_1&quot;</span> );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            }</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordflow">if</span> ( quantity == 0 )</div>
@@ -214,15 +214,12 @@ $(document).ready(function(){initNavTree('de/d99/_pile_of_wooden_planks_8c_sourc
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    }</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}</div>
-<div class="ttc" id="a_item_base_8c_html_a549415129bdcaf7b9b217f4d406c119a"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#a549415129bdcaf7b9b217f4d406c119a">GetQuantity</a></div><div class="ttdeci">override float GetQuantity()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l07946">ItemBase.c:7946</a></div></div>
-<div class="ttc" id="a_item_base_8c_html_adceeb51f4456342827f65f065885aae4"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#adceeb51f4456342827f65f065885aae4">AddQuantity</a></div><div class="ttdeci">bool AddQuantity(float value, bool destroy_config=true, bool destroy_forced=false)</div><div class="ttdoc">add item quantity[related to varQuantity... config entry], destroy_config = true &gt; if the quantity re...</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l07851">ItemBase.c:7851</a></div></div>
-<div class="ttc" id="a_item_base_8c_html_affca0b44c3ed5294d6e76e056b0c52b0"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#affca0b44c3ed5294d6e76e056b0c52b0">GetQuantityMax</a></div><div class="ttdeci">override int GetQuantityMax()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l07886">ItemBase.c:7886</a></div></div>
-<div class="ttc" id="a_object_8c_html_a102e048d433b15db2c708466dea213f6"><div class="ttname"><a href="../../dd/d93/_object_8c.html#a102e048d433b15db2c708466dea213f6">SetAllowDamage</a></div><div class="ttdeci">proto native void SetAllowDamage(bool val)</div><div class="ttdoc">Enable or disable object to receive damage.</div></div>
-<div class="ttc" id="a_object_8c_html_a1e9dff40d480cad820892146a91dc68e"><div class="ttname"><a href="../../dd/d93/_object_8c.html#a1e9dff40d480cad820892146a91dc68e">AddProxyPhysics</a></div><div class="ttdeci">proto native void AddProxyPhysics(string proxySelectionName)</div></div>
-<div class="ttc" id="a_object_8c_html_ac654369164252566a49639d8d4e49bf3"><div class="ttname"><a href="../../dd/d93/_object_8c.html#ac654369164252566a49639d8d4e49bf3">RemoveProxyPhysics</a></div><div class="ttdeci">proto native void RemoveProxyPhysics(string proxySelectionName)</div></div>
+<div class="ttc" id="a_item_base_8c_html_a549415129bdcaf7b9b217f4d406c119a"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#a549415129bdcaf7b9b217f4d406c119a">GetQuantity</a></div><div class="ttdeci">override float GetQuantity()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l07967">ItemBase.c:7967</a></div></div>
+<div class="ttc" id="a_item_base_8c_html_adceeb51f4456342827f65f065885aae4"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#adceeb51f4456342827f65f065885aae4">AddQuantity</a></div><div class="ttdeci">bool AddQuantity(float value, bool destroy_config=true, bool destroy_forced=false)</div><div class="ttdoc">add item quantity[related to varQuantity... config entry], destroy_config = true &gt; if the quantity re...</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l07866">ItemBase.c:7866</a></div></div>
+<div class="ttc" id="a_item_base_8c_html_affca0b44c3ed5294d6e76e056b0c52b0"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#affca0b44c3ed5294d6e76e056b0c52b0">GetQuantityMax</a></div><div class="ttdeci">override int GetQuantityMax()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l07907">ItemBase.c:7907</a></div></div>
 <div class="ttc" id="aclass_entity_a_i_html"><div class="ttname"><a href="../../df/df9/class_entity_a_i.html">EntityAI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00001">Building.c:2</a></div></div>
 <div class="ttc" id="aclass_inventory_location_html"><div class="ttname"><a href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a></div><div class="ttdoc">InventoryLocation.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d52/_inventory_location_8c_source.html#l00027">InventoryLocation.c:28</a></div></div>
-<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00762">InventoryItem.c:763</a></div></div>
+<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00731">InventoryItem.c:732</a></div></div>
 <div class="ttc" id="aclass_item_base_html_a5ea0aaf035a1939c725579219040c481"><div class="ttname"><a href="../../de/d7a/class_item_base.html#a5ea0aaf035a1939c725579219040c481">ItemBase::CanPutInCargo</a></div><div class="ttdeci">override bool CanPutInCargo(EntityAI parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/_pile_of_wooden_planks_8c_source.html#l00101">PileOfWoodenPlanks.c:101</a></div></div>
 <div class="ttc" id="aclass_item_base_html_a83797d3c0b408c9db09693ff76e1c0b7"><div class="ttname"><a href="../../de/d7a/class_item_base.html#a83797d3c0b408c9db09693ff76e1c0b7">ItemBase::UpdateSelections</a></div><div class="ttdeci">void UpdateSelections()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/_pile_of_wooden_planks_8c_source.html#l00012">PileOfWoodenPlanks.c:12</a></div></div>
 <div class="ttc" id="aclass_item_base_html_a9c46909a8838ed5e1786f94e56237b43"><div class="ttname"><a href="../../de/d7a/class_item_base.html#a9c46909a8838ed5e1786f94e56237b43">ItemBase::CanPutIntoHands</a></div><div class="ttdeci">override bool CanPutIntoHands(EntityAI parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/_pile_of_wooden_planks_8c_source.html#l00091">PileOfWoodenPlanks.c:91</a></div></div>

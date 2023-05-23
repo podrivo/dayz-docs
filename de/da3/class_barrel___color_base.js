@@ -18,6 +18,7 @@ var class_barrel___color_base =
     [ "IsLocked", "de/da3/class_barrel___color_base.html#a9c5ca6db77e6e3d30a98b7b98a7dafc8", null ],
     [ "IsOpen", "de/da3/class_barrel___color_base.html#a05bac627bbb13f7329a1aff6e140219b", null ],
     [ "Lock", "de/da3/class_barrel___color_base.html#a53a3a78b854acf689d8b29de56171358", null ],
+    [ "OnDebugSpawn", "de/da3/class_barrel___color_base.html#a05eab95952a189dc9e08ccecec41b51a", null ],
     [ "OnPlacementComplete", "de/da3/class_barrel___color_base.html#a6ff31a876fba89e2f0ae6c33af8cd551", null ],
     [ "OnStoreLoad", "de/da3/class_barrel___color_base.html#ab311cdf3df0e3547b7d3cd810e61ca61", null ],
     [ "OnStoreSave", "de/da3/class_barrel___color_base.html#a35a85dbb8d86badfdee250107b15e803", null ],
@@ -36,5 +37,6 @@ var class_barrel___color_base =
     [ "m_BarrelOpener", "de/da3/class_barrel___color_base.html#abe222554f184b99fb3f4c5cf2729691a", null ],
     [ "m_IsLocked", "de/da3/class_barrel___color_base.html#adf4468f3e5bc1894fd968c73bb827675", null ],
     [ "m_Openable", "de/da3/class_barrel___color_base.html#abf81298bc6303056015081dc916d816c", null ],
+    [ "m_RainProcComponent", "de/da3/class_barrel___color_base.html#a096568ae3d68cd02c977656003201a9c", null ],
     [ "m_RainProcurement", "de/da3/class_barrel___color_base.html#a8ec1863b824ee50c3be2594ad852f360", null ]
 ];

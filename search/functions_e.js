@@ -1,7 +1,7 @@
 var searchData=
 [
   ['namehash_0',['NameHash',['../d4/d84/class_u_a_input.html#aff0d2da1afd26410d00b55a863e67620',1,'UAInput']]],
-  ['nameoverride_1',['NameOverride',['../dc/da1/class_inventory_item_super.html#aa339754ea13f009ae4a422fe259fbde3',1,'InventoryItemSuper::NameOverride()'],['../dd/d90/class_base_building_base.html#aa339754ea13f009ae4a422fe259fbde3',1,'BaseBuildingBase::NameOverride()'],['../dd/d93/_object_8c.html#acf2f2ecaef44ae80b1bb47dd653134e8',1,'NameOverride():&#160;Object.c']]],
+  ['nameoverride_1',['NameOverride',['../dc/da9/class_i_entity.html#acf2f2ecaef44ae80b1bb47dd653134e8',1,'IEntity::NameOverride()'],['../dc/da1/class_inventory_item_super.html#aa339754ea13f009ae4a422fe259fbde3',1,'InventoryItemSuper::NameOverride()'],['../dd/d90/class_base_building_base.html#aa339754ea13f009ae4a422fe259fbde3',1,'BaseBuildingBase::NameOverride()']]],
   ['nametoid_2',['NameToID',['../d6/d0e/class_inventory_item.html#a5f7546e38f4d3fa50f10f1de583b0050',1,'InventoryItem::NameToID()'],['../df/d2e/_item_base_8c.html#a5f7546e38f4d3fa50f10f1de583b0050',1,'NameToID():&#160;ItemBase.c']]],
   ['nametomodule_3',['NameToModule',['../d8/db9/group___profiler.html#ga88c7e8f41affd0e70c9d9e8484353721',1,'EnProfiler']]],
   ['navmeshupdate_4',['NavmeshUpdate',['../d4/d9e/class_land___underground___entrance_base.html#a379ff28bc47ec1abb6c63bd42cfdb4f9',1,'Land_Underground_EntranceBase']]],
@@ -23,7 +23,7 @@ var searchData=
   ['noheading_20',['NoHeading',['../da/d3b/class_day_z_player_implement_heading.html#a1d2b3eab9211cb99a27e5f4d50ea708e',1,'DayZPlayerImplementHeading']]],
   ['noindicationactioninputbase_21',['NoIndicationActionInputBase',['../d7/d66/class_no_indication_action_input_base.html#a36b8fecbbc1b00ab806d52d2803b5d58',1,'NoIndicationActionInputBase']]],
   ['noiseparams_22',['NoiseParams',['../d9/d27/_noise_8c.html#aceda78b4f4625e1c9901f7bf4a7f5cf0',1,'Noise.c']]],
-  ['noisesystem_23',['NoiseSystem',['../d9/d27/_noise_8c.html#a874d78b9410c00c9e740a0e4f37574fd',1,'NoiseSystem():&#160;Noise.c'],['../d0/deb/class_noise_system.html#a874d78b9410c00c9e740a0e4f37574fd',1,'NoiseSystem::NoiseSystem()']]],
+  ['noisesystem_23',['NoiseSystem',['../d0/deb/class_noise_system.html#a874d78b9410c00c9e740a0e4f37574fd',1,'NoiseSystem::NoiseSystem()'],['../d9/d27/_noise_8c.html#a874d78b9410c00c9e740a0e4f37574fd',1,'NoiseSystem():&#160;Noise.c']]],
   ['norearlight_24',['NoRearLight',['../d5/d71/_car_script_8c.html#aea1ed56eec07727db5c295521fa751d7',1,'CarScript.c']]],
   ['normalize_25',['Normalize',['../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a',1,'vector::Normalize()'],['../dc/d98/_misc_gameplay_functions_8c.html#a75ca2def85fcb18080e4aa640852674d',1,'Normalize():&#160;MiscGameplayFunctions.c']]],
   ['normalizeangle_26',['NormalizeAngle',['../d5/d98/group___math.html#gab2ad05380f5f8282abe3c5846903b0e4',1,'Math']]],

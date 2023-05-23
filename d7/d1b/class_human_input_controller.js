@@ -7,6 +7,7 @@ var class_human_input_controller =
     [ "CameraIsTracking", "d7/d1b/class_human_input_controller.html#a333aca1d30b78df4f2b99a32b1d112d9", null ],
     [ "CameraViewChanged", "d7/d1b/class_human_input_controller.html#a8c79bf31923fcec823d993588cb28fd0", null ],
     [ "GetAimChange", "d7/d1b/class_human_input_controller.html#a142a1db4a33f049b398b2c5c285bbfa3", null ],
+    [ "GetAimDelta", "d7/d1b/class_human_input_controller.html#a09efcef46be16e3c9bd37a26fbcd270a", null ],
     [ "GetHeadingAngle", "d7/d1b/class_human_input_controller.html#a0bf76eb85467f6643e5f9fed56f381aa", null ],
     [ "GetMovement", "d7/d1b/class_human_input_controller.html#a67169faf04f5fe152c3bcb435542cd5d", null ],
     [ "GetTracking", "d7/d1b/class_human_input_controller.html#adcfca15257b556642a49f0aa339aac04", null ],

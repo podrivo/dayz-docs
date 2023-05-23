@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,6 +124,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a855b985ef6b5085dc6154b928446209c">MODIFIER_SYNC_ZONE_EXPOSURE</a> = 0x00000010
 , <a class="el" href="../../d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0ab982a5d307d13ef3721f4030e73d4073">MODIFIER_SYNC_DROWNING</a> = 0x00000020
+, <a class="el" href="../../d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a274bc2cae8152d8b4007c1956a3354be">MODIFIER_SYNC_FEVER</a> = 0x00000040
 , <a class="el" href="../../d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a7264227ff44639b8960da234f6ee7135">LAST_INDEX</a>
 <br />
  }</td></tr>
@@ -237,6 +238,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a5c1716899a303fbac8533337fbc6ceb0a41fd66f4372d61238530967c5b08db92" name="a5c1716899a303fbac8533337fbc6ceb0a41fd66f4372d61238530967c5b08db92"></a>MODIFIER_SYNC_CONTAMINATION2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5c1716899a303fbac8533337fbc6ceb0a855b985ef6b5085dc6154b928446209c" name="a5c1716899a303fbac8533337fbc6ceb0a855b985ef6b5085dc6154b928446209c"></a>MODIFIER_SYNC_ZONE_EXPOSURE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5c1716899a303fbac8533337fbc6ceb0ab982a5d307d13ef3721f4030e73d4073" name="a5c1716899a303fbac8533337fbc6ceb0ab982a5d307d13ef3721f4030e73d4073"></a>MODIFIER_SYNC_DROWNING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5c1716899a303fbac8533337fbc6ceb0a274bc2cae8152d8b4007c1956a3354be" name="a5c1716899a303fbac8533337fbc6ceb0a274bc2cae8152d8b4007c1956a3354be"></a>MODIFIER_SYNC_FEVER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5c1716899a303fbac8533337fbc6ceb0a7264227ff44639b8960da234f6ee7135" name="a5c1716899a303fbac8533337fbc6ceb0a7264227ff44639b8960da234f6ee7135"></a>LAST_INDEX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -466,7 +468,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00079">STORAGE_VERSION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06622">ManBase::OnStoreLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06684">ManBase::OnStoreLoad()</a>.</p>
 
 </div>
 </div>
@@ -554,9 +556,9 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">80</a> of file <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html">ModifiersManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00075">m_ModifierList</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00077">m_ParamList</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l00122">Init()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00075">m_ModifierList</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00077">m_ParamList</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00661">PluginBase::ActivateModifier()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00672">PluginBase::DeactivateModifier()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00286">ManBase::Init()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00693">PluginBase::IsModifierLocked()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00683">PluginBase::LockModifier()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00538">PluginBase::SendRPCMods()</a>, and <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00575">PluginBase::SendRPCModsDetail()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00661">PluginBase::ActivateModifier()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00672">PluginBase::DeactivateModifier()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00285">ManBase::Init()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00693">PluginBase::IsModifierLocked()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00683">PluginBase::LockModifier()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00538">PluginBase::SendRPCMods()</a>, and <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00575">PluginBase::SendRPCModsDetail()</a>.</p>
 
 </div>
 </div>
@@ -610,9 +612,9 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00270">270</a> of file <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html">ModifiersManager.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00219">ActivateModifier()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00312">GetModifier()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00228">Debug::LogError()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00077">m_ParamList</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00219">ActivateModifier()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00312">GetModifier()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00235">Debug::LogError()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00077">m_ParamList</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01304">Weapon::CopyWeaponStateFrom()</a>, <a class="el" href="../../d8/d81/_edible___base_8c_source.html#l00192">ItemBase::OnStoreLoad()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06622">ManBase::OnStoreLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01282">Weapon::CopyWeaponStateFrom()</a>, <a class="el" href="../../d8/d81/_edible___base_8c_source.html#l00192">ItemBase::OnStoreLoad()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06684">ManBase::OnStoreLoad()</a>.</p>
 
 </div>
 </div>

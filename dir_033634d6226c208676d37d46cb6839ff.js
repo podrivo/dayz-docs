@@ -7,6 +7,7 @@ var dir_033634d6226c208676d37d46cb6839ff =
     [ "AUGRecoil.c", "dc/de9/_a_u_g_recoil_8c.html", "dc/de9/_a_u_g_recoil_8c" ],
     [ "B95Recoil.c", "df/da7/_b95_recoil_8c.html", "df/da7/_b95_recoil_8c" ],
     [ "Colt1911Recoil.c", "de/d63/_colt1911_recoil_8c.html", "de/d63/_colt1911_recoil_8c" ],
+    [ "CrossbowRecoil.c", "d5/dc1/_crossbow_recoil_8c.html", "d5/dc1/_crossbow_recoil_8c" ],
     [ "CZ527Recoil.c", "df/dd2/_c_z527_recoil_8c.html", "df/dd2/_c_z527_recoil_8c" ],
     [ "CZ550Recoil.c", "d1/d4c/_c_z550_recoil_8c.html", "d1/d4c/_c_z550_recoil_8c" ],
     [ "Cz75Recoil.c", "d2/d1b/_cz75_recoil_8c.html", "d2/d1b/_cz75_recoil_8c" ],

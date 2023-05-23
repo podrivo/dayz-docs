@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -138,6 +138,9 @@ Functions</h2></td></tr>
 <tr class="separator:a390b0b22b7d7b47f9c3c015ef36c7e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09deaa476787a0d2324d5093a59330b2"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a09deaa476787a0d2324d5093a59330b2">ShowCrossHair</a> (<a class="el" href="../../db/d0c/class_cross_hair.html">CrossHair</a> crossHair)</td></tr>
 <tr class="separator:a09deaa476787a0d2324d5093a59330b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e10cf8f74e0727c7b6575edd9506b28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a6e10cf8f74e0727c7b6575edd9506b28">FloatingCrossHair</a> (<a class="el" href="../../dd/d6a/class_widget.html">Widget</a> widget)</td></tr>
+<tr class="memdesc:a6e10cf8f74e0727c7b6575edd9506b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highly WIP, do not use.  <br /></td></tr>
+<tr class="separator:a6e10cf8f74e0727c7b6575edd9506b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -149,6 +152,11 @@ Variables</h2></td></tr>
 <tr class="separator:abc384ffa3d9e20d9963688d1e3492cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03def12935c09312a62c008c1b44d256"><td class="memItemLeft" align="right" valign="top">protected ref set&lt; ref <a class="el" href="../../db/d0c/class_cross_hair.html">CrossHair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a03def12935c09312a62c008c1b44d256">m_CrossHairs</a></td></tr>
 <tr class="separator:a03def12935c09312a62c008c1b44d256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5bdc6b8ace98f68da56840fc189b4f"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a5d5bdc6b8ace98f68da56840fc189b4f">m_PreviousDirection</a></td></tr>
+<tr class="memdesc:a5d5bdc6b8ace98f68da56840fc189b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Floating crosshair.  <br /></td></tr>
+<tr class="separator:a5d5bdc6b8ace98f68da56840fc189b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a365922922c0f793c411b0fd9bffc4"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#ab5a365922922c0f793c411b0fd9bffc4">m_PreviousDirectionSet</a></td></tr>
+<tr class="separator:ab5a365922922c0f793c411b0fd9bffc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6a878c9a758579dc39f73b21127009c3" name="a6a878c9a758579dc39f73b21127009c3"></a>
@@ -166,9 +174,36 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00058">58</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00067">67</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00009">CALL_CATEGORY_GUI</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l01336">CGame::GetUpdateQueue()</a>, <a class="el" href="../../d4/d2d/class_script_invoker.html#a97ed19e1e143a0863889e8ec011af969">ScriptInvoker::Insert()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00052">m_AM</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00056">m_CrossHairs</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, and <a class="el" href="../../d2/d52/_player_sound_manager_8c_source.html#l00122">Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00009">CALL_CATEGORY_GUI</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01163">CGame::GetPostUpdateQueue()</a>, <a class="el" href="../../d4/d2d/class_script_invoker.html#a97ed19e1e143a0863889e8ec011af969">ScriptInvoker::Insert()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00057">m_AM</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00061">m_CrossHairs</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, and <a class="el" href="../../d2/d52/_player_sound_manager_8c_source.html#l00125">Update()</a>.</p>
+
+</div>
+</div>
+<a id="a6e10cf8f74e0727c7b6575edd9506b28" name="a6e10cf8f74e0727c7b6575edd9506b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e10cf8f74e0727c7b6575edd9506b28">&#9670;&#160;</a></span>FloatingCrossHair()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FloatingCrossHair </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d6a/class_widget.html">Widget</a>&#160;</td>
+          <td class="paramname"><em>widget</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Highly WIP, do not use. </p>
+<p>Only intended to be used with track IR</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">229</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00073">ActionBase()</a>, <a class="el" href="../../d7/dfc/classvector.html#a62993545b7e0017e827ba3627da347f3">vector::AnglesToVector()</a>, <a class="el" href="../../d7/d1b/class_human_input_controller.html#a333aca1d30b78df4f2b99a32b1d112d9">HumanInputController::CameraIsTracking()</a>, <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gae11907bc843b927c274b8ae9b216364c">Math3D::DirectionAndUpMatrix()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#aa3d07983643d95f8ca32f5bd47627d4d">HumanCommandWeapons::GetBaseAimingAngleLR()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a96e80198781e2bd6e30b1bbc3bc185bd">HumanCommandWeapons::GetBaseAimingAngleUD()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d7/d1b/class_human_input_controller.html#a0bf76eb85467f6643e5f9fed56f381aa">HumanInputController::GetHeadingAngle()</a>, <a class="el" href="../../d2/de6/class_c_game.html#aa74df6d16ca7e3c010ae97cc8766ec25">CGame::GetScreenPos()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03450">DayZPlayer::IsRaised()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00057">m_AM</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00064">m_PreviousDirection</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00065">m_PreviousDirectionSet</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5fd44101d995589ddf4f4cbc6b5e16ca">Math3D::MatrixToAngles()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga7941ed607b95aa45129e2541f55405ba">Math3D::MatrixToQuat()</a>, <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gae70584d9311e0dc259010b52f190518f">Math3D::QuatLerp()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gae0ddb31b3bbbd7a5af82a201ee0baef9">Math3D::QuatToMatrix()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>, <a class="el" href="../../d3/d27/class_day_z_physics.html#a51c7724d1fe5246118a0b83d6bdb82ce">DayZPhysics::RaycastRV()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00107">vector::Up</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00203">ShowCrossHair()</a>.</p>
 
 </div>
 </div>
@@ -187,11 +222,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00123">123</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00132">132</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00052">m_AM</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03378">DayZPlayer::IsPlayerSelected()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00057">m_AM</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01330">ManBase::AddAction()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01596">ManBase::CanBeRestrained()</a>, <a class="el" href="../../d0/dec/_cargo_container_8c_source.html#l00793">Container::CanCombineAmmo()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07668">ManBase::CanDeleteItems()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02936">ManBase::CloseMapEx()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07724">ManBase::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04314">ManBase::OnQuickBarContinuousUseEnd()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04279">ManBase::OnQuickBarContinuousUseStart()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04171">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04384">ManBase::ReloadWeapon()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01356">ManBase::RemoveAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01347">ManBase::AddAction()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01614">ManBase::CanBeRestrained()</a>, <a class="el" href="../../d0/dec/_cargo_container_8c_source.html#l00767">Container::CanCombineAmmo()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07768">ManBase::CanDeleteItems()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02972">ManBase::CloseMapEx()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07824">ManBase::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04343">ManBase::OnQuickBarContinuousUseEnd()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04308">ManBase::OnQuickBarContinuousUseStart()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04200">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04413">ManBase::ReloadWeapon()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01373">ManBase::RemoveAction()</a>.</p>
 
 </div>
 </div>
@@ -211,11 +246,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00133">133</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00142">142</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00056">m_CrossHairs</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00061">m_CrossHairs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00155">SelectCrossHair()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00164">SelectCrossHair()</a>.</p>
 
 </div>
 </div>
@@ -234,11 +269,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00144">144</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00153">153</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00056">m_CrossHairs</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00061">m_CrossHairs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00194">ShowCrossHair()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00092">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00203">ShowCrossHair()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00101">Update()</a>.</p>
 
 </div>
 </div>
@@ -257,7 +292,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00118">118</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00127">127</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00665">ScriptedWidgetEventHandler::GetPlayer()</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
 
@@ -281,9 +316,9 @@ Variables</h2></td></tr>
 <p>Launched from 'DayZGame.DeferredInit' to make earlier access, use, and updates impossible (downside of a non-static system) </p>
 <p>pre-init arrays</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00072">72</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00081">81</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00056">m_CrossHairs</a>, and <a class="el" href="../../da/d53/_size_to_child_8c_source.html#l00091">m_Root</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00061">m_CrossHairs</a>, and <a class="el" href="../../da/d53/_size_to_child_8c_source.html#l00091">m_Root</a>.</p>
 
 </div>
 </div>
@@ -303,7 +338,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00084">84</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00093">93</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/da6/_tabber_u_i_8c_source.html#l00044">ScriptedWidgetEventHandler::Init()</a>, and <a class="el" href="../../da/d53/_size_to_child_8c_source.html#l00091">m_Root</a>.</p>
 
@@ -329,11 +364,11 @@ Variables</h2></td></tr>
 <p>handle unconscious state</p>
 <p>default</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00155">155</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00164">164</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d61/4___world_2_classes_2_user_actions_component_2__constants_8c_source.html#l00003">AC_CONTINUOUS</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00073">ActionBase()</a>, <a class="el" href="../../d7/d1b/class_human_input_controller.html#af1a97f6e42770f9a555bc737b83e38a9">HumanInputController::CameraIsFreeLook()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00133">GetCrossHairByName()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00052">m_AM</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00194">ShowCrossHair()</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00414">UA_NONE</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d61/4___world_2_classes_2_user_actions_component_2__constants_8c_source.html#l00003">AC_CONTINUOUS</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00073">ActionBase()</a>, <a class="el" href="../../d7/d1b/class_human_input_controller.html#af1a97f6e42770f9a555bc737b83e38a9">HumanInputController::CameraIsFreeLook()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00142">GetCrossHairByName()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00226">DayZPlayer::IsInIronsights()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00231">DayZPlayer::IsInOptics()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03450">DayZPlayer::IsRaised()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00057">m_AM</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00203">ShowCrossHair()</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00416">UA_NONE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00092">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00101">Update()</a>.</p>
 
 </div>
 </div>
@@ -356,11 +391,11 @@ Variables</h2></td></tr>
 <p>hide prev crosshair</p>
 <p>show the new one</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00194">194</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00203">203</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00144">GetCurrentCrossHair()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00041">CrossHair::Hide()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00024">CrossHair::IsCurrent()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00029">CrossHair::IsShown()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00034">CrossHair::Show()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">FloatingCrossHair()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00153">GetCurrentCrossHair()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00048">CrossHair::GetWidget()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00041">CrossHair::Hide()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00024">CrossHair::IsCurrent()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00029">CrossHair::IsShown()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00034">CrossHair::Show()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00155">SelectCrossHair()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00092">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00164">SelectCrossHair()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00101">Update()</a>.</p>
 
 </div>
 </div>
@@ -379,9 +414,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00067">67</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00076">76</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00009">CALL_CATEGORY_GUI</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l01336">CGame::GetUpdateQueue()</a>, <a class="el" href="../../d4/d2d/class_script_invoker.html#a0a18c16f75eba3f8429c07129476b5d8">ScriptInvoker::Remove()</a>, and <a class="el" href="../../d2/d52/_player_sound_manager_8c_source.html#l00122">Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00009">CALL_CATEGORY_GUI</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01163">CGame::GetPostUpdateQueue()</a>, <a class="el" href="../../d4/d2d/class_script_invoker.html#a0a18c16f75eba3f8429c07129476b5d8">ScriptInvoker::Remove()</a>, and <a class="el" href="../../d2/d52/_player_sound_manager_8c_source.html#l00125">Update()</a>.</p>
 
 </div>
 </div>
@@ -398,9 +433,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00052">52</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00057">57</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00088">ScriptedWidgetEventHandler::ActionTargetsCursor()</a>, <a class="el" href="../../d5/df7/_continuous_action_progress_8c_source.html#l00021">ScriptedWidgetEventHandler::ContinuousActionProgress()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00058">CrossHairSelector()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00670">ScriptedWidgetEventHandler::GetActionManager()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00123">GetActionManager()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00683">ScriptedWidgetEventHandler::GetActions()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00721">ScriptedWidgetEventHandler::GetTarget()</a>, <a class="el" href="../../da/dc4/_item_actions_widget_8c_source.html#l00033">ScriptedWidgetEventHandler::ItemActionsWidget()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00155">SelectCrossHair()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l01095">ScriptedWidgetEventHandler::SetActionWidget()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00296">ScriptedWidgetEventHandler::Update()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00092">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00088">ScriptedWidgetEventHandler::ActionTargetsCursor()</a>, <a class="el" href="../../d5/df7/_continuous_action_progress_8c_source.html#l00021">ScriptedWidgetEventHandler::ContinuousActionProgress()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00067">CrossHairSelector()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">FloatingCrossHair()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00670">ScriptedWidgetEventHandler::GetActionManager()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00132">GetActionManager()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00683">ScriptedWidgetEventHandler::GetActions()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00725">ScriptedWidgetEventHandler::GetTarget()</a>, <a class="el" href="../../da/dc4/_item_actions_widget_8c_source.html#l00033">ScriptedWidgetEventHandler::ItemActionsWidget()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00164">SelectCrossHair()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l01099">ScriptedWidgetEventHandler::SetActionWidget()</a>, <a class="el" href="../../d2/d0c/_action_targets_cursor_8c_source.html#l00296">ScriptedWidgetEventHandler::Update()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00101">Update()</a>.</p>
 
 </div>
 </div>
@@ -416,9 +451,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00056">56</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00061">61</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00058">CrossHairSelector()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00133">GetCrossHairByName()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00144">GetCurrentCrossHair()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00072">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00067">CrossHairSelector()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00142">GetCrossHairByName()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00153">GetCurrentCrossHair()</a>, and <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00081">Init()</a>.</p>
 
 </div>
 </div>
@@ -436,6 +471,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5d5bdc6b8ace98f68da56840fc189b4f" name="a5d5bdc6b8ace98f68da56840fc189b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5bdc6b8ace98f68da56840fc189b4f">&#9670;&#160;</a></span>m_PreviousDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d7/dfc/classvector.html">vector</a> m_PreviousDirection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Floating crosshair. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00064">64</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">FloatingCrossHair()</a>.</p>
+
+</div>
+</div>
+<a id="ab5a365922922c0f793c411b0fd9bffc4" name="ab5a365922922c0f793c411b0fd9bffc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a365922922c0f793c411b0fd9bffc4">&#9670;&#160;</a></span>m_PreviousDirectionSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_PreviousDirectionSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00065">65</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">FloatingCrossHair()</a>.</p>
+
+</div>
+</div>
 <a id="abc384ffa3d9e20d9963688d1e3492cb7" name="abc384ffa3d9e20d9963688d1e3492cb7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc384ffa3d9e20d9963688d1e3492cb7">&#9670;&#160;</a></span>m_Root</h2>
 
@@ -448,7 +521,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00054">54</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00059">59</a> of file <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html">CrossHairSelector.c</a>.</p>
 
 </div>
 </div>

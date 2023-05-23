@@ -13,6 +13,7 @@ var class_plugin_recipes_manager_base =
     [ "GetRecipeLengthInSecs", "dd/d5d/class_plugin_recipes_manager_base.html#afe244e1e785127374e003d1093451d60", null ],
     [ "GetRecipeName", "dd/d5d/class_plugin_recipes_manager_base.html#ad3eb0815026d8276eb655338a68ae313", null ],
     [ "GetRecipeSpecialty", "dd/d5d/class_plugin_recipes_manager_base.html#aa4ce2c43f497947c749704d83438596e", null ],
+    [ "GetSoundCategory", "dd/d5d/class_plugin_recipes_manager_base.html#aea81d1b720adcc08694e50fff27410d8", null ],
     [ "GetValidRecipes", "dd/d5d/class_plugin_recipes_manager_base.html#a10772ad1999b117d4550245d4cb7aab8", null ],
     [ "GetValidRecipesProper", "dd/d5d/class_plugin_recipes_manager_base.html#a424cba30b1d31f2823a360251aac6033", null ],
     [ "IsEnableDebugCrafting", "dd/d5d/class_plugin_recipes_manager_base.html#aa09debdb36924e7ebbb55b09cd172486", null ],

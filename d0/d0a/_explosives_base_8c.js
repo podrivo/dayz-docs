@@ -35,6 +35,7 @@ var _explosives_base_8c =
     [ "SetParticleOrientation", "d0/d0a/_explosives_base_8c.html#adca2e1c9ecee73cae0822360aac528fb", null ],
     [ "SetParticlePosition", "d0/d0a/_explosives_base_8c.html#a85013e65277dff99abed3680cd927d5d", null ],
     [ "UnlockTriggerSlots", "d0/d0a/_explosives_base_8c.html#a865576d46bf828c2bc0f8b5a2890fb69", null ],
+    [ "UnpairRemote", "d0/d0a/_explosives_base_8c.html#aabae2c5fd3871959ff0c1d57baa2d354", null ],
     [ "UpdateLED", "d0/d0a/_explosives_base_8c.html#a577b3d98b298dbbc06a0761271e25634", null ],
     [ "ANIM_PHASE_VISIBILITY", "d0/d0a/_explosives_base_8c.html#a83b2a91afa613a32845eae5ba2978005", null ],
     [ "DEFAULT_AMMO_TYPE", "d0/d0a/_explosives_base_8c.html#a0dc14806cb7cf3d4fd8d0ea81c20645e", null ],

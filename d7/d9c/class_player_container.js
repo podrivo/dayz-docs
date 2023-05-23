@@ -3,7 +3,7 @@ var class_player_container =
     [ "PlayerContainer", "d7/d9c/class_player_container.html#a6f897532ec4956c41d8f6a7fca7c5f61", null ],
     [ "~PlayerContainer", "d7/d9c/class_player_container.html#a5f9c72f41c6238db5fd416d46dcc72a8", null ],
     [ "AddSlotsContainer", "d7/d9c/class_player_container.html#ac0297fd2beb86354df0f56842a8a1f15", null ],
-    [ "CanCombine", "d7/d9c/class_player_container.html#a639624b9df1cb4b65cd897c2dfc949fb", null ],
+    [ "CanOpenCloseContainerEx", "d7/d9c/class_player_container.html#a71aea7945735c16297723aff90167429", null ],
     [ "CollapseButtonOnMouseButtonDown", "d7/d9c/class_player_container.html#ac0fe2fa78d496504da4194bcdafc40af", null ],
     [ "Combine", "d7/d9c/class_player_container.html#aa2acb04588ab948a8893be1d95f9cd1f", null ],
     [ "DoubleClick", "d7/d9c/class_player_container.html#a9136df4f7ed866294bb073b8ad7fb30e", null ],

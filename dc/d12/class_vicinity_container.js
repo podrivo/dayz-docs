@@ -1,6 +1,7 @@
 var class_vicinity_container =
 [
     [ "VicinityContainer", "dc/d12/class_vicinity_container.html#a8329db7fb3deed65ce14533349007a21", null ],
+    [ "CanOpenCloseContainerEx", "dc/d12/class_vicinity_container.html#a71aea7945735c16297723aff90167429", null ],
     [ "CollapseButtonOnMouseButtonDown", "dc/d12/class_vicinity_container.html#ac0fe2fa78d496504da4194bcdafc40af", null ],
     [ "DraggingOverHeader", "dc/d12/class_vicinity_container.html#a9d744b9914ac440bf316cb39e33adb3f", null ],
     [ "DraggingOverIcon", "dc/d12/class_vicinity_container.html#a341432628ffc67aa15e2498e37e5cfc0", null ],
@@ -16,7 +17,8 @@ var class_vicinity_container =
     [ "OnDropReceivedFromHeader", "dc/d12/class_vicinity_container.html#a5f51d12a155546ba924479ffb6436aaa", null ],
     [ "OnDropReceivedFromIcon", "dc/d12/class_vicinity_container.html#a269daa8b432979badd46e8bb11396dea", null ],
     [ "OnLeftPanelDropReceived", "dc/d12/class_vicinity_container.html#a57769d5e7a85c5a5a54bbfd00fffb8a1", null ],
-    [ "ToggleContainer", "dc/d12/class_vicinity_container.html#aadc4ec70a3ea8ec05ace15a7d55fd409", null ],
+    [ "SplitItem", "dc/d12/class_vicinity_container.html#af722b11ffb8375871c4dadc84e2aa9e4", null ],
+    [ "ToggleContainer", "dc/d12/class_vicinity_container.html#a7ccd3eae9650d039b512a695ff462eac", null ],
     [ "ToggleContainer", "dc/d12/class_vicinity_container.html#a3d4475f1e093b4adaad862b7ab319b4f", null ],
     [ "TraverseShowedItems", "dc/d12/class_vicinity_container.html#af07498a9870d4b2b38f92e5ab88e8b16", null ],
     [ "UpdateHeader", "dc/d12/class_vicinity_container.html#a53c885b95f6cebab902e3f53225c1770", null ],

@@ -7,6 +7,8 @@ var dir_ce61c92b6b8c78c5995aaaa8b4d87f0d =
     [ "ActionBiteVitaminBottle.c", "d6/d56/_action_bite_vitamin_bottle_8c.html", "d6/d56/_action_bite_vitamin_bottle_8c" ],
     [ "ActionDisinfectSelf.c", "d5/dd7/_action_disinfect_self_8c.html", "d5/dd7/_action_disinfect_self_8c" ],
     [ "ActionDisinfectTarget.c", "d3/d0b/_action_disinfect_target_8c.html", "d3/d0b/_action_disinfect_target_8c" ],
+    [ "ActionEatPillFromBottle.c", "d0/d85/_action_eat_pill_from_bottle_8c.html", "d0/d85/_action_eat_pill_from_bottle_8c" ],
+    [ "ActionEatTabletFromWrapper.c", "d0/db9/_action_eat_tablet_from_wrapper_8c.html", "d0/db9/_action_eat_tablet_from_wrapper_8c" ],
     [ "ActionForceBiteCharcoalTablets.c", "d4/d37/_action_force_bite_charcoal_tablets_8c.html", "d4/d37/_action_force_bite_charcoal_tablets_8c" ],
     [ "ActionForceBitePainkillerTablets.c", "da/dc7/_action_force_bite_painkiller_tablets_8c.html", "da/dc7/_action_force_bite_painkiller_tablets_8c" ],
     [ "ActionForceBitePurificationTablets.c", "d9/d65/_action_force_bite_purification_tablets_8c.html", "d9/d65/_action_force_bite_purification_tablets_8c" ],

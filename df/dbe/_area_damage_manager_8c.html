@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -217,12 +217,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a8869e771582958c8beb9e4cd97e59cca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a8869e771582958c8beb9e4cd97e59cca">SetAreaPosition</a> (<a class="el" href="../../d7/dfc/classvector.html">vector</a> position)</td></tr>
 <tr class="separator:a8869e771582958c8beb9e4cd97e59cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68c83d319275347dcd1c0c4da8734703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a68c83d319275347dcd1c0c4da8734703">GetPosition</a> ()</td></tr>
-<tr class="memdesc:a68c83d319275347dcd1c0c4da8734703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve position.  <br /></td></tr>
+<tr class="memdesc:a68c83d319275347dcd1c0c4da8734703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the world position of the Effect.  <br /></td></tr>
 <tr class="separator:a68c83d319275347dcd1c0c4da8734703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062c6025f413bd1b7f869615414d7d2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a062c6025f413bd1b7f869615414d7d2e">SetAreaOrientation</a> (<a class="el" href="../../d7/dfc/classvector.html">vector</a> orientation)</td></tr>
 <tr class="separator:a062c6025f413bd1b7f869615414d7d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bae34135b918bcd04b5f8a3d136e313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a3bae34135b918bcd04b5f8a3d136e313">GetOrientation</a> ()</td></tr>
-<tr class="memdesc:a3bae34135b918bcd04b5f8a3d136e313"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve orientation (yaw, pitch, roll) in <b>degrees</b>  <br /></td></tr>
 <tr class="separator:a3bae34135b918bcd04b5f8a3d136e313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a866b78000eaff77f8705821281b41e26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a866b78000eaff77f8705821281b41e26">SetDamageableTypes</a> (<a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d2/db4/classtypename.html">typename</a> &gt; damageableTypes)</td></tr>
 <tr class="separator:a866b78000eaff77f8705821281b41e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -557,14 +556,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve orientation (yaw, pitch, roll) in <b>degrees</b> </p>
-<dl class="section return"><dt>Returns</dt><dd>vector of yaw, pitch and roll angles (x = yaw, y = pitch, z = roll) </dd></dl>
-
 <p class="definition">Definition at line <a class="el" href="../../df/dbe/_area_damage_manager_8c_source.html#l00306">306</a> of file <a class="el" href="../../df/dbe/_area_damage_manager_8c_source.html">AreaDamageManager.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/dbe/_area_damage_manager_8c_source.html#l00018">m_AreaOrientation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dad/_fireplace_8c_source.html#l00556">FireplaceBase::AfterStoreLoad()</a>, <a class="el" href="../../d2/d2a/_trap___rabbit_snare_8c_source.html#l00191">TrapSpawnBase::AlignCatch()</a>, <a class="el" href="../../d1/dcf/_base_building_base_8c_source.html#l00991">ItemBase::CreateAreaDamage()</a>, <a class="el" href="../../de/df0/_construction_8c_source.html#l01180">CreateCollisionTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00530">CreateTrigger()</a>, <a class="el" href="../../d7/d6f/_trap___bear_8c_source.html#l00043">TrapBase::CreateTrigger()</a>, <a class="el" href="../../d3/dcd/_raycaster_8c_source.html#l00031">ItemBase::DoMeasurement()</a>, <a class="el" href="../../d2/de4/_day_z_spectator_8c_source.html#l00012">DayZSpectator::EOnFrame()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00323">DayZInfected::HandleOrientation()</a>, <a class="el" href="../../df/d89/_land___underground___water_reservoir_8c_source.html#l01097">HandleVisualEffects()</a>, <a class="el" href="../../de/df0/_construction_8c_source.html#l01011">IsColliding()</a>, <a class="el" href="../../de/df0/_construction_8c_source.html#l01060">IsCollidingEx()</a>, <a class="el" href="../../df/d89/_land___underground___water_reservoir_8c_source.html#l00388">LateInit()</a>, <a class="el" href="../../d5/dcf/_barrel_holes___color_base_8c_source.html#l00503">FireplaceBase::OnIgnitedThis()</a>, <a class="el" href="../../d6/d42/_garden_plot_8c_source.html#l00016">GardenBase::OnStoreLoad()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00104">ItemBase::OnStoreLoad()</a>, <a class="el" href="../../df/dbe/_watchtower_8c_source.html#l00133">BaseBuildingBase::PerformRoofCheckForBase()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08682">ManBase::PhysicalPredictiveDropItem()</a>, <a class="el" href="../../d0/d0a/_explosives_base_8c_source.html#l00242">SetParticleOrientation()</a>, <a class="el" href="../../de/d15/_underground_trigger_8c_source.html#l00042">UndergroundTriggerCarrierBase::SpawnTrigger()</a>, and <a class="el" href="../../df/dd9/_torch_8c_source.html#l00470">FlammableBase::TryTransformIntoStick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dad/_fireplace_8c_source.html#l00556">FireplaceBase::AfterStoreLoad()</a>, <a class="el" href="../../d2/d2a/_trap___rabbit_snare_8c_source.html#l00191">TrapSpawnBase::AlignCatch()</a>, <a class="el" href="../../d1/dcf/_base_building_base_8c_source.html#l00996">ItemBase::CreateAreaDamage()</a>, <a class="el" href="../../de/df0/_construction_8c_source.html#l01180">CreateCollisionTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00530">CreateTrigger()</a>, <a class="el" href="../../d7/d6f/_trap___bear_8c_source.html#l00043">TrapBase::CreateTrigger()</a>, <a class="el" href="../../d3/dcd/_raycaster_8c_source.html#l00031">ItemBase::DoMeasurement()</a>, <a class="el" href="../../d2/de4/_day_z_spectator_8c_source.html#l00012">DayZSpectator::EOnFrame()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00327">DayZInfected::HandleOrientation()</a>, <a class="el" href="../../df/d89/_land___underground___water_reservoir_8c_source.html#l01097">HandleVisualEffects()</a>, <a class="el" href="../../de/df0/_construction_8c_source.html#l01011">IsColliding()</a>, <a class="el" href="../../de/df0/_construction_8c_source.html#l01060">IsCollidingEx()</a>, <a class="el" href="../../df/d89/_land___underground___water_reservoir_8c_source.html#l00388">LateInit()</a>, <a class="el" href="../../d5/dcf/_barrel_holes___color_base_8c_source.html#l00501">FireplaceBase::OnIgnitedThis()</a>, <a class="el" href="../../d6/d42/_garden_plot_8c_source.html#l00016">GardenBase::OnStoreLoad()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00103">ItemBase::OnStoreLoad()</a>, <a class="el" href="../../df/dbe/_watchtower_8c_source.html#l00133">BaseBuildingBase::PerformRoofCheckForBase()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08785">ManBase::PhysicalPredictiveDropItem()</a>, <a class="el" href="../../d0/d0a/_explosives_base_8c_source.html#l00258">SetParticleOrientation()</a>, <a class="el" href="../../de/d15/_underground_trigger_8c_source.html#l00042">UndergroundTriggerCarrierBase::SpawnTrigger()</a>, and <a class="el" href="../../df/dd9/_torch_8c_source.html#l00470">FlammableBase::TryTransformIntoStick()</a>.</p>
 
 </div>
 </div>
@@ -604,8 +600,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve position. </p>
-<p>Retrieve position.</p>
+<p>Get the world position of the Effect. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Only gets the cached variable, for immediate effect use GetCurrent variant </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>vector</code> The world position of the Effect </dd></dl>
 
@@ -1657,7 +1652,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../df/dbe/_area_damage_manager_8c_source.html#l00377">CreateDamageTriggerEx()</a>, and <a class="el" href="../../da/d33/_area_damage_events_8c_source.html#l00006">AreaDamageEvents::OnTriggerCreated()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dab/_action_constructor_8c_source.html#l00003">ActionConstructor::ConstructActions()</a>, <a class="el" href="../../d0/d4a/_emote_constructor_8c_source.html#l00003">EmoteConstructor::ConstructEmotes()</a>, and <a class="el" href="../../d7/da5/_impact_effects_8c_source.html#l00115">EvaluateImpactEffect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/dab/_action_constructor_8c_source.html#l00003">ActionConstructor::ConstructActions()</a>, <a class="el" href="../../d0/d4a/_emote_constructor_8c_source.html#l00003">EmoteConstructor::ConstructEmotes()</a>, and <a class="el" href="../../d7/da5/_impact_effects_8c_source.html#l00140">ImpactMaterials::EvaluateImpactEffect()</a>.</p>
 
 </div>
 </div>

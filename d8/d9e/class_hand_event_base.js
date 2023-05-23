@@ -32,7 +32,6 @@ var class_hand_event_base =
     [ "HandEventCreated", "d8/d9e/class_hand_event_base.html#a63a5acd5f5c81650143ca912a38d5f88", null ],
     [ "HandEventDestroy", "d8/d9e/class_hand_event_base.html#ad676df78a72a59258127b7b4f0673d18", null ],
     [ "HandEventDestroyed", "d8/d9e/class_hand_event_base.html#a9008113635b1db0521fd59b0f27634a1", null ],
-    [ "HandEventDrop", "d8/d9e/class_hand_event_base.html#a9b6f3a37d12ab1e0c1b6369f5414e727", null ],
     [ "HandEventHumanCommandActionAborted", "d8/d9e/class_hand_event_base.html#a0a9e553083547d8db69a731d5a429191", null ],
     [ "HandEventHumanCommandActionFinished", "d8/d9e/class_hand_event_base.html#a296899e31a6905eae7fda6805d62b94b", null ],
     [ "HandEventMoveTo", "d8/d9e/class_hand_event_base.html#a6c669e041be20d1f0166345215539f56", null ],

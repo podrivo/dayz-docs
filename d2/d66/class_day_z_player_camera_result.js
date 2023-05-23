@@ -2,6 +2,8 @@ var class_day_z_player_camera_result =
 [
     [ "DayZPlayerCameraResult", "d2/d66/class_day_z_player_camera_result.html#a95e986b4d7329fe615d337d8f429faf7", null ],
     [ "~DayZPlayerCameraResult", "d2/d66/class_day_z_player_camera_result.html#aa8247a9cebbc426e98f7101ff64fe354", null ],
+    [ "m_bOwnerTMOverride", "d2/d66/class_day_z_player_camera_result.html#a0b260ec2bfeda11fa173f7ecf3f6e9f1", null ],
+    [ "m_bUpdateEveryFrame", "d2/d66/class_day_z_player_camera_result.html#a6a946ec515754301b3e2913b9b28e11d", null ],
     [ "m_bUpdateWhenBlendOut", "d2/d66/class_day_z_player_camera_result.html#a6f991d77bbd98b16207a6127ba001cb8", null ],
     [ "m_CameraTM", "d2/d66/class_day_z_player_camera_result.html#a98ee16459425f65ce38811dcb9c7442e", null ],
     [ "m_CollisionIgnoreEntity", "d2/d66/class_day_z_player_camera_result.html#ace1a1e9265f49faba3ac5e3e171077da", null ],
@@ -18,5 +20,6 @@ var class_day_z_player_camera_result =
     [ "m_fShootFromCamera", "d2/d66/class_day_z_player_camera_result.html#abe915a57586429413c9b465c6a3c1983", null ],
     [ "m_fUseHeading", "d2/d66/class_day_z_player_camera_result.html#a6a57f1808d82c4a2f814ef276ed2c8f7", null ],
     [ "m_iDirectBone", "d2/d66/class_day_z_player_camera_result.html#a32a10062d77bd73e2a39c71d0df8d8ce", null ],
-    [ "m_iDirectBoneMode", "d2/d66/class_day_z_player_camera_result.html#a22dac2d23366716ff24bb9c1af51892a", null ]
+    [ "m_iDirectBoneMode", "d2/d66/class_day_z_player_camera_result.html#a22dac2d23366716ff24bb9c1af51892a", null ],
+    [ "m_OwnerTM", "d2/d66/class_day_z_player_camera_result.html#a17fb0b206138baaf10d96c11ad40f18e", null ]
 ];

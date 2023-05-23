@@ -135,7 +135,8 @@ var gameplay_8c =
       [ "OPTION_QUICKBAR", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adaaf2921a66245877678df3b4d92bb5f37", null ],
       [ "OPTION_SERVER_INFO", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada7544c05c474f207de7fc4553ed50653f", null ],
       [ "OPTION_BLEEDINGINDICATION", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada32e6da6ddb8e67a938eb79a1303bd1e8", null ],
-      [ "OPTION_CONNECTIVITY_INFO", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada04f7b11fd777d255786d319e95f23fe4", null ]
+      [ "OPTION_CONNECTIVITY_INFO", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada04f7b11fd777d255786d319e95f23fe4", null ],
+      [ "OPTION_HUD_BRIGHTNESS", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae9596ece45e1c755aab044b6192f07b1", null ]
     ] ],
     [ "GetAttachmentSlotsArray", "d8/d18/gameplay_8c.html#a3c369c09d1dafd47c1c8b381b2613426", null ],
     [ "GetConfigArrayCountFromSlotID", "d8/d18/gameplay_8c.html#a169d61d7e19e98a55ab72d794af50167", null ],
@@ -182,7 +183,7 @@ var gameplay_8c =
     [ "NetworkManagerClientEventTypeID", "d8/d18/gameplay_8c.html#a9a51982130d50770faf73fb448694aa4", null ],
     [ "NetworkManagerServerEventTypeID", "d8/d18/gameplay_8c.html#aa4991add201a15d7dc8bba72fc010020", null ],
     [ "NullStringArray", "d8/d18/gameplay_8c.html#a5ae8bae27896b1abc03111823d805243", null ],
-    [ "Object", "d8/d18/gameplay_8c.html#afe6a96866b4830ef4c5f0237a67f88ba", null ],
+    [ "Object", "d8/d18/gameplay_8c.html#a972f7e85f9ce7a3e402c2ea098cf393c", null ],
     [ "PartyChatStatusChangedEventTypeID", "d8/d18/gameplay_8c.html#a11a86fd63b6b5e8976eae59f74295e04", null ],
     [ "PlayerDeathEventTypeID", "d8/d18/gameplay_8c.html#a7e23136a8b00c8829875a888f24ba805", null ],
     [ "PreloadEventTypeID", "d8/d18/gameplay_8c.html#aa050c6a6d0d9d3b603abe84e6e9ece04", null ],

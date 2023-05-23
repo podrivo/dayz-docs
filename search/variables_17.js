@@ -11,7 +11,7 @@ var searchData=
   ['warning_5fplus_8',['WARNING_PLUS',['../d9/de7/_display_status_8c.html#ab887db5f307a1676989c46aaaafa9632',1,'DisplayStatus.c']]],
   ['wash_5fhands_9',['WASH_HANDS',['../d8/d3b/class_u_a_time_spent.html#aa8fbe25adb788bf2d926697854fe3ac0',1,'UATimeSpent']]],
   ['wash_5fhands_5famount_10',['WASH_HANDS_AMOUNT',['../db/d38/class_action_wash_hands_item.html#a6ff0abd9535e0c142a0a54ef0aee3e6f',1,'ActionWashHandsItem']]],
-  ['water_11',['WATER',['../d7/da5/_impact_effects_8c.html#a1ca4b2667bca9c47783c99667fffa3ed',1,'WATER():&#160;ImpactEffects.c'],['../d9/d4a/_a_i_world_8c.html#a5dbb40d1a8b86e71b24c2cc27531211d',1,'WATER():&#160;AIWorld.c']]],
+  ['water_11',['WATER',['../d2/d47/class_impact_materials.html#a1ca4b2667bca9c47783c99667fffa3ed',1,'ImpactMaterials::WATER()'],['../d9/d4a/_a_i_world_8c.html#a5dbb40d1a8b86e71b24c2cc27531211d',1,'WATER():&#160;AIWorld.c']]],
   ['water_5fdeep_12',['WATER_DEEP',['../d9/d4a/_a_i_world_8c.html#a4d6a09bac7ee878195c2252c8502b15a',1,'AIWorld.c']]],
   ['water_5fdepth_13',['WATER_DEPTH',['../d3/d03/class_emote_base.html#a344328f08a4c6d48780a1c7ed8ba5108',1,'EmoteBase::WATER_DEPTH()'],['../d5/de4/class_action_fill_bottle_base.html#aefca480792cd38a1ec711117ead2fbbb',1,'ActionFillBottleBase::WATER_DEPTH()'],['../d7/df2/_emote_classes_8c.html#a344328f08a4c6d48780a1c7ed8ba5108',1,'WATER_DEPTH():&#160;EmoteClasses.c']]],
   ['water_5fdrain_5ffrom_5fvomit_14',['WATER_DRAIN_FROM_VOMIT',['../d3/da5/class_poisoning_mdfr.html#a4e971213e62da8093efc912a5f666dd2',1,'PoisoningMdfr::WATER_DRAIN_FROM_VOMIT()'],['../d2/dc7/class_cholera_mdfr.html#a4e971213e62da8093efc912a5f666dd2',1,'CholeraMdfr::WATER_DRAIN_FROM_VOMIT()'],['../dc/d5d/class_salmonella_mdfr.html#a4e971213e62da8093efc912a5f666dd2',1,'SalmonellaMdfr::WATER_DRAIN_FROM_VOMIT()']]],
@@ -60,7 +60,7 @@ var searchData=
   ['weight_5fsoaking_5fwet_57',['WEIGHT_SOAKING_WET',['../d8/d23/group___item_wetness.html#ga4d33719cf4a551f0fefbde32a2a3e400',1,'GameConstants']]],
   ['weight_5fwet_58',['WEIGHT_WET',['../d8/d23/group___item_wetness.html#ga8102dd96c87a4b134ccb2787252109b3',1,'GameConstants']]],
   ['wet_59',['WET',['../d8/dbb/_fireplace_base_8c.html#ae535d3f196b881d7dca8d62a860bf3d6',1,'FireplaceBase.c']]],
-  ['wetness_5fgain_5fmultiplier_60',['WETNESS_GAIN_MULTIPLIER',['../d1/d4e/class_action_extinguish_fireplace_by_extinguisher_c_b.html#a86d266869cf326793c681309d3fde35e',1,'ActionExtinguishFireplaceByExtinguisherCB::WETNESS_GAIN_MULTIPLIER()'],['../d6/dd4/class_action_extinguish_fireplace_by_liquid_c_b.html#a86d266869cf326793c681309d3fde35e',1,'ActionExtinguishFireplaceByLiquidCB::WETNESS_GAIN_MULTIPLIER()']]],
+  ['wetness_5fgain_5fmultiplier_60',['WETNESS_GAIN_MULTIPLIER',['../d6/dd4/class_action_extinguish_fireplace_by_liquid_c_b.html#a86d266869cf326793c681309d3fde35e',1,'ActionExtinguishFireplaceByLiquidCB::WETNESS_GAIN_MULTIPLIER()'],['../d1/d4e/class_action_extinguish_fireplace_by_extinguisher_c_b.html#a86d266869cf326793c681309d3fde35e',1,'ActionExtinguishFireplaceByExtinguisherCB::WETNESS_GAIN_MULTIPLIER()']]],
   ['wetness_5frate_5fdrying_5fground_61',['WETNESS_RATE_DRYING_GROUND',['../d2/d68/group___emote_i_ds.html#gad3ffbf9847f302f36bbfb8396c4377f7',1,'GameConstants']]],
   ['wetness_5frate_5fdrying_5finside_62',['WETNESS_RATE_DRYING_INSIDE',['../d2/d68/group___emote_i_ds.html#ga6517d2a5b38c0ccd9ead76fcdb8d8bfa',1,'GameConstants']]],
   ['wetness_5frate_5fwetting_5finside_63',['WETNESS_RATE_WETTING_INSIDE',['../d2/d68/group___emote_i_ds.html#ga33af0cf48a92f941579153799a3b0fff',1,'GameConstants']]],
@@ -81,7 +81,7 @@ var searchData=
   ['wl_5faverage_78',['WL_AVERAGE',['../df/d89/_land___underground___water_reservoir_8c.html#a9b3ca38a8a08d3964eb04b0678dfd1c2',1,'Land_Underground_WaterReservoir.c']]],
   ['wl_5fmax_79',['WL_MAX',['../df/d89/_land___underground___water_reservoir_8c.html#a390e7d7a19b5701e4be954cc99004122',1,'Land_Underground_WaterReservoir.c']]],
   ['wl_5fmin_80',['WL_MIN',['../df/d89/_land___underground___water_reservoir_8c.html#a70f29dbc9793e00178388acf9898c8d4',1,'Land_Underground_WaterReservoir.c']]],
-  ['wood_81',['WOOD',['../d7/da5/_impact_effects_8c.html#a82ed4567eb805163003e674f849f0a73',1,'ImpactEffects.c']]],
+  ['wood_81',['WOOD',['../d2/d47/class_impact_materials.html#a82ed4567eb805163003e674f849f0a73',1,'ImpactMaterials']]],
   ['woolshirt_82',['WoolShirt',['../d1/d0d/_day_z_anim_events_8c.html#ac28875f383583b2ccd0762ff472dbd18',1,'DayZAnimEvents.c']]],
   ['working_5fsound_83',['WORKING_SOUND',['../d0/da1/class_kitchen_timer.html#a0c54b12bafa254dd92766b4e5fdc1170',1,'KitchenTimer']]],
   ['world_84',['WORLD',['../d9/d23/class_economy_output_strings.html#a3afc385fd86eb7afbcfe8e9c4f744db2',1,'EconomyOutputStrings::WORLD()'],['../db/d35/_central_economy_8c.html#a3afc385fd86eb7afbcfe8e9c4f744db2',1,'WORLD():&#160;CentralEconomy.c']]],
@@ -89,5 +89,6 @@ var searchData=
   ['worldcontainer_5fbase_86',['WorldContainer_Base',['../d0/d3b/containers_8c.html#a5d5fd178a3bd283791e05b4c2b61b8cf',1,'containers.c']]],
   ['worldsdata_87',['WorldsData',['../d9/df7/class_cfg_gameplay_json.html#a2b7bd12712f46cc7f83d9dda8827717e',1,'CfgGameplayJson']]],
   ['worn_88',['WORN',['../d3/de1/class_injury_handler_thresholds.html#a16a5e7aa0fbeb622252ed0b62daae049',1,'InjuryHandlerThresholds']]],
-  ['writebool_89',['WriteBool',['../dc/d3d/proto_8c.html#ad651bf95d941389579626fa9e3d0f56d',1,'proto.c']]]
+  ['wring_89',['WRING',['../d8/d3b/class_u_a_time_spent.html#a334b52ecaeb92cecadbbe6e26ce88e83',1,'UATimeSpent']]],
+  ['writebool_90',['WriteBool',['../dc/d3d/proto_8c.html#ad651bf95d941389579626fa9e3d0f56d',1,'proto.c']]]
 ];

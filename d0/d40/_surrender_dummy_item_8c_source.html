@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d0/d40/_surrender_dummy_item_8c_source
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="comment">//Player somehow got a hold of the item (can be done by quickly pressing tab after F5), item should not exist outside of surrender</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">if</span> (old_owner)</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <a class="code hl_function" href="../../dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Delete</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            Delete();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="comment">/*</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">        //enters player&#39;s inventory</span></div>
@@ -138,7 +138,6 @@ $(document).ready(function(){initNavTree('d0/d40/_surrender_dummy_item_8c_source
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">        */</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
-<div class="ttc" id="a_object_8c_html_ac2e5aab0612d67400354a4fe71278a21"><div class="ttname"><a href="../../dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Delete</a></div><div class="ttdeci">void Delete()</div><div class="ttdoc">Delete this object in next frame.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d93/_object_8c_source.html#l00026">Object.c:26</a></div></div>
 <div class="ttc" id="aclass_dummy_item_html"><div class="ttname"><a href="../../dc/dbf/class_dummy_item.html">DummyItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd0/_magnum_8c_source.html#l00404">Magnum.c:404</a></div></div>
 <div class="ttc" id="aclass_dummy_item_html_a1320fa5889e47c848cbb7b33a142bda2"><div class="ttname"><a href="../../dc/dbf/class_dummy_item.html#a1320fa5889e47c848cbb7b33a142bda2">DummyItem::OnItemLocationChanged</a></div><div class="ttdeci">override void OnItemLocationChanged(EntityAI old_owner, EntityAI new_owner)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d40/_surrender_dummy_item_8c_source.html#l00014">SurrenderDummyItem.c:14</a></div></div>
 <div class="ttc" id="aclass_dummy_item_html_a6bfbf8bafd3ac389bbfdd5fc52abd8d8"><div class="ttname"><a href="../../dc/dbf/class_dummy_item.html#a6bfbf8bafd3ac389bbfdd5fc52abd8d8">DummyItem::m_player</a></div><div class="ttdeci">protected PlayerBase m_player</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d40/_surrender_dummy_item_8c_source.html#l00003">SurrenderDummyItem.c:3</a></div></div>

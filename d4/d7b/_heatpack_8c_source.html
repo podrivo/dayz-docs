@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('d4/d7b/_heatpack_8c_source.html','../.
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().IsServer())</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <a class="code hl_function" href="../../dd/d93/_object_8c.html#a06e179b153af2d7dbc7d007ba0fbdf8a">SetHealth</a>(0);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            SetHealth(0);</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    </div>
@@ -140,8 +140,7 @@ $(document).ready(function(){initNavTree('d4/d7b/_heatpack_8c_source.html','../.
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
 <div class="ttc" id="a_advanced_communication_8c_html_a52cdff768ebc148eee5a17e4ebef3408"><div class="ttname"><a href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a></div><div class="ttdeci">void AddAction(typename actionName)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AdvancedCommunication.c:220</a></div></div>
-<div class="ttc" id="a_item_base_8c_html_a6575a3ce42605b824de5b21a79320f0e"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#a6575a3ce42605b824de5b21a79320f0e">SetTemperature</a></div><div class="ttdeci">override void SetTemperature(float value, bool allow_client=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l08109">ItemBase.c:8109</a></div></div>
-<div class="ttc" id="a_object_8c_html_a06e179b153af2d7dbc7d007ba0fbdf8a"><div class="ttname"><a href="../../dd/d93/_object_8c.html#a06e179b153af2d7dbc7d007ba0fbdf8a">SetHealth</a></div><div class="ttdeci">proto native void SetHealth(string zoneName, string healthType, float value)</div><div class="ttdoc">Sets current state of health.</div></div>
+<div class="ttc" id="a_item_base_8c_html_a6575a3ce42605b824de5b21a79320f0e"><div class="ttname"><a href="../../df/d2e/_item_base_8c.html#a6575a3ce42605b824de5b21a79320f0e">SetTemperature</a></div><div class="ttdeci">override void SetTemperature(float value, bool allow_client=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2e/_item_base_8c_source.html#l08130">ItemBase.c:8130</a></div></div>
 <div class="ttc" id="aclass_action_turn_on_heatpack_html"><div class="ttname"><a href="../../d5/d9f/class_action_turn_on_heatpack.html">ActionTurnOnHeatpack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc5/_action_turn_on_heatpack_8c_source.html#l00001">ActionTurnOnHeatpack.c:2</a></div></div>
 <div class="ttc" id="aclass_heatpack_html"><div class="ttname"><a href="../../dd/d05/class_heatpack.html">Heatpack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/_heatpack_8c_source.html#l00001">Heatpack.c:2</a></div></div>
 <div class="ttc" id="aclass_heatpack_html_a64ad8752dcd35c4be3998612aeb61bfc"><div class="ttname"><a href="../../dd/d05/class_heatpack.html#a64ad8752dcd35c4be3998612aeb61bfc">Heatpack::OnWorkStop</a></div><div class="ttdeci">override void OnWorkStop()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/_heatpack_8c_source.html#l00024">Heatpack.c:24</a></div></div>
@@ -149,7 +148,7 @@ $(document).ready(function(){initNavTree('d4/d7b/_heatpack_8c_source.html','../.
 <div class="ttc" id="aclass_heatpack_html_abf45da335d07e3e78aa558714d3c38e8"><div class="ttname"><a href="../../dd/d05/class_heatpack.html#abf45da335d07e3e78aa558714d3c38e8">Heatpack::OnWorkStart</a></div><div class="ttdeci">override void OnWorkStart()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/_heatpack_8c_source.html#l00008">Heatpack.c:8</a></div></div>
 <div class="ttc" id="aclass_heatpack_html_adeb38f82748c28d846b5312bd7b6d9b7"><div class="ttname"><a href="../../dd/d05/class_heatpack.html#adeb38f82748c28d846b5312bd7b6d9b7">Heatpack::CanHaveTemperature</a></div><div class="ttdeci">override bool CanHaveTemperature()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/_heatpack_8c_source.html#l00003">Heatpack.c:3</a></div></div>
 <div class="ttc" id="aclass_heatpack_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../dd/d05/class_heatpack.html#afa39b7c4d3d085ef8514a87c32b81a4d">Heatpack::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/_heatpack_8c_source.html#l00032">Heatpack.c:32</a></div></div>
-<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00762">InventoryItem.c:763</a></div></div>
+<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00731">InventoryItem.c:732</a></div></div>
 <div class="ttc" id="agameplay_8c_html_aebb1fa6632d513bc849994e7b6c9c93d"><div class="ttname"><a href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a></div><div class="ttdeci">proto native CGame GetGame()</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

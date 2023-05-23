@@ -3,7 +3,6 @@ var class_attachment_categories_slots_container =
     [ "AttachmentCategoriesSlotsContainer", "de/db4/class_attachment_categories_slots_container.html#a7b31cf7244504d34cbf8cd0d31aa6248", null ],
     [ "CanCombine", "de/db4/class_attachment_categories_slots_container.html#a639624b9df1cb4b65cd897c2dfc949fb", null ],
     [ "CanCombineAmmo", "de/db4/class_attachment_categories_slots_container.html#a9f6e3b1133e790bc71784c5cfcb975e4", null ],
-    [ "CanEquip", "de/db4/class_attachment_categories_slots_container.html#aee6830274144485e993702bfd4f8965c", null ],
     [ "Combine", "de/db4/class_attachment_categories_slots_container.html#aa2acb04588ab948a8893be1d95f9cd1f", null ],
     [ "EquipItem", "de/db4/class_attachment_categories_slots_container.html#aa30b3eef807e23fba8bef8d18c8632a8", null ],
     [ "ExpandCollapseContainer", "de/db4/class_attachment_categories_slots_container.html#afff27ed1da2d693ce0641f07d9c970d9", null ],

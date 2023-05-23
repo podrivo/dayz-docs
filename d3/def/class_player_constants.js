@@ -62,6 +62,8 @@ var class_player_constants =
     [ "CORPSE_THRESHOLD_MEDIUM", "d3/def/class_player_constants.html#a13613bb674bfa7b084ea2c74b2377c40", null ],
     [ "DAMAGE_ZONE_BLOOD_REGEN_MODIFIER", "d3/def/class_player_constants.html#a36c6c5029b378ead4d72d1947821055e", null ],
     [ "DIGESTION_SPEED", "d3/def/class_player_constants.html#a1ab56d740c30d0c23f0cfa2c18a277cb", null ],
+    [ "DROWNING_BUBBLE_FREQUENCY_MAX", "d3/def/class_player_constants.html#af4c9e8b8bf78372f1ebce0c4f223e43a", null ],
+    [ "DROWNING_BUBBLE_FREQUENCY_MIN", "d3/def/class_player_constants.html#a3982e12cfe3c65215c5672b0c6a049dc", null ],
     [ "DROWNING_DEFAULT_THRESHOLD", "d3/def/class_player_constants.html#ab5cb3d9e7c70c20c9f3bee73edc7444a", null ],
     [ "DROWNING_SWIMMING_THRESHOLD", "d3/def/class_player_constants.html#a421394d58836f4f69770c06eda9eef74", null ],
     [ "DROWNING_UNCONSCIOUS_THRESHOLD", "d3/def/class_player_constants.html#af698cfbb4e41d755096234c39ef7301d", null ],

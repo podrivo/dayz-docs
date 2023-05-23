@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -163,6 +163,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad2838342b06b0ef6e805a07789820777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d66/class_day_z_player_camera_result.html#ad2838342b06b0ef6e805a07789820777">m_fIgnoreParentYaw</a></td></tr>
 <tr class="memdesc:ad2838342b06b0ef6e805a07789820777"><td class="mdescLeft">&#160;</td><td class="mdescRight">1 - resets base transforms yaw  <br /></td></tr>
 <tr class="separator:ad2838342b06b0ef6e805a07789820777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a946ec515754301b3e2913b9b28e11d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d66/class_day_z_player_camera_result.html#a6a946ec515754301b3e2913b9b28e11d">m_bUpdateEveryFrame</a></td></tr>
+<tr class="memdesc:a6a946ec515754301b3e2913b9b28e11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the camera updates the next frame or blends with next character update.  <br /></td></tr>
+<tr class="separator:a6a946ec515754301b3e2913b9b28e11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17fb0b206138baaf10d96c11ad40f18e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d66/class_day_z_player_camera_result.html#a17fb0b206138baaf10d96c11ad40f18e">m_OwnerTM</a> [4]</td></tr>
+<tr class="memdesc:a17fb0b206138baaf10d96c11ad40f18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">override automatically calculated owner transform during rendering (default - false)  <br /></td></tr>
+<tr class="separator:a17fb0b206138baaf10d96c11ad40f18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b260ec2bfeda11fa173f7ecf3f6e9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d66/class_day_z_player_camera_result.html#a0b260ec2bfeda11fa173f7ecf3f6e9f1">m_bOwnerTMOverride</a></td></tr>
+<tr class="memdesc:a0b260ec2bfeda11fa173f7ecf3f6e9f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The world space transform of the owner to the camera.  <br /></td></tr>
+<tr class="separator:a0b260ec2bfeda11fa173f7ecf3f6e9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace1a1e9265f49faba3ac5e3e171077da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d66/class_day_z_player_camera_result.html#ace1a1e9265f49faba3ac5e3e171077da">m_CollisionIgnoreEntity</a></td></tr>
 <tr class="memdesc:ace1a1e9265f49faba3ac5e3e171077da"><td class="mdescLeft">&#160;</td><td class="mdescRight">ignore entity in 3rd person camera collision solver  <br /></td></tr>
 <tr class="separator:ace1a1e9265f49faba3ac5e3e171077da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +205,7 @@ Private Attributes</h2></td></tr>
 
 <p>cannot be instanced from script (always created from C++) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00034">34</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00039">39</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -225,11 +234,63 @@ Private Attributes</h2></td></tr>
 
 <p>cannot be instanced from script (always created from C++) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00039">39</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00044">44</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="a0b260ec2bfeda11fa173f7ecf3f6e9f1" name="a0b260ec2bfeda11fa173f7ecf3f6e9f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b260ec2bfeda11fa173f7ecf3f6e9f1">&#9670;&#160;</a></span>m_bOwnerTMOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_bOwnerTMOverride</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The world space transform of the owner to the camera. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00034">34</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+
+</div>
+</div>
+<a id="a6a946ec515754301b3e2913b9b28e11d" name="a6a946ec515754301b3e2913b9b28e11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a946ec515754301b3e2913b9b28e11d">&#9670;&#160;</a></span>m_bUpdateEveryFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_bUpdateEveryFrame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the camera updates the next frame or blends with next character update. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00031">31</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+
+</div>
+</div>
 <a id="a6f991d77bbd98b16207a6127ba001cb8" name="a6f991d77bbd98b16207a6127ba001cb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f991d77bbd98b16207a6127ba001cb8">&#9670;&#160;</a></span>m_bUpdateWhenBlendOut</h2>
 
@@ -304,7 +365,7 @@ Private Attributes</h2></td></tr>
 
 <p>ignore entity in 3rd person camera collision solver </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00031">31</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00036">36</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -668,6 +729,32 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00024">24</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+
+</div>
+</div>
+<a id="a17fb0b206138baaf10d96c11ad40f18e" name="a17fb0b206138baaf10d96c11ad40f18e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17fb0b206138baaf10d96c11ad40f18e">&#9670;&#160;</a></span>m_OwnerTM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dfc/classvector.html">vector</a> m_OwnerTM[4]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>override automatically calculated owner transform during rendering (default - false) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00033">33</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>

@@ -1,10 +1,15 @@
 var searchData=
 [
-  ['tabtype_0',['TabType',['../d7/de3/_server_browser_tab_8c.html#a6d0b33e703e1291d0b60d4fe5a5e12cc',1,'ServerBrowserTab.c']]],
-  ['tfr_1',['TFR',['../d6/dc4/_test_framework_8c.html#a8632cf91331642a65d3a7a7002ca9500',1,'TestFramework.c']]],
-  ['throwentityflags_2',['ThrowEntityFlags',['../dc/d98/_misc_gameplay_functions_8c.html#a415e83ef6b8073d37ad4f88fba082421',1,'MiscGameplayFunctions.c']]],
-  ['traceflags_3',['TraceFlags',['../de/d65/group___world_trace.html#gae6702e9d0693293d048382c4f6547bcd',1,'EnWorld.c']]],
-  ['traceshape_4',['TraceShape',['../de/d65/group___world_trace.html#gae06cbef09a3e547e760f978fa8bcfc70',1,'EnWorld.c']]],
-  ['transferinventoryresult_5',['TransferInventoryResult',['../dc/d98/_misc_gameplay_functions_8c.html#a1918367fffd59ebabe7c11069db2e112',1,'MiscGameplayFunctions.c']]],
-  ['triggershape_6',['TriggerShape',['../dc/d9f/_scripted_entity_8c.html#aaeebe0cb195464d17884b96356278c39',1,'ScriptedEntity.c']]]
+  ['screenwidthtype_0',['ScreenWidthType',['../dc/dd0/_inventory_menu_8c.html#a879ddd8a54b6ad307d11a1ccff69a26f',1,'InventoryMenu.c']]],
+  ['shapeflags_1',['ShapeFlags',['../d6/dae/group___debug_shape.html#gae99018d13c3c8a3cc164600046082d04',1,'EnDebug.c']]],
+  ['shapetype_2',['ShapeType',['../d6/dae/group___debug_shape.html#ga5a4538eeab397888d88a4eefcc5a1345',1,'EnDebug.c']]],
+  ['sksanimstate_3',['SKSAnimState',['../dd/daa/_s_k_s_8c.html#acc7b4ee197aa314bd68e0f44f758a78b',1,'SKS.c']]],
+  ['sksstablestateid_4',['SKSStableStateID',['../dd/daa/_s_k_s_8c.html#a94430f6b22ec16121c108a177d511064',1,'SKS.c']]],
+  ['soundtypebottle_5',['SoundTypeBottle',['../d9/d1a/_bottle___base_8c.html#a0dc01e5a4cd58ba01beefe51fda109c4',1,'Bottle_Base.c']]],
+  ['soundtypemine_6',['SoundTypeMine',['../d7/dc3/_trap___land_mine_8c.html#ab7c0a8c87c9492901190e660dacb20f4',1,'Trap_LandMine.c']]],
+  ['soundtypetent_7',['SoundTypeTent',['../d7/d30/_large_tent_8c.html#aa3f87dc65c87584aee3ad19f700a9e78',1,'LargeTent.c']]],
+  ['soundtypetrap_8',['SoundTypeTrap',['../dd/dd8/_trap_base_8c.html#ab155e660ca2cb510abae8873ae91df24',1,'TrapBase.c']]],
+  ['sspanimstate_9',['SSPAnimState',['../d2/db3/_single_shot_pistol___base_8c.html#a70d3c4e132218cbbdc95c459f20d47e0',1,'SingleShotPistol_Base.c']]],
+  ['sspstablestateid_10',['SSPStableStateID',['../d2/db3/_single_shot_pistol___base_8c.html#a3a1563cd5dd2a27b9301ac6e46734d2f',1,'SingleShotPistol_Base.c']]],
+  ['symptomtypes_11',['SymptomTypes',['../db/d8d/_state_manager_8c.html#a84def72c3d57c1a4612870b946745b74',1,'StateManager.c']]]
 ];

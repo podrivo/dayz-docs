@@ -2,7 +2,9 @@ var dir_83cc0c8eba4a72bfe3adb008d3261509 =
 [
     [ "EActions.c", "d0/db8/_e_actions_8c.html", "d0/db8/_e_actions_8c" ],
     [ "EAgents.c", "d3/dfb/_e_agents_8c.html", "d3/dfb/_e_agents_8c" ],
+    [ "EAnimSoundEventID.c", "d5/df7/_e_anim_sound_event_i_d_8c.html", "d5/df7/_e_anim_sound_event_i_d_8c" ],
     [ "EBrokenLegs.c", "d6/d11/_e_broken_legs_8c.html", "d6/d11/_e_broken_legs_8c" ],
+    [ "ECameraZoomType.c", "de/d86/_e_camera_zoom_type_8c.html", "de/d86/_e_camera_zoom_type_8c" ],
     [ "ECharGender.c", "d7/ddc/_e_char_gender_8c.html", "d7/ddc/_e_char_gender_8c" ],
     [ "EConsumeType.c", "d1/d4e/_e_consume_type_8c.html", "d1/d4e/_e_consume_type_8c" ],
     [ "EContaminationTypes.c", "dc/d2e/_e_contamination_types_8c.html", "dc/d2e/_e_contamination_types_8c" ],
@@ -19,5 +21,7 @@ var dir_83cc0c8eba4a72bfe3adb008d3261509 =
     [ "EStatLevels.c", "da/db4/_e_stat_levels_8c.html", "da/db4/_e_stat_levels_8c" ],
     [ "ESyncEvent.c", "da/d0b/_e_sync_event_8c.html", "da/d0b/_e_sync_event_8c" ],
     [ "ETimeOfDay.c", "d8/d81/_e_time_of_day_8c.html", "d8/d81/_e_time_of_day_8c" ],
-    [ "EWaterLevels.c", "de/da8/_e_water_levels_8c.html", "de/da8/_e_water_levels_8c" ]
+    [ "ETransformationAxis.c", "d6/d49/_e_transformation_axis_8c.html", "d6/d49/_e_transformation_axis_8c" ],
+    [ "EWaterLevels.c", "de/da8/_e_water_levels_8c.html", "de/da8/_e_water_levels_8c" ],
+    [ "EWaterSourceObjectType.c", "d3/d27/_e_water_source_object_type_8c.html", "d3/d27/_e_water_source_object_type_8c" ]
 ];

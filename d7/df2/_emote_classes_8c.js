@@ -1,6 +1,7 @@
 var _emote_classes_8c =
 [
     [ "EmoteBase", "d3/d03/class_emote_base.html", "d3/d03/class_emote_base" ],
+    [ "CanBeCanceledNormally", "d7/df2/_emote_classes_8c.html#ad14fe248a6cb7717de356b78d756642a", null ],
     [ "DetermineOverride", "d7/df2/_emote_classes_8c.html#a32d5c31b66017fb6bd881315244af52e", null ],
     [ "EmoteCampfireSit", "d7/df2/_emote_classes_8c.html#ad53b7639cf31c8b139305fcb40230eca", null ],
     [ "EmoteClap", "d7/df2/_emote_classes_8c.html#acfd1f77cca0d0e07d65b79373122c188", null ],
@@ -45,5 +46,6 @@ var _emote_classes_8c =
     [ "EmoteVomit", "d7/df2/_emote_classes_8c.html#a72651fa9d643364331f0fe441db1b70d", null ],
     [ "EmoteWatching", "d7/df2/_emote_classes_8c.html#a1a40a4dde7b17464dc8bdf7a77950a92", null ],
     [ "OnBeforeStandardCallbackCreated", "d7/df2/_emote_classes_8c.html#a169857d27c13596a7186b2b690219bfc", null ],
+    [ "OnCallbackEnd", "d7/df2/_emote_classes_8c.html#aaf71147651067ecf313bc639570eb5e3", null ],
     [ "WATER_DEPTH", "d7/df2/_emote_classes_8c.html#a344328f08a4c6d48780a1c7ed8ba5108", null ]
 ];

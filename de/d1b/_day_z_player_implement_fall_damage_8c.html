@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -99,7 +99,9 @@ $(document).ready(function(){initNavTree('de/d1b/_day_z_player_implement_fall_da
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">DayZPlayerImplementFallDamage.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -108,9 +110,1098 @@ $(document).ready(function(){initNavTree('de/d1b/_day_z_player_implement_fall_da
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/class_day_z_player_implement_fall_damage.html">DayZPlayerImplementFallDamage</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4f10bb6b3389e7222dd48bc66402bfaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a4f10bb6b3389e7222dd48bc66402bfaa">DayZPlayerImplementFallDamage</a> (<a class="el" href="../../db/d2e/class_day_z_player.html">DayZPlayer</a> pPlayer)</td></tr>
+<tr class="separator:a4f10bb6b3389e7222dd48bc66402bfaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6bcd33ea3946342b59f8c952bca29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a3a6bcd33ea3946342b59f8c952bca29c">GetHeight</a> ()</td></tr>
+<tr class="separator:a3a6bcd33ea3946342b59f8c952bca29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe799f2ad21c0fcde37acf558cd5a3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#afe799f2ad21c0fcde37acf558cd5a3ac">GetLandType</a> ()</td></tr>
+<tr class="separator:afe799f2ad21c0fcde37acf558cd5a3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6cd7c77c7b6c41d43392aa1f1f8b6e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ab6cd7c77c7b6c41d43392aa1f1f8b6e7">HandleFallDamage</a> (<a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a> pData)</td></tr>
+<tr class="separator:ab6cd7c77c7b6c41d43392aa1f1f8b6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae65defbfcda05c17ff82c7dd8ecd49d8"><td class="memItemLeft" align="right" valign="top">private <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ae65defbfcda05c17ff82c7dd8ecd49d8">Randomize</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pType, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pValue)</td></tr>
+<tr class="separator:ae65defbfcda05c17ff82c7dd8ecd49d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b0d4768052e4a3736dbf7e6a99fa84c"><td class="memItemLeft" align="right" valign="top">private void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a7b0d4768052e4a3736dbf7e6a99fa84c">AttachBleedingToZonesByHeight</a> (notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> pPlayer)</td></tr>
+<tr class="separator:a7b0d4768052e4a3736dbf7e6a99fa84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949a576985410bba17c2bc7224ed0b80"><td class="memItemLeft" align="right" valign="top">private void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a949a576985410bba17c2bc7224ed0b80">DamageAttachedGear</a> (notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> pPlayer)</td></tr>
+<tr class="separator:a949a576985410bba17c2bc7224ed0b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106c7d7694213d311ab918bf3ab1a734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a106c7d7694213d311ab918bf3ab1a734">HandleFallDamage</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pHeight)</td></tr>
+<tr class="separator:a106c7d7694213d311ab918bf3ab1a734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e1eabe288cb586628fa58e966dbcfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ab2e1eabe288cb586628fa58e966dbcfc">DamageCoef</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pHeight)</td></tr>
+<tr class="separator:ab2e1eabe288cb586628fa58e966dbcfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a024dd832488c23bc96ad0197d4890400"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a024dd832488c23bc96ad0197d4890400">FALL_DAMAGE_AMMO_HEALTH</a> = &quot;FallDamageHealth&quot;</td></tr>
+<tr class="separator:a024dd832488c23bc96ad0197d4890400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a51d611839efca248062e56aeed64e3"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a7a51d611839efca248062e56aeed64e3">FALL_DAMAGE_AMMO_SHOCK</a> = &quot;FallDamageShock&quot;</td></tr>
+<tr class="separator:a7a51d611839efca248062e56aeed64e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a98b30d424ccc4e6492114c6f5ebe7e"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a7a98b30d424ccc4e6492114c6f5ebe7e">FALL_DAMAGE_AMMO_HEALTH_ATTACHMENT</a> = &quot;FallDamageHealthAttachment&quot;</td></tr>
+<tr class="separator:a7a98b30d424ccc4e6492114c6f5ebe7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300c8a38e55561d792b2d223a276b620"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a300c8a38e55561d792b2d223a276b620">FALL_DAMAGE_AMMO_HEALTH_OTHER_ATTACHMENTS</a> = &quot;FallDamageHealthOtherAttachments&quot;</td></tr>
+<tr class="separator:a300c8a38e55561d792b2d223a276b620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4a0d2509a03db7a77630a3fa220b5f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a3f4a0d2509a03db7a77630a3fa220b5f">HEALTH_HEIGHT_LOW</a> = 5</td></tr>
+<tr class="separator:a3f4a0d2509a03db7a77630a3fa220b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff550490192678aff0ebe84b1924d45e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#aff550490192678aff0ebe84b1924d45e">HEALTH_HEIGHT_HIGH</a> = 14</td></tr>
+<tr class="separator:aff550490192678aff0ebe84b1924d45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6697a09395ce79204967f865d0ca916"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ae6697a09395ce79204967f865d0ca916">SHOCK_HEIGHT_LOW</a> = 3</td></tr>
+<tr class="separator:ae6697a09395ce79204967f865d0ca916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077bf4a2313ed6b32789025beb925aa2"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a077bf4a2313ed6b32789025beb925aa2">SHOCK_HEIGHT_HIGH</a> = 12</td></tr>
+<tr class="separator:a077bf4a2313ed6b32789025beb925aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a2bc1e663268ecf353467fe61f97e2"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a60a2bc1e663268ecf353467fe61f97e2">BROKENLEGS_HEIGHT_LOW</a> = 5</td></tr>
+<tr class="separator:a60a2bc1e663268ecf353467fe61f97e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3fda3952398492e529756da9bfbf8f8"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ac3fda3952398492e529756da9bfbf8f8">BROKENLEGS_HEIGHT_HIGH</a> = 9</td></tr>
+<tr class="separator:ac3fda3952398492e529756da9bfbf8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9a95480ae127e592b876ae41717352"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#aae9a95480ae127e592b876ae41717352">GLOVES_HEALTH_HEIGHT_LOW</a> = 5</td></tr>
+<tr class="separator:aae9a95480ae127e592b876ae41717352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804bdf3ebb36d77a67bee0e1783f89d6"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a804bdf3ebb36d77a67bee0e1783f89d6">GLOVES_HEALTH_HEIGHT_HIGH</a> = 15</td></tr>
+<tr class="separator:a804bdf3ebb36d77a67bee0e1783f89d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458d9d0b3c1c662bfd1e813c5aebf21a"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a458d9d0b3c1c662bfd1e813c5aebf21a">SHOES_HEALTH_HEIGHT_LOW</a> = 2</td></tr>
+<tr class="separator:a458d9d0b3c1c662bfd1e813c5aebf21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10370c04f5708b288e4acec6109ae31"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#af10370c04f5708b288e4acec6109ae31">SHOES_HEALTH_HEIGHT_HIGH</a> = 15</td></tr>
+<tr class="separator:af10370c04f5708b288e4acec6109ae31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3dc10f0464b397028f51ea1a25ead9f"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#af3dc10f0464b397028f51ea1a25ead9f">PANTS_HEALTH_HEIGHT_LOW</a> = 5</td></tr>
+<tr class="separator:af3dc10f0464b397028f51ea1a25ead9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3dca267e0d50ed1293cf6c639ced1d"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a4a3dca267e0d50ed1293cf6c639ced1d">PANTS_HEALTH_HEIGHT_HIGH</a> = 16</td></tr>
+<tr class="separator:a4a3dca267e0d50ed1293cf6c639ced1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a46a3d9745a7a893bd86052e3b1481f"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a7a46a3d9745a7a893bd86052e3b1481f">BLEEDINGHANDS_HEIGHT_LOW</a> = 5</td></tr>
+<tr class="separator:a7a46a3d9745a7a893bd86052e3b1481f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d7e56d795f42074a331756617980e8"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a26d7e56d795f42074a331756617980e8">BLEEDINGFEET_HEIGHT_LOW</a> = 3</td></tr>
+<tr class="separator:a26d7e56d795f42074a331756617980e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b26ef6bbb042b954ee1abea1cdf4aed"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a2b26ef6bbb042b954ee1abea1cdf4aed">BLEEDINGLEGS_HEIGHT_LOW</a> = 10</td></tr>
+<tr class="separator:a2b26ef6bbb042b954ee1abea1cdf4aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fdd229db8cb9f8c3096f5b329cafa6"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a24fdd229db8cb9f8c3096f5b329cafa6">RANDOM_THRESHOLD_HEALTH_LOW</a> = 0.05</td></tr>
+<tr class="separator:a24fdd229db8cb9f8c3096f5b329cafa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad84f7b47dd0cfb66309cf6d189119751"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ad84f7b47dd0cfb66309cf6d189119751">RANDOM_THRESHOLD_HEALTH_HIGH</a> = 0.1</td></tr>
+<tr class="separator:ad84f7b47dd0cfb66309cf6d189119751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca76e19a7a9bb7c2beed6700441f110"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#afca76e19a7a9bb7c2beed6700441f110">RANDOM_THRESHOLD_LEGS_LOW</a> = 0.05</td></tr>
+<tr class="separator:afca76e19a7a9bb7c2beed6700441f110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8abbeca5339f944fe07c5521f86c61"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a6f8abbeca5339f944fe07c5521f86c61">RANDOM_THRESHOLD_LEGS_HIGH</a> = 0.1</td></tr>
+<tr class="separator:a6f8abbeca5339f944fe07c5521f86c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6639f35d370e8d0b60f90a96d1d2fa6"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ae6639f35d370e8d0b60f90a96d1d2fa6">RANDOM_THRESHOLD_ATTACHMENTS_LOW</a> = 0</td></tr>
+<tr class="separator:ae6639f35d370e8d0b60f90a96d1d2fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae55d0950074e18008374eb6ea072e51"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#aae55d0950074e18008374eb6ea072e51">RANDOM_THRESHOLD_ATTACHMENTS_HIGH</a> = 0.2</td></tr>
+<tr class="separator:aae55d0950074e18008374eb6ea072e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c0335df9458271e341a1ffac8b5487"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a77c0335df9458271e341a1ffac8b5487">BLEEDING_CHANCE_HEIGHT_LOW</a> = 3</td></tr>
+<tr class="separator:a77c0335df9458271e341a1ffac8b5487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f42ba99e780462d33425ca2d852cec"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a87f42ba99e780462d33425ca2d852cec">BLEEDING_CHANCE_HEIGHT_HIGH</a> = 15</td></tr>
+<tr class="separator:a87f42ba99e780462d33425ca2d852cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c50c727f62f0299c427ae6e80775828"><td class="memItemLeft" align="right" valign="top">static private const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a9c50c727f62f0299c427ae6e80775828">BROKENLEGS_HEALTH_DAMAGE_MAX</a> = 125</td></tr>
+<tr class="separator:a9c50c727f62f0299c427ae6e80775828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13ca9ff9028b498d43376e016a80899"><td class="memItemLeft" align="right" valign="top">static private const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ae13ca9ff9028b498d43376e016a80899">BLEEDING_HANDS_SELECTIONS</a> [2] = {&quot;LeftForeArmRoll&quot;, &quot;RightForeArmRoll&quot;}</td></tr>
+<tr class="separator:ae13ca9ff9028b498d43376e016a80899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc41f9784ca41cb60e28b2888f6948f"><td class="memItemLeft" align="right" valign="top">static private const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#afdc41f9784ca41cb60e28b2888f6948f">BLEEDING_FEET_SELECTIONS</a> [2] = {&quot;LeftFoot&quot;, &quot;RightFoot&quot;}</td></tr>
+<tr class="separator:afdc41f9784ca41cb60e28b2888f6948f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02b485349f155877be7b43794f3290d4"><td class="memItemLeft" align="right" valign="top">static private const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a02b485349f155877be7b43794f3290d4">BLEEDING_LEGS_SELECTIONS</a> [2] = {&quot;LeftLeg&quot;, &quot;RightLeg&quot;}</td></tr>
+<tr class="separator:a02b485349f155877be7b43794f3290d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836430efad61e56b09005705e3b7940d"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a836430efad61e56b09005705e3b7940d">DAMAGE_TYPE_GLOBAL</a> = 0</td></tr>
+<tr class="separator:a836430efad61e56b09005705e3b7940d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62a69f11e1d5eeb5fa6ed8afb057d9e"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ac62a69f11e1d5eeb5fa6ed8afb057d9e">DAMAGE_TYPE_LEGS</a> = 1</td></tr>
+<tr class="separator:ac62a69f11e1d5eeb5fa6ed8afb057d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ea20b300bcf3c346af5a1bfebf163d"><td class="memItemLeft" align="right" valign="top">private const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a65ea20b300bcf3c346af5a1bfebf163d">DAMAGE_TYPE_ATTACHMENTS</a> = 2</td></tr>
+<tr class="separator:a65ea20b300bcf3c346af5a1bfebf163d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c9c884bca3aa4e9ad2d29b0795d534"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2e/class_day_z_player.html">DayZPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a39c9c884bca3aa4e9ad2d29b0795d534">m_Player</a></td></tr>
+<tr class="separator:a39c9c884bca3aa4e9ad2d29b0795d534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50869212434714513fae142faafe06c4"><td class="memItemLeft" align="right" valign="top">private ref <a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a50869212434714513fae142faafe06c4">m_FallDamageData</a></td></tr>
+<tr class="separator:a50869212434714513fae142faafe06c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94ae05e2037905c1bcf3a6dc67a5991"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#ab94ae05e2037905c1bcf3a6dc67a5991">FD_AMMO</a> = &quot;FallDamage&quot;</td></tr>
+<tr class="memdesc:ab94ae05e2037905c1bcf3a6dc67a5991"><td class="mdescLeft">&#160;</td><td class="mdescRight">ammo type used for damaging  <br /></td></tr>
+<tr class="separator:ab94ae05e2037905c1bcf3a6dc67a5991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da17ab8ea6201d6419aec5721adfde0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a1da17ab8ea6201d6419aec5721adfde0">FD_DMG_FROM_HEIGHT</a> = 2.5</td></tr>
+<tr class="memdesc:a1da17ab8ea6201d6419aec5721adfde0"><td class="mdescLeft">&#160;</td><td class="mdescRight">damage will not be taken into account bellow this HeightToDamage  <br /></td></tr>
+<tr class="separator:a1da17ab8ea6201d6419aec5721adfde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70cec469792d4c973d067f55eda63a1a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a70cec469792d4c973d067f55eda63a1a">FD_MAX_DMG_AT_HEIGHT</a> = 15</td></tr>
+<tr class="memdesc:a70cec469792d4c973d067f55eda63a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">height where player gets 100% damage  <br /></td></tr>
+<tr class="separator:a70cec469792d4c973d067f55eda63a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcc6b06154bf8f4ea0410ffa51943ef"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a6fcc6b06154bf8f4ea0410ffa51943ef">FD_MAX_HEIGHT_LEG_BREAK</a> = 8</td></tr>
+<tr class="memdesc:a6fcc6b06154bf8f4ea0410ffa51943ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">height where legs break most of the time  <br /></td></tr>
+<tr class="separator:a6fcc6b06154bf8f4ea0410ffa51943ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7b0d4768052e4a3736dbf7e6a99fa84c" name="a7b0d4768052e4a3736dbf7e6a99fa84c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b0d4768052e4a3736dbf7e6a99fa84c">&#9670;&#160;</a></span>AttachBleedingToZonesByHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private void AttachBleedingToZonesByHeight </td>
+          <td>(</td>
+          <td class="paramtype">notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td>
+          <td class="paramname"><em>pPlayer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00179">179</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00058">BLEEDING_FEET_SELECTIONS</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00057">BLEEDING_HANDS_SELECTIONS</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00059">BLEEDING_LEGS_SELECTIONS</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/d74/_notification_system_8c_source.html#l00036">GetTime()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00014">FallDamageData::m_BleedingChanceCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00015">FallDamageData::m_BleedingChanceLegsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00009">FallDamageData::m_BleedingFeetCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00008">FallDamageData::m_BleedingHandsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00010">FallDamageData::m_BleedingLegsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">m_FallDamageData</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00086">Math::RandomFloatInclusive()</a>, <a class="el" href="../../d5/d98/group___math.html#ga1d451fecaad1377d8477ddb9d9381134">Math::RandomInt()</a>, and <a class="el" href="../../d5/d98/group___math.html#ga2ab7202dca0f89758aaa21a9f9d68eb3">Math::Randomize()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a949a576985410bba17c2bc7224ed0b80" name="a949a576985410bba17c2bc7224ed0b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949a576985410bba17c2bc7224ed0b80">&#9670;&#160;</a></span>DamageAttachedGear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private void DamageAttachedGear </td>
+          <td>(</td>
+          <td class="paramtype">notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td>
+          <td class="paramname"><em>pPlayer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00205">205</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00023">FALL_DAMAGE_AMMO_HEALTH_ATTACHMENT</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00024">FALL_DAMAGE_AMMO_HEALTH_OTHER_ATTACHMENTS</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">m_FallDamageData</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00011">FallDamageData::m_GlovesHealthCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00013">FallDamageData::m_PantsHealthCoef</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00012">FallDamageData::m_ShoesHealthCoef</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="ab2e1eabe288cb586628fa58e966dbcfc" name="ab2e1eabe288cb586628fa58e966dbcfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e1eabe288cb586628fa58e966dbcfc">&#9670;&#160;</a></span>DamageCoef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> DamageCoef </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>pHeight</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f10bb6b3389e7222dd48bc66402bfaa" name="a4f10bb6b3389e7222dd48bc66402bfaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f10bb6b3389e7222dd48bc66402bfaa">&#9670;&#160;</a></span>DayZPlayerImplementFallDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DayZPlayerImplementFallDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d2e/class_day_z_player.html">DayZPlayer</a>&#160;</td>
+          <td class="paramname"><em>pPlayer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00073">73</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">m_FallDamageData</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00145">DayZPlayer::DayZPlayerImplement()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00167">PluginBase::PlayerHitBy()</a>.</p>
+
+</div>
+</div>
+<a id="a3a6bcd33ea3946342b59f8c952bca29c" name="a3a6bcd33ea3946342b59f8c952bca29c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6bcd33ea3946342b59f8c952bca29c">&#9670;&#160;</a></span>GetHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00083">83</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">m_FallDamageData</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00004">FallDamageData::m_Height</a>.</p>
+
+</div>
+</div>
+<a id="afe799f2ad21c0fcde37acf558cd5a3ac" name="afe799f2ad21c0fcde37acf558cd5a3ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe799f2ad21c0fcde37acf558cd5a3ac">&#9670;&#160;</a></span>GetLandType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> GetLandType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00088">88</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">m_FallDamageData</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00003">FallDamageData::m_LandType</a>.</p>
+
+</div>
+</div>
+<a id="ab6cd7c77c7b6c41d43392aa1f1f8b6e7" name="ab6cd7c77c7b6c41d43392aa1f1f8b6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6cd7c77c7b6c41d43392aa1f1f8b6e7">&#9670;&#160;</a></span>HandleFallDamage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandleFallDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a>&#160;</td>
+          <td class="paramname"><em>pData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">93</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00179">AttachBleedingToZonesByHeight()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00053">BLEEDING_CHANCE_HEIGHT_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00052">BLEEDING_CHANCE_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00042">BLEEDINGFEET_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00041">BLEEDINGHANDS_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00043">BLEEDINGLEGS_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00055">BROKENLEGS_HEALTH_DAMAGE_MAX</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00032">BROKENLEGS_HEIGHT_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00031">BROKENLEGS_HEIGHT_LOW</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00063">DAMAGE_TYPE_ATTACHMENTS</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00061">DAMAGE_TYPE_GLOBAL</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00062">DAMAGE_TYPE_LEGS</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00205">DamageAttachedGear()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c.html#a024dd832488c23bc96ad0197d4890400">FALL_DAMAGE_AMMO_HEALTH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00021">FALL_DAMAGE_AMMO_SHOCK</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00035">GLOVES_HEALTH_HEIGHT_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00034">GLOVES_HEALTH_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00027">HEALTH_HEIGHT_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00026">HEALTH_HEIGHT_LOW</a>, <a class="el" href="../../d5/d98/group___math.html#ga6530404da328a85a6ff9bd3a37765087">Math::InverseLerp()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00014">FallDamageData::m_BleedingChanceCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00015">FallDamageData::m_BleedingChanceLegsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00009">FallDamageData::m_BleedingFeetCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00008">FallDamageData::m_BleedingHandsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00010">FallDamageData::m_BleedingLegsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00007">FallDamageData::m_BrokenLegsCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">m_FallDamageData</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00011">FallDamageData::m_GlovesHealthCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00005">FallDamageData::m_HealthCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00004">FallDamageData::m_Height</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00013">FallDamageData::m_PantsHealthCoef</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00006">FallDamageData::m_ShockCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00012">FallDamageData::m_ShoesHealthCoef</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00039">PANTS_HEALTH_HEIGHT_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00038">PANTS_HEALTH_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00030">SHOCK_HEIGHT_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00029">SHOCK_HEIGHT_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00037">SHOES_HEALTH_HEIGHT_HIGH</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00036">SHOES_HEALTH_HEIGHT_LOW</a>.</p>
+
+</div>
+</div>
+<a id="a106c7d7694213d311ab918bf3ab1a734" name="a106c7d7694213d311ab918bf3ab1a734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a106c7d7694213d311ab918bf3ab1a734">&#9670;&#160;</a></span>HandleFallDamage() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandleFallDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>pHeight</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae65defbfcda05c17ff82c7dd8ecd49d8" name="ae65defbfcda05c17ff82c7dd8ecd49d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae65defbfcda05c17ff82c7dd8ecd49d8">&#9670;&#160;</a></span>Randomize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private <a class="el" href="../../d4/dc3/classfloat.html">float</a> Randomize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>pType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>pValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">154</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00063">DAMAGE_TYPE_ATTACHMENTS</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00061">DAMAGE_TYPE_GLOBAL</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00062">DAMAGE_TYPE_LEGS</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/d74/_notification_system_8c_source.html#l00036">GetTime()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00050">RANDOM_THRESHOLD_ATTACHMENTS_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00049">RANDOM_THRESHOLD_ATTACHMENTS_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00046">RANDOM_THRESHOLD_HEALTH_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00045">RANDOM_THRESHOLD_HEALTH_LOW</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00048">RANDOM_THRESHOLD_LEGS_HIGH</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00047">RANDOM_THRESHOLD_LEGS_LOW</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00086">Math::RandomFloatInclusive()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00053">Math::RandomIntInclusive()</a>, and <a class="el" href="../../d5/d98/group___math.html#ga2ab7202dca0f89758aaa21a9f9d68eb3">Math::Randomize()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a87f42ba99e780462d33425ca2d852cec" name="a87f42ba99e780462d33425ca2d852cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f42ba99e780462d33425ca2d852cec">&#9670;&#160;</a></span>BLEEDING_CHANCE_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BLEEDING_CHANCE_HEIGHT_HIGH = 15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00053">53</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a77c0335df9458271e341a1ffac8b5487" name="a77c0335df9458271e341a1ffac8b5487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c0335df9458271e341a1ffac8b5487">&#9670;&#160;</a></span>BLEEDING_CHANCE_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BLEEDING_CHANCE_HEIGHT_LOW = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00052">52</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="afdc41f9784ca41cb60e28b2888f6948f" name="afdc41f9784ca41cb60e28b2888f6948f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc41f9784ca41cb60e28b2888f6948f">&#9670;&#160;</a></span>BLEEDING_FEET_SELECTIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d5/d92/classstring.html">string</a> BLEEDING_FEET_SELECTIONS[2] = {&quot;LeftFoot&quot;, &quot;RightFoot&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00058">58</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00179">AttachBleedingToZonesByHeight()</a>.</p>
+
+</div>
+</div>
+<a id="ae13ca9ff9028b498d43376e016a80899" name="ae13ca9ff9028b498d43376e016a80899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae13ca9ff9028b498d43376e016a80899">&#9670;&#160;</a></span>BLEEDING_HANDS_SELECTIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d5/d92/classstring.html">string</a> BLEEDING_HANDS_SELECTIONS[2] = {&quot;LeftForeArmRoll&quot;, &quot;RightForeArmRoll&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00057">57</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00179">AttachBleedingToZonesByHeight()</a>.</p>
+
+</div>
+</div>
+<a id="a02b485349f155877be7b43794f3290d4" name="a02b485349f155877be7b43794f3290d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b485349f155877be7b43794f3290d4">&#9670;&#160;</a></span>BLEEDING_LEGS_SELECTIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d5/d92/classstring.html">string</a> BLEEDING_LEGS_SELECTIONS[2] = {&quot;LeftLeg&quot;, &quot;RightLeg&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00059">59</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00179">AttachBleedingToZonesByHeight()</a>.</p>
+
+</div>
+</div>
+<a id="a26d7e56d795f42074a331756617980e8" name="a26d7e56d795f42074a331756617980e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d7e56d795f42074a331756617980e8">&#9670;&#160;</a></span>BLEEDINGFEET_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BLEEDINGFEET_HEIGHT_LOW = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00042">42</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a7a46a3d9745a7a893bd86052e3b1481f" name="a7a46a3d9745a7a893bd86052e3b1481f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a46a3d9745a7a893bd86052e3b1481f">&#9670;&#160;</a></span>BLEEDINGHANDS_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BLEEDINGHANDS_HEIGHT_LOW = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00041">41</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a2b26ef6bbb042b954ee1abea1cdf4aed" name="a2b26ef6bbb042b954ee1abea1cdf4aed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b26ef6bbb042b954ee1abea1cdf4aed">&#9670;&#160;</a></span>BLEEDINGLEGS_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BLEEDINGLEGS_HEIGHT_LOW = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00043">43</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a9c50c727f62f0299c427ae6e80775828" name="a9c50c727f62f0299c427ae6e80775828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c50c727f62f0299c427ae6e80775828">&#9670;&#160;</a></span>BROKENLEGS_HEALTH_DAMAGE_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BROKENLEGS_HEALTH_DAMAGE_MAX = 125</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00055">55</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="ac3fda3952398492e529756da9bfbf8f8" name="ac3fda3952398492e529756da9bfbf8f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3fda3952398492e529756da9bfbf8f8">&#9670;&#160;</a></span>BROKENLEGS_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BROKENLEGS_HEIGHT_HIGH = 9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00032">32</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a60a2bc1e663268ecf353467fe61f97e2" name="a60a2bc1e663268ecf353467fe61f97e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60a2bc1e663268ecf353467fe61f97e2">&#9670;&#160;</a></span>BROKENLEGS_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> BROKENLEGS_HEIGHT_LOW = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00031">31</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a65ea20b300bcf3c346af5a1bfebf163d" name="a65ea20b300bcf3c346af5a1bfebf163d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ea20b300bcf3c346af5a1bfebf163d">&#9670;&#160;</a></span>DAMAGE_TYPE_ATTACHMENTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> DAMAGE_TYPE_ATTACHMENTS = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00063">63</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="a836430efad61e56b09005705e3b7940d" name="a836430efad61e56b09005705e3b7940d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836430efad61e56b09005705e3b7940d">&#9670;&#160;</a></span>DAMAGE_TYPE_GLOBAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> DAMAGE_TYPE_GLOBAL = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00061">61</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="ac62a69f11e1d5eeb5fa6ed8afb057d9e" name="ac62a69f11e1d5eeb5fa6ed8afb057d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62a69f11e1d5eeb5fa6ed8afb057d9e">&#9670;&#160;</a></span>DAMAGE_TYPE_LEGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> DAMAGE_TYPE_LEGS = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00062">62</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="a024dd832488c23bc96ad0197d4890400" name="a024dd832488c23bc96ad0197d4890400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a024dd832488c23bc96ad0197d4890400">&#9670;&#160;</a></span>FALL_DAMAGE_AMMO_HEALTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">class <a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a> FALL_DAMAGE_AMMO_HEALTH = &quot;FallDamageHealth&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a7a98b30d424ccc4e6492114c6f5ebe7e" name="a7a98b30d424ccc4e6492114c6f5ebe7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a98b30d424ccc4e6492114c6f5ebe7e">&#9670;&#160;</a></span>FALL_DAMAGE_AMMO_HEALTH_ATTACHMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d5/d92/classstring.html">string</a> FALL_DAMAGE_AMMO_HEALTH_ATTACHMENT = &quot;FallDamageHealthAttachment&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00023">23</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00205">DamageAttachedGear()</a>.</p>
+
+</div>
+</div>
+<a id="a300c8a38e55561d792b2d223a276b620" name="a300c8a38e55561d792b2d223a276b620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a300c8a38e55561d792b2d223a276b620">&#9670;&#160;</a></span>FALL_DAMAGE_AMMO_HEALTH_OTHER_ATTACHMENTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d5/d92/classstring.html">string</a> FALL_DAMAGE_AMMO_HEALTH_OTHER_ATTACHMENTS = &quot;FallDamageHealthOtherAttachments&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00024">24</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00205">DamageAttachedGear()</a>.</p>
+
+</div>
+</div>
+<a id="a7a51d611839efca248062e56aeed64e3" name="a7a51d611839efca248062e56aeed64e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a51d611839efca248062e56aeed64e3">&#9670;&#160;</a></span>FALL_DAMAGE_AMMO_SHOCK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d5/d92/classstring.html">string</a> FALL_DAMAGE_AMMO_SHOCK = &quot;FallDamageShock&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00021">21</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="ab94ae05e2037905c1bcf3a6dc67a5991" name="ab94ae05e2037905c1bcf3a6dc67a5991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94ae05e2037905c1bcf3a6dc67a5991">&#9670;&#160;</a></span>FD_AMMO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d5/d92/classstring.html">string</a> FD_AMMO = &quot;FallDamage&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ammo type used for damaging </p>
+<p>DEPRECATED </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00326">326</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+</div>
+</div>
+<a id="a1da17ab8ea6201d6419aec5721adfde0" name="a1da17ab8ea6201d6419aec5721adfde0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da17ab8ea6201d6419aec5721adfde0">&#9670;&#160;</a></span>FD_DMG_FROM_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> FD_DMG_FROM_HEIGHT = 2.5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>damage will not be taken into account bellow this HeightToDamage </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00327">327</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+</div>
+</div>
+<a id="a70cec469792d4c973d067f55eda63a1a" name="a70cec469792d4c973d067f55eda63a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70cec469792d4c973d067f55eda63a1a">&#9670;&#160;</a></span>FD_MAX_DMG_AT_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> FD_MAX_DMG_AT_HEIGHT = 15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>height where player gets 100% damage </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00328">328</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+</div>
+</div>
+<a id="a6fcc6b06154bf8f4ea0410ffa51943ef" name="a6fcc6b06154bf8f4ea0410ffa51943ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fcc6b06154bf8f4ea0410ffa51943ef">&#9670;&#160;</a></span>FD_MAX_HEIGHT_LEG_BREAK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> FD_MAX_HEIGHT_LEG_BREAK = 8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>height where legs break most of the time </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00329">329</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+</div>
+</div>
+<a id="a804bdf3ebb36d77a67bee0e1783f89d6" name="a804bdf3ebb36d77a67bee0e1783f89d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804bdf3ebb36d77a67bee0e1783f89d6">&#9670;&#160;</a></span>GLOVES_HEALTH_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> GLOVES_HEALTH_HEIGHT_HIGH = 15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00035">35</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="aae9a95480ae127e592b876ae41717352" name="aae9a95480ae127e592b876ae41717352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9a95480ae127e592b876ae41717352">&#9670;&#160;</a></span>GLOVES_HEALTH_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> GLOVES_HEALTH_HEIGHT_LOW = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00034">34</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="aff550490192678aff0ebe84b1924d45e" name="aff550490192678aff0ebe84b1924d45e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff550490192678aff0ebe84b1924d45e">&#9670;&#160;</a></span>HEALTH_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> HEALTH_HEIGHT_HIGH = 14</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00027">27</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a3f4a0d2509a03db7a77630a3fa220b5f" name="a3f4a0d2509a03db7a77630a3fa220b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f4a0d2509a03db7a77630a3fa220b5f">&#9670;&#160;</a></span>HEALTH_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> HEALTH_HEIGHT_LOW = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00026">26</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a50869212434714513fae142faafe06c4" name="a50869212434714513fae142faafe06c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50869212434714513fae142faafe06c4">&#9670;&#160;</a></span>m_FallDamageData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private ref <a class="el" href="../../dd/d60/class_fall_damage_data.html">FallDamageData</a> m_FallDamageData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00066">66</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00179">AttachBleedingToZonesByHeight()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00205">DamageAttachedGear()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00073">DayZPlayerImplementFallDamage()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00083">GetHeight()</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00088">GetLandType()</a>, and <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a39c9c884bca3aa4e9ad2d29b0795d534" name="a39c9c884bca3aa4e9ad2d29b0795d534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c9c884bca3aa4e9ad2d29b0795d534">&#9670;&#160;</a></span>m_Player</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2e/class_day_z_player.html">DayZPlayer</a> m_Player</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00065">65</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+</div>
+</div>
+<a id="a4a3dca267e0d50ed1293cf6c639ced1d" name="a4a3dca267e0d50ed1293cf6c639ced1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a3dca267e0d50ed1293cf6c639ced1d">&#9670;&#160;</a></span>PANTS_HEALTH_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> PANTS_HEALTH_HEIGHT_HIGH = 16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00039">39</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="af3dc10f0464b397028f51ea1a25ead9f" name="af3dc10f0464b397028f51ea1a25ead9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3dc10f0464b397028f51ea1a25ead9f">&#9670;&#160;</a></span>PANTS_HEALTH_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> PANTS_HEALTH_HEIGHT_LOW = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00038">38</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="aae55d0950074e18008374eb6ea072e51" name="aae55d0950074e18008374eb6ea072e51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae55d0950074e18008374eb6ea072e51">&#9670;&#160;</a></span>RANDOM_THRESHOLD_ATTACHMENTS_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> RANDOM_THRESHOLD_ATTACHMENTS_HIGH = 0.2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00050">50</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="ae6639f35d370e8d0b60f90a96d1d2fa6" name="ae6639f35d370e8d0b60f90a96d1d2fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6639f35d370e8d0b60f90a96d1d2fa6">&#9670;&#160;</a></span>RANDOM_THRESHOLD_ATTACHMENTS_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> RANDOM_THRESHOLD_ATTACHMENTS_LOW = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00049">49</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="ad84f7b47dd0cfb66309cf6d189119751" name="ad84f7b47dd0cfb66309cf6d189119751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad84f7b47dd0cfb66309cf6d189119751">&#9670;&#160;</a></span>RANDOM_THRESHOLD_HEALTH_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> RANDOM_THRESHOLD_HEALTH_HIGH = 0.1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00046">46</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="a24fdd229db8cb9f8c3096f5b329cafa6" name="a24fdd229db8cb9f8c3096f5b329cafa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fdd229db8cb9f8c3096f5b329cafa6">&#9670;&#160;</a></span>RANDOM_THRESHOLD_HEALTH_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> RANDOM_THRESHOLD_HEALTH_LOW = 0.05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00045">45</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="a6f8abbeca5339f944fe07c5521f86c61" name="a6f8abbeca5339f944fe07c5521f86c61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8abbeca5339f944fe07c5521f86c61">&#9670;&#160;</a></span>RANDOM_THRESHOLD_LEGS_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> RANDOM_THRESHOLD_LEGS_HIGH = 0.1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00048">48</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="afca76e19a7a9bb7c2beed6700441f110" name="afca76e19a7a9bb7c2beed6700441f110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca76e19a7a9bb7c2beed6700441f110">&#9670;&#160;</a></span>RANDOM_THRESHOLD_LEGS_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> RANDOM_THRESHOLD_LEGS_LOW = 0.05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00047">47</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00154">Randomize()</a>.</p>
+
+</div>
+</div>
+<a id="a077bf4a2313ed6b32789025beb925aa2" name="a077bf4a2313ed6b32789025beb925aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077bf4a2313ed6b32789025beb925aa2">&#9670;&#160;</a></span>SHOCK_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> SHOCK_HEIGHT_HIGH = 12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00030">30</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="ae6697a09395ce79204967f865d0ca916" name="ae6697a09395ce79204967f865d0ca916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6697a09395ce79204967f865d0ca916">&#9670;&#160;</a></span>SHOCK_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> SHOCK_HEIGHT_LOW = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00029">29</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="af10370c04f5708b288e4acec6109ae31" name="af10370c04f5708b288e4acec6109ae31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10370c04f5708b288e4acec6109ae31">&#9670;&#160;</a></span>SHOES_HEALTH_HEIGHT_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> SHOES_HEALTH_HEIGHT_HIGH = 15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00037">37</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a458d9d0b3c1c662bfd1e813c5aebf21a" name="a458d9d0b3c1c662bfd1e813c5aebf21a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458d9d0b3c1c662bfd1e813c5aebf21a">&#9670;&#160;</a></span>SHOES_HEALTH_HEIGHT_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">private const <a class="el" href="../../d4/dc3/classfloat.html">float</a> SHOES_HEALTH_HEIGHT_LOW = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00036">36</a> of file <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html">DayZPlayerImplementFallDamage.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00093">HandleFallDamage()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

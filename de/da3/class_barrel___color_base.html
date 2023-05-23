@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -173,6 +173,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ae6a3670ec761f695c0d3489b0d5420c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa39b7c4d3d085ef8514a87c32b81a4d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a> ()</td></tr>
 <tr class="separator:afa39b7c4d3d085ef8514a87c32b81a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05eab95952a189dc9e08ccecec41b51a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#a05eab95952a189dc9e08ccecec41b51a">OnDebugSpawn</a> ()</td></tr>
+<tr class="separator:a05eab95952a189dc9e08ccecec41b51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -180,10 +182,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:adf4468f3e5bc1894fd968c73bb827675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe222554f184b99fb3f4c5cf2729691a"><td class="memItemLeft" align="right" valign="top">private ref <a class="el" href="../../d8/d08/class_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#abe222554f184b99fb3f4c5cf2729691a">m_BarrelOpener</a></td></tr>
 <tr class="separator:abe222554f184b99fb3f4c5cf2729691a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ec1863b824ee50c3be2594ad852f360"><td class="memItemLeft" align="right" valign="top">ref <a class="el" href="../../dc/da7/class_rain_procurement_manager.html">RainProcurementManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#a8ec1863b824ee50c3be2594ad852f360">m_RainProcurement</a></td></tr>
-<tr class="separator:a8ec1863b824ee50c3be2594ad852f360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096568ae3d68cd02c977656003201a9c"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d2/d2c/class_rain_procurement_component_barrel.html">RainProcurementComponentBarrel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#a096568ae3d68cd02c977656003201a9c">m_RainProcComponent</a></td></tr>
+<tr class="separator:a096568ae3d68cd02c977656003201a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf81298bc6303056015081dc916d816c"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d9/d4b/class_openable_behaviour.html">OpenableBehaviour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#abf81298bc6303056015081dc916d816c">m_Openable</a></td></tr>
 <tr class="separator:abf81298bc6303056015081dc916d816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ec1863b824ee50c3be2594ad852f360"><td class="memItemLeft" align="right" valign="top">ref <a class="el" href="../../dc/da7/class_rain_procurement_manager.html">RainProcurementManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da3/class_barrel___color_base.html#a8ec1863b824ee50c3be2594ad852f360">m_RainProcurement</a></td></tr>
+<tr class="separator:a8ec1863b824ee50c3be2594ad852f360"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -214,7 +218,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">9</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00004">m_BarrelOpener</a>, <a class="el" href="../../df/d74/_container___base_8c.html#a9e41f81c9147ef4376714c6c3cc1795b">m_HalfExtents</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00005">m_RainProcurement</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00004">m_BarrelOpener</a>, <a class="el" href="../../df/d74/_container___base_8c.html#a9e41f81c9147ef4376714c6c3cc1795b">m_HalfExtents</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00006">m_RainProcComponent</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00577">m_RainProcurement</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
 
 </div>
 </div>
@@ -253,11 +257,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00365">365</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00360">360</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00803">GameConstants::BAREL_BLEACH_PER_CLOTH</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00378">IsKindOf()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00809">GameConstants::BAREL_BLEACH_PER_CLOTH</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">DetermineAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">DetermineAction()</a>.</p>
 
 </div>
 </div>
@@ -285,9 +289,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00536">536</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00531">531</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08010">GetNumberOfItems()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08031">GetNumberOfItems()</a>.</p>
 
 </div>
 </div>
@@ -315,9 +319,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00501">501</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00496">496</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08010">GetNumberOfItems()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08031">GetNumberOfItems()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>.</p>
 
 </div>
 </div>
@@ -345,9 +349,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00512">512</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00507">507</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08010">GetNumberOfItems()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08031">GetNumberOfItems()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>.</p>
 
 </div>
 </div>
@@ -375,9 +379,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00523">523</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00518">518</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>.</p>
 
 </div>
 </div>
@@ -405,9 +409,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00531">531</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00526">526</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>.</p>
 
 </div>
 </div>
@@ -434,11 +438,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00085">85</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00084">84</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00015">OpenableBehaviour::Close()</a>, <a class="el" href="../../d1/d84/_rain_procurement_manager_8c_source.html#l00070">RainProcurementManager::IsRunning()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00005">m_RainProcurement</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08835">SoundSynchRemote()</a>, <a class="el" href="../../d1/d84/_rain_procurement_manager_8c_source.html#l00075">RainProcurementManager::StopRainProcurement()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">UpdateVisualState()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00015">OpenableBehaviour::Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00006">m_RainProcComponent</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08883">SoundSynchRemote()</a>, <a class="el" href="../../d8/def/_rain_procurement_component_8c_source.html#l00028">RainProcurementComponentBase::StopRainProcurement()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">UpdateVisualState()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">DetermineAction()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00121">OnWasDetached()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">DetermineAction()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00116">OnWasDetached()</a>.</p>
 
 </div>
 </div>
@@ -465,11 +469,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00098">98</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00094">94</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00015">OpenableBehaviour::Close()</a>, <a class="el" href="../../d1/d84/_rain_procurement_manager_8c_source.html#l00070">RainProcurementManager::IsRunning()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00005">m_RainProcurement</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>, <a class="el" href="../../d1/d84/_rain_procurement_manager_8c_source.html#l00075">RainProcurementManager::StopRainProcurement()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">UpdateVisualState()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00015">OpenableBehaviour::Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00006">m_RainProcComponent</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>, <a class="el" href="../../d8/def/_rain_procurement_component_8c_source.html#l00028">RainProcurementComponentBase::StopRainProcurement()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">UpdateVisualState()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00035">OnStoreLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00036">OnStoreLoad()</a>.</p>
 
 </div>
 </div>
@@ -519,11 +523,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00437">437</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00432">432</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">DetermineAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">DetermineAction()</a>.</p>
 
 </div>
 </div>
@@ -567,11 +571,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00314">314</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00309">309</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">DetermineAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">DetermineAction()</a>.</p>
 
 </div>
 </div>
@@ -599,9 +603,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">188</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">183</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00365">BleachClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00085">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00437">ColourClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00314">ColourLeatherClothes()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l07946">GetQuantity()</a>, <a class="el" href="../../df/d36/class_inventory_slots.html#a09656dcf60f7f4af50c14be4da1e7ba6">InventorySlots::GetSlotIdFromString()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00262">ProduceFertilizer()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00275">TanPelts()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00360">BleachClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00084">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00432">ColourClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00309">ColourLeatherClothes()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l07967">GetQuantity()</a>, <a class="el" href="../../df/d36/class_inventory_slots.html#a09656dcf60f7f4af50c14be4da1e7ba6">InventorySlots::GetSlotIdFromString()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00257">ProduceFertilizer()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00270">TanPelts()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d4c/_action_close_barrel_8c_source.html#l00027">ActionCloseBarrel::OnExecuteServer()</a>.</p>
 
@@ -630,7 +634,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00023">23</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00024">24</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 </div>
 </div>
@@ -657,9 +661,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00559">559</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00554">554</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00513">LIQUID_THROUGHPUT_BARREL</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00515">LIQUID_THROUGHPUT_BARREL</a>.</p>
 
 </div>
 </div>
@@ -686,7 +690,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00553">553</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00548">548</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 </div>
 </div>
@@ -713,7 +717,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00058">58</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00059">59</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00003">m_IsLocked</a>.</p>
 
@@ -744,11 +748,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">109</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">104</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00020">OpenableBehaviour::IsOpened()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d4c/_action_close_barrel_8c_source.html#l00010">ActionCloseBarrel::ActionCondition()</a>, <a class="el" href="../../de/d7e/_action_open_barrel_8c_source.html#l00010">ActionOpenBarrel::ActionCondition()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00501">CanPutInCargo()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00512">CanPutIntoHands()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00523">CanReceiveItemIntoCargo()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00531">CanReleaseCargo()</a>, <a class="el" href="../../d5/dfb/_liquid_8c_source.html#l00084">Liquid::CanTransfer()</a>, <a class="el" href="../../dc/d75/_canina_berry_8c_source.html#l00023">Edible_Base::ConditionAttach()</a>, <a class="el" href="../../dc/d75/_canina_berry_8c_source.html#l00039">Edible_Base::ConditionDetach()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00142">OnVariablesSynchronized()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">UpdateVisualState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d4c/_action_close_barrel_8c_source.html#l00010">ActionCloseBarrel::ActionCondition()</a>, <a class="el" href="../../de/d7e/_action_open_barrel_8c_source.html#l00010">ActionOpenBarrel::ActionCondition()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00496">CanPutInCargo()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00507">CanPutIntoHands()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00518">CanReceiveItemIntoCargo()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00526">CanReleaseCargo()</a>, <a class="el" href="../../d5/dfb/_liquid_8c_source.html#l00084">Liquid::CanTransfer()</a>, <a class="el" href="../../dc/d75/_canina_berry_8c_source.html#l00023">Edible_Base::ConditionAttach()</a>, <a class="el" href="../../dc/d75/_canina_berry_8c_source.html#l00039">Edible_Base::ConditionDetach()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00137">OnVariablesSynchronized()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">UpdateVisualState()</a>.</p>
 
 </div>
 </div>
@@ -776,11 +780,40 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">176</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">171</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00004">m_BarrelOpener</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00003">m_IsLocked</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00365">BleachClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00437">ColourClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00314">ColourLeatherClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00262">ProduceFertilizer()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00275">TanPelts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00360">BleachClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00432">ColourClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00309">ColourLeatherClothes()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00257">ProduceFertilizer()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00270">TanPelts()</a>.</p>
+
+</div>
+</div>
+<a id="a05eab95952a189dc9e08ccecec41b51a" name="a05eab95952a189dc9e08ccecec41b51a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05eab95952a189dc9e08ccecec41b51a">&#9670;&#160;</a></span>OnDebugSpawn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnDebugSpawn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00569">569</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l07871">SetQuantityMax()</a>.</p>
 
 </div>
 </div>
@@ -824,9 +857,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00546">546</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00541">541</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08852">SetIsPlaceSound()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08900">SetIsPlaceSound()</a>.</p>
 
 </div>
 </div>
@@ -864,9 +897,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00035">35</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00036">36</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00098">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00075">OpenLoad()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00094">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00074">OpenLoad()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -894,7 +927,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00028">28</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00029">29</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00020">OpenableBehaviour::IsOpened()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
@@ -923,9 +956,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00142">142</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00137">137</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l05506">IsBeingPlaced()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08857">IsPlaceSound()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08842">IsSoundSynchRemote()</a>, <a class="el" href="../../dc/d76/_p_p_e_requester_bank_8c_source.html#l00229">m_Initialized</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08890">PlayPlaceSound()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00170">SoundBarrelClosePlay()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00164">SoundBarrelOpenPlay()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">UpdateVisualState()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l05540">IsBeingPlaced()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08905">IsPlaceSound()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08890">IsSoundSynchRemote()</a>, <a class="el" href="../../d6/db5/_ui_hint_panel_8c_source.html#l00298">m_Initialized</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08938">PlayPlaceSound()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00165">SoundBarrelClosePlay()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00159">SoundBarrelOpenPlay()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">UpdateVisualState()</a>.</p>
 
 </div>
 </div>
@@ -963,9 +996,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00114">114</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">109</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00063">Open()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00064">Open()</a>.</p>
 
 </div>
 </div>
@@ -1003,9 +1036,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00121">121</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00116">116</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00085">Close()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00084">Close()</a>.</p>
 
 </div>
 </div>
@@ -1032,11 +1065,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00063">63</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00064">64</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d84/_rain_procurement_manager_8c_source.html#l00014">RainProcurementManager::InitRainProcurement()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00005">m_RainProcurement</a>, <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00010">OpenableBehaviour::Open()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08835">SoundSynchRemote()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">UpdateVisualState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00006">m_RainProcComponent</a>, <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00010">OpenableBehaviour::Open()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08883">SoundSynchRemote()</a>, <a class="el" href="../../d8/def/_rain_procurement_component_8c_source.html#l00018">RainProcurementComponentBase::StartRainProcurement()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">UpdateVisualState()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d7e/_action_open_barrel_8c_source.html#l00027">ActionOpenBarrel::OnExecuteServer()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00114">OnWasAttached()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00182">Unlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d7e/_action_open_barrel_8c_source.html#l00027">ActionOpenBarrel::OnExecuteServer()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">OnWasAttached()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00177">Unlock()</a>.</p>
 
 </div>
 </div>
@@ -1063,11 +1096,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00075">75</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00074">74</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d84/_rain_procurement_manager_8c_source.html#l00014">RainProcurementManager::InitRainProcurement()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00005">m_RainProcurement</a>, <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00010">OpenableBehaviour::Open()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">UpdateVisualState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">m_Openable</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00006">m_RainProcComponent</a>, <a class="el" href="../../da/df0/_openable_behaviour_8c_source.html#l00010">OpenableBehaviour::Open()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>, <a class="el" href="../../d8/def/_rain_procurement_component_8c_source.html#l00018">RainProcurementComponentBase::StartRainProcurement()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">UpdateVisualState()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00035">OnStoreLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00036">OnStoreLoad()</a>.</p>
 
 </div>
 </div>
@@ -1111,11 +1144,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00262">262</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00257">257</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00804">GameConstants::BAREL_LIME_PER_PLANT</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00810">GameConstants::BAREL_LIME_PER_PLANT</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">DetermineAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">DetermineAction()</a>.</p>
 
 </div>
 </div>
@@ -1142,7 +1175,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00564">564</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00559">559</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -1171,11 +1204,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00170">170</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00165">165</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d4/d70/_effect_sound_8c_source.html#l00587">EffectSound::SetAutodestroy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00142">OnVariablesSynchronized()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00137">OnVariablesSynchronized()</a>.</p>
 
 </div>
 </div>
@@ -1202,11 +1235,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00164">164</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00159">159</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d4/d70/_effect_sound_8c_source.html#l00587">EffectSound::SetAutodestroy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00142">OnVariablesSynchronized()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00137">OnVariablesSynchronized()</a>.</p>
 
 </div>
 </div>
@@ -1244,11 +1277,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00275">275</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00270">270</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00802">GameConstants::BAREL_LIME_PER_PELT</a>, <a class="el" href="../../d5/d98/group___math.html#gafb455a5c88958a7219b1c63d2d377766">Math::Floor()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03179">g_Game</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00808">GameConstants::BAREL_LIME_PER_PELT</a>, <a class="el" href="../../d5/d98/group___math.html#gafb455a5c88958a7219b1c63d2d377766">Math::Floor()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00188">DetermineAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00183">DetermineAction()</a>.</p>
 
 </div>
 </div>
@@ -1275,9 +1308,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00182">182</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00177">177</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00003">m_IsLocked</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00063">Open()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00003">m_IsLocked</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00064">Open()</a>.</p>
 
 </div>
 </div>
@@ -1304,11 +1337,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00128">128</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00123">123</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00085">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00098">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00142">OnVariablesSynchronized()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00063">Open()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00075">OpenLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00084">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00094">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00137">OnVariablesSynchronized()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00064">Open()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00074">OpenLoad()</a>.</p>
 
 </div>
 </div>
@@ -1335,7 +1368,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00004">4</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1394,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00003">3</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00058">IsLocked()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00176">Lock()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00182">Unlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00059">IsLocked()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00171">Lock()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00177">Unlock()</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1420,33 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00007">7</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00085">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00098">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00109">IsOpen()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00028">OnStoreSave()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00063">Open()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00075">OpenLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00084">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00094">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00104">IsOpen()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00029">OnStoreSave()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00064">Open()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00074">OpenLoad()</a>.</p>
+
+</div>
+</div>
+<a id="a096568ae3d68cd02c977656003201a9c" name="a096568ae3d68cd02c977656003201a9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096568ae3d68cd02c977656003201a9c">&#9670;&#160;</a></span>m_RainProcComponent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected ref <a class="el" href="../../d2/d2c/class_rain_procurement_component_barrel.html">RainProcurementComponentBarrel</a> m_RainProcComponent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00006">6</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00084">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00094">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00064">Open()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00074">OpenLoad()</a>.</p>
 
 </div>
 </div>
@@ -1411,9 +1470,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00005">5</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00577">577</a> of file <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html">Barrel_ColorBase.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00085">Close()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00098">CloseLoad()</a>, <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00063">Open()</a>, and <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00075">OpenLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d6e/_barrel___color_base_8c_source.html#l00009">Barrel_ColorBase()</a>.</p>
 
 </div>
 </div>

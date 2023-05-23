@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -230,6 +230,12 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:abe128e00933f99678ff803f68b4e20e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9949599c559ff57b821733be43a1fcf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a9949599c559ff57b821733be43a1fcf1">OnRecoverFromDeath</a> ()</td></tr>
 <tr class="separator:a9949599c559ff57b821733be43a1fcf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976344887353977860279d05322e8252"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a976344887353977860279d05322e8252">AddArrow</a> (<a class="el" href="../../d8/d83/class_object.html">Object</a> arrow, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> componentIndex, <a class="el" href="../../d7/dfc/classvector.html">vector</a> closeBonePosWS, <a class="el" href="../../d7/dfc/classvector.html">vector</a> closeBoneRotWS)</td></tr>
+<tr class="separator:a976344887353977860279d05322e8252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb49305b137500377ea58863a002843a"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#adb49305b137500377ea58863a002843a">IsManagingArrows</a> ()</td></tr>
+<tr class="separator:adb49305b137500377ea58863a002843a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6024f2c269d4bf1ac72ffb6f312fa308"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../df/ddf/class_arrow_manager_base.html">ArrowManagerBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a6024f2c269d4bf1ac72ffb6f312fa308">GetArrowManager</a> ()</td></tr>
+<tr class="separator:a6024f2c269d4bf1ac72ffb6f312fa308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -276,17 +282,19 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae9fc00955123dec928dea1f8e955d65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d503f54612c5594c3b2e48b71439e0c"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a6d503f54612c5594c3b2e48b71439e0c">m_FinisherInProgress</a> = false</td></tr>
 <tr class="separator:a6d503f54612c5594c3b2e48b71439e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24414454fa862570bcee391a1f000c5f"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../df/ddf/class_arrow_manager_base.html">ArrowManagerBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a24414454fa862570bcee391a1f000c5f">m_ArrowManager</a></td></tr>
+<tr class="separator:a24414454fa862570bcee391a1f000c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a079ff48c92b324d5c56e7a6763d656c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a079ff48c92b324d5c56e7a6763d656c8">m_DamageHitDirection</a> = 0</td></tr>
 <tr class="separator:a079ff48c92b324d5c56e7a6763d656c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17e7033018de0b132ad6035a81b514a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a17e7033018de0b132ad6035a81b514a8">m_DeathType</a> = 0</td></tr>
 <tr class="separator:a17e7033018de0b132ad6035a81b514a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70d5db52ad06a757bbb84789ae0a80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#ab70d5db52ad06a757bbb84789ae0a80c">m_ActiveVaultType</a> = -1</td></tr>
 <tr class="separator:ab70d5db52ad06a757bbb84789ae0a80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e1b7a013d4a8837f206e7e96514729b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a1e1b7a013d4a8837f206e7e96514729b">m_ActualTarget</a> = NULL</td></tr>
+<tr class="memitem:a1e1b7a013d4a8837f206e7e96514729b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a1e1b7a013d4a8837f206e7e96514729b">m_ActualTarget</a> = null</td></tr>
 <tr class="separator:a1e1b7a013d4a8837f206e7e96514729b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a99133223820a20d9ab0b872c63627e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#a0a99133223820a20d9ab0b872c63627e">m_AttackCooldownTime</a> = 0</td></tr>
 <tr class="separator:a0a99133223820a20d9ab0b872c63627e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb29f0a2ae5bb4fb835dbc3a23a33b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d99/class_day_z_infected_attack_type.html">DayZInfectedAttackType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#abb29f0a2ae5bb4fb835dbc3a23a33b0d">m_ActualAttackType</a> = NULL</td></tr>
+<tr class="memitem:abb29f0a2ae5bb4fb835dbc3a23a33b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d99/class_day_z_infected_attack_type.html">DayZInfectedAttackType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#abb29f0a2ae5bb4fb835dbc3a23a33b0d">m_ActualAttackType</a> = null</td></tr>
 <tr class="separator:abb29f0a2ae5bb4fb835dbc3a23a33b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3107659be3705b6dde94074e31f8b1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dca/class_day_z_infected.html#ac3107659be3705b6dde94074e31f8b1f">m_CrawlTransition</a> = -1</td></tr>
 <tr class="separator:ac3107659be3705b6dde94074e31f8b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -303,6 +311,58 @@ Private Attributes</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00001">1</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a976344887353977860279d05322e8252" name="a976344887353977860279d05322e8252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976344887353977860279d05322e8252">&#9670;&#160;</a></span>AddArrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AddArrow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d83/class_object.html">Object</a>&#160;</td>
+          <td class="paramname"><em>arrow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>componentIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>closeBonePosWS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>closeBoneRotWS</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01100">1100</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga33e82262c3fc30a0921094432901b8d3">AddChild()</a>, <a class="el" href="../../de/d47/_utility_classes_8c_source.html#l00049">CachedObjectsArrays::ARRAY_STRING</a>, <a class="el" href="../../df/d55/_day_z_animal_8c.html#a97fcb2d37001b1e9aee457e3514f423f">GetBoneIndexByName()</a>, <a class="el" href="../../d4/d9e/human_8c.html#ac5c0e3dbf36c05de5752ef58c66520f6">GetTransformWS()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gaa91b3c444a5b3c10664e4da53d5057d4">Math3D::MatrixInvMultiply4()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga81492b56f1d5c70b65ecf8af8103814c">Math3D::MatrixOrthogonalize4()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gaf1980c0a1bdebd3be1cba243dccbf342">Math3D::YawPitchRollMatrix()</a>.</p>
+
+</div>
+</div>
 <a id="a6c54e74ba5eaaf8b644e05af4062a200" name="a6c54e74ba5eaaf8b644e05af4062a200"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c54e74ba5eaaf8b644e05af4062a200">&#9670;&#160;</a></span>CanBeBackstabbed()</h2>
 
@@ -326,7 +386,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00118">118</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00122">122</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -353,7 +413,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00129">129</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00133">133</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -391,9 +451,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01038">1038</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l00384">IsAlive()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01036">1036</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -441,7 +499,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00690">690</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../dd/d93/_object_8c.html#acf5f7342c7b6c4c61ef426e83c602998">GetDirection()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00081">DayZPlayerUtils::GetMeleeTarget()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a8c4c13229066ad26f77b897aca4a2604">DayZInfectedInputController::GetTargetEntity()</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00042">m_AllTargetObjects</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00009">DayZInfectedAttackType::m_Cooldown</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00003">DayZInfectedAttackType::m_Distance</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00006">DayZInfectedAttackType::m_Subtype</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00049">m_TargetableObjects</a>, and <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00005">DayZInfectedAttackType::m_Type</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a8c4c13229066ad26f77b897aca4a2604">DayZInfectedInputController::GetTargetEntity()</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00042">m_AllTargetObjects</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00009">DayZInfectedAttackType::m_Cooldown</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00003">DayZInfectedAttackType::m_Distance</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00006">DayZInfectedAttackType::m_Subtype</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00049">m_TargetableObjects</a>, and <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00005">DayZInfectedAttackType::m_Type</a>.</p>
 
 </div>
 </div>
@@ -494,7 +552,7 @@ Private Attributes</h2></td></tr>
 <p>crawl transition</p>
 <p>damage hits</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00188">188</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00192">192</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#ad925d10b790782c53529492b21c0266e">GetInputController()</a>, and <a class="el" href="../../d4/d9e/human_8c.html#a4d19fdb1ff2d94dad57b0a0f0e332196">StartCommand_Move()</a>.</p>
 
@@ -541,7 +599,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>CommandHandlerDebug </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00292">292</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00296">296</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d5d/_plugin_manager_8c_source.html#l00274">GetPluginManager()</a>.</p>
 
@@ -571,9 +629,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00922">922</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00920">920</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga0338557f21327edf5ad5080449203443">Math::Acos()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00271">vector::Dot()</a>, <a class="el" href="../../dd/d93/_object_8c.html#acf5f7342c7b6c4c61ef426e83c602998">GetDirection()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga0338557f21327edf5ad5080449203443">Math::Acos()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00271">vector::Dot()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>.</p>
 
 </div>
 </div>
@@ -611,9 +669,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00943">943</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00941">941</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga0338557f21327edf5ad5080449203443">Math::Acos()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00271">vector::Dot()</a>, <a class="el" href="../../dd/d93/_object_8c.html#acf5f7342c7b6c4c61ef426e83c602998">GetDirection()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga0338557f21327edf5ad5080449203443">Math::Acos()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00271">vector::Dot()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>.</p>
 
 </div>
 </div>
@@ -643,7 +701,7 @@ Private Attributes</h2></td></tr>
 
 <p>sound debug messages </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01013">1013</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01011">1011</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -718,9 +776,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Events from damage system </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00974">974</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00972">972</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c.html#af773dec082e0ba8221810d6fe6f5b67b">component</a>, <a class="el" href="../../d7/d7b/class_total_damage_result.html#a8fda4c0bcce9e5460ceee6e1f2f005e6">TotalDamageResult::GetDamage()</a>, and <a class="el" href="../../dd/d93/_object_8c_source.html#l00384">IsAlive()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c.html#af773dec082e0ba8221810d6fe6f5b67b">component</a>, and <a class="el" href="../../d7/d7b/class_total_damage_result.html#a8fda4c0bcce9e5460ceee6e1f2f005e6">TotalDamageResult::GetDamage()</a>.</p>
 
 </div>
 </div>
@@ -782,7 +840,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01007">1007</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01005">1005</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c.html#af773dec082e0ba8221810d6fe6f5b67b">component</a>.</p>
 
@@ -823,9 +881,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Phx contact event </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01023">1023</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01021">1021</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d93/_object_8c_source.html#l00384">IsAlive()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
 </div>
 </div>
@@ -863,7 +921,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00087">87</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00091">91</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#a3e7a4df882911200e4564b1c71ba785a">GetCommand_Move()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d5/d98/group___math.html#ga1d451fecaad1377d8477ddb9d9381134">Math::RandomInt()</a>.</p>
 
@@ -915,9 +973,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00830">830</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00828">828</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00271">vector::Dot()</a>, <a class="el" href="../../dd/d93/_object_8c.html#acf5f7342c7b6c4c61ef426e83c602998">GetDirection()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00895">GetHealth()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, and <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00271">vector::Dot()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, and <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1043,7 @@ Private Attributes</h2></td></tr>
 <p>direction</p>
 <p>shock GetDamage</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00895">895</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00893">893</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a778994c3a7d21b4d54de6d332d91f600">CGame::ConfigGetInt()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -1046,7 +1104,7 @@ Private Attributes</h2></td></tr>
 <p>direction</p>
 <p>add some impulse if needed</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00380">380</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00384">384</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a778994c3a7d21b4d54de6d332d91f600">CGame::ConfigGetInt()</a>, <a class="el" href="../../d7/d1e/group___rigid_body.html#ga7177f6588e2de1684e285e53f63ad300">dBodyApplyImpulse()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -1098,7 +1156,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00373">373</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00377">377</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1146,7 +1204,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00731">731</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00876">GameConstants::AI_ATTACKSPEED</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../dd/d93/_object_8c.html#acf5f7342c7b6c4c61ef426e83c602998">GetDirection()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00081">DayZPlayerUtils::GetMeleeTarget()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a8c4c13229066ad26f77b897aca4a2604">DayZInfectedInputController::GetTargetEntity()</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00042">m_AllTargetObjects</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00009">DayZInfectedAttackType::m_Cooldown</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00003">DayZInfectedAttackType::m_Distance</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00006">DayZInfectedAttackType::m_Subtype</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00049">m_TargetableObjects</a>, and <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00005">DayZInfectedAttackType::m_Type</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00891">GameConstants::AI_ATTACKSPEED</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00465">DayZPlayerUtils()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a8c4c13229066ad26f77b897aca4a2604">DayZInfectedInputController::GetTargetEntity()</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00042">m_AllTargetObjects</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00009">DayZInfectedAttackType::m_Cooldown</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00003">DayZInfectedAttackType::m_Distance</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00006">DayZInfectedAttackType::m_Subtype</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00049">m_TargetableObjects</a>, and <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00005">DayZInfectedAttackType::m_Type</a>.</p>
 
 </div>
 </div>
@@ -1194,11 +1252,39 @@ Private Attributes</h2></td></tr>
 <p>override hit pos by pos defined in type</p>
 <p>infected is playing light attack - do not send damage, play animation instead</p>
 <p>override hit pos by pos defined in type</p>
-<p>override hit pos by pos defined in type</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00617">617</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00621">621</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00877">GameConstants::AI_MAX_BLOCKABLE_ANGLE</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga6f069ccdd300b966b511235424d2a826">Math3D::AngleFromPosition()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00046">EntityAI::GetMeleeTargetType()</a>, <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a99d1c728055854fe852f0b946b53f4c9">DayZInfectedInputController::GetMindState()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00007">DayZInfectedAttackType::m_AmmoType</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00003">DayZInfectedAttackType::m_Distance</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00008">DayZInfectedAttackType::m_IsHeavy</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00892">GameConstants::AI_MAX_BLOCKABLE_ANGLE</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga6f069ccdd300b966b511235424d2a826">Math3D::AngleFromPosition()</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00046">EntityAI::GetMeleeTargetType()</a>, <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a99d1c728055854fe852f0b946b53f4c9">DayZInfectedInputController::GetMindState()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00007">DayZInfectedAttackType::m_AmmoType</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00003">DayZInfectedAttackType::m_Distance</a>, <a class="el" href="../../db/d9a/_day_z_infected_type_8c_source.html#l00008">DayZInfectedAttackType::m_IsHeavy</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>.</p>
+
+</div>
+</div>
+<a id="a6024f2c269d4bf1ac72ffb6f312fa308" name="a6024f2c269d4bf1ac72ffb6f312fa308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6024f2c269d4bf1ac72ffb6f312fa308">&#9670;&#160;</a></span>GetArrowManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../df/ddf/class_arrow_manager_base.html">ArrowManagerBase</a> GetArrowManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01145">1145</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/db7/_animal_base_8c_source.html#l00024">m_ArrowManager</a>.</p>
 
 </div>
 </div>
@@ -1227,7 +1313,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>no default hit pos fallback</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00778">778</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00776">776</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, and <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00110">vector::Zero</a>.</p>
 
@@ -1256,7 +1342,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00124">124</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00128">128</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1283,9 +1369,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01047">1047</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01045">1045</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#a97fcb2d37001b1e9aee457e3514f423f">GetBoneIndexByName()</a>, and <a class="el" href="../../d4/d9e/human_8c.html#a95fc742b7298a698f4ae37221e7c8ec3">GetBonePositionWS()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d55/_day_z_animal_8c.html#a97fcb2d37001b1e9aee457e3514f423f">GetBoneIndexByName()</a>.</p>
 
 </div>
 </div>
@@ -1314,7 +1400,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns default hit component (fallback) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00151">151</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00155">155</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1341,7 +1427,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00156">156</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00160">160</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1370,7 +1456,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns hit component for attacking AI </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00145">145</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00149">149</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1397,7 +1483,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00172">172</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00176">176</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1426,7 +1512,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns rounded zombie yaw for sync purposes </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00178">178</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00182">182</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1455,7 +1541,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns suitable hit components for finisher attacks; DEPRECATED </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00167">167</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00171">171</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1483,7 +1569,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00411">411</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00415">415</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1511,7 +1597,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00815">815</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00813">813</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1539,7 +1625,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00868">868</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00866">866</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/d34/_en_math_8c_source.html#l00053">Math::RandomIntInclusive()</a>.</p>
 
@@ -1569,9 +1655,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00359">359</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00363">363</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l00384">IsAlive()</a>, and <a class="el" href="../../d4/d9e/human_8c.html#a907247a772194d73617267489edd1f7b">StartCommand_Death()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#a907247a772194d73617267489edd1f7b">StartCommand_Death()</a>.</p>
 
 </div>
 </div>
@@ -1616,7 +1702,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Mind state change </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00460">460</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00464">464</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#a3e7a4df882911200e4564b1c71ba785a">GetCommand_Move()</a>, and <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a99d1c728055854fe852f0b946b53f4c9">DayZInfectedInputController::GetMindState()</a>.</p>
 
@@ -1647,7 +1733,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>HandleMove </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00306">306</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00310">310</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d4/d9e/human_8c.html#ad925d10b790782c53529492b21c0266e">GetInputController()</a>, and <a class="el" href="../../d0/d4f/class_day_z_creature_a_i_input_controller.html#a7f4b9a55cc529a525e2e3f69d7b2921f">DayZCreatureAIInputController::GetMovementSpeed()</a>.</p>
 
@@ -1688,7 +1774,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>HandleOrientation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00323">323</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00327">327</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d5/d98/group___math.html#ga766ff3dcb6c7784956d9129718cfdc2d">Math::Atan2()</a>, <a class="el" href="../../d5/d98/group___math.html#ga174eb1cdd51e752a3b400c2621f09d08">Math::Cos()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00017">Math::DEG2RAD</a>, <a class="el" href="../../df/dbe/_area_damage_manager_8c_source.html#l00306">GetOrientation()</a>, <a class="el" href="../../d5/d98/group___math.html#gab2ad05380f5f8282abe3c5846903b0e4">Math::NormalizeAngle()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>, <a class="el" href="../../d5/d98/group___math.html#ga508b1867c6e0e338fc793045a4a7680a">Math::Round()</a>, and <a class="el" href="../../d5/d98/group___math.html#gaccef64ebbbc15b51149fa890d24d730d">Math::Sin()</a>.</p>
 
@@ -1721,9 +1807,7 @@ Private Attributes</h2></td></tr>
 <p>infected is dead</p>
 <p>stop all sounds</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00497">497</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l00384">IsAlive()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00501">501</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1767,7 +1851,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00423">423</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00427">427</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a4f2fac51bd6e3a5ef8e9845b312447f2">DayZInfectedInputController::GetVaultHeight()</a>, and <a class="el" href="../../d8/d47/class_day_z_infected_input_controller.html#a3fc1565255ae95b9d124a879a1cd32af">DayZInfectedInputController::IsVault()</a>.</p>
 
@@ -1798,9 +1882,9 @@ Private Attributes</h2></td></tr>
 <p>sets default hit position and cache it here (mainly for impact particles)</p>
 <p>client only</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00045">45</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00047">47</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00480">GetDefaultHitPositionComponent()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/db4/_infected_sound_event_handler_8c_source.html#l00021">InfectedSoundEventHandler()</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00042">m_AllTargetObjects</a>, and <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00049">m_TargetableObjects</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00502">GetDefaultHitPositionComponent()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/db4/_infected_sound_event_handler_8c_source.html#l00021">InfectedSoundEventHandler()</a>, <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00042">m_AllTargetObjects</a>, <a class="el" href="../../de/db7/_animal_base_8c_source.html#l00024">m_ArrowManager</a>, and <a class="el" href="../../d8/d5d/_day_z_player_implement_melee_combat_8c_source.html#l00049">m_TargetableObjects</a>.</p>
 
 </div>
 </div>
@@ -1829,7 +1913,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns true if backstab is in progress; used for suspending of AI targeting and other useful things besides </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01053">1053</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01051">1051</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1858,7 +1942,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns true if crawling; 'DayZInfectedCommandCrawl' is only for the transition, after that it remains '<a class="el" href="../../dd/dd6/class_day_z_infected_command_move.html">DayZInfectedCommandMove</a>' (unreliable) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01085">1085</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01083">1083</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1969,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00103">103</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00107">107</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1912,7 +1996,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00134">134</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00138">138</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1939,7 +2023,34 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00113">113</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00117">117</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+
+</div>
+</div>
+<a id="adb49305b137500377ea58863a002843a" name="adb49305b137500377ea58863a002843a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb49305b137500377ea58863a002843a">&#9670;&#160;</a></span>IsManagingArrows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> IsManagingArrows </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01140">1140</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1966,7 +2077,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00139">139</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00143">143</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -1993,7 +2104,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00098">98</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00102">102</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2020,7 +2131,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00108">108</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00112">112</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2064,7 +2175,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00282">282</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00286">286</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2109,7 +2220,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>ModOverrides </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00272">272</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00276">276</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2153,7 +2264,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00277">277</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00281">281</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2180,7 +2291,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01091">1091</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01089">1089</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2221,7 +2332,7 @@ Private Attributes</h2></td></tr>
 <p>stop playing of old SoundVoice from anim (if any)</p>
 <p>play new SoundVoice from anim</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00560">560</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00564">564</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
 
@@ -2252,7 +2363,7 @@ Private Attributes</h2></td></tr>
 
 <p>synced variable(s) handler </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00075">75</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00079">79</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2290,7 +2401,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00587">587</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00591">591</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/deb/class_noise_system.html#a3c7922b2eed5d80d4aff470d3593d434">NoiseSystem::AddNoise()</a>, <a class="el" href="../../d1/d13/_sound_8c_source.html#l00049">SoundObjectBuilder::BuildSoundObject()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#adf814629683cd219173c824e7100b249">CGame::GetNoiseSystem()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d8/d9b/_hunger_sound_handler_8c_source.html#l00038">PlaySound()</a>, <a class="el" href="../../d1/d13/_sound_8c.html#a88b8e74ab7a8a3d20a2f3f55948b0ed6">SoundObject()</a>, and <a class="el" href="../../d5/db9/class_sound_object_builder.html#a339237b0e904887c8effc5126febead5">SoundObjectBuilder::UpdateEnvSoundControllers()</a>.</p>
 
@@ -2320,7 +2431,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00536">536</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00540">540</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d13/_sound_8c_source.html#l00049">SoundObjectBuilder::BuildSoundObject()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/d6b/class_sound_params.html#a12ac56eacd52df3fe1c19a18046c7c99">SoundParams::IsValid()</a>, <a class="el" href="../../d8/d9b/_hunger_sound_handler_8c_source.html#l00038">PlaySound()</a>, and <a class="el" href="../../d1/d13/_sound_8c.html#a88b8e74ab7a8a3d20a2f3f55948b0ed6">SoundObject()</a>.</p>
 
@@ -2350,7 +2461,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01058">1058</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01056">1056</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2378,9 +2489,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00161">161</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l00697">GetSelectionPositionMS()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00165">165</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2407,9 +2516,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00040">40</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00042">42</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l00122">Init()</a>.</p>
 
 </div>
 </div>
@@ -2435,7 +2544,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>HandleVault </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00409">409</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00413">413</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2449,7 +2558,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d99/class_day_z_infected_attack_type.html">DayZInfectedAttackType</a> m_ActualAttackType = NULL</td>
+          <td class="memname"><a class="el" href="../../de/d99/class_day_z_infected_attack_type.html">DayZInfectedAttackType</a> m_ActualAttackType = null</td>
         </tr>
       </table>
   </td>
@@ -2459,7 +2568,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00615">615</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00619">619</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2473,7 +2582,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> m_ActualTarget = NULL</td>
+          <td class="memname"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> m_ActualTarget = null</td>
         </tr>
       </table>
   </td>
@@ -2484,7 +2593,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Combat </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00613">613</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00617">617</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2512,6 +2621,30 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a24414454fa862570bcee391a1f000c5f" name="a24414454fa862570bcee391a1f000c5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24414454fa862570bcee391a1f000c5f">&#9670;&#160;</a></span>m_ArrowManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected ref <a class="el" href="../../df/ddf/class_arrow_manager_base.html">ArrowManagerBase</a> m_ArrowManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00037">37</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+
+</div>
+</div>
 <a id="a0a99133223820a20d9ab0b872c63627e" name="a0a99133223820a20d9ab0b872c63627e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a99133223820a20d9ab0b872c63627e">&#9670;&#160;</a></span>m_AttackCooldownTime</h2>
 
@@ -2532,7 +2665,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00614">614</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00618">618</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2557,7 +2690,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Crawl transition </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00813">813</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00811">811</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2582,7 +2715,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>HandleDeath </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00356">356</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00360">360</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2606,7 +2739,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00864">864</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00862">862</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2631,7 +2764,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Damage hits </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00862">862</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00860">860</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2655,7 +2788,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00865">865</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00863">863</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -2679,7 +2812,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00357">357</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00361">361</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>
@@ -3039,7 +3172,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00866">866</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00864">864</a> of file <a class="el" href="../../d4/de5/_zombie_base_8c_source.html">ZombieBase.c</a>.</p>
 
 </div>
 </div>

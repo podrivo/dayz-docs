@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('db/dbf/_mod_structure_8c_source.html',
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d0/dce/class_mod_structure.html#a885d8b5d1320befcfed0ba16de280117">   20</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dce/class_mod_structure.html#a885d8b5d1320befcfed0ba16de280117">LoadData</a>()</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">if</span>( <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().<a class="code hl_function" href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting</a>( <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#afd52927867dfa8a1b85840ac7bdeec6a">m_ModPath</a> ) )</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">if</span>( <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().ConfigIsExisting( <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#afd52927867dfa8a1b85840ac7bdeec6a">m_ModPath</a> ) )</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().<a class="code hl_function" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">ConfigGetText</a>( <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#afd52927867dfa8a1b85840ac7bdeec6a">m_ModPath</a> + <span class="stringliteral">&quot; name&quot;</span>, <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#a450bdc581f916cb271ba76f8c65b3604">m_ModName</a> );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().<a class="code hl_function" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">ConfigGetText</a>( <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#afd52927867dfa8a1b85840ac7bdeec6a">m_ModPath</a> + <span class="stringliteral">&quot; picture&quot;</span>, <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#af1cd0a0fddc0ebbebff903fa9a045f31">m_ModLogo</a> );</div>
@@ -169,7 +169,6 @@ $(document).ready(function(){initNavTree('db/dbf/_mod_structure_8c_source.html',
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dce/class_mod_structure.html#a450bdc581f916cb271ba76f8c65b3604">m_ModName</a>;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    }</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>}</div>
-<div class="ttc" id="a_object_8c_html_a1f14b46175c2f370da68bf7ede2c3a74"><div class="ttname"><a href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting</a></div><div class="ttdeci">proto native bool ConfigIsExisting(string entryName)</div><div class="ttdoc">Checks if given entry exists.</div></div>
 <div class="ttc" id="a_option_selector_multistate_8c_html_a46c20eb2a26abeb1e934cd66e1dd6484"><div class="ttname"><a href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a></div><div class="ttdeci">string path</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">OptionSelectorMultistate.c:135</a></div></div>
 <div class="ttc" id="aclass_c_game_html_a5ffe1614b5936229aa803eee3d4d99d7"><div class="ttname"><a href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText</a></div><div class="ttdeci">proto bool ConfigGetText(string path, out string value)</div><div class="ttdoc">Get string value from config on path.</div></div>
 <div class="ttc" id="aclass_mod_structure_html"><div class="ttname"><a href="../../d0/dce/class_mod_structure.html">ModStructure</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbf/_mod_structure_8c_source.html#l00001">ModStructure.c:2</a></div></div>

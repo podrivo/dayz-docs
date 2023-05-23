@@ -42,6 +42,7 @@ var class_day_z_player_sync_junctures =
     [ "SJ_GESTURE_REQUEST", "d9/d6e/class_day_z_player_sync_junctures.html#a330e971776abcd5a2a1ef3036c9ad5a0", null ],
     [ "SJ_INJURY", "d9/d6e/class_day_z_player_sync_junctures.html#ad780bb37b0a496573ab5065fb8768d50", null ],
     [ "SJ_INVENTORY", "d9/d6e/class_day_z_player_sync_junctures.html#a37983b065fb2ebfaff9f11cdcdfee8de", null ],
+    [ "SJ_INVENTORY_FAILURE", "d9/d6e/class_day_z_player_sync_junctures.html#a95a6f799ee6ba8e6eb406aa48b695a9a", null ],
     [ "SJ_INVENTORY_REPAIR", "d9/d6e/class_day_z_player_sync_junctures.html#a09e3ee4a421639bf24c8a05c5c11aad8", null ],
     [ "SJ_KURU_REQUEST", "d9/d6e/class_day_z_player_sync_junctures.html#a5689145156b065b6d1d0dd68e2f394bb", null ],
     [ "SJ_PLAYER_ADD_MODIFIER", "d9/d6e/class_day_z_player_sync_junctures.html#a24e53162743dc04f57d21597bcb230d5", null ],

@@ -15,5 +15,7 @@ var class_action_view_optics =
     [ "OnEndClient", "d1/d12/class_action_view_optics.html#ad14460f2f68fee5fd0269e919681d80c", null ],
     [ "OnEndServer", "d1/d12/class_action_view_optics.html#a2ebf3855cc8960864124ba5ca4949033", null ],
     [ "OnStartAnimationLoopClient", "d1/d12/class_action_view_optics.html#aea3d0f25f9f76c899f4ca6b33035b6ce", null ],
-    [ "OnStartAnimationLoopServer", "d1/d12/class_action_view_optics.html#a498da9d7d9b0a9126f488206f249e2f2", null ]
+    [ "OnStartAnimationLoopServer", "d1/d12/class_action_view_optics.html#a498da9d7d9b0a9126f488206f249e2f2", null ],
+    [ "OnStartClient", "d1/d12/class_action_view_optics.html#a4fe199ec90b1083fcdad608526a3940f", null ],
+    [ "OnStartServer", "d1/d12/class_action_view_optics.html#af5aa64866cd0cfb7cd9989eb748abbe0", null ]
 ];

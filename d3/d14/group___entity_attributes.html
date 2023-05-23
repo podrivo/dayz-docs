@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -369,6 +369,9 @@ Variables</h2></td></tr>
 <tr class="memitem:gabdb9ebff7834fbcca0e5b87f1488986f"><td class="memItemLeft" align="right" valign="top">proto external void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d14/group___entity_attributes.html#gabdb9ebff7834fbcca0e5b87f1488986f">GetTransform</a> (out <a class="el" href="../../d7/dfc/classvector.html">vector</a> mat[])</td></tr>
 <tr class="memdesc:gabdb9ebff7834fbcca0e5b87f1488986f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns transformation of <a class="el" href="../../d2/d96/class_entity.html">Entity</a>. It returns only so much vectors as array is big.  <br /></td></tr>
 <tr class="separator:gabdb9ebff7834fbcca0e5b87f1488986f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43ce3f883686da483873def2ac717c42"><td class="memItemLeft" align="right" valign="top">proto external void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d14/group___entity_attributes.html#ga43ce3f883686da483873def2ac717c42">GetRenderTransform</a> (out <a class="el" href="../../d7/dfc/classvector.html">vector</a> mat[])</td></tr>
+<tr class="memdesc:ga43ce3f883686da483873def2ac717c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns render transformation of <a class="el" href="../../d2/d96/class_entity.html">Entity</a>. Must pass in vector array size of 4.  <br /></td></tr>
+<tr class="separator:ga43ce3f883686da483873def2ac717c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad1f3baac00a81d7a3e70b3452ccadef6"><td class="memItemLeft" align="right" valign="top">proto external void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d14/group___entity_attributes.html#gad1f3baac00a81d7a3e70b3452ccadef6">GetLocalTransform</a> (out <a class="el" href="../../d7/dfc/classvector.html">vector</a> mat[])</td></tr>
 <tr class="memdesc:gad1f3baac00a81d7a3e70b3452ccadef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns local transformation of <a class="el" href="../../d2/d96/class_entity.html">Entity</a>. It returns only so much vectors as array is big.  <br /></td></tr>
 <tr class="separator:gad1f3baac00a81d7a3e70b3452ccadef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,6 +449,9 @@ Variables</h2></td></tr>
 <tr class="memitem:gaf9579f24098438a4094fe1790f4d900c"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d14/group___entity_attributes.html#gaf9579f24098438a4094fe1790f4d900c">IsHierarchyPositionOnly</a> ()</td></tr>
 <tr class="memdesc:gaf9579f24098438a4094fe1790f4d900c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if the hierarchy component was created with positionOnly.  <br /></td></tr>
 <tr class="separator:gaf9579f24098438a4094fe1790f4d900c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd9f1e4ab502177724ad40ae5f164def"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d14/group___entity_attributes.html#gabd9f1e4ab502177724ad40ae5f164def">GetHierarchyPivot</a> ()</td></tr>
+<tr class="memdesc:gabd9f1e4ab502177724ad40ae5f164def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the hierarchy component pivot.  <br /></td></tr>
+<tr class="separator:gabd9f1e4ab502177724ad40ae5f164def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1bc50796cd80879c26c3ffc7533d656e"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d14/group___entity_attributes.html#ga1bc50796cd80879c26c3ffc7533d656e">GetParent</a> ()</td></tr>
 <tr class="memdesc:ga1bc50796cd80879c26c3ffc7533d656e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns pointer to parent <a class="el" href="../../d2/d96/class_entity.html">Entity</a> in hierarchy.  <br /></td></tr>
 <tr class="separator:ga1bc50796cd80879c26c3ffc7533d656e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -599,7 +605,8 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ggacda3452546886b2b713c62c4a07fd52aa33cf1d8ef1d06ee698a7fabf40eb3a7f" name="ggacda3452546886b2b713c62c4a07fd52aa33cf1d8ef1d06ee698a7fabf40eb3a7f"></a>ACTIVE&#160;</td><td class="fielddoc"><p>Tells that this entity has to be actively updated by engine, its EntityEvent.FRAME has to be called etc. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggacda3452546886b2b713c62c4a07fd52aaf23e483cc67bbfcde605c420616a0ff2" name="ggacda3452546886b2b713c62c4a07fd52aaf23e483cc67bbfcde605c420616a0ff2"></a>STATIC&#160;</td><td class="fielddoc"><p>Tells that this entity will represent mostly static object, so we can use more precise but slower methods for scene-tree linking. Also it tells to scene tree that he can count with this entity as tree-split hint. </p>
+<tr><td class="fieldname"><a id="ggacda3452546886b2b713c62c4a07fd52aaf23e483cc67bbfcde605c420616a0ff2" name="ggacda3452546886b2b713c62c4a07fd52aaf23e483cc67bbfcde605c420616a0ff2"></a>STATIC&#160;</td><td class="fielddoc"><p><a class="el" href="../../d4/daf/class_static.html">Static</a> objects are included in the query. </p>
+<p>Tells that this entity will represent mostly static object, so we can use more precise but slower methods for scene-tree linking. Also it tells to scene tree that he can count with this entity as tree-split hint. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggacda3452546886b2b713c62c4a07fd52aa7021d2502c85204390cb42e75882b9d6" name="ggacda3452546886b2b713c62c4a07fd52aa7021d2502c85204390cb42e75882b9d6"></a>USER1&#160;</td><td class="fielddoc"><p>Flags for custom usage and filterings. </p>
 </td></tr>
@@ -809,9 +816,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00813">813</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">831</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00807">Attribute::m_DefValue</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00810">Attribute::m_Desc</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00811">Attribute::m_Enums</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00809">Attribute::m_RangeScale</a>, and <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00808">Attribute::m_UiWidget</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00825">Attribute::m_DefValue</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00828">Attribute::m_Desc</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00829">Attribute::m_Enums</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00827">Attribute::m_RangeScale</a>, and <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00826">Attribute::m_UiWidget</a>.</p>
 
 </div>
 </div>
@@ -854,7 +861,7 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line">&gt;&gt; 128</div>
 <div class="line">&gt;&gt; 0</div>
-<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/_day_z_game_8c_source.html#l03179">DayZGame.c:3179</a></div></div>
+<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/_day_z_game_8c_source.html#l03638">DayZGame.c:3638</a></div></div>
 <div class="ttc" id="agroup___debug_html_gaaa9351d895a1f244a26fd635c378c536"><div class="ttname"><a href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a></div><div class="ttdeci">proto void Print(void var)</div><div class="ttdoc">Prints content of variable to console/log.</div></div>
 <div class="ttc" id="agroup___entity_attributes_html_gaa29339063b04471895b3cb38b17cdb13"><div class="ttname"><a href="../../d3/d14/group___entity_attributes.html#gaa29339063b04471895b3cb38b17cdb13">EntityEvent</a></div><div class="ttdeci">EntityEvent</div><div class="ttdoc">Entity events for event-mask, or throwing event from code.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dd5/_en_entity_8c_source.html#l00044">EnEntity.c:45</a></div></div>
 </div><!-- fragment --> </dd></dl>
@@ -1065,9 +1072,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">836</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">854</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00826">m_Category</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00830">m_Color</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">m_Color2</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00827">m_Description</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00834">m_DynamicBox</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00833">m_Insertable</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00829">m_SizeMax</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00828">m_SizeMin</a>, <a class="el" href="../../d3/d14/group___entity_attributes.html#ga284866cc6052350a6948cb0f7e806e78">m_Style</a>, and <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00832">m_Visible</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00844">m_Category</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00848">m_Color</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00849">m_Color2</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00845">m_Description</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00852">m_DynamicBox</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00851">m_Insertable</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00847">m_SizeMax</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00846">m_SizeMin</a>, <a class="el" href="../../d3/d14/group___entity_attributes.html#ga284866cc6052350a6948cb0f7e806e78">m_Style</a>, and <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00850">m_Visible</a>.</p>
 
 </div>
 </div>
@@ -2687,6 +2694,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="gabd9f1e4ab502177724ad40ae5f164def" name="gabd9f1e4ab502177724ad40ae5f164def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd9f1e4ab502177724ad40ae5f164def">&#9670;&#160;</a></span>GetHierarchyPivot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto native <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> GetHierarchyPivot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the hierarchy component pivot. </p>
+
+</div>
+</div>
 <a id="ga2cbfca40ac91ec04105c275a02c6005b" name="ga2cbfca40ac91ec04105c275a02c6005b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2cbfca40ac91ec04105c275a02c6005b">&#9670;&#160;</a></span>GetID()</h2>
 
@@ -2715,7 +2749,7 @@ Variables</h2></td></tr>
 <div class="line"><a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>( apple.GetID() );</div>
 <div class="line"> </div>
 <div class="line">&gt;&gt; 0</div>
-<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00762">InventoryItem.c:763</a></div></div>
+<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00731">InventoryItem.c:732</a></div></div>
 </div><!-- fragment --> </dd></dl>
 
 </div>
@@ -2934,7 +2968,7 @@ Variables</h2></td></tr>
 <div class="line">&gt;&gt; &lt;2577.02,15.6837,2924.27&gt;</div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00064">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00072">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -3012,6 +3046,47 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns pointer to parent <a class="el" href="../../d2/d96/class_entity.html">Entity</a> in hierarchy. </p>
+
+</div>
+</div>
+<a id="ga43ce3f883686da483873def2ac717c42" name="ga43ce3f883686da483873def2ac717c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43ce3f883686da483873def2ac717c42">&#9670;&#160;</a></span>GetRenderTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto external void GetRenderTransform </td>
+          <td>(</td>
+          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>mat</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns render transformation of <a class="el" href="../../d2/d96/class_entity.html">Entity</a>. Must pass in vector array size of 4. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td><code>vector</code>[4] matrix to be get <div class="fragment"><div class="line">Man player = <a class="code hl_variable" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>.GetPlayer();</div>
+<div class="line"> </div>
+<div class="line"><a class="code hl_class" href="../../d7/dfc/classvector.html">vector</a> mat[4];</div>
+<div class="line">player.GetRenderTransform(mat);</div>
+<div class="line"><a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>( mat );</div>
+<div class="line"> </div>
+<div class="line">&gt;&gt; &lt;0.989879,-0,0.141916&gt;,&lt;0,1,0&gt;,&lt;-0.141916,0,0.989879&gt;,&lt;2545.08,15.6754,2867.49&gt;</div>
+</div><!-- fragment --> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -3482,9 +3557,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00776">776</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00794">794</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00774">ParamEnum::m_Desc</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00772">ParamEnum::m_Key</a>, and <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00773">ParamEnum::m_Value</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00792">ParamEnum::m_Desc</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00790">ParamEnum::m_Key</a>, and <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00791">ParamEnum::m_Value</a>.</p>
 
 </div>
 </div>
@@ -3520,7 +3595,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00791">791</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00809">809</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
 </div>
 </div>
@@ -4169,9 +4244,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>folder structure eg. StaticEntities/Walls </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00826">826</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00844">844</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>, <a class="el" href="../../d7/d6b/_gestures_menu_8c_source.html#l00023">GestureMenuItem()</a>, <a class="el" href="../../d7/d6b/_gestures_menu_8c_source.html#l00080">GetCategory()</a>, <a class="el" href="../../de/d5e/_radial_quickbar_menu_8c_source.html#l00062">GetItemCategory()</a>, and <a class="el" href="../../de/d5e/_radial_quickbar_menu_8c_source.html#l00021">RadialQuickbarItem()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>, <a class="el" href="../../d7/d6b/_gestures_menu_8c_source.html#l00023">GestureMenuItem()</a>, <a class="el" href="../../d7/d6b/_gestures_menu_8c_source.html#l00080">GetCategory()</a>, <a class="el" href="../../de/d5e/_radial_quickbar_menu_8c_source.html#l00062">GetItemCategory()</a>, and <a class="el" href="../../de/d5e/_radial_quickbar_menu_8c_source.html#l00021">RadialQuickbarItem()</a>.</p>
 
 </div>
 </div>
@@ -4187,9 +4262,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00830">830</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00848">848</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4205,9 +4280,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">831</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00849">849</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4231,9 +4306,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00807">807</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00825">825</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00813">Attribute::Attribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">Attribute::Attribute()</a>.</p>
 
 </div>
 </div>
@@ -4257,9 +4332,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00774">774</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00792">792</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00776">ParamEnum::ParamEnum()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00794">ParamEnum::ParamEnum()</a>.</p>
 
 </div>
 </div>
@@ -4275,7 +4350,7 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00789">789</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00807">807</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
 </div>
 </div>
@@ -4299,9 +4374,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00810">810</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00828">828</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00813">Attribute::Attribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">Attribute::Attribute()</a>.</p>
 
 </div>
 </div>
@@ -4319,9 +4394,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>class purpose description </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00827">827</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00845">845</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01171">InventoryItemSuper::DescriptionOverride()</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>, <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01050">InventoryItemSuper::InitMapState()</a>, <a class="el" href="../../d0/dc1/_mods_menu_detailed_entry_8c_source.html#l00089">ScriptedWidgetEventHandler::LoadData()</a>, and <a class="el" href="../../d0/dc1/_mods_menu_detailed_entry_8c_source.html#l00025">ScriptedWidgetEventHandler::ModsMenuDetailedEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01140">InventoryItemSuper::DescriptionOverride()</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>, <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01019">InventoryItemSuper::InitMapState()</a>, <a class="el" href="../../d0/dc1/_mods_menu_detailed_entry_8c_source.html#l00089">ScriptedWidgetEventHandler::LoadData()</a>, and <a class="el" href="../../d0/dc1/_mods_menu_detailed_entry_8c_source.html#l00025">ScriptedWidgetEventHandler::ModsMenuDetailedEntry()</a>.</p>
 
 </div>
 </div>
@@ -4337,9 +4412,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00834">834</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00852">852</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4365,9 +4440,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>Only ints and floats are currently supported. Array can be defined this way: { <a class="el" href="../../d2/d19/class_param_enum.html">ParamEnum</a>("Choice 1", "1"), <a class="el" href="../../d2/d19/class_param_enum.html">ParamEnum</a>("Choicen 2", "2") }. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00811">811</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00829">829</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00813">Attribute::Attribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">Attribute::Attribute()</a>.</p>
 
 </div>
 </div>
@@ -4383,9 +4458,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00833">833</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00851">851</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4409,9 +4484,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00772">772</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00790">790</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00776">ParamEnum::ParamEnum()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00794">ParamEnum::ParamEnum()</a>.</p>
 
 </div>
 </div>
@@ -4427,9 +4502,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00787">787</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00805">805</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d6a/_badge_bleeding_8c_source.html#l00003">DisplayElementBadge::BadgeBleeding()</a>, <a class="el" href="../../dd/d7b/_badge_fracture_8c_source.html#l00003">DisplayElementBadge::BadgeFracture()</a>, <a class="el" href="../../db/d71/_badge_heartbeat_8c_source.html#l00003">DisplayElementBadge::BadgeHeartbeat()</a>, <a class="el" href="../../d1/d2e/_badge_pills_8c_source.html#l00003">DisplayElementBadge::BadgePills()</a>, <a class="el" href="../../d5/d11/_badge_poisoned_8c_source.html#l00003">DisplayElementBadge::BadgePoisoned()</a>, <a class="el" href="../../d9/d5d/_badge_sick_8c_source.html#l00003">DisplayElementBadge::BadgeSick()</a>, <a class="el" href="../../d7/dd4/_badge_stuffed_8c_source.html#l00003">DisplayElementBadge::BadgeStuffed()</a>, <a class="el" href="../../d5/dbe/_badge_wet_8c_source.html#l00003">DisplayElementBadge::BadgeWet()</a>, <a class="el" href="../../d5/d9b/_tendency_bacteria_8c_source.html#l00003">DisplayElementTendency::TendencyBacteria()</a>, <a class="el" href="../../d8/dec/_tendency_blood_8c_source.html#l00003">DisplayElementTendency::TendencyBlood()</a>, <a class="el" href="../../d0/dd6/_tendency_health_8c_source.html#l00003">DisplayElementTendency::TendencyHealth()</a>, <a class="el" href="../../dc/d47/_tendency_hunger_8c_source.html#l00003">DisplayElementTendency::TendencyHunger()</a>, <a class="el" href="../../d3/d87/_tendency_temperature_8c_source.html#l00003">DisplayElementTendency::TendencyTemperature()</a>, <a class="el" href="../../d3/d1a/_tendency_thirst_8c_source.html#l00003">DisplayElementTendency::TendencyThirst()</a>, <a class="el" href="../../df/dfe/_display_element_badge_8c_source.html#l00008">DisplayElementBase::UpdateHUD()</a>, and <a class="el" href="../../d7/dd4/_badge_stuffed_8c_source.html#l00010">DisplayElementBadge::UpdateHUD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d6a/_badge_bleeding_8c_source.html#l00003">DisplayElementBadge::BadgeBleeding()</a>, <a class="el" href="../../dd/d7b/_badge_fracture_8c_source.html#l00003">DisplayElementBadge::BadgeFracture()</a>, <a class="el" href="../../db/d71/_badge_heartbeat_8c_source.html#l00003">DisplayElementBadge::BadgeHeartbeat()</a>, <a class="el" href="../../d7/d97/_badge_legs_8c_source.html#l00003">DisplayElementBadge::BadgeLegs()</a>, <a class="el" href="../../d1/d2e/_badge_pills_8c_source.html#l00003">DisplayElementBadge::BadgePills()</a>, <a class="el" href="../../d5/d11/_badge_poisoned_8c_source.html#l00003">DisplayElementBadge::BadgePoisoned()</a>, <a class="el" href="../../d9/d5d/_badge_sick_8c_source.html#l00003">DisplayElementBadge::BadgeSick()</a>, <a class="el" href="../../d7/dd4/_badge_stuffed_8c_source.html#l00003">DisplayElementBadge::BadgeStuffed()</a>, <a class="el" href="../../d5/dbe/_badge_wet_8c_source.html#l00003">DisplayElementBadge::BadgeWet()</a>, <a class="el" href="../../d5/d9b/_tendency_bacteria_8c_source.html#l00003">DisplayElementTendency::TendencyBacteria()</a>, <a class="el" href="../../d8/dec/_tendency_blood_8c_source.html#l00003">DisplayElementTendency::TendencyBlood()</a>, <a class="el" href="../../d0/dd6/_tendency_health_8c_source.html#l00003">DisplayElementTendency::TendencyHealth()</a>, <a class="el" href="../../dc/d47/_tendency_hunger_8c_source.html#l00003">DisplayElementTendency::TendencyHunger()</a>, <a class="el" href="../../d3/d87/_tendency_temperature_8c_source.html#l00003">DisplayElementTendency::TendencyTemperature()</a>, <a class="el" href="../../d3/d1a/_tendency_thirst_8c_source.html#l00003">DisplayElementTendency::TendencyThirst()</a>, and <a class="el" href="../../df/dfe/_display_element_badge_8c_source.html#l00008">DisplayElementBase::UpdateHUD()</a>.</p>
 
 </div>
 </div>
@@ -4455,9 +4530,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>defined as "MIN_VALUE MAX_VALUE STEP" eg. "1 100 0.5" </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00809">809</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00827">827</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00813">Attribute::Attribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">Attribute::Attribute()</a>.</p>
 
 </div>
 </div>
@@ -4475,9 +4550,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>max vector of a bounding box </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00829">829</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00847">847</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4495,9 +4570,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>min vector of a bounding box </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00828">828</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00846">846</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4515,7 +4590,7 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>can be "box", "sphere", "cylinder", "pyramid", "diamond" or custom style name </p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>.</p>
 
 </div>
 </div>
@@ -4541,9 +4616,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 
 <p>can be "editbox", "combobox", "spinbox", "slider", "font", "fileeditbox", "colorPicker", "flags", "resourceNamePicker" </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00808">808</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00826">826</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00813">Attribute::Attribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00831">Attribute::Attribute()</a>.</p>
 
 </div>
 </div>
@@ -4567,9 +4642,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00773">773</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00791">791</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00776">ParamEnum::ParamEnum()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00794">ParamEnum::ParamEnum()</a>.</p>
 
 </div>
 </div>
@@ -4585,9 +4660,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00788">788</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00806">806</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00106">PlayerStatBase::Add()</a>, <a class="el" href="../../d2/dc8/_cfg_param_bool_8c_source.html#l00005">CfgParamType::CfgParamBool()</a>, <a class="el" href="../../dc/d9b/_cfg_param_float_8c_source.html#l00005">CfgParamType::CfgParamFloat()</a>, <a class="el" href="../../d2/dc8/_cfg_param_int_8c_source.html#l00005">CfgParamType::CfgParamInt()</a>, <a class="el" href="../../d1/d93/_cfg_param_string_8c_source.html#l00005">CfgParamType::CfgParamString()</a>, <a class="el" href="../../df/db5/_synced_value_8c_source.html#l00055">GetValue()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00055">MessageReceiverBase::GetValue()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00031">MessageReceiverBase::IsValueChanged()</a>, <a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html#l00005">PPERequester_GameplayBase::OnStart()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00153">PlayerStatBase::OnStoreLoad()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00146">PlayerStatBase::OnStoreSave()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00036">PlayerStatBase::PlayerStat()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00012">PresenceNotifierNoiseEvent()</a>, <a class="el" href="../../d9/de7/_display_status_8c_source.html#l00159">PrintElements()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00063">PlayerStatBase::Set()</a>, <a class="el" href="../../dc/dc7/_display_element_tendency_8c_source.html#l00012">DisplayElementBase::SetSeriousnessLevel()</a>, <a class="el" href="../../dc/dc7/_display_element_tendency_8c_source.html#l00037">DisplayElementBase::SetTendency()</a>, <a class="el" href="../../d2/dc8/_cfg_param_bool_8c_source.html#l00010">CfgParamType::SetValue()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00046">MessageReceiverBase::SetValue()</a>, <a class="el" href="../../df/db5/_synced_value_8c_source.html#l00110">SyncedValueAgent()</a>, <a class="el" href="../../df/db5/_synced_value_8c_source.html#l00043">SyncedValueLevel()</a>, <a class="el" href="../../df/dfe/_display_element_badge_8c_source.html#l00008">DisplayElementBase::UpdateHUD()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00036">MessageReceiverBase::UpdateHUD()</a>, and <a class="el" href="../../d7/dd4/_badge_stuffed_8c_source.html#l00010">DisplayElementBadge::UpdateHUD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00106">PlayerStatBase::Add()</a>, <a class="el" href="../../d2/dc8/_cfg_param_bool_8c_source.html#l00005">CfgParamType::CfgParamBool()</a>, <a class="el" href="../../dc/d9b/_cfg_param_float_8c_source.html#l00005">CfgParamType::CfgParamFloat()</a>, <a class="el" href="../../d2/dc8/_cfg_param_int_8c_source.html#l00005">CfgParamType::CfgParamInt()</a>, <a class="el" href="../../d1/d93/_cfg_param_string_8c_source.html#l00005">CfgParamType::CfgParamString()</a>, <a class="el" href="../../df/db5/_synced_value_8c_source.html#l00055">GetValue()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00055">MessageReceiverBase::GetValue()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00031">MessageReceiverBase::IsValueChanged()</a>, <a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html#l00005">PPERequester_GameplayBase::OnStart()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00153">PlayerStatBase::OnStoreLoad()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00146">PlayerStatBase::OnStoreSave()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00036">PlayerStatBase::PlayerStat()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00012">PresenceNotifierNoiseEvent()</a>, <a class="el" href="../../d9/de7/_display_status_8c_source.html#l00159">PrintElements()</a>, <a class="el" href="../../d4/db0/_player_stat_base_8c_source.html#l00063">PlayerStatBase::Set()</a>, <a class="el" href="../../dc/dc7/_display_element_tendency_8c_source.html#l00012">DisplayElementBase::SetSeriousnessLevel()</a>, <a class="el" href="../../dc/dc7/_display_element_tendency_8c_source.html#l00037">DisplayElementBase::SetTendency()</a>, <a class="el" href="../../d2/dc8/_cfg_param_bool_8c_source.html#l00010">CfgParamType::SetValue()</a>, <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00046">MessageReceiverBase::SetValue()</a>, <a class="el" href="../../df/db5/_synced_value_8c_source.html#l00110">SyncedValueAgent()</a>, <a class="el" href="../../df/db5/_synced_value_8c_source.html#l00043">SyncedValueLevel()</a>, <a class="el" href="../../df/dfe/_display_element_badge_8c_source.html#l00008">DisplayElementBase::UpdateHUD()</a>, and <a class="el" href="../../d3/de1/_display_element_base_8c_source.html#l00036">MessageReceiverBase::UpdateHUD()</a>.</p>
 
 </div>
 </div>
@@ -4603,9 +4678,9 @@ when it has EntityFlags.TFL_ACTIVE flag set.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00832">832</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00850">850</a> of file <a class="el" href="../../de/dd5/_en_entity_8c_source.html">EnEntity.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00836">EditorAttribute()</a>, <a class="el" href="../../dc/d05/_projected_crosshair_8c_source.html#l00069">ScriptedWidgetEventHandler::GetCrosshairPosition()</a>, <a class="el" href="../../df/d5a/_g_e_widgets_meta_data_bleeding_8c_source.html#l00026">GameplayEffectsData::Init()</a>, <a class="el" href="../../d8/dce/_object_follower_8c_source.html#l00009">ScriptedWidgetEventHandler::ObjectFollower()</a>, <a class="el" href="../../dc/d05/_projected_crosshair_8c_source.html#l00011">ScriptedWidgetEventHandler::ProjectedCrosshair()</a>, <a class="el" href="../../d8/dce/_object_follower_8c_source.html#l00042">ScriptedWidgetEventHandler::Update()</a>, <a class="el" href="../../df/d5a/_g_e_widgets_meta_data_bleeding_8c_source.html#l00154">GameplayEffectsData::Update()</a>, and <a class="el" href="../../df/d5a/_g_e_widgets_meta_data_bleeding_8c_source.html#l00197">GameplayEffectsData::UpdateVisibility()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00854">EditorAttribute()</a>, <a class="el" href="../../dc/d05/_projected_crosshair_8c_source.html#l00069">ScriptedWidgetEventHandler::GetCrosshairPosition()</a>, <a class="el" href="../../df/d5a/_g_e_widgets_meta_data_bleeding_8c_source.html#l00026">GameplayEffectsData::Init()</a>, <a class="el" href="../../d8/dce/_object_follower_8c_source.html#l00009">ScriptedWidgetEventHandler::ObjectFollower()</a>, <a class="el" href="../../dc/d05/_projected_crosshair_8c_source.html#l00011">ScriptedWidgetEventHandler::ProjectedCrosshair()</a>, <a class="el" href="../../d8/dce/_object_follower_8c_source.html#l00042">ScriptedWidgetEventHandler::Update()</a>, <a class="el" href="../../df/d5a/_g_e_widgets_meta_data_bleeding_8c_source.html#l00154">GameplayEffectsData::Update()</a>, and <a class="el" href="../../df/d5a/_g_e_widgets_meta_data_bleeding_8c_source.html#l00197">GameplayEffectsData::UpdateVisibility()</a>.</p>
 
 </div>
 </div>

@@ -6,8 +6,8 @@ var class_mp133_shotgun___base =
     [ "OnDebugSpawn", "de/d35/class_mp133_shotgun___base.html#a05eab95952a189dc9e08ccecec41b51a", null ],
     [ "SetActions", "de/d35/class_mp133_shotgun___base.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SpawnRecoilObject", "de/d35/class_mp133_shotgun___base.html#ac70edd5184853723a0f14d8d7e9622cf", null ],
-    [ "E", "de/d35/class_mp133_shotgun___base.html#a3848e6f689b26a0d3a35b8f3f96ff2a4", null ],
-    [ "F", "de/d35/class_mp133_shotgun___base.html#a3b70195997f436bfe92343b38c328a13", null ],
-    [ "J", "de/d35/class_mp133_shotgun___base.html#af9dbbf04cbe54cc126d4eb7b51e8a68a", null ],
-    [ "L", "de/d35/class_mp133_shotgun___base.html#a2fa72d411caf0ac7a443c2919ba53442", null ]
+    [ "E", "de/d35/class_mp133_shotgun___base.html#a4b67e84ff79e8693162720c34ff52ecf", null ],
+    [ "F", "de/d35/class_mp133_shotgun___base.html#a7bb7d79133152564774c988844ffcc93", null ],
+    [ "J", "de/d35/class_mp133_shotgun___base.html#a9fa8265f62e608645de3de81eb5bf166", null ],
+    [ "L", "de/d35/class_mp133_shotgun___base.html#a336d6505686b095c1feb4f541dc6ddb7", null ]
 ];

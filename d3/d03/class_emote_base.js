@@ -1,5 +1,7 @@
 var class_emote_base =
 [
+    [ "CanBeCanceledNormally", "d3/d03/class_emote_base.html#abfc96320c731324b4aca53cf0f221a34", null ],
+    [ "CanBeCanceledNormally", "d3/d03/class_emote_base.html#ad14fe248a6cb7717de356b78d756642a", null ],
     [ "DetermineOverride", "d3/d03/class_emote_base.html#ada378c478a6f475915e0179b162c6483", null ],
     [ "DetermineOverride", "d3/d03/class_emote_base.html#a32d5c31b66017fb6bd881315244af52e", null ],
     [ "EmoteCampfireSit", "d3/d03/class_emote_base.html#ad53b7639cf31c8b139305fcb40230eca", null ],
@@ -37,6 +39,8 @@ var class_emote_base =
     [ "GetStanceMaskFullbody", "d3/d03/class_emote_base.html#aeeada01da5c7d6e7498d10e681ce8abc", null ],
     [ "OnBeforeStandardCallbackCreated", "d3/d03/class_emote_base.html#a3e048af7ed71064e481f2fdc8318b33d", null ],
     [ "OnBeforeStandardCallbackCreated", "d3/d03/class_emote_base.html#a169857d27c13596a7186b2b690219bfc", null ],
+    [ "OnCallbackEnd", "d3/d03/class_emote_base.html#a7cb3ecf9ab61f022cb6703b95bbef807", null ],
+    [ "OnCallbackEnd", "d3/d03/class_emote_base.html#aaf71147651067ecf313bc639570eb5e3", null ],
     [ "SetOwnerPlayer", "d3/d03/class_emote_base.html#aa46ef211fda02b5016cdd5de543f709e", null ],
     [ "m_AdditiveCallbackUID", "d3/d03/class_emote_base.html#ae0f20e8f44b129ada40c0113fe66e60d", null ],
     [ "m_FullbodyCallbackUID", "d3/d03/class_emote_base.html#a403cccf5f3e699679fd740e002fe82be", null ],

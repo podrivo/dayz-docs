@@ -27,6 +27,7 @@ var _connect_error_server_module_8c =
       [ "VERSION_GREATER", "d9/d44/_connect_error_server_module_8c.html#ad49ffaf1b7ee66c79a5f3294cfc71432aa0ab0280d709de16dad01b19b161f5cb", null ],
       [ "EQUAL_MOD", "d9/d44/_connect_error_server_module_8c.html#ad49ffaf1b7ee66c79a5f3294cfc71432ac88e15f7a0f2bed4f6ce214f3b6cff42", null ],
       [ "CLIENT_DIAG", "d9/d44/_connect_error_server_module_8c.html#ad49ffaf1b7ee66c79a5f3294cfc71432aef5d259de034c0a962d8e2b48c2c5d2c", null ],
-      [ "SERVER_DIAG", "d9/d44/_connect_error_server_module_8c.html#ad49ffaf1b7ee66c79a5f3294cfc71432a5d65c64dea97785b353b0fbb3bba86d5", null ]
+      [ "SERVER_DIAG", "d9/d44/_connect_error_server_module_8c.html#ad49ffaf1b7ee66c79a5f3294cfc71432a5d65c64dea97785b353b0fbb3bba86d5", null ],
+      [ "NO_DEVICE_ID", "d9/d44/_connect_error_server_module_8c.html#ad49ffaf1b7ee66c79a5f3294cfc71432a2eebe3bbd8fb21ce25bdd6216254e222", null ]
     ] ]
 ];

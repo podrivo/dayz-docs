@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,9 +101,19 @@ $(document).ready(function(){initNavTree('d0/d85/_mace_8c_source.html','../../')
   <div class="headertitle"><div class="title">Mace.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d0/d85/_mace_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno"><a class="line" href="../../d2/da6/class_mace.html">    1</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/da6/class_mace.html">Mace</a>: <a class="code hl_class" href="../../d7/d5d/class_inventory___base.html">Inventory_Base</a> {};</div>
+<a href="../../d0/d85/_mace_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">class </span>Mace <span class="keyword">extends</span> <a class="code hl_class" href="../../d7/d5d/class_inventory___base.html">Inventory_Base</a></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>{</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d">    3</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    {</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        super.SetActions();</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>        </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../d3/d9b/class_action_mine_rock1_h.html">ActionMineRock1H</a>);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    }</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>}</div>
+<div class="ttc" id="a_advanced_communication_8c_html_a52cdff768ebc148eee5a17e4ebef3408"><div class="ttname"><a href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a></div><div class="ttdeci">void AddAction(typename actionName)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AdvancedCommunication.c:220</a></div></div>
+<div class="ttc" id="aclass_action_mine_rock1_h_html"><div class="ttname"><a href="../../d3/d9b/class_action_mine_rock1_h.html">ActionMineRock1H</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dbd/_action_mine_rock_8c_source.html#l00049">ActionMineRock.c:50</a></div></div>
 <div class="ttc" id="aclass_inventory___base_html"><div class="ttname"><a href="../../d7/d5d/class_inventory___base.html">Inventory_Base</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/daf/_barbed_baseball_bat_8c_source.html#l00001">BarbedBaseballBat.c:2</a></div></div>
-<div class="ttc" id="aclass_mace_html"><div class="ttname"><a href="../../d2/da6/class_mace.html">Mace</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/_mace_8c_source.html#l00001">Mace.c:1</a></div></div>
+<div class="ttc" id="aclass_inventory___base_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../d7/d5d/class_inventory___base.html#afa39b7c4d3d085ef8514a87c32b81a4d">Inventory_Base::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/_mace_8c_source.html#l00003">Mace.c:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

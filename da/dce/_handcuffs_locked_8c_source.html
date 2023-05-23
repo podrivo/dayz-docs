@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -165,47 +165,71 @@ $(document).ready(function(){initNavTree('da/dce/_handcuffs_locked_8c_source.htm
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                    }</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                <a class="code hl_function" href="../../dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Delete</a>();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                Delete();</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            }</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        }   </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">   70</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../de/d7a/class_item_base.html#a4de4d414d0cbf15100ab71ec84ca25f7">   70</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d7a/class_item_base.html#a4de4d414d0cbf15100ab71ec84ca25f7">EEKilled</a>(<a class="code hl_class" href="../../d8/d83/class_object.html">Object</a> killer)</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    {</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        super.SetActions();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        super.EEKilled(killer);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../d4/d52/class_action_unrestrain_self.html">ActionUnrestrainSelf</a>);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    }</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>}</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">class </span>HandcuffsLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>{</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>}</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">class </span>RopeLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>}</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">class </span>DuctTapeLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>{</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>}</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">class </span>MetalWireLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>{</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>}</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">class </span>BarbedWireLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>{</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <a class="code hl_class" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> inventoryLocation = <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        GetInventory().GetCurrentInventoryLocation(inventoryLocation);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordflow">if</span> (!inventoryLocation || !inventoryLocation.<a class="code hl_function" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">IsValid</a>())</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keywordflow">if</span> (inventoryLocation.<a class="code hl_function" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">GetType</a>() == <a class="code hl_enumeration" href="../../d6/d52/_inventory_location_8c.html#ad09049fb2b99c763369bfe6228aa81b3">InventoryLocationType</a>.HANDS)</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <a class="code hl_class" href="../../d5/da8/class_player_base.html">PlayerBase</a> player = <a class="code hl_class" href="../../d5/da8/class_player_base.html">PlayerBase</a>.Cast(inventoryLocation.<a class="code hl_function" href="../../d6/dc5/class_inventory_location.html#aa4957320ada1b1e401862296fe14370b">GetParent</a>());</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">if</span> (player &amp;&amp; player.IsRestrained())</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>                player.SetRestrained(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                MiscGameplayFunctions.TransformRestrainItem(<span class="keyword">this</span>, null, player, player);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        }</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">   90</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        super.SetActions();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../d4/d52/class_action_unrestrain_self.html">ActionUnrestrainSelf</a>);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    }</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keyword">class </span>HandcuffsLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>{</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>}</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">class </span>RopeLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>{</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>}</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="keyword">class </span>DuctTapeLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>{</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>}</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">class </span>MetalWireLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>{</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>}</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="keyword">class </span>BarbedWireLocked <span class="keyword">extends</span> RestrainingToolLocked</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>{</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>}</div>
 <div class="ttc" id="a_advanced_communication_8c_html_a52cdff768ebc148eee5a17e4ebef3408"><div class="ttname"><a href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a></div><div class="ttdeci">void AddAction(typename actionName)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AdvancedCommunication.c:220</a></div></div>
 <div class="ttc" id="a_inventory_location_8c_html_ad09049fb2b99c763369bfe6228aa81b3"><div class="ttname"><a href="../../d6/d52/_inventory_location_8c.html#ad09049fb2b99c763369bfe6228aa81b3">InventoryLocationType</a></div><div class="ttdeci">InventoryLocationType</div><div class="ttdoc">types of Inventory Location</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d52/_inventory_location_8c_source.html#l00003">InventoryLocation.c:4</a></div></div>
-<div class="ttc" id="a_object_8c_html_ac2e5aab0612d67400354a4fe71278a21"><div class="ttname"><a href="../../dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Delete</a></div><div class="ttdeci">void Delete()</div><div class="ttdoc">Delete this object in next frame.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d93/_object_8c_source.html#l00026">Object.c:26</a></div></div>
 <div class="ttc" id="aclass_action_unrestrain_self_html"><div class="ttname"><a href="../../d4/d52/class_action_unrestrain_self.html">ActionUnrestrainSelf</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbd/_action_unrestrain_self_8c_source.html#l00048">ActionUnrestrainSelf.c:49</a></div></div>
 <div class="ttc" id="aclass_inventory_location_html"><div class="ttname"><a href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a></div><div class="ttdoc">InventoryLocation.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d52/_inventory_location_8c_source.html#l00027">InventoryLocation.c:28</a></div></div>
-<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00762">InventoryItem.c:763</a></div></div>
+<div class="ttc" id="aclass_inventory_location_html_a0a4e944cf0e3e550e14551705c70e956"><div class="ttname"><a href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType</a></div><div class="ttdeci">proto native int GetType()</div><div class="ttdoc">returns type of InventoryLocation</div></div>
+<div class="ttc" id="aclass_inventory_location_html_a126b312186e0481dff1f5980ff24b596"><div class="ttname"><a href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid</a></div><div class="ttdeci">proto native bool IsValid()</div><div class="ttdoc">verify current set inventory location</div></div>
+<div class="ttc" id="aclass_inventory_location_html_aa4957320ada1b1e401862296fe14370b"><div class="ttname"><a href="../../d6/dc5/class_inventory_location.html#aa4957320ada1b1e401862296fe14370b">InventoryLocation::GetParent</a></div><div class="ttdeci">proto native EntityAI GetParent()</div><div class="ttdoc">returns parent of current inventory location</div></div>
+<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00731">InventoryItem.c:732</a></div></div>
 <div class="ttc" id="aclass_item_base_html_a12f8887e72f72fbbde4993f42228b6da"><div class="ttname"><a href="../../de/d7a/class_item_base.html#a12f8887e72f72fbbde4993f42228b6da">ItemBase::~RestrainingToolLocked</a></div><div class="ttdeci">void ~RestrainingToolLocked()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/_handcuffs_locked_8c_source.html#l00003">HandcuffsLocked.c:3</a></div></div>
+<div class="ttc" id="aclass_item_base_html_a4de4d414d0cbf15100ab71ec84ca25f7"><div class="ttname"><a href="../../de/d7a/class_item_base.html#a4de4d414d0cbf15100ab71ec84ca25f7">ItemBase::EEKilled</a></div><div class="ttdeci">override void EEKilled(Object killer)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/_handcuffs_locked_8c_source.html#l00070">HandcuffsLocked.c:70</a></div></div>
 <div class="ttc" id="aclass_item_base_html_aafac0842577356f878e87cbecd8dbdc1"><div class="ttname"><a href="../../de/d7a/class_item_base.html#aafac0842577356f878e87cbecd8dbdc1">ItemBase::EEItemLocationChanged</a></div><div class="ttdeci">override void EEItemLocationChanged(notnull InventoryLocation oldLoc, notnull InventoryLocation newLoc)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/_handcuffs_locked_8c_source.html#l00012">HandcuffsLocked.c:12</a></div></div>
-<div class="ttc" id="aclass_item_base_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">ItemBase::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/_handcuffs_locked_8c_source.html#l00070">HandcuffsLocked.c:70</a></div></div>
+<div class="ttc" id="aclass_item_base_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">ItemBase::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/_handcuffs_locked_8c_source.html#l00090">HandcuffsLocked.c:90</a></div></div>
+<div class="ttc" id="aclass_object_html"><div class="ttname"><a href="../../d8/d83/class_object.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d68/_object_typed_8c_source.html#l00001">ObjectTyped.c:2</a></div></div>
 <div class="ttc" id="aclass_player_base_html"><div class="ttname"><a href="../../d5/da8/class_player_base.html">PlayerBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/_player_base_client_8c_source.html#l00001">PlayerBaseClient.c:2</a></div></div>
 <div class="ttc" id="agameplay_8c_html_aebb1fa6632d513bc849994e7b6c9c93d"><div class="ttname"><a href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a></div><div class="ttdeci">proto native CGame GetGame()</div></div>
 </div><!-- fragment --></div><!-- contents -->

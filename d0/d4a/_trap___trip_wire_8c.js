@@ -9,6 +9,7 @@ var _trap___trip_wire_8c =
     [ "CanDisplayAttachmentSlot", "d0/d4a/_trap___trip_wire_8c.html#a850b9b0562bb3b88cad1d9d6d0202dc9", null ],
     [ "CanReceiveAttachment", "d0/d4a/_trap___trip_wire_8c.html#ae7bd4d02b82fa1017e3a4cf7e3caba18", null ],
     [ "CreateTrigger", "d0/d4a/_trap___trip_wire_8c.html#afc7c03491c0efb104d0d0d108993d733", null ],
+    [ "EEHealthLevelChanged", "d0/d4a/_trap___trip_wire_8c.html#a56edaa75fb618ddf0aa2354f005cdd6e", null ],
     [ "EEItemAttached", "d0/d4a/_trap___trip_wire_8c.html#ac063b6124c64033d904f29247d8eb45a", null ],
     [ "EEItemDetached", "d0/d4a/_trap___trip_wire_8c.html#a870b0dcd0dfafe4a764232688d9356c0", null ],
     [ "EEItemLocationChanged", "d0/d4a/_trap___trip_wire_8c.html#aafac0842577356f878e87cbecd8dbdc1", null ],

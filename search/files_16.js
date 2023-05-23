@@ -31,11 +31,12 @@ var searchData=
   ['universallightlight_2ec_28',['UniversallightLight.c',['../d6/d9d/_universallight_light_8c.html',1,'']]],
   ['universaltemperaturesource_2ec_29',['UniversalTemperatureSource.c',['../d2/ddb/_universal_temperature_source_8c.html',1,'']]],
   ['universaltemperaturesourcelambdabase_2ec_30',['UniversalTemperatureSourceLambdaBase.c',['../da/dc0/_universal_temperature_source_lambda_base_8c.html',1,'']]],
-  ['universaltemperaturesourcelambdafireplace_2ec_31',['UniversalTemperatureSourceLambdaFireplace.c',['../d0/daa/_universal_temperature_source_lambda_fireplace_8c.html',1,'']]],
-  ['upgradetorchwithlard_2ec_32',['UpgradeTorchWithLard.c',['../d7/da8/_upgrade_torch_with_lard_8c.html',1,'']]],
-  ['upgradetorchwithliquidfuel_2ec_33',['UpgradeTorchWithLiquidFuel.c',['../dd/d3b/_upgrade_torch_with_liquid_fuel_8c.html',1,'']]],
-  ['ushanka_5fcolorbase_2ec_34',['Ushanka_ColorBase.c',['../d9/dc7/_ushanka___color_base_8c.html',1,'']]],
-  ['usmcjacket_5fcolorbase_2ec_35',['USMCJacket_ColorBase.c',['../d4/de0/_u_s_m_c_jacket___color_base_8c.html',1,'']]],
-  ['usmcpants_5fcolorbase_2ec_36',['USMCPants_ColorBase.c',['../d5/d85/_u_s_m_c_pants___color_base_8c.html',1,'']]],
-  ['utilityclasses_2ec_37',['UtilityClasses.c',['../de/d47/_utility_classes_8c.html',1,'']]]
+  ['universaltemperaturesourcelambdabaseimpl_2ec_31',['UniversalTemperatureSourceLambdaBaseImpl.c',['../d6/d61/_universal_temperature_source_lambda_base_impl_8c.html',1,'']]],
+  ['universaltemperaturesourcelambdafireplace_2ec_32',['UniversalTemperatureSourceLambdaFireplace.c',['../d0/daa/_universal_temperature_source_lambda_fireplace_8c.html',1,'']]],
+  ['upgradetorchwithlard_2ec_33',['UpgradeTorchWithLard.c',['../d7/da8/_upgrade_torch_with_lard_8c.html',1,'']]],
+  ['upgradetorchwithliquidfuel_2ec_34',['UpgradeTorchWithLiquidFuel.c',['../dd/d3b/_upgrade_torch_with_liquid_fuel_8c.html',1,'']]],
+  ['ushanka_5fcolorbase_2ec_35',['Ushanka_ColorBase.c',['../d9/dc7/_ushanka___color_base_8c.html',1,'']]],
+  ['usmcjacket_5fcolorbase_2ec_36',['USMCJacket_ColorBase.c',['../d4/de0/_u_s_m_c_jacket___color_base_8c.html',1,'']]],
+  ['usmcpants_5fcolorbase_2ec_37',['USMCPants_ColorBase.c',['../d5/d85/_u_s_m_c_pants___color_base_8c.html',1,'']]],
+  ['utilityclasses_2ec_38',['UtilityClasses.c',['../de/d47/_utility_classes_8c.html',1,'']]]
 ];

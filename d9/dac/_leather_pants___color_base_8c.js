@@ -1,5 +1,5 @@
 var _leather_pants___color_base_8c =
 [
-    [ "Clothing", "d8/db4/class_clothing.html", "d8/db4/class_clothing" ],
+    [ "Pants_Base", "d9/dc8/class_pants___base.html", "d9/dc8/class_pants___base" ],
     [ "LeatherPants_ColorBase", "dc/d71/class_leather_pants___color_base.html", null ]
 ];

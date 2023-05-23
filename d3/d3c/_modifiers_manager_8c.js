@@ -13,6 +13,7 @@ var _modifiers_manager_8c =
       [ "MODIFIER_SYNC_CONTAMINATION2", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a41fd66f4372d61238530967c5b08db92", null ],
       [ "MODIFIER_SYNC_ZONE_EXPOSURE", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a855b985ef6b5085dc6154b928446209c", null ],
       [ "MODIFIER_SYNC_DROWNING", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0ab982a5d307d13ef3721f4030e73d4073", null ],
+      [ "MODIFIER_SYNC_FEVER", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a274bc2cae8152d8b4007c1956a3354be", null ],
       [ "LAST_INDEX", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a7264227ff44639b8960da234f6ee7135", null ]
     ] ],
     [ "ActivateModifier", "d3/d3c/_modifiers_manager_8c.html#a7fab632c47c8e18366c98a76669f7755", null ],

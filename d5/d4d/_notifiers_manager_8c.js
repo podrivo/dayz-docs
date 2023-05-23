@@ -16,6 +16,7 @@ var _notifiers_manager_8c =
       [ "NTF_PILLS", "d5/d4d/_notifiers_manager_8c.html#a3687963b70e03873b68004412de2fe78ad42dfd8998c0a16598563b021fc16de5", null ],
       [ "NTF_HEARTBEAT", "d5/d4d/_notifiers_manager_8c.html#a3687963b70e03873b68004412de2fe78a331d62551cb9280002c98e9ff5784509", null ],
       [ "NTF_FRACTURE", "d5/d4d/_notifiers_manager_8c.html#a3687963b70e03873b68004412de2fe78a66b796e7ce255e037c5e03b360627c2b", null ],
+      [ "NTF_LEGS", "d5/d4d/_notifiers_manager_8c.html#a3687963b70e03873b68004412de2fe78a53b66658151942de55aca0bbc412bb77", null ],
       [ "NTF_COUNT", "d5/d4d/_notifiers_manager_8c.html#a3687963b70e03873b68004412de2fe78ab27038dc359bd476d838f6b9256bf0b4", null ]
     ] ],
     [ "ActivateByType", "d5/d4d/_notifiers_manager_8c.html#aff0170c3509bc83d12c8928b4d32ace7", null ],

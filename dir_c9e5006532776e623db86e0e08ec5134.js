@@ -181,6 +181,7 @@ var dir_c9e5006532776e623db86e0e08ec5134 =
     [ "RepairEpoxy.c", "d6/da7/_repair_epoxy_8c.html", "d6/da7/_repair_epoxy_8c" ],
     [ "RepairEyePatch.c", "d9/d45/_repair_eye_patch_8c.html", "d9/d45/_repair_eye_patch_8c" ],
     [ "RepairPlanks.c", "d4/df6/_repair_planks_8c.html", "d4/df6/_repair_planks_8c" ],
+    [ "RepairWithPliers.c", "da/d2f/_repair_with_pliers_8c.html", "da/d2f/_repair_with_pliers_8c" ],
     [ "RepairWithRags.c", "d5/d73/_repair_with_rags_8c.html", "d5/d73/_repair_with_rags_8c" ],
     [ "RepairWithTape.c", "d5/d5a/_repair_with_tape_8c.html", "d5/d5a/_repair_with_tape_8c" ],
     [ "SawoffB95.c", "dc/d72/_sawoff_b95_8c.html", "dc/d72/_sawoff_b95_8c" ],

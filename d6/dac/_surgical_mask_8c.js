@@ -1,4 +1,4 @@
 var _surgical_mask_8c =
 [
-    [ "Clothing", "d8/db4/class_clothing.html", "d8/db4/class_clothing" ]
+    [ "Mask_Base", "d6/de1/class_mask___base.html", "d6/de1/class_mask___base" ]
 ];

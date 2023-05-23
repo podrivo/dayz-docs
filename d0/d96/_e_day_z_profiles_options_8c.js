@@ -13,6 +13,7 @@ var _e_day_z_profiles_options_8c =
       [ "SERVERINFO_DISPLAY", "d0/d96/_e_day_z_profiles_options_8c.html#aa1673d253e0e003655814e545424dd9fac2b938d74b372a4d6baaded02c6377f4", null ],
       [ "BLEEDINGINDICATION", "d0/d96/_e_day_z_profiles_options_8c.html#aa1673d253e0e003655814e545424dd9fa58eae26e0ecc8acde191d80a03ea3cec", null ],
       [ "CONNECTIVITY_INFO", "d0/d96/_e_day_z_profiles_options_8c.html#aa1673d253e0e003655814e545424dd9fa3fda64409e8a1bb43bb4e6eba129280a", null ],
+      [ "HUD_BRIGHTNESS", "d0/d96/_e_day_z_profiles_options_8c.html#aa1673d253e0e003655814e545424dd9fa053b8e610dac4ee76dfda9b487ab24a7", null ],
       [ "MAX", "d0/d96/_e_day_z_profiles_options_8c.html#aa1673d253e0e003655814e545424dd9fad7e097bda6d981de2520f49fe74c25b7", null ]
     ] ]
 ];

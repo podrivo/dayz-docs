@@ -4,5 +4,5 @@ var class_action_measure_temperature_self =
     [ "CreateConditionComponents", "d5/d02/class_action_measure_temperature_self.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "HasProneException", "d5/d02/class_action_measure_temperature_self.html#addc04d3967e021e6b6bd259b82de083e", null ],
     [ "HasTarget", "d5/d02/class_action_measure_temperature_self.html#ab80733e1a8c145c8ee7b04476d535d72", null ],
-    [ "OnFinishProgressServer", "d5/d02/class_action_measure_temperature_self.html#a00cda41fe9dd093059da5c4b83b591bc", null ]
+    [ "OnFinishProgressClient", "d5/d02/class_action_measure_temperature_self.html#aab96e0b1a6bd70d80af8b1e5188d402e", null ]
 ];

@@ -8,6 +8,7 @@ var class_diag_menu =
     [ "GetRangeValue", "dc/d49/group___diag_menu.html#gaccdc8239e8b33a613a6ae78ad1dd6dfb", null ],
     [ "GetValue", "dc/d49/group___diag_menu.html#ga9b63edea445b48aceb972b852d4cac45", null ],
     [ "InitScriptDiags", "dc/d49/group___diag_menu.html#ga066cf349374ae543420d71f8fafa5f2f", null ],
+    [ "IsInitialized", "dc/d49/group___diag_menu.html#ga8aeb217add413654ee71b3fe14d5a85c", null ],
     [ "IsRegistered", "dc/d49/group___diag_menu.html#ga2aab13e49e45b8d496af9d2aeab3f7c5", null ],
     [ "MenuExists", "dc/d49/group___diag_menu.html#gaba9e0560072ad1ffc1e44858649220cd", null ],
     [ "RegisterBool", "dc/d49/group___diag_menu.html#ga3bb8a7061abc4c2f3100eb3caec7b72d", null ],

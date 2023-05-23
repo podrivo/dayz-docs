@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -295,6 +295,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a6b4beed4a0ef56b8f4e660577f0307a1"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a6b4beed4a0ef56b8f4e660577f0307a1">GetZeroingDistanceZoomMax</a> ()</td></tr>
 <tr class="memdesc:a6b4beed4a0ef56b8f4e660577f0307a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets Zeroing distance at opticsZoomMax.  <br /></td></tr>
 <tr class="separator:a6b4beed4a0ef56b8f4e660577f0307a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497c2326c2e5a3ca9d52f469b0ccf556"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a497c2326c2e5a3ca9d52f469b0ccf556">SetZeroingClampDist</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> dist)</td></tr>
+<tr class="memdesc:a497c2326c2e5a3ca9d52f469b0ccf556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets zeroing clamp for the optics and updates the clamp if dist &gt; 0. Used when attached to weapon.  <br /></td></tr>
+<tr class="separator:a497c2326c2e5a3ca9d52f469b0ccf556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf45da335d07e3e78aa558714d3c38e8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#abf45da335d07e3e78aa558714d3c38e8">OnWorkStart</a> ()</td></tr>
 <tr class="separator:abf45da335d07e3e78aa558714d3c38e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ad8752dcd35c4be3998612aeb61bfc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a64ad8752dcd35c4be3998612aeb61bfc">OnWorkStop</a> ()</td></tr>
@@ -463,6 +466,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a18d9b2372c05e1ce019416b50da1b833"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a18d9b2372c05e1ce019416b50da1b833">EffectBulletHide</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> muzzleIndex)</td></tr>
 <tr class="memdesc:a18d9b2372c05e1ce019416b50da1b833"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset effect cartridge in weapon  <br /></td></tr>
 <tr class="separator:a18d9b2372c05e1ce019416b50da1b833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a0a23b3328a39b4e5c8ccf1f3ef821"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#ab5a0a23b3328a39b4e5c8ccf1f3ef821">SetGroundAnimFrameIndex</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> groundAnimFrameIndex)</td></tr>
+<tr class="memdesc:ab5a0a23b3328a39b4e5c8ccf1f3ef821"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets animation frame for ground state when animation is specified in config  <br /></td></tr>
+<tr class="separator:ab5a0a23b3328a39b4e5c8ccf1f3ef821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64c7d89444e36392cc56dd13f459e455"><td class="memItemLeft" align="right" valign="top">proto <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a64c7d89444e36392cc56dd13f459e455">PopCartridgeFromInternalMagazine</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> muzzleIndex, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> ammoDamage, out <a class="el" href="../../d5/d92/classstring.html">string</a> ammoTypeName)</td></tr>
 <tr class="memdesc:a64c7d89444e36392cc56dd13f459e455"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes top-most cartridge from internal magazine  <br /></td></tr>
 <tr class="separator:a64c7d89444e36392cc56dd13f459e455"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -536,6 +542,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ada61515667502bd2c58fb5a1ea12ab61"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#ada61515667502bd2c58fb5a1ea12ab61">GetCurrentZeroing</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> muzzleIndex=0)</td></tr>
 <tr class="memdesc:ada61515667502bd2c58fb5a1ea12ab61"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns currently used value of zeroing in config array of weapon or attached optics  <br /></td></tr>
 <tr class="separator:ada61515667502bd2c58fb5a1ea12ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72077a5f9c27fcf188ab5b4f0956d766"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a72077a5f9c27fcf188ab5b4f0956d766">GetZeroingClamp</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> muzzleIndex=0)</td></tr>
+<tr class="memdesc:a72077a5f9c27fcf188ab5b4f0956d766"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns maximum allowed discrete distance for the muzzle. Limits attached optics zeroing only! '0' if unclamped  <br /></td></tr>
+<tr class="separator:a72077a5f9c27fcf188ab5b4f0956d766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6937788e646c708a19468166fbbef712"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/class_inventory_item_super.html#a6937788e646c708a19468166fbbef712">FlashlightOn</a> ()</td></tr>
 <tr class="memdesc:a6937788e646c708a19468166fbbef712"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempt to turn on flashlight  <br /></td></tr>
 <tr class="separator:a6937788e646c708a19468166fbbef712"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -666,7 +675,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns 'true' for non-magnifying optics </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00427">427</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00444">444</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -860,7 +869,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00450">450</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00437">437</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d47/_civilian_sedan_8c_source.html#l00164">CarScript::GetCarDoorsState()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, and <a class="el" href="../../df/d36/class_inventory_slots.html#a338920c4d5fac6af3b9cc86a85b0a1eb">InventorySlots::GetSlotName()</a>.</p>
 
@@ -998,9 +1007,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01171">1171</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01140">1140</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00827">m_Description</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00845">m_Description</a>.</p>
 
 </div>
 </div>
@@ -1027,7 +1036,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00228">228</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00205">205</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -1054,7 +1063,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00489">489</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00476">476</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1090,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00721">721</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00690">690</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -1177,9 +1186,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00238">238</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00215">215</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>, <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00404">ReplaceWheelLambda()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00736">GameConstants::STATE_RUINED</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l05398">UnlockFromParent()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#gafbb92b8168e7054217cfdfd28878d070">GetChildren()</a>, <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga0a911c581adec61a446c1c9bf51712d4">GetSibling()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#gacba9565bda2f27def77467b021c71d1d">RemoveChild()</a>, <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c.html#a0cfb9f46331dde22485b027569c06d54">ReplaceWheelLambda()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00742">GameConstants::STATE_RUINED</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l05432">UnlockFromParent()</a>.</p>
 
 </div>
 </div>
@@ -1223,9 +1232,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00473">473</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00460">460</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d76/_p_p_e_requester_bank_8c_source.html#l00229">m_Initialized</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l01080">PlaySoundSet()</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00736">GameConstants::STATE_RUINED</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/db5/_ui_hint_panel_8c_source.html#l00298">m_Initialized</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00742">GameConstants::STATE_RUINED</a>.</p>
 
 </div>
 </div>
@@ -1253,7 +1262,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00731">731</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00700">700</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d5/d98/group___math.html#ga88747c54aed88a2142b3a22367020993">Math::RandomFloat()</a>.</p>
 
@@ -2065,7 +2074,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00437">437</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00454">454</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -2092,7 +2101,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00466">466</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00483">483</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -2353,7 +2362,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01101">1101</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01070">1070</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -2380,7 +2389,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01189">1189</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01158">1158</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -2440,7 +2449,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00290">290</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00276">276</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -2467,7 +2476,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00468">468</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00455">455</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -2546,7 +2555,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00505">505</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00522">522</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -2573,7 +2582,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00488">488</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00505">505</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -2600,7 +2609,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00500">500</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00517">517</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -2627,7 +2636,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00496">496</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00513">513</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -2654,7 +2663,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00492">492</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00509">509</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -3089,6 +3098,35 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a72077a5f9c27fcf188ab5b4f0956d766" name="a72077a5f9c27fcf188ab5b4f0956d766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72077a5f9c27fcf188ab5b4f0956d766">&#9670;&#160;</a></span>GetZeroingClamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GetZeroingClamp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>muzzleIndex</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns maximum allowed discrete distance for the muzzle. Limits attached optics zeroing only! '0' if unclamped </p>
+<dl class="section return"><dt>Returns</dt><dd>maximum allowed discrete distance for the muzzle </dd></dl>
+
+</div>
+</div>
 <a id="a6b4beed4a0ef56b8f4e660577f0307a1" name="a6b4beed4a0ef56b8f4e660577f0307a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b4beed4a0ef56b8f4e660577f0307a1">&#9670;&#160;</a></span>GetZeroingDistanceZoomMax() <span class="overload">[1/2]</span></h2>
 
@@ -3488,9 +3526,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00510">510</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00527">527</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
 </div>
 </div>
@@ -3517,9 +3555,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00397">397</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00414">414</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c.html#a21ff419544b72faa32dc30300226afaf">ConfigGetFloat()</a>, <a class="el" href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00341">DayZPlayerCameraOptics()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00365">DayZPlayerCameraOptics()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
 </div>
 </div>
@@ -3548,9 +3586,9 @@ Private Attributes</h2></td></tr>
 
 <p>optics with more than 1x zoom do not allow DOF changes </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00370">370</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00387">387</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3f154fa4ec8f3cdfc049cbd0bce89236">CGame::ConfigGetFloat()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00815">GameConstants::DZPLAYER_CAMERA_FOV_IRONSIGHTS</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3f154fa4ec8f3cdfc049cbd0bce89236">CGame::ConfigGetFloat()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00821">GameConstants::DZPLAYER_CAMERA_FOV_IRONSIGHTS</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
 </div>
 </div>
@@ -3577,9 +3615,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01050">1050</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01019">1019</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a0f3b862594d1275a141c988ec7672c76">CGame::GetWorldName()</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00827">m_Description</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a0f3b862594d1275a141c988ec7672c76">CGame::GetWorldName()</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00845">m_Description</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
 </div>
 </div>
@@ -3606,9 +3644,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00522">522</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00539">539</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00779">GameConstants::OPTICS_STATE_DAY</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00785">GameConstants::OPTICS_STATE_DAY</a>.</p>
 
 </div>
 </div>
@@ -3638,9 +3676,9 @@ Private Attributes</h2></td></tr>
 
 <p>Initializes DOF properties for optic's alternate ironsights (ACOG etc.) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00411">411</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00428">428</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>.</p>
 
 </div>
 </div>
@@ -3686,9 +3724,9 @@ Private Attributes</h2></td></tr>
 
 <p>initializes values for optics' post-processes </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00389">389</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00406">406</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3f154fa4ec8f3cdfc049cbd0bce89236">CGame::ConfigGetFloat()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3f154fa4ec8f3cdfc049cbd0bce89236">CGame::ConfigGetFloat()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
 </div>
 </div>
@@ -3715,9 +3753,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00361">361</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l00729">ConfigGetBool()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00378">378</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -3744,9 +3780,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00303">303</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00320">320</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../dd/d93/_object_8c.html#a1f14b46175c2f370da68bf7ede2c3a74">ConfigIsExisting()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d93/_object_8c_source.html#l00334">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
 </div>
 </div>
@@ -3796,7 +3832,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01183">1183</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01152">1152</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -4131,7 +4167,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00432">432</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00449">449</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -4321,7 +4357,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00209">209</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00214">214</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -4348,7 +4384,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01045">1045</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01014">1014</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -4403,7 +4439,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01164">1164</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01133">1133</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -4519,8 +4555,6 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00118">118</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l01052">IsRuined()</a>.</p>
-
 </div>
 </div>
 <a id="a20d34b02e5b27a8bbefbf3b6f72f0b89" name="a20d34b02e5b27a8bbefbf3b6f72f0b89"></a>
@@ -4577,8 +4611,6 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00134">134</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l01052">IsRuined()</a>.</p>
-
 </div>
 </div>
 <a id="a20d34b02e5b27a8bbefbf3b6f72f0b89" name="a20d34b02e5b27a8bbefbf3b6f72f0b89"></a>
@@ -4605,9 +4637,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00248">248</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00265">265</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>.</p>
 
 </div>
 </div>
@@ -4645,7 +4677,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01072">1072</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01041">1041</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -4672,7 +4704,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00473">473</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00490">490</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d0/d65/_hunting_optic_8c_source.html#l00034">ItemOptics::HideSelection()</a>.</p>
 
@@ -4701,7 +4733,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00480">480</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00497">497</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d0/d65/_hunting_optic_8c_source.html#l00044">ItemOptics::ShowSelection()</a>.</p>
 
@@ -4732,7 +4764,7 @@ Private Attributes</h2></td></tr>
 
 <p>optic-specific behaviour to be defined here (override) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00472">472</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00489">489</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -4776,7 +4808,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01128">1128</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01097">1097</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
@@ -4816,7 +4848,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01145">1145</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01114">1114</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
@@ -4856,9 +4888,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00268">268</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00285">285</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l04664">m_IsStoreLoad</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l04698">m_IsStoreLoad</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
 </div>
 </div>
@@ -4886,7 +4918,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01157">1157</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01126">1126</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
@@ -4916,7 +4948,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00261">261</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00278">278</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
@@ -4973,7 +5005,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00292">292</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00309">309</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -5053,8 +5085,6 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00150">150</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l01052">IsRuined()</a>.</p>
-
 </div>
 </div>
 <a id="ac49b1cab32f5eab70aab44528726e721" name="ac49b1cab32f5eab70aab44528726e721"></a>
@@ -5091,9 +5121,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00302">302</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00288">288</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, and <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d4/d70/_effect_sound_8c_source.html#l00587">EffectSound::SetAutodestroy()</a>.</p>
 
 </div>
 </div>
@@ -5131,9 +5161,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00228">228</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00233">233</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>.</p>
 
 </div>
 </div>
@@ -5211,8 +5241,6 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00171">171</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d93/_object_8c_source.html#l01052">IsRuined()</a>.</p>
-
 </div>
 </div>
 <a id="a9ad76a420042dadc6ab67b7aa821a407" name="a9ad76a420042dadc6ab67b7aa821a407"></a>
@@ -5249,9 +5277,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00311">311</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00298">298</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, and <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d4/d70/_effect_sound_8c_source.html#l00587">EffectSound::SetAutodestroy()</a>.</p>
 
 </div>
 </div>
@@ -5289,9 +5317,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00235">235</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00246">246</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08795">SetTakeable()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l08843">SetTakeable()</a>.</p>
 
 </div>
 </div>
@@ -5318,7 +5346,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00193">193</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00198">198</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -5347,7 +5375,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00201">201</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00206">206</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -5652,7 +5680,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00295">295</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00281">281</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d5d/_action_detach_8c_source.html#l00010">ActionDetach()</a>, and <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -5681,7 +5709,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00517">517</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00486">486</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d5d/_action_detach_8c_source.html#l00010">ActionDetach()</a>, and <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -5710,7 +5738,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00751">751</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00720">720</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d5d/_action_detach_8c_source.html#l00010">ActionDetach()</a>, and <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -5739,7 +5767,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00996">996</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00965">965</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -5768,7 +5796,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00529">529</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00546">546</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>.</p>
 
@@ -5894,7 +5922,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00460">460</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00477">477</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -5921,6 +5949,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5a0a23b3328a39b4e5c8ccf1f3ef821" name="ab5a0a23b3328a39b4e5c8ccf1f3ef821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a0a23b3328a39b4e5c8ccf1f3ef821">&#9670;&#160;</a></span>SetGroundAnimFrameIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SetGroundAnimFrameIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>groundAnimFrameIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets animation frame for ground state when animation is specified in config </p>
 
 </div>
 </div>
@@ -5988,7 +6044,7 @@ Private Attributes</h2></td></tr>
 
 <p>displays open/closed selections; 1 == opened </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01080">1080</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01049">1049</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -6292,6 +6348,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a497c2326c2e5a3ca9d52f469b0ccf556" name="a497c2326c2e5a3ca9d52f469b0ccf556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497c2326c2e5a3ca9d52f469b0ccf556">&#9670;&#160;</a></span>SetZeroingClampDist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SetZeroingClampDist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>dist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets zeroing clamp for the optics and updates the clamp if dist &gt; 0. Used when attached to weapon. </p>
+
+</div>
+</div>
 <a id="a06f11e2e021daaf9a661e93678410c34" name="a06f11e2e021daaf9a661e93678410c34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06f11e2e021daaf9a661e93678410c34">&#9670;&#160;</a></span>SetZoom()</h2>
 
@@ -6351,7 +6435,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00327">327</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00344">344</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -6380,7 +6464,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00233">233</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00210">210</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -6407,7 +6491,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00494">494</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00481">481</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -6434,7 +6518,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00726">726</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00695">695</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -6571,7 +6655,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/daa/_weapon_8c_source.html#l00442">442</a> of file <a class="el" href="../../db/daa/_weapon_8c_source.html">Weapon.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/daa/_weapon_8c_source.html#l00454">454</a> of file <a class="el" href="../../db/daa/_weapon_8c_source.html">Weapon.c</a>.</p>
 
 </div>
 </div>
@@ -6652,7 +6736,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/daa/_weapon_8c_source.html#l00434">434</a> of file <a class="el" href="../../db/daa/_weapon_8c_source.html">Weapon.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/daa/_weapon_8c_source.html#l00446">446</a> of file <a class="el" href="../../db/daa/_weapon_8c_source.html">Weapon.c</a>.</p>
 
 </div>
 </div>
@@ -6762,9 +6846,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01108">1108</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01077">1077</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a92e229b8533bf1aedfc6abf71f2a4a0d">CGame::IsServer()</a>, and <a class="el" href="../../dd/d93/_object_8c_source.html#l00675">RPCSingleParam()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a92e229b8533bf1aedfc6abf71f2a4a0d">CGame::IsServer()</a>.</p>
 
 </div>
 </div>
@@ -6851,7 +6935,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00216">216</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00221">221</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -6878,7 +6962,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00527">527</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d99/_item_optics_8c_source.html#l00544">544</a> of file <a class="el" href="../../d6/d99/_item_optics_8c_source.html">ItemOptics.c</a>.</p>
 
 </div>
 </div>
@@ -7156,7 +7240,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01043">1043</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01012">1012</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -7204,7 +7288,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01042">1042</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01011">1011</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -7276,7 +7360,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01037">1037</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01006">1006</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -7444,7 +7528,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01039">1039</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01008">1008</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -7468,7 +7552,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01041">1041</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01010">1010</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>
@@ -7492,7 +7576,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01040">1040</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l01009">1009</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 
 </div>
 </div>

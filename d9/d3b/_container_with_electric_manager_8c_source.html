@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -116,13 +116,13 @@ $(document).ready(function(){initNavTree('d9/d3b/_container_with_electric_manage
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keywordflow">if</span> ( GetRootWidget().<a class="code hl_function" href="../../d9/d0e/group___widget_a_p_i.html#ga4c60c2c4f7361799eda0405af7eb5342">FindAnyWidget</a>( <span class="stringliteral">&quot;electricity&quot;</span> ) )</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        {</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keywordtype">bool</span> show_electricity_icon = <a class="code hl_variable" href="../../da/dbd/_plugin_item_diagnostic_8c.html#a5409d59c30dd053fe7160f39a0e55166">m_Entity</a>.GetCompEM().HasElectricityIcon();</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            GetRootWidget().FindAnyWidget( <span class="stringliteral">&quot;electricity&quot;</span> ).<a class="code hl_function" href="../../df/df4/class_scripted_widget_event_handler.html#a546c2726d8c1b4d4014b136ca9f4ab9b">Show</a>( show_electricity_icon );</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            GetRootWidget().FindAnyWidget( <span class="stringliteral">&quot;electricity&quot;</span> ).<a class="code hl_function" href="../../df/df4/class_scripted_widget_event_handler.html#ace79e5f49885e486e8e1d48ff0666476">Show</a>( show_electricity_icon );</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        }</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">if</span> ( GetRootWidget().<a class="code hl_function" href="../../d9/d0e/group___widget_a_p_i.html#ga4c60c2c4f7361799eda0405af7eb5342">FindAnyWidget</a>( <span class="stringliteral">&quot;electricity_can_work&quot;</span> ) )</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keywordtype">bool</span> show_electricity_can_work_icon = <a class="code hl_variable" href="../../da/dbd/_plugin_item_diagnostic_8c.html#a5409d59c30dd053fe7160f39a0e55166">m_Entity</a>.GetCompEM().CanWork() &amp;&amp; !<a class="code hl_variable" href="../../da/dbd/_plugin_item_diagnostic_8c.html#a5409d59c30dd053fe7160f39a0e55166">m_Entity</a>.IsRuined();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            GetRootWidget().FindAnyWidget( <span class="stringliteral">&quot;electricity_can_work&quot;</span> ).<a class="code hl_function" href="../../df/df4/class_scripted_widget_event_handler.html#a546c2726d8c1b4d4014b136ca9f4ab9b">Show</a>( show_electricity_can_work_icon );</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            GetRootWidget().FindAnyWidget( <span class="stringliteral">&quot;electricity_can_work&quot;</span> ).<a class="code hl_function" href="../../df/df4/class_scripted_widget_event_handler.html#ace79e5f49885e486e8e1d48ff0666476">Show</a>( show_electricity_can_work_icon );</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        }</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('d9/d3b/_container_with_electric_manage
 <div class="ttc" id="aclass_container_with_electric_manager_html_a36bcde0eff4d5abdbdb986b5aaca2e54"><div class="ttname"><a href="../../d8/ddc/class_container_with_electric_manager.html#a36bcde0eff4d5abdbdb986b5aaca2e54">ContainerWithElectricManager::SetEntity</a></div><div class="ttdeci">override void SetEntity(EntityAI entity, bool immedUpdate=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d3b/_container_with_electric_manager_8c_source.html#l00026">ContainerWithElectricManager.c:26</a></div></div>
 <div class="ttc" id="aclass_container_with_electric_manager_html_a42e4b360bf0d3f641767685cd5089432"><div class="ttname"><a href="../../d8/ddc/class_container_with_electric_manager.html#a42e4b360bf0d3f641767685cd5089432">ContainerWithElectricManager::UpdateInterval</a></div><div class="ttdeci">override void UpdateInterval()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d3b/_container_with_electric_manager_8c_source.html#l00003">ContainerWithElectricManager.c:3</a></div></div>
 <div class="ttc" id="aclass_entity_a_i_html"><div class="ttname"><a href="../../df/df9/class_entity_a_i.html">EntityAI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00001">Building.c:2</a></div></div>
-<div class="ttc" id="aclass_scripted_widget_event_handler_html_a546c2726d8c1b4d4014b136ca9f4ab9b"><div class="ttname"><a href="../../df/df4/class_scripted_widget_event_handler.html#a546c2726d8c1b4d4014b136ca9f4ab9b">ScriptedWidgetEventHandler::Show</a></div><div class="ttdeci">void Show(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dbc/_context_menu_8c_source.html#l00036">ContextMenu.c:36</a></div></div>
+<div class="ttc" id="aclass_scripted_widget_event_handler_html_ace79e5f49885e486e8e1d48ff0666476"><div class="ttname"><a href="../../df/df4/class_scripted_widget_event_handler.html#ace79e5f49885e486e8e1d48ff0666476">ScriptedWidgetEventHandler::Show</a></div><div class="ttdeci">void Show()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d26/_c_t_object_follower_8c_source.html#l00117">CTObjectFollower.c:117</a></div></div>
 <div class="ttc" id="agroup___widget_a_p_i_html_ga4c60c2c4f7361799eda0405af7eb5342"><div class="ttname"><a href="../../d9/d0e/group___widget_a_p_i.html#ga4c60c2c4f7361799eda0405af7eb5342">FindAnyWidget</a></div><div class="ttdeci">proto native Widget FindAnyWidget(string pathname)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,7 +106,12 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DAMAGE_ONLY&#160;:&#160;<a class="el" href="d1/d23/_plugin_remote_player_debug_client_8c.html#a3c67c40c8784545258a78499d40ad4cba65d238dbe7e6b139bf6001519227b330">PluginRemotePlayerDebugClient.c</a></li>
 <li>DAMAGE_SYSTEM&#160;:&#160;<a class="el" href="d5/d95/_remote_player_stat_debug_8c.html#a7ffee518582401de98e87c381aa36259a095f2ae2906dcde1d93d7d16f62a6c61">RemotePlayerStatDebug.c</a></li>
 <li>DAMAGE_TRIGGER_MINE&#160;:&#160;<a class="el" href="dd/dd8/_trap_base_8c.html#ab6a1c3344ff68c61b0f298dfca0d1b88">TrapBase.c</a></li>
+<li>DAMAGE_TYPE_ATTACHMENTS&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a65ea20b300bcf3c346af5a1bfebf163d">DayZPlayerImplementFallDamage.c</a></li>
+<li>DAMAGE_TYPE_GLOBAL&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a836430efad61e56b09005705e3b7940d">DayZPlayerImplementFallDamage.c</a></li>
+<li>DAMAGE_TYPE_LEGS&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#ac62a69f11e1d5eeb5fa6ed8afb057d9e">DayZPlayerImplementFallDamage.c</a></li>
+<li>DamageAttachedGear()&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a949a576985410bba17c2bc7224ed0b80">DayZPlayerImplementFallDamage.c</a></li>
 <li>DamageClothing()&#160;:&#160;<a class="el" href="dd/dd8/_trap_base_8c.html#a718c37e651de88d02e91eed321c2fd08">TrapBase.c</a></li>
+<li>DamageCoef()&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#ab2e1eabe288cb586628fa58e966dbcfc">DayZPlayerImplementFallDamage.c</a></li>
 <li>DamageCrew()&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a491015dc7ff5cee6fd5aeec4a682bda1">CarScript.c</a></li>
 <li>DAMAGED&#160;:&#160;<a class="el" href="d8/df5/_injury_handler_8c.html#aab851550e71abd27f52bf560e1b32bfaaa511233a495e23b11960850d5b86abe4">InjuryHandler.c</a></li>
 <li>DamageHands()&#160;:&#160;<a class="el" href="d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a840552fb4e47fe8cf3b6ccc223ecc90d">DayZPlayerMeleeFightLogic_LightHeavy.c</a></li>
@@ -131,7 +136,6 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DayZCreatureAnimScriptDebugAnimPredictionData&#160;:&#160;<a class="el" href="db/d14/_plugin_day_z_creature_a_i_debug_8c.html#a23413138221432f94162dd3a2c53d618">PluginDayZCreatureAIDebug.c</a></li>
 <li>DayZCreatureAnimScriptDebugAnimTagData&#160;:&#160;<a class="el" href="db/d14/_plugin_day_z_creature_a_i_debug_8c.html#a4ac3a78831e75d11a41211b49244ce19">PluginDayZCreatureAIDebug.c</a></li>
 <li>DayZCreatureAnimScriptDebugVarType&#160;:&#160;<a class="el" href="d4/de2/_day_z_creature_8c.html#a2c907f81daf49e6e56ae7fdce0764dbe">DayZCreature.c</a></li>
-<li>DayZGame()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#ac8d9fd866d50e3a07ac7d232b73165c5">DayZGame.c</a></li>
 <li>DayZInfectedAttackGroupType&#160;:&#160;<a class="el" href="db/d9a/_day_z_infected_type_8c.html#a4c6bbf08e2608b5a05d2d63a0d4391ce">DayZInfectedType.c</a></li>
 <li>DayZInfectedConstants&#160;:&#160;<a class="el" href="d6/dea/_day_z_infected_8c.html#a5af35b5d134c35e54a8ad45527637c77">DayZInfected.c</a></li>
 <li>DayZInfectedConstantsMovement&#160;:&#160;<a class="el" href="d6/dea/_day_z_infected_8c.html#adf88f47392416509db59844798d79c20">DayZInfected.c</a></li>
@@ -149,9 +153,11 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DayZPlayerCamera3rdPersonProne()&#160;:&#160;<a class="el" href="d8/dd8/_day_z_player_camera3rd_person_8c.html#a154b91b54cce0978d782d78b48cf1296">DayZPlayerCamera3rdPerson.c</a></li>
 <li>DayZPlayerCamera3rdPersonProneRaised()&#160;:&#160;<a class="el" href="d8/dd8/_day_z_player_camera3rd_person_8c.html#a65cc2249f227dccf5ac6c058f25eed9e">DayZPlayerCamera3rdPerson.c</a></li>
 <li>DayZPlayerCamera3rdPersonVehicle()&#160;:&#160;<a class="el" href="d5/d7c/_day_z_player_camera_vehicles_8c.html#a24a309bcd5676bce950b1f4068864c86">DayZPlayerCameraVehicles.c</a></li>
+<li>DayZPlayerCameraBase()&#160;:&#160;<a class="el" href="d3/dd8/_day_z_player_camera___base_8c.html#a9277e89a7672a869fdde8eca56e22346">DayZPlayerCamera_Base.c</a></li>
 <li>DayZPlayerCameraOptics()&#160;:&#160;<a class="el" href="d8/dbf/_day_z_player_camera_ironsights_8c.html#a0035dfa873d9e1b182418d208f721304">DayZPlayerCameraIronsights.c</a></li>
 <li>DayZPlayerCameraResult()&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a95e986b4d7329fe615d337d8f429faf7">dayzplayer.c</a></li>
 <li>DayZPlayerConstants&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881">dayzplayer.c</a></li>
+<li>DayZPlayerImplementFallDamage()&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a4f10bb6b3389e7222dd48bc66402bfaa">DayZPlayerImplementFallDamage.c</a></li>
 <li>DayZPlayerImplementMeleeCombat()&#160;:&#160;<a class="el" href="d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa64996740e7f9430d7b28fd33e6aa269">DayZPlayerImplementMeleeCombat.c</a></li>
 <li>DayZPlayerInstanceType&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6bf3172c861dd775de5c544fed868499">dayzplayer.c</a></li>
 <li>DayZPlayerInventory()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a8cedc4dd39b7128b13ca820ac9f65e88">DayZPlayerInventory.c</a></li>
@@ -166,7 +172,11 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DayZPlayerTypeSoundTableImpl()&#160;:&#160;<a class="el" href="df/d66/_day_z_player_cfg_sounds_8c.html#a397f9625e6369e916bd5b2af31b98a0a">DayZPlayerCfgSounds.c</a></li>
 <li>DayZPlayerTypeStepSoundLookupTableImpl()&#160;:&#160;<a class="el" href="df/d66/_day_z_player_cfg_sounds_8c.html#ae067e7763e373b1355c5ac54a58e3e89">DayZPlayerCfgSounds.c</a></li>
 <li>DayZPlayerTypeVoiceSoundLookupTableImpl()&#160;:&#160;<a class="el" href="df/d66/_day_z_player_cfg_sounds_8c.html#a543bdac5361ee3a091372554a42deb1a">DayZPlayerCfgSounds.c</a></li>
+<li>DayZPlayerUtils()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#a2eaf62799cb44b4db7b67336fbf4403d">DayZPlayerUtils.c</a></li>
 <li>DayZProfilesOption&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#ae4b403a0299b417461afe6f692c943e7">DayZGame.c</a></li>
+<li>DayZProfilesOptionBool&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a84c34b28b6dd1e5a7c3dd93148021b76">DayZGame.c</a></li>
+<li>DayZProfilesOptionFloat&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a7397127c6be43b5585c66a326110db24">DayZGame.c</a></li>
+<li>DayZProfilesOptionInt&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a31da21beb3a5fccc2b9aeeea94ce9993">DayZGame.c</a></li>
 <li>DB_APP_ERROR&#160;:&#160;<a class="el" href="d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4adbdde37ea593e8584dd2f941cdcd8fbf">ClientKickedModule.c</a></li>
 <li>DB_APP_EXIT&#160;:&#160;<a class="el" href="d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4ad526db28fc031fbb982757859efbfe63">ClientKickedModule.c</a></li>
 <li>DB_BAD_DATA&#160;:&#160;<a class="el" href="d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4a8ef6ea6672151fff2ba0fad18543bd2e">ClientKickedModule.c</a></li>
@@ -238,6 +248,14 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DeactivateRecoveryModifier()&#160;:&#160;<a class="el" href="d5/d6b/_stamina_handler_8c.html#ae6e6b4f693f01e5796309633fa473b68">StaminaHandler.c</a></li>
 <li>DEAD&#160;:&#160;<a class="el" href="da/dc7/_e_player_states_8c.html#a52f50630eba818b4183d6bfc778d7ad5a11fd9ca455f92c69c084484d5cd803c2">EPlayerStates.c</a></li>
 <li>DealAbsoluteDmg()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a2a34dc32bc8639774adc6f621a86581a">MiscGameplayFunctions.c</a></li>
+<li>DEATH_BODY&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a93d0535d53e2dfdf31222b99b5b933a1">dayzplayer.c</a></li>
+<li>DEATH_DEFAULT&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afc9d6823b816745e72547eef12b3efdf">dayzplayer.c</a></li>
+<li>DEATH_FALL&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae20582e9fe43e71c585784099ede68c6">dayzplayer.c</a></li>
+<li>DEATH_FAST&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a92a77e9e905264774b71c3ad009246a2">dayzplayer.c</a></li>
+<li>DEATH_PULL_OUT_TRANSPORT&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae8cf273e69726fd62883dd06722d3b70">dayzplayer.c</a></li>
+<li>DEATH_UNCON_IN_WATER&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7dcc0644ba970dd1a3722dafa41f4a19">dayzplayer.c</a></li>
+<li>DEATH_UNCON_ON_LAND&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac7d2fbe83a4398dd12f12b8fd2c199bd">dayzplayer.c</a></li>
+<li>DEATH_WATER&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af938fa5bbab6557f00bfd1cc129a0bc8">dayzplayer.c</a></li>
 <li>Debug()&#160;:&#160;<a class="el" href="d2/ddb/_universal_temperature_source_8c.html#ae1b2e01cd24e2e8b018c9615bd3c51b2">UniversalTemperatureSource.c</a>, <a class="el" href="d5/d95/_remote_player_stat_debug_8c.html#ae1b2e01cd24e2e8b018c9615bd3c51b2">RemotePlayerStatDebug.c</a>, <a class="el" href="d9/de7/_display_status_8c.html#ae1b2e01cd24e2e8b018c9615bd3c51b2">DisplayStatus.c</a></li>
 <li>DEBUG_AGENTS_RANGE_INJECT_END&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fdab481dd98e01400e7a6662c90d88e2a84">EActions.c</a></li>
 <li>DEBUG_AGENTS_RANGE_INJECT_START&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fda3efac6e8b55e561635ac578064d92b6e">EActions.c</a></li>
@@ -266,19 +284,21 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DebugGetLadderIndex()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a0eb9b7fb9e3c0d14a544dbf3af3beb93">human.c</a></li>
 <li>DebugGrowAgentsRequest()&#160;:&#160;<a class="el" href="d8/ddd/_hud_debug_win_char_agents_8c.html#a8850f0069ce1418fb525063ce1d951f6">HudDebugWinCharAgents.c</a></li>
 <li>DebugIsEvent()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a7de08dd588d199dc8478c02fad403589">human.c</a></li>
+<li>DebugOverrideAnimationRotation()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#a534b5064f56b766982c3a0d2aecbabd5">DayZPlayerUtils.c</a></li>
+<li>DebugOverrideAnimationSpeed()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#a9752154e42e81b45c5da4726a4277fba">DayZPlayerUtils.c</a></li>
+<li>DebugOverrideAnimationTranslation()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#a84f2ada00d0736b40fe0675f41e9b9cf">DayZPlayerUtils.c</a></li>
 <li>DebugPreloadAnimationInstances()&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a650ed04f882f91bbd8df779e5878cd2c">dayzplayer.c</a></li>
 <li>DebugPrint()&#160;:&#160;<a class="el" href="d5/dc2/_cache_object_8c.html#a54a42b6f468a76a4ea6107c908d52d4b">CacheObject.c</a></li>
 <li>DebugRemoveAgentsRequest()&#160;:&#160;<a class="el" href="d8/ddd/_hud_debug_win_char_agents_8c.html#aff32465209180c2b6c3da276b79ab912">HudDebugWinCharAgents.c</a></li>
 <li>DebugResetEvents()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a222e990a82267479d36564e772e7ca3e">human.c</a></li>
 <li>DebugSetHealthAndEnergy()&#160;:&#160;<a class="el" href="de/d84/_broom_8c.html#a515caba03794f76ec57f145081e776ee">Broom.c</a></li>
 <li>DebugSyncShadowSetup()&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a053c33feefcfb7bb6afe7f8d40c25c0b">dayzplayer.c</a></li>
+<li>Dec()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#ab114281e416a63a03f0343a737152d46">DayZGame.c</a></li>
 <li>DECAY_END&#160;:&#160;<a class="el" href="d0/dd9/_contaminated_area___dynamic_8c.html#abd1af643088884800b81cf3058ed14cca5689f0a255f90ca188fc7f032b2b20b4">ContaminatedArea_Dynamic.c</a></li>
 <li>DECAY_START&#160;:&#160;<a class="el" href="d0/dd9/_contaminated_area___dynamic_8c.html#abd1af643088884800b81cf3058ed14cca39d7ff636d74470a52e2a719e1b7dad2">ContaminatedArea_Dynamic.c</a></li>
 <li>Deconstruct()&#160;:&#160;<a class="el" href="d0/d62/_shelter_8c.html#a5c294314c533b59f81b9eaf5f0669f71">Shelter.c</a></li>
 <li>DECONSTURCT_MATERIAL_LOSS&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#a1694a627b45de5804229b1afe340a554">Construction.c</a></li>
 <li>DecreaseCookedItemQuantity()&#160;:&#160;<a class="el" href="d1/d48/_cooking_8c.html#ab366622d8709e99dd6b56917e44400d9">Cooking.c</a></li>
-<li>DecreaseHealth()&#160;:&#160;<a class="el" href="dd/d93/_object_8c.html#a929ad754f98dcd6c9d8a5397f7fda5b6">Object.c</a></li>
-<li>DecreaseHealthCoef()&#160;:&#160;<a class="el" href="dd/d93/_object_8c.html#ae047f26360641b46f5f2f31f26e4838c">Object.c</a></li>
 <li>DEF_BIOLOGICAL&#160;:&#160;<a class="el" href="dc/d5f/group___a_g_t_i_ds.html#ga62f28abee83745430d13e2d7b9c7168e">constants.c</a></li>
 <li>DEF_CHEMICAL&#160;:&#160;<a class="el" href="dc/d5f/group___a_g_t_i_ds.html#ga6447e2b7b3c492fe03106adceb63939b">constants.c</a></li>
 <li>DEFAULT&#160;:&#160;<a class="el" href="d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aad20935afa9af8d1f162c113cfbbf111d">DayZPhysics.c</a>, <a class="el" href="dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aff38d492065d677f2f43d58a04925a34a88ec7d5086d2469ba843c7fcceade8a6">Inventory.c</a>, <a class="el" href="db/d3c/_day_z_player_implement_aiming_8c.html#a231f7f3df237c0bcbff395693db35340a88ec7d5086d2469ba843c7fcceade8a6">DayZPlayerImplementAiming.c</a>, <a class="el" href="dd/daa/_s_k_s_8c.html#acc7b4ee197aa314bd68e0f44f758a78ba88ec7d5086d2469ba843c7fcceade8a6">SKS.c</a>, <a class="el" href="da/d16/_bolt_action_rifle_external_magazine___base_8c.html#acaf11a3e90fe14ba9807bd1a6fcabe0ea88ec7d5086d2469ba843c7fcceade8a6">BoltActionRifleExternalMagazine_Base.c</a>, <a class="el" href="d3/dd1/_bolt_action_rifle_inner_magazine___base_8c.html#a4fd4d2670949fb3720bbae8c5e6313e1a88ec7d5086d2469ba843c7fcceade8a6">BoltActionRifleInnerMagazine_Base.c</a>, <a class="el" href="da/d1f/_double_barrel___base_8c.html#a4ca166e669e5c5ae6c8248d955e695a2a88ec7d5086d2469ba843c7fcceade8a6">DoubleBarrel_Base.c</a>, <a class="el" href="db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6">Magnum.c</a>, <a class="el" href="d1/daa/_pistol___base_8c.html#a01254921fa7633b3f421796d9b52d45fa88ec7d5086d2469ba843c7fcceade8a6">Pistol_Base.c</a>, <a class="el" href="d4/de8/_repeater_8c.html#ab3064d72f62af4211a3b415db6c70649a88ec7d5086d2469ba843c7fcceade8a6">Repeater.c</a>, <a class="el" href="d5/dcf/_rifle___base_8c.html#a532c7c848384b8db47d58161af1d602ca88ec7d5086d2469ba843c7fcceade8a6">Rifle_Base.c</a>, <a class="el" href="d0/d1f/_rifle_bolt_free___base_8c.html#ae44d40e582b12e806f14c136a9fd0477a88ec7d5086d2469ba843c7fcceade8a6">RifleBoltFree_Base.c</a>, <a class="el" href="d2/d9e/_rifle_bolt_lock___base_8c.html#a44a81ee1609ca949de54d86784d20df5a88ec7d5086d2469ba843c7fcceade8a6">RifleBoltLock_Base.c</a>, <a class="el" href="d8/dc4/_rifle_single_shot___base_8c.html#a88a4ab5aaf0d3b627a1bfa244dfc551da88ec7d5086d2469ba843c7fcceade8a6">RifleSingleShot_Base.c</a>, <a class="el" href="df/d13/_m_p133_8c.html#ac01bfcc0224f0550ebfb80c4ef83c4bda88ec7d5086d2469ba843c7fcceade8a6">MP133.c</a>, <a class="el" href="d7/da1/_fireworks_base_8c.html#a99a024998ac536510fcc22b1af41dbdda88ec7d5086d2469ba843c7fcceade8a6">FireworksBase.c</a>, <a class="el" href="d5/dfb/_roadflare_8c.html#a769cc26bf4a1142094184ca3e4456051a88ec7d5086d2469ba843c7fcceade8a6">Roadflare.c</a>, <a class="el" href="de/d5e/_radial_quickbar_menu_8c.html#a019d848199f9dc63f1d52da6f02032c2a88ec7d5086d2469ba843c7fcceade8a6">RadialQuickbarMenu.c</a></li>
@@ -296,24 +316,20 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DefaultCancelCondition()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#af67e880ad00b69eab6bf03c8395d3ec8">human.c</a></li>
 <li>DeferredForceSwapEntities()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a3b5449270d338497ed7b3322fd7237eb">DayZPlayerInventory.c</a></li>
 <li>DeferredHandEvent()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a0cc8d3e40e436ad9af358065cb7f6b72">DayZPlayerInventory.c</a></li>
-<li>DeferredInit()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a5d6cf262c90e4062101a45b57b7e6126">DayZGame.c</a></li>
 <li>DeferredTakeToDst()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a95dff1f33432f8c5eb5717b11196303b">DayZPlayerInventory.c</a></li>
 <li>DeferredWeaponFailed()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#ad0e78b161731222ea7c0f161ea126aba">DayZPlayerInventory.c</a></li>
-<li>DelayedMidAirDetonation()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a16154e101ffde0c7f48ce517417e33b4">DayZGame.c</a></li>
-<li>Delete()&#160;:&#160;<a class="el" href="dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Object.c</a></li>
 <li>DELETE&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fda9d61e82a9a12752f10aece1b22183913">EActions.c</a></li>
 <li>DeleteCommandModifier_Action()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a65f71a4ac71690608563559280f270e9">human.c</a></li>
 <li>DeleteCommandModifier_Damage()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a7b60f76a8eb2d5104ca00b6324d42934">human.c</a></li>
 <li>DeleteFile()&#160;:&#160;<a class="el" href="d5/df6/group___file.html#gad214a12fac64e623b389ac2db20b0317">EnSystem.c</a></li>
-<li>DeleteGamepadDisconnectMenu()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a494ec275f0cff67ca010fd5a0d79d533">DayZGame.c</a></li>
 <li>DeleteOldEntity()&#160;:&#160;<a class="el" href="d0/d81/_action_take_fireplace_from_barrel_8c.html#aa8931c6e714580c89d2b05ea1baeff50">ActionTakeFireplaceFromBarrel.c</a></li>
 <li>DeleteThis()&#160;:&#160;<a class="el" href="d7/dc3/_trap___land_mine_8c.html#a88d6d3cd2ac4200d3b57df74017e9571">Trap_LandMine.c</a></li>
-<li>DeleteTitleScreen()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#ac5cb7b289f129ffc26958d486d8345ce">DayZGame.c</a></li>
 <li>DeleteTrigger()&#160;:&#160;<a class="el" href="dd/dd8/_trap_base_8c.html#ad566b67fc8ada7882b5a0a6522b55a01">TrapBase.c</a></li>
 <li>DELIMITER_KEYPAIR&#160;:&#160;<a class="el" href="d2/ddb/_universal_temperature_source_8c.html#a9279e79d671eec1e5e31b585c836dd32">UniversalTemperatureSource.c</a></li>
 <li>DELM_BADGE_BLEEDING&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#a2dc32931726f48f01a093b29d424102b">_constants.c</a></li>
 <li>DELM_BADGE_FRACTURE&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#aabdef9132331cae82623176d37736068">_constants.c</a></li>
 <li>DELM_BADGE_HEARTBEAT&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#ad034e2cac6a5acca9bb0e8659863b059">_constants.c</a></li>
+<li>DELM_BADGE_LEGS&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#a88270c69b287da0be9a8ed758cca2298">_constants.c</a></li>
 <li>DELM_BADGE_PILLS&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#ad9fb5aeaa1ae257b235e3a45752d6019">_constants.c</a></li>
 <li>DELM_BADGE_POISONED&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#a5cfdccef3eff43aab72f41e66c161fcc">_constants.c</a></li>
 <li>DELM_BADGE_SICK&#160;:&#160;<a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#aef72142e40685dde69f8e50eeefb48e5">_constants.c</a></li>
@@ -331,12 +347,11 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DEPLOYED&#160;:&#160;<a class="el" href="d0/d4a/_trap___trip_wire_8c.html#a500e292a70cefa1351fccaa36246b57f">Trap_TripWire.c</a></li>
 <li>DepthOfField&#160;:&#160;<a class="el" href="dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca4dab8f1ffd3077e57481d1ba8a9ea1fe">EnWorld.c</a></li>
 <li>DESCENDING&#160;:&#160;<a class="el" href="db/de7/_bios_lobby_service_8c.html#a28bcb54d080656c8ea32774b9e9f4934acee234b4fc0ed1e29e965d79cfe252a6">BiosLobbyService.c</a></li>
-<li>DescriptionOverride()&#160;:&#160;<a class="el" href="dd/d93/_object_8c.html#a65af46d8043909f29fc8c98a529aa14d">Object.c</a></li>
 <li>Deserialize()&#160;:&#160;<a class="el" href="d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a1fb1a8e0fa00a26a27631f2d9cc25c1d">Inventory.c</a></li>
 <li>DeserializeElements()&#160;:&#160;<a class="el" href="d9/de7/_display_status_8c.html#acd91a881e212ed5bdb0d7723ab8aa821">DisplayStatus.c</a></li>
 <li>DeSerializeNumericalVars()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#acc668db52efb88232a795d74aeeab7cb">ItemBase.c</a></li>
-<li>Destroy()&#160;:&#160;<a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">EnDebug.c</a>, <a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">Effect.c</a>, <a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">AreaDamageManager.c</a></li>
 <li>DESTROY&#160;:&#160;<a class="el" href="d6/d21/_hand___events_8c.html#ac89b398d47a213a49c37d4c3c26f64fba534df644e3182226cd53827fee0589a4">Hand_Events.c</a>, <a class="el" href="dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a43d2389269799752817d23aec2f7dfa3a534df644e3182226cd53827fee0589a4">Inventory.c</a></li>
+<li>Destroy()&#160;:&#160;<a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">EnDebug.c</a>, <a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">Effect.c</a>, <a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">AreaDamageManager.c</a></li>
 <li>DESTROY_HEALTH&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fda1113bd311f3933167a19db0356bc04b1">EActions.c</a></li>
 <li>DestroyAreaDamage()&#160;:&#160;<a class="el" href="d1/dcf/_base_building_base_8c.html#a95b8c33babb3a1cd5a0c7045ef3689c3">BaseBuildingBase.c</a>, <a class="el" href="d8/dbb/_fireplace_base_8c.html#a930f291b36ec40d7522619afdce76366">FireplaceBase.c</a></li>
 <li>DestroyCollisionTrigger()&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#aef1e702412713000668ad643250d64ec">Construction.c</a></li>
@@ -403,6 +418,7 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DEV_RPC_STOMACH_DATA&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a7baddce44bef2a544a1b072668364573">ERPCs.c</a></li>
 <li>DEV_RPC_TELEPORT&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37addf43c75ca3d8995925d36248ab8ae7a">ERPCs.c</a></li>
 <li>DEV_SET_DEV_ITEM&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37afaaee0d8a823d55dbfca9c959b27422f">ERPCs.c</a></li>
+<li>DEV_SET_WEATHER&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a017746e76be273b116be7ea95c513796">ERPCs.c</a></li>
 <li>DEV_STATS_UPDATE&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a0dfb79cb1a4e7d8004faa0db114c8bde">ERPCs.c</a></li>
 <li>DEV_STOMACH_UPDATE&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a8bb67d50817dac7d842c070c37c3067b">ERPCs.c</a></li>
 <li>DEV_TEMP_UPDATE&#160;:&#160;<a class="el" href="d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37ad43161fb2277df1374467e661241eec0">ERPCs.c</a></li>
@@ -441,7 +457,6 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DIRECTIONAL&#160;:&#160;<a class="el" href="da/d73/group___light.html#ggadc3ec8293e6a97ebe43f0196b9a7f638ac1fbb1e261b4d7aab1e57e564a486fb0">EnWorld.c</a></li>
 <li>DIRECTORIES&#160;:&#160;<a class="el" href="d3/de2/group___system.html#gafbd1f04e1781e8136dee40ac5096959c">EnSystem.c</a></li>
 <li>DIRECTORY&#160;:&#160;<a class="el" href="d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea9d09f58160b1161920aad19080f568cc">EnSystem.c</a></li>
-<li>DIRT&#160;:&#160;<a class="el" href="d7/da5/_impact_effects_8c.html#af26bb7a5b838b363a33de971a6edbb29">ImpactEffects.c</a></li>
 <li>DirtBikeHelmet_ColorBase&#160;:&#160;<a class="el" href="dc/d4b/_dirt_bike_helmet___color_base_8c.html#a1177357885e015f7adfb876bce19d2a6">DirtBikeHelmet_ColorBase.c</a></li>
 <li>DISABLE_AI&#160;:&#160;<a class="el" href="db/d14/_plugin_day_z_creature_a_i_debug_8c.html#aff41a2cb26de6b6eda37566dc3eba2c8">PluginDayZCreatureAIDebug.c</a></li>
 <li>DISABLE_VIRTUAL&#160;:&#160;<a class="el" href="d8/d6f/_particle_manager_8c.html#ab444c378c8f3ada95baa6b17d743e2cea5610a04b0b522c8f5e9afdd4a4e5e5db">ParticleManager.c</a></li>
@@ -453,7 +468,6 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DisableDeactivateCheck()&#160;:&#160;<a class="el" href="de/d0e/_modifier_base_8c.html#a13bf3a75b607c3eb20546dbb90db2f2f">ModifierBase.c</a></li>
 <li>DisableMicromanagement()&#160;:&#160;<a class="el" href="d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#ac9bd56805d82bce1948c18a0edfe384d">Inventory.c</a></li>
 <li>disableRespawnDialog&#160;:&#160;<a class="el" href="da/d9e/_cfg_gameplay_data_json_8c.html#a4c7675feba3234d02f25d8e9f2e8e3c1">CfgGameplayDataJson.c</a></li>
-<li>DisableVicinityIcon()&#160;:&#160;<a class="el" href="dd/d93/_object_8c.html#a7adefa71e1dc8a3ad8524a57a0bb223a">Object.c</a></li>
 <li>Disarm()&#160;:&#160;<a class="el" href="d0/d0a/_explosives_base_8c.html#a0c6b2b4e0c25672818ec334633d6de22">ExplosivesBase.c</a>, <a class="el" href="d9/dbc/_clock_base_8c.html#a590466f4f39d421f11fa089e1a03074c">ClockBase.c</a>, <a class="el" href="dd/dd8/_trap_base_8c.html#acc5cc8fcbe8fcfbe300f079a202fa273">TrapBase.c</a></li>
 <li>DISARMING&#160;:&#160;<a class="el" href="d7/dc3/_trap___land_mine_8c.html#ab7c0a8c87c9492901190e660dacb20f4af83c51364ccb82b783d8a420b65da814">Trap_LandMine.c</a></li>
 <li>DisassembleOnLastDetach()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#aaaa7c01329097cf6467404415bdbdb27">FireplaceBase.c</a></li>
@@ -462,15 +476,12 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DISCONNECT_SESSION_FLAGS_FORCE&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a1e518520a52a69c1afeeb8419217fbb3">DayZGame.c</a></li>
 <li>DISCONNECT_SESSION_FLAGS_JOIN&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a7c901cea67926bb3e9cef87e44f16a80">DayZGame.c</a></li>
 <li>DISCONNECTED&#160;:&#160;<a class="el" href="d5/d74/_notification_system_8c.html#a25a31a4bdc02a0d0adb743e26dd14ba9acdaad1112073e3e2ea032424c38c34e1">NotificationSystem.c</a></li>
-<li>DisconnectSessionEx()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#af6f0097b36ac495beaf2806343a70c19">DayZGame.c</a></li>
 <li>DisconnectSessionFlags&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a5f3d094e70be84a89279ef9498ca62ca">DayZGame.c</a></li>
-<li>DisconnectSessionScript()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a7b15b90103e153f702d5f76a7c05a91e">DayZGame.c</a></li>
 <li>DismantlePartServer()&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#aabd0835f9c999cac82097c9a2b43f0dd">Construction.c</a></li>
 <li>DISPLAY_ALT_MAX_CHARS_COUNT&#160;:&#160;<a class="el" href="d5/d26/_map_navigation_behaviour_8c.html#ad45e32784ce3ee9d0ddce51fdac36fc2">MapNavigationBehaviour.c</a></li>
 <li>DISPLAY_GRID_POS_MAX_CHARS_COUNT&#160;:&#160;<a class="el" href="d5/d26/_map_navigation_behaviour_8c.html#ac0683e10a9d3b79d0056d1fa43041a30">MapNavigationBehaviour.c</a></li>
 <li>DisplayAll()&#160;:&#160;<a class="el" href="da/dbd/_plugin_item_diagnostic_8c.html#acdc11e63a42f469a3646a310e4ac150f">PluginItemDiagnostic.c</a></li>
 <li>displayname&#160;:&#160;<a class="el" href="d1/db8/_option_selector_multistate_8c.html#a3d381d02f8316cc02ae5ee4389c4e9b2">OptionSelectorMultistate.c</a></li>
-<li>DisplayNameRuinAttach()&#160;:&#160;<a class="el" href="dd/d93/_object_8c.html#af51f29caece40e41910ff7d11e69c620">Object.c</a></li>
 <li>displayNavInfo&#160;:&#160;<a class="el" href="da/d9e/_cfg_gameplay_data_json_8c.html#ae1a7b6145c4f100fb2991448c82c50bc">CfgGameplayDataJson.c</a></li>
 <li>displayPlayerPosition&#160;:&#160;<a class="el" href="da/d9e/_cfg_gameplay_data_json_8c.html#ab5c38d50d64809304e80be0ae268f994">CfgGameplayDataJson.c</a></li>
 <li>DisplayState()&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#ab5169a51156d2df9368003d03de0bbd8">FishingRod_Base.c</a></li>
@@ -543,13 +554,17 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DraggingOverLeftPanel()&#160;:&#160;<a class="el" href="d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#afba5b34b8fc7d380ffef1c498b6ceda1">Inventory.c</a></li>
 <li>DraggingOverRightPanel()&#160;:&#160;<a class="el" href="d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a9162fdf8a668bb4bb2d44a417c54b2c3">Inventory.c</a></li>
 <li>DrawConnectingLines()&#160;:&#160;<a class="el" href="d0/d7f/_controls_xbox_8c.html#a769169a9bd5924cef96be37c06bb19f5">ControlsXbox.c</a></li>
+<li>DrawDebugBox()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#aa3e0a7702444e30f799788eeb8ba5dfc">DayZPlayerUtils.c</a></li>
 <li>DrawDebugCollisionBox()&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#a3bdb35d5718c01015063220bb92b9178">Construction.c</a></li>
 <li>DrawDebugShape()&#160;:&#160;<a class="el" href="df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#a1542e258ae97cc8fc674c739001c7c2b">BleedingSource.c</a></li>
+<li>DrawDebugText()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#a341f804c5aac7b0e8f4a1046326679bd">DayZPlayerUtils.c</a></li>
+<li>DrawStartFrame()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#ade16831253222c051c3df652e951e37e">DayZPlayerUtils.c</a></li>
 <li>DRENCHED&#160;:&#160;<a class="el" href="da/dc2/3___game_2_entities_2_entity_a_i_8c.html#af314c3a601e8bcad07a607f60bce1176a610de55a36dab6dc98130231b19277d4">EntityAI.c</a></li>
 <li>DRIED&#160;:&#160;<a class="el" href="d1/d0e/_food_stage_8c.html#a41b01b1ab76bb334479607981e0f22e8ae8131cf6280a5874f8a91e837ef54996">FoodStage.c</a></li>
 <li>DRINKING&#160;:&#160;<a class="el" href="d4/d03/_day_z_animal_input_controller_8c.html#a4d0f89c991c62c4e3a5b91cd926436dea2d3c4334812e35fedbf422ed9d6d82ce">DayZAnimalInputController.c</a></li>
 <li>DRINKING_INPUT&#160;:&#160;<a class="el" href="d4/d03/_day_z_animal_input_controller_8c.html#a5d58d3d3edb05b604b3973ae89d1b066a90a2e67e3c254a6cb436f2b20d51d873">DayZAnimalInputController.c</a></li>
-<li>DROP&#160;:&#160;<a class="el" href="d6/d21/_hand___events_8c.html#ac89b398d47a213a49c37d4c3c26f64fba8b0b0025af76a3d8f0b7b1d4758e51a6">Hand_Events.c</a></li>
+<li>DROP&#160;:&#160;<a class="el" href="d5/df7/_e_anim_sound_event_i_d_8c.html#a10de926578f04cb215fdf8c6fb062006a8b0b0025af76a3d8f0b7b1d4758e51a6">EAnimSoundEventID.c</a>, <a class="el" href="d6/d21/_hand___events_8c.html#ac89b398d47a213a49c37d4c3c26f64fba8b0b0025af76a3d8f0b7b1d4758e51a6">Hand_Events.c</a></li>
+<li>DROP_PREVENTED&#160;:&#160;<a class="el" href="dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959aa4e3afe1a3f032ca3b606d38252cf7786">Inventory.c</a></li>
 <li>DropAllItemsInInventoryInBounds()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a4ed7de29993696c94f1d6a08e84acac1">MiscGameplayFunctions.c</a></li>
 <li>DropDuringPlacing()&#160;:&#160;<a class="el" href="dc/d94/_action_deploy_base_8c.html#a6b6d4ddab76fd5bfe555affb3595155c">ActionDeployBase.c</a></li>
 <li>DropEquipAndDestroyRootLambda()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a5b5c52f09b30275e5bedcdc3d3ae0362">MiscGameplayFunctions.c</a></li>
@@ -566,7 +581,7 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DRY&#160;:&#160;<a class="el" href="da/dc2/3___game_2_entities_2_entity_a_i_8c.html#af314c3a601e8bcad07a607f60bce1176aac846926be1306ef258549902ab00a25">EntityAI.c</a>, <a class="el" href="da/d41/_slot_8c.html#a0ec56c082aab3c8e4e295bf663dbda61">Slot.c</a></li>
 <li>DRY_FIRE_TIMEOUT&#160;:&#160;<a class="el" href="d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a0d6b291625bc316251494f9c8ea4ed5c">Events.c</a></li>
 <li>DRYING&#160;:&#160;<a class="el" href="d1/d48/_cooking_8c.html#a40ebb390d457f1e0091617e091d1e39da613dd8e5dff0ae0318250bc0f744da86">Cooking.c</a></li>
-<li>DryItemsInVicinity()&#160;:&#160;<a class="el" href="da/dc0/_universal_temperature_source_lambda_base_8c.html#a16f98246cd5f76b8ee920f12495492b3">UniversalTemperatureSourceLambdaBase.c</a></li>
+<li>DryItemsInVicinity()&#160;:&#160;<a class="el" href="d6/d61/_universal_temperature_source_lambda_base_impl_8c.html#a72964cd19dd64d974de14de55f4c3c4a">UniversalTemperatureSourceLambdaBaseImpl.c</a></li>
 <li>dSetGravity()&#160;:&#160;<a class="el" href="d5/d74/group___physics.html#gafb944654295126ea460f51078c4b425a">EnPhysics.c</a></li>
 <li>dSetInteractionLayer()&#160;:&#160;<a class="el" href="d5/d74/group___physics.html#ga3007d9f8bc34470b0c8bda12778cd4fc">EnPhysics.c</a></li>
 <li>dSetTimeSlice()&#160;:&#160;<a class="el" href="d5/d74/group___physics.html#gaf59ae1af8d80fe6ba4f5eb424ffc91f5">EnPhysics.c</a></li>
@@ -583,11 +598,13 @@ $(document).ready(function(){initNavTree('globals_d.html',''); initResizable(); 
 <li>DUPLICATE_UID&#160;:&#160;<a class="el" href="d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4aabf58d5e48e3a1b77dc8d2a0bee8eebc">ClientKickedModule.c</a></li>
 <li>Duration&#160;:&#160;<a class="el" href="df/d89/_land___underground___water_reservoir_8c.html#a1ccb2a57fde23aa66b03062ae2ad567f">Land_Underground_WaterReservoir.c</a></li>
 <li>DURATION_BASE&#160;:&#160;<a class="el" href="d1/d5d/group___cpp_enums.html#gad98c622b0090d2078aa75abf49bb66f7">constants.c</a></li>
-<li>DYNAMIC&#160;:&#160;<a class="el" href="da/d73/group___light.html#ggace01d340b1da85787dd2732051859928a2a0042993d92af2a1ccb19d71796f755">EnWorld.c</a>, <a class="el" href="d1/d5d/group___cpp_enums.html#gga4f47f6f4f22f4284ac18ed521d1dc569aaac65e0072e6ff1f4c3209d2fdd8730a">constants.c</a>, <a class="el" href="de/df7/_effect_area_8c.html#af2ab85552eafbde9a8cd42d20a0a1ebfaaac65e0072e6ff1f4c3209d2fdd8730a">EffectArea.c</a></li>
+<li>DURATION_MAX&#160;:&#160;<a class="el" href="d2/d2a/_script_console_weather_tab_8c.html#ac0f3a9b64f54b99e351c70696259b56a">ScriptConsoleWeatherTab.c</a></li>
+<li>DYNAMIC&#160;:&#160;<a class="el" href="da/d73/group___light.html#ggace01d340b1da85787dd2732051859928a2a0042993d92af2a1ccb19d71796f755">EnWorld.c</a>, <a class="el" href="d1/d5d/group___cpp_enums.html#gga4f47f6f4f22f4284ac18ed521d1dc569aaac65e0072e6ff1f4c3209d2fdd8730a">constants.c</a>, <a class="el" href="de/df7/_effect_area_8c.html#af2ab85552eafbde9a8cd42d20a0a1ebfaaac65e0072e6ff1f4c3209d2fdd8730a">EffectArea.c</a>, <a class="el" href="d8/da5/_day_z_player_utils_8c.html#aaac65e0072e6ff1f4c3209d2fdd8730a">DayZPlayerUtils.c</a></li>
 <li>DynamicBlur&#160;:&#160;<a class="el" href="dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca3c09b666316dcd2c4585362ab3c481ee">EnWorld.c</a></li>
 <li>DynamicEventExport()&#160;:&#160;<a class="el" href="db/d35/_central_economy_8c.html#afc786ecedd2e4ac2332ad8cbeac0c8bc">CentralEconomy.c</a></li>
 <li>DynamicEventSpawn()&#160;:&#160;<a class="el" href="db/d35/_central_economy_8c.html#a939a122fea67c4d9fc10c36da5d99ba6">CentralEconomy.c</a></li>
 <li>DYNAMICITEM&#160;:&#160;<a class="el" href="d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa34cb6e132dc8c920ea4899c94a47e156">DayZPhysics.c</a></li>
+<li>DYNAMICITEM_NOCHAR&#160;:&#160;<a class="el" href="d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa100debd57cb88f2e4bd13b780fcabfcb">DayZPhysics.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

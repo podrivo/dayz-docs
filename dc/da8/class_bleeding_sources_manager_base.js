@@ -32,6 +32,7 @@ var class_bleeding_sources_manager_base =
     [ "GetStorageVersion", "dc/da8/class_bleeding_sources_manager_base.html#a1bf8b2dd2fbfe7e56a7301c85d3ba301", null ],
     [ "Init", "dc/da8/class_bleeding_sources_manager_base.html#a2865dcd0243804f3b1b93c982130e8c3", null ],
     [ "Init", "dc/da8/class_bleeding_sources_manager_base.html#a459d4c8e8f5d56398ac5e97098477b43", null ],
+    [ "IsBleedingSourceActive", "dc/da8/class_bleeding_sources_manager_base.html#ad65a3b8ec8ac982ce6eef2ef29c32ffa", null ],
     [ "OnBleedingBitsUpdate", "dc/da8/class_bleeding_sources_manager_base.html#a82226a6db90adb7d4aabfed060098939", null ],
     [ "OnStoreLoad", "dc/da8/class_bleeding_sources_manager_base.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9", null ],
     [ "OnStoreSave", "dc/da8/class_bleeding_sources_manager_base.html#ad975050d7a080cca462e74c604f404a2", null ],

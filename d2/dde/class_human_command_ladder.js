@@ -5,5 +5,6 @@ var class_human_command_ladder =
     [ "CanExit", "d2/dde/class_human_command_ladder.html#a08436cfbb6ca576c94db44597ef22f26", null ],
     [ "DebugDrawLadder", "d2/dde/class_human_command_ladder.html#a65239e419e4ab512dc52cebbc13879ed", null ],
     [ "DebugGetLadderIndex", "d2/dde/class_human_command_ladder.html#a0eb9b7fb9e3c0d14a544dbf3af3beb93", null ],
-    [ "Exit", "d2/dde/class_human_command_ladder.html#a3651ad977d64822eb5858c0bf083028f", null ]
+    [ "Exit", "d2/dde/class_human_command_ladder.html#a3651ad977d64822eb5858c0bf083028f", null ],
+    [ "GetLogoutPosition", "d2/dde/class_human_command_ladder.html#a81e99beddf5c2c4516545ef3abce3eb7", null ]
 ];

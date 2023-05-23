@@ -128,7 +128,7 @@ var searchData=
   ['human_2ec_125',['human.c',['../d4/d9e/human_8c.html',1,'']]],
   ['humaninventory_2ec_126',['HumanInventory.c',['../de/d27/_human_inventory_8c.html',1,'']]],
   ['humaninventorywithfsm_2ec_127',['HumanInventoryWithFSM.c',['../d5/d7b/_human_inventory_with_f_s_m_8c.html',1,'']]],
-  ['humanitems_2eh_128',['humanitems.h',['../d1/da1/humanitems_8h.html',1,'']]],
+  ['humanitems_2ec_128',['humanitems.c',['../de/df8/humanitems_8c.html',1,'']]],
   ['humansettings_2ec_129',['humansettings.c',['../dd/da9/humansettings_8c.html',1,'']]],
   ['humansteakmeat_2ec_130',['HumanSteakMeat.c',['../d1/d5e/_human_steak_meat_8c.html',1,'']]],
   ['hunger_2ec_131',['Hunger.c',['../d0/d99/_hunger_8c.html',1,'']]],

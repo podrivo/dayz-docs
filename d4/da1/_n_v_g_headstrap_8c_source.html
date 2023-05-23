@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,41 +101,27 @@ $(document).ready(function(){initNavTree('d4/da1/_n_v_g_headstrap_8c_source.html
   <div class="headertitle"><div class="title">NVGHeadstrap.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/da1/_n_v_g_headstrap_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">class </span>NVGHeadstrap <span class="keyword">extends</span> <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a></div>
+<a href="../../d4/da1/_n_v_g_headstrap_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">class </span>NVGHeadstrap <span class="keyword">extends</span> <a class="code hl_class" href="../../d0/d3a/class_glasses___base.html">Glasses_Base</a></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>{</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d8/db4/class_clothing.html#abbd8d4142787998dba20c9b75567c440">    3</a></span>    <span class="keyword">override</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/db4/class_clothing.html#abbd8d4142787998dba20c9b75567c440">CanPutAsAttachment</a>(<a class="code hl_class" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent)</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d0/d3a/class_glasses___base.html#afa39b7c4d3d085ef8514a87c32b81a4d">    3</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d3a/class_glasses___base.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    {</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        <span class="keywordflow">if</span> (!super.CanPutAsAttachment(parent))</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>        </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a> helmet = <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a>.Cast(parent.FindAttachmentBySlotName( <span class="stringliteral">&quot;Headgear&quot;</span> ));</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keywordflow">if</span> (helmet &amp;&amp; helmet.ConfigGetBool(<span class="stringliteral">&quot;noNVStrap&quot;</span>))</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        }</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a> mask = <a class="code hl_class" href="../../d8/db4/class_clothing.html">Clothing</a>.Cast(parent.FindAttachmentBySlotName(<span class="stringliteral">&quot;Mask&quot;</span>));</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keywordflow">if</span> (mask &amp;&amp; mask.ConfigGetBool(<span class="stringliteral">&quot;noEyewear&quot;</span>))</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        }</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d8/db4/class_clothing.html#afa39b7c4d3d085ef8514a87c32b81a4d">   23</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/db4/class_clothing.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        super.SetActions();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../d7/dac/class_action_toggle_n_v_g.html">ActionToggleNVG</a>);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        super.SetActions();</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>        </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../d7/dac/class_action_toggle_n_v_g.html">ActionToggleNVG</a>);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    }</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d0/d3a/class_glasses___base.html#abb31df34d18be9cfd04b07d55bba5eec">   10</a></span>    <span class="keyword">override</span> <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d3a/class_glasses___base.html#abb31df34d18be9cfd04b07d55bba5eec">InitGlobalExclusionValues</a>()</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        super.InitGlobalExclusionValues();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        ClearSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_GLASSES_REGULAR_0);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        AddSingleExclusionValueGlobal(EAttExclusions.EXCLUSION_HEADSTRAP_0);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    }</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>};</div>
 <div class="ttc" id="a_advanced_communication_8c_html_a52cdff768ebc148eee5a17e4ebef3408"><div class="ttname"><a href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a></div><div class="ttdeci">void AddAction(typename actionName)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AdvancedCommunication.c:220</a></div></div>
 <div class="ttc" id="aclass_action_toggle_n_v_g_html"><div class="ttname"><a href="../../d7/dac/class_action_toggle_n_v_g.html">ActionToggleNVG</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5b/_action_toggle_n_v_g_8c_source.html#l00001">ActionToggleNVG.c:2</a></div></div>
-<div class="ttc" id="aclass_clothing_html"><div class="ttname"><a href="../../d8/db4/class_clothing.html">Clothing</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/_alice_bag___color_base_8c_source.html#l00001">AliceBag_ColorBase.c:1</a></div></div>
-<div class="ttc" id="aclass_clothing_html_abbd8d4142787998dba20c9b75567c440"><div class="ttname"><a href="../../d8/db4/class_clothing.html#abbd8d4142787998dba20c9b75567c440">Clothing::CanPutAsAttachment</a></div><div class="ttdeci">override bool CanPutAsAttachment(EntityAI parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da1/_n_v_g_headstrap_8c_source.html#l00003">NVGHeadstrap.c:3</a></div></div>
-<div class="ttc" id="aclass_clothing_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../d8/db4/class_clothing.html#afa39b7c4d3d085ef8514a87c32b81a4d">Clothing::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da1/_n_v_g_headstrap_8c_source.html#l00023">NVGHeadstrap.c:23</a></div></div>
-<div class="ttc" id="aclass_entity_a_i_html"><div class="ttname"><a href="../../df/df9/class_entity_a_i.html">EntityAI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d45/3___game_2_entities_2_building_8c_source.html#l00001">Building.c:2</a></div></div>
+<div class="ttc" id="aclass_glasses___base_html"><div class="ttname"><a href="../../d0/d3a/class_glasses___base.html">Glasses_Base</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d63/_aviator_glasses_8c_source.html#l00001">AviatorGlasses.c:2</a></div></div>
+<div class="ttc" id="aclass_glasses___base_html_abb31df34d18be9cfd04b07d55bba5eec"><div class="ttname"><a href="../../d0/d3a/class_glasses___base.html#abb31df34d18be9cfd04b07d55bba5eec">Glasses_Base::InitGlobalExclusionValues</a></div><div class="ttdeci">override protected void InitGlobalExclusionValues()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da1/_n_v_g_headstrap_8c_source.html#l00010">NVGHeadstrap.c:10</a></div></div>
+<div class="ttc" id="aclass_glasses___base_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../d0/d3a/class_glasses___base.html#afa39b7c4d3d085ef8514a87c32b81a4d">Glasses_Base::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da1/_n_v_g_headstrap_8c_source.html#l00003">NVGHeadstrap.c:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

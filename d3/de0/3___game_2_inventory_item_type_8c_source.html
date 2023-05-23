@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -152,21 +152,18 @@ $(document).ready(function(){initNavTree('d3/de0/3___game_2_inventory_item_type_
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../dd/d2d/class_inventory_item_type.html#a1f577b8e745d930f0792df0a212cd5c3">   50</a></span>    AnimSoundEvent <a class="code hl_function" href="../../dd/d2d/class_inventory_item_type.html#a1f577b8e745d930f0792df0a212cd5c3">GetSoundEvent</a>(<span class="keywordtype">int</span> event_id)</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="../../dd/d2d/class_inventory_item_type.html#a54b9e7d49865e8ded12dc8581e9753f9">m_animSoundEvents</a>.Count(); i++)</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">foreach</span> (AnimSoundEvent soundEvent : <a class="code hl_variable" href="../../dd/d2d/class_inventory_item_type.html#a54b9e7d49865e8ded12dc8581e9753f9">m_animSoundEvents</a>)</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            AnimSoundEvent soundEvent = <a class="code hl_variable" href="../../dd/d2d/class_inventory_item_type.html#a54b9e7d49865e8ded12dc8581e9753f9">m_animSoundEvents</a>.Get(i);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <span class="keywordflow">if</span> (soundEvent.m_iID == event_id)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                <span class="keywordflow">return</span> soundEvent;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            }</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordflow">if</span> (soundEvent.m_iID == event_id)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                <span class="keywordflow">return</span> soundEvent;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">return</span> null;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../dd/d2d/class_inventory_item_type.html#a826a818d26fb4fe7731ddd6d6b35247f">   65</a></span>    proto native owned <span class="keywordtype">string</span> <a class="code hl_function" href="../../dd/d2d/class_inventory_item_type.html#a826a818d26fb4fe7731ddd6d6b35247f">GetName</a>();</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../dd/d2d/class_inventory_item_type.html#a826a818d26fb4fe7731ddd6d6b35247f">   62</a></span>    proto native owned <span class="keywordtype">string</span> <a class="code hl_function" href="../../dd/d2d/class_inventory_item_type.html#a826a818d26fb4fe7731ddd6d6b35247f">GetName</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
 <div class="ttc" id="aclass_c_game_html_a2ad1af8d533330097cc3ecf36017c386"><div class="ttname"><a href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount</a></div><div class="ttdeci">proto native int ConfigGetChildrenCount(string path)</div><div class="ttdoc">Get count of subclasses in config class on path.</div></div>
 <div class="ttc" id="aclass_c_game_html_ab6c4c2ce3d3663185ca650b2a378ceb9"><div class="ttname"><a href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName</a></div><div class="ttdeci">proto bool ConfigGetChildName(string path, int index, out string name)</div><div class="ttdoc">Get name of subclass in config class on path.</div></div>
 <div class="ttc" id="aclass_inventory_item_type_html"><div class="ttname"><a href="../../dd/d2d/class_inventory_item_type.html">InventoryItemType</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de0/3___game_2_inventory_item_type_8c_source.html#l00001">InventoryItemType.c:2</a></div></div>

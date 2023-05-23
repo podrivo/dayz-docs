@@ -1,7 +1,7 @@
 var _hand___events_8c =
 [
     [ "HandEventBase", "d8/d9e/class_hand_event_base.html", "d8/d9e/class_hand_event_base" ],
-    [ "HandEventDrop", "d1/d2b/class_hand_event_drop.html", "d1/d2b/class_hand_event_drop" ],
+    [ "HandEventRemove", "d2/db6/class_hand_event_remove.html", "d2/db6/class_hand_event_remove" ],
     [ "HandEventSwap", "d1/d52/class_hand_event_swap.html", "d1/d52/class_hand_event_swap" ],
     [ "HandEventReplaceWithNewBase", "dc/d52/class_hand_event_replace_with_new_base.html", "dc/d52/class_hand_event_replace_with_new_base" ],
     [ "HandEventDestroyAndReplaceWithNew", "d1/d1f/class_hand_event_destroy_and_replace_with_new.html", "d1/d1f/class_hand_event_destroy_and_replace_with_new" ],
@@ -27,7 +27,9 @@ var _hand___events_8c =
     [ "JunctureRequestResult", "d6/d21/_hand___events_8c.html#a7f11195e4dd68cc2afd660a1e429ecf3", null ],
     [ "AcquireInventoryJunctureFromServer", "d6/d21/_hand___events_8c.html#ae38150707430337f0a0f0f0b4fa44707", null ],
     [ "CanPerformEvent", "d6/d21/_hand___events_8c.html#a24d274eb8b2875fd1eae0e9aa6541d2c", null ],
+    [ "CanPerformEventEx", "d6/d21/_hand___events_8c.html#a7ed66a15ea5f78d77bfc93cefc925138", null ],
     [ "CheckRequest", "d6/d21/_hand___events_8c.html#a4d8c1fa89bf3ca7ccbac49e0fbcc3816", null ],
+    [ "CheckRequestEx", "d6/d21/_hand___events_8c.html#abfdc1bf3d66128d0e36410c2c29fe33d", null ],
     [ "CheckRequestSrc", "d6/d21/_hand___events_8c.html#a072448d1240027a8931b908abc706622", null ],
     [ "ClearInventoryReservation", "d6/d21/_hand___events_8c.html#aea3531b2f1c16dd2d81d229576f33d69", null ],
     [ "CreateHandEventFromContext", "d6/d21/_hand___events_8c.html#a16c4ca5beb2cf4a8fdc323539b10db62", null ],
@@ -41,6 +43,9 @@ var _hand___events_8c =
     [ "HandAnimEventFactory", "d6/d21/_hand___events_8c.html#a69a173774d6c59c7799ebbf755aca3f3", null ],
     [ "HandEventBase", "d6/d21/_hand___events_8c.html#ad89728e4eb0bba2fedf3ec89e3cd174b", null ],
     [ "HandEventFactory", "d6/d21/_hand___events_8c.html#a05b63611a780e090a2a52d666e3d844f", null ],
+    [ "IsAuthoritative", "d6/d21/_hand___events_8c.html#a343132994eed35019de7370cbc9aeb61", null ],
+    [ "IsOwner", "d6/d21/_hand___events_8c.html#ad5cf6f6f44b88bcff6d77862ecc90b96", null ],
+    [ "IsProxy", "d6/d21/_hand___events_8c.html#afee33344cd3d639572a2716f2d58b8ac", null ],
     [ "IsServerSideOnly", "d6/d21/_hand___events_8c.html#a981953cf80af5c5121a033bb12ca5346", null ],
     [ "ReadFromContext", "d6/d21/_hand___events_8c.html#a6cb2976e367e1b3ab75f505c0d1079ae", null ],
     [ "ReserveInventory", "d6/d21/_hand___events_8c.html#a4aec6fe31b08b3ff818f77e4d6698cda", null ],

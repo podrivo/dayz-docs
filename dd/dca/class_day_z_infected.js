@@ -1,5 +1,6 @@
 var class_day_z_infected =
 [
+    [ "AddArrow", "dd/dca/class_day_z_infected.html#a976344887353977860279d05322e8252", null ],
     [ "CanBeBackstabbed", "dd/dca/class_day_z_infected.html#a6c54e74ba5eaaf8b644e05af4062a200", null ],
     [ "CanBeSkinned", "dd/dca/class_day_z_infected.html#ac41954dab14abd446b1c1ad9b3beab0e", null ],
     [ "CanReceiveAttachment", "dd/dca/class_day_z_infected.html#ae7bd4d02b82fa1017e3a4cf7e3caba18", null ],
@@ -19,6 +20,7 @@ var class_day_z_infected =
     [ "EvaluateDeathAnimationEx", "dd/dca/class_day_z_infected.html#a71dd8f5dc493e8aa17ac6d8cc8c2b076", null ],
     [ "FightAttackLogic", "dd/dca/class_day_z_infected.html#a281c84a5785be50859e7f6871ffdeac8", null ],
     [ "FightLogic", "dd/dca/class_day_z_infected.html#aa6ecd64bd1e0da94b8158506f8159533", null ],
+    [ "GetArrowManager", "dd/dca/class_day_z_infected.html#a6024f2c269d4bf1ac72ffb6f312fa308", null ],
     [ "GetAttackPitch", "dd/dca/class_day_z_infected.html#a56c7bf3b382282d8a749f81d50dee76b", null ],
     [ "GetBootsType", "dd/dca/class_day_z_infected.html#ada5c2f34d48a18ee9803c29264153d1d", null ],
     [ "GetCenter", "dd/dca/class_day_z_infected.html#ac537712a71531f3947d47960f4e6ce38", null ],
@@ -43,6 +45,7 @@ var class_day_z_infected =
     [ "IsDanger", "dd/dca/class_day_z_infected.html#aa66f6a10a167b3aab1ced9f813a84873", null ],
     [ "IsHealthVisible", "dd/dca/class_day_z_infected.html#a917b5a8c9ab106c1d1a01aa68c7f5976", null ],
     [ "IsMale", "dd/dca/class_day_z_infected.html#a5a994c9144fb0ecb56d9b9da77c436bc", null ],
+    [ "IsManagingArrows", "dd/dca/class_day_z_infected.html#adb49305b137500377ea58863a002843a", null ],
     [ "IsRefresherSignalingViable", "dd/dca/class_day_z_infected.html#ab392f138aa79539fb1ea8d36f06e3b05", null ],
     [ "IsZombie", "dd/dca/class_day_z_infected.html#a64f4f84a6e6c992f8dc1c79a64cc79da", null ],
     [ "IsZombieMilitary", "dd/dca/class_day_z_infected.html#af502d3157bcee38a457e5500ec9e9c31", null ],
@@ -61,6 +64,7 @@ var class_day_z_infected =
     [ "m_ActualAttackType", "dd/dca/class_day_z_infected.html#abb29f0a2ae5bb4fb835dbc3a23a33b0d", null ],
     [ "m_ActualTarget", "dd/dca/class_day_z_infected.html#a1e1b7a013d4a8837f206e7e96514729b", null ],
     [ "m_AllTargetObjects", "dd/dca/class_day_z_infected.html#a947eeb45d19bf88a7fd94ae7a1958662", null ],
+    [ "m_ArrowManager", "dd/dca/class_day_z_infected.html#a24414454fa862570bcee391a1f000c5f", null ],
     [ "m_AttackCooldownTime", "dd/dca/class_day_z_infected.html#a0a99133223820a20d9ab0b872c63627e", null ],
     [ "m_CrawlTransition", "dd/dca/class_day_z_infected.html#ac3107659be3705b6dde94074e31f8b1f", null ],
     [ "m_DamageHitDirection", "dd/dca/class_day_z_infected.html#a079ff48c92b324d5c56e7a6763d656c8", null ],

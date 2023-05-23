@@ -37,6 +37,7 @@ var _server_browser_tab_8c =
     [ "LeftRelease", "d7/de3/_server_browser_tab_8c.html#aafa1d24a43551b305ad3657a902d349e", null ],
     [ "LoadExtraEntries", "d7/de3/_server_browser_tab_8c.html#a378f1ec0ff86c14476dfdc16812898ca", null ],
     [ "OnClick", "d7/de3/_server_browser_tab_8c.html#aee6a27cad085ec84d5f5dbb765b63b53", null ],
+    [ "OnDLCChange", "d7/de3/_server_browser_tab_8c.html#afcbc5d36321381eee17d955e28253e92", null ],
     [ "OnFilterChanged", "d7/de3/_server_browser_tab_8c.html#afd98523246ac8e467839429cc833ac4a", null ],
     [ "OnFilterFocus", "d7/de3/_server_browser_tab_8c.html#a5509c527352c9be9f1fe4af22dcc9bde", null ],
     [ "OnFilterFocusLost", "d7/de3/_server_browser_tab_8c.html#a417937727dbd6e3ecd29c1f6686d0c4f", null ],

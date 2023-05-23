@@ -1,6 +1,7 @@
 var _remote_detonator_8c =
 [
     [ "RemoteDetonatorTrigger", "d9/d4c/class_remote_detonator_trigger.html", "d9/d4c/class_remote_detonator_trigger" ],
+    [ "ReplaceDetonatorItemLambda", "dc/ddd/class_replace_detonator_item_lambda.html", "dc/ddd/class_replace_detonator_item_lambda" ],
     [ "ERemoteDetonatorLEDState", "dc/dd0/_remote_detonator_8c.html#a7804fd4e8640651942c36a208aa12c5c", [
       [ "OFF", "dc/dd0/_remote_detonator_8c.html#a7804fd4e8640651942c36a208aa12c5caac132f2982b98bcaa3445e535a03ff75", null ],
       [ "LIT", "dc/dd0/_remote_detonator_8c.html#a7804fd4e8640651942c36a208aa12c5ca3b759690471ed29ecd243a8f36b93f60", null ]

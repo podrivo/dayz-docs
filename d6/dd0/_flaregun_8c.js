@@ -18,7 +18,7 @@ var _flaregun_8c =
     [ "OnExit", "d6/dd0/_flaregun_8c.html#aa40f8697dfa587f8adabc8640bc98ad8", null ],
     [ "Empty", "d6/dd0/_flaregun_8c.html#a891fbec6fb0d74aea9e064d13b59c9e0", null ],
     [ "Fireout", "d6/dd0/_flaregun_8c.html#a8aa2378201749f3aa5ffa8dd152c8e95", null ],
-    [ "Loaded", "d6/dd0/_flaregun_8c.html#a211f8e095b3b0e62b5e1fbc5ac330c15", null ],
+    [ "Loaded", "d6/dd0/_flaregun_8c.html#afae9218a8bc790c8851b8a6e6cada69b", null ],
     [ "OnEntry", "d6/dd0/_flaregun_8c.html#a4d87a97f99664b14afec8fc1e91c6fcd", null ],
     [ "UNKNOWN", "d6/dd0/_flaregun_8c.html#a6ce26a62afab55d7606ad4e92428b30c", null ]
 ];

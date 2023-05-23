@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -140,12 +140,12 @@ $(document).ready(function(){initNavTree('df/d76/_apple_8c_source.html','../../'
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">if</span> ( rand &gt; 6 )</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        {</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <a class="code hl_function" href="../../d8/d81/_edible___base_8c.html#aedce8eb4e1710926321bb5d2d2acbb04">ChangeFoodStage</a>( <a class="code hl_enumeration" href="../../d1/d0e/_food_stage_8c.html#a41b01b1ab76bb334479607981e0f22e8">FoodStageType</a>.ROTTEN );</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <a class="code hl_function" href="../../dd/d93/_object_8c.html#a06e179b153af2d7dbc7d007ba0fbdf8a">SetHealth</a>( <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <a class="code hl_function" href="../../dd/d93/_object_8c.html#af52e22bb2e3b1317cad039ef707341ae">GetMaxHealth</a>()*0.1 );</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            SetHealth( <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, GetMaxHealth()*0.1 );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( rand &gt; 2 )</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        {</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <a class="code hl_function" href="../../d8/d81/_edible___base_8c.html#aedce8eb4e1710926321bb5d2d2acbb04">ChangeFoodStage</a>( <a class="code hl_enumeration" href="../../d1/d0e/_food_stage_8c.html#a41b01b1ab76bb334479607981e0f22e8">FoodStageType</a>.DRIED );</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <a class="code hl_function" href="../../dd/d93/_object_8c.html#a06e179b153af2d7dbc7d007ba0fbdf8a">SetHealth</a>( <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <a class="code hl_function" href="../../dd/d93/_object_8c.html#af52e22bb2e3b1317cad039ef707341ae">GetMaxHealth</a>()*0.4 );</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            SetHealth( <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, GetMaxHealth()*0.4 );</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
@@ -153,8 +153,6 @@ $(document).ready(function(){initNavTree('df/d76/_apple_8c_source.html','../../'
 <div class="ttc" id="a_advanced_communication_8c_html_a52cdff768ebc148eee5a17e4ebef3408"><div class="ttname"><a href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a></div><div class="ttdeci">void AddAction(typename actionName)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AdvancedCommunication.c:220</a></div></div>
 <div class="ttc" id="a_edible___base_8c_html_aedce8eb4e1710926321bb5d2d2acbb04"><div class="ttname"><a href="../../d8/d81/_edible___base_8c.html#aedce8eb4e1710926321bb5d2d2acbb04">ChangeFoodStage</a></div><div class="ttdeci">void ChangeFoodStage(FoodStageType new_food_stage_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d81/_edible___base_8c_source.html#l01241">Edible_Base.c:1241</a></div></div>
 <div class="ttc" id="a_food_stage_8c_html_a41b01b1ab76bb334479607981e0f22e8"><div class="ttname"><a href="../../d1/d0e/_food_stage_8c.html#a41b01b1ab76bb334479607981e0f22e8">FoodStageType</a></div><div class="ttdeci">FoodStageType</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0e/_food_stage_8c_source.html#l00001">FoodStage.c:2</a></div></div>
-<div class="ttc" id="a_object_8c_html_a06e179b153af2d7dbc7d007ba0fbdf8a"><div class="ttname"><a href="../../dd/d93/_object_8c.html#a06e179b153af2d7dbc7d007ba0fbdf8a">SetHealth</a></div><div class="ttdeci">proto native void SetHealth(string zoneName, string healthType, float value)</div><div class="ttdoc">Sets current state of health.</div></div>
-<div class="ttc" id="a_object_8c_html_af52e22bb2e3b1317cad039ef707341ae"><div class="ttname"><a href="../../dd/d93/_object_8c.html#af52e22bb2e3b1317cad039ef707341ae">GetMaxHealth</a></div><div class="ttdeci">float GetMaxHealth()</div><div class="ttdoc">Equivalent of GetMaxHealth(&quot;&quot;, &quot;&quot;);.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d93/_object_8c_source.html#l00905">Object.c:905</a></div></div>
 <div class="ttc" id="aclass_action_create_indoor_fireplace_html"><div class="ttname"><a href="../../d0/d80/class_action_create_indoor_fireplace.html">ActionCreateIndoorFireplace</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d3a/_action_create_indoor_fireplace_8c_source.html#l00001">ActionCreateIndoorFireplace.c:2</a></div></div>
 <div class="ttc" id="aclass_action_create_indoor_oven_html"><div class="ttname"><a href="../../db/de0/class_action_create_indoor_oven.html">ActionCreateIndoorOven</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d85/_action_create_indoor_oven_8c_source.html#l00001">ActionCreateIndoorOven.c:2</a></div></div>
 <div class="ttc" id="aclass_action_eat_fruit_html"><div class="ttname"><a href="../../d9/d29/class_action_eat_fruit.html">ActionEatFruit</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6b/_action_eat_fruit_8c_source.html#l00009">ActionEatFruit.c:10</a></div></div>

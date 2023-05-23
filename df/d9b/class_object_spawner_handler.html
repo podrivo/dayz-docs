@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -99,7 +99,8 @@ $(document).ready(function(){initNavTree('df/d9b/class_object_spawner_handler.ht
 
 <div class="header">
   <div class="summary">
-<a href="#pri-static-methods">Static Private Member Functions</a>  </div>
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">ObjectSpawnerHandler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -112,6 +113,13 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a5a8e441fdbe293dc8816dc1047e2fee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bcdfed0281a3beac67ea9cec2d9d5dd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/class_object_spawner_handler.html#a2bcdfed0281a3beac67ea9cec2d9d5dd">OnGameplayDataHandlerLoad</a> ()</td></tr>
 <tr class="separator:a2bcdfed0281a3beac67ea9cec2d9d5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a914aa683a189b227c7ce8873ec2a5889"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/class_object_spawner_handler.html#a914aa683a189b227c7ce8873ec2a5889">ValidatePath</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>)</td></tr>
+<tr class="separator:a914aa683a189b227c7ce8873ec2a5889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ad94645d4f0899f20ff7c66687b361f2f"><td class="memItemLeft" align="right" valign="top">static protected const ref <a class="el" href="../../d5/d78/group___enforce.html#ga28845e68ed8329715e29aded7542ca15">TStringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/class_object_spawner_handler.html#ad94645d4f0899f20ff7c66687b361f2f">VALID_PATHS</a> = {&quot;DZ\\plants&quot;,&quot;DZ\\plants_bliss&quot;,&quot;DZ\\rocks&quot;,&quot;DZ\\rocks_bliss&quot;,&quot;DZ/plants&quot;,&quot;DZ/plants_bliss&quot;,&quot;DZ/rocks&quot;,&quot;DZ/rocks_bliss&quot;}</td></tr>
+<tr class="separator:ad94645d4f0899f20ff7c66687b361f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -140,11 +148,11 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00038">38</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00067">67</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00004">SpawnObjects()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a86452ae125fd078b6e74c3786051968c">CGame::GetWorld()</a>, <a class="el" href="../../d3/d21/class_world.html#aa39c4fe387f59fe1a51e0bc75f22a64d">World::ProcessMarkedObjectsForPathgraphUpdate()</a>, and <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00005">SpawnObjects()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/ddf/_cfg_gameplay_handler_8c_source.html#l00069">CfgGameplayHandler::OnLoaded()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01081">CGame::GlobalsInit()</a>.</p>
 
 </div>
 </div>
@@ -172,11 +180,11 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00027">27</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00034">34</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00502">vector::ArrayToVec()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a3c953f7c04d6763f3ed45de1515f561a">CGame::CreateObjectEx()</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00016">ECE_CREATEPHYSICS</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00029">ECE_NOLIFETIME</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00009">ECE_SETUP</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00013">ECE_UPDATEPATHGRAPH</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00052">ITEM_SpawnerObject::name</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00053">ITEM_SpawnerObject::pos</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00055">ITEM_SpawnerObject::scale</a>, and <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00054">ITEM_SpawnerObject::ypr</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00502">vector::ArrayToVec()</a>, <a class="el" href="../../d0/d04/_en_string_8c_source.html#l00286">string::Contains()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a3c953f7c04d6763f3ed45de1515f561a">CGame::CreateObjectEx()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a4765f4e535c91613c4052d9f9f2f8578">CGame::CreateStaticObjectUsingP3D()</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00016">ECE_CREATEPHYSICS</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00032">ECE_DYNAMIC_PERSISTENCY</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00029">ECE_NOLIFETIME</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00009">ECE_SETUP</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00013">ECE_UPDATEPATHGRAPH</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00097">ITEM_SpawnerObject::enableCEPersistency</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00093">ITEM_SpawnerObject::name</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00094">ITEM_SpawnerObject::pos</a>, <a class="el" href="../../d0/d62/group___debug.html#gae273d2b39046bd2d0b46d3e5132ee54c">PrintToRPT()</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00096">ITEM_SpawnerObject::scale</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00074">ValidatePath()</a>, and <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00095">ITEM_SpawnerObject::ypr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00004">SpawnObjects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00005">SpawnObjects()</a>.</p>
 
 </div>
 </div>
@@ -203,11 +211,70 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00005">5</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/df6/group___file.html#gac8ac6334d3ec51a5537c4ea4f6c57e04">FileExist()</a>, <a class="el" href="../../d4/ddf/_cfg_gameplay_handler_8c_source.html#l00130">CfgGameplayHandler::GetObjectSpawnersArr()</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00047">ObjectSpawnerJson::Objects</a>, <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>, and <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00027">SpawnObject()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/df6/group___file.html#gac8ac6334d3ec51a5537c4ea4f6c57e04">FileExist()</a>, <a class="el" href="../../d4/ddf/_cfg_gameplay_handler_8c_source.html#l00129">CfgGameplayHandler::GetObjectSpawnersArr()</a>, <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00088">ObjectSpawnerJson::Objects</a>, <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>, and <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00034">SpawnObject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00038">OnGameplayDataHandlerLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00067">OnGameplayDataHandlerLoad()</a>.</p>
+
+</div>
+</div>
+<a id="a914aa683a189b227c7ce8873ec2a5889" name="a914aa683a189b227c7ce8873ec2a5889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a914aa683a189b227c7ce8873ec2a5889">&#9670;&#160;</a></span>ValidatePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/db9/classbool.html">bool</a> ValidatePath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00074">74</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/d04/_en_string_8c_source.html#l00286">string::Contains()</a>, <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>, and <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00003">VALID_PATHS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00034">SpawnObject()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="ad94645d4f0899f20ff7c66687b361f2f" name="ad94645d4f0899f20ff7c66687b361f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94645d4f0899f20ff7c66687b361f2f">&#9670;&#160;</a></span>VALID_PATHS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected const ref <a class="el" href="../../d5/d78/group___enforce.html#ga28845e68ed8329715e29aded7542ca15">TStringArray</a> VALID_PATHS = {&quot;DZ\\plants&quot;,&quot;DZ\\plants_bliss&quot;,&quot;DZ\\rocks&quot;,&quot;DZ\\rocks_bliss&quot;,&quot;DZ/plants&quot;,&quot;DZ/plants_bliss&quot;,&quot;DZ/rocks&quot;,&quot;DZ/rocks_bliss&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html">ObjectSpawner.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/_object_spawner_8c_source.html#l00074">ValidatePath()</a>.</p>
 
 </div>
 </div>

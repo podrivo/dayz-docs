@@ -213,6 +213,7 @@ var _car_script_8c =
     [ "m_PlayCrashSoundHeavy", "d5/d71/_car_script_8c.html#a28eb0ed69689f107dde7c4a6f1c46c90", null ],
     [ "m_PlayCrashSoundLight", "d5/d71/_car_script_8c.html#af2d090b3c878bc1dba6294985923b710", null ],
     [ "m_PlugHealth", "d5/d71/_car_script_8c.html#a9a0ea4138ea87a912364579e233d7982", null ],
+    [ "m_PreStartSound", "d5/d71/_car_script_8c.html#a170f5102a7a215c7f2bbbd62d8bc195a", null ],
     [ "m_Radiator", "d5/d71/_car_script_8c.html#a85a3d0c60714af270dc7ca11392bb197", null ],
     [ "m_RadiatorHealth", "d5/d71/_car_script_8c.html#ad5f0cca342ef65cccbff1c804dc1f0cb", null ],
     [ "m_RearLight", "d5/d71/_car_script_8c.html#ad1066d36dc5c05e457610a5829d61181", null ],

@@ -97,6 +97,7 @@ var _e_r_p_cs_8c =
       [ "DEV_SET_DEV_ITEM", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37afaaee0d8a823d55dbfca9c959b27422f", null ],
       [ "DEV_REQUEST_UTS_DEBUG", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a3b89a3986465efa169033c0216c9d6b6", null ],
       [ "DEV_UTS_DEBUG_DATA", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a254b819e39049aa02d01028f4214eec9", null ],
+      [ "DEV_SET_WEATHER", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a017746e76be273b116be7ea95c513796", null ],
       [ "RPC_END", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37ab92c339a5231732ab282e5b2ab4c2463", null ]
     ] ]
 ];

@@ -10,6 +10,8 @@ var class_human_command_action_callback =
     [ "OnFinish", "dc/d02/class_human_command_action_callback.html#aa844cd28d168496e8cb52608ffd7ded1", null ],
     [ "OnStateChange", "dc/d02/class_human_command_action_callback.html#a9aae79a4b2695cd5481762270c1e7496", null ],
     [ "PluginDayzPlayerActionCallback", "dc/d02/class_human_command_action_callback.html#a45177a142cd73b158f6fe3d010307856", null ],
+    [ "m_AnimEventMapping", "dc/d02/class_human_command_action_callback.html#aedc08ec9982c0b2490476f7f68cd4794", null ],
+    [ "m_EventsHistory", "dc/d02/class_human_command_action_callback.html#aca2f7122cc435ddbdfe86647ca57964f", null ],
     [ "m_fTimeStart", "dc/d02/class_human_command_action_callback.html#a69399e6a326c6dc8670e569ea46bca45", null ],
     [ "m_pAnimEventWidget", "dc/d02/class_human_command_action_callback.html#a8fe4ee3f3772709a4d4e27278a7419b4", null ],
     [ "m_Player", "dc/d02/class_human_command_action_callback.html#a4db3d46d75d2864daed52041fe1f0973", null ],

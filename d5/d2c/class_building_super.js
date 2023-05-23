@@ -6,6 +6,7 @@ var class_building_super =
     [ "EEInit", "d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea", null ],
     [ "GetLiquidThroughputCoef", "d5/d2c/class_building_super.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],
     [ "GetLiquidThroughputCoef", "d5/d2c/class_building_super.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],
+    [ "GetWaterSourceObjectType", "d5/d2c/class_building_super.html#ac8a9b708800f6e84edf0e87939168d22", null ],
     [ "IsBuilding", "d5/d2c/class_building_super.html#a0d564f986e2ebe95a7af0364ff447b0c", null ],
     [ "IsBuilding", "d5/d2c/class_building_super.html#a0d564f986e2ebe95a7af0364ff447b0c", null ],
     [ "IsFuelStation", "d5/d2c/class_building_super.html#af9c5be2f2f65def5516ac1a21a58dac3", null ],

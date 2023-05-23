@@ -59,6 +59,7 @@ var class_particle_list =
     [ "COOKING_DRYING_START", "dd/dd2/class_particle_list.html#a8a13a6ffef2b267632c2070c66f5074c", null ],
     [ "DEBUG_DOT", "dd/dd2/class_particle_list.html#a9dfbc2f4f9db1f4c04c0efb1ea367dc8", null ],
     [ "DIGGING_STASH", "dd/dd2/class_particle_list.html#a8bcef5dee0c65eed26639584074edf8a", null ],
+    [ "DROWNING_BUBBLES", "dd/dd2/class_particle_list.html#a16ea18174b5b25d3ff52b57c5a85ff0a", null ],
     [ "EASTER_EGG_ACTIVATE", "dd/dd2/class_particle_list.html#a4d0f964c2c38866cd5880ecf0cb257bf", null ],
     [ "ENV_SWARMING_FLIES", "dd/dd2/class_particle_list.html#a9f3bae4846dd61eda4c0fda405927f4b", null ],
     [ "EVAPORATION", "dd/dd2/class_particle_list.html#aecd63ca118abb7cacbe2c233d76cbd02", null ],

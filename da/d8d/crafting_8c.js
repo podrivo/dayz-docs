@@ -1,8 +1,8 @@
 var crafting_8c =
 [
     [ "BurlapSack", "d8/dd3/class_burlap_sack.html", "d8/dd3/class_burlap_sack" ],
-    [ "GorkaHelmetVisor", "d7/d07/class_gorka_helmet_visor.html", null ],
-    [ "ChickenFeather", "d8/ddc/class_chicken_feather.html", null ],
+    [ "GorkaHelmetVisor", "d7/d07/class_gorka_helmet_visor.html", "d7/d07/class_gorka_helmet_visor" ],
+    [ "ChickenFeather", "d8/ddc/class_chicken_feather.html", "d8/ddc/class_chicken_feather" ],
     [ "LongWoodenStick", "d7/d00/class_long_wooden_stick.html", "d7/d00/class_long_wooden_stick" ],
     [ "SharpWoodenStick", "dd/dea/class_sharp_wooden_stick.html", "dd/dea/class_sharp_wooden_stick" ],
     [ "Spear", "df/d4a/class_spear.html", "df/d4a/class_spear" ],

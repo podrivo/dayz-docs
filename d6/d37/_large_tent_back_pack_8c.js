@@ -1,4 +1,4 @@
 var _large_tent_back_pack_8c =
 [
-    [ "Clothing", "d8/db4/class_clothing.html", "d8/db4/class_clothing" ]
+    [ "Backpack_Base", "db/dc1/class_backpack___base.html", "db/dc1/class_backpack___base" ]
 ];

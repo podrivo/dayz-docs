@@ -21,7 +21,6 @@ var class_tool_base =
     [ "GetValidFinishers", "d0/d33/class_tool_base.html#aa555a4c36e9b1627f154a390c8d44b29", null ],
     [ "GetValidFinishers", "d0/d33/class_tool_base.html#aa555a4c36e9b1627f154a390c8d44b29", null ],
     [ "GetValidFinishers", "d0/d33/class_tool_base.html#aa555a4c36e9b1627f154a390c8d44b29", null ],
-    [ "GetValidFinishers", "d0/d33/class_tool_base.html#aa555a4c36e9b1627f154a390c8d44b29", null ],
     [ "IsMeleeFinisher", "d0/d33/class_tool_base.html#ab4bd303bc9b313b5eab6ae17575f865a", null ],
     [ "IsMeleeFinisher", "d0/d33/class_tool_base.html#ab4bd303bc9b313b5eab6ae17575f865a", null ],
     [ "IsMeleeFinisher", "d0/d33/class_tool_base.html#ab4bd303bc9b313b5eab6ae17575f865a", null ],

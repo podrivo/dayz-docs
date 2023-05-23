@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -161,13 +161,12 @@ $(document).ready(function(){initNavTree('dd/dc8/_contaminated_area___local_8c_s
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_variable" href="../../dc/d57/class_contaminated_area___local.html#aff68905cbc44b53893dba5fbf520bfe5">m_Lifetime</a> -= <a class="code hl_variable" href="../../dc/d57/class_contaminated_area___local.html#ac2faf28cdfed15928e70e7c9bda268e4">TICK_RATE</a>;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d57/class_contaminated_area___local.html#aff68905cbc44b53893dba5fbf520bfe5">m_Lifetime</a> &lt;= 0)</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        {</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <a class="code hl_function" href="../../dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Delete</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            Delete();</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        }</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
-<div class="ttc" id="a_object_8c_html_ac2e5aab0612d67400354a4fe71278a21"><div class="ttname"><a href="../../dd/d93/_object_8c.html#ac2e5aab0612d67400354a4fe71278a21">Delete</a></div><div class="ttdeci">void Delete()</div><div class="ttdoc">Delete this object in next frame.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d93/_object_8c_source.html#l00026">Object.c:26</a></div></div>
 <div class="ttc" id="aclass_contaminated_area___dynamic_html"><div class="ttname"><a href="../../d5/db0/class_contaminated_area___dynamic.html">ContaminatedArea_Dynamic</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00031">ContaminatedArea_Dynamic.c:32</a></div></div>
 <div class="ttc" id="aclass_contaminated_area___local_html"><div class="ttname"><a href="../../dc/d57/class_contaminated_area___local.html">ContaminatedArea_Local</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc8/_contaminated_area___local_8c_source.html#l00001">ContaminatedArea_Local.c:2</a></div></div>
 <div class="ttc" id="aclass_contaminated_area___local_html_a2bf9f7c81e4efbba5be101655fa98987"><div class="ttname"><a href="../../dc/d57/class_contaminated_area___local.html#a2bf9f7c81e4efbba5be101655fa98987">ContaminatedArea_Local::GetRemainingTime</a></div><div class="ttdeci">override float GetRemainingTime()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc8/_contaminated_area___local_8c_source.html#l00050">ContaminatedArea_Local.c:50</a></div></div>
@@ -182,7 +181,7 @@ $(document).ready(function(){initNavTree('dd/dc8/_contaminated_area___local_8c_s
 <div class="ttc" id="aclass_contaminated_area___local_html_aff68905cbc44b53893dba5fbf520bfe5"><div class="ttname"><a href="../../dc/d57/class_contaminated_area___local.html#aff68905cbc44b53893dba5fbf520bfe5">ContaminatedArea_Local::m_Lifetime</a></div><div class="ttdeci">float m_Lifetime</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc8/_contaminated_area___local_8c_source.html#l00005">ContaminatedArea_Local.c:5</a></div></div>
 <div class="ttc" id="aclass_particle_list_html"><div class="ttname"><a href="../../dd/dd2/class_particle_list.html">ParticleList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4f/_particle_list_8c_source.html#l00011">ParticleList.c:12</a></div></div>
 <div class="ttc" id="aclass_particle_list_html_a815b6fac8892c727e39998c2429379b0"><div class="ttname"><a href="../../dd/dd2/class_particle_list.html#a815b6fac8892c727e39998c2429379b0">ParticleList::CONTAMINATED_AREA_GAS_AROUND</a></div><div class="ttdeci">static const int CONTAMINATED_AREA_GAS_AROUND</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4f/_particle_list_8c_source.html#l00278">ParticleList.c:278</a></div></div>
-<div class="ttc" id="aclass_timer_html"><div class="ttname"><a href="../../d8/d08/class_timer.html">Timer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d32/_day_z_player_implement_8c_source.html#l00075">DayZPlayerImplement.c:76</a></div></div>
+<div class="ttc" id="aclass_timer_html"><div class="ttname"><a href="../../d8/d08/class_timer.html">Timer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d32/_day_z_player_implement_8c_source.html#l00062">DayZPlayerImplement.c:63</a></div></div>
 <div class="ttc" id="agameplay_8c_html_aebb1fa6632d513bc849994e7b6c9c93d"><div class="ttname"><a href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a></div><div class="ttdeci">proto native CGame GetGame()</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

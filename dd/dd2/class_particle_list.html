@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -600,6 +600,8 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a119e77f1b606382680d8f782e5599891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc6786d94a8f684efc16129d3cfdd971"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd2/class_particle_list.html#adc6786d94a8f684efc16129d3cfdd971">WATER_SPILLING</a> = <a class="el" href="../../dd/dd2/class_particle_list.html#a8ecf477d94565ea680f497f0f9d6c67f">RegisterParticle</a>(&quot;water_spilling&quot;)</td></tr>
 <tr class="separator:adc6786d94a8f684efc16129d3cfdd971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ea18174b5b25d3ff52b57c5a85ff0a"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd2/class_particle_list.html#a16ea18174b5b25d3ff52b57c5a85ff0a">DROWNING_BUBBLES</a> = <a class="el" href="../../dd/dd2/class_particle_list.html#a8ecf477d94565ea680f497f0f9d6c67f">RegisterParticle</a>(&quot;breath_bubbles&quot;)</td></tr>
+<tr class="separator:a16ea18174b5b25d3ff52b57c5a85ff0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -631,9 +633,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns particle's full path (with .ptc suffix) based on its ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00384">384</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00386">386</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/da2/group___strings.html#ga188176fab9c1c285dc96beb8f859b278">string::Format()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00375">GetParticlePath()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/da2/group___strings.html#ga188176fab9c1c285dc96beb8f859b278">string::Format()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00377">GetParticlePath()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00324">CreateParticleById()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00440">Particle::CreateParticleEffect()</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00138">CreateParticleEx()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00205">ParticleSource::CreateParticleEx()</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00299">CreateParticlesById()</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00311">CreateParticlesByIdArr()</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00365">PlayParticleById()</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00352">PlayParticlesById()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00454">ParticleSource::SetParticleByID()</a>, and <a class="el" href="../../de/dbd/_p_m_t_creation_and_cleanup_8c_source.html#l00067">TestOwnership()</a>.</p>
 
@@ -665,9 +667,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns particle's ID based on the path (without .ptc suffix) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00390">390</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00392">392</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00369">IsValidId()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00013">m_ParticlePaths</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00371">IsValidId()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00013">m_ParticlePaths</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/dfd/_contaminated_area_loader_8c_source.html#l00006">EffectAreaLoader::CreateZones()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00516">ParticleSource::GetParticleIDLegacy()</a>.</p>
 
@@ -699,11 +701,11 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns particle's ID based on the filename (without .ptc suffix) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00399">399</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00401">401</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00014">m_ParticleNames</a>, and <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d56/_weapon_particles_8c_source.html#l00286">WeaponParticlesBase::CheckParticleOverride()</a>, <a class="el" href="../../d9/dee/_ammo_effects_8c_source.html#l00021">AmmoEffects::GetAmmoParticleID()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00501">ParticleSource::GetParticleID()</a>, <a class="el" href="../../d8/d8d/_ammunition_piles_8c_source.html#l00173">Ammo_40mm_Smoke_ColorBase::OnVariablesSynchronized()</a>, and <a class="el" href="../../d4/d56/_weapon_particles_8c_source.html#l00033">WeaponParticlesBase::WeaponParticlesBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d56/_weapon_particles_8c_source.html#l00286">WeaponParticlesBase::CheckParticleOverride()</a>, <a class="el" href="../../d9/dee/_ammo_effects_8c_source.html#l00021">AmmoEffects::GetAmmoParticleID()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00501">ParticleSource::GetParticleID()</a>, <a class="el" href="../../d8/d8d/_ammunition_piles_8c_source.html#l00250">Ammo_40mm_Smoke_ColorBase::OnVariablesSynchronized()</a>, and <a class="el" href="../../d4/d56/_weapon_particles_8c_source.html#l00033">WeaponParticlesBase::WeaponParticlesBase()</a>.</p>
 
 </div>
 </div>
@@ -733,11 +735,11 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns particle's full path (without .ptc suffix) based on its ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00375">375</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00377">377</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00013">m_ParticlePaths</a>, <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00384">GetParticleFullPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00386">GetParticleFullPath()</a>.</p>
 
 </div>
 </div>
@@ -766,9 +768,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns base path to all particles. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00408">408</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00410">410</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dcc/_particle_test_8c_source.html#l00009">ItemBase::ParticleTest()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00306">RegisterParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dcc/_particle_test_8c_source.html#l00009">ItemBase::ParticleTest()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00308">RegisterParticle()</a>.</p>
 
 </div>
 </div>
@@ -795,7 +797,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00363">363</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00365">365</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00016">m_lastID</a>.</p>
 
@@ -827,11 +829,11 @@ Static Private Attributes</h2></td></tr>
 
 <p>Purely checks for an invalid number, does NOT mean it is actually registered. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00369">369</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00371">371</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00020">INVALID</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00021">NONE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00390">GetParticleID()</a>, <a class="el" href="../../d4/d56/_weapon_particles_8c_source.html#l00165">WeaponParticlesBase::OnActivate()</a>, and <a class="el" href="../../d9/dee/_ammo_effects_8c_source.html#l00046">AmmoEffects::PlayAmmoParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00392">GetParticleID()</a>, <a class="el" href="../../d4/d56/_weapon_particles_8c_source.html#l00165">WeaponParticlesBase::OnActivate()</a>, and <a class="el" href="../../d9/dee/_ammo_effects_8c_source.html#l00046">AmmoEffects::PlayAmmoParticle()</a>.</p>
 
 </div>
 </div>
@@ -860,11 +862,11 @@ Static Private Attributes</h2></td></tr>
 
 <p>Preloads all particles. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00414">414</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00416">416</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/d9f/_action_targets_8c_source.html#l00122">GetObject()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00013">m_ParticlePaths</a>, and <a class="el" href="../../d1/d38/group___visual.html#gaf9e341a2578c4863da4c5cf0fd0da018">ReleaseObject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01703">OnInitialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01990">CGame::OnInitialize()</a>.</p>
 
 </div>
 </div>
@@ -892,11 +894,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00306">306</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00308">308</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00408">GetPathToParticles()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00306">RegisterParticle()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00410">GetPathToParticles()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00308">RegisterParticle()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00306">RegisterParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00308">RegisterParticle()</a>.</p>
 
 </div>
 </div>
@@ -936,7 +938,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Registers a particle and returns its ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00312">312</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00314">314</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d5/df6/group___file.html#gac8ac6334d3ec51a5537c4ea4f6c57e04">FileExist()</a>, <a class="el" href="../../d5/da2/group___strings.html#ga188176fab9c1c285dc96beb8f859b278">string::Format()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00016">m_lastID</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00014">m_ParticleNames</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00013">m_ParticlePaths</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
 
@@ -1355,7 +1357,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00146">146</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dea/_eff_breath_vapour_heavy_8c_source.html#l00003">EffBreathVapourHeavy::EffBreathVapourHeavy()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06398">ManBase::SpawnBreathVaporEffect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dea/_eff_breath_vapour_heavy_8c_source.html#l00003">EffBreathVapourHeavy::EffBreathVapourHeavy()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06419">ManBase::SpawnBreathVaporEffect()</a>.</p>
 
 </div>
 </div>
@@ -1381,7 +1383,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00144">144</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d6a/_eff_breath_vapour_light_8c_source.html#l00003">EffBreathVapourLight::EffBreathVapourLight()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06398">ManBase::SpawnBreathVaporEffect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d6a/_eff_breath_vapour_light_8c_source.html#l00003">EffBreathVapourLight::EffBreathVapourLight()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06419">ManBase::SpawnBreathVaporEffect()</a>.</p>
 
 </div>
 </div>
@@ -1407,7 +1409,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00145">145</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/ddc/_eff_breath_vapour_medium_8c_source.html#l00003">EffBreathVapourMedium::EffBreathVapourMedium()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06398">ManBase::SpawnBreathVaporEffect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/ddc/_eff_breath_vapour_medium_8c_source.html#l00003">EffBreathVapourMedium::EffBreathVapourMedium()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06419">ManBase::SpawnBreathVaporEffect()</a>.</p>
 
 </div>
 </div>
@@ -1909,7 +1911,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00281">281</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l02555">OnRPC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l02880">CGame::OnRPC()</a>.</p>
 
 </div>
 </div>
@@ -2181,6 +2183,32 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a16ea18174b5b25d3ff52b57c5a85ff0a" name="a16ea18174b5b25d3ff52b57c5a85ff0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ea18174b5b25d3ff52b57c5a85ff0a">&#9670;&#160;</a></span>DROWNING_BUBBLES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> DROWNING_BUBBLES = <a class="el" href="../../dd/dd2/class_particle_list.html#a8ecf477d94565ea680f497f0f9d6c67f">RegisterParticle</a>(&quot;breath_bubbles&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00306">306</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01868">ManBase::SpawnDrowningBubbles()</a>.</p>
+
+</div>
+</div>
 <a id="a4d0f964c2c38866cd5880ecf0cb257bf" name="a4d0f964c2c38866cd5880ecf0cb257bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d0f964c2c38866cd5880ecf0cb257bf">&#9670;&#160;</a></span>EASTER_EGG_ACTIVATE</h2>
 
@@ -2281,7 +2309,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00249">249</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l02914">ExplosionEffects()</a>, <a class="el" href="../../db/df2/_landmine_explosion_8c_source.html#l00003">LandmineExplosion::LandmineExplosion()</a>, <a class="el" href="../../df/d7a/_land___fuel_station___feed_8c_source.html#l00010">FuelStation::OnExplosionEffects()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00042">PMTPlayback::TestOnePlaying()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00075">PMTPlayback::TestOnePlayingStandAlone()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00059">PMTPlayback::TestOnePlayingStandAloneAutoDestroy()</a>, <a class="el" href="../../de/dbd/_p_m_t_creation_and_cleanup_8c_source.html#l00067">TestOwnership()</a>, and <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00104">PMTPlayback::TestStopping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03261">CGame::ExplosionEffects()</a>, <a class="el" href="../../db/df2/_landmine_explosion_8c_source.html#l00003">LandmineExplosion::LandmineExplosion()</a>, <a class="el" href="../../df/d7a/_land___fuel_station___feed_8c_source.html#l00010">FuelStation::OnExplosionEffects()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00042">PMTPlayback::TestOnePlaying()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00075">PMTPlayback::TestOnePlayingStandAlone()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00059">PMTPlayback::TestOnePlayingStandAloneAutoDestroy()</a>, <a class="el" href="../../de/dbd/_p_m_t_creation_and_cleanup_8c_source.html#l00067">TestOwnership()</a>, and <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00104">PMTPlayback::TestStopping()</a>.</p>
 
 </div>
 </div>
@@ -5842,7 +5870,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00020">20</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d0a/_explosives_base_8c_source.html#l00288">ExplosivesBase()</a>, <a class="el" href="../../d2/def/_effect_particle_8c_source.html#l00338">EffectParticle::GetCurrentParticleID()</a>, <a class="el" href="../../d2/dbb/_hit___meat_bones___melee_fist_8c_source.html#l00003">Hit_MeatBones_MeleeFist::Hit_MeatBones_MeleeFist()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00369">IsValidId()</a>, <a class="el" href="../../d0/d0a/_explosives_base_8c_source.html#l00045">OnExplosionEffects()</a>, <a class="el" href="../../d9/d1a/_bottle___base_8c_source.html#l00254">ParticleCookingStop()</a>, <a class="el" href="../../dc/dd9/_frying_pan_8c_source.html#l00194">Inventory_Base::ParticleCookingStop()</a>, and <a class="el" href="../../d4/d6f/_smoke_grenade_base_8c_source.html#l00271">SmokeGrenadeBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d0a/_explosives_base_8c_source.html#l00304">ExplosivesBase()</a>, <a class="el" href="../../d2/def/_effect_particle_8c_source.html#l00338">EffectParticle::GetCurrentParticleID()</a>, <a class="el" href="../../d2/dbb/_hit___meat_bones___melee_fist_8c_source.html#l00003">Hit_MeatBones_MeleeFist::Hit_MeatBones_MeleeFist()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00371">IsValidId()</a>, <a class="el" href="../../d0/d0a/_explosives_base_8c_source.html#l00045">OnExplosionEffects()</a>, <a class="el" href="../../d9/d1a/_bottle___base_8c_source.html#l00235">ParticleCookingStop()</a>, <a class="el" href="../../dc/dd9/_frying_pan_8c_source.html#l00194">Inventory_Base::ParticleCookingStop()</a>, and <a class="el" href="../../d4/d6f/_smoke_grenade_base_8c_source.html#l00271">SmokeGrenadeBase()</a>.</p>
 
 </div>
 </div>
@@ -5894,7 +5922,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00016">16</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00363">GetRegisteredParticlesCount()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00312">RegisterParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00365">GetRegisteredParticlesCount()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00314">RegisterParticle()</a>.</p>
 
 </div>
 </div>
@@ -5920,7 +5948,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00014">14</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00399">GetParticleIDByName()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00312">RegisterParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00401">GetParticleIDByName()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00314">RegisterParticle()</a>.</p>
 
 </div>
 </div>
@@ -5946,7 +5974,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00013">13</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00390">GetParticleID()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00375">GetParticlePath()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00414">PreloadParticles()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00312">RegisterParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00392">GetParticleID()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00377">GetParticlePath()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00416">PreloadParticles()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00314">RegisterParticle()</a>.</p>
 
 </div>
 </div>
@@ -5972,7 +6000,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00021">21</a> of file <a class="el" href="../../dd/d4f/_particle_list_8c_source.html">ParticleList.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/de2/_destruction_effects_8c_source.html#l00126">DestructionEffectGasCanister::Init()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00369">IsValidId()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/de2/_destruction_effects_8c_source.html#l00126">DestructionEffectGasCanister::Init()</a>, and <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00371">IsValidId()</a>.</p>
 
 </div>
 </div>

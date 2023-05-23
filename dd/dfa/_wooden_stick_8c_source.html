@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -101,9 +101,9 @@ $(document).ready(function(){initNavTree('dd/dfa/_wooden_stick_8c_source.html','
   <div class="headertitle"><div class="title">WoodenStick.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/dfa/_wooden_stick_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">class </span>WoodenStick <span class="keyword">extends</span> <a class="code hl_class" href="../../de/d7a/class_item_base.html">ItemBase</a></div>
+<a href="../../dd/dfa/_wooden_stick_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno"><a class="line" href="../../d4/d18/class_wooden_stick.html">    1</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d18/class_wooden_stick.html">WoodenStick</a> : <a class="code hl_class" href="../../de/d7a/class_item_base.html">ItemBase</a></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>{</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">    3</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d4/d18/class_wooden_stick.html#afa39b7c4d3d085ef8514a87c32b81a4d">    3</a></span>    <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d18/class_wooden_stick.html#afa39b7c4d3d085ef8514a87c32b81a4d">SetActions</a>()</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    {</div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>        super.SetActions();</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -112,17 +112,19 @@ $(document).ready(function(){initNavTree('dd/dfa/_wooden_stick_8c_source.html','
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_function" href="../../d4/dd1/_action_attach_8c.html#a160ebb3b520d6eb3dd1fbbdb362cc951">ActionAttach</a>);</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_function" href="../../df/d5d/_action_detach_8c.html#a0d029c8f8d01c63cca13a523faf40996">ActionDetach</a>);</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../d3/d62/class_action_attach_to_construction.html">ActionAttachToConstruction</a>);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <a class="code hl_function" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a>(<a class="code hl_class" href="../../de/d1f/class_action_craft_bolts.html">ActionCraftBolts</a>);</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    }</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
 <div class="ttc" id="a_action_attach_8c_html_a160ebb3b520d6eb3dd1fbbdb362cc951"><div class="ttname"><a href="../../d4/dd1/_action_attach_8c.html#a160ebb3b520d6eb3dd1fbbdb362cc951">ActionAttach</a></div><div class="ttdeci">AttachActionData ActionData ActionAttach()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd1/_action_attach_8c_source.html#l00001">ActionAttach.c:9</a></div></div>
 <div class="ttc" id="a_action_detach_8c_html_a0d029c8f8d01c63cca13a523faf40996"><div class="ttname"><a href="../../df/d5d/_action_detach_8c.html#a0d029c8f8d01c63cca13a523faf40996">ActionDetach</a></div><div class="ttdeci">void ActionDetach()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d5d/_action_detach_8c_source.html#l00010">ActionDetach.c:10</a></div></div>
 <div class="ttc" id="a_advanced_communication_8c_html_a52cdff768ebc148eee5a17e4ebef3408"><div class="ttname"><a href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction</a></div><div class="ttdeci">void AddAction(typename actionName)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AdvancedCommunication.c:220</a></div></div>
 <div class="ttc" id="aclass_action_attach_to_construction_html"><div class="ttname"><a href="../../d3/d62/class_action_attach_to_construction.html">ActionAttachToConstruction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d01/_action_attach_to_construction_8c_source.html#l00001">ActionAttachToConstruction.c:2</a></div></div>
+<div class="ttc" id="aclass_action_craft_bolts_html"><div class="ttname"><a href="../../de/d1f/class_action_craft_bolts.html">ActionCraftBolts</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d39/_action_craft_bolts_8c_source.html#l00011">ActionCraftBolts.c:12</a></div></div>
 <div class="ttc" id="aclass_action_create_indoor_fireplace_html"><div class="ttname"><a href="../../d0/d80/class_action_create_indoor_fireplace.html">ActionCreateIndoorFireplace</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d3a/_action_create_indoor_fireplace_8c_source.html#l00001">ActionCreateIndoorFireplace.c:2</a></div></div>
 <div class="ttc" id="aclass_action_create_indoor_oven_html"><div class="ttname"><a href="../../db/de0/class_action_create_indoor_oven.html">ActionCreateIndoorOven</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d85/_action_create_indoor_oven_8c_source.html#l00001">ActionCreateIndoorOven.c:2</a></div></div>
-<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00762">InventoryItem.c:763</a></div></div>
-<div class="ttc" id="aclass_item_base_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../de/d7a/class_item_base.html#afa39b7c4d3d085ef8514a87c32b81a4d">ItemBase::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/_wooden_stick_8c_source.html#l00003">WoodenStick.c:3</a></div></div>
+<div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00731">InventoryItem.c:732</a></div></div>
+<div class="ttc" id="aclass_wooden_stick_html"><div class="ttname"><a href="../../d4/d18/class_wooden_stick.html">WoodenStick</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/_wooden_stick_8c_source.html#l00001">WoodenStick.c:2</a></div></div>
+<div class="ttc" id="aclass_wooden_stick_html_afa39b7c4d3d085ef8514a87c32b81a4d"><div class="ttname"><a href="../../d4/d18/class_wooden_stick.html#afa39b7c4d3d085ef8514a87c32b81a4d">WoodenStick::SetActions</a></div><div class="ttdeci">override void SetActions()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/_wooden_stick_8c_source.html#l00003">WoodenStick.c:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

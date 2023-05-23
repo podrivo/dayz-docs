@@ -2,6 +2,7 @@ var _cross_hair_selector_8c =
 [
     [ "CrossHair", "db/d0c/class_cross_hair.html", "db/d0c/class_cross_hair" ],
     [ "CrossHairSelector", "d4/d9f/_cross_hair_selector_8c.html#a6a878c9a758579dc39f73b21127009c3", null ],
+    [ "FloatingCrossHair", "d4/d9f/_cross_hair_selector_8c.html#a6e10cf8f74e0727c7b6575edd9506b28", null ],
     [ "GetActionManager", "d4/d9f/_cross_hair_selector_8c.html#a7bfe0daa7710ddfc48f1bc0cc9f3742b", null ],
     [ "GetCrossHairByName", "d4/d9f/_cross_hair_selector_8c.html#a33049b640c2525cb3a486b97f07a4058", null ],
     [ "GetCurrentCrossHair", "d4/d9f/_cross_hair_selector_8c.html#ae77b4df141c42a4f4e3b86a7183a78f6", null ],
@@ -15,5 +16,7 @@ var _cross_hair_selector_8c =
     [ "m_AM", "d4/d9f/_cross_hair_selector_8c.html#a5656b307fcf54071ca3e31bfe40ba528", null ],
     [ "m_CrossHairs", "d4/d9f/_cross_hair_selector_8c.html#a03def12935c09312a62c008c1b44d256", null ],
     [ "m_Player", "d4/d9f/_cross_hair_selector_8c.html#a98886202c01435990ef35aed5105f568", null ],
+    [ "m_PreviousDirection", "d4/d9f/_cross_hair_selector_8c.html#a5d5bdc6b8ace98f68da56840fc189b4f", null ],
+    [ "m_PreviousDirectionSet", "d4/d9f/_cross_hair_selector_8c.html#ab5a365922922c0f793c411b0fd9bffc4", null ],
     [ "m_Root", "d4/d9f/_cross_hair_selector_8c.html#abc384ffa3d9e20d9963688d1e3492cb7", null ]
 ];

@@ -3,6 +3,7 @@ var class_cross_hair =
     [ "CrossHair", "db/d0c/class_cross_hair.html#aaf00f267036422a79b4bbd8cf09e2a76", null ],
     [ "~CrossHair", "db/d0c/class_cross_hair.html#a6ee7f96d9135c5ec555d149d245cff3c", null ],
     [ "GetName", "db/d0c/class_cross_hair.html#ac97112280cc4435c8df3c88070c839b4", null ],
+    [ "GetWidget", "db/d0c/class_cross_hair.html#af493aa87753c258e5806c77bf88bb512", null ],
     [ "Hide", "db/d0c/class_cross_hair.html#a130bc36524c72ad408ecd7338f1e0070", null ],
     [ "IsCurrent", "db/d0c/class_cross_hair.html#a05fa1c3e8d81163f016c8da0e7a21d23", null ],
     [ "IsShown", "db/d0c/class_cross_hair.html#a5613f53994697efad7a3bad08c5ce75f", null ],

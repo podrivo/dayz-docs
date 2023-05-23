@@ -4,6 +4,7 @@ var class_action_world_craft =
     [ "ActionCondition", "d6/def/class_action_world_craft.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
     [ "CreateActionData", "d6/def/class_action_world_craft.html#a5e0f63043b33849610c0ad517a105a80", null ],
     [ "CreateConditionComponents", "d6/def/class_action_world_craft.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
+    [ "GetSoundCategory", "d6/def/class_action_world_craft.html#acbdb98dbb58e767a0e556007ba9aeb07", null ],
     [ "GetText", "d6/def/class_action_world_craft.html#af127b91bedeb70f79583b0183d86be98", null ],
     [ "HandleReciveData", "d6/def/class_action_world_craft.html#ae4b8096e050d0a62daa431588f8af715", null ],
     [ "OnActionInfoUpdate", "d6/def/class_action_world_craft.html#a2b6dbc5004ccc3fb83b39577c5ae9b32", null ],

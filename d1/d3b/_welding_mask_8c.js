@@ -1,4 +1,4 @@
 var _welding_mask_8c =
 [
-    [ "ClothingBase", "d2/d89/class_clothing_base.html", "d2/d89/class_clothing_base" ]
+    [ "HelmetBase", "d2/d41/class_helmet_base.html", "d2/d41/class_helmet_base" ]
 ];

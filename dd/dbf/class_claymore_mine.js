@@ -24,7 +24,6 @@ var class_claymore_mine =
     [ "OnVariablesSynchronized", "dd/dbf/class_claymore_mine.html#ad183155e7592e816863539c54b6fa83f", null ],
     [ "PairRemote", "dd/dbf/class_claymore_mine.html#a887b6004c3899ea2c9888d8f3e1d90f9", null ],
     [ "SetActions", "dd/dbf/class_claymore_mine.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
-    [ "UnpairRemote", "dd/dbf/class_claymore_mine.html#aabae2c5fd3871959ff0c1d57baa2d354", null ],
     [ "UpdateLED", "dd/dbf/class_claymore_mine.html#ae2d9c53e5173627b2864facf084b8db4", null ],
     [ "UpdateVisuals", "dd/dbf/class_claymore_mine.html#a0506e06980b9daa42bb520079b404991", null ],
     [ "ANIM_PHASE_DEPLOYED", "dd/dbf/class_claymore_mine.html#a6a2f86a3ba6781dd0f20c8338f3817b5", null ],

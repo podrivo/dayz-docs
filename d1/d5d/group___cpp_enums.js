@@ -37,6 +37,7 @@ var group___cpp_enums =
     [ "Fire", "d1/d5d/group___cpp_enums.html#gae37ed05c842af74cdd3275a0a4fa2bd2", null ],
     [ "FLASHBANG", "d1/d5d/group___cpp_enums.html#ga55da870a6f94cb090facf41e855832b7", null ],
     [ "Geom", "d1/d5d/group___cpp_enums.html#gafd0a9827fca29e7fc8a0fa1070500aaf", null ],
+    [ "HELMET2_OCCLUDER", "d1/d5d/group___cpp_enums.html#ga2f08426fcbdc339b12d90b028eae9499", null ],
     [ "HELMET_BREATH", "d1/d5d/group___cpp_enums.html#gaf17a48b1d5c6041028d34b733f2ccccc", null ],
     [ "HELMET_OCCLUDER", "d1/d5d/group___cpp_enums.html#ga6182351aa6bd5e1b56888068a77433ef", null ],
     [ "IFire", "d1/d5d/group___cpp_enums.html#ga88f1f99c9f5d9d8a082e4399c5dc5bc0", null ],

@@ -3,7 +3,7 @@ var class_attachment_categories_row =
     [ "AttachmentCategoriesRow", "d6/d93/class_attachment_categories_row.html#a30593a013be3a70be3d3a90ee184473d", null ],
     [ "CanCombine", "d6/d93/class_attachment_categories_row.html#a639624b9df1cb4b65cd897c2dfc949fb", null ],
     [ "CanCombineAmmo", "d6/d93/class_attachment_categories_row.html#a9f6e3b1133e790bc71784c5cfcb975e4", null ],
-    [ "CanEquip", "d6/d93/class_attachment_categories_row.html#aee6830274144485e993702bfd4f8965c", null ],
+    [ "CanSplitEx", "d6/d93/class_attachment_categories_row.html#a7cfc625ed74abd64c207e7656966cbc8", null ],
     [ "Combine", "d6/d93/class_attachment_categories_row.html#aa2acb04588ab948a8893be1d95f9cd1f", null ],
     [ "DoubleClick", "d6/d93/class_attachment_categories_row.html#a9136df4f7ed866294bb073b8ad7fb30e", null ],
     [ "DraggingOverGrid", "d6/d93/class_attachment_categories_row.html#ac45546f13fe2421c26f7a9337573bbea", null ],

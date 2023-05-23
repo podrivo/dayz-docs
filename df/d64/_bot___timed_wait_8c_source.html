@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -149,12 +149,13 @@ $(document).ready(function(){initNavTree('df/d64/_bot___timed_wait_8c_source.htm
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d6/d45/class_bot_state_base.html#af234e6f8e30e712dde717d74c7e6aac4">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d45/class_bot_state_base.html#af234e6f8e30e712dde717d74c7e6aac4">OnTimeout</a> ()</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_function" href="../../d9/d1c/_bot_8c.html#a28d5d7d6fb28048af5ba4e06653d5ec4">botDebugSpam</a>(<span class="stringliteral">&quot;[bot] + &quot;</span> + m_Owner + <span class="stringliteral">&quot; BotTimedWait::OnTimeout&quot;</span>);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        m_Bot.ProcessEvent(<span class="keyword">new</span> <a class="code hl_class" href="../../d2/d5f/class_bot_event_wait_timeout.html">BotEventWaitTimeout</a>(m_Owner));</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_function" href="../../d9/d1c/_bot_8c.html#a28d5d7d6fb28048af5ba4e06653d5ec4">botDebugSpam</a>(<span class="stringliteral">&quot;[bot] + &quot;</span> + <a class="code hl_variable" href="../../dd/d93/_object_8c.html#a2d7c5b2ffc3b0281528e413d4d59534e">m_Owner</a> + <span class="stringliteral">&quot; BotTimedWait::OnTimeout&quot;</span>);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        m_Bot.ProcessEvent(<span class="keyword">new</span> <a class="code hl_class" href="../../d2/d5f/class_bot_event_wait_timeout.html">BotEventWaitTimeout</a>(<a class="code hl_variable" href="../../dd/d93/_object_8c.html#a2d7c5b2ffc3b0281528e413d4d59534e">m_Owner</a>));</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="ttc" id="a_bot_8c_html_a28d5d7d6fb28048af5ba4e06653d5ec4"><div class="ttname"><a href="../../d9/d1c/_bot_8c.html#a28d5d7d6fb28048af5ba4e06653d5ec4">botDebugSpam</a></div><div class="ttdeci">void botDebugSpam(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1c/_bot_8c_source.html#l00187">Bot.c:187</a></div></div>
+<div class="ttc" id="a_object_8c_html_a2d7c5b2ffc3b0281528e413d4d59534e"><div class="ttname"><a href="../../dd/d93/_object_8c.html#a2d7c5b2ffc3b0281528e413d4d59534e">m_Owner</a></div><div class="ttdeci">enum ProcessDirectDamageFlags m_Owner</div></div>
 <div class="ttc" id="a_weapon_fire_8c_html_a126e3ea2e23a8fededbff9547ad0ccb4"><div class="ttname"><a href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a></div><div class="ttdeci">class WeaponFireWithEject extends WeaponFire m_dtAccumulator</div></div>
 <div class="ttc" id="aclass_bot_event_base_html"><div class="ttname"><a href="../../dd/d84/class_bot_event_base.html">BotEventBase</a></div><div class="ttdoc">represents event that triggers transition from state to state</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/_bot_events_8c_source.html#l00004">BotEvents.c:5</a></div></div>
 <div class="ttc" id="aclass_bot_event_wait_timeout_html"><div class="ttname"><a href="../../d2/d5f/class_bot_event_wait_timeout.html">BotEventWaitTimeout</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d64/_bot___timed_wait_8c_source.html#l00002">Bot_TimedWait.c:2</a></div></div>

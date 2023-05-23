@@ -4,6 +4,7 @@ var _wood_base_8c =
       [ "NORMAL", "da/deb/_wood_base_8c.html#ae80cbbfe62468ad69c0d16f0798621f5a50d1448013c6f17125caee18aa418af7", null ],
       [ "BARK", "da/deb/_wood_base_8c.html#ae80cbbfe62468ad69c0d16f0798621f5a035e32e9bff4d52e7981bf9336bb89d3", null ]
     ] ],
+    [ "CanBeActionTarget", "da/deb/_wood_base_8c.html#ad2c3413ceb13fa736c2aa02bfb5f8d36", null ],
     [ "GetAmountOfDrops", "da/deb/_wood_base_8c.html#af6d72850b8347b8f25cfa0f100ccad68", null ],
     [ "GetAmountOfDropsEx", "da/deb/_wood_base_8c.html#a25f83eecd73cbcbeb8c2b322201f6bc1", null ],
     [ "GetBarkType", "da/deb/_wood_base_8c.html#a1cea490d60de4490d5c472fc7b213617", null ],

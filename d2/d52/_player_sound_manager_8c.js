@@ -5,6 +5,7 @@ var _player_sound_manager_8c =
       [ "STAMINA", "d2/d52/_player_sound_manager_8c.html#a0fd8354912d290f45ba638113305af58a6bf06a15de893533dd8b5ea926d0e248", null ],
       [ "HUNGER", "d2/d52/_player_sound_manager_8c.html#a0fd8354912d290f45ba638113305af58a648cc9dc693a649035818ae9dc67eaa8", null ],
       [ "INJURY", "d2/d52/_player_sound_manager_8c.html#a0fd8354912d290f45ba638113305af58a2fcd68c8474bce420454b4b6f351c5e7", null ],
+      [ "THIRST", "d2/d52/_player_sound_manager_8c.html#a0fd8354912d290f45ba638113305af58a517cb6cf5980e26c5387e2a7d1d19e2d", null ],
       [ "COUNT", "d2/d52/_player_sound_manager_8c.html#a0fd8354912d290f45ba638113305af58a2addb49878f50c95dc669e5fdbd130a2", null ]
     ] ],
     [ "CheckAllowUpdate", "d2/d52/_player_sound_manager_8c.html#a24d4e39d8fa8bd8e99f00c8cd29fdb8b", null ],

@@ -11,6 +11,7 @@ var _day_z_physics_8c =
       [ "CHARACTER", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa762041e95dc7b081aaf6b0019dca8586", null ],
       [ "VEHICLE", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada30f0dfe7c99ccb74e83ba77c5c118d", null ],
       [ "DYNAMICITEM", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa34cb6e132dc8c920ea4899c94a47e156", null ],
+      [ "DYNAMICITEM_NOCHAR", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa100debd57cb88f2e4bd13b780fcabfcb", null ],
       [ "ROADWAY", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaa40171ea8c0980e35c7ad0ee529c8cfa", null ],
       [ "VEHICLE_NOTERRAIN", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac2053b3830bd5273a2c24c014d6abc61", null ],
       [ "CHARACTER_NO_GRAVITY", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa416166834c71f523dcfaa6bee6f3418f", null ],

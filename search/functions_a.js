@@ -1,7 +1,7 @@
 var searchData=
 [
   ['jamcheck_0',['JamCheck',['../db/de5/class_weapon.html#a2fdf507511510efb0904f8767b2be1f6',1,'Weapon']]],
-  ['joinlaunch_1',['JoinLaunch',['../d8/dc8/_day_z_game_8c.html#a2e54032ac8d9f7f8c2510a1f7b50adf2',1,'DayZGame.c']]],
+  ['joinlaunch_1',['JoinLaunch',['../d2/de6/class_c_game.html#a2e54032ac8d9f7f8c2510a1f7b50adf2',1,'CGame']]],
   ['jsonapi_2',['JsonApi',['../df/d2d/class_json_api.html#a4e6bc7e19bc5b011b396892b74f6b410',1,'JsonApi']]],
   ['jsonapihandle_3',['JsonApiHandle',['../d9/d8f/class_json_api_handle.html#ab62709efc9a7cf1288ec24632eeda551',1,'JsonApiHandle']]],
   ['jsonapistruct_4',['JsonApiStruct',['../da/d06/class_json_api_struct.html#a974a2ac32c8ba7a767326a4ff60a7fda',1,'JsonApiStruct']]],

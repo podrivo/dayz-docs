@@ -3,6 +3,7 @@ var class_zombie_container =
     [ "ZombieContainer", "d5/d55/class_zombie_container.html#a9413c6c8587294fbf7df5be284860267", null ],
     [ "~ZombieContainer", "d5/d55/class_zombie_container.html#a23821155cc344f2348275c5805d95f0d", null ],
     [ "AddSlotsContainer", "d5/d55/class_zombie_container.html#ac0297fd2beb86354df0f56842a8a1f15", null ],
+    [ "CanOpenCloseContainerEx", "d5/d55/class_zombie_container.html#a71aea7945735c16297723aff90167429", null ],
     [ "CollapseButtonOnMouseButtonDown", "d5/d55/class_zombie_container.html#ac0fe2fa78d496504da4194bcdafc40af", null ],
     [ "DoubleClick", "d5/d55/class_zombie_container.html#a9136df4f7ed866294bb073b8ad7fb30e", null ],
     [ "DraggingOverHeader", "d5/d55/class_zombie_container.html#a9d744b9914ac440bf316cb39e33adb3f", null ],

@@ -4,7 +4,6 @@ var class_hands_container =
     [ "~HandsContainer", "d3/d1c/class_hands_container.html#a3f58e61af109d71c6becd151ba9df994", null ],
     [ "AttachmentAdded", "d3/d1c/class_hands_container.html#a511af1aee5c842cdc9c14b2ae005647f", null ],
     [ "AttachmentRemoved", "d3/d1c/class_hands_container.html#ab91698634b44edf910e3825f1196a7bb", null ],
-    [ "CanEquip", "d3/d1c/class_hands_container.html#aee6830274144485e993702bfd4f8965c", null ],
     [ "CollapseButtonOnMouseButtonDown", "d3/d1c/class_hands_container.html#af789967f106a6aba1b6b361a3416c23f", null ],
     [ "DestroyAtt", "d3/d1c/class_hands_container.html#a74a6ea320f7a56a61e1e6e670cb96a77", null ],
     [ "DestroyCargo", "d3/d1c/class_hands_container.html#aaa35869bb5db88562c6c71f812c2d593", null ],

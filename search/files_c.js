@@ -14,6 +14,7 @@ var searchData=
   ['kitchentimer_2ec_11',['KitchenTimer.c',['../d3/dd5/_kitchen_timer_8c.html',1,'']]],
   ['kiwi_2ec_12',['Kiwi.c',['../d8/d91/_kiwi_8c.html',1,'']]],
   ['knifeholster_2ec_13',['KnifeHolster.c',['../dd/d14/_knife_holster_8c.html',1,'']]],
-  ['kukriknife_2ec_14',['KukriKnife.c',['../d7/d1a/_kukri_knife_8c.html',1,'']]],
-  ['kurushake_2ec_15',['KuruShake.c',['../d0/de8/_kuru_shake_8c.html',1,'']]]
+  ['knifesheaths_2ec_14',['KnifeSheaths.c',['../de/d2d/_knife_sheaths_8c.html',1,'']]],
+  ['kukriknife_2ec_15',['KukriKnife.c',['../d7/d1a/_kukri_knife_8c.html',1,'']]],
+  ['kurushake_2ec_16',['KuruShake.c',['../d0/de8/_kuru_shake_8c.html',1,'']]]
 ];

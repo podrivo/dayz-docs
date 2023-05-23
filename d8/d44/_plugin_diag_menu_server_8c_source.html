@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -148,52 +148,37 @@ $(document).ready(function(){initNavTree('d8/d44/_plugin_diag_menu_server_8c_sou
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">case</span> <a class="code hl_enumeration" href="../../d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37">ERPCs</a>.DIAG_VEHICLE_DEBUG_OUTPUT:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                <span class="keywordflow">if</span> (ctx.<a class="code hl_function" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Read</a>(<a class="code hl_class" href="../../de/d30/class_cached_objects_params.html">CachedObjectsParams</a>.<a class="code hl_variable" href="../../de/d30/class_cached_objects_params.html#ae11a11d3af5dc2d54e7f571ef407681d">PARAM1_INT</a>))</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                    <a class="code hl_class" href="../../de/d59/class_car_script.html">CarScript</a>.DEBUG_OUTPUT_TYPE = <a class="code hl_class" href="../../de/d30/class_cached_objects_params.html">CachedObjectsParams</a>.<a class="code hl_variable" href="../../de/d30/class_cached_objects_params.html#ae11a11d3af5dc2d54e7f571ef407681d">PARAM1_INT</a>.param1;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            }</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <span class="keywordflow">case</span> <a class="code hl_enumeration" href="../../d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37">ERPCs</a>.DIAG_VEHICLES_DUMP_CRASH_DATA_REQUEST:</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                <span class="keywordflow">if</span> (ctx.<a class="code hl_function" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Read</a>(<a class="code hl_class" href="../../de/d30/class_cached_objects_params.html">CachedObjectsParams</a>.<a class="code hl_variable" href="../../de/d30/class_cached_objects_params.html#a237e75aa08c8a870b89f633bd91bc17b">PARAM1_BOOL</a>))</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                    CrashDebugData.SendData(player);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            }   </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        }</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">//---------------------------------------------</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> SendDataToSubscribersServer(<a class="code hl_class" href="../../d8/d83/class_object.html">Object</a> target, ESubscriberSystems system, <span class="keywordtype">int</span> rpc_type, <a class="code hl_class" href="../../de/d90/class_param.html">Param</a> data, <span class="keywordtype">bool</span> guaranteed = <span class="keyword">true</span>)</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    {</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_Subscribers.Count(); ++i)</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        {</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            Man man = m_Subscribers.GetKey(i);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <span class="keywordflow">if</span> (man)</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            {</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                <span class="keywordtype">int</span> subscribedSystems = m_Subscribers.Get(man);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                <span class="keywordflow">if</span> (system &amp; subscribedSystems)</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                    <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().<a class="code hl_function" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">RPCSingleParam</a>( target, rpc_type, data, guaranteed, man.GetIdentity() );</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                }</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            }</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                m_Subscribers.RemoveElement(i);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>                i--;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            }</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    }</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">//---------------------------------------------</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> SendDataToSubscribersServer(<a class="code hl_class" href="../../d8/d83/class_object.html">Object</a> target, ESubscriberSystems system, <span class="keywordtype">int</span> rpc_type, <a class="code hl_class" href="../../de/d90/class_param.html">Param</a> data, <span class="keywordtype">bool</span> guaranteed = <span class="keyword">true</span>)</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    {</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_Subscribers.Count(); ++i)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            Man man = m_Subscribers.GetKey(i);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="keywordflow">if</span> (man)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                <span class="keywordtype">int</span> subscribedSystems = m_Subscribers.Get(man);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                <span class="keywordflow">if</span> (system &amp; subscribedSystems)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                    <a class="code hl_function" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame</a>().<a class="code hl_function" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">RPCSingleParam</a>( target, rpc_type, data, guaranteed, man.GetIdentity() );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                m_Subscribers.RemoveElement(i);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                i--;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            }</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
 <div class="ttc" id="a_controls_xbox_new_8c_html_a9ec9dda576db2a36c42c1c3af155d07c"><div class="ttname"><a href="../../d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07c">map</a></div><div class="ttdeci">map</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d7f/_controls_xbox_new_8c_source.html#l00003">ControlsXboxNew.c:4</a></div></div>
 <div class="ttc" id="a_e_r_p_cs_8c_html_a6ce2d98a3b8fbdba5b450abf2d6eab37"><div class="ttname"><a href="../../d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37">ERPCs</a></div><div class="ttdeci">ERPCs</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d66/_e_r_p_cs_8c_source.html#l00001">ERPCs.c:2</a></div></div>
-<div class="ttc" id="aclass_c_game_html_a9f0e0ce7825af5deb8d9b60842a0d9e8"><div class="ttname"><a href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">CGame::RPCSingleParam</a></div><div class="ttdeci">void RPCSingleParam(Object target, int rpc_type, Param param, bool guaranteed, PlayerIdentity recipient=null)</div><div class="ttdoc">see CGame.RPC</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6e/_global_2game_8c_source.html#l00867">Game.c:867</a></div></div>
+<div class="ttc" id="aclass_c_game_html_a9f0e0ce7825af5deb8d9b60842a0d9e8"><div class="ttname"><a href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">CGame::RPCSingleParam</a></div><div class="ttdeci">void RPCSingleParam(Object target, int rpc_type, Param param, bool guaranteed, PlayerIdentity recipient=null)</div><div class="ttdoc">see CGame.RPC</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6e/_global_2game_8c_source.html#l00882">Game.c:882</a></div></div>
 <div class="ttc" id="aclass_cached_objects_params_html"><div class="ttname"><a href="../../de/d30/class_cached_objects_params.html">CachedObjectsParams</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d47/_utility_classes_8c_source.html#l00009">UtilityClasses.c:10</a></div></div>
-<div class="ttc" id="aclass_cached_objects_params_html_a237e75aa08c8a870b89f633bd91bc17b"><div class="ttname"><a href="../../de/d30/class_cached_objects_params.html#a237e75aa08c8a870b89f633bd91bc17b">CachedObjectsParams::PARAM1_BOOL</a></div><div class="ttdeci">static ref Param1&lt; bool &gt; PARAM1_BOOL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d47/_utility_classes_8c_source.html#l00012">UtilityClasses.c:12</a></div></div>
 <div class="ttc" id="aclass_cached_objects_params_html_ae11a11d3af5dc2d54e7f571ef407681d"><div class="ttname"><a href="../../de/d30/class_cached_objects_params.html#ae11a11d3af5dc2d54e7f571ef407681d">CachedObjectsParams::PARAM1_INT</a></div><div class="ttdeci">static ref Param1&lt; int &gt; PARAM1_INT</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d47/_utility_classes_8c_source.html#l00011">UtilityClasses.c:11</a></div></div>
-<div class="ttc" id="aclass_car_script_html"><div class="ttname"><a href="../../de/d59/class_car_script.html">CarScript</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/_civilian_sedan_8c_source.html#l00001">CivilianSedan.c:2</a></div></div>
 <div class="ttc" id="aclass_object_html"><div class="ttname"><a href="../../d8/d83/class_object.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d68/_object_typed_8c_source.html#l00001">ObjectTyped.c:2</a></div></div>
 <div class="ttc" id="aclass_param_html"><div class="ttname"><a href="../../de/d90/class_param.html">Param</a></div><div class="ttdoc">Base Param Class with no parameters. Used as general purpose parameter overloaded with Param1 to Para...</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da5/param_8c_source.html#l00011">param.c:12</a></div></div>
 <div class="ttc" id="aclass_player_base_html"><div class="ttname"><a href="../../d5/da8/class_player_base.html">PlayerBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/_player_base_client_8c_source.html#l00001">PlayerBaseClient.c:2</a></div></div>

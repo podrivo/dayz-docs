@@ -8,5 +8,7 @@ var searchData=
   ['inventoryjuncturetype_5',['InventoryJunctureType',['../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a1543dc6c9ca8d493c071d978a24f32dd',1,'Inventory.c']]],
   ['inventorylocationtype_6',['InventoryLocationType',['../d6/d52/_inventory_location_8c.html#ad09049fb2b99c763369bfe6228aa81b3',1,'InventoryLocation.c']]],
   ['inventorymode_7',['InventoryMode',['../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4d',1,'Inventory.c']]],
-  ['inventorytraversaltype_8',['InventoryTraversalType',['../d8/d18/gameplay_8c.html#ac5ade7a41ab88bd2906cf0b55a32492e',1,'gameplay.c']]]
+  ['inventorytraversaltype_8',['InventoryTraversalType',['../d8/d18/gameplay_8c.html#ac5ade7a41ab88bd2906cf0b55a32492e',1,'gameplay.c']]],
+  ['inventoryvalidationreason_9',['InventoryValidationReason',['../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959a',1,'Inventory.c']]],
+  ['inventoryvalidationresult_10',['InventoryValidationResult',['../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#aa2cfb68f7d9347742b6ffa2a8a870592',1,'Inventory.c']]]
 ];

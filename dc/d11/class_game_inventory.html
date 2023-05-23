@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -140,6 +140,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:add69fae2830e337d3b36804330877c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e4cf6988837976e7d02579d045cf1a3"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a0e4cf6988837976e7d02579d045cf1a3">CanAddSwappedEntity</a> (notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> src1, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> src2, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> dst1, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> dst2)</td></tr>
 <tr class="separator:a0e4cf6988837976e7d02579d045cf1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf12622f99596e7db27151086afd074e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#acf12622f99596e7db27151086afd074e">OnInventoryFailure</a> (<a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a43d2389269799752817d23aec2f7dfa3">InventoryCommandType</a> type, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959a">InventoryValidationReason</a> reason, <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> src, <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> dst)</td></tr>
+<tr class="separator:acf12622f99596e7db27151086afd074e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9993644ed14b38bc48f67834735cdd1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a9993644ed14b38bc48f67834735cdd1f">TakeEntityToInventory</a> (<a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a5073c77c5d68882860f688a9fc4cba4d">InventoryMode</a> mode, <a class="el" href="../../d6/d52/_inventory_location_8c.html#a71733d54d455853550df7ae602bf23dd">FindInventoryLocationType</a> flags, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item)</td></tr>
 <tr class="memdesc:a9993644ed14b38bc48f67834735cdd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put item anywhere into this entity (as attachment or into cargo, recursively)  <br /></td></tr>
 <tr class="separator:a9993644ed14b38bc48f67834735cdd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,6 +358,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a14bcd88013fb5c585af6da1064610561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecf56353b99619c6a61b69aa9aa94ef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#aecf56353b99619c6a61b69aa9aa94ef6">OnInventoryJunctureRepairFromServer</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a> ctx)</td></tr>
 <tr class="separator:aecf56353b99619c6a61b69aa9aa94ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addec6bad8fe4a66253816aa477c11dab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#addec6bad8fe4a66253816aa477c11dab">OnInventoryJunctureFailureFromServer</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a> ctx)</td></tr>
+<tr class="separator:addec6bad8fe4a66253816aa477c11dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8b83de1fc0289ef1f46a930ddd0941"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a5a8b83de1fc0289ef1f46a930ddd0941">OnServerInventoryCommand</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a> ctx)</td></tr>
 <tr class="separator:a5a8b83de1fc0289ef1f46a930ddd0941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -416,8 +420,11 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:aeef751d60be17435e4969a5be3533c30"><td class="memItemLeft" align="right" valign="top">static proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#aeef751d60be17435e4969a5be3533c30">ServerHandEvent</a> (notnull Man player, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, <a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a> ctx)</td></tr>
 <tr class="memdesc:aeef751d60be17435e4969a5be3533c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">hand event to clients  <br /></td></tr>
 <tr class="separator:aeef751d60be17435e4969a5be3533c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad37bc494089ae198aa868ab7f935bc90"><td class="memItemLeft" align="right" valign="top">static proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#ad37bc494089ae198aa868ab7f935bc90">PrepareDropEntityPos</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> mat[4], <a class="el" href="../../d9/db9/classbool.html">bool</a> useValuesInMatrix=false)</td></tr>
-<tr class="separator:ad37bc494089ae198aa868ab7f935bc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59413e4b68e8619f1830e02b4818ea6b"><td class="memItemLeft" align="right" valign="top">static proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a59413e4b68e8619f1830e02b4818ea6b">PrepareDropEntityPos</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> mat[4], <a class="el" href="../../d9/db9/classbool.html">bool</a> useValuesInMatrix=false, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> conflictCheckDepth=-1)</td></tr>
+<tr class="memdesc:a59413e4b68e8619f1830e02b4818ea6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a transformation for the item to be dropped to If the initial transforation overlaps with another conflicting entity (i.e. car) then the transform will be snapped to the nearest outer edge. If no valid snapping transformation could be found, then the output from 'PlaceOnSurface' is used.  <br /></td></tr>
+<tr class="separator:a59413e4b68e8619f1830e02b4818ea6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfddd30066633d418abaeefa450f808"><td class="memItemLeft" align="right" valign="top">static proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#aadfddd30066633d418abaeefa450f808">TestDropEntityPos</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> mat[4], <a class="el" href="../../d9/db9/classbool.html">bool</a> useValuesInMatrix=false, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> conflictCheckDepth=-1)</td></tr>
+<tr class="separator:aadfddd30066633d418abaeefa450f808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea4d503455996e7eb0a19e514c03045e"><td class="memItemLeft" align="right" valign="top">static proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#aea4d503455996e7eb0a19e514c03045e">CanSwapEntities</a> (notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item1, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item2)</td></tr>
 <tr class="memdesc:aea4d503455996e7eb0a19e514c03045e"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if ordinary swap can be performed.  <br /></td></tr>
 <tr class="separator:aea4d503455996e7eb0a19e514c03045e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,10 +444,10 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a7fa2482c7ad66266e11552e024244ea6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a7fa2482c7ad66266e11552e024244ea6">MakeSrcAndDstForForceSwap</a> (notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item1, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item2, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> src1, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> src2, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> dst1, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> dst2)</td></tr>
 <tr class="memdesc:a7fa2482c7ad66266e11552e024244ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function for ForceSwap  <br /></td></tr>
 <tr class="separator:a7fa2482c7ad66266e11552e024244ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8252ec5118c9637dd296881aff45a3d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a8252ec5118c9637dd296881aff45a3d7">SetGroundPosByOwner</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> ground)</td></tr>
-<tr class="separator:a8252ec5118c9637dd296881aff45a3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f7829694e024ee583f1a5cf0b8df97"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a59f7829694e024ee583f1a5cf0b8df97">SetGroundPosByTransform</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> ground, <a class="el" href="../../d7/dfc/classvector.html">vector</a> transform[4])</td></tr>
-<tr class="separator:a59f7829694e024ee583f1a5cf0b8df97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf92074c4a3c978ffbaa1325fefcf4d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a5cf92074c4a3c978ffbaa1325fefcf4d">SetGroundPosByOwner</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> ground)</td></tr>
+<tr class="separator:a5cf92074c4a3c978ffbaa1325fefcf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53fe7589219b5ff953eb16a5b213a7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#ad53fe7589219b5ff953eb16a5b213a7f">SetGroundPosByTransform</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> ground, <a class="el" href="../../d7/dfc/classvector.html">vector</a> transform[4])</td></tr>
+<tr class="separator:ad53fe7589219b5ff953eb16a5b213a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aab0e4158a94a83595886574fe38c0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d11/class_game_inventory.html#a3aab0e4158a94a83595886574fe38c0a">SetGroundPosByOwnerBounds</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner, notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, out <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> ground, <a class="el" href="../../d7/dfc/classvector.html">vector</a> halfExtents, <a class="el" href="../../d4/dc3/classfloat.html">float</a> angle, <a class="el" href="../../d4/dc3/classfloat.html">float</a> cosAngle, <a class="el" href="../../d4/dc3/classfloat.html">float</a> sinAngle)</td></tr>
 <tr class="separator:a3aab0e4158a94a83595886574fe38c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -495,7 +502,7 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>script counterpart to engine's class Inventory </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00048">48</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00076">76</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7040711e6cd2802738bbd0d5f86b7316" name="a7040711e6cd2802738bbd0d5f86b7316"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7040711e6cd2802738bbd0d5f86b7316">&#9670;&#160;</a></span>AddEntityToInventory()</h2>
@@ -532,7 +539,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if item can be added, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00847">847</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00889">889</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a87682203c95ebdcb5be8a0d84c3dbdb9">FindFreeLocationFor()</a>, and <a class="el" href="../../dc/d11/class_game_inventory.html#a0d996e36fea1c734b61824f63108f9d7">LocationAddEntity()</a>.</p>
 
@@ -578,7 +585,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00648">AddInventoryReservationEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00687">AddInventoryReservationEx()</a>.</p>
 
 </div>
 </div>
@@ -622,9 +629,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00648">648</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00687">687</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a87c957675bae7a68df3b4c03bbd03b25">AddInventoryReservation()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00147">Debug::InventoryMoveLog()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00607">LogManager::IsInventoryReservationLogEnable()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a87c957675bae7a68df3b4c03bbd03b25">AddInventoryReservation()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00148">Debug::InventoryMoveLog()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00610">LogManager::IsInventoryReservationLogEnable()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00022">ReserveInventory()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00053">DeferredSwapEntities::ReserveInventory()</a>.</p>
 
@@ -655,7 +662,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns count of attachments attached to this item. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02273">AddDamageToItemByFireEx()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00680">GetClosestCarWheel()</a>, and <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00042">ClosableContainer::RecomputeContainers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02199">AddDamageToItemByFireEx()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00680">GetClosestCarWheel()</a>, and <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00042">ClosableContainer::RecomputeContainers()</a>.</p>
 
 </div>
 </div>
@@ -887,11 +894,11 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if item can be added, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00880">880</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00922">922</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a87682203c95ebdcb5be8a0d84c3dbdb9">FindFreeLocationFor()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00897">CanAddEntityIntoHands()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00889">CanAddEntityIntoInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00939">CanAddEntityIntoHands()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00931">CanAddEntityIntoInventory()</a>.</p>
 
 </div>
 </div>
@@ -921,9 +928,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Test if entity can be put into hands. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00897">897</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00939">939</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00880">CanAddEntityInto()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00922">CanAddEntityInto()</a>.</p>
 
 </div>
 </div>
@@ -953,9 +960,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Test if entity can be put to the inventory (Cargo, ProxyCargo, Attachment) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00889">889</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00931">931</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00880">CanAddEntityInto()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00922">CanAddEntityInto()</a>.</p>
 
 </div>
 </div>
@@ -1003,7 +1010,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if item can be added, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00827">827</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00869">869</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a87682203c95ebdcb5be8a0d84c3dbdb9">FindFreeLocationFor()</a>.</p>
 
@@ -1115,7 +1122,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if can be force swapped </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00599">CanForceSwapEntitiesEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00638">CanForceSwapEntitiesEx()</a>.</p>
 
 </div>
 </div>
@@ -1165,11 +1172,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00599">599</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00638">638</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#ab43c6d4747c71ef971f6172d73ddb734">CanForceSwapEntities()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00498">HandEventBase::CanPerformEvent()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00571">HandEventSwap::CanPerformEvent()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00133">WeaponManager::CanSwapMagazine()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00387">Icon::DraggingOver()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00253">Icon::DraggingOverSwap()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00949">Icon::DropReceivedFromMain()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00336">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04171">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l01279">WeaponManager::PrepareInventoryLocationForMagazineSwap()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00525">ProccessInputData()</a>, and <a class="el" href="../../dd/d4b/_icon_8c_source.html#l01093">Icon::Swap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00584">HandEventBase::CanPerformEvent()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00657">HandEventSwap::CanPerformEvent()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00133">WeaponManager::CanSwapMagazine()</a>, <a class="el" href="../../df/d3c/_container_8c_source.html#l00457">LayoutHolder::CanSwapOrTakeToHandsEx()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00387">Icon::DraggingOver()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00253">Icon::DraggingOverSwap()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00949">Icon::DropReceivedFromMain()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00336">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04200">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l01276">WeaponManager::PrepareInventoryLocationForMagazineSwap()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l01093">Icon::Swap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00985">ValidateSwap()</a>.</p>
 
 </div>
 </div>
@@ -1288,7 +1295,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns if entity can be removed from its current location. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00859">859</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00901">901</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, and <a class="el" href="../../dc/d11/class_game_inventory.html#adf7f85dad7eb0d01753cebe61ff27166">LocationCanRemoveEntity()</a>.</p>
 
@@ -1413,7 +1420,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if can be swapped </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00562">CanSwapEntitiesEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00601">CanSwapEntitiesEx()</a>.</p>
 
 </div>
 </div>
@@ -1451,11 +1458,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00562">562</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00601">601</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#aea4d503455996e7eb0a19e514c03045e">CanSwapEntities()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00133">WeaponManager::CanSwapMagazine()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00161">AttachmentCategoriesRow::Combine()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00387">Icon::DraggingOver()</a>, <a class="el" href="../../d9/dcb/_player_container_8c_source.html#l00801">PlayerContainer::DraggingOver()</a>, <a class="el" href="../../d9/d1b/_hands_container_8c_source.html#l00497">HandsContainer::DraggingOverHeader()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00412">AttachmentCategoriesRow::DraggingOverHeader()</a>, <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00832">ClosableContainer::DraggingOverHeader()</a>, <a class="el" href="../../d2/d76/_vicinity_container_8c_source.html#l00125">VicinityContainer::DraggingOverIcon()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00253">Icon::DraggingOverSwap()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00949">Icon::DropReceivedFromMain()</a>, <a class="el" href="../../d9/d1b/_hands_container_8c_source.html#l00828">HandsContainer::GetCombinationFlags()</a>, <a class="el" href="../../d4/d87/_inventory_quickbar_8c_source.html#l00235">InventoryGridController::GetQuickbarItemColor()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00315">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../d9/dcb/_player_container_8c_source.html#l00895">PlayerContainer::OnDropReceivedFromGhostArea()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00300">AttachmentCategoriesRow::OnDropReceivedFromHeader()</a>, <a class="el" href="../../d2/d76/_vicinity_container_8c_source.html#l00184">VicinityContainer::OnDropReceivedFromIcon()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04171">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l01279">WeaponManager::PrepareInventoryLocationForMagazineSwap()</a>, <a class="el" href="../../d5/dab/5___mission_2_g_u_i_2_inventory_new_2_attachments_8c_source.html#l00129">Attachments::Select()</a>, <a class="el" href="../../d0/dec/_cargo_container_8c_source.html#l00872">Container::Select()</a>, <a class="el" href="../../dc/d3c/_hands_preview_8c_source.html#l00151">HandsPreview::Select()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00038">AttachmentCategoriesRow::Select()</a>, <a class="el" href="../../d9/dcb/_player_container_8c_source.html#l00604">PlayerContainer::Select()</a>, <a class="el" href="../../d3/d79/_vicinity_slots_container_8c_source.html#l00172">VicinitySlotsContainer::Select()</a>, <a class="el" href="../../d0/d60/_zombie_container_8c_source.html#l00610">ZombieContainer::Select()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l01093">Icon::Swap()</a>, <a class="el" href="../../d3/dcd/3___game_2_entities_2_man_8c_source.html#l00503">EntityAI::SwapEntitiesImpl()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00533">HumanInventory::SwappingToPreviousLocation()</a>, <a class="el" href="../../d9/d1b/_hands_container_8c_source.html#l01152">HandsContainer::TakeAsAttachment()</a>, and <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00561">ClosableContainer::TakeAsAttachment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00133">WeaponManager::CanSwapMagazine()</a>, <a class="el" href="../../df/d3c/_container_8c_source.html#l00457">LayoutHolder::CanSwapOrTakeToHandsEx()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00161">AttachmentCategoriesRow::Combine()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00387">Icon::DraggingOver()</a>, <a class="el" href="../../d9/dcb/_player_container_8c_source.html#l00791">PlayerContainer::DraggingOver()</a>, <a class="el" href="../../d9/d1b/_hands_container_8c_source.html#l00470">HandsContainer::DraggingOverHeader()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00412">AttachmentCategoriesRow::DraggingOverHeader()</a>, <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00832">ClosableContainer::DraggingOverHeader()</a>, <a class="el" href="../../d2/d76/_vicinity_container_8c_source.html#l00125">VicinityContainer::DraggingOverIcon()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00253">Icon::DraggingOverSwap()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l00949">Icon::DropReceivedFromMain()</a>, <a class="el" href="../../d9/d1b/_hands_container_8c_source.html#l00801">HandsContainer::GetCombinationFlags()</a>, <a class="el" href="../../d4/d87/_inventory_quickbar_8c_source.html#l00235">InventoryGridController::GetQuickbarItemColor()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00315">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../d9/dcb/_player_container_8c_source.html#l00885">PlayerContainer::OnDropReceivedFromGhostArea()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00300">AttachmentCategoriesRow::OnDropReceivedFromHeader()</a>, <a class="el" href="../../d2/d76/_vicinity_container_8c_source.html#l00184">VicinityContainer::OnDropReceivedFromIcon()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04200">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l01276">WeaponManager::PrepareInventoryLocationForMagazineSwap()</a>, <a class="el" href="../../d5/dab/5___mission_2_g_u_i_2_inventory_new_2_attachments_8c_source.html#l00129">Attachments::Select()</a>, <a class="el" href="../../d0/dec/_cargo_container_8c_source.html#l00846">Container::Select()</a>, <a class="el" href="../../dc/d3c/_hands_preview_8c_source.html#l00151">HandsPreview::Select()</a>, <a class="el" href="../../d4/de4/_attachment_categories_row_8c_source.html#l00038">AttachmentCategoriesRow::Select()</a>, <a class="el" href="../../d9/dcb/_player_container_8c_source.html#l00594">PlayerContainer::Select()</a>, <a class="el" href="../../d3/d79/_vicinity_slots_container_8c_source.html#l00149">VicinitySlotsContainer::Select()</a>, <a class="el" href="../../d0/d60/_zombie_container_8c_source.html#l00634">ZombieContainer::Select()</a>, <a class="el" href="../../dd/d4b/_icon_8c_source.html#l01093">Icon::Swap()</a>, <a class="el" href="../../d3/dcd/3___game_2_entities_2_man_8c_source.html#l00503">EntityAI::SwapEntitiesImpl()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00533">HumanInventory::SwappingToPreviousLocation()</a>, <a class="el" href="../../d9/d1b/_hands_container_8c_source.html#l01125">HandsContainer::TakeAsAttachment()</a>, and <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00561">ClosableContainer::TakeAsAttachment()</a>.</p>
 
 </div>
 </div>
@@ -1617,7 +1624,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00183">HandEventBase::CheckRequest()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00200">HandEventBase::CheckRequest()</a>.</p>
 
 </div>
 </div>
@@ -1661,7 +1668,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00172">HandEventBase::CheckRequestSrc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00189">HandEventBase::CheckRequestSrc()</a>.</p>
 
 </div>
 </div>
@@ -1723,7 +1730,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00472">HandEventBase::CheckRequest()</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00553">HandEventSwap::CheckRequest()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00558">HandEventBase::CheckRequest()</a>, and <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00639">HandEventSwap::CheckRequest()</a>.</p>
 
 </div>
 </div>
@@ -1847,9 +1854,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00694">694</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00733">733</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00151">ClearInventoryReservation()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00147">Debug::InventoryMoveLog()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00607">LogManager::IsInventoryReservationLogEnable()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00168">ClearInventoryReservation()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00148">Debug::InventoryMoveLog()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00610">LogManager::IsInventoryReservationLogEnable()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00031">ClearInventoryReservation()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00067">DeferredSwapEntities::ClearInventoryReservation()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00053">DeferredSwapEntities::ReserveInventory()</a>.</p>
 
@@ -2081,11 +2088,11 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>created entity or null </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00802">802</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00844">844</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#ab39b1a3d3c2a879ac6abcfdc083fc118">FindFirstFreeLocationForNewEntity()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a16f949f7b0d6d4503183406f6a4c4131">InventoryLocation::GetCol()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#ae8c59599232e7478a33a3dfe13a5f70f">InventoryLocation::GetFlip()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a78807dc5b4892cb5d30a6789b9528e09">InventoryLocation::GetIdx()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aa4957320ada1b1e401862296fe14370b">InventoryLocation::GetParent()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a2434e6f5d99c9316b1434c1a4f4a064c">InventoryLocation::GetRow()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d02/_a_k101_8c_source.html#l00009">AK101_Base::OnDebugSpawn()</a>, <a class="el" href="../../d4/d1c/_a_k74_8c_source.html#l00010">AK74_Base::OnDebugSpawn()</a>, <a class="el" href="../../d9/dfd/_a_k_m_8c_source.html#l00043">AKM_Base::OnDebugSpawn()</a>, <a class="el" href="../../d0/dbe/_a_u_g_8c_source.html#l00048">Aug_Base::OnDebugSpawn()</a>, <a class="el" href="../../da/da1/_f_a_l_8c_source.html#l00009">FAL_Base::OnDebugSpawn()</a>, <a class="el" href="../../d7/de3/_m4_a1_8c_source.html#l00009">M4A1_Base::OnDebugSpawn()</a>, <a class="el" href="../../dd/daa/_s_k_s_8c_source.html#l00268">Rifle_Base::OnDebugSpawn()</a>, <a class="el" href="../../dc/d72/1911_8c_source.html#l00009">Colt1911_Base::OnDebugSpawn()</a>, <a class="el" href="../../d7/df7/_c_z75_8c_source.html#l00009">CZ75_Base::OnDebugSpawn()</a>, <a class="el" href="../../db/d4e/_d_e_8c_source.html#l00009">Deagle_Base::OnDebugSpawn()</a>, <a class="el" href="../../d0/dc3/_f_n_x45_8c_source.html#l00009">FNX45_Base::OnDebugSpawn()</a>, <a class="el" href="../../da/dda/_glock_8c_source.html#l00009">Glock19_Base::OnDebugSpawn()</a>, <a class="el" href="../../d2/dc5/_makarov_8c_source.html#l00009">MakarovIJ70_Base::OnDebugSpawn()</a>, <a class="el" href="../../d4/d84/_b95_8c_source.html#l00010">B95_base::OnDebugSpawn()</a>, <a class="el" href="../../d4/dfd/_mosin9130_8c_source.html#l00030">Mosin9130_Base::OnDebugSpawn()</a>, <a class="el" href="../../d1/d62/_ruger1022_8c_source.html#l00035">Ruger1022_Base::OnDebugSpawn()</a>, <a class="el" href="../../d0/d97/_s_v_d_8c_source.html#l00017">SVD_Base::OnDebugSpawn()</a>, <a class="el" href="../../df/d13/_m_p133_8c_source.html#l00227">Mp133Shotgun_Base::OnDebugSpawn()</a>, <a class="el" href="../../df/d27/_saiga_8c_source.html#l00043">Saiga_Base::OnDebugSpawn()</a>, <a class="el" href="../../d2/d13/_c_z61_8c_source.html#l00035">CZ61_Base::OnDebugSpawn()</a>, <a class="el" href="../../d9/d88/_m_p5_8c_source.html#l00044">MP5K_Base::OnDebugSpawn()</a>, <a class="el" href="../../d2/dbc/_p_p19_8c_source.html#l00042">PP19_Base::OnDebugSpawn()</a>, <a class="el" href="../../d6/d54/_u_m_p45_8c_source.html#l00013">UMP45_Base::OnDebugSpawn()</a>, and <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00523">PluginBase::SpawnEntityAsAttachment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00168">Crossbow_Base::OnDebugSpawn()</a>, <a class="el" href="../../d8/d02/_a_k101_8c_source.html#l00009">AK101_Base::OnDebugSpawn()</a>, <a class="el" href="../../d4/d1c/_a_k74_8c_source.html#l00010">AK74_Base::OnDebugSpawn()</a>, <a class="el" href="../../d9/dfd/_a_k_m_8c_source.html#l00043">AKM_Base::OnDebugSpawn()</a>, <a class="el" href="../../d0/dbe/_a_u_g_8c_source.html#l00048">Aug_Base::OnDebugSpawn()</a>, <a class="el" href="../../da/da1/_f_a_l_8c_source.html#l00009">FAL_Base::OnDebugSpawn()</a>, <a class="el" href="../../d7/de3/_m4_a1_8c_source.html#l00009">M4A1_Base::OnDebugSpawn()</a>, <a class="el" href="../../dd/daa/_s_k_s_8c_source.html#l00268">Rifle_Base::OnDebugSpawn()</a>, <a class="el" href="../../dc/d72/1911_8c_source.html#l00009">Colt1911_Base::OnDebugSpawn()</a>, <a class="el" href="../../d7/df7/_c_z75_8c_source.html#l00009">CZ75_Base::OnDebugSpawn()</a>, <a class="el" href="../../db/d4e/_d_e_8c_source.html#l00009">Deagle_Base::OnDebugSpawn()</a>, <a class="el" href="../../d0/dc3/_f_n_x45_8c_source.html#l00009">FNX45_Base::OnDebugSpawn()</a>, <a class="el" href="../../da/dda/_glock_8c_source.html#l00009">Glock19_Base::OnDebugSpawn()</a>, <a class="el" href="../../d2/dc5/_makarov_8c_source.html#l00009">MakarovIJ70_Base::OnDebugSpawn()</a>, <a class="el" href="../../d4/d84/_b95_8c_source.html#l00010">B95_base::OnDebugSpawn()</a>, <a class="el" href="../../d4/dfd/_mosin9130_8c_source.html#l00030">Mosin9130_Base::OnDebugSpawn()</a>, <a class="el" href="../../d1/d62/_ruger1022_8c_source.html#l00035">Ruger1022_Base::OnDebugSpawn()</a>, <a class="el" href="../../d0/d97/_s_v_d_8c_source.html#l00017">SVD_Base::OnDebugSpawn()</a>, <a class="el" href="../../df/d13/_m_p133_8c_source.html#l00227">Mp133Shotgun_Base::OnDebugSpawn()</a>, <a class="el" href="../../df/d27/_saiga_8c_source.html#l00043">Saiga_Base::OnDebugSpawn()</a>, <a class="el" href="../../d2/d13/_c_z61_8c_source.html#l00035">CZ61_Base::OnDebugSpawn()</a>, <a class="el" href="../../d9/d88/_m_p5_8c_source.html#l00044">MP5K_Base::OnDebugSpawn()</a>, <a class="el" href="../../d2/dbc/_p_p19_8c_source.html#l00042">PP19_Base::OnDebugSpawn()</a>, <a class="el" href="../../d6/d54/_u_m_p45_8c_source.html#l00013">UMP45_Base::OnDebugSpawn()</a>, and <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00532">PluginBase::SpawnEntityAsAttachment()</a>.</p>
 
 </div>
 </div>
@@ -2129,9 +2136,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01162">1162</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01208">1208</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01154">SetGroundPosByOwner()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00952">OnInventoryFailure()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01199">SetGroundPosByOwner()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
 </div>
 </div>
@@ -2199,9 +2206,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01219">1219</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01274">1274</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01200">SetGroundPosByOwnerBounds()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01255">SetGroundPosByOwnerBounds()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
 </div>
 </div>
@@ -2251,9 +2258,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01184">1184</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01235">1235</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01178">SetGroundPosByTransform()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00952">OnInventoryFailure()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01228">SetGroundPosByTransform()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
 </div>
 </div>
@@ -2281,7 +2288,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00788">788</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00830">830</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#adaa83e67dcb707c725c5332ab0efd213">GetInventoryOwner()</a>.</p>
 
@@ -2310,7 +2317,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00771">771</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00813">813</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aa4957320ada1b1e401862296fe14370b">InventoryLocation::GetParent()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>, and <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>.</p>
 
@@ -2360,7 +2367,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if found any, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06266">ManBase::ClearInventory()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00679">PrintAll()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06287">ManBase::ClearInventory()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00687">PrintAll()</a>.</p>
 
 </div>
 </div>
@@ -2404,7 +2411,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00671">ExtendInventoryReservationEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00710">ExtendInventoryReservationEx()</a>.</p>
 
 </div>
 </div>
@@ -2448,9 +2455,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00671">671</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00710">710</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#ab4981174f7233626dd3c89d9334b8cb6">ExtendInventoryReservation()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00147">Debug::InventoryMoveLog()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00607">LogManager::IsInventoryReservationLogEnable()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#ab4981174f7233626dd3c89d9334b8cb6">ExtendInventoryReservation()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00148">Debug::InventoryMoveLog()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00610">LogManager::IsInventoryReservationLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -2562,7 +2569,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if found any, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00802">CreateInInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00844">CreateInInventory()</a>.</p>
 
 </div>
 </div>
@@ -2616,7 +2623,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if found any, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00847">AddEntityToInventory()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00880">CanAddEntityInto()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00827">CanAddEntityToInventory()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00238">HumanInventory::TakeEntityToInventory()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00929">TakeEntityToInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00889">AddEntityToInventory()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00922">CanAddEntityInto()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00869">CanAddEntityToInventory()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00238">HumanInventory::TakeEntityToInventory()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00974">TakeEntityToInventory()</a>.</p>
 
 </div>
 </div>
@@ -2866,7 +2873,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01149">1149</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01194">1194</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -2895,7 +2902,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>attached entity by attachment index @NOTE: index is not slot! for getting attachment by slot use FindAttachment </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02273">AddDamageToItemByFireEx()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00680">GetClosestCarWheel()</a>, and <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00042">ClosableContainer::RecomputeContainers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02199">AddDamageToItemByFireEx()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00680">GetClosestCarWheel()</a>, and <a class="el" href="../../de/d51/_container_with_cargo_and_attachments_8c_source.html#l00042">ClosableContainer::RecomputeContainers()</a>.</p>
 
 </div>
 </div>
@@ -2984,7 +2991,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>cargo </p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d2e/_item_base_8c_source.html#l04026">InventoryItem::CanReceiveAttachment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2e/_item_base_8c_source.html#l04040">InventoryItem::CanReceiveAttachment()</a>.</p>
 
 </div>
 </div>
@@ -3050,9 +3057,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns true if the item is currently attached and outputs attachment slot id and name. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00398">398</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00427">427</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, <a class="el" href="../../df/d36/class_inventory_slots.html#a338920c4d5fac6af3b9cc86a85b0a1eb">InventorySlots::GetSlotName()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, <a class="el" href="../../df/d36/class_inventory_slots.html#a338920c4d5fac6af3b9cc86a85b0a1eb">InventorySlots::GetSlotName()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>, and <a class="el" href="../../da/dc1/_inventory_slots_8c_source.html#l00017">InventorySlots::INVALID</a>.</p>
 
 </div>
 </div>
@@ -3089,7 +3096,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if current location retrieved (and is valid) </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00859">CanRemoveEntity()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00771">EEInit()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00398">GetCurrentAttachmentSlotInfo()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00364">IsAttachment()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00377">IsCargoInHiearchy()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00351">IsInCargo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00901">CanRemoveEntity()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00813">EEInit()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00427">GetCurrentAttachmentSlotInfo()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00393">IsAttachment()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00406">IsCargoInHiearchy()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00380">IsInCargo()</a>.</p>
 
 </div>
 </div>
@@ -3141,9 +3148,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00329">329</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00358">358</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00050">m_inventory_check_context</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00078">m_inventory_check_context</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d73/_gift_box___base_8c_source.html#l00014">Container_Base::CanReceiveItemIntoCargo()</a>.</p>
 
@@ -3175,7 +3182,7 @@ Static Private Attributes</h2></td></tr>
 <p>Engine native functions. </p>
 <dl class="section return"><dt>Returns</dt><dd>entity associated with this inventory </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00788">EEDelete()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00102">HumanInventory::GetManOwner()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00420">HumanInventory::LocalDestroyEntity()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00457">HumanInventory::ReplaceItemInElsewhereWithNewinHandsImpl()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00492">HumanInventory::ReplaceItemInHandsWithNewImpl()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00292">HumanInventory::TakeEntityAsAttachmentEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01048">TakeEntityAsAttachmentEx()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00265">HumanInventory::TakeEntityToCargoEx()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01017">TakeEntityToCargoEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00830">EEDelete()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00102">HumanInventory::GetManOwner()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00799">Init()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00420">HumanInventory::LocalDestroyEntity()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00457">HumanInventory::ReplaceItemInElsewhereWithNewinHandsImpl()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00492">HumanInventory::ReplaceItemInHandsWithNewImpl()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00292">HumanInventory::TakeEntityAsAttachmentEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01093">TakeEntityAsAttachmentEx()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00265">HumanInventory::TakeEntityToCargoEx()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01062">TakeEntityToCargoEx()</a>.</p>
 
 </div>
 </div>
@@ -3710,7 +3717,9 @@ Static Private Attributes</h2></td></tr>
 <p>script functions </p>
 <p>called by engine right after creation of entity </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00760">760</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00799">799</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#adaa83e67dcb707c725c5332ab0efd213">GetInventoryOwner()</a>.</p>
 
 </div>
 </div>
@@ -3739,7 +3748,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns true if this Inventory owner is an attachment of something. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00364">364</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00393">393</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
 
@@ -3770,7 +3779,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns true if item of his hiearchy parents are in cargo. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00377">377</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00406">406</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aa4957320ada1b1e401862296fe14370b">InventoryLocation::GetParent()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
 
@@ -3801,7 +3810,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns true if this Inventory owner is in cargo of something. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00351">351</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00380">380</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a6c0c87dbbb79dab9325f71b08f0316db">GetCurrentInventoryLocation()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
 
@@ -3909,7 +3918,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d76/_vicinity_container_8c_source.html#l00311">VicinityContainer::UpdateInterval()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d76/_vicinity_container_8c_source.html#l00304">VicinityContainer::UpdateInterval()</a>.</p>
 
 </div>
 </div>
@@ -3937,7 +3946,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01237">1237</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01292">1292</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#ad37f6c4c223534539549bd4ff51da844">InventoryLocation::GetItem()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a0ab8424d70855c45efb89d6e7bd823a1">CGame::ObjectDelete()</a>.</p>
 
@@ -3970,7 +3979,7 @@ Static Private Attributes</h2></td></tr>
 <p>adds item to inventory location </p>
 <dl class="section return"><dt>Returns</dt><dd>true if success, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00847">AddEntityToInventory()</a>, and <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00096">ReplaceItemWithNewLambdaBase::UndoRemoveOldItemFromLocation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00889">AddEntityToInventory()</a>, and <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00096">ReplaceItemWithNewLambdaBase::UndoRemoveOldItemFromLocation()</a>.</p>
 
 </div>
 </div>
@@ -4004,7 +4013,7 @@ Static Private Attributes</h2></td></tr>
 <dd>
 entity at the location, null otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00304">LocationCanAddEntityEx()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00329">TransferInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00333">LocationCanAddEntityEx()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00330">TransferInventory()</a>.</p>
 
 </div>
 </div>
@@ -4032,7 +4041,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00304">304</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00333">333</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#aecfabcf8edc9ed8f8ed8a4e246d1c488">LocationCanAddEntity()</a>.</p>
 
@@ -4075,7 +4084,7 @@ entity at the location, null otherwise </dd></dl>
 <p>queries if the entity contained in inv_loc.m_item can be moved to another location This is a shorthand for CanRemove + CanAdd query </p>
 <dl class="section return"><dt>Returns</dt><dd>true if can be moved, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00188">HandEventBase::CanPerformEvent()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00293">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00334">LocationCanMoveEntitySyncCheck()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00447">WeaponStateBase::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00776">OnAbort()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00007">HandStateBase::OnEntry()</a>, <a class="el" href="../../d3/d1d/_hand_animated_moving_to_att_8c_source.html#l00030">HandStartAction::OnEntry()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00507">WeaponStateBase::OnExit()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00525">ProccessInputData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00205">HandEventBase::CanPerformEvent()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00293">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00363">LocationCanMoveEntitySyncCheck()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00454">WeaponStateBase::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00783">OnAbort()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00007">HandStateBase::OnEntry()</a>, <a class="el" href="../../d3/d1d/_hand_animated_moving_to_att_8c_source.html#l00030">HandStartAction::OnEntry()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00514">WeaponStateBase::OnExit()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00662">ValidateSyncMove()</a>.</p>
 
 </div>
 </div>
@@ -4113,11 +4122,11 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00334">334</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00363">363</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">LocationCanMoveEntity()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00050">m_inventory_check_context</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a82163714d3b8fa9114c36b4c324237a4">LocationCanMoveEntity()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00078">m_inventory_check_context</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00525">ProccessInputData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00662">ValidateSyncMove()</a>.</p>
 
 </div>
 </div>
@@ -4148,7 +4157,7 @@ entity at the location, null otherwise </dd></dl>
 <p>queries if the entity contained in inv_loc.m_item can be removed from ground/attachment/cargo/hands/... </p>
 <dl class="section return"><dt>Returns</dt><dd>true if can be added, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00031">ReplaceItemWithNewLambdaBase::CanExecuteLambda()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00859">CanRemoveEntity()</a>, and <a class="el" href="../../d8/d93/_action_dig_in_stash_8c_source.html#l00126">ActionDigInStash::OnFinishProgressServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00031">ReplaceItemWithNewLambdaBase::CanExecuteLambda()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00901">CanRemoveEntity()</a>, and <a class="el" href="../../d8/d93/_action_dig_in_stash_8c_source.html#l00126">ActionDigInStash::OnFinishProgressServer()</a>.</p>
 
 </div>
 </div>
@@ -4207,7 +4216,7 @@ entity at the location, null otherwise </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>created entity, null otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00123">ReplaceItemWithNewLambdaBase::CreateNewEntity()</a>, <a class="el" href="../../d8/d18/gameplay_8c_source.html#l01454">SpawnEntity()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l01674">InventoryItem::SplitIntoStackMaxToInventoryLocationEx()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l01778">InventoryItem::SplitItemToInventoryLocation()</a>, <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01002">ThrowEntityFromInventory()</a>, and <a class="el" href="../../d4/d61/_action_uncover_head_self_8c_source.html#l00012">ActionUncoverHeadBase::UncoverHead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00123">ReplaceItemWithNewLambdaBase::CreateNewEntity()</a>, <a class="el" href="../../d8/d18/gameplay_8c_source.html#l01463">SpawnEntity()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l01629">InventoryItem::SplitIntoStackMaxToInventoryLocationEx()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l01733">InventoryItem::SplitItemToInventoryLocation()</a>, <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01005">ThrowEntityFromInventory()</a>, and <a class="el" href="../../d4/d61/_action_uncover_head_self_8c_source.html#l00012">ActionUncoverHeadBase::UncoverHead()</a>.</p>
 
 </div>
 </div>
@@ -4415,7 +4424,7 @@ entity at the location, null otherwise </dd></dl>
 <p>swaps two entities </p>
 <dl class="section return"><dt>Returns</dt><dd>true if success, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d82/_hand___actions_8c_source.html#l00198">HandActionBase::Action()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00064">HandStartAction::OnEntry()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00413">OnServerInventoryCommandStatic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d82/_hand___actions_8c_source.html#l00198">HandActionBase::Action()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00064">HandStartAction::OnEntry()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00442">OnServerInventoryCommandStatic()</a>.</p>
 
 </div>
 </div>
@@ -4456,7 +4465,7 @@ entity at the location, null otherwise </dd></dl>
 <p>synchronously removes item from current inventory location and adds it to destination no anims involved </p>
 <dl class="section return"><dt>Returns</dt><dd>true if success, false otherwise </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d82/_hand___actions_8c_source.html#l00032">HandActionBase::Action()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00190">WeaponStateBase::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00776">OnAbort()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00007">HandStateBase::OnEntry()</a>, <a class="el" href="../../d3/d1d/_hand_animated_moving_to_att_8c_source.html#l00030">HandStartAction::OnEntry()</a>, <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00012">WeaponStateBase::OnEntry()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00507">WeaponStateBase::OnExit()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00413">OnServerInventoryCommandStatic()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d82/_hand___actions_8c_source.html#l00032">HandActionBase::Action()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00254">HandleDropMagazine()</a>, <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00190">WeaponStateBase::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00783">OnAbort()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00007">HandStateBase::OnEntry()</a>, <a class="el" href="../../d3/d1d/_hand_animated_moving_to_att_8c_source.html#l00030">HandStartAction::OnEntry()</a>, <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00012">WeaponStateBase::OnEntry()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00514">WeaponStateBase::OnExit()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00442">OnServerInventoryCommandStatic()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
 </div>
 </div>
@@ -4631,11 +4640,11 @@ entity at the location, null otherwise </dd></dl>
 
 <p>helper function for swap </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01093">1093</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01138">1138</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dc5/class_inventory_location.html#a988aebd0b6429bfc34cd91f1ffbdb93c">InventoryLocation::Copy()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a4ab54f64deca0c3c3a4139ab2afd6b65">InventoryLocation::CopyLocationFrom()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a9ffb5601e5bde09438ad6d6691dd0e16">InventoryLocation::SetFlip()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01110">MakeSrcAndDstForSwap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01155">MakeSrcAndDstForSwap()</a>.</p>
 
 </div>
 </div>
@@ -4699,11 +4708,11 @@ entity at the location, null otherwise </dd></dl>
 
 <p>helper function for ForceSwap </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01122">1122</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01167">1167</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dc5/class_inventory_location.html#a988aebd0b6429bfc34cd91f1ffbdb93c">InventoryLocation::Copy()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a4ab54f64deca0c3c3a4139ab2afd6b65">InventoryLocation::CopyLocationFrom()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a9ffb5601e5bde09438ad6d6691dd0e16">InventoryLocation::SetFlip()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00366">HumanInventory::ForceSwapEntities()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01460">ForceSwapEntities()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00366">HumanInventory::ForceSwapEntities()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01670">ForceSwapEntities()</a>.</p>
 
 </div>
 </div>
@@ -4767,11 +4776,11 @@ entity at the location, null otherwise </dd></dl>
 
 <p>helper function for swap </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01110">1110</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01155">1155</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01093">MakeDstForSwap()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01138">MakeDstForSwap()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01397">HandleSwapEntities()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00320">HumanInventory::SwapEntities()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01361">SwapEntities()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01607">HandleSwapEntities()</a>, <a class="el" href="../../de/d27/_human_inventory_8c_source.html#l00320">HumanInventory::SwapEntities()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01571">SwapEntities()</a>.</p>
 
 </div>
 </div>
@@ -4798,7 +4807,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00767">767</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00809">809</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -4828,7 +4837,87 @@ entity at the location, null otherwise </dd></dl>
 
 <p>synchronization </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00903">903</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00945">945</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+
+</div>
+</div>
+<a id="acf12622f99596e7db27151086afd074e" name="acf12622f99596e7db27151086afd074e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf12622f99596e7db27151086afd074e">&#9670;&#160;</a></span>OnInventoryFailure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnInventoryFailure </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#a43d2389269799752817d23aec2f7dfa3">InventoryCommandType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c.html#ae420ed61d92a10a1fb5d1e7cc108959a">InventoryValidationReason</a>&#160;</td>
+          <td class="paramname"><em>reason</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a>&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a>&#160;</td>
+          <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00952">952</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01208">DropEntity()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01235">DropEntityWithTransform()</a>.</p>
+
+</div>
+</div>
+<a id="addec6bad8fe4a66253816aa477c11dab" name="addec6bad8fe4a66253816aa477c11dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addec6bad8fe4a66253816aa477c11dab">&#9670;&#160;</a></span>OnInventoryJunctureFailureFromServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnInventoryJunctureFailureFromServer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a>&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00948">948</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -4856,7 +4945,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00904">904</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00946">946</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -4884,7 +4973,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00905">905</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00947">947</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -4912,7 +5001,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00906">906</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00949">949</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -4940,9 +5029,9 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00413">413</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00442">442</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00279">HandEventBase::DumpToString()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#ad37f6c4c223534539549bd4ff51da844">InventoryLocation::GetItem()</a>, <a class="el" href="../../d5/d74/_notification_system_8c_source.html#l00036">GetTime()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a296fcf3908f65f510974b132a4adfaf2">LocationSwap()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">LocationSyncMoveEntity()</a>, <a class="el" href="../../da/d1e/_log_templates_8c_source.html#l00126">LogError()</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00281">InventoryLocation::ReadFromContext()</a>, and <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00001">syncDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00296">HandEventBase::DumpToString()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00218">InventoryLocation::DumpToStringNullSafe()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#ad37f6c4c223534539549bd4ff51da844">InventoryLocation::GetItem()</a>, <a class="el" href="../../d5/d74/_notification_system_8c_source.html#l00036">GetTime()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a126b312186e0481dff1f5980ff24b596">InventoryLocation::IsValid()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a296fcf3908f65f510974b132a4adfaf2">LocationSwap()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">LocationSyncMoveEntity()</a>, <a class="el" href="../../da/d1e/_log_templates_8c_source.html#l00129">LogError()</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, <a class="el" href="../../d6/d52/_inventory_location_8c_source.html#l00281">InventoryLocation::ReadFromContext()</a>, and <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00001">syncDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -4982,7 +5071,7 @@ entity at the location, null otherwise </dd></dl>
 
 <p>db load hooks </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00763">763</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00805">805</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -5012,12 +5101,12 @@ entity at the location, null otherwise </dd></dl>
 
 <p>db store hook </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00769">769</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00811">811</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
-<a id="ad37bc494089ae198aa868ab7f935bc90" name="ad37bc494089ae198aa868ab7f935bc90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad37bc494089ae198aa868ab7f935bc90">&#9670;&#160;</a></span>PrepareDropEntityPos()</h2>
+<a id="a59413e4b68e8619f1830e02b4818ea6b" name="a59413e4b68e8619f1830e02b4818ea6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59413e4b68e8619f1830e02b4818ea6b">&#9670;&#160;</a></span>PrepareDropEntityPos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5026,7 +5115,7 @@ entity at the location, null otherwise </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static proto native void PrepareDropEntityPos </td>
+          <td class="memname">PrepareDropEntityPos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
           <td class="paramname"><em>owner</em>, </td>
@@ -5047,7 +5136,13 @@ entity at the location, null otherwise </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>useValuesInMatrix</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>useValuesInMatrix</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>conflictCheckDepth</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5062,7 +5157,17 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00124">DropEquipAndDestroyRootLambda::CopyOldPropertiesToNew()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00241">DayZPlayerUtils::HandleDropMagazine()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08106">ManBase::PredictiveDropEntity()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01154">SetGroundPosByOwner()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01178">SetGroundPosByTransform()</a>.</p>
+<p>Finds a transformation for the item to be dropped to If the initial transforation overlaps with another conflicting entity (i.e. car) then the transform will be snapped to the nearest outer edge. If no valid snapping transformation could be found, then the output from 'PlaceOnSurface' is used. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">useValuesInMatrix</td><td>Is ignored if transformation overlaps with possible conflicting entity. If no valid transform is found and this is false then the transform at the owner is used for 'PlaceOnSurface' </td></tr>
+    <tr><td class="paramname">conflictCheckDepth</td><td>If -1 then no conflict depth check is performed, if 0 then it only checks to see if it conflicts but doesn't perform snapping </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if valid transformation found near owner </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00124">DropEquipAndDestroyRootLambda::CopyOldPropertiesToNew()</a>, <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00254">HandleDropMagazine()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08202">ManBase::PredictiveDropEntity()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01199">SetGroundPosByOwner()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01228">SetGroundPosByTransform()</a>.</p>
 
 </div>
 </div>
@@ -5100,7 +5205,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01254">1254</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01309">1309</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00231">ReplaceItemWithNewLambdaBase::Execute()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../d1/dfa/_replace_item_with_new_lambda_base_8c_source.html#l00006">ReplaceItemWithNewLambdaBase::m_OldItem</a>.</p>
 
@@ -5349,8 +5454,8 @@ entity at the location, null otherwise </dd></dl>
 
 </div>
 </div>
-<a id="a8252ec5118c9637dd296881aff45a3d7" name="a8252ec5118c9637dd296881aff45a3d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8252ec5118c9637dd296881aff45a3d7">&#9670;&#160;</a></span>SetGroundPosByOwner()</h2>
+<a id="a5cf92074c4a3c978ffbaa1325fefcf4d" name="a5cf92074c4a3c978ffbaa1325fefcf4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf92074c4a3c978ffbaa1325fefcf4d">&#9670;&#160;</a></span>SetGroundPosByOwner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5359,7 +5464,7 @@ entity at the location, null otherwise </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void SetGroundPosByOwner </td>
+          <td class="memname">static <a class="el" href="../../d9/db9/classbool.html">bool</a> SetGroundPosByOwner </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
           <td class="paramname"><em>owner</em>, </td>
@@ -5389,11 +5494,11 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01154">1154</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01199">1199</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d4c/_en_math3_d_8c_source.html#l00220">Math3D::MatrixIdentity4()</a>, and <a class="el" href="../../dc/d11/class_game_inventory.html#ad37bc494089ae198aa868ab7f935bc90">PrepareDropEntityPos()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00885">GameConstants::INVENTORY_ENTITY_DROP_OVERLAP_DEPTH</a>, <a class="el" href="../../d3/d4c/_en_math3_d_8c_source.html#l00233">Math3D::MatrixIdentity4()</a>, and <a class="el" href="../../dc/d11/class_game_inventory.html#a59413e4b68e8619f1830e02b4818ea6b">PrepareDropEntityPos()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01162">DropEntity()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00290">HandEventBase::GetDst()</a>, <a class="el" href="../../d9/da1/_bot___test_spam_user_actions_8c_source.html#l00033">OnEntry()</a>, <a class="el" href="../../d5/d33/_action_unpack_gift_8c_source.html#l00037">ActionUnpackGift::OnFinishProgressServer()</a>, and <a class="el" href="../../de/df0/_construction_8c_source.html#l01223">StaticConstructionMethods::SpawnConstructionMaterialPiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00406">HandEventRemove::CanPerformEventEx()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00389">HandEventRemove::CheckRequestEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01208">DropEntity()</a>, <a class="el" href="../../d9/da1/_bot___test_spam_user_actions_8c_source.html#l00033">OnEntry()</a>, <a class="el" href="../../d5/d33/_action_unpack_gift_8c_source.html#l00037">ActionUnpackGift::OnFinishProgressServer()</a>, and <a class="el" href="../../de/df0/_construction_8c_source.html#l01223">StaticConstructionMethods::SpawnConstructionMaterialPiles()</a>.</p>
 
 </div>
 </div>
@@ -5461,16 +5566,16 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01200">1200</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01255">1255</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga88747c54aed88a2142b3a22367020993">Math::RandomFloat()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00477">vector::RotateAroundZero()</a>, <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00107">vector::Up</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01219">DropEntityInBounds()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01274">DropEntityInBounds()</a>.</p>
 
 </div>
 </div>
-<a id="a59f7829694e024ee583f1a5cf0b8df97" name="a59f7829694e024ee583f1a5cf0b8df97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59f7829694e024ee583f1a5cf0b8df97">&#9670;&#160;</a></span>SetGroundPosByTransform()</h2>
+<a id="ad53fe7589219b5ff953eb16a5b213a7f" name="ad53fe7589219b5ff953eb16a5b213a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53fe7589219b5ff953eb16a5b213a7f">&#9670;&#160;</a></span>SetGroundPosByTransform()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5479,7 +5584,7 @@ entity at the location, null otherwise </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void SetGroundPosByTransform </td>
+          <td class="memname">static <a class="el" href="../../d9/db9/classbool.html">bool</a> SetGroundPosByTransform </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
           <td class="paramname"><em>owner</em>, </td>
@@ -5515,11 +5620,11 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01178">1178</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01228">1228</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#ad37bc494089ae198aa868ab7f935bc90">PrepareDropEntityPos()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00885">GameConstants::INVENTORY_ENTITY_DROP_OVERLAP_DEPTH</a>, and <a class="el" href="../../dc/d11/class_game_inventory.html#a59413e4b68e8619f1830e02b4818ea6b">PrepareDropEntityPos()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01184">DropEntityWithTransform()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01235">DropEntityWithTransform()</a>.</p>
 
 </div>
 </div>
@@ -5599,7 +5704,7 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01144">1144</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01189">1189</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 </div>
 </div>
@@ -5637,9 +5742,9 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01080">1080</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01125">1125</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00929">TakeEntityToInventory()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00974">TakeEntityToInventory()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dcd/3___game_2_entities_2_man_8c_source.html#l00423">EntityAI::TakeEntityAsAttachmentImpl()</a>.</p>
 
@@ -5685,9 +5790,9 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01048">1048</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01093">1093</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#adaa83e67dcb707c725c5332ab0efd213">GetInventoryOwner()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01055">TakeEntityAsTargetAttachmentEx()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#adaa83e67dcb707c725c5332ab0efd213">GetInventoryOwner()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01100">TakeEntityAsTargetAttachmentEx()</a>.</p>
 
 </div>
 </div>
@@ -5731,9 +5836,9 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01086">1086</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01131">1131</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00948">TakeEntityToTargetInventory()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00993">TakeEntityToTargetInventory()</a>.</p>
 
 </div>
 </div>
@@ -5785,11 +5890,11 @@ entity at the location, null otherwise </dd></dl>
 
 <p>put item as attachment of target </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01055">1055</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01100">1100</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#aaa21d8754c5c3f59383490d3eeed02ab">InventoryLocation::SetAttachment()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01048">TakeEntityAsAttachmentEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01093">TakeEntityAsAttachmentEx()</a>.</p>
 
 </div>
 </div>
@@ -5836,9 +5941,9 @@ entity at the location, null otherwise </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00999">999</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01044">1044</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00929">TakeEntityToInventory()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00974">TakeEntityToInventory()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dcd/3___game_2_entities_2_man_8c_source.html#l00384">EntityAI::TakeEntityToCargoImpl()</a>.</p>
 
@@ -5905,9 +6010,9 @@ entity at the location, null otherwise </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01017">1017</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01062">1062</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#adaa83e67dcb707c725c5332ab0efd213">GetInventoryOwner()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a481b291b4424f680389ecc3541de7741">InventoryLocation::SetCargo()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#adaa83e67dcb707c725c5332ab0efd213">GetInventoryOwner()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a481b291b4424f680389ecc3541de7741">InventoryLocation::SetCargo()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
 </div>
 </div>
@@ -5970,11 +6075,11 @@ entity at the location, null otherwise </dd></dl>
 <p>@NOTE: Predictive.* / Local.* functions: a) 'Predictive' means that the operation uses Client-Side Prediction, i.e. the action runs the same code on both, client AND server.</p>
 <p>b) 'Local' operation executes from where it is run, i.e. the operation from client is NOT sent to server, and only client performs the inventory operation (TakeEntityTo.*) this behaviour is necessary when inventory operations are ALREADY synchronized by another means, like Actions. For example </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d1/d07/class_action_take_item_to_hands.html">ActionTakeItemToHands</a> that performs OnCompleteServer and OnCompleteClient with synchronization set to false in order to avoid duplicate synchronization. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00929">929</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00974">974</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a87682203c95ebdcb5be8a0d84c3dbdb9">FindFreeLocationFor()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a87682203c95ebdcb5be8a0d84c3dbdb9">FindFreeLocationFor()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01080">TakeEntityAsAttachment()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00999">TakeEntityToCargo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01125">TakeEntityAsAttachment()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01044">TakeEntityToCargo()</a>.</p>
 
 </div>
 </div>
@@ -6020,9 +6125,9 @@ entity at the location, null otherwise </dd></dl>
 
 <p>Put item into into cargo of another entity. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01006">1006</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01051">1051</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00948">TakeEntityToTargetInventory()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00993">TakeEntityToTargetInventory()</a>.</p>
 
 </div>
 </div>
@@ -6080,9 +6185,9 @@ entity at the location, null otherwise </dd></dl>
 
 <p>Put item into into cargo on specific cargo location of another entity. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01033">1033</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01078">1078</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a1b259aff3ba02df63377aa2a52fb6a3e">InventoryLocation::SetCargoAuto()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, <a class="el" href="../../d6/dc5/class_inventory_location.html#a1b259aff3ba02df63377aa2a52fb6a3e">InventoryLocation::SetCargoAuto()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
 </div>
 </div>
@@ -6134,11 +6239,11 @@ entity at the location, null otherwise </dd></dl>
 
 <p>helper that finds location first, then moves the entity into it </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00948">948</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00993">993</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">TakeToDst()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d9/df6/3___game_2_systems_2_inventory_2_debug_8c_source.html#l00019">inventoryDebugPrint()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">TakeToDst()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01086">TakeEntityAsTargetAttachment()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01006">TakeEntityToTargetCargo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01131">TakeEntityAsTargetAttachment()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01051">TakeEntityToTargetCargo()</a>.</p>
 
 </div>
 </div>
@@ -6192,11 +6297,11 @@ entity at the location, null otherwise </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00973">973</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01018">1018</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/d11/class_game_inventory.html#a91ef090771c6de4e0c80c064f2e309fd">LocationSyncMoveEntity()</a>, and <a class="el" href="../../da/d93/_inventory_input_user_data_8c_source.html#l00024">InventoryInputUserData::SendServerMove()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01162">DropEntity()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01219">DropEntityInBounds()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01184">DropEntityWithTransform()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01055">TakeEntityAsTargetAttachmentEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01017">TakeEntityToCargoEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00929">TakeEntityToInventory()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01033">TakeEntityToTargetCargoEx()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00948">TakeEntityToTargetInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01208">DropEntity()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01274">DropEntityInBounds()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01235">DropEntityWithTransform()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01100">TakeEntityAsTargetAttachmentEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01062">TakeEntityToCargoEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00974">TakeEntityToInventory()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l01078">TakeEntityToTargetCargoEx()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00993">TakeEntityToTargetInventory()</a>.</p>
 
 </div>
 </div>
@@ -6356,6 +6461,60 @@ entity at the location, null otherwise </dd></dl>
 
 </div>
 </div>
+<a id="aadfddd30066633d418abaeefa450f808" name="aadfddd30066633d418abaeefa450f808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadfddd30066633d418abaeefa450f808">&#9670;&#160;</a></span>TestDropEntityPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static proto native <a class="el" href="../../d9/db9/classbool.html">bool</a> TestDropEntityPos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">notnull <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>mat</em>[4], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>useValuesInMatrix</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramname"><em>conflictCheckDepth</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac09afe934987bb1717d107ddd79c945b" name="ac09afe934987bb1717d107ddd79c945b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac09afe934987bb1717d107ddd79c945b">&#9670;&#160;</a></span>UnlockInventory()</h2>
 
@@ -6431,9 +6590,9 @@ entity at the location, null otherwise </dd></dl>
 
 <p>reservations </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00644">644</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00683">683</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00798">InventoryReservation()</a>, <a class="el" href="../../d9/d6d/_action_remove_seed_8c_source.html#l00063">ActionRemoveSeed::InventoryReservation()</a>, <a class="el" href="../../d0/d71/_action_take_hybrid_attachment_8c_source.html#l00055">ActionTakeHybridAttachment::InventoryReservation()</a>, <a class="el" href="../../d1/d25/_action_take_item_8c_source.html#l00096">ActionTakeItem::InventoryReservation()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00115">FirearmActionAttachMagazine::InventoryReservation()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00330">FirearmActionAttachMagazineQuick::InventoryReservation()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00285">WeaponManager::InventoryReservation()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01562">SendServerHandEventViaJuncture()</a>, <a class="el" href="../../df/d13/_emote_manager_8c_source.html#l00941">SetEmoteLockState()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01188">TakeToDst()</a>, <a class="el" href="../../da/d12/_junctures_8c_source.html#l00002">TryAcquireInventoryJunctureFromServer()</a>, and <a class="el" href="../../da/d12/_junctures_8c_source.html#l00029">TryAcquireTwoInventoryJuncturesFromServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00803">InventoryReservation()</a>, <a class="el" href="../../d9/d6d/_action_remove_seed_8c_source.html#l00063">ActionRemoveSeed::InventoryReservation()</a>, <a class="el" href="../../d7/d12/_action_take_arrow_8c_source.html#l00065">ActionTakeArrow::InventoryReservation()</a>, <a class="el" href="../../d0/d71/_action_take_hybrid_attachment_8c_source.html#l00055">ActionTakeHybridAttachment::InventoryReservation()</a>, <a class="el" href="../../d1/d25/_action_take_item_8c_source.html#l00096">ActionTakeItem::InventoryReservation()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00115">FirearmActionAttachMagazine::InventoryReservation()</a>, <a class="el" href="../../db/d62/_firearm_action_attach_magazine_8c_source.html#l00330">FirearmActionAttachMagazineQuick::InventoryReservation()</a>, <a class="el" href="../../d4/da8/_weapon_manager_8c_source.html#l00282">WeaponManager::InventoryReservation()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01772">SendServerHandEventViaJuncture()</a>, <a class="el" href="../../df/d13/_emote_manager_8c_source.html#l00977">SetEmoteLockState()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01398">TakeToDst()</a>, <a class="el" href="../../da/d12/_junctures_8c_source.html#l00002">TryAcquireInventoryJunctureFromServer()</a>, and <a class="el" href="../../da/d12/_junctures_8c_source.html#l00029">TryAcquireTwoInventoryJuncturesFromServer()</a>.</p>
 
 </div>
 </div>
@@ -6457,9 +6616,9 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00645">645</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00684">684</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d2e/_item_base_8c_source.html#l00822">InventoryItem::CombineItemsClient()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00238">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01500">HandleForceSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01397">HandleSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01271">HandleTakeToDst()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00143">HandStateBase::OnEntry()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l01908">InventoryItem::OnRightClick()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00525">ProccessInputData()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00141">ReserveInventory()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00528">HandEventBase::ReserveInventory()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00053">DeferredSwapEntities::ReserveInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2e/_item_base_8c_source.html#l00822">InventoryItem::CombineItemsClient()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00238">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01710">HandleForceSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01607">HandleSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01481">HandleTakeToDst()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00143">HandStateBase::OnEntry()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l01863">InventoryItem::OnRightClick()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00158">ReserveInventory()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00614">HandEventBase::ReserveInventory()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00053">DeferredSwapEntities::ReserveInventory()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00985">ValidateSwap()</a>.</p>
 
 </div>
 </div>
@@ -6485,9 +6644,9 @@ entity at the location, null otherwise </dd></dl>
 
 <p>anti-cheats </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00744">744</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00783">783</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00183">HandEventBase::CheckRequest()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00553">HandEventSwap::CheckRequest()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00172">HandEventBase::CheckRequestSrc()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01942">PlayerCheckSwapItemsRequest()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00525">ProccessInputData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00200">HandEventBase::CheckRequest()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00639">HandEventSwap::CheckRequest()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00189">HandEventBase::CheckRequestSrc()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l02173">PlayerCheckSwapItemsRequest()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01178">ValidateDestroy()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00985">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00662">ValidateSyncMove()</a>.</p>
 
 </div>
 </div>
@@ -6511,9 +6670,9 @@ entity at the location, null otherwise </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00050">50</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00078">78</a> of file <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html">Inventory.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00329">GetInventoryCheckContext()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00334">LocationCanMoveEntitySyncCheck()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00358">GetInventoryCheckContext()</a>, and <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00363">LocationCanMoveEntitySyncCheck()</a>.</p>
 
 </div>
 </div>

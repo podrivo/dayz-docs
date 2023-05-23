@@ -15,6 +15,7 @@ var dir_18fad066fd79374d8ace76518c0324e0 =
     [ "KeysToUIElements.c", "d2/daf/_keys_to_u_i_elements_8c.html", "d2/daf/_keys_to_u_i_elements_8c" ],
     [ "LogTemplates.c", "da/d1e/_log_templates_8c.html", "da/d1e/_log_templates_8c" ],
     [ "SimpleMovingAverage.c", "d6/d6f/_simple_moving_average_8c.html", "d6/d6f/_simple_moving_average_8c" ],
+    [ "TimeConversions.c", "d7/d4c/_time_conversions_8c.html", "d7/d4c/_time_conversions_8c" ],
     [ "tools.c", "df/dc2/3___game_2tools_2tools_8c.html", "df/dc2/3___game_2tools_2tools_8c" ],
     [ "UIManager.c", "d0/dd4/_u_i_manager_8c.html", "d0/dd4/_u_i_manager_8c" ],
     [ "UIScriptedMenu.c", "dc/dd1/_u_i_scripted_menu_8c.html", "dc/dd1/_u_i_scripted_menu_8c" ],

@@ -30,6 +30,7 @@ var _emote_manager_8c =
     [ "IsEmotePlaying", "df/d13/_emote_manager_8c.html#aadfe183ed4d51be93c773b744829adb3", null ],
     [ "KillPlayer", "df/d13/_emote_manager_8c.html#a7fba70b6c260389b99d65b8023a4405f", null ],
     [ "LogSuicide", "df/d13/_emote_manager_8c.html#ad15c3ca461d25fe08266aed66189a620", null ],
+    [ "OnCallbackEnd", "df/d13/_emote_manager_8c.html#a7cb3ecf9ab61f022cb6703b95bbef807", null ],
     [ "OnEmoteEnd", "df/d13/_emote_manager_8c.html#a84025fb82d5f7da5b1083eb6ad1bbc3e", null ],
     [ "OnInputUserDataProcess", "df/d13/_emote_manager_8c.html#a70d9cd75f20035781d56a136d24dd364", null ],
     [ "OnSyncJuncture", "df/d13/_emote_manager_8c.html#aa9f467ca28793891f46ceb7aae086baf", null ],

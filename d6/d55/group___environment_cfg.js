@@ -46,5 +46,6 @@ var group___environment_cfg =
     [ "GameConstants::ENVIRO_WET_PASSTHROUGH_COEF", "d6/d55/group___environment_cfg.html#ga341af6b1e58ff411125d5dae46c991c4", null ],
     [ "GameConstants::ENVIRO_WET_PENALTY", "d6/d55/group___environment_cfg.html#ga315600bbc7b9834d3ca75eb32e5d2202", null ],
     [ "GameConstants::ENVIRO_WIND_EFFECT", "d6/d55/group___environment_cfg.html#gaa04b105b4636af88fd5942fb35990979", null ],
-    [ "GameConstants::FIRE_ATTACHMENT_DAMAGE_PER_SECOND", "d6/d55/group___environment_cfg.html#gae2cdedd022de5904984cc90685fc6aac", null ]
+    [ "GameConstants::FIRE_ATTACHMENT_DAMAGE_PER_SECOND", "d6/d55/group___environment_cfg.html#gae2cdedd022de5904984cc90685fc6aac", null ],
+    [ "GameConstants::LIQUID_RAIN_AMOUNT_COEF_BASE", "d6/d55/group___environment_cfg.html#ga41a8e268414525aab2019136dd096e50", null ]
 ];

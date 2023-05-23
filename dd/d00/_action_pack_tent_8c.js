@@ -7,6 +7,7 @@ var _action_pack_tent_8c =
     [ "CreateActionComponent", "dd/d00/_action_pack_tent_8c.html#accfb238782010198bdb5128a8ee44300", null ],
     [ "CreateActionData", "dd/d00/_action_pack_tent_8c.html#a5e0f63043b33849610c0ad517a105a80", null ],
     [ "CreateConditionComponents", "dd/d00/_action_pack_tent_8c.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
+    [ "GetAdminLogMessage", "dd/d00/_action_pack_tent_8c.html#a5cf7c0a3bd1ed2154d3b917244047a40", null ],
     [ "GetInputType", "dd/d00/_action_pack_tent_8c.html#ab6eb153abc42e514909126c621d01280", null ],
     [ "HasAlternativeInterrupt", "dd/d00/_action_pack_tent_8c.html#a8776280df4c7e336f026407579b68872", null ],
     [ "HasProgress", "dd/d00/_action_pack_tent_8c.html#a6201cf1bf986bd9c1f571cb58a6946ed", null ],

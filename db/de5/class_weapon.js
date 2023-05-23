@@ -75,6 +75,7 @@ var class_weapon =
     [ "SetActions", "db/de5/class_weapon.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SetBayonetAttached", "db/de5/class_weapon.html#aabb4a99c4eb03a75338db7a89c5af357", null ],
     [ "SetButtstockAttached", "db/de5/class_weapon.html#aa06d22f3fdc0b43581c6c60df3ca4de7", null ],
+    [ "SetInitialState", "db/de5/class_weapon.html#ad4b676f843921177cdeaa5e96b4d2fc3", null ],
     [ "SetJammed", "db/de5/class_weapon.html#aec50909567e19cf8fca816f4b4b50f70", null ],
     [ "SetSyncJammingChance", "db/de5/class_weapon.html#a70ff81c1a7fb5a8f91acdb99c9668d8c", null ],
     [ "SetWeaponAnimState", "db/de5/class_weapon.html#a22504f12244865af807aa041f2026255", null ],

@@ -1,4 +1,4 @@
 var _t_t_s_k_o_boots_8c =
 [
-    [ "Clothing", "d8/db4/class_clothing.html", "d8/db4/class_clothing" ]
+    [ "Shoes_Base", "d9/d8f/class_shoes___base.html", "d9/d8f/class_shoes___base" ]
 ];

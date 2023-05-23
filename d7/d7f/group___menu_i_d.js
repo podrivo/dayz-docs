@@ -6,6 +6,7 @@ var group___menu_i_d =
     [ "CFG_RECIPESPATH", "d7/d7f/group___menu_i_d.html#ga4d4ca51b62b3fa2234f86fd880e54c77", null ],
     [ "CFG_SOUND_SETS", "d7/d7f/group___menu_i_d.html#ga211a517afa656faa4d6f2eed798e267d", null ],
     [ "CFG_SOUND_SHADERS", "d7/d7f/group___menu_i_d.html#ga73376d541365726559d550fb99599391", null ],
+    [ "CFG_SOUND_TABLES", "d7/d7f/group___menu_i_d.html#gabbfcb77b5be86e5cd5c418c2c5eaf100", null ],
     [ "CFG_SURFACES", "d7/d7f/group___menu_i_d.html#gac67e6f161d35492088b74f34f92454ea", null ],
     [ "CFG_VEHICLESPATH", "d7/d7f/group___menu_i_d.html#ga4eefa6610d914e19744cb7e377171479", null ],
     [ "CFG_WEAPONSPATH", "d7/d7f/group___menu_i_d.html#gade71505908fa8ae2b1f0da309770c68a", null ],

@@ -57,5 +57,6 @@ var class_u_a_time_spent =
     [ "UNLOCK", "d8/d3b/class_u_a_time_spent.html#a9be4bfbbc6a9768e89b7becdee1b57ed", null ],
     [ "UNPACK", "d8/d3b/class_u_a_time_spent.html#a6abb071ca76690b3aaf5a13353b9bd08", null ],
     [ "UNRESTRAIN", "d8/d3b/class_u_a_time_spent.html#a48cf6a3c0a271c31bcc31584302c0d66", null ],
-    [ "WASH_HANDS", "d8/d3b/class_u_a_time_spent.html#aa8fbe25adb788bf2d926697854fe3ac0", null ]
+    [ "WASH_HANDS", "d8/d3b/class_u_a_time_spent.html#aa8fbe25adb788bf2d926697854fe3ac0", null ],
+    [ "WRING", "d8/d3b/class_u_a_time_spent.html#a334b52ecaeb92cecadbbe6e26ce88e83", null ]
 ];

@@ -1,4 +1,4 @@
 var _chest_holster_8c =
 [
-    [ "Clothing", "d8/db4/class_clothing.html", "d8/db4/class_clothing" ]
+    [ "Vest_Base", "d1/d9c/class_vest___base.html", "d1/d9c/class_vest___base" ]
 ];

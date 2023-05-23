@@ -1,4 +1,4 @@
 var _wooden_stick_8c =
 [
-    [ "ItemBase", "de/d7a/class_item_base.html", "de/d7a/class_item_base" ]
+    [ "WoodenStick", "d4/d18/class_wooden_stick.html", "d4/d18/class_wooden_stick" ]
 ];

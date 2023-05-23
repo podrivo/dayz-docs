@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -521,6 +521,8 @@ Functions</h2></td></tr>
 <tr class="separator:a65239e419e4ab512dc52cebbc13879ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eb9b7fb9e3c0d14a544dbf3af3beb93"><td class="memItemLeft" align="right" valign="top">proto static native <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a0eb9b7fb9e3c0d14a544dbf3af3beb93">DebugGetLadderIndex</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pComponentName)</td></tr>
 <tr class="separator:a0eb9b7fb9e3c0d14a544dbf3af3beb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e99beddf5c2c4516545ef3abce3eb7"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a81e99beddf5c2c4516545ef3abce3eb7">GetLogoutPosition</a> ()</td></tr>
+<tr class="separator:a81e99beddf5c2c4516545ef3abce3eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52c6536e632c2b4a374f4d8e1b482668"><td class="memItemLeft" align="right" valign="top">private void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a52c6536e632c2b4a374f4d8e1b482668">~HumanCommandSwim</a> ()</td></tr>
 <tr class="separator:a52c6536e632c2b4a374f4d8e1b482668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e8c8f464420e0592dd716a7686db60"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a45e8c8f464420e0592dd716a7686db60">StopSwimming</a> ()</td></tr>
@@ -694,6 +696,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac5c0e3dbf36c05de5752ef58c66520f6"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="../../d4/d9e/human_8c.html#a380429493fa82083820b0d118f7ffef8">HumanMoveCommandID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#ac5c0e3dbf36c05de5752ef58c66520f6">GetTransformWS</a> (out <a class="el" href="../../d7/dfc/classvector.html">vector</a> pTm[4])</td></tr>
 <tr class="memdesc:ac5c0e3dbf36c05de5752ef58c66520f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets human transform in <a class="el" href="../../d3/d21/class_world.html">World</a> Space  <br /></td></tr>
 <tr class="separator:ac5c0e3dbf36c05de5752ef58c66520f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b80681a40df4a31e9b31a08f5b59df"><td class="memItemLeft" align="right" valign="top">proto <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a39b80681a40df4a31e9b31a08f5b59df">CollisionMoveTest</a> (<a class="el" href="../../d7/dfc/classvector.html">vector</a> dir, <a class="el" href="../../d7/dfc/classvector.html">vector</a> offset, <a class="el" href="../../d4/dc3/classfloat.html">float</a> xzScale, <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> ignoreEntity, out <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> hitEntity, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> hitPosition, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> hitNormal)</td></tr>
+<tr class="memdesc:a39b80681a40df4a31e9b31a08f5b59df"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes test if character can physically move in given direction - length of dir means distance, returns distance fraction  <br /></td></tr>
+<tr class="separator:a39b80681a40df4a31e9b31a08f5b59df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a986df4f78e7ccf6e054e1946bd86c5"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a9a986df4f78e7ccf6e054e1946bd86c5">LinkToLocalSpaceOf</a> (notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> child, <a class="el" href="../../d7/dfc/classvector.html">vector</a> pLocalSpaceMatrix[4])</td></tr>
 <tr class="separator:a9a986df4f78e7ccf6e054e1946bd86c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0285b5f95ad9afe042dfda5b4f74fa8"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#ab0285b5f95ad9afe042dfda5b4f74fa8">UnlinkFromLocalSpace</a> ()</td></tr>
@@ -701,27 +706,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a97fcb2d37001b1e9aee457e3514f423f"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a97fcb2d37001b1e9aee457e3514f423f">GetBoneIndexByName</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pBoneName)</td></tr>
 <tr class="memdesc:a97fcb2d37001b1e9aee457e3514f423f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns bone index for a name (-1 if pBoneName doesn't exist)  <br /></td></tr>
 <tr class="separator:a97fcb2d37001b1e9aee457e3514f423f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af081ff3da1080c8e6a0eae1b3d5aa714"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#af081ff3da1080c8e6a0eae1b3d5aa714">GetBonePositionLS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex)</td></tr>
-<tr class="memdesc:af081ff3da1080c8e6a0eae1b3d5aa714"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns local space, model space, world space position of the bone  <br /></td></tr>
-<tr class="separator:af081ff3da1080c8e6a0eae1b3d5aa714"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a244d9b2297a0f0e9c64358ec89d34e34"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a244d9b2297a0f0e9c64358ec89d34e34">GetBonePositionMS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex)</td></tr>
-<tr class="separator:a244d9b2297a0f0e9c64358ec89d34e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95fc742b7298a698f4ae37221e7c8ec3"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a95fc742b7298a698f4ae37221e7c8ec3">GetBonePositionWS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex)</td></tr>
-<tr class="separator:a95fc742b7298a698f4ae37221e7c8ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8006220b4b8926c7e9722402350d79a9"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a8006220b4b8926c7e9722402350d79a9">GetBoneRotationLS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> pQuat[4])</td></tr>
-<tr class="memdesc:a8006220b4b8926c7e9722402350d79a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns local space, model space, world space orientation (quaternion) of a bone  <br /></td></tr>
-<tr class="separator:a8006220b4b8926c7e9722402350d79a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac727a412dd20a87265781debb6bd7308"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#ac727a412dd20a87265781debb6bd7308">GetBoneRotationMS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> pQuat[4])</td></tr>
-<tr class="separator:ac727a412dd20a87265781debb6bd7308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5744248d4fa174b1dec3b7cf4c152091"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a5744248d4fa174b1dec3b7cf4c152091">GetBoneRotationWS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> pQuat[4])</td></tr>
-<tr class="separator:a5744248d4fa174b1dec3b7cf4c152091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e50b1dc5cd8ca82a1282461f9dd5132"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a8e50b1dc5cd8ca82a1282461f9dd5132">GetBoneTransformLS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> pTm[4])</td></tr>
-<tr class="memdesc:a8e50b1dc5cd8ca82a1282461f9dd5132"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns local space, model space, world space orientation (quaternion) of a bone  <br /></td></tr>
-<tr class="separator:a8e50b1dc5cd8ca82a1282461f9dd5132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9657d69c8d7c083ab0b97ffabf34064b"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a9657d69c8d7c083ab0b97ffabf34064b">GetBoneTransformMS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> pTm[4])</td></tr>
-<tr class="separator:a9657d69c8d7c083ab0b97ffabf34064b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745de545f22b32f46bb5f10b7b62f85d"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a745de545f22b32f46bb5f10b7b62f85d">GetBoneTransformWS</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pBoneIndex, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> pTm[4])</td></tr>
-<tr class="separator:a745de545f22b32f46bb5f10b7b62f85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e9dcc91cec2ef172655ffeafbec6d3"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../de/d2d/class_human_anim_interface.html">HumanAnimInterface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#ac1e9dcc91cec2ef172655ffeafbec6d3">GetAnimInterface</a> ()</td></tr>
 <tr class="memdesc:ac1e9dcc91cec2ef172655ffeafbec6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns animation interface - usable in HumanCommandScript implementations  <br /></td></tr>
 <tr class="separator:ac1e9dcc91cec2ef172655ffeafbec6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -740,7 +724,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ad925d10b790782c53529492b21c0266e"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d7/d1b/class_human_input_controller.html">HumanInputController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#ad925d10b790782c53529492b21c0266e">GetInputController</a> ()</td></tr>
 <tr class="memdesc:ad925d10b790782c53529492b21c0266e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns human input controller  <br /></td></tr>
 <tr class="separator:ad925d10b790782c53529492b21c0266e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa5f38611e06e02e0fa77b1fb3bf3b2"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d1/da1/humanitems_8h.html#a5c248c2e34602185cc10725217f92ed4">HumanItemAccessor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#adfa5f38611e06e02e0fa77b1fb3bf3b2">GetItemAccessor</a> ()</td></tr>
+<tr class="memitem:adfa5f38611e06e02e0fa77b1fb3bf3b2"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../de/df8/humanitems_8c.html#a5c248c2e34602185cc10725217f92ed4">HumanItemAccessor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#adfa5f38611e06e02e0fa77b1fb3bf3b2">GetItemAccessor</a> ()</td></tr>
 <tr class="separator:adfa5f38611e06e02e0fa77b1fb3bf3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08aa91f58be3514543cfb8580475c316"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a08aa91f58be3514543cfb8580475c316">GetMovementState</a> (<a class="el" href="../../d2/d1b/class_human_movement_state.html">HumanMovementState</a> pState)</td></tr>
 <tr class="memdesc:a08aa91f58be3514543cfb8580475c316"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns movement state (current command id, )  <br /></td></tr>
@@ -1015,7 +999,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:a0646359a1660fc604cf395394bbc8df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">current command's id  <br /></td></tr>
 <tr class="separator:a0646359a1660fc604cf395394bbc8df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a353a5502d0613934758a42ea60bb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a59a353a5502d0613934758a42ea60bb4">m_iMovement</a></td></tr>
-<tr class="memdesc:a59a353a5502d0613934758a42ea60bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">current stance (DayZPlayer.STANCEIDX_ERECT, ...), only if the command has a stance  <br /></td></tr>
+<tr class="memdesc:a59a353a5502d0613934758a42ea60bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">current stance (DayZPlayerConstants.STANCEIDX_ERECT, ...), only if the command has a stance  <br /></td></tr>
 <tr class="separator:a59a353a5502d0613934758a42ea60bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c8ddbef4894cfa7449386ca319283e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9e/human_8c.html#a5c8ddbef4894cfa7449386ca319283e0">m_fLeaning</a></td></tr>
 <tr class="memdesc:a5c8ddbef4894cfa7449386ca319283e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">current movement (0 idle, 1 walk, 2-run, 3-sprint), only if the command has a movement  <br /></td></tr>
@@ -1071,7 +1055,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00267">267</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00270">270</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1087,7 +1071,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00266">266</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00269">269</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1103,7 +1087,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00265">265</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00268">268</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1113,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ade8fe15ec4ea2fe06f6b884b0e870c53a0c51b3578c448f341d57d1584e79186b" name="ade8fe15ec4ea2fe06f6b884b0e870c53a0c51b3578c448f341d57d1584e79186b"></a>STATE_FINISH&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00743">743</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00750">750</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1148,7 +1132,7 @@ Variables</h2></td></tr>
 <p>do not process rotations ! </p>
 <p>used in script-side identification of animation commands on human (swim, fall, move...) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01224">1224</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01231">1231</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1168,7 +1152,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a896b52d6c637022ad55d8504a8b79ddca1444a7db2da43a9ebda0a29b7428daf2" name="a896b52d6c637022ad55d8504a8b79ddca1444a7db2da43a9ebda0a29b7428daf2"></a>CHAMBERINGLOADER_CLOSED&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00880">880</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00887">887</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1208,7 +1192,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6a33c0b8bed2b0654c3a8b8edd8acc50aadd73293bca9a59d86b221f31c5593b0" name="a6a33c0b8bed2b0654c3a8b8edd8acc50aadd73293bca9a59d86b221f31c5593b0"></a>CHAMBERING_CROSSBOW_FULL&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00850">850</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00857">857</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1216,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="afb47cd06a4c376f519f3881f5ebeec9aa1e9d7a1eb28407e1c5a8d6ba72503ca7" name="afb47cd06a4c376f519f3881f5ebeec9aa1e9d7a1eb28407e1c5a8d6ba72503ca7"></a>FIRE_JAM&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00894">894</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00901">901</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1252,7 +1236,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a4e9fadae564c926df9f0f183c7e70740a5acecf100241a6a370ccc3b2b55b9c8f" name="a4e9fadae564c926df9f0f183c7e70740a5acecf100241a6a370ccc3b2b55b9c8f"></a>RELOADRIFLE_CLIP_BULLET&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00835">835</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00842">842</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1292,7 +1276,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ac962727aac6f2c20ed4fb835b64e020da3a382f43f11c13c676755a409a468cea" name="ac962727aac6f2c20ed4fb835b64e020da3a382f43f11c13c676755a409a468cea"></a>RELOADSRIFLE_NOMAGAZINE_NOBULLET&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00806">806</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00813">813</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1323,7 +1307,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a70aa34d22d03160ea5e3d5248cd37093a369e4c7218568f1409bc7c9bb651069a" name="a70aa34d22d03160ea5e3d5248cd37093a369e4c7218568f1409bc7c9bb651069a"></a>RELOAD_CLIP&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00790">790</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00797">797</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1345,7 +1329,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ae97094a3f94e0a3a6088f6fc8516a651a172bbb9cd54b57260ec7b3889cc57333" name="ae97094a3f94e0a3a6088f6fc8516a651a172bbb9cd54b57260ec7b3889cc57333"></a>UNJAMMING_INTERRUPT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00886">886</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00893">893</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1371,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a763b090f1db0bdd5a3effbd989728d13a3602381440da995eaffb3d985af4f72b" name="a763b090f1db0bdd5a3effbd989728d13a3602381440da995eaffb3d985af4f72b"></a>CYLINDER_ROTATE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00937">937</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00944">944</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1415,7 +1399,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6b15728a36ee492cf908f655fd1e7150a1e08541535b6c9d9cfcca0b1a0d45c49" name="a6b15728a36ee492cf908f655fd1e7150a1e08541535b6c9d9cfcca0b1a0d45c49"></a>HIDESHOW_SLOT_INVENTORY&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00904">904</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00911">911</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -1448,7 +1432,7 @@ Variables</h2></td></tr>
 
 <p>adds action command modifier, creates callback instance for you </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -1481,7 +1465,7 @@ Variables</h2></td></tr>
 <p>&mdash; modifier for light Damages </p>
 <p>starts additive damage </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02354">DayZPlayer::CommandHandlerDebug()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01120">DayZPlayer::HandleDamageHit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02319">DayZPlayer::CommandHandlerDebug()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01108">DayZPlayer::HandleDamageHit()</a>.</p>
 
 </div>
 </div>
@@ -1700,6 +1684,66 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39b80681a40df4a31e9b31a08f5b59df" name="a39b80681a40df4a31e9b31a08f5b59df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b80681a40df4a31e9b31a08f5b59df">&#9670;&#160;</a></span>CollisionMoveTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto <a class="el" href="../../d4/dc3/classfloat.html">float</a> CollisionMoveTest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>xzScale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>ignoreEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>hitEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>hitPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>hitNormal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>makes test if character can physically move in given direction - length of dir means distance, returns distance fraction </p>
 
 </div>
 </div>
@@ -1975,7 +2019,7 @@ Variables</h2></td></tr>
 
 <p>system implemented cancel condition (now raise or sprint cancels action) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, and <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00089">HumanCommandActionCallback::CancelCondition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, and <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00118">HumanCommandActionCallback::CancelCondition()</a>.</p>
 
 </div>
 </div>
@@ -2077,7 +2121,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>enables calling cancel condition default is disabled when enabled - there must be a function "bool CancelCondition()" implemented </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00009">ActionUnfoldMapCB::ActionUnfoldMapCB()</a>, <a class="el" href="../../d8/d2f/_state_c_b_8c_source.html#l00017">HumanCommandActionCallback::Init()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00071">ActionContinuousBaseCB::InitActionComponent()</a>, and <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00029">ActionInteractLoopBaseCB::InitActionComponent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00009">ActionUnfoldMapCB::ActionUnfoldMapCB()</a>, <a class="el" href="../../d8/d2f/_state_c_b_8c_source.html#l00017">HumanCommandActionCallback::Init()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00071">ActionContinuousBaseCB::InitActionComponent()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00029">ActionInteractLoopBaseCB::InitActionComponent()</a>, and <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00075">HumanCommandActionCallback::PluginDayzPlayerActionCallback()</a>.</p>
 
 </div>
 </div>
@@ -2098,7 +2142,7 @@ Variables</h2></td></tr>
 
 <p>enables state change callback OnStateChange </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00009">ActionUnfoldMapCB::ActionUnfoldMapCB()</a>, <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00038">CreateActionComponent()</a>, <a class="el" href="../../d6/d73/_action_read_paper_8c_source.html#l00003">ActionReadPaperCB::CreateActionComponent()</a>, and <a class="el" href="../../d9/db1/_action_write_paper_8c_source.html#l00003">ActionWritePaperCB::CreateActionComponent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00009">ActionUnfoldMapCB::ActionUnfoldMapCB()</a>, <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00038">CreateActionComponent()</a>, <a class="el" href="../../d6/d73/_action_read_paper_8c_source.html#l00003">ActionReadPaperCB::CreateActionComponent()</a>, <a class="el" href="../../d9/db1/_action_write_paper_8c_source.html#l00003">ActionWritePaperCB::CreateActionComponent()</a>, and <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00075">HumanCommandActionCallback::PluginDayzPlayerActionCallback()</a>.</p>
 
 </div>
 </div>
@@ -2233,238 +2277,6 @@ Variables</h2></td></tr>
 
 <p>returns bone index for a name (-1 if pBoneName doesn't exist) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01047">DayZInfected::GetCenter()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08888">ManBase::GetCenter()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08599">ManBase::SetDecayEffects()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06398">ManBase::SpawnBreathVaporEffect()</a>.</p>
-
-</div>
-</div>
-<a id="af081ff3da1080c8e6a0eae1b3d5aa714" name="af081ff3da1080c8e6a0eae1b3d5aa714"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af081ff3da1080c8e6a0eae1b3d5aa714">&#9670;&#160;</a></span>GetBonePositionLS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a> GetBonePositionLS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns local space, model space, world space position of the bone </p>
-
-</div>
-</div>
-<a id="a244d9b2297a0f0e9c64358ec89d34e34" name="a244d9b2297a0f0e9c64358ec89d34e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a244d9b2297a0f0e9c64358ec89d34e34">&#9670;&#160;</a></span>GetBonePositionMS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a> GetBonePositionMS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a95fc742b7298a698f4ae37221e7c8ec3" name="a95fc742b7298a698f4ae37221e7c8ec3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95fc742b7298a698f4ae37221e7c8ec3">&#9670;&#160;</a></span>GetBonePositionWS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a> GetBonePositionWS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01047">DayZInfected::GetCenter()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08888">ManBase::GetCenter()</a>.</p>
-
-</div>
-</div>
-<a id="a8006220b4b8926c7e9722402350d79a9" name="a8006220b4b8926c7e9722402350d79a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8006220b4b8926c7e9722402350d79a9">&#9670;&#160;</a></span>GetBoneRotationLS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native void GetBoneRotationLS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
-          <td class="paramname"><em>pQuat</em>[4]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns local space, model space, world space orientation (quaternion) of a bone </p>
-
-</div>
-</div>
-<a id="ac727a412dd20a87265781debb6bd7308" name="ac727a412dd20a87265781debb6bd7308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac727a412dd20a87265781debb6bd7308">&#9670;&#160;</a></span>GetBoneRotationMS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native void GetBoneRotationMS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
-          <td class="paramname"><em>pQuat</em>[4]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5744248d4fa174b1dec3b7cf4c152091" name="a5744248d4fa174b1dec3b7cf4c152091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5744248d4fa174b1dec3b7cf4c152091">&#9670;&#160;</a></span>GetBoneRotationWS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native void GetBoneRotationWS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
-          <td class="paramname"><em>pQuat</em>[4]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8e50b1dc5cd8ca82a1282461f9dd5132" name="a8e50b1dc5cd8ca82a1282461f9dd5132"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e50b1dc5cd8ca82a1282461f9dd5132">&#9670;&#160;</a></span>GetBoneTransformLS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native void GetBoneTransformLS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
-          <td class="paramname"><em>pTm</em>[4]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns local space, model space, world space orientation (quaternion) of a bone </p>
-
-</div>
-</div>
-<a id="a9657d69c8d7c083ab0b97ffabf34064b" name="a9657d69c8d7c083ab0b97ffabf34064b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9657d69c8d7c083ab0b97ffabf34064b">&#9670;&#160;</a></span>GetBoneTransformMS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native void GetBoneTransformMS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
-          <td class="paramname"><em>pTm</em>[4]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a745de545f22b32f46bb5f10b7b62f85d" name="a745de545f22b32f46bb5f10b7b62f85d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a745de545f22b32f46bb5f10b7b62f85d">&#9670;&#160;</a></span>GetBoneTransformWS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">proto native void GetBoneTransformWS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
-          <td class="paramname"><em>pBoneIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
-          <td class="paramname"><em>pTm</em>[4]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="a53bead9db11ce13f4e818890ce72bd8d" name="a53bead9db11ce13f4e818890ce72bd8d"></a>
@@ -2520,7 +2332,7 @@ Variables</h2></td></tr>
 
 <p>is human is in command action - returns its callback, if current command is action </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03370">ManBase::BrokenLegForceProne()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03405">ManBase::BrokenLegForceProne()</a>.</p>
 
 </div>
 </div>
@@ -2590,7 +2402,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -2609,7 +2421,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03246">DayZPlayer::ProcessSoundEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06631">ManBase::OnStoreSave()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03167">DayZPlayer::ProcessSoundEvent()</a>.</p>
 
 </div>
 </div>
@@ -2628,7 +2440,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04279">ManBase::OnQuickBarContinuousUseStart()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04171">ManBase::OnQuickBarSingleUse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04308">ManBase::OnQuickBarContinuousUseStart()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04200">ManBase::OnQuickBarSingleUse()</a>.</p>
 
 </div>
 </div>
@@ -2647,7 +2459,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01462">DayZPlayer::AimingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01306">DayZPlayer::EEHitBy()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01432">DayZPlayer::AimingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01288">DayZPlayer::EEHitBy()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>.</p>
 
 </div>
 </div>
@@ -2666,7 +2478,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03370">ManBase::BrokenLegForceProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03785">ManBase::CanRoll()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08895">ManBase::ContaminatedParticleAdjustment()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02605">ManBase::EEItemIntoHands()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00087">DayZInfected::EOnInit()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01233">ForceStandUpForHeavyItems()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00460">DayZInfected::HandleMindStateChange()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01383">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04921">ManBase::IsRolling()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02570">ManBase::UpdateMovementInertia()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03405">ManBase::BrokenLegForceProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03805">ManBase::CanRoll()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08998">ManBase::ContaminatedParticleAdjustment()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02644">ManBase::EEItemIntoHands()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00091">DayZInfected::EOnInit()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01270">ForceStandUpForHeavyItems()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00464">DayZInfected::HandleMindStateChange()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01353">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04950">ManBase::IsRolling()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02609">ManBase::UpdateMovementInertia()</a>.</p>
 
 </div>
 </div>
@@ -2721,7 +2533,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00580">DayZPlayer::GetTypeOfDeath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00592">DayZPlayer::GetTypeOfDeath()</a>.</p>
 
 </div>
 </div>
@@ -2740,7 +2552,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02522">DayZPlayer::CameraHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01120">DayZPlayer::HandleDamageHit()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00497">DayZPlayer::HandleDeath()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01383">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../d5/d71/_car_script_8c_source.html#l02293">IsInventoryVisible()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03629">ManBase::OnCommandVehicleStart()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07133">ManBase::ResetPlayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02454">DayZPlayer::CameraHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01108">DayZPlayer::HandleDamageHit()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00508">DayZPlayer::HandleDeath()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01353">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../d5/d71/_car_script_8c_source.html#l02321">IsInventoryVisible()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03672">ManBase::OnCommandVehicleStart()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07227">ManBase::ResetPlayer()</a>.</p>
 
 </div>
 </div>
@@ -2781,7 +2593,7 @@ Variables</h2></td></tr>
 <p>default (always-on modifiers) </p>
 <p>returns modifier for additives / small behaviours on human </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02354">DayZPlayer::CommandHandlerDebug()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06386">ManBase::ProcessADDModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02319">DayZPlayer::CommandHandlerDebug()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06407">ManBase::ProcessADDModifier()</a>.</p>
 
 </div>
 </div>
@@ -2819,7 +2631,7 @@ Variables</h2></td></tr>
 
 <p>returns interface for handling weapons </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02354">DayZPlayer::CommandHandlerDebug()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00338">DayZPlayer::ExitSights()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00861">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07847">ManBase::ProcessLiftWeapon()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07792">ManBase::SendLiftWeaponSync()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00304">DayZPlayer::SetIronsights()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00324">DayZPlayer::SetOptics()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02319">DayZPlayer::CommandHandlerDebug()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00331">DayZPlayer::ExitSights()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07947">ManBase::ProcessLiftWeapon()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07892">ManBase::SendLiftWeaponSync()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00297">DayZPlayer::SetIronsights()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00317">DayZPlayer::SetOptics()</a>.</p>
 
 </div>
 </div>
@@ -2995,7 +2807,7 @@ Variables</h2></td></tr>
 
 <p>returns human input controller </p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00450">DayZCreatureAI::CommandHandler()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00188">DayZInfected::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00306">DayZInfected::HandleMove()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01724">DayZPlayer::HandleView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00501">DayZCreatureAI::CommandHandler()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00192">DayZInfected::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00310">DayZInfected::HandleMove()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01689">DayZPlayer::HandleView()</a>.</p>
 
 </div>
 </div>
@@ -3006,7 +2818,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../d1/da1/humanitems_8h.html#a5c248c2e34602185cc10725217f92ed4">HumanItemAccessor</a> GetItemAccessor </td>
+          <td class="memname">proto native <a class="el" href="../../de/df8/humanitems_8c.html#a5c248c2e34602185cc10725217f92ed4">HumanItemAccessor</a> GetItemAccessor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3014,7 +2826,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01529">DayZPlayer::CanClimb()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01506">DayZPlayer::CanJump()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00497">DayZPlayer::HandleDeath()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01383">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07724">ManBase::HeadingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00842">DayZPlayer::OnItemInHandsChanged()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04139">ManBase::RefreshHandAnimationState()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08753">ManBase::TryHideItemInHands()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01499">DayZPlayer::CanClimb()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01476">DayZPlayer::CanJump()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00508">DayZPlayer::HandleDeath()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01353">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07824">ManBase::HeadingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00825">DayZPlayer::OnItemInHandsChanged()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04168">ManBase::RefreshHandAnimationState()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08856">ManBase::TryHideItemInHands()</a>.</p>
+
+</div>
+</div>
+<a id="a81e99beddf5c2c4516545ef3abce3eb7" name="a81e99beddf5c2c4516545ef3abce3eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81e99beddf5c2c4516545ef3abce3eb7">&#9670;&#160;</a></span>GetLogoutPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a> GetLogoutPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the safe logout position in worldspace the position is closest to the last possible exit point the player passed </p>
 
 </div>
 </div>
@@ -3036,7 +2866,7 @@ Variables</h2></td></tr>
 
 <p>returns movement state (current command id, ) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01462">DayZPlayer::AimingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02522">DayZPlayer::CameraHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01224">DayZPlayer::EvaluateDamageHitAnimation()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00861">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01383">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01195">IsPlayerInStance()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02963">DayZPlayer::OnStepEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01432">DayZPlayer::AimingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02454">DayZPlayer::CameraHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01210">DayZPlayer::EvaluateDamageHitAnimation()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01353">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00246">DayZPlayer::IsFireWeaponRaised()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01232">IsPlayerInStance()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02893">DayZPlayer::OnStepEvent()</a>.</p>
 
 </div>
 </div>
@@ -3061,7 +2891,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00027">ActionData::m_Action</a>, and <a class="el" href="../../d5/db9/_action_manager_base_8c_source.html#l00065">m_CurrentActionData</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01596">ManBase::CanBeRestrained()</a>, <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00530">ActionManagerClient::FindContextualUserActions()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07724">ManBase::HeadingModel()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04171">ManBase::OnQuickBarSingleUse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01614">ManBase::CanBeRestrained()</a>, <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00524">ActionManagerClient::FindContextualUserActions()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07824">ManBase::HeadingModel()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04200">ManBase::OnQuickBarSingleUse()</a>.</p>
 
 </div>
 </div>
@@ -3106,7 +2936,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00020">m_State</a>, and <a class="el" href="../../dd/d41/_hesco_box_8c_source.html#l00011">Inventory_Base::m_State</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00536">ItemBase::CanAttach()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00524">ItemBase::CanBeManipulated()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00511">ItemBase::CanBePacked()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00211">CanDisplayAttachmentSlot()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00488">FireworksLauncher::CanPutInCargo()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00493">FireworksLauncher::CanPutIntoHands()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00202">CanReceiveAttachment()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00237">ItemBase::EEHealthLevelChanged()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00380">GetStateString()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00429">ItemBase::GetViewIndex()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00955">ItemBase::HandleOpeningsPhysics()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00566">FireworksLauncher::IsIgnited()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00353">IsTakeable()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00387">FireworksLauncher::OnPlacementComplete()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00177">RefreshState()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00650">ItemBase::UpdatePhysics()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00380">UpdateProxySelections()</a>, and <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00623">ItemBase::UpdateVisuals()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00529">ItemBase::CanAttach()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00517">ItemBase::CanBeManipulated()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00504">ItemBase::CanBePacked()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00234">CanDisplayAttachmentSlot()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00488">FireworksLauncher::CanPutInCargo()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00493">FireworksLauncher::CanPutIntoHands()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00225">CanReceiveAttachment()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00232">ItemBase::EEHealthLevelChanged()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00383">GetStateString()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00422">ItemBase::GetViewIndex()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00948">ItemBase::HandleOpeningsPhysics()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00566">FireworksLauncher::IsIgnited()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00376">IsTakeable()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00387">FireworksLauncher::OnPlacementComplete()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00200">RefreshState()</a>, <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00643">ItemBase::UpdatePhysics()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c_source.html#l00403">UpdateProxySelections()</a>, and <a class="el" href="../../d7/dac/_tent_base_8c_source.html#l00616">ItemBase::UpdateVisuals()</a>.</p>
 
 </div>
 </div>
@@ -3127,11 +2957,11 @@ Variables</h2></td></tr>
 
 <p>returns debug string of current state </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00380">380</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00383">383</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l00380">GetStateString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00029">GetState()</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l00383">GetStateString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00380">GetStateString()</a>, and <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00105">HumanCommandActionCallback::OnStateChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00383">GetStateString()</a>, and <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00139">HumanCommandActionCallback::OnStateChange()</a>.</p>
 
 </div>
 </div>
@@ -3162,9 +2992,9 @@ Variables</h2></td></tr>
 <p>returns debug string of current state </p>
 <p>one time state</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">358</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">361</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9e/human_8c_source.html#l00345">STATE_LOOP_ACTION</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00342">STATE_LOOP_END</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00343">STATE_LOOP_END2</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00340">STATE_LOOP_IN</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00341">STATE_LOOP_LOOP</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00344">STATE_LOOP_LOOP2</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00337">STATE_NONE</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l00348">STATE_NORMAL</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9e/human_8c_source.html#l00348">STATE_LOOP_ACTION</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00345">STATE_LOOP_END</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00346">STATE_LOOP_END2</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00343">STATE_LOOP_IN</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00344">STATE_LOOP_LOOP</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00347">STATE_LOOP_LOOP2</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00340">STATE_NONE</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l00351">STATE_NORMAL</a>.</p>
 
 </div>
 </div>
@@ -3185,6 +3015,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>gets human transform in <a class="el" href="../../d3/d21/class_world.html">World</a> Space </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l01100">DayZInfected::AddArrow()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l09063">ManBase::AddArrow()</a>.</p>
 
 </div>
 </div>
@@ -3237,11 +3069,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00918">918</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00925">925</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/de4/_en_system_8c_source.html#l00345">A</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00722">ApplyExhaustion()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02354">DayZPlayer::CommandHandlerDebug()</a>, <a class="el" href="../../d7/d15/_weapon_start_action_8c_source.html#l00015">WeaponStateBase::OnEntry()</a>, <a class="el" href="../../d9/dbc/_smpt_anim_meta_8c_source.html#l00143">Play()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06386">ManBase::ProcessADDModifier()</a>, <a class="el" href="../../d9/dbc/_smpt_anim_meta_8c_source.html#l00169">Update()</a>, <a class="el" href="../../d9/dbc/_smpt_anim_meta_8c_source.html#l00194">SmptAnimMetaADD::Update()</a>, and <a class="el" href="../../d7/dc8/_player_preview_8c_source.html#l00083">PlayerPreview::UpdateInterval()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6b/_stamina_handler_8c_source.html#l00722">ApplyExhaustion()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02319">DayZPlayer::CommandHandlerDebug()</a>, <a class="el" href="../../d7/d15/_weapon_start_action_8c_source.html#l00015">WeaponStateBase::OnEntry()</a>, <a class="el" href="../../d9/dbc/_smpt_anim_meta_8c_source.html#l00143">Play()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06407">ManBase::ProcessADDModifier()</a>, <a class="el" href="../../d9/dbc/_smpt_anim_meta_8c_source.html#l00169">Update()</a>, <a class="el" href="../../d9/dbc/_smpt_anim_meta_8c_source.html#l00194">SmptAnimMetaADD::Update()</a>, and <a class="el" href="../../d7/dc8/_player_preview_8c_source.html#l00083">PlayerPreview::UpdateInterval()</a>.</p>
 
 </div>
 </div>
@@ -3260,7 +3092,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00785">785</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00792">792</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3279,7 +3111,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00600">600</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00603">603</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3298,7 +3130,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00577">577</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00580">580</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3317,9 +3149,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00517">517</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00520">520</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03699">ManBase::OnJumpEnd()</a>, and <a class="el" href="../../d4/d9e/human_8c.html#a32bd7fe7083a03792c69af16bd7bb146">SetDirectionSprintFilterModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03748">ManBase::OnJumpEnd()</a>, and <a class="el" href="../../d4/d9e/human_8c.html#a32bd7fe7083a03792c69af16bd7bb146">SetDirectionSprintFilterModifier()</a>.</p>
 
 </div>
 </div>
@@ -3338,7 +3170,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00656">656</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00663">663</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3357,7 +3189,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00411">411</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00414">414</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3376,7 +3208,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00563">563</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00566">566</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3395,7 +3227,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00502">502</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00505">505</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3414,9 +3246,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00624">624</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00627">627</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00414">DayZPlayerUtils::CheckWaterLevel()</a>, <a class="el" href="../../d7/df2/_emote_classes_8c_source.html#l00072">EmoteBase::EmoteCondition()</a>, <a class="el" href="../../dd/d6c/_day_z_player_implement_swimming_8c_source.html#l00023">DayZPlayerImplementSwimming::GetCharacterDepth()</a>, <a class="el" href="../../dd/d6c/_day_z_player_implement_swimming_8c_source.html#l00015">DayZPlayerImplementSwimming::GetWaterDepth()</a>, <a class="el" href="../../dd/d6c/_day_z_player_implement_swimming_8c_source.html#l00037">DayZPlayerImplementSwimming::HandleSwimming()</a>, and <a class="el" href="../../d1/de6/_action_fill_bottle_base_8c_source.html#l00102">ActionFillBottleBase::SetupStance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/da5/_day_z_player_utils_8c_source.html#l00429">CheckWaterLevel()</a>, <a class="el" href="../../d7/df2/_emote_classes_8c_source.html#l00072">EmoteBase::EmoteCondition()</a>, <a class="el" href="../../dd/d6c/_day_z_player_implement_swimming_8c_source.html#l00023">DayZPlayerImplementSwimming::GetCharacterDepth()</a>, <a class="el" href="../../dd/d6c/_day_z_player_implement_swimming_8c_source.html#l00015">DayZPlayerImplementSwimming::GetWaterDepth()</a>, <a class="el" href="../../dd/d6c/_day_z_player_implement_swimming_8c_source.html#l00037">DayZPlayerImplementSwimming::HandleSwimming()</a>, and <a class="el" href="../../d1/de6/_action_fill_bottle_base_8c_source.html#l00102">ActionFillBottleBase::SetupStance()</a>.</p>
 
 </div>
 </div>
@@ -3435,7 +3267,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00624">624</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00627">627</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3454,7 +3286,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01082">1082</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01089">1089</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3601,7 +3433,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00406">406</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00409">409</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3639,7 +3471,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01183">1183</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01190">1190</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3658,7 +3490,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01189">1189</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01196">1196</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3696,7 +3528,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03370">ManBase::BrokenLegForceProne()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03405">ManBase::BrokenLegForceProne()</a>.</p>
 
 </div>
 </div>
@@ -3753,7 +3585,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01195">1195</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01202">1202</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3774,7 +3606,7 @@ Variables</h2></td></tr>
 
 <p>return true if character transitions out of uncon </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01383">DayZPlayer::HeadingModel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01353">DayZPlayer::HeadingModel()</a>.</p>
 
 </div>
 </div>
@@ -3814,7 +3646,7 @@ Variables</h2></td></tr>
 
 <p>is modifier active </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00820">ManBase::EEHitBy()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06614">ManBase::SaveAreaPersistenceFlag()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00821">ManBase::EEHitBy()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06676">ManBase::SaveAreaPersistenceFlag()</a>.</p>
 
 </div>
 </div>
@@ -3870,9 +3702,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01171">1171</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01178">1178</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01596">ManBase::CanBeRestrained()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01529">DayZPlayer::CanClimb()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01506">DayZPlayer::CanJump()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04890">ManBase::CanSprint()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02605">ManBase::EEItemIntoHands()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01724">DayZPlayer::HandleView()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03011">ManBase::IsMapCallbackCancelInput()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04279">ManBase::OnQuickBarContinuousUseStart()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04171">ManBase::OnQuickBarSingleUse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01614">ManBase::CanBeRestrained()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01499">DayZPlayer::CanClimb()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01476">DayZPlayer::CanJump()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04919">ManBase::CanSprint()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02644">ManBase::EEItemIntoHands()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01689">DayZPlayer::HandleView()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03046">ManBase::IsMapCallbackCancelInput()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04308">ManBase::OnQuickBarContinuousUseStart()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04200">ManBase::OnQuickBarSingleUse()</a>.</p>
 
 </div>
 </div>
@@ -3891,7 +3723,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01177">1177</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01184">1184</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3929,7 +3761,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00411">411</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00414">414</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -3965,7 +3797,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00401">401</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00404">404</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -4056,9 +3888,9 @@ Variables</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>NON-MANAGED, will be managed by C++ once it is sent to the CommandHandler through Human.StartCommand_Script </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>So ideally, it is best to set up the HumanCommandScript, not create any instances and start it through Human.StartCommand_ScriptInst In case an instance needs to be created, it needs manual deletion if not sent to the CommandHandler But deleting it while it is in the CommandHandler will cause crashes constructor must have 1st parameter to be Human virtual to be overridden called when command starts </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01100">1100</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01107">1107</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00201">Activate()</a>, <a class="el" href="../../d0/d52/_antibiotics_8c_source.html#l00024">AntibioticsMdfr::OnReconnect()</a>, <a class="el" href="../../db/d99/_charcoal_mdfr_8c_source.html#l00023">CharcoalMdfr::OnReconnect()</a>, <a class="el" href="../../d1/d31/_fatigue_8c_source.html#l00036">FatigueMdfr::OnReconnect()</a>, <a class="el" href="../../d8/dc0/_fever_8c_source.html#l00030">FeverMdfr::OnReconnect()</a>, <a class="el" href="../../d5/d00/_hemolytic_reaction_8c_source.html#l00031">HemolyticReactionMdfr::OnReconnect()</a>, <a class="el" href="../../d4/d4d/_poisoning_8c_source.html#l00055">PoisoningMdfr::OnReconnect()</a>, <a class="el" href="../../d8/d25/_wet_8c_source.html#l00032">WetMdfr::OnReconnect()</a>, <a class="el" href="../../d7/d6c/_disinfect_mdfr_8c_source.html#l00023">DisinfectionMdfr::OnReconnect()</a>, <a class="el" href="../../d0/d89/_drowning_8c_source.html#l00051">DrowningMdfr::OnReconnect()</a>, <a class="el" href="../../d0/d42/_epinephrine_mdfr_8c_source.html#l00020">EpinephrineMdfr::OnReconnect()</a>, <a class="el" href="../../d3/d55/_flies_8c_source.html#l00058">FliesMdfr::OnReconnect()</a>, <a class="el" href="../../d3/df6/_immunity_boost_8c_source.html#l00022">ImmunityBoost::OnReconnect()</a>, <a class="el" href="../../d6/d38/_mask_8c_source.html#l00100">MaskMdfr::OnReconnect()</a>, <a class="el" href="../../db/dc6/_morphine_mdfr_8c_source.html#l00020">MorphineMdfr::OnReconnect()</a>, <a class="el" href="../../df/d9d/_pain_killers_mdfr_8c_source.html#l00020">PainKillersMdfr::OnReconnect()</a>, and <a class="el" href="../../dc/d41/_saline_8c_source.html#l00034">SalineMdfr::OnReconnect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00201">Activate()</a>, <a class="el" href="../../d0/d52/_antibiotics_8c_source.html#l00024">AntibioticsMdfr::OnReconnect()</a>, <a class="el" href="../../db/d99/_charcoal_mdfr_8c_source.html#l00023">CharcoalMdfr::OnReconnect()</a>, <a class="el" href="../../d1/d31/_fatigue_8c_source.html#l00036">FatigueMdfr::OnReconnect()</a>, <a class="el" href="../../d8/dc0/_fever_8c_source.html#l00031">FeverMdfr::OnReconnect()</a>, <a class="el" href="../../d5/d00/_hemolytic_reaction_8c_source.html#l00031">HemolyticReactionMdfr::OnReconnect()</a>, <a class="el" href="../../d4/d4d/_poisoning_8c_source.html#l00055">PoisoningMdfr::OnReconnect()</a>, <a class="el" href="../../d8/d25/_wet_8c_source.html#l00032">WetMdfr::OnReconnect()</a>, <a class="el" href="../../d7/d6c/_disinfect_mdfr_8c_source.html#l00023">DisinfectionMdfr::OnReconnect()</a>, <a class="el" href="../../d0/d89/_drowning_8c_source.html#l00040">DrowningMdfr::OnReconnect()</a>, <a class="el" href="../../d0/d42/_epinephrine_mdfr_8c_source.html#l00020">EpinephrineMdfr::OnReconnect()</a>, <a class="el" href="../../d3/d55/_flies_8c_source.html#l00058">FliesMdfr::OnReconnect()</a>, <a class="el" href="../../d3/df6/_immunity_boost_8c_source.html#l00022">ImmunityBoost::OnReconnect()</a>, <a class="el" href="../../d6/d38/_mask_8c_source.html#l00100">MaskMdfr::OnReconnect()</a>, <a class="el" href="../../db/dc6/_morphine_mdfr_8c_source.html#l00020">MorphineMdfr::OnReconnect()</a>, <a class="el" href="../../df/d9d/_pain_killers_mdfr_8c_source.html#l00020">PainKillersMdfr::OnReconnect()</a>, and <a class="el" href="../../dc/d41/_saline_8c_source.html#l00034">SalineMdfr::OnReconnect()</a>.</p>
 
 </div>
 </div>
@@ -4080,7 +3912,7 @@ Variables</h2></td></tr>
 
 <p>calls animation event -&gt; must be registered with RegisterAnimationEvent </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00391">391</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00394">394</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -4577,7 +4409,7 @@ Variables</h2></td></tr>
 
 <p>called when command ends </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01165">1165</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01172">1172</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00216">Deactivate()</a>.</p>
 
@@ -4601,7 +4433,7 @@ Variables</h2></td></tr>
 
 <p>called ALWAYS! when action is finished (normal finish or cancel -&gt; pCanceled) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00394">394</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00397">397</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -4655,7 +4487,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00603">603</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00606">606</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -4717,7 +4549,7 @@ Variables</h2></td></tr>
 
 <p>called when enabled by EnableStateChangeCallback and state changes, call <a class="el" href="../../d4/d9e/human_8c.html#acc3552021b812e2dceef0206918282a7" title="returns one of STATE_...">GetState()</a> to get actual state </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00397">397</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00400">400</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -4757,7 +4589,7 @@ Variables</h2></td></tr>
 
 <p>outs pVelocity - linear velocity of PHYSICS CONTROLLER </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03411">ManBase::BrokenLegWalkShock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03446">ManBase::BrokenLegWalkShock()</a>.</p>
 
 </div>
 </div>
@@ -4779,7 +4611,7 @@ Variables</h2></td></tr>
 
 <p>returns true if physics controller is falling </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -4835,7 +4667,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00497">DayZPlayer::HandleDeath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00508">DayZPlayer::HandleDeath()</a>.</p>
 
 </div>
 </div>
@@ -5307,7 +5139,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01116">1116</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01123">1123</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -5532,7 +5364,7 @@ Variables</h2></td></tr>
 
 <p>sets the multiplier for SHumanCommandMoveSettings::m_fDirFilterSprintTimeout </p>
 
-<p class="reference">References <a class="el" href="../../d4/d9e/human_8c_source.html#l00562">HumanCommandFall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9e/human_8c_source.html#l00565">HumanCommandFall()</a>.</p>
 
 </div>
 </div>
@@ -5771,7 +5603,7 @@ Variables</h2></td></tr>
 
 <p>'OnSimulationEnd' is called before this </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00606">606</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00609">609</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -5903,7 +5735,7 @@ Variables</h2></td></tr>
 <p>--&mdash; FullBody Damages --&mdash; </p>
 <p>starts fullbody damage </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02354">DayZPlayer::CommandHandlerDebug()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01120">DayZPlayer::HandleDamageHit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02319">DayZPlayer::CommandHandlerDebug()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01108">DayZPlayer::HandleDamageHit()</a>.</p>
 
 </div>
 </div>
@@ -5942,7 +5774,7 @@ Variables</h2></td></tr>
 <p>--&mdash; Death --&mdash; </p>
 <p>starts command - death </p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00540">DayZCreatureAI::HandleDeath()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00359">DayZInfected::HandleDeath()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00497">DayZPlayer::HandleDeath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00591">DayZCreatureAI::HandleDeath()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00363">DayZInfected::HandleDeath()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00508">DayZPlayer::HandleDeath()</a>.</p>
 
 </div>
 </div>
@@ -5965,7 +5797,7 @@ Variables</h2></td></tr>
 <p>--&mdash; FALL --&mdash; </p>
 <p>starts command - fall pYVelocity &lt;= 0 -&gt; fall pYVelocity &gt; 0 -&gt; jump </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -6081,7 +5913,7 @@ Variables</h2></td></tr>
 <p>returns current command ID </p>
 <p>--&mdash; MOVE --&mdash; starts command - Move </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03370">ManBase::BrokenLegForceProne()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00450">DayZCreatureAI::CommandHandler()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00188">DayZInfected::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03438">DayZPlayer::OverrideSlidePoseAngle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03405">ManBase::BrokenLegForceProne()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00501">DayZCreatureAI::CommandHandler()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00192">DayZInfected::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03358">DayZPlayer::OverrideSlidePoseAngle()</a>.</p>
 
 </div>
 </div>
@@ -6143,7 +5975,7 @@ Variables</h2></td></tr>
 <p>--&mdash; LADDER --&mdash; </p>
 <p>starts command - Swim </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -6165,7 +5997,7 @@ Variables</h2></td></tr>
 
 <p>starts command - unconscious </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -6210,7 +6042,7 @@ Variables</h2></td></tr>
 <p>--&mdash; VEHICLE --&mdash; </p>
 <p>starts command - vehicle </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -6378,7 +6210,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00497">DayZPlayer::HandleDeath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00508">DayZPlayer::HandleDeath()</a>.</p>
 
 </div>
 </div>
@@ -6499,9 +6331,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00918">918</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00925">925</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00356">HandleInventory()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00287">HandleWeaponEvents()</a>, <a class="el" href="../../d1/d55/_hand_start_action_8c_source.html#l00015">HandStateBase::OnEntry()</a>, and <a class="el" href="../../d7/d15/_weapon_start_action_8c_source.html#l00015">WeaponStateBase::OnEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00389">HandleInventory()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00320">HandleWeaponEvents()</a>, <a class="el" href="../../d1/d55/_hand_start_action_8c_source.html#l00015">HandStateBase::OnEntry()</a>, and <a class="el" href="../../d7/d15/_weapon_start_action_8c_source.html#l00015">WeaponStateBase::OnEntry()</a>.</p>
 
 </div>
 </div>
@@ -6554,7 +6386,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01082">1082</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01089">1089</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6573,7 +6405,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00786">786</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00793">793</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6592,7 +6424,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00624">624</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00627">627</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6611,7 +6443,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00600">600</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00603">603</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6630,7 +6462,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00563">563</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00566">566</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6649,7 +6481,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00785">785</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00792">792</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6668,7 +6500,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00657">657</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00664">664</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6687,7 +6519,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00502">502</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00505">505</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6706,7 +6538,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00564">564</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00567">567</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6725,7 +6557,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00503">503</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00506">506</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6744,7 +6576,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00656">656</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00663">663</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6763,7 +6595,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00625">625</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00628">628</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -6782,7 +6614,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01083">1083</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01090">1090</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7031,7 +6863,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00568">568</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00571">571</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7055,7 +6887,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00569">569</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00572">572</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7079,7 +6911,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00567">567</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00570">570</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7103,7 +6935,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00566">566</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00569">569</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7119,7 +6951,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00738">738</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00745">745</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7143,7 +6975,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00568">568</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00571">571</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7167,7 +6999,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00566">566</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00569">569</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7191,7 +7023,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00567">567</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00570">570</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7215,7 +7047,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00565">565</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00568">568</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7231,7 +7063,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00726">726</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00733">733</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7247,7 +7079,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00727">727</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00734">734</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7279,7 +7111,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00725">725</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00732">732</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7295,7 +7127,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00731">731</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00738">738</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7313,7 +7145,7 @@ Variables</h2></td></tr>
 
 <p>grab point for climb &amp;&amp; climb over (in local space of it's parent) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00732">732</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00739">739</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7331,7 +7163,7 @@ Variables</h2></td></tr>
 
 <p>where climb ends (in local space of it's parent) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00734">734</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00741">741</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7347,7 +7179,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00738">738</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00745">745</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7365,7 +7197,7 @@ Variables</h2></td></tr>
 
 <p>normal to grabpoint position (used for character orientation) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00733">733</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00740">740</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7383,7 +7215,7 @@ Variables</h2></td></tr>
 
 <p>parent of grabpoint </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00737">737</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00744">744</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7399,7 +7231,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01163">1163</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01170">1170</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7415,7 +7247,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00729">729</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00736">736</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7433,7 +7265,7 @@ Variables</h2></td></tr>
 
 <p>current movement (0 idle, 1 walk, 2-run, 3-sprint), only if the command has a movement </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01166">1166</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01173">1173</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7451,7 +7283,7 @@ Variables</h2></td></tr>
 
 <p>where climb over ends (in local space of it's parent) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00736">736</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00743">743</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7467,9 +7299,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>current stance (DayZPlayer.STANCEIDX_ERECT, ...), only if the command has a stance </p>
+<p>current stance (DayZPlayerConstants.STANCEIDX_ERECT, ...), only if the command has a stance </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01165">1165</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01172">1172</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7487,7 +7319,7 @@ Variables</h2></td></tr>
 
 <p>current command's id </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01164">1164</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01171">1171</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7505,7 +7337,7 @@ Variables</h2></td></tr>
 
 <p>leaning state (not all commands need to have all movements) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01168">1168</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l01175">1175</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -7603,9 +7435,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00345">345</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00348">348</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>.</p>
 
 </div>
 </div>
@@ -7629,9 +7461,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00342">342</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00345">345</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>, and <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00166">OnStateChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>, and <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00166">OnStateChange()</a>.</p>
 
 </div>
 </div>
@@ -7655,9 +7487,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00343">343</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00346">346</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>, and <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00166">OnStateChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>, and <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00166">OnStateChange()</a>.</p>
 
 </div>
 </div>
@@ -7683,9 +7515,9 @@ Variables</h2></td></tr>
 
 <p>looped state </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00340">340</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00343">343</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>, and <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00049">ActionUnfoldMapCB::OnStateChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>, and <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00049">ActionUnfoldMapCB::OnStateChange()</a>.</p>
 
 </div>
 </div>
@@ -7709,9 +7541,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00341">341</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00344">344</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>, <a class="el" href="../../d0/dc1/_action_view_compass_8c_source.html#l00009">ActionRaiseAndViewCB::OnStateChange()</a>, <a class="el" href="../../d6/d73/_action_read_paper_8c_source.html#l00013">ActionReadPaperCB::OnStateChange()</a>, <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00049">ActionUnfoldMapCB::OnStateChange()</a>, and <a class="el" href="../../d9/db1/_action_write_paper_8c_source.html#l00013">ActionWritePaperCB::OnStateChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>, <a class="el" href="../../d0/dc1/_action_view_compass_8c_source.html#l00009">ActionRaiseAndViewCB::OnStateChange()</a>, <a class="el" href="../../d6/d73/_action_read_paper_8c_source.html#l00013">ActionReadPaperCB::OnStateChange()</a>, <a class="el" href="../../d7/d7d/_action_unfold_map_8c_source.html#l00049">ActionUnfoldMapCB::OnStateChange()</a>, and <a class="el" href="../../d9/db1/_action_write_paper_8c_source.html#l00013">ActionWritePaperCB::OnStateChange()</a>.</p>
 
 </div>
 </div>
@@ -7735,9 +7567,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00344">344</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00347">347</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00006">ActionContinuousBaseCB::CancelCondition()</a>, <a class="el" href="../../d9/d37/_action_interact_loop_base_8c_source.html#l00004">ActionInteractLoopBaseCB::CancelCondition()</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>.</p>
 
 </div>
 </div>
@@ -7764,9 +7596,9 @@ Variables</h2></td></tr>
 <p>undef state - not running anymore </p>
 <p>example of implement of CancelCondition returns true it it should CANCEL the action </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00337">337</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00340">340</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>, <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00166">OnStateChange()</a>, <a class="el" href="../../d6/d73/_action_read_paper_8c_source.html#l00013">ActionReadPaperCB::OnStateChange()</a>, and <a class="el" href="../../d9/db1/_action_write_paper_8c_source.html#l00013">ActionWritePaperCB::OnStateChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>, <a class="el" href="../../d6/d5a/_action_fishing_new_8c_source.html#l00166">OnStateChange()</a>, <a class="el" href="../../d6/d73/_action_read_paper_8c_source.html#l00013">ActionReadPaperCB::OnStateChange()</a>, and <a class="el" href="../../d9/db1/_action_write_paper_8c_source.html#l00013">ActionWritePaperCB::OnStateChange()</a>.</p>
 
 </div>
 </div>
@@ -7792,9 +7624,9 @@ Variables</h2></td></tr>
 
 <p>one time state </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00348">348</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00351">351</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00358">GetStateString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9e/human_8c_source.html#l00361">GetStateString()</a>.</p>
 
 </div>
 </div>

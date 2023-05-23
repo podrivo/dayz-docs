@@ -1,9 +1,9 @@
 var class_pumpkin_helmet =
 [
     [ "PumpkinHelmet", "de/dc5/class_pumpkin_helmet.html#a5c28b007bb7ea029d0125a03eb2a756c", null ],
-    [ "CanPutAsAttachment", "de/dc5/class_pumpkin_helmet.html#abbd8d4142787998dba20c9b75567c440", null ],
     [ "EEHealthLevelChanged", "de/dc5/class_pumpkin_helmet.html#a56edaa75fb618ddf0aa2354f005cdd6e", null ],
     [ "EOnInit", "de/dc5/class_pumpkin_helmet.html#ab9cb1478eb08f9ce33c4549fd6e26b50", null ],
+    [ "InitGlobalExclusionValues", "de/dc5/class_pumpkin_helmet.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
     [ "OnItemLocationChanged", "de/dc5/class_pumpkin_helmet.html#a1320fa5889e47c848cbb7b33a142bda2", null ],
     [ "OnMovedInsideCargo", "de/dc5/class_pumpkin_helmet.html#ab8e92721ee40fa824c550bf17c70b212", null ],
     [ "OnMovedWithinCargo", "de/dc5/class_pumpkin_helmet.html#af1e55a8ecc02656ef299569b9a5bdb2d", null ],

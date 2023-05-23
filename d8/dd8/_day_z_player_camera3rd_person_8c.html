@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.20.155981 · Mar 28, 2023</div>
+   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -134,6 +134,8 @@ Functions</h2></td></tr>
 <tr class="separator:a33ce173bffe5efbb8e2e1af06a594805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed618b13e20b04013adc1077f0c233b1"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#aed618b13e20b04013adc1077f0c233b1">GetBaseAngles</a> ()</td></tr>
 <tr class="separator:aed618b13e20b04013adc1077f0c233b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28da4e9cac0075e822c78a1049f3da4c"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a28da4e9cac0075e822c78a1049f3da4c">GetAdditiveAngles</a> ()</td></tr>
+<tr class="separator:a28da4e9cac0075e822c78a1049f3da4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322c28308ebf9ace52023e44317ba09d"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a322c28308ebf9ace52023e44317ba09d">GetCameraName</a> ()</td></tr>
 <tr class="separator:a322c28308ebf9ace52023e44317ba09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a562cebe7ec110118d7e357695caa0a79"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a4a702d8cfe3b2fd17a6eac6c45cb9773">DayZPlayerCamera3rdPersonJump</a> extends <a class="el" href="../../da/d2d/class_day_z_player_camera3rd_person_erc.html">DayZPlayerCamera3rdPersonErc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a562cebe7ec110118d7e357695caa0a79">DayZPlayerCamera3rdPersonClimb</a> (<a class="el" href="../../db/d2e/class_day_z_player.html">DayZPlayer</a> pPlayer, <a class="el" href="../../d7/d1b/class_human_input_controller.html">HumanInputController</a> pInput)</td></tr>
@@ -188,7 +190,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:aba241f4abfd9560715a47e0ab9f5ac54"><td class="mdescLeft">&#160;</td><td class="mdescRight">true - shoulder is in local space  <br /></td></tr>
 <tr class="separator:aba241f4abfd9560715a47e0ab9f5ac54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8203c3f3fbccb8a905f60312602a775d"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a8203c3f3fbccb8a905f60312602a775d">m_fRoll</a></td></tr>
-<tr class="memdesc:a8203c3f3fbccb8a905f60312602a775d"><td class="mdescLeft">&#160;</td><td class="mdescRight">camera roll  <br /></td></tr>
+<tr class="memdesc:a8203c3f3fbccb8a905f60312602a775d"><td class="mdescLeft">&#160;</td><td class="mdescRight">camera roll (deprecated)  <br /></td></tr>
 <tr class="separator:a8203c3f3fbccb8a905f60312602a775d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77d313f767b47a3245e7d3c7d3d38c30"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a77d313f767b47a3245e7d3c7d3d38c30">m_fLeanDistance</a></td></tr>
 <tr class="memdesc:a77d313f767b47a3245e7d3c7d3d38c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift on leaning  <br /></td></tr>
@@ -202,6 +204,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a74cf8859007b9001c09ebab24e1856ce"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a74cf8859007b9001c09ebab24e1856ce">m_fLeftRightAngle</a></td></tr>
 <tr class="memdesc:a74cf8859007b9001c09ebab24e1856ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">left right angle in rad (in freelook only)  <br /></td></tr>
 <tr class="separator:a74cf8859007b9001c09ebab24e1856ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f5a10040eadb27ef3a87e53da1b235"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a99f5a10040eadb27ef3a87e53da1b235">m_fLeftRightAngleAdd</a></td></tr>
+<tr class="memdesc:a99f5a10040eadb27ef3a87e53da1b235"><td class="mdescLeft">&#160;</td><td class="mdescRight">left right angle in rad (in freelook only)  <br /></td></tr>
+<tr class="separator:a99f5a10040eadb27ef3a87e53da1b235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a7acd4d3bb079cab723a254d1275045"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a1a7acd4d3bb079cab723a254d1275045">m_fCameraLRShoulder</a></td></tr>
 <tr class="memdesc:a1a7acd4d3bb079cab723a254d1275045"><td class="mdescLeft">&#160;</td><td class="mdescRight">shoulder offsets  <br /></td></tr>
 <tr class="separator:a1a7acd4d3bb079cab723a254d1275045"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,7 +272,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00171">171</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00177">177</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01063">Hologram::GetProjectionEntityPosition()</a>.</p>
 
@@ -299,7 +304,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00180">180</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00186">186</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dcb/_day_z_player_cameras_8c_source.html#l00037">DayZPlayerCameras::RegisterCameras()</a>.</p>
 
@@ -331,9 +336,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00377">377</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00383">383</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00291">m_CameraOffsetLS</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00290">m_CameraOffsetMS</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00292">m_fDistance</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00293">m_fShoulderWidth</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00302">m_CameraOffsetLS</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00301">m_CameraOffsetMS</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00303">m_fDistance</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00304">m_fShoulderWidth</a>.</p>
 
 </div>
 </div>
@@ -365,7 +370,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00104">CONST_LR_MAX</a>, <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00103">CONST_LR_MIN</a>, <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00101">CONST_UD_MAX</a>, and <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00100">CONST_UD_MIN</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00109">CONST_LR_MAX</a>, <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00108">CONST_LR_MIN</a>, <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00106">CONST_UD_MAX</a>, and <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00105">CONST_UD_MIN</a>.</p>
 
 </div>
 </div>
@@ -395,7 +400,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00248">248</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00254">254</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -425,7 +430,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00303">303</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00309">309</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dcb/_day_z_player_cameras_8c_source.html#l00037">DayZPlayerCameras::RegisterCameras()</a>.</p>
 
@@ -459,9 +464,9 @@ Variables</h2></td></tr>
 <p>runtime config</p>
 <p>runtime values</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00236">236</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00242">242</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00290">m_CameraOffsetMS</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00058">m_fDistance</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00060">m_fPredictCollisionRadius</a>, and <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00180">m_iBoneIndex</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00301">m_CameraOffsetMS</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00063">m_fDistance</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00065">m_fPredictCollisionRadius</a>, and <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00189">m_iBoneIndex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dcb/_day_z_player_cameras_8c_source.html#l00037">DayZPlayerCameras::RegisterCameras()</a>.</p>
 
@@ -493,9 +498,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00559">559</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00551">551</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00291">m_CameraOffsetLS</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00290">m_CameraOffsetMS</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00058">m_fDistance</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00293">m_fShoulderWidth</a>, and <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00180">m_iBoneIndex</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00302">m_CameraOffsetLS</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00301">m_CameraOffsetMS</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00063">m_fDistance</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00304">m_fShoulderWidth</a>, and <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00189">m_iBoneIndex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dcb/_day_z_player_cameras_8c_source.html#l00037">DayZPlayerCameras::RegisterCameras()</a>.</p>
 
@@ -527,9 +532,28 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00539">539</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00531">531</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dcb/_day_z_player_cameras_8c_source.html#l00037">DayZPlayerCameras::RegisterCameras()</a>.</p>
+
+</div>
+</div>
+<a id="a28da4e9cac0075e822c78a1049f3da4c" name="a28da4e9cac0075e822c78a1049f3da4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28da4e9cac0075e822c78a1049f3da4c">&#9670;&#160;</a></span>GetAdditiveAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d7/dfc/classvector.html">vector</a> GetAdditiveAngles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00285">285</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -548,7 +572,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00274">274</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00276">276</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -567,7 +591,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00283">283</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00294">294</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -586,7 +610,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00342">342</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00348">348</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -616,7 +640,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00191">191</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00197">197</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -646,7 +670,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>update angles from input</p>
-<p>Print(m_fLeftRightAngle);</p>
 <p>base bone pos</p>
 <p>apply shoulder dist</p>
 <p>store distance</p>
@@ -660,9 +683,7 @@ Variables</h2></td></tr>
 <p>apply shoulder dist</p>
 <p>store distance</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00204">204</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00278">m_fDelayTimer</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00280">m_fJumpOffset</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00214">214</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -699,9 +720,9 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>lr angle</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00436">436</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00442">442</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d1b/class_human_input_controller.html#af1a97f6e42770f9a555bc737b83e38a9">HumanInputController::CameraIsFreeLook()</a>, <a class="el" href="../../d7/d1b/class_human_input_controller.html#a142a1db4a33f049b398b2c5c285bbfa3">HumanInputController::GetAimChange()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00002">Limit()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a7caf9dc1fb956b858e7d2485379044df">m_LookAtLRAngle</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00111">m_pInput</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>, and <a class="el" href="../../d5/d98/group___math.html#ga851531b8decb643d4f38392b14f3d2b4">Math::SmoothCD()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d1b/class_human_input_controller.html#af1a97f6e42770f9a555bc737b83e38a9">HumanInputController::CameraIsFreeLook()</a>, <a class="el" href="../../d7/d1b/class_human_input_controller.html#a142a1db4a33f049b398b2c5c285bbfa3">HumanInputController::GetAimChange()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00002">Limit()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00548">m_bForceFreeLook</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00544">m_fLRAngleVel</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a7caf9dc1fb956b858e7d2485379044df">m_LookAtLRAngle</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00136">m_pInput</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00016">Math::RAD2DEG</a>, and <a class="el" href="../../d5/d98/group___math.html#ga851531b8decb643d4f38392b14f3d2b4">Math::SmoothCD()</a>.</p>
 
 </div>
 </div>
@@ -742,7 +763,7 @@ Variables</h2></td></tr>
 
 <p>up limit </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00169">169</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00175">175</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -768,7 +789,7 @@ Variables</h2></td></tr>
 
 <p>down limit </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00168">168</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00174">174</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -794,7 +815,7 @@ Variables</h2></td></tr>
 
 <p>up limit </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00166">166</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00172">172</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -820,7 +841,7 @@ Variables</h2></td></tr>
 
 <p>down limit </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00165">165</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00171">171</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -838,9 +859,9 @@ Variables</h2></td></tr>
 
 <p>true - shoulder is in local space </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00294">294</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00305">305</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00045">DayZPlayerCameraBase::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -858,9 +879,9 @@ Variables</h2></td></tr>
 
 <p>local space offset </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00291">291</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00302">302</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00377">DayZPlayerCamera3rdPersonCrouch()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00412">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00250">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00541">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00559">DayZPlayerCamera3rdPersonProne()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00383">DayZPlayerCamera3rdPersonCrouch()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00418">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00256">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00533">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00551">DayZPlayerCamera3rdPersonProne()</a>.</p>
 
 </div>
 </div>
@@ -878,9 +899,9 @@ Variables</h2></td></tr>
 
 <p>model space offset </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00290">290</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00301">301</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00377">DayZPlayerCamera3rdPersonCrouch()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00412">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00250">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00236">DayZPlayerCamera3rdPersonJump()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00541">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00559">DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00028">DayZPlayerCamera3rdPersonVehicle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00383">DayZPlayerCamera3rdPersonCrouch()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00418">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00256">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00242">DayZPlayerCamera3rdPersonJump()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00533">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00551">DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00033">DayZPlayerCamera3rdPersonVehicle()</a>.</p>
 
 </div>
 </div>
@@ -896,7 +917,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00402">402</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00408">408</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -912,7 +933,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00403">403</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00409">409</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -930,9 +951,9 @@ Variables</h2></td></tr>
 
 <p>shoulder offsets </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00305">305</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00317">317</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00045">DayZPlayerCameraBase::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -948,9 +969,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00306">306</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00318">318</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00045">DayZPlayerCameraBase::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -966,9 +987,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00275">275</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00281">281</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00182">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonJump()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00188">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonJump()</a>.</p>
 
 </div>
 </div>
@@ -986,9 +1007,9 @@ Variables</h2></td></tr>
 
 <p>runtime config </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00274">274</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00280">280</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00182">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonJump()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00188">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonJump()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00203">DayZPlayerCamera3rdPersonErc::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1006,9 +1027,9 @@ Variables</h2></td></tr>
 
 <p>runtime values </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00278">278</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00284">284</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00204">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00203">DayZPlayerCamera3rdPersonErc::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1026,9 +1047,9 @@ Variables</h2></td></tr>
 
 <p>distance from start </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00292">292</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00303">303</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00377">DayZPlayerCamera3rdPersonCrouch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00383">DayZPlayerCamera3rdPersonCrouch()</a>.</p>
 
 </div>
 </div>
@@ -1044,9 +1065,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00280">280</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00204">OnUpdate()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00286">286</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +1081,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00279">279</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00285">285</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1080,7 +1099,7 @@ Variables</h2></td></tr>
 
 <p>shift on leaning </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00296">296</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00307">307</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>.</p>
 
@@ -1100,7 +1119,25 @@ Variables</h2></td></tr>
 
 <p>left right angle in rad (in freelook only) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00302">302</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00313">313</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+
+</div>
+</div>
+<a id="a99f5a10040eadb27ef3a87e53da1b235" name="a99f5a10040eadb27ef3a87e53da1b235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99f5a10040eadb27ef3a87e53da1b235">&#9670;&#160;</a></span>m_fLeftRightAngleAdd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> m_fLeftRightAngleAdd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>left right angle in rad (in freelook only) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00314">314</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1118,7 +1155,7 @@ Variables</h2></td></tr>
 
 <p>collision prediction </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00309">309</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00321">321</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1134,11 +1171,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>camera roll </p>
+<p>camera roll (deprecated) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00295">295</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00064">OnUpdate()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00306">306</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1156,9 +1191,9 @@ Variables</h2></td></tr>
 
 <p>shoulder camera widths </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00293">293</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00304">304</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00377">DayZPlayerCamera3rdPersonCrouch()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00412">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00250">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00541">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00559">DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00045">DayZPlayerCameraBase::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00383">DayZPlayerCamera3rdPersonCrouch()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00418">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00256">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00533">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00551">DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1174,9 +1209,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00345">345</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00351">351</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00250">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00271">DayZPlayerCamera3rdPersonErc::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00256">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00277">DayZPlayerCamera3rdPersonErc::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1195,7 +1230,7 @@ Variables</h2></td></tr>
 <p>runtime values </p>
 <p>up down angle in rad </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00300">300</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00311">311</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1248,7 @@ Variables</h2></td></tr>
 
 <p>up down angle in rad </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00301">301</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00312">312</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1267,7 @@ Variables</h2></td></tr>
 <p>runtime config </p>
 <p>main bone </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00289">289</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00300">300</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1248,9 +1283,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00344">344</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00350">350</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00250">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00256">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>.</p>
 
 </div>
 </div>
@@ -1266,7 +1301,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00281">281</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00287">287</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
 </div>
 </div>
@@ -1282,7 +1317,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00436">UpdateLRAngleLookAt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00442">UpdateLRAngleLookAt()</a>.</p>
 
 </div>
 </div>
@@ -1300,9 +1335,9 @@ Variables</h2></td></tr>
 
 <p>movement state </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00312">312</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00324">324</a> of file <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html">DayZPlayerCamera3rdPerson.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01462">DayZPlayer::AimingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03370">ManBase::BrokenLegForceProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03411">ManBase::BrokenLegWalkShock()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02522">DayZPlayer::CameraHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01529">DayZPlayer::CanClimb()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01506">DayZPlayer::CanJump()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01982">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02657">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/dec/_injury_sound_handler_8c_source.html#l00036">InjurySoundHandlerBase::DetermineInjuryZone()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01224">DayZPlayer::EvaluateDamageHitAnimation()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01522">ManBase::GetFeetDamageMoveModifier()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01589">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01120">DayZPlayer::HandleDamageHit()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01724">DayZPlayer::HandleView()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00861">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01383">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07724">ManBase::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04944">ManBase::IsClimbing()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04939">ManBase::IsClimbingLadder()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04949">ManBase::IsFalling()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04906">ManBase::IsInProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04911">ManBase::IsInRasedProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04954">ManBase::IsInVehicle()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04916">ManBase::IsLeaning()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04885">ManBase::IsSprinting()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04934">ManBase::IsSwimming()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02512">ManBase::OnCommandHandlerTick()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02637">DayZPlayer::OnMovementChanged()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00045">DayZPlayerCameraBase::OnUpdate()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03326">ManBase::UpdateBrokenLegs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01432">DayZPlayer::AimingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03405">ManBase::BrokenLegForceProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03446">ManBase::BrokenLegWalkShock()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02454">DayZPlayer::CameraHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01499">DayZPlayer::CanClimb()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01476">DayZPlayer::CanJump()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01952">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02696">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/dec/_injury_sound_handler_8c_source.html#l00036">InjurySoundHandlerBase::DetermineInjuryZone()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01210">DayZPlayer::EvaluateDamageHitAnimation()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01535">ManBase::GetFeetDamageMoveModifier()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01558">DayZPlayer::HandleADS()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01108">DayZPlayer::HandleDamageHit()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01689">DayZPlayer::HandleView()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01353">DayZPlayer::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07824">ManBase::HeadingModel()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04965">ManBase::IsClimbing()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00406">DayZPlayer::IsClimbingLadder()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04970">ManBase::IsFalling()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00246">DayZPlayer::IsFireWeaponRaised()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04935">ManBase::IsInProne()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04940">ManBase::IsInRasedProne()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00396">DayZPlayer::IsInVehicle()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04945">ManBase::IsLeaning()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04914">ManBase::IsSprinting()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00401">DayZPlayer::IsSwimming()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02551">ManBase::OnCommandHandlerTick()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02569">DayZPlayer::OnMovementChanged()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03361">ManBase::UpdateBrokenLegs()</a>.</p>
 
 </div>
 </div>

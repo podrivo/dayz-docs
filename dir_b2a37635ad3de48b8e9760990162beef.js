@@ -8,6 +8,7 @@ var dir_b2a37635ad3de48b8e9760990162beef =
     [ "HealthNotfr.c", "d5/d24/_health_notfr_8c.html", "d5/d24/_health_notfr_8c" ],
     [ "HeartbeatNotfr.c", "d1/dfa/_heartbeat_notfr_8c.html", "d1/dfa/_heartbeat_notfr_8c" ],
     [ "HungerNotfr.c", "da/d2e/_hunger_notfr_8c.html", "da/d2e/_hunger_notfr_8c" ],
+    [ "InjuredLegNotfr.c", "df/dcb/_injured_leg_notfr_8c.html", "df/dcb/_injured_leg_notfr_8c" ],
     [ "PillsNotfr.c", "da/df5/_pills_notfr_8c.html", "da/df5/_pills_notfr_8c" ],
     [ "SickNotfr.c", "d4/d42/_sick_notfr_8c.html", "d4/d42/_sick_notfr_8c" ],
     [ "StuffedNotfr.c", "d1/d36/_stuffed_notfr_8c.html", "d1/d36/_stuffed_notfr_8c" ],

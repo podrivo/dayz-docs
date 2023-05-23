@@ -28,7 +28,6 @@ var class_improvised_explosive =
     [ "PairRemote", "db/d46/class_improvised_explosive.html#a887b6004c3899ea2c9888d8f3e1d90f9", null ],
     [ "SetActions", "db/d46/class_improvised_explosive.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "UnlockTriggerSlots", "db/d46/class_improvised_explosive.html#a70a964f84d094e2f1bdc1ab539b22a1e", null ],
-    [ "UnpairRemote", "db/d46/class_improvised_explosive.html#aabae2c5fd3871959ff0c1d57baa2d354", null ],
     [ "UpdateLED", "db/d46/class_improvised_explosive.html#a08fc35b80c7cbd9a298b4e81841c7c25", null ],
     [ "UpdateVisuals", "db/d46/class_improvised_explosive.html#a0f9e1857cf6ed85460fd5e61e97578a0", null ],
     [ "ANIM_PHASE_TRIGGER_CLOCK", "db/d46/class_improvised_explosive.html#a1bfde61455485de4c5aa4d426ff5f8c6", null ],

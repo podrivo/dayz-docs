@@ -29,6 +29,7 @@ var _player_sound_event_handler_8c =
       [ "DROWNING_BREATH", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88aca86827046e31a415cca40aec59c982e", null ],
       [ "DROWNING_PAIN", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a4c44a649f15455011acbb5862a6d75d9", null ],
       [ "PICKUP_HEAVY", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88abf92be5aace3a0fe172818857957fc04", null ],
+      [ "THIRST", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a517cb6cf5980e26c5387e2a7d1d19e2d", null ],
       [ "ENUM_COUNT", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a3419c51ff893a0055351a7163edcb464", null ]
     ] ],
     [ "ConvertAnimIDtoEventID", "d5/d1b/_player_sound_event_handler_8c.html#afbc0cf898c0e87750993f212a9d485d1", null ],

@@ -60,6 +60,7 @@ var _misc_gameplay_functions_8c =
     [ "Normalize", "dc/d98/_misc_gameplay_functions_8c.html#a75ca2def85fcb18080e4aa640852674d", null ],
     [ "ObtainRestrainItemTargetClassname", "dc/d98/_misc_gameplay_functions_8c.html#a16470b31ea2c5f9e3500f36fedf7811d", null ],
     [ "OnSuccess", "dc/d98/_misc_gameplay_functions_8c.html#aebe9921400688b4e3d37a409bc292077", null ],
+    [ "RemoveAllAttachedChildrenByTypename", "dc/d98/_misc_gameplay_functions_8c.html#a45d459e6a38126e354498f0de010ddbe", null ],
     [ "RemoveNetworkObjectInfo", "dc/d98/_misc_gameplay_functions_8c.html#a00423fd87c4a344415176b98e6805c5c", null ],
     [ "RemoveSplint", "dc/d98/_misc_gameplay_functions_8c.html#ac2c17ae77389f8e64e1227dbcb4d4662", null ],
     [ "SanitizeString", "dc/d98/_misc_gameplay_functions_8c.html#aa27083abf1ed1bf338d4c295073e0bac", null ],

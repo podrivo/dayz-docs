@@ -1,6 +1,7 @@
 var class_hud =
 [
     [ "CleanupHitDirEffects", "d5/dbf/class_hud.html#a4db8768c37c868b5b1ed5a8f3d200bd8", null ],
+    [ "Debug", "d5/dbf/class_hud.html#ae1b2e01cd24e2e8b018c9615bd3c51b2", null ],
     [ "DisplayBadge", "d5/dbf/class_hud.html#a0940fb8ea76fa475948457031ad9ba4d", null ],
     [ "DisplayBadge", "d5/dbf/class_hud.html#a030b6f6e3d921b455c1d5ea9fc9ea15c", null ],
     [ "DisplayNotifier", "d5/dbf/class_hud.html#a96adb99823d02ecb9bc4a0a097969dea", null ],
