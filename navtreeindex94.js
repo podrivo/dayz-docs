@@ -1,7 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"d7/de3/_server_browser_tab_8c.html#a0639a70c459323d8e783d18178e86e1b":[3,0,0,4,0,6,8,5,97],
-"d7/de3/_server_browser_tab_8c.html#a064aa3ef4b8a31ce596990d78c4cf91d":[3,0,0,4,0,6,8,5,70],
 "d7/de3/_server_browser_tab_8c.html#a0a75f32ad19106ec947e500c9776bd42":[3,0,0,4,0,6,8,5,55],
 "d7/de3/_server_browser_tab_8c.html#a0ca54a51f0634c733ff390d4097209ba":[3,0,0,4,0,6,8,5,19],
 "d7/de3/_server_browser_tab_8c.html#a0e438e8a1758642d8c0294c696f38af2":[3,0,0,4,0,6,8,5,82],
@@ -249,5 +247,7 @@ var NAVTREEINDEX94 =
 "d7/dfc/_denim_jacket_8c.html":[3,0,0,3,1,9,3,37],
 "d7/dfc/_denim_jacket_8c_source.html":[3,0,0,3,1,9,3,37],
 "d7/dfc/_sound_events_8c.html":[3,0,0,3,0,26,2],
-"d7/dfc/_sound_events_8c.html#a019d2ac4273738979227a9e7f3565643":[3,0,0,3,0,26,2,17]
+"d7/dfc/_sound_events_8c.html#a019d2ac4273738979227a9e7f3565643":[3,0,0,3,0,26,2,17],
+"d7/dfc/_sound_events_8c.html#a04c1fd18871d9f9ef0063ec95df354c5":[3,0,0,3,0,26,2,12],
+"d7/dfc/_sound_events_8c.html#a05b9afdb0407e8fc5d6b759763846fa7":[3,0,0,3,0,26,2,22]
 };

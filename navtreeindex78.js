@@ -1,8 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"d6/d59/_action_base_8c.html#a2ebf3855cc8960864124ba5ca4949033":[3,0,0,3,0,29,5,75],
-"d6/d59/_action_base_8c.html#a2f4e057d48d64736258d9ba56e04f5f2":[3,0,0,3,0,29,5,1],
-"d6/d59/_action_base_8c.html#a2f4e057d48d64736258d9ba56e04f5f2a273e824d1f744685af1780c7ae3da7f5":[3,0,0,3,0,29,5,1,7],
 "d6/d59/_action_base_8c.html#a2f4e057d48d64736258d9ba56e04f5f2a27cf34c1e52e386d65f24875aeadee7a":[3,0,0,3,0,29,5,1,0],
 "d6/d59/_action_base_8c.html#a2f4e057d48d64736258d9ba56e04f5f2a34350d375821a84e5446401607357398":[3,0,0,3,0,29,5,1,2],
 "d6/d59/_action_base_8c.html#a2f4e057d48d64736258d9ba56e04f5f2a38c80b8f3c9a7620fb4fcba5354d0797":[3,0,0,3,0,29,5,1,3],
@@ -181,8 +178,8 @@ var NAVTREEINDEX78 =
 "d6/d5b/class_action_upgrade_torch_from_gas_pump.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,495,1],
 "d6/d5b/class_action_upgrade_torch_from_gas_pump.html#af5eb24d52ff126efd641adb511c6b3db":[2,0,495,0],
 "d6/d5b/group___custom_emote_i_ds.html":[1,23,0],
-"d6/d5b/group___custom_emote_i_ds.html#ga989ef35af05e4fb2e85ca0568dd04c72":[1,23,0,4],
 "d6/d5b/group___custom_emote_i_ds.html#ga989ef35af05e4fb2e85ca0568dd04c72":[1,23,0,5],
+"d6/d5b/group___custom_emote_i_ds.html#ga989ef35af05e4fb2e85ca0568dd04c72":[1,23,0,4],
 "d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,1],
 "d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,0],
 "d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX78 =
 "d6/d63/class_headtorch___black.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1360,0],
 "d6/d63/class_headtorch___black.html#a1edc8d6247e6ad88d7b3a7235b6e3d32":[2,0,1360,1],
 "d6/d65/class_cannabis_seeds.html":[2,0,887],
-"d6/d65/game_lib_8c.html":[3,0,0,1,2]
+"d6/d65/game_lib_8c.html":[3,0,0,1,2],
+"d6/d65/game_lib_8c_source.html":[3,0,0,1,2],
+"d6/d66/class_action_fold_entity_to_slot.html":[2,0,241],
+"d6/d66/class_action_fold_entity_to_slot.html#a1f7399d8d410ac172ef0e5f4c4bbb4eb":[2,0,241,1]
 };

@@ -8,7 +8,7 @@ var _en_entity_8c =
     [ "WidgetSource", "de/dd5/_en_entity_8c.html#ad341f4cfb5ff3cbac4c2e8eb6b35aa31", null ],
     [ "EntityEvent", "d3/d14/group___entity_attributes.html#gaa29339063b04471895b3cb38b17cdb13", [
       [ "TOUCH", "d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13a6ecfbe49e5633ee8720987991a223fdc", null ],
-      [ "VISIBLE", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aabb22a6fcb7f208995b092f12d388786c", null ],
+      [ "VISIBLE", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aaca67be9ef3cada74f46fdb57fdb3e7f3", null ],
       [ "NOTVISIBLE", "d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13a4db09f79a5d0f042e7cab65671e2d19b", null ],
       [ "FRAME", "d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13a200c1bcf1eaa8635daa3cbb5fdd2ebb6", null ],
       [ "POSTFRAME", "d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13adb8e1fa7f6e59eb36188e44e866c4f42", null ],
@@ -28,7 +28,7 @@ var _en_entity_8c =
       [ "ALL", "d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13aaff03f45544854747fa5e7821e84252e", null ]
     ] ],
     [ "EntityFlags", "d3/d14/group___entity_attributes.html#gacda3452546886b2b713c62c4a07fd52a", [
-      [ "VISIBLE", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aabb22a6fcb7f208995b092f12d388786c", null ],
+      [ "VISIBLE", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aaca67be9ef3cada74f46fdb57fdb3e7f3", null ],
       [ "SOLID", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aa1b45f84e1f6603b52e5ef442836df9af", null ],
       [ "TRIGGER", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aa16be61c7643c97ef03953cad704f0345", null ],
       [ "TOUCHTRIGGERS", "d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aa885158538e91c20a0b43c8fbbad118cd", null ],

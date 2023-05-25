@@ -1,7 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"da/d9c/class_menu_default_character_data.html#a3c821642bd06e6f7da9f56b1a2795bfe":[2,0,1709,11],
-"da/d9c/class_menu_default_character_data.html#a4d56a3f44fa7bc9f23dd632f7263474c":[2,0,1709,13],
 "da/d9c/class_menu_default_character_data.html#a52befe930f0733e94e4480187bd958aa":[2,0,1709,12],
 "da/d9c/class_menu_default_character_data.html#a5f1cd6cab810de9c9cf5356986d1bb43":[2,0,1709,17],
 "da/d9c/class_menu_default_character_data.html#a61d5b9be4198baa4d2f0e895c05f592b":[2,0,1709,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX126 =
 "da/db9/class_cfg_slots_1_1_slot___offroad__02___wheel__2__1.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,944,212,0],
 "da/db9/class_cfg_slots_1_1_slot___offroad__02___wheel__2__1.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,944,212,3],
 "da/db9/class_cfg_slots_1_1_slot___offroad__02___wheel__2__1.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,212,1],
-"da/db9/class_cfg_slots_1_1_slot___offroad__02___wheel__2__1.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,212,2]
+"da/db9/class_cfg_slots_1_1_slot___offroad__02___wheel__2__1.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,212,2],
+"da/db9/class_cfg_slots_1_1_slot___spark_plug.html":[2,0,944,266],
+"da/db9/class_cfg_slots_1_1_slot___spark_plug.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,944,266,0]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"d7/dfc/_sound_events_8c.html#a04c1fd18871d9f9ef0063ec95df354c5":[3,0,0,3,0,26,2,12],
-"d7/dfc/_sound_events_8c.html#a05b9afdb0407e8fc5d6b759763846fa7":[3,0,0,3,0,26,2,22],
 "d7/dfc/_sound_events_8c.html#a0d783adac29ac6337f83c8f4b594c655":[3,0,0,3,0,26,2,9],
 "d7/dfc/_sound_events_8c.html#a17a237457e57625296e6b24feb19c60a":[3,0,0,3,0,26,2,15],
 "d7/dfc/_sound_events_8c.html#a1bebc7c2d3b344b90c87b2056eea9122":[3,0,0,3,0,26,2,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX95 =
 "d8/d18/gameplay_8c.html#a80946903b1fb1ca63a019ce5f7c800a5":[3,0,0,2,42,124],
 "d8/d18/gameplay_8c.html#a84b655b45195bd5f006a40e0126dc5c2":[3,0,0,2,42,128],
 "d8/d18/gameplay_8c.html#a851c30a8ef48722b85d33ca80c6161b3":[3,0,0,2,42,91],
-"d8/d18/gameplay_8c.html#a86fe2d5397319b36df583fe655dc7691":[3,0,0,2,42,89]
+"d8/d18/gameplay_8c.html#a86fe2d5397319b36df583fe655dc7691":[3,0,0,2,42,89],
+"d8/d18/gameplay_8c.html#a88eca4efba1db89a25316e2f65c993bd":[3,0,0,2,42,85],
+"d8/d18/gameplay_8c.html#a89ceb8cf3119b94cebefe8fd8915e2ed":[3,0,0,2,42,99]
 };

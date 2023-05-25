@@ -1,7 +1,7 @@
 var searchData=
 [
   ['v3s_0',['V3S',['../d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7a8438845ce46381dfa3757fe8c565eaf9',1,'VehicleAnimInstances.c']]],
-  ['vault_1',['VAULT',['../de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a86ec45593c2fdeab44911de8504366e0',1,'VAULT():&#160;EStaminaConsumers.c'],['../d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a86ec45593c2fdeab44911de8504366e0',1,'VAULT():&#160;EStaminaModifiers.c']]],
+  ['vault_1',['VAULT',['../de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a86ec45593c2fdeab44911de8504366e0',1,'VAULT:&#160;EStaminaConsumers.c'],['../d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a86ec45593c2fdeab44911de8504366e0',1,'VAULT:&#160;EStaminaModifiers.c']]],
   ['vcenter_2',['VCENTER',['../d9/d0e/group___widget_a_p_i.html#gga22177e6e3358b5dae620056212478a75a90980372094dd417d11b7c29f6c03c84',1,'EnWidgets.c']]],
   ['ve_5fclient_5fcorrupt_3',['VE_CLIENT_CORRUPT',['../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4a32da20aeaa27c666729ba74893feb133',1,'ClientKickedModule.c']]],
   ['ve_5fdecompress_4',['VE_DECOMPRESS',['../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4aa4cd752b7f12d883af26789dd9e324c9',1,'ClientKickedModule.c']]],
@@ -50,6 +50,6 @@ var searchData=
   ['view_47',['VIEW',['../d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa577616539ca6eda467d3b4b6e6a551d5',1,'EnSystem.c']]],
   ['view_5fpresence_48',['VIEW_PRESENCE',['../d5/d74/_bios_privacy_service_8c.html#a4c78f4ecb246c3812488500c977b330cabb0189b475da28e7b404fd6cb0be25ae',1,'BiosPrivacyService.c']]],
   ['view_5fprofile_49',['VIEW_PROFILE',['../d5/d74/_bios_privacy_service_8c.html#a4c78f4ecb246c3812488500c977b330cab20cb3b3d56bc489e9505f9520ffc72e',1,'BiosPrivacyService.c']]],
-  ['visible_50',['VISIBLE',['../d3/d14/group___entity_attributes.html#ggae99018d13c3c8a3cc164600046082d04aca67be9ef3cada74f46fdb57fdb3e7f3',1,'VISIBLE():&#160;EnDebug.c'],['../d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aabb22a6fcb7f208995b092f12d388786c',1,'VISIBLE():&#160;EnEntity.c'],['../d9/d0e/group___widget_a_p_i.html#gga22177e6e3358b5dae620056212478a75abb22a6fcb7f208995b092f12d388786c',1,'VISIBLE():&#160;EnWidgets.c']]],
+  ['visible_50',['VISIBLE',['../d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04abb22a6fcb7f208995b092f12d388786c',1,'VISIBLE:&#160;EnDebug.c'],['../d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aaca67be9ef3cada74f46fdb57fdb3e7f3',1,'VISIBLE:&#160;EnEntity.c'],['../d9/d0e/group___widget_a_p_i.html#gga22177e6e3358b5dae620056212478a75abb22a6fcb7f208995b092f12d388786c',1,'VISIBLE:&#160;EnWidgets.c']]],
   ['vistest_51',['VISTEST',['../de/d65/group___world_trace.html#ggae6702e9d0693293d048382c4f6547bcdab34be3daa76509c03e82c513fcb7d50f',1,'EnWorld.c']]]
 ];

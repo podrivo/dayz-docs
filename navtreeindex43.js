@@ -1,8 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"d3/dc0/class_cfg_slots_1_1_slot___civ_sedan_hood.html":[2,0,944,47],
-"d3/dc0/class_cfg_slots_1_1_slot___civ_sedan_hood.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,944,47,0],
-"d3/dc0/class_cfg_slots_1_1_slot___civ_sedan_hood.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,47,1],
 "d3/dc0/class_cfg_slots_1_1_slot___civ_sedan_hood.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,47,2],
 "d3/dc0/class_option_selector.html":[2,0,1795],
 "d3/dc0/class_option_selector.html#a0bff48d3c3f19728928608cc9c8a365c":[2,0,1795,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX43 =
 "d3/dda/_m16_a2_recoil_8c_source.html":[3,0,0,3,0,22,0,23],
 "d3/dda/_recoil_base_8c.html":[3,0,0,3,0,22,1],
 "d3/dda/_recoil_base_8c_source.html":[3,0,0,3,0,22,1],
-"d3/ddb/class_boonie_hat___color_base.html":[2,0,765]
+"d3/ddb/class_boonie_hat___color_base.html":[2,0,765],
+"d3/ddb/class_eff_bullet_impact_base.html":[2,0,1174],
+"d3/ddb/class_eff_bullet_impact_base.html#a04237a4126273d7267a2a7bb0fe49562":[2,0,1174,6],
+"d3/ddb/class_eff_bullet_impact_base.html#a0a29de5dab682f21918e071bcd3c7862":[2,0,1174,22]
 };

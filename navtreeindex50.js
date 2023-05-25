@@ -1,8 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"d4/d6e/_rifle_eject_casing_8c.html":[3,0,0,3,1,5,2,0,5],
-"d4/d6e/_rifle_eject_casing_8c_source.html":[3,0,0,3,1,5,2,0,5],
-"d4/d6e/class_effect_area_loader.html":[2,0,1178],
 "d4/d6e/class_effect_area_loader.html#a1c746e0a945615e5760ec3bb73495a58":[2,0,1178,2],
 "d4/d6e/class_effect_area_loader.html#a6019c89c75011629acfb73dfbde9d8d6":[2,0,1178,0],
 "d4/d6e/class_effect_area_loader.html#a6aa6ed35bfbaa1184f66e989a7c60e7e":[2,0,1178,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX50 =
 "d4/d7d/class_particle_events.html#a5380ad8f839a7b09febafd6fcdfb7a93":[2,0,1821,3],
 "d4/d7d/class_particle_events.html#a76c54ed02b04e343827f530e13feb024":[2,0,1821,4],
 "d4/d7d/class_particle_events.html#a7e4c0893938a1c2b79a3a29eec1fa7ec":[2,0,1821,5],
-"d4/d7d/class_particle_events.html#ade4d866f0a68eb80cf1bcf708355eec5":[2,0,1821,1]
+"d4/d7d/class_particle_events.html#ade4d866f0a68eb80cf1bcf708355eec5":[2,0,1821,1],
+"d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html":[2,0,944,67],
+"d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,944,67,0],
+"d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,67,1]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"d8/dbb/_fireplace_base_8c.html#aeff0e1f494dffffe1e2f2139a9157d58":[3,0,0,3,1,9,55,15],
-"d8/dbb/_fireplace_base_8c.html#af00953db24838a33aef77c2933e9b551":[3,0,0,3,1,9,55,126],
 "d8/dbb/_fireplace_base_8c.html#af24e6c7652d34809deae35c05748af5b":[3,0,0,3,1,9,55,145],
 "d8/dbb/_fireplace_base_8c.html#af28474b95c8e69f378d95219fd5d08c7":[3,0,0,3,1,9,55,272],
 "d8/dbb/_fireplace_base_8c.html#af3494d1c61b8dfc0ca4c2a89801cb97e":[3,0,0,3,1,9,55,310],
@@ -38,10 +36,10 @@ var NAVTREEINDEX104 =
 "d8/dbb/class_point_light_base.html#a745a59aa7f43bc998e82391790dde32b":[2,0,1898,2],
 "d8/dbb/class_point_light_base.html#a74bd20595c0a7c839a9cf98e8a5da242":[2,0,1898,41],
 "d8/dbb/class_point_light_base.html#a7edf69dc0e9d447e4a7e25537275c3d9":[2,0,1898,6],
+"d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,8],
+"d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,9],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,11],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,10],
-"d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,9],
-"d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,8],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,1898,12],
 "d8/dbb/class_point_light_base.html#a883be311f35de01b2566be7caf1bd9bd":[2,0,1898,34],
 "d8/dbb/class_point_light_base.html#a8c8069b05a60f36608af036bdde47cc9":[2,0,1898,25],
@@ -249,5 +247,7 @@ var NAVTREEINDEX104 =
 "d8/dc8/_day_z_game_8c.html#afce3482b122bef542e4c40e445b5068c":[3,0,0,2,34,78],
 "d8/dc8/_day_z_game_8c.html#affde19e7541612bb39351ea19cc1caec":[3,0,0,2,34,23],
 "d8/dc8/_day_z_game_8c_source.html":[3,0,0,2,34],
-"d8/dc8/class_json_data_area_data.html":[2,0,1523]
+"d8/dc8/class_json_data_area_data.html":[2,0,1523],
+"d8/dc8/class_json_data_area_data.html#a062172106d8148f032b915309c6ff4e6":[2,0,1523,9],
+"d8/dc8/class_json_data_area_data.html#a24ab294cd47a5dc9f25de18d9c9cb6ec":[2,0,1523,8]
 };

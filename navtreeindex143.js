@@ -1,7 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"dc/d12/class_c_a_continuous_mine_wood.html#af4dc22f3158d053c6e4495f80c2def6f":[2,0,862,12],
-"dc/d12/class_c_a_continuous_mine_wood.html#afaf420574963aef13ecf2b69b92a81fc":[2,0,862,8],
 "dc/d12/class_vicinity_container.html":[2,0,2446],
 "dc/d12/class_vicinity_container.html#a107bb497ad5f3303cb5ae3f4010eac45":[2,0,2446,29],
 "dc/d12/class_vicinity_container.html#a11b445e15dd6f9d689c4ed34fe387656":[2,0,2446,28],
@@ -249,5 +247,7 @@ var NAVTREEINDEX143 =
 "dc/d37/class_action_input.html#ac8458716c115c310d3ef70ab5b5c41f0":[2,0,287,6],
 "dc/d37/class_action_input.html#acd2bd274749fe88c223cf2309f6fb9d6":[2,0,287,20],
 "dc/d37/class_action_input.html#ad28521833d8e0c54b96d379c984d302d":[2,0,287,19],
-"dc/d37/class_action_input.html#adbffa0977194d7ee4c499cd2743363b1":[2,0,287,23]
+"dc/d37/class_action_input.html#adbffa0977194d7ee4c499cd2743363b1":[2,0,287,23],
+"dc/d37/class_action_input.html#ae309ca7a2f1765b6e1c03d29272b7d66":[2,0,287,27],
+"dc/d37/class_action_input.html#ae8037060b66be16a7d73b1712630d504":[2,0,287,38]
 };

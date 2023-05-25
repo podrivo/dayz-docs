@@ -1,7 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"d7/da1/class_action_manager_client.html#a6f8c9ce6664ff3db671c9ce7052f4e58":[2,0,306,6],
-"d7/da1/class_action_manager_client.html#a71c8cf7d19cef318bff12e16958f89ce":[2,0,306,20],
 "d7/da1/class_action_manager_client.html#a730913ebb8addf92fcf3e77a7da9ba2d":[2,0,306,7],
 "d7/da1/class_action_manager_client.html#a74211b622f3c60c2ad26d5080141dc20":[2,0,306,19],
 "d7/da1/class_action_manager_client.html#a7be1676085b2ef9755943842ccefb488":[2,0,306,55],
@@ -156,8 +154,8 @@ var NAVTREEINDEX91 =
 "d7/db7/class_weapon_event_base.html#a0b08347384aa7da4efe4eacd09838721":[2,0,2483,26],
 "d7/db7/class_weapon_event_base.html#a14a36e6208831cffe858980db9ca1863":[2,0,2483,19],
 "d7/db7/class_weapon_event_base.html#a21c3fca0857b0f1f9c2260bf131c86b0":[2,0,2483,23],
-"d7/db7/class_weapon_event_base.html#a29b0e163626f15573eaff504e654c20d":[2,0,2483,8],
 "d7/db7/class_weapon_event_base.html#a29b0e163626f15573eaff504e654c20d":[2,0,2483,7],
+"d7/db7/class_weapon_event_base.html#a29b0e163626f15573eaff504e654c20d":[2,0,2483,8],
 "d7/db7/class_weapon_event_base.html#a33f6b73fb7e8a8e7336d7fdc0a914ee4":[2,0,2483,14],
 "d7/db7/class_weapon_event_base.html#a4476a89d63ab011508fb2d5430e4b074":[2,0,2483,34],
 "d7/db7/class_weapon_event_base.html#a4bf16d0ca057d13162056dccb455c5aa":[2,0,2483,4],
@@ -173,8 +171,8 @@ var NAVTREEINDEX91 =
 "d7/db7/class_weapon_event_base.html#a8d598015e77bfb89c06ffe2717e9c1bf":[2,0,2483,24],
 "d7/db7/class_weapon_event_base.html#a91336b0bf9d52079afa4d892a4a5e26a":[2,0,2483,21],
 "d7/db7/class_weapon_event_base.html#aac15526532fd9fe0a3a1d0e61a17467f":[2,0,2483,12],
-"d7/db7/class_weapon_event_base.html#ab73c2ebe376783fdb96d10e5b71f74ba":[2,0,2483,31],
 "d7/db7/class_weapon_event_base.html#ab73c2ebe376783fdb96d10e5b71f74ba":[2,0,2483,30],
+"d7/db7/class_weapon_event_base.html#ab73c2ebe376783fdb96d10e5b71f74ba":[2,0,2483,31],
 "d7/db7/class_weapon_event_base.html#abdf12b70df556dba19c841fbf9220d6e":[2,0,2483,2],
 "d7/db7/class_weapon_event_base.html#abf68c50ff557f0a6efb5e25659b17c70":[2,0,2483,29],
 "d7/db7/class_weapon_event_base.html#acc352afbf7deb15412940a3808911daa":[2,0,2483,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX91 =
 "d7/dbe/class_cfg_gameplay_handler.html#a8bf66689baac5cb3c99b84a964f51dc3":[2,0,939,9],
 "d7/dbe/class_cfg_gameplay_handler.html#a8ef7a47c7646dc67ff77eacb0527fc6d":[2,0,939,68],
 "d7/dbe/class_cfg_gameplay_handler.html#a9b5b2f1ccab54cbf4c40bca091165710":[2,0,939,22],
-"d7/dbe/class_cfg_gameplay_handler.html#a9cd9d424882c50a07fb53eded9e3c13b":[2,0,939,35]
+"d7/dbe/class_cfg_gameplay_handler.html#a9cd9d424882c50a07fb53eded9e3c13b":[2,0,939,35],
+"d7/dbe/class_cfg_gameplay_handler.html#aa37ba2837421a0f2354474fa6f8fbe7a":[2,0,939,36],
+"d7/dbe/class_cfg_gameplay_handler.html#aa85015abd65395262829c4aba61dc6af":[2,0,939,57]
 };

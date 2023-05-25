@@ -1,6 +1,5 @@
 var NAVTREEINDEX192 =
 {
-"df/dbb/_action_take_item_to_hands_8c.html#a7c0913512f25d83df6aa6530b769b65e":[3,0,0,3,0,29,1,2,41,6],
 "df/dbb/_action_take_item_to_hands_8c.html#aa9aa4864fae11769c65e644b5fd97c66":[3,0,0,3,0,29,1,2,41,1],
 "df/dbb/_action_take_item_to_hands_8c.html#ab5d3e8801c3fedefb05fa12886e9d9bf":[3,0,0,3,0,29,1,2,41,10],
 "df/dbb/_action_take_item_to_hands_8c.html#ad14460f2f68fee5fd0269e919681d80c":[3,0,0,3,0,29,1,2,41,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX192 =
 "df/dd9/class_damage_dealt_effect.html#a43a01038661f68da2da42a4b3064c680":[2,0,1067,3],
 "df/dd9/class_damage_dealt_effect.html#a5042b9f83934f21cd24f1cdd4b6708de":[2,0,1067,1],
 "df/dd9/class_damage_dealt_effect.html#a5cfa71c0b9fffba09a1c8a9054081591":[2,0,1067,8],
-"df/dd9/class_damage_dealt_effect.html#a62b211066d3d5f5c3da2a1833b68f9ac":[2,0,1067,7]
+"df/dd9/class_damage_dealt_effect.html#a62b211066d3d5f5c3da2a1833b68f9ac":[2,0,1067,7],
+"df/dd9/class_damage_dealt_effect.html#a927fc45feda133333fd7ae3270082d6d":[2,0,1067,0]
 };

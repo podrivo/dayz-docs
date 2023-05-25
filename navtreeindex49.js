@@ -1,8 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d4/d52/class_options_access_events.html":[2,0,1794],
-"d4/d52/class_options_access_events.html#a851c30a8ef48722b85d33ca80c6161b3":[2,0,1794,0],
-"d4/d53/class_longrange_optic.html":[2,0,1587],
 "d4/d54/_action_remove_plant_8c.html":[3,0,0,3,0,29,1,2,28],
 "d4/d54/_action_remove_plant_8c_source.html":[3,0,0,3,0,29,1,2,28],
 "d4/d54/class_hemolytic_reaction_mdfr.html":[2,0,1375],
@@ -180,8 +177,8 @@ var NAVTREEINDEX49 =
 "d4/d61/class_cfg_slots_1_1_slot___v3_s_wheel__1__1.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,319,2],
 "d4/d63/class_blood_container_base.html":[2,0,743],
 "d4/d63/class_blood_container_base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,743,1],
-"d4/d63/class_blood_container_base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,743,3],
 "d4/d63/class_blood_container_base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,743,2],
+"d4/d63/class_blood_container_base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,743,3],
 "d4/d63/class_blood_container_base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,743,4],
 "d4/d63/class_blood_container_base.html#afb460bfcc86142c02827f17153963ab7":[2,0,743,0],
 "d4/d65/_shovel_8c.html":[3,0,0,3,1,9,117],
@@ -249,5 +246,8 @@ var NAVTREEINDEX49 =
 "d4/d6d/class_server_browser_tab_console_pages.html#aa44a73d2f0dd0726e3a4a636e3c76360":[2,0,2064,1],
 "d4/d6d/class_server_browser_tab_console_pages.html#ab1ee3188c2308b81b8067ac4f1cc740c":[2,0,2064,3],
 "d4/d6d/class_server_browser_tab_console_pages.html#ac61f4d5feab104ed3140635ac1ac4231":[2,0,2064,4],
-"d4/d6d/class_server_browser_tab_console_pages.html#ad392ee0d49c7038513adac472fa5e52c":[2,0,2064,2]
+"d4/d6d/class_server_browser_tab_console_pages.html#ad392ee0d49c7038513adac472fa5e52c":[2,0,2064,2],
+"d4/d6e/_rifle_eject_casing_8c.html":[3,0,0,3,1,5,2,0,5],
+"d4/d6e/_rifle_eject_casing_8c_source.html":[3,0,0,3,1,5,2,0,5],
+"d4/d6e/class_effect_area_loader.html":[2,0,1178]
 };

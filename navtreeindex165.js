@@ -1,6 +1,5 @@
 var NAVTREEINDEX165 =
 {
-"dd/da7/class_cfg_slots_1_1_slot___lights.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,124,2],
 "dd/da7/class_stamina.html":[2,0,2135],
 "dd/da8/_action_repair_tent_part_8c.html":[3,0,0,3,0,29,1,0,109],
 "dd/da8/_action_repair_tent_part_8c.html#a5df70877383d33973ea3f4a021d8a7ac":[3,0,0,3,0,29,1,0,109,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX165 =
 "dd/dbf/class_claymore_mine.html#a39ff70d7c687bb8df5fcf8348016e9ea":[2,0,975,2],
 "dd/dbf/class_claymore_mine.html#a4d466e5edd4b11f7f8978fab1c85235f":[2,0,975,12],
 "dd/dbf/class_claymore_mine.html#a4de4d414d0cbf15100ab71ec84ca25f7":[2,0,975,8],
-"dd/dbf/class_claymore_mine.html#a5ea0aaf035a1939c725579219040c481":[2,0,975,3]
+"dd/dbf/class_claymore_mine.html#a5ea0aaf035a1939c725579219040c481":[2,0,975,3],
+"dd/dbf/class_claymore_mine.html#a6242e4c82253e3a32e003179b33a2218":[2,0,975,19]
 };

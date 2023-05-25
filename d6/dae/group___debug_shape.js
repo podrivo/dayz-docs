@@ -12,7 +12,7 @@ var group___debug_shape =
       [ "NOOUTLINE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04a39e08af9406332d46ef309acb059a0ed", null ],
       [ "BACKFACE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04ab31536596c407261e5a0b5b4f1f69586", null ],
       [ "NOCULL", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04ab9e1fedc81c9bbf8773008f0ec990eb6", null ],
-      [ "VISIBLE", "d3/d14/group___entity_attributes.html#ggae99018d13c3c8a3cc164600046082d04aca67be9ef3cada74f46fdb57fdb3e7f3", null ],
+      [ "VISIBLE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04abb22a6fcb7f208995b092f12d388786c", null ],
       [ "ADDITIVE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04ac0c02294c1fb924d8ee2ae11f9426c0e", null ]
     ] ],
     [ "ShapeType", "d6/dae/group___debug_shape.html#ga5a4538eeab397888d88a4eefcc5a1345", [
@@ -43,6 +43,5 @@ var group___debug_shape =
     [ "SetFlags", "d6/dae/group___debug_shape.html#gaa9ba3114af4e5ecafd82fcdfd3c196b1", null ],
     [ "SetMatrix", "d6/dae/group___debug_shape.html#ga83f01322c5a58a74d4d1f0923821abbf", null ],
     [ "SetPosition", "d6/dae/group___debug_shape.html#ga3aa6cafceab9d573982aa9db5a5d6e34", null ],
-    [ "ErrorEx", "d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5", null ],
-    [ "Shape", "d6/dae/group___debug_shape.html#gaf4344f1db5238ced76a52bf38cee2978", null ]
+    [ "ErrorEx", "d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5", null ]
 ];

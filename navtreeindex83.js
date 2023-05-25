@@ -1,7 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada31f516cdf218b68b790fb31e8a6956":[3,0,0,2,8,2,4,26],
-"d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9":[3,0,0,2,8,2,4,11],
 "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aafc24505d887d19c4bf63c00ec3134834":[3,0,0,2,8,2,4,0],
 "d6/de4/_day_z_physics_8c_source.html":[3,0,0,2,8,2],
 "d6/de4/class_entrance_light_stairs2.html":[2,0,1205],
@@ -249,5 +247,7 @@ var NAVTREEINDEX83 =
 "d6/ded/class_action_deploy_base.html#ab80733e1a8c145c8ee7b04476d535d72":[2,0,131,5],
 "d6/ded/class_gameplay_effect_widgets__base.html":[2,0,1292],
 "d6/ded/class_gameplay_effect_widgets__base.html#a05686937c9b387e1c75210226a66da79":[2,0,1292,38],
-"d6/ded/class_gameplay_effect_widgets__base.html#a05f884abd8158de6c5e0db2d8073a972":[2,0,1292,16]
+"d6/ded/class_gameplay_effect_widgets__base.html#a05f884abd8158de6c5e0db2d8073a972":[2,0,1292,16],
+"d6/ded/class_gameplay_effect_widgets__base.html#a0e89be813f6fb0c021118af24cdf69e7":[2,0,1292,22],
+"d6/ded/class_gameplay_effect_widgets__base.html#a1b986be089dee5e5a974aa818f1e4e68":[2,0,1292,43]
 };

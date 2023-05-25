@@ -1,6 +1,5 @@
 var NAVTREEINDEX159 =
 {
-"dd/d40/_player_sound_event_base_8c.html#af6cec936124ff40485da55a1b9255d0d":[3,0,0,3,0,26,1,1,3],
 "dd/d40/_player_sound_event_base_8c_source.html":[3,0,0,3,0,26,1,1],
 "dd/d40/group___u_a_i_ds.html":[1,23,3],
 "dd/d40/group___u_a_i_ds.html#ga0dfba35e97f6982bf0366221c388b3a1":[1,23,3,23],
@@ -249,5 +248,6 @@ var NAVTREEINDEX159 =
 "dd/d5d/class_plugin_recipes_manager_base.html#aec9e9429cc4dfcfe3895154cb433e6db":[2,0,1892,61],
 "dd/d5d/class_plugin_recipes_manager_base.html#aef7660566ef1bd241ad0ec865d84dc72":[2,0,1892,60],
 "dd/d5d/class_plugin_recipes_manager_base.html#af51894275a6f4a43bfc464bde4272adf":[2,0,1892,56],
-"dd/d5d/class_plugin_recipes_manager_base.html#afcaa530bc866de8bef77c486554747a4":[2,0,1892,1]
+"dd/d5d/class_plugin_recipes_manager_base.html#afcaa530bc866de8bef77c486554747a4":[2,0,1892,1],
+"dd/d5d/class_plugin_recipes_manager_base.html#afcd312879190acf3b20fd12a0c806879":[2,0,1892,6]
 };

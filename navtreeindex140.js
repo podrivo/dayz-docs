@@ -1,7 +1,5 @@
 var NAVTREEINDEX140 =
 {
-"db/dc1/class_backpack___base.html#ac43f666ca68a7985539fd0d3958cc8cf":[2,0,683,1],
-"db/dc1/class_backpack___base.html#ad4e378fbfad6f80446403d5da027cb5f":[2,0,683,4],
 "db/dc1/class_backpack___base.html#aeeea5aba5a303d44bc7f5f0e0d3811d8":[2,0,683,2],
 "db/dc1/class_backpack___base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,683,5],
 "db/dc1/class_login_queue_base.html":[2,0,1579],
@@ -93,8 +91,8 @@ var NAVTREEINDEX140 =
 "db/dd0/_magnum_8c.html#a8fba6d4213ebbe1820d719974f601736":[3,0,0,3,1,5,5,8,5],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9c":[3,0,0,3,1,5,5,8,4],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca6ce26a62afab55d7606ad4e92428b30c":[3,0,0,3,1,5,5,8,4,0],
-"db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,5,5,8,3,0],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,5,5,8,4,1],
+"db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,5,5,8,3,0],
 "db/dd0/_magnum_8c.html#a9f7122d8e57dcec0a8aa49227b8be502":[3,0,0,3,1,5,5,8,13],
 "db/dd0/_magnum_8c.html#aa40f8697dfa587f8adabc8640bc98ad8":[3,0,0,3,1,5,5,8,11],
 "db/dd0/_magnum_8c.html#aac14d196e64cad535c5aa50f0c954df3":[3,0,0,3,1,5,5,8,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX140 =
 "db/de5/class_weapon.html#ae59ce4f64fdec70cc2c6dda7fc5858c4":[2,0,2468,25],
 "db/de5/class_weapon.html#aeaf3c148d24964a2a19799a344f089f7":[2,0,2468,86],
 "db/de5/class_weapon.html#aec50909567e19cf8fca816f4b4b50f70":[2,0,2468,76],
-"db/de5/class_weapon.html#aecf992c4d17ae2c424a33356e96986a2":[2,0,2468,88]
+"db/de5/class_weapon.html#aecf992c4d17ae2c424a33356e96986a2":[2,0,2468,88],
+"db/de5/class_weapon.html#aed925ee192783eac2b5b80458d1e6f3c":[2,0,2468,9],
+"db/de5/class_weapon.html#af3a99f79f84d22a71790543698d04a46":[2,0,2468,90]
 };

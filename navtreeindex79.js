@@ -1,8 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"d6/d65/game_lib_8c_source.html":[3,0,0,1,2],
-"d6/d66/class_action_fold_entity_to_slot.html":[2,0,241],
-"d6/d66/class_action_fold_entity_to_slot.html#a1f7399d8d410ac172ef0e5f4c4bbb4eb":[2,0,241,1],
 "d6/d66/class_action_fold_entity_to_slot.html#a26c6922d796bdf663f49119e83fe26f8":[2,0,241,5],
 "d6/d66/class_action_fold_entity_to_slot.html#a420dc21f07f5509f124b758353c96b24":[2,0,241,6],
 "d6/d66/class_action_fold_entity_to_slot.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,241,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX79 =
 "d6/d90/class_client_kicked_module.html#ad23b7915c28763cb7fd9e47a171228f3":[2,0,978,0],
 "d6/d90/class_client_kicked_module.html#aeb8046b7030b3cfe85e38dfa272365a9":[2,0,978,1],
 "d6/d91/class_zombie_male_base.html":[2,0,2548],
-"d6/d91/class_zombie_male_base.html#a5255aa299449bd05d327dafcb6fa1683":[2,0,2548,11]
+"d6/d91/class_zombie_male_base.html#a5255aa299449bd05d327dafcb6fa1683":[2,0,2548,11],
+"d6/d91/class_zombie_male_base.html#a9bacc3ece395de80ef44d6bcc3d201c5":[2,0,2548,7],
+"d6/d91/class_zombie_male_base.html#a9bacc3ece395de80ef44d6bcc3d201c5":[2,0,2548,8],
+"d6/d91/class_zombie_male_base.html#a9bacc3ece395de80ef44d6bcc3d201c5":[2,0,2548,9]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"d7/d91/_action_turn_off_weapon_flashlight_8c_source.html":[3,0,0,3,0,29,1,3,58],
-"d7/d92/_debug_monitor_8c.html":[3,0,0,4,0,19],
 "d7/d92/_debug_monitor_8c_source.html":[3,0,0,4,0,19],
 "d7/d93/_m249___hndgrd_8c.html":[3,0,0,3,1,9,8,12],
 "d7/d93/_m249___hndgrd_8c_source.html":[3,0,0,3,1,9,8,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX90 =
 "d7/da1/class_action_manager_client.html#a5eafb04237563b54ae38aee039075d5a":[2,0,306,66],
 "d7/da1/class_action_manager_client.html#a653cb58dd2b584a19da37c640af99228":[2,0,306,65],
 "d7/da1/class_action_manager_client.html#a6abe0d2e3cc64cb2cc45a76d38d7f4f8":[2,0,306,18],
-"d7/da1/class_action_manager_client.html#a6d52c053fc6a93d7fc99abfe1081647d":[2,0,306,14]
+"d7/da1/class_action_manager_client.html#a6d52c053fc6a93d7fc99abfe1081647d":[2,0,306,14],
+"d7/da1/class_action_manager_client.html#a6f8c9ce6664ff3db671c9ce7052f4e58":[2,0,306,6],
+"d7/da1/class_action_manager_client.html#a71c8cf7d19cef318bff12e16958f89ce":[2,0,306,20]
 };

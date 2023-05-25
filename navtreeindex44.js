@@ -1,8 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d3/ddb/class_eff_bullet_impact_base.html":[2,0,1174],
-"d3/ddb/class_eff_bullet_impact_base.html#a04237a4126273d7267a2a7bb0fe49562":[2,0,1174,6],
-"d3/ddb/class_eff_bullet_impact_base.html#a0a29de5dab682f21918e071bcd3c7862":[2,0,1174,22],
 "d3/ddb/class_eff_bullet_impact_base.html#a0cdf5eb05a01609803b20f0d553f99b3":[2,0,1174,25],
 "d3/ddb/class_eff_bullet_impact_base.html#a136d8a7b7553f5fa1e993df18cc770ae":[2,0,1174,14],
 "d3/ddb/class_eff_bullet_impact_base.html#a1c2c0caeaf29c66b255423a1e0d54ff4":[2,0,1174,37],
@@ -133,7 +130,7 @@ var NAVTREEINDEX44 =
 "d3/de2/group___system.html#ga7b18b38eaf689dea76594dd5e43a1352":[1,10,169],
 "d3/de2/group___system.html#ga8e707f1905abdc22747618b8b178b3c0":[1,10,165],
 "d3/de2/group___system.html#gaa6d85e4ef8781c19cd4caef0e7dd2ea3":[1,10,164],
-"d3/de2/group___system.html#gab1d5eac4b1dca480c8056eaea7663b7a":[1,10,172],
+"d3/de2/group___system.html#gaaff03f45544854747fa5e7821e84252e":[1,10,172],
 "d3/de2/group___system.html#gad223f70d82f02b4461a44f8f50d65f20":[1,10,173],
 "d3/de2/group___system.html#gad7348dce86a327765755d084ff96f22a":[1,10,162],
 "d3/de2/group___system.html#gaf0fe89e75a35b22cbc5f46cb6c0357c4":[1,10,170],
@@ -249,5 +246,8 @@ var NAVTREEINDEX44 =
 "d3/def/class_cfg_slots_1_1_slot___offroad__02___wheel__2__2.html":[2,0,944,213],
 "d3/def/class_cfg_slots_1_1_slot___offroad__02___wheel__2__2.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,944,213,0],
 "d3/def/class_cfg_slots_1_1_slot___offroad__02___wheel__2__2.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,944,213,3],
-"d3/def/class_cfg_slots_1_1_slot___offroad__02___wheel__2__2.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,213,1]
+"d3/def/class_cfg_slots_1_1_slot___offroad__02___wheel__2__2.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,213,1],
+"d3/def/class_cfg_slots_1_1_slot___offroad__02___wheel__2__2.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,213,2],
+"d3/def/class_player_constants.html":[2,0,1863],
+"d3/def/class_player_constants.html#a0459cfeaf145d5c5ca36bfbaf6e7c2bf":[2,0,1863,152]
 };

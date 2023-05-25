@@ -160,8 +160,8 @@ var group___system =
     [ "VIEW", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa577616539ca6eda467d3b4b6e6a551d5", null ],
     [ "WHEEL", "d7/dc0/group___mouse.html#gga3fe1dc281e20599dff9635c050a28b8cac7b6c6728ce2073ebab56d038205e7b3", null ],
     [ "WRITE", "d5/df6/group___file.html#gga031770da453a180e21dcbef5cf5aeab6a61aa7ff70b76bff0fda378cf61d6afbc", null ],
-    [ "X", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fac51b57a703ba1c5869228690c93e1701", null ],
-    [ "Y", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa0867f43e27585e019c13f7f4b7c4ab6b", null ],
+    [ "X", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa58833a3110c570fb05130d40c365d1e4", null ],
+    [ "Y", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa5596231eabd6cf29050967d5ac83ad84", null ],
     [ "GetCLIParam", "d3/de2/group___system.html#gad7348dce86a327765755d084ff96f22a", null ],
     [ "GetHourMinuteSecond", "d3/de2/group___system.html#ga1c51f4cf66e7eda260b3be1e954c716b", null ],
     [ "GetHourMinuteSecondUTC", "d3/de2/group___system.html#gaa6d85e4ef8781c19cd4caef0e7dd2ea3", null ],
@@ -172,7 +172,7 @@ var group___system =
     [ "IsCLIParam", "d3/de2/group___system.html#ga7b18b38eaf689dea76594dd5e43a1352", null ],
     [ "MemoryValidation", "d3/de2/group___system.html#gaf0fe89e75a35b22cbc5f46cb6c0357c4", null ],
     [ "TickCount", "d3/de2/group___system.html#ga165d903cc1999e2e5ac3ee07c34e27d5", null ],
-    [ "ALL", "d3/de2/group___system.html#gab1d5eac4b1dca480c8056eaea7663b7a", null ],
+    [ "ALL", "d3/de2/group___system.html#gaaff03f45544854747fa5e7821e84252e", null ],
     [ "ARCHIVES", "d3/de2/group___system.html#gad223f70d82f02b4461a44f8f50d65f20", null ],
     [ "DIRECTORIES", "d3/de2/group___system.html#gafbd1f04e1781e8136dee40ac5096959c", null ]
 ];

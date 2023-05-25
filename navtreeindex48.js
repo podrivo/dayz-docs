@@ -1,8 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"d4/d49/class_plugin_config_handler.html#a0d218b8818286899fd6493a3c08943f7":[2,0,1879,178],
-"d4/d49/class_plugin_config_handler.html#a0e385219b739585eff35a2a32c5c602d":[2,0,1879,198],
-"d4/d49/class_plugin_config_handler.html#a0ed37fb469c09b383bea4ad2814be132":[2,0,1879,67],
 "d4/d49/class_plugin_config_handler.html#a1070e46948215ff879e0d1d1328d4365":[2,0,1879,72],
 "d4/d49/class_plugin_config_handler.html#a13758848857d624c23a353b41f76d436":[2,0,1879,207],
 "d4/d49/class_plugin_config_handler.html#a1686018c3343b77adcd0e7e675b35e8a":[2,0,1879,185],
@@ -37,10 +34,10 @@ var NAVTREEINDEX48 =
 "d4/d49/class_plugin_config_handler.html#a3a4bb9ee5c8f06f4343447206b5fcd53":[2,0,1879,113],
 "d4/d49/class_plugin_config_handler.html#a3a8207d3410c5fea0720146c06b26fc4":[2,0,1879,171],
 "d4/d49/class_plugin_config_handler.html#a3b92c8b03318f9fabb54ce3b5208f2c6":[2,0,1879,165],
-"d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,32],
-"d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,30],
-"d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,31],
 "d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,29],
+"d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,30],
+"d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,32],
+"d4/d49/class_plugin_config_handler.html#a3c784769ccc37d96372bba1e79df4599":[2,0,1879,31],
 "d4/d49/class_plugin_config_handler.html#a3cbcc12b8c03ba1da42256f369c61d38":[2,0,1879,170],
 "d4/d49/class_plugin_config_handler.html#a3dc185bc6f81b174d4847a0f6d8bbd15":[2,0,1879,45],
 "d4/d49/class_plugin_config_handler.html#a3f508c22ad06c078106f1ee1e3cac734":[2,0,1879,20],
@@ -95,8 +92,8 @@ var NAVTREEINDEX48 =
 "d4/d49/class_plugin_config_handler.html#a7cae1245e0473642543f3704150e3240":[2,0,1879,7],
 "d4/d49/class_plugin_config_handler.html#a7eb338d2b81910133fca1294b4a91fbc":[2,0,1879,88],
 "d4/d49/class_plugin_config_handler.html#a7f57fb6698bb256161ce17852ee98a8a":[2,0,1879,108],
-"d4/d49/class_plugin_config_handler.html#a7faead6920974f6c5121a27328bcfc10":[2,0,1879,125],
 "d4/d49/class_plugin_config_handler.html#a7faead6920974f6c5121a27328bcfc10":[2,0,1879,124],
+"d4/d49/class_plugin_config_handler.html#a7faead6920974f6c5121a27328bcfc10":[2,0,1879,125],
 "d4/d49/class_plugin_config_handler.html#a80ead3f6115bc546fb08129b05aedb3b":[2,0,1879,119],
 "d4/d49/class_plugin_config_handler.html#a81e6a5b57465282f6afef9f5d31356be":[2,0,1879,144],
 "d4/d49/class_plugin_config_handler.html#a860f6483f4bcd10b366f0cae4bd68961":[2,0,1879,43],
@@ -127,8 +124,8 @@ var NAVTREEINDEX48 =
 "d4/d49/class_plugin_config_handler.html#aa1232c1a6ca4d3c39035a7c44f6786e9":[2,0,1879,33],
 "d4/d49/class_plugin_config_handler.html#aa1ae1ee16f32bdf483e0dbc20536e24c":[2,0,1879,118],
 "d4/d49/class_plugin_config_handler.html#aa2d40fc205737d7fdf498f4651b92aef":[2,0,1879,85],
-"d4/d49/class_plugin_config_handler.html#aa2f25a068b3c4c8e233babd36f5ede20":[2,0,1879,39],
 "d4/d49/class_plugin_config_handler.html#aa2f25a068b3c4c8e233babd36f5ede20":[2,0,1879,40],
+"d4/d49/class_plugin_config_handler.html#aa2f25a068b3c4c8e233babd36f5ede20":[2,0,1879,39],
 "d4/d49/class_plugin_config_handler.html#aa51e99570bc522283fd24fbf064a67a3":[2,0,1879,206],
 "d4/d49/class_plugin_config_handler.html#aa6541181d64fcdbb666957eba86d4167":[2,0,1879,148],
 "d4/d49/class_plugin_config_handler.html#aa81e63f4b17588ecfcea56e02b399bb4":[2,0,1879,25],
@@ -249,5 +246,8 @@ var NAVTREEINDEX48 =
 "d4/d52/class_action_unrestrain_self.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,489,1],
 "d4/d52/class_action_unrestrain_self.html#ab80733e1a8c145c8ee7b04476d535d72":[2,0,489,5],
 "d4/d52/class_action_unrestrain_self.html#acda6d37054929cd6366f74e65d1fcb37":[2,0,489,6],
-"d4/d52/class_action_unrestrain_self.html#addc04d3967e021e6b6bd259b82de083e":[2,0,489,4]
+"d4/d52/class_action_unrestrain_self.html#addc04d3967e021e6b6bd259b82de083e":[2,0,489,4],
+"d4/d52/class_options_access_events.html":[2,0,1794],
+"d4/d52/class_options_access_events.html#a851c30a8ef48722b85d33ca80c6161b3":[2,0,1794,0],
+"d4/d53/class_longrange_optic.html":[2,0,1587]
 };

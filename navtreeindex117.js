@@ -1,7 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"d9/dbc/_clock_base_8c.html#aad8a46e3148ac681dadd35fb44a1b4e2":[3,0,0,3,1,9,39,5],
-"d9/dbc/_clock_base_8c.html#aadf3eeeb5da27962b70b88d783ddfe7d":[3,0,0,3,1,9,39,27],
 "d9/dbc/_clock_base_8c.html#ab0de49b9f1100b4840612be0caff8630":[3,0,0,3,1,9,39,25],
 "d9/dbc/_clock_base_8c.html#abb2e9776759d45cff68a1e0e452af0b4":[3,0,0,3,1,9,39,14],
 "d9/dbc/_clock_base_8c.html#ac74d772bc9ce333283c8a85264c1e029":[3,0,0,3,1,9,39,42],
@@ -249,5 +247,7 @@ var NAVTREEINDEX117 =
 "d9/dc3/group___tools.html#ga11880357beab1c4c1243d4de2959bd40":[1,1,11],
 "d9/dc3/group___tools.html#ga15caefc1aac89d6965dfb8bd62bd40d4":[1,1,37],
 "d9/dc3/group___tools.html#ga17a237457e57625296e6b24feb19c60a":[1,1,28],
-"d9/dc3/group___tools.html#ga1b9c78bd52869151c9bae1d6783afe9d":[1,1,15]
+"d9/dc3/group___tools.html#ga1b9c78bd52869151c9bae1d6783afe9d":[1,1,15],
+"d9/dc3/group___tools.html#ga1c46e35120d613169a257c5abb0e8060":[1,1,30],
+"d9/dc3/group___tools.html#ga1f32cd1113bf46668bc04091d642e8b7":[1,1,35]
 };

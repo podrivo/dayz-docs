@@ -1,6 +1,5 @@
 var NAVTREEINDEX156 =
 {
-"dc/de8/class_plugin_dayz_player_debug___weapons.html#a96c7ef9e9206a8795d3e2d23580ab13b":[2,0,1882,19],
 "dc/de8/class_plugin_dayz_player_debug___weapons.html#a9b9f4aefe96d0d34dfad0cae20c13ee6":[2,0,1882,29],
 "dc/de8/class_plugin_dayz_player_debug___weapons.html#aa95747b50a34e75262a641dc6328245d":[2,0,1882,26],
 "dc/de8/class_plugin_dayz_player_debug___weapons.html#ab3a769af93cbb13ac262b55be7977c93":[2,0,1882,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX156 =
 "dd/d01/class_trap_trigger.html#a94d85bfa267f378e12a4f6afdea46af5":[2,0,2271,2],
 "dd/d01/class_trap_trigger.html#af890dfc7c0d3559a481d8d3ab075157b":[2,0,2271,0],
 "dd/d02/_keybindings_entry_window_8c.html":[3,0,0,4,0,6,4,3],
-"dd/d02/_keybindings_entry_window_8c_source.html":[3,0,0,4,0,6,4,3]
+"dd/d02/_keybindings_entry_window_8c_source.html":[3,0,0,4,0,6,4,3],
+"dd/d03/_vomit_blood_8c.html":[3,0,0,2,5,2,14]
 };

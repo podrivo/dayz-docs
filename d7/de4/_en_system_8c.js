@@ -29,8 +29,8 @@ var _en_system_8c =
       [ "VIEW", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa577616539ca6eda467d3b4b6e6a551d5", null ],
       [ "A", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa42a4ade1acd55a49164099104990e09f", null ],
       [ "B", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa3f2a77ecd272aa6d6b5902faa5e5fc68", null ],
-      [ "X", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fac51b57a703ba1c5869228690c93e1701", null ],
-      [ "Y", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa0867f43e27585e019c13f7f4b7c4ab6b", null ],
+      [ "X", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa58833a3110c570fb05130d40c365d1e4", null ],
+      [ "Y", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa5596231eabd6cf29050967d5ac83ad84", null ],
       [ "PAD_UP", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa606d44cbd8b197baf3d33ef50a0534b6", null ],
       [ "PAD_DOWN", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fab7a910668d65882c95ee722558429b8c", null ],
       [ "PAD_LEFT", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596faa4605437b16e25db182b9316ba5343ed", null ],
@@ -172,8 +172,8 @@ var _en_system_8c =
       [ "LEFT", "d7/dc0/group___mouse.html#gga3fe1dc281e20599dff9635c050a28b8cadb45120aafd37a973140edee24708065", null ],
       [ "RIGHT", "d7/dc0/group___mouse.html#gga3fe1dc281e20599dff9635c050a28b8caec8379af7490bb9eaaf579cf17876f38", null ],
       [ "MIDDLE", "d7/dc0/group___mouse.html#gga3fe1dc281e20599dff9635c050a28b8ca1a2710fb8b50ea593b207d1e79fea574", null ],
-      [ "X", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fac51b57a703ba1c5869228690c93e1701", null ],
-      [ "Y", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa0867f43e27585e019c13f7f4b7c4ab6b", null ],
+      [ "X", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa58833a3110c570fb05130d40c365d1e4", null ],
+      [ "Y", "d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fa5596231eabd6cf29050967d5ac83ad84", null ],
       [ "WHEEL", "d7/dc0/group___mouse.html#gga3fe1dc281e20599dff9635c050a28b8cac7b6c6728ce2073ebab56d038205e7b3", null ]
     ] ],
     [ "BeginParse", "d5/df6/group___file.html#gaf8546f0af57c9ab2ceba016451d00ab6", null ],
@@ -209,7 +209,7 @@ var _en_system_8c =
     [ "ParseLine", "d5/df6/group___file.html#gad4bdb6ce760bc8be2a1c5933caba9513", null ],
     [ "ReadFile", "d5/df6/group___file.html#ga35b4c30bfe094fe2a75c43b8617b9f90", null ],
     [ "TickCount", "d3/de2/group___system.html#ga165d903cc1999e2e5ac3ee07c34e27d5", null ],
-    [ "ALL", "d3/de2/group___system.html#gab1d5eac4b1dca480c8056eaea7663b7a", null ],
+    [ "ALL", "d3/de2/group___system.html#gaaff03f45544854747fa5e7821e84252e", null ],
     [ "ARCHIVES", "d3/de2/group___system.html#gad223f70d82f02b4461a44f8f50d65f20", null ],
     [ "DIRECTORIES", "d3/de2/group___system.html#gafbd1f04e1781e8136dee40ac5096959c", null ]
 ];

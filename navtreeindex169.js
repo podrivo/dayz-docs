@@ -1,6 +1,5 @@
 var NAVTREEINDEX169 =
 {
-"dd/dea/class_cfg_slots_1_1_slot___utility_vehicle_co_driver_doors.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,310,1],
 "dd/dea/class_cfg_slots_1_1_slot___utility_vehicle_co_driver_doors.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,310,2],
 "dd/dea/class_sharp_wooden_stick.html":[2,0,2068],
 "dd/dea/class_sharp_wooden_stick.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,2068,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX169 =
 "de/d02/_sedan__02_8c.html#aff5f5c56f35ec1a3c873d73571e50a92":[3,0,0,3,1,13,0,4,23],
 "de/d02/_sedan__02_8c_source.html":[3,0,0,3,1,13,0,4],
 "de/d02/class_bot_event_end_fail.html":[2,0,770],
-"de/d02/class_hatchback__02.html":[2,0,1345]
+"de/d02/class_hatchback__02.html":[2,0,1345],
+"de/d02/class_hatchback__02.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1345,0]
 };

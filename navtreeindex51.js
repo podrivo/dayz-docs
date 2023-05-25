@@ -1,8 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html":[2,0,944,67],
-"d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,944,67,0],
-"d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,944,67,1],
 "d4/d7f/class_cfg_slots_1_1_slot___d_b_helmet_visor.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,67,2],
 "d4/d7f/class_drop_action_input.html":[2,0,1159],
 "d4/d7f/class_drop_action_input.html#a072de469c9e429c7a68261bf9a545216":[2,0,1159,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX51 =
 "d4/d87/class_man_base.html#a37da3f853c1a8b6426eab742fede2913":[2,0,1680,114],
 "d4/d87/class_man_base.html#a3818280386600335c8e9d65d72784d49":[2,0,1680,639],
 "d4/d87/class_man_base.html#a383b6a07ecf14bd76a8a08320da2a76e":[2,0,1680,127],
-"d4/d87/class_man_base.html#a3870b05e765ca7c8ae7d62c2d952d42a":[2,0,1680,3]
+"d4/d87/class_man_base.html#a3870b05e765ca7c8ae7d62c2d952d42a":[2,0,1680,3],
+"d4/d87/class_man_base.html#a3890bfc32387a2aaf415eb2cf80784da":[2,0,1680,243],
+"d4/d87/class_man_base.html#a3a91dbf50118b9918b27e3c53b60cb09":[2,0,1680,278],
+"d4/d87/class_man_base.html#a3aab913c001b2b651c1e71b153f03a1b":[2,0,1680,137]
 };

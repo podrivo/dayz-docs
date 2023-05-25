@@ -1,6 +1,5 @@
 var NAVTREEINDEX190 =
 {
-"df/d7c/class_sewing_kit.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,2067,3],
 "df/d7c/class_water_level_snapshot.html":[2,0,2462],
 "df/d7c/class_water_level_snapshot.html#ab3bbf30478fa8faa5f95c4e979a6f9d2":[2,0,2462,1],
 "df/d7c/class_water_level_snapshot.html#ab91b59d2a5e6d090fcef1af647521a4c":[2,0,2462,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX190 =
 "df/d8b/class_drowning_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13":[2,0,1161,6],
 "df/d8b/class_drowning_mdfr.html#a1b847c98f31a47197791a456d871074d":[2,0,1161,4],
 "df/d8b/class_drowning_mdfr.html#a623bcb206aee7c3d7dada4ee02b85080":[2,0,1161,1],
-"df/d8b/class_drowning_mdfr.html#a77cb9670680e8fd9dc2b6457c73c7952":[2,0,1161,7]
+"df/d8b/class_drowning_mdfr.html#a77cb9670680e8fd9dc2b6457c73c7952":[2,0,1161,7],
+"df/d8b/class_drowning_mdfr.html#a8045e088b31fe0754fb20cb0a5ff0dc9":[2,0,1161,3]
 };

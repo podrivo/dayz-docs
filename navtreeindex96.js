@@ -1,7 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"d8/d18/gameplay_8c.html#a88eca4efba1db89a25316e2f65c993bd":[3,0,0,2,42,85],
-"d8/d18/gameplay_8c.html#a89ceb8cf3119b94cebefe8fd8915e2ed":[3,0,0,2,42,99],
 "d8/d18/gameplay_8c.html#a89f0b857757d98c2e153540d1618ee1f":[3,0,0,2,42,77],
 "d8/d18/gameplay_8c.html#a8e2adabf89cdc42791495aaba635827a":[3,0,0,2,42,29],
 "d8/d18/gameplay_8c.html#a8fadc0e7d58549b7e56e68c8b2a58ff0":[3,0,0,2,42,127],
@@ -249,5 +247,7 @@ var NAVTREEINDEX96 =
 "d8/d2f/_action_mine_bush_8c.html":[3,0,0,3,0,29,1,0,87],
 "d8/d2f/_action_mine_bush_8c_source.html":[3,0,0,3,0,29,1,0,87],
 "d8/d2f/_carp_8c.html":[3,0,0,3,1,9,5,15],
-"d8/d2f/_carp_8c_source.html":[3,0,0,3,1,9,5,15]
+"d8/d2f/_carp_8c_source.html":[3,0,0,3,1,9,5,15],
+"d8/d2f/_state_c_b_8c.html":[3,0,0,3,0,20,3],
+"d8/d2f/_state_c_b_8c_source.html":[3,0,0,3,0,20,3]
 };

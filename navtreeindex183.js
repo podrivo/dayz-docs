@@ -1,6 +1,5 @@
 var NAVTREEINDEX183 =
 {
-"de/df0/_construction_8c.html#a0228361ac11aa12e4577da24339dce0e":[3,0,0,3,0,2,0,43],
 "de/df0/_construction_8c.html#a06612004cd9c8bcb0ef3e3be5ae8f18a":[3,0,0,3,0,2,0,40],
 "de/df0/_construction_8c.html#a07e152850248e18e3c4ca481c65d4de7":[3,0,0,3,0,2,0,6],
 "de/df0/_construction_8c.html#a091c56d198eff8251da666053cfec7d8":[3,0,0,3,0,2,0,23],
@@ -249,5 +248,6 @@ var NAVTREEINDEX183 =
 "de/dff/class_weapon_debug.html#acc1f323843ffbd0e318f2565316b5461":[2,0,2477,48],
 "de/dff/class_weapon_debug.html#ad178b0d5ee8a9c005f3d9bc101da5a9a":[2,0,2477,35],
 "de/dff/class_weapon_debug.html#ae124566c6e946b41ec976b1119e3d4c7":[2,0,2477,27],
-"de/dff/class_weapon_debug.html#ae3c965d282038e1a6af1b548ab116588":[2,0,2477,14]
+"de/dff/class_weapon_debug.html#ae3c965d282038e1a6af1b548ab116588":[2,0,2477,14],
+"de/dff/class_weapon_debug.html#ae647aea7cdb48063e854b8a7da9ec2b5":[2,0,2477,36]
 };

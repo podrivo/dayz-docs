@@ -12,7 +12,7 @@ var _en_debug_8c =
       [ "NOOUTLINE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04a39e08af9406332d46ef309acb059a0ed", null ],
       [ "BACKFACE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04ab31536596c407261e5a0b5b4f1f69586", null ],
       [ "NOCULL", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04ab9e1fedc81c9bbf8773008f0ec990eb6", null ],
-      [ "VISIBLE", "d3/d14/group___entity_attributes.html#ggae99018d13c3c8a3cc164600046082d04aca67be9ef3cada74f46fdb57fdb3e7f3", null ],
+      [ "VISIBLE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04abb22a6fcb7f208995b092f12d388786c", null ],
       [ "ADDITIVE", "d6/dae/group___debug_shape.html#ggae99018d13c3c8a3cc164600046082d04ac0c02294c1fb924d8ee2ae11f9426c0e", null ]
     ] ],
     [ "ShapeType", "d6/dae/group___debug_shape.html#ga5a4538eeab397888d88a4eefcc5a1345", [
@@ -56,6 +56,6 @@ var _en_debug_8c =
     [ "ErrorEx", "d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5", null ],
     [ "FIRSTCONTACT", "dc/d49/group___diag_menu.html#gaeb6b14a836d8cfc2698d5cc39198434c", null ],
     [ "INFO", "dc/d49/group___diag_menu.html#gab1764b91c3b44a5988564bbfe1d6e352", null ],
-    [ "Shape", "d6/dae/group___debug_shape.html#gaf4344f1db5238ced76a52bf38cee2978", null ],
+    [ "Shape", "dc/d49/group___diag_menu.html#ga6eaf263a07e0b8a8895ed494afceed7d", null ],
     [ "WARNING", "dc/d49/group___diag_menu.html#ga1dfc73ab73898d3f4f348d462a5d126a", null ]
 ];

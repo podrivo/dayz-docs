@@ -1,6 +1,5 @@
 var NAVTREEINDEX170 =
 {
-"de/d02/class_hatchback__02.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1345,0],
 "de/d03/4___world_2_entities_2_game_2_super_2_man_8c.html":[3,0,0,3,1,6,0,3],
 "de/d03/4___world_2_entities_2_game_2_super_2_man_8c.html#a9ba24b675cbdfbb09b0161625c4b421a":[3,0,0,3,1,6,0,3,0],
 "de/d03/4___world_2_entities_2_game_2_super_2_man_8c_source.html":[3,0,0,3,1,6,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX170 =
 "de/d1c/class_cfg_slots_1_1_slot___civ_sedan_cargo2_doors.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,944,44,2],
 "de/d1d/class_p_p_e_radial_blur.html":[2,0,1930],
 "de/d1d/class_p_p_e_radial_blur.html#a05fefa8b2af2ac9bb5e70691602be468":[2,0,1930,6],
-"de/d1d/class_p_p_e_radial_blur.html#a0a0253e448106da22e57bad668d9e479":[2,0,1930,2]
+"de/d1d/class_p_p_e_radial_blur.html#a0a0253e448106da22e57bad668d9e479":[2,0,1930,2],
+"de/d1d/class_p_p_e_radial_blur.html#a17051eb0f3344c148200e94c5e925c64":[2,0,1930,7]
 };

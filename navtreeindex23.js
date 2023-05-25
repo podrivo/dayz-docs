@@ -248,6 +248,6 @@ var NAVTREEINDEX23 =
 "d2/d3f/class_dispatcher.html#afefa6f1b18e5e148764ba93f2eb4e743":[2,0,1151,5],
 "d2/d40/class_hook.html":[2,0,1421],
 "d2/d41/class_helmet_base.html":[2,0,1374],
-"d2/d41/class_helmet_base.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1374,21],
+"d2/d41/class_helmet_base.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1374,19],
 "d2/d41/class_helmet_base.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1374,20]
 };

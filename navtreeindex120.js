@@ -1,7 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"d9/ded/class_sick_notfr.html#a4f19400da63afed1f709dc1fb8289187":[2,0,2081,3],
-"d9/ded/class_sick_notfr.html#ab58e8a94f41c38e3ab9f2160cbffae2d":[2,0,2081,1],
 "d9/ded/class_sick_notfr.html#ac9c9d4870bfd6bd9870abcec028e48da":[2,0,2081,2],
 "d9/dee/_ammo_effects_8c.html":[3,0,0,2,22],
 "d9/dee/_ammo_effects_8c_source.html":[3,0,0,2,22],
@@ -246,8 +244,10 @@ var NAVTREEINDEX120 =
 "da/d19/class_bush_soft__b__quercus_robur__1f.html":[2,0,837],
 "da/d19/class_weapon_chambering___cartridge.html":[2,0,2474],
 "da/d19/class_weapon_chambering___cartridge.html#a554194fbf83f198e8f8e9ecb7a31e330":[2,0,2474,1],
-"da/d19/class_weapon_chambering___cartridge.html#aa40f8697dfa587f8adabc8640bc98ad8":[2,0,2474,3],
 "da/d19/class_weapon_chambering___cartridge.html#aa40f8697dfa587f8adabc8640bc98ad8":[2,0,2474,2],
+"da/d19/class_weapon_chambering___cartridge.html#aa40f8697dfa587f8adabc8640bc98ad8":[2,0,2474,3],
 "da/d19/class_weapon_chambering___cartridge.html#aeeb67608a70dc7d07a8dc62f5fa43fb8":[2,0,2474,0],
-"da/d1b/_construction_part_8c.html":[3,0,0,3,0,2,2]
+"da/d1b/_construction_part_8c.html":[3,0,0,3,0,2,2],
+"da/d1b/_construction_part_8c_source.html":[3,0,0,3,0,2,2],
+"da/d1b/class_area_damage_looped_deferred.html":[2,0,641]
 };

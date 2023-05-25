@@ -126,7 +126,7 @@ var searchData=
   ['kc_5fx_123',['KC_X',['../de/d48/group___keyboard.html#gga7885f47644a0388f981f416fa20389b2a05fe3ed65c13823de87bcb27ca98dc6b',1,'EnSystem.c']]],
   ['kc_5fy_124',['KC_Y',['../de/d48/group___keyboard.html#gga7885f47644a0388f981f416fa20389b2ab65392e2dd498a335a887d5f9a1a544f',1,'EnSystem.c']]],
   ['kc_5fz_125',['KC_Z',['../de/d48/group___keyboard.html#gga7885f47644a0388f981f416fa20389b2a1ba0be758e7a1297207a6abdfe9a887e',1,'EnSystem.c']]],
-  ['kick_126',['KICK',['../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4a552dbfc018bbff8b37c76efea76ca893',1,'KICK():&#160;ClientKickedModule.c'],['../d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aa552dbfc018bbff8b37c76efea76ca893',1,'KICK():&#160;DayZPlayerImplementMeleeCombat.c']]],
+  ['kick_126',['KICK',['../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4a552dbfc018bbff8b37c76efea76ca893',1,'KICK:&#160;ClientKickedModule.c'],['../d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aa552dbfc018bbff8b37c76efea76ca893',1,'KICK:&#160;DayZPlayerImplementMeleeCombat.c']]],
   ['kick_5fall_5fadmin_127',['KICK_ALL_ADMIN',['../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4ae49096a7a23710057a5c63a0ab3d10c9',1,'ClientKickedModule.c']]],
   ['kick_5fall_5fserver_128',['KICK_ALL_SERVER',['../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4a51cd58200cfc5809120898d347b752da',1,'ClientKickedModule.c']]],
   ['kill_129',['KILL',['../d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a702a32e3574ea40b8d2f358dec764298',1,'EnWidgets.c']]]

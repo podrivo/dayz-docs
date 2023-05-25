@@ -1,6 +1,5 @@
 var NAVTREEINDEX191 =
 {
-"df/d8b/class_drowning_mdfr.html#a8045e088b31fe0754fb20cb0a5ff0dc9":[2,0,1161,3],
 "df/d8b/class_drowning_mdfr.html#a97b1b398e0e2e6cce5972768a7b8f39f":[2,0,1161,0],
 "df/d8b/class_drowning_mdfr.html#aa123400511540c534d11d2f0771d862e":[2,0,1161,5],
 "df/d8b/class_drowning_mdfr.html#aac95330daba97b57a96c6bf4b864c8cb":[2,0,1161,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX191 =
 "df/dbb/_action_take_item_to_hands_8c.html#a2ebf3855cc8960864124ba5ca4949033":[3,0,0,3,0,29,1,2,41,5],
 "df/dbb/_action_take_item_to_hands_8c.html#a4037419404e549dce9e4d65aa2af4df6":[3,0,0,3,0,29,1,2,41,11],
 "df/dbb/_action_take_item_to_hands_8c.html#a41a32155201921d885c85cc4c0bd2962":[3,0,0,3,0,29,1,2,41,9],
-"df/dbb/_action_take_item_to_hands_8c.html#a60f8c9a6109e6cfedd113a9ee6b5b352":[3,0,0,3,0,29,1,2,41,3]
+"df/dbb/_action_take_item_to_hands_8c.html#a60f8c9a6109e6cfedd113a9ee6b5b352":[3,0,0,3,0,29,1,2,41,3],
+"df/dbb/_action_take_item_to_hands_8c.html#a7c0913512f25d83df6aa6530b769b65e":[3,0,0,3,0,29,1,2,41,6]
 };

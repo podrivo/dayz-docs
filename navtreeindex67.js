@@ -1,8 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"d5/d7c/_day_z_player_camera_vehicles_8c.html#a671ab93059a7416024074b87f75a0af2":[3,0,0,3,1,10,1,5,22],
-"d5/d7c/_day_z_player_camera_vehicles_8c.html#a74cf8859007b9001c09ebab24e1856ce":[3,0,0,3,1,10,1,5,23],
-"d5/d7c/_day_z_player_camera_vehicles_8c.html#a7c62592d6f09d56c99c2d8f7b7bfa8cf":[3,0,0,3,1,10,1,5,11],
 "d5/d7c/_day_z_player_camera_vehicles_8c.html#a8c964c0226b8a1a695e2917d468342bf":[3,0,0,3,1,10,1,5,25],
 "d5/d7c/_day_z_player_camera_vehicles_8c.html#a8ce8a949f867219b939076c38dfd7ad5":[3,0,0,3,1,10,1,5,18],
 "d5/d7c/_day_z_player_camera_vehicles_8c.html#a92dba7f02085ec98126f4e9f090c89f1":[3,0,0,3,1,10,1,5,14],
@@ -249,5 +246,8 @@ var NAVTREEINDEX67 =
 "d5/d98/group___math.html#ga1eb35d2396d26acfcee9f7255454a434":[1,4,16],
 "d5/d98/group___math.html#ga2ab7202dca0f89758aaa21a9f9d68eb3":[1,4,36],
 "d5/d98/group___math.html#ga2bc7051d1c7acd08cc6d1ad7c41518df":[1,4,19],
-"d5/d98/group___math.html#ga304fc098b3bfab620490e942af5e58b4":[1,4,51]
+"d5/d98/group___math.html#ga304fc098b3bfab620490e942af5e58b4":[1,4,51],
+"d5/d98/group___math.html#ga36f2c54edb2b37d5bdbee2f589fc89bb":[1,4,58],
+"d5/d98/group___math.html#ga3dd7536f8b6a037c16fab0de2f8ada3b":[1,4,23],
+"d5/d98/group___math.html#ga3fcc9aa4d97a4fa78a81e29135539aa7":[1,4,48]
 };

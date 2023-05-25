@@ -1,6 +1,5 @@
 var NAVTREEINDEX184 =
 {
-"de/dff/class_weapon_debug.html#ae647aea7cdb48063e854b8a7da9ec2b5":[2,0,2477,36],
 "de/dff/class_weapon_debug.html#ae8df24c8b8a4e34e647c8a97705e8cac":[2,0,2477,17],
 "de/dff/class_weapon_debug.html#af19992e257cdc3fa86a950404f2432b0":[2,0,2477,2],
 "de/dff/class_weapon_debug.html#af52c514a615fcd78b493ac98ce005faf":[2,0,2477,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX184 =
 "df/d19/class_action_force_a_bite.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,244,2],
 "df/d19/class_action_force_a_bite.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,244,1],
 "df/d1b/class_day_z_creature_a_i.html":[2,0,1076],
-"df/d1b/class_day_z_creature_a_i.html#a074d6a8b3ce6d5ed5aebdf1d6efb4952":[2,0,1076,19]
+"df/d1b/class_day_z_creature_a_i.html#a074d6a8b3ce6d5ed5aebdf1d6efb4952":[2,0,1076,19],
+"df/d1b/class_day_z_creature_a_i.html#a21eba8dbc8530fc598d5467353d7a91c":[2,0,1076,7]
 };
