@@ -14,5 +14,6 @@ This is just the tip of the iceberg, so for more info head to the [Enfusion Modd
 —
 
 Changelog
+- [v1.21.156243 · Jun 06, 2023](https://forums.dayz.com/topic/254893-stable-update-121/?page=2&tab=comments#comment-2485977)
 - [v1.21.156201 · May 23, 2023](https://forums.dayz.com/topic/254893-stable-update-121/)
 - [v1.20.155981 · Mar 28, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=6&tab=comments#comment-2484819)
