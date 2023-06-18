@@ -1,7 +1,6 @@
 var class_c_a_continuous_mine_wood =
 [
     [ "CAContinuousMineWood", "dc/d12/class_c_a_continuous_mine_wood.html#a9ebd074fa4bcae6fb16ca19bc1929547", null ],
-    [ "Cancel", "dc/d12/class_c_a_continuous_mine_wood.html#a091fe5a7abd8db8d40e29b60bd7bded8", null ],
     [ "CreatePrimaryItems", "dc/d12/class_c_a_continuous_mine_wood.html#a282eb047ab7bff1b730d8c7433c969dc", null ],
     [ "CreateSecondaryItems", "dc/d12/class_c_a_continuous_mine_wood.html#a753c8338dc3742cef9cfddb2ae8cd8a6", null ],
     [ "DamagePlayersHands", "dc/d12/class_c_a_continuous_mine_wood.html#af05508cc0042e7a59fafcbd0669329c1", null ],
@@ -12,6 +11,7 @@ var class_c_a_continuous_mine_wood =
     [ "m_AdjustedDamageToMiningItemEachDrop", "dc/d12/class_c_a_continuous_mine_wood.html#aa00d7c25dc07824d031358161cedd471", null ],
     [ "m_AdjustedTimeBetweenMaterialDrops", "dc/d12/class_c_a_continuous_mine_wood.html#a4bb8d52cf57f457952fe6473fbc9dee3", null ],
     [ "m_AmountOfDrops", "dc/d12/class_c_a_continuous_mine_wood.html#a1a9b646bad36912e6a1010ae939461bc", null ],
+    [ "m_CurrentAssumedDrops", "dc/d12/class_c_a_continuous_mine_wood.html#aff8c63203073141247a8d42fc2450974", null ],
     [ "m_CycleTimeOverride", "dc/d12/class_c_a_continuous_mine_wood.html#af4dc22f3158d053c6e4495f80c2def6f", null ],
     [ "m_DamageToMiningItemEachDrop", "dc/d12/class_c_a_continuous_mine_wood.html#a6f39566d36b90c2f0f512f81ee003cab", null ],
     [ "m_DataLoaded", "dc/d12/class_c_a_continuous_mine_wood.html#a3a9db16bd6b46e4d91810ba21ad1071d", null ],

@@ -12,6 +12,7 @@ var group___entity_attributes =
       [ "AnimateEx", "d3/d14/group___entity_attributes.html#ga42b768078f2d6895139fe7ab9873bd87", null ],
       [ "CanAffectPathgraph", "dc/da9/class_i_entity.html#a9a25a41a2d2c085e95269b552ac81ada", null ],
       [ "CanBeActionTarget", "dc/da9/class_i_entity.html#aa29b8aacb34cc557760b0b47f1f77028", null ],
+      [ "CanBeAutoDeleted", "dc/da9/class_i_entity.html#aac1e1adea783558b3a33caa49717e56d", null ],
       [ "CanBeIgnoredByDroppedItem", "dc/da9/class_i_entity.html#ae111a5a61f9923c2538cdbd57f5174d2", null ],
       [ "CanBeRepairedToPristine", "dc/da9/class_i_entity.html#a9e66fb2ad7dc3c93e2dc47561946bb8c", null ],
       [ "CanBeSkinned", "dc/da9/class_i_entity.html#a23f29e010aa29e7204d621d6c9433995", null ],

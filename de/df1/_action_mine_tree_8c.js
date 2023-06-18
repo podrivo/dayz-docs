@@ -4,6 +4,7 @@ var _action_mine_tree_8c =
     [ "ActionMineBase", "de/d9e/class_action_mine_base.html", "de/d9e/class_action_mine_base" ],
     [ "ActionCondition", "de/df1/_action_mine_tree_8c.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
     [ "ActionMineTree", "de/df1/_action_mine_tree_8c.html#aaf6f68baec39b329a07062a5eeba7ab2", null ],
+    [ "CanContinue", "de/df1/_action_mine_tree_8c.html#a427ee5f2915112cea90b33f5988338c6", null ],
     [ "CreateActionComponent", "de/df1/_action_mine_tree_8c.html#accfb238782010198bdb5128a8ee44300", null ],
     [ "CreateActionData", "de/df1/_action_mine_tree_8c.html#a5e0f63043b33849610c0ad517a105a80", null ],
     [ "CreateConditionComponents", "de/df1/_action_mine_tree_8c.html#a6b922d3bb1d26f790bc52030566ba2df", null ],

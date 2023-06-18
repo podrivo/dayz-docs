@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
+   <div id="projectbrief">v1.21.156243 · Jun 06, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -157,6 +157,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aa8b0ce32560398cbe9e7b39846efad59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb15d0d3fdfe15bec9ba01a199cf7bac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#adb15d0d3fdfe15bec9ba01a199cf7bac">DirectAdminLogPrint</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> str)</td></tr>
 <tr class="separator:adb15d0d3fdfe15bec9ba01a199cf7bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75fc5d17c57c635acfc86afbccc8491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#ac75fc5d17c57c635acfc86afbccc8491">PlayerCorpseDestroyed</a> (Man player)</td></tr>
+<tr class="separator:ac75fc5d17c57c635acfc86afbccc8491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01f1070c46e4cc24d25a0ea0869bc972"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#a01f1070c46e4cc24d25a0ea0869bc972">OnInit</a> ()</td></tr>
 <tr class="separator:a01f1070c46e4cc24d25a0ea0869bc972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab74bb252f2b9f6d359acac3e806d492c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#ab74bb252f2b9f6d359acac3e806d492c">ToggleCameraTools</a> ()</td></tr>
@@ -924,6 +926,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a33ce2b07f672fd7f010c3bce2f007b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a6118b32f303d4948027e98ddba0d7b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#a2a6118b32f303d4948027e98ddba0d7b">TIMER_PLAYERLIST</a> = <a class="el" href="../../dd/da1/class_plugin_base.html#aab3f15d5409be8904c7f8fbfebfe6680">GetPlayerListTimer</a>()</td></tr>
 <tr class="separator:a2a6118b32f303d4948027e98ddba0d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01349db870e6fe736a563466bb794a0"><td class="memItemLeft" align="right" valign="top">protected const ref set&lt; Man &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#af01349db870e6fe736a563466bb794a0">m_AlreadyReportedDead</a> = new set&lt;Man&gt;()</td></tr>
+<tr class="separator:af01349db870e6fe736a563466bb794a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b0443f50b69c6a112ee8502a72841c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#a73b0443f50b69c6a112ee8502a72841c">m_CurrentMode</a> = 0</td></tr>
 <tr class="separator:a73b0443f50b69c6a112ee8502a72841c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3945d6f7b64806143cf500fb2ebac31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da1/class_plugin_base.html#ab3945d6f7b64806143cf500fb2ebac31">m_HasFocus</a> = false</td></tr>
@@ -1313,7 +1317,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00058">58</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00060">60</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 </div>
 </div>
@@ -1491,7 +1495,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00661">661</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00252">OnRPC()</a>.</p>
 
@@ -1646,9 +1650,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00329">329</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00334">334</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -2660,7 +2664,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00672">672</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00252">OnRPC()</a>.</p>
 
@@ -2915,9 +2919,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00374">374</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00379">379</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -4437,11 +4441,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00098">98</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00100">100</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c.html#af773dec082e0ba8221810d6fe6f5b67b">component</a>, <a class="el" href="../../d7/d7b/class_total_damage_result.html#adf0d053c0e6961ef3a49e48d68caf31a">TotalDamageResult::GetHighestDamage()</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00167">PlayerHitBy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00170">PlayerHitBy()</a>.</p>
 
 </div>
 </div>
@@ -5010,7 +5014,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00030">30</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00032">32</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 </div>
 </div>
@@ -5048,11 +5052,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">67</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">69</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/db4/class_player_identity_base.html#a65a46942af38f69e264df6cd5f35bca5">PlayerIdentityBase::GetId()</a>, <a class="el" href="../../dd/db4/class_player_identity_base.html#abb300bd78b852eac7d5ca45e2bfd840d">PlayerIdentityBase::GetName()</a>, <a class="el" href="../../d5/da2/group___strings.html#ga6d320d8d09938fafc0670f0ad34e6c7c">string::IndexOf()</a>, <a class="el" href="../../d5/d2d/_effect_8c_source.html#l00041">m_Position</a>, <a class="el" href="../../d5/da2/group___strings.html#ga0414ff411e22e42186f83528e2adb856">string::Substring()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a41b0874e884b691268bb5b09c6f0bf7f">vector::ToString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00329">BleedingOut()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00307">OnContinouousAction()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00288">OnPlacementComplete()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00167">PlayerHitBy()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00111">PlayerKilled()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00354">PlayerList()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00322">Suicide()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00337">TotemFlagChange()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00271">UnconStart()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00278">UnconStop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00334">BleedingOut()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00312">OnContinouousAction()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00293">OnPlacementComplete()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00170">PlayerHitBy()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00113">PlayerKilled()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00359">PlayerList()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00327">Suicide()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00342">TotemFlagChange()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00276">UnconStart()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00283">UnconStop()</a>.</p>
 
 </div>
 </div>
@@ -6541,7 +6545,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00693">693</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
 
 </div>
 </div>
@@ -6939,7 +6943,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00683">683</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab">Math::AbsInt()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00252">OnRPC()</a>.</p>
 
@@ -7011,11 +7015,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">62</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">64</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#abd9b28a6ea1350c32b8f8e8809953402">CGame::AdminLog()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00329">BleedingOut()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00374">DirectAdminLogPrint()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00307">OnContinouousAction()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00288">OnPlacementComplete()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00167">PlayerHitBy()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00111">PlayerKilled()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00354">PlayerList()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00322">Suicide()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00337">TotemFlagChange()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00271">UnconStart()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00278">UnconStop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00334">BleedingOut()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00379">DirectAdminLogPrint()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00312">OnContinouousAction()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00293">OnPlacementComplete()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00170">PlayerHitBy()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00113">PlayerKilled()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00359">PlayerList()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00327">Suicide()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00342">TotemFlagChange()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00276">UnconStart()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00283">UnconStop()</a>.</p>
 
 </div>
 </div>
@@ -7187,9 +7191,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00307">307</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00312">312</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00027">ActionData::m_Action</a>, and <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00033">ActionData::m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00027">ActionData::m_Action</a>, and <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00033">ActionData::m_Player</a>.</p>
 
 </div>
 </div>
@@ -7285,7 +7289,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d86/_plugin_char_placement_8c_source.html#l00064">64</a> of file <a class="el" href="../../dc/d86/_plugin_char_placement_8c_source.html">PluginCharPlacement.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>.</p>
 
 </div>
 </div>
@@ -7907,9 +7911,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00288">288</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00293">293</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -8147,7 +8151,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00197">HandlePresetSpawn()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00165">HandleSetTime()</a>, <a class="el" href="../../da/ddf/_developer_teleport_8c_source.html#l00139">DeveloperTeleport::OnRPC()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00233">OnRPCClearInventory()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00156">OnRPCPluginDayzCreatureDebug()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00223">OnRPCServerLogRecieved()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00265">OnRPCSpawnEntity()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00239">OnRPCSpawnEntityOnCursorDir()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00248">OnRPCSpawnEntityOnGround()</a>, <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00257">OnRPCSpawnEntityOnGroundPatternGrid()</a>, and <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00142">OnRPCSyncSceneObject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l05049">ManBase::OnRPC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l05054">ManBase::OnRPC()</a>.</p>
 
 </div>
 </div>
@@ -9119,6 +9123,34 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac75fc5d17c57c635acfc86afbccc8491" name="ac75fc5d17c57c635acfc86afbccc8491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75fc5d17c57c635acfc86afbccc8491">&#9670;&#160;</a></span>PlayerCorpseDestroyed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerCorpseDestroyed </td>
+          <td>(</td>
+          <td class="paramtype">Man&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00384">384</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+
+</div>
+</div>
 <a id="aa528e5aa2366f0d1ccbf133fb6d78f80" name="aa528e5aa2366f0d1ccbf133fb6d78f80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa528e5aa2366f0d1ccbf133fb6d78f80">&#9670;&#160;</a></span>PlayerHitBy()</h2>
 
@@ -9183,9 +9215,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00167">167</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00170">170</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c.html#af773dec082e0ba8221810d6fe6f5b67b">component</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00073">DayZPlayerImplementFallDamage()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d7/d7b/class_total_damage_result.html#a8fda4c0bcce9e5460ceee6e1f2f005e6">TotalDamageResult::GetDamage()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00098">GetHitMessage()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, <a class="el" href="../../d8/ddf/3___game_2_entities_2_inventory_item_8c_source.html#l00081">EntityAI::IsMeleeWeapon()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcd/_is_box_colliding_geometry_proxy_classes_8c.html#af773dec082e0ba8221810d6fe6f5b67b">component</a>, <a class="el" href="../../de/d1b/_day_z_player_implement_fall_damage_8c_source.html#l00073">DayZPlayerImplementFallDamage()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d7/d7b/class_total_damage_result.html#a8fda4c0bcce9e5460ceee6e1f2f005e6">TotalDamageResult::GetDamage()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00100">GetHitMessage()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, <a class="el" href="../../d8/ddf/3___game_2_entities_2_inventory_item_8c_source.html#l00081">EntityAI::IsMeleeWeapon()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -9223,9 +9255,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00111">111</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00113">113</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d0/d04/_en_string_8c_source.html#l00434">string::Get()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>, and <a class="el" href="../../d5/da2/group___strings.html#gade32b9d9b0a8625d7e264b43ab34d6fd">string::ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d0/d04/_en_string_8c_source.html#l00434">string::Get()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>, and <a class="el" href="../../d5/da2/group___strings.html#gade32b9d9b0a8625d7e264b43ab34d6fd">string::ToString()</a>.</p>
 
 </div>
 </div>
@@ -9252,9 +9284,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00354">354</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00359">359</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a508c6446fd359266e6b9b1e7fe982c5b">CGame::GetPlayers()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00027">m_PlayerArray</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a508c6446fd359266e6b9b1e7fe982c5b">CGame::GetPlayers()</a>, <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00027">m_PlayerArray</a>.</p>
 
 </div>
 </div>
@@ -9310,7 +9342,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00042">42</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00044">44</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l00687">m_Timer</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a1e3f2215767a35108813a9ac5f8754eb">CGame::ServerConfigGetInt()</a>.</p>
 
@@ -9819,7 +9851,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00112">112</a> of file <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html">PluginDeveloper.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00006">CALL_ID_SCR_CNSL_ADD_PRINT</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00036">CallMethod()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00006">CALL_ID_SCR_CNSL_ADD_PRINT</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00036">CallMethod()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>.</p>
 
 </div>
 </div>
@@ -11080,7 +11112,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00679">679</a> of file <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html">PluginDeveloper.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00004">CALL_ID_SCR_CNSL_HISTORY_BACK</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00036">CallMethod()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00004">CALL_ID_SCR_CNSL_HISTORY_BACK</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00036">CallMethod()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>.</p>
 
 </div>
 </div>
@@ -11109,7 +11141,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00670">670</a> of file <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html">PluginDeveloper.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00005">CALL_ID_SCR_CNSL_HISTORY_NEXT</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00036">CallMethod()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00005">CALL_ID_SCR_CNSL_HISTORY_NEXT</a>, <a class="el" href="../../d6/d73/_dispatcher_8c_source.html#l00036">CallMethod()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>.</p>
 
 </div>
 </div>
@@ -11550,7 +11582,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00737">737</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -11582,7 +11614,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00494">494</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -11614,7 +11646,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00538">538</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>, and <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>, and <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -11646,7 +11678,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00575">575</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00080">ModifiersManager()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -11678,7 +11710,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00401">401</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/dc5/_random_generator_sync_manager_8c_source.html#l00007">Count</a>, <a class="el" href="../../d3/d65/_player_stats_p_c_o_8c_source.html#l00103">Get()</a>, and <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc5/_random_generator_sync_manager_8c_source.html#l00007">Count</a>, <a class="el" href="../../d3/d65/_player_stats_p_c_o_8c_source.html#l00103">Get()</a>, and <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -11710,7 +11742,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00779">779</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -11742,7 +11774,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00708">708</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, and <a class="el" href="../../de/d47/_utility_classes_8c_source.html#l00014">CachedObjectsParams::PARAM1_STRING</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, and <a class="el" href="../../de/d47/_utility_classes_8c_source.html#l00014">CachedObjectsParams::PARAM1_STRING</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">Update()</a>.</p>
 
@@ -13059,9 +13091,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00322">322</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00327">327</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -13401,7 +13433,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00634">634</a> of file <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html">PluginDeveloper.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00171">MENU_HELP_SCREEN</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00171">MENU_HELP_SCREEN</a>.</p>
 
 </div>
 </div>
@@ -13430,7 +13462,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00664">664</a> of file <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html">PluginDeveloper.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00193">GUI_WINDOW_MISSION_LOADER</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, and <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00193">GUI_WINDOW_MISSION_LOADER</a>.</p>
 
 </div>
 </div>
@@ -13459,7 +13491,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html#l00646">646</a> of file <a class="el" href="../../d6/da2/_plugin_developer_8c_source.html">PluginDeveloper.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dad/class_mission.html#a3f17bfd648b9d6af6ef9292d45da1c0d">Mission::AddActiveInputExcludes()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03638">g_Game</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>, and <a class="el" href="../../db/dad/class_mission.html#acaf3d597d53379c5a0af462f6b27a5af">Mission::RemoveActiveInputExcludes()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dad/class_mission.html#a3f17bfd648b9d6af6ef9292d45da1c0d">Mission::AddActiveInputExcludes()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00163">MENU_SCRIPTCONSOLE</a>, and <a class="el" href="../../db/dad/class_mission.html#acaf3d597d53379c5a0af462f6b27a5af">Mission::RemoveActiveInputExcludes()</a>.</p>
 
 </div>
 </div>
@@ -13503,9 +13535,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00337">337</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00342">342</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -13645,9 +13677,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00271">271</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00276">276</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -13675,9 +13707,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00278">278</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00283">283</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00067">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00062">LogPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00069">GetPlayerPrefix()</a>, and <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00064">LogPrint()</a>.</p>
 
 </div>
 </div>
@@ -13815,7 +13847,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00146">146</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00737">SendRPCAgents()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00494">SendRPCLevels()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00538">SendRPCMods()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00575">SendRPCModsDetail()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00401">SendRPCStats()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00779">SendRPCStomach()</a>, and <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00708">SendRPCTemp()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00737">SendRPCAgents()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00494">SendRPCLevels()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00538">SendRPCMods()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00575">SendRPCModsDetail()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00401">SendRPCStats()</a>, <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00779">SendRPCStomach()</a>, and <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00708">SendRPCTemp()</a>.</p>
 
 </div>
 </div>
@@ -13844,7 +13876,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00452">452</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/dc5/_random_generator_sync_manager_8c_source.html#l00007">Count</a>, <a class="el" href="../../d3/d65/_player_stats_p_c_o_8c_source.html#l00103">Get()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03640">GetDayZGame()</a>, and <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc5/_random_generator_sync_manager_8c_source.html#l00007">Count</a>, <a class="el" href="../../d3/d65/_player_stats_p_c_o_8c_source.html#l00103">Get()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03656">GetDayZGame()</a>, and <a class="el" href="../../de/d0e/_modifier_base_8c_source.html#l00047">GetPlayer()</a>.</p>
 
 </div>
 </div>
@@ -14335,6 +14367,30 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html#l00042">42</a> of file <a class="el" href="../../d1/d87/_plugin_developer_sync_8c_source.html">PluginDeveloperSync.c</a>.</p>
+
+</div>
+</div>
+<a id="af01349db870e6fe736a563466bb794a0" name="af01349db870e6fe736a563466bb794a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af01349db870e6fe736a563466bb794a0">&#9670;&#160;</a></span>m_AlreadyReportedDead</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected const ref set&lt;Man&gt; m_AlreadyReportedDead = new set&lt;Man&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00030">30</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
 </div>
 </div>
@@ -16439,7 +16495,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00027">27</a> of file <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html">PluginAdminLog.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00354">PlayerList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d8f/_plugin_admin_log_8c_source.html#l00359">PlayerList()</a>.</p>
 
 </div>
 </div>
@@ -18144,12 +18200,11 @@ Static Private Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="../../dd/da1/class_plugin_base.html">PluginBase</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
-</body>
-</html>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8ZT2QC248"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R8ZT2QC248');
+</script>

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
+   <div id="projectbrief">v1.21.156243 · Jun 06, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -249,6 +249,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_alpha&#160;:&#160;<a class="el" href="da/d69/class_timer_base.html#ac3dc9d68570cfcacf32d6f0e7fcf2ed8">TimerBase</a></li>
 <li>m_AlphaMaxActual&#160;:&#160;<a class="el" href="de/da3/class_flashbang_effect.html#a79fec08df8c46d1fe488c0345a0d9063">FlashbangEffect</a></li>
 <li>m_AlreadyPlaced&#160;:&#160;<a class="el" href="d4/df8/class_place_object_action_data.html#a214003d9d3d24a91fbbccd41f9cfe592">PlaceObjectActionData</a></li>
+<li>m_AlreadyReportedDead&#160;:&#160;<a class="el" href="dd/da1/class_plugin_base.html#af01349db870e6fe736a563466bb794a0">PluginBase</a></li>
 <li>m_AlternateFalseHeaderTextWidget&#160;:&#160;<a class="el" href="d4/d8f/class_container.html#ab6f66f8a5bf9e6506395978fe69a5dfe">Container</a></li>
 <li>m_AlternativeBindButton&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#a53bdc96ecaad8cb2babc78d2048fe994">ScriptedWidgetEventHandler</a></li>
 <li>m_AlternativeClear&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#ab91ac35ce1362fe1a0e98ce75aafa940">ScriptedWidgetEventHandler</a></li>
@@ -873,8 +874,9 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_ContaminatedAreaEffectEnabled&#160;:&#160;<a class="el" href="d4/d87/class_man_base.html#a79715b197672630b6305c397705549f9">ManBase</a></li>
 <li>m_ContaminatedAroundPlayer&#160;:&#160;<a class="el" href="d4/d87/class_man_base.html#ab2551ab8c4425fced7e9f9344403928e">ManBase</a></li>
 <li>m_ContaminatedAroundPlayerTiny&#160;:&#160;<a class="el" href="d4/d87/class_man_base.html#a6804c1d6f9d2be4858394d61e534b857">ManBase</a></li>
-<li>m_Content&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#ad52a252f8c9424ff659d0598cd873b75">ScriptedWidgetEventHandler</a>, <a class="el" href="d1/d5b/class_u_i_scripted_menu.html#ad17610c72db729e22f33d9cece4b89e7">UIScriptedMenu</a></li>
+<li>m_Content&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#ad52a252f8c9424ff659d0598cd873b75">ScriptedWidgetEventHandler</a></li>
 <li>m_content&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a4255bfb3f5b2973106c7b5f51d6cde85">UIScriptedMenu</a></li>
+<li>m_Content&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#ad17610c72db729e22f33d9cece4b89e7">UIScriptedMenu</a></li>
 <li>m_content_height&#160;:&#160;<a class="el" href="d9/d53/class_scroll_bar_container.html#a669e2fd094f68e72975cfc5a8d4d65e6">ScrollBarContainer</a></li>
 <li>m_content_pos&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a9546e90d780b3696e44beb34782fe7ab">UIScriptedMenu</a></li>
 <li>m_content_total_height&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a4125ed8dec92040d14c7b7062d041bab">UIScriptedMenu</a></li>
@@ -960,6 +962,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_CumulatedShock&#160;:&#160;<a class="el" href="d4/d5e/class_shock_handler.html#a0d496646579b4787f2fe476adbb75f04">ShockHandler</a></li>
 <li>m_CurrDay&#160;:&#160;<a class="el" href="d3/da3/class_u_i_popup_script.html#a346df479ad791d656e305e3035d8317f">UIPopupScript</a></li>
 <li>m_Current&#160;:&#160;<a class="el" href="db/d0c/class_cross_hair.html#a65bd53aeba59af7005b05b7f462a2c70">CrossHair</a></li>
+<li>m_CurrentAssumedDrops&#160;:&#160;<a class="el" href="dc/d12/class_c_a_continuous_mine_wood.html#aff8c63203073141247a8d42fc2450974">CAContinuousMineWood</a></li>
 <li>m_CurrentCamera&#160;:&#160;<a class="el" href="d4/d87/class_man_base.html#a61c267f09e37e8b0c064dd5e1f7d1988">ManBase</a></li>
 <li>m_CurrentCategory&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a4df0518778b62d75083e3fcb50bf2188">UIScriptedMenu</a></li>
 <li>m_CurrentCommandID&#160;:&#160;<a class="el" href="dd/d8b/class_symptom_manager.html#af5ddc2347da387a2474e3710a2fa5e4c">SymptomManager</a></li>
@@ -1029,7 +1032,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_DancingShadowsAmplitude&#160;:&#160;<a class="el" href="d7/d29/class_entity_light_source.html#a7ebbd9296bcfc011c24845c913d0b92a">EntityLightSource</a></li>
 <li>m_DancingShadowsLocalPos&#160;:&#160;<a class="el" href="d7/d29/class_entity_light_source.html#a8089e0d575eb2b880e28af8e1cd115e6">EntityLightSource</a></li>
 <li>m_DancingShadowsSpeed&#160;:&#160;<a class="el" href="d7/d29/class_entity_light_source.html#a308a43b8513e8e38f96f5f30f50304b7">EntityLightSource</a></li>
-<li>m_Data&#160;:&#160;<a class="el" href="d7/dbe/class_cfg_gameplay_handler.html#aff88095634ca7304bd97495fe1856738">CfgGameplayHandler</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#aa732639ee1899a9636cf0ea72c743d70">ScriptedWidgetEventHandler</a>, <a class="el" href="d8/d55/class_underground_trigger_carrier_base.html#a770af7d0971fbaa11d4b59367ae12975">UndergroundTriggerCarrierBase</a></li>
+<li>m_Data&#160;:&#160;<a class="el" href="d7/dbe/class_cfg_gameplay_handler.html#aff88095634ca7304bd97495fe1856738">CfgGameplayHandler</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a25738d6b7de39e78c737589e31d4d33e">ScriptedWidgetEventHandler</a>, <a class="el" href="d8/d55/class_underground_trigger_carrier_base.html#a770af7d0971fbaa11d4b59367ae12975">UndergroundTriggerCarrierBase</a></li>
 <li>m_data_set&#160;:&#160;<a class="el" href="dc/da1/class_inventory_item_super.html#a57443330211985dea556fd0ddbf7f486">InventoryItemSuper</a></li>
 <li>m_DataArray&#160;:&#160;<a class="el" href="d8/d5d/class_notification_system.html#ab598aba4d43fb2e051bebece7a998222">NotificationSystem</a></li>
 <li>m_DatabaseID&#160;:&#160;<a class="el" href="d2/de6/class_c_game.html#a7053cdee992ac373732ea0ef8496c002">CGame</a>, <a class="el" href="d4/d87/class_man_base.html#a4bec7526e3f62d696ad7aa034f83b4d5">ManBase</a></li>
@@ -1915,7 +1918,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_InIronSight&#160;:&#160;<a class="el" href="d3/d9b/class_weapon_manager.html#a8812b1a928ac9cddd72d086b6aa441ff">WeaponManager</a></li>
 <li>m_Init&#160;:&#160;<a class="el" href="df/d21/class_house.html#a506584130d676f3b6bc27c24304e4e0f">House</a>, <a class="el" href="db/d81/class_liquid.html#a506584130d676f3b6bc27c24304e4e0f">Liquid</a></li>
 <li>m_initialEvent&#160;:&#160;<a class="el" href="d8/d1b/class_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_01_ff05bd52b3b493f858f7641b9988f4c89.html#a9c677806954b2ff546048e166bcb5b6f">FSMBase&lt; Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase &gt;</a></li>
-<li>m_Initialized&#160;:&#160;<a class="el" href="de/da3/class_flashbang_effect.html#a2b24e7702c647888fe97110686cd2330">FlashbangEffect</a>, <a class="el" href="d6/db9/class_gameplay_effects_data.html#a2b24e7702c647888fe97110686cd2330">GameplayEffectsData</a>, <a class="el" href="dc/d39/class_hit_direction_effect_base.html#a67543f3b20462b853f968127db0c566e">HitDirectionEffectBase</a>, <a class="el" href="dd/d17/class_managed.html#a2b24e7702c647888fe97110686cd2330">Managed</a>, <a class="el" href="d5/d04/class_mission_base.html#a67543f3b20462b853f968127db0c566e">MissionBase</a>, <a class="el" href="dd/da1/class_plugin_base.html#a67543f3b20462b853f968127db0c566e">PluginBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a2b24e7702c647888fe97110686cd2330">ScriptedWidgetEventHandler</a>, <a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a3a2bf64a45ae6b53f2a99ba7fd43ee1d">UIScriptedMenu</a></li>
+<li>m_Initialized&#160;:&#160;<a class="el" href="de/da3/class_flashbang_effect.html#a2b24e7702c647888fe97110686cd2330">FlashbangEffect</a>, <a class="el" href="d6/db9/class_gameplay_effects_data.html#a2b24e7702c647888fe97110686cd2330">GameplayEffectsData</a>, <a class="el" href="dc/d39/class_hit_direction_effect_base.html#a67543f3b20462b853f968127db0c566e">HitDirectionEffectBase</a>, <a class="el" href="dd/d17/class_managed.html#a3a2bf64a45ae6b53f2a99ba7fd43ee1d">Managed</a>, <a class="el" href="d5/d04/class_mission_base.html#a67543f3b20462b853f968127db0c566e">MissionBase</a>, <a class="el" href="dd/da1/class_plugin_base.html#a67543f3b20462b853f968127db0c566e">PluginBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a2b24e7702c647888fe97110686cd2330">ScriptedWidgetEventHandler</a>, <a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a3a2bf64a45ae6b53f2a99ba7fd43ee1d">UIScriptedMenu</a></li>
 <li>m_initialState&#160;:&#160;<a class="el" href="d8/d1b/class_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_01_ff05bd52b3b493f858f7641b9988f4c89.html#a4a1f07944f7c20271d4cb3e6a26be834">FSMBase&lt; Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase &gt;</a></li>
 <li>m_InitialState&#160;:&#160;<a class="el" href="d2/d6c/class_h_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_0169e08c7cedb5408c09ad076c1297a189.html#a4d2e6bb1feb6e53780576a77bb76c0be">HFSMBase&lt; Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase &gt;</a></li>
 <li>m_InitialStates&#160;:&#160;<a class="el" href="dc/d69/class_o_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_01435e9d74cc4290d138c404152b6f8f38.html#ab74aa9d52be375863645f8fec2f5e072">OFSMBase&lt; Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase &gt;</a></li>
@@ -2002,7 +2005,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_iPerItemCameraUserData&#160;:&#160;<a class="el" href="d1/d74/class_human_item_behavior_cfg.html#a56cbc3900b7756f9fbcd1886eaef58b5">HumanItemBehaviorCfg</a></li>
 <li>m_IsActivated&#160;:&#160;<a class="el" href="d9/db3/class_symptom_base.html#ab2343d89a760691b01f9b33c543db4dd">SymptomBase</a></li>
 <li>m_isActive&#160;:&#160;<a class="el" href="da/d78/class_inventory_action_handler.html#ad05ecd05ddd56e529164d6561389ef70">InventoryActionHandler</a></li>
-<li>m_IsActive&#160;:&#160;<a class="el" href="de/d7a/class_item_base.html#a0d7def3ca563f3f9de5e86248eebf96a">ItemBase</a>, <a class="el" href="d9/da9/class_modifier_debug_obj.html#a9a3d3c40e1c50b7a9d14cb880b784df2">ModifierDebugObj</a>, <a class="el" href="dd/da1/class_plugin_base.html#a26873f5fd267c7dccad087adb02f7eb5">PluginBase</a>, <a class="el" href="d0/dbb/class_p_p_e_request_param_data_base.html#a0d7def3ca563f3f9de5e86248eebf96a">PPERequestParamDataBase</a>, <a class="el" href="df/d86/class_rain_procurement_component_base.html#a0d7def3ca563f3f9de5e86248eebf96a">RainProcurementComponentBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a0d7def3ca563f3f9de5e86248eebf96a">ScriptedWidgetEventHandler</a>, <a class="el" href="dc/d5e/class_soft_skills_manager.html#a0d7def3ca563f3f9de5e86248eebf96a">SoftSkillsManager</a></li>
+<li>m_IsActive&#160;:&#160;<a class="el" href="de/d7a/class_item_base.html#a0d7def3ca563f3f9de5e86248eebf96a">ItemBase</a>, <a class="el" href="d9/da9/class_modifier_debug_obj.html#a9a3d3c40e1c50b7a9d14cb880b784df2">ModifierDebugObj</a>, <a class="el" href="dd/da1/class_plugin_base.html#a9a3d3c40e1c50b7a9d14cb880b784df2">PluginBase</a>, <a class="el" href="d0/dbb/class_p_p_e_request_param_data_base.html#a0d7def3ca563f3f9de5e86248eebf96a">PPERequestParamDataBase</a>, <a class="el" href="df/d86/class_rain_procurement_component_base.html#a0d7def3ca563f3f9de5e86248eebf96a">RainProcurementComponentBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a0d7def3ca563f3f9de5e86248eebf96a">ScriptedWidgetEventHandler</a>, <a class="el" href="dc/d5e/class_soft_skills_manager.html#a0d7def3ca563f3f9de5e86248eebf96a">SoftSkillsManager</a></li>
 <li>m_IsAllowed&#160;:&#160;<a class="el" href="d8/d6b/class_bios_privacy_permission_result.html#ad45f9263ea1709cccb17eebd46dc3215">BiosPrivacyPermissionResult</a></li>
 <li>m_IsAlternateEdited&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#ac48b1fc0762ea0dc7ef36c7c171b9581">ScriptedWidgetEventHandler</a></li>
 <li>m_IsAttachment&#160;:&#160;<a class="el" href="d4/d8f/class_container.html#a92ab5fba4206b889bf3befde510dc376">Container</a></li>
@@ -2327,7 +2330,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_LifetimeStart&#160;:&#160;<a class="el" href="d7/d29/class_entity_light_source.html#a7edb9f7557e2286313a3f5a0c996b83e">EntityLightSource</a></li>
 <li>m_LiftWeapon&#160;:&#160;<a class="el" href="db/de5/class_weapon.html#a1ca36fd9ed6eabdbb06248e0affd5161">Weapon</a></li>
 <li>m_LiftWeapon_player&#160;:&#160;<a class="el" href="db/d2e/class_day_z_player.html#acfb0ac119b156a44402f83e9e4535737">DayZPlayer</a></li>
-<li>m_Light&#160;:&#160;<a class="el" href="d5/d2c/class_building_super.html#ae3f20d7e468a8c0096fa40f2d1ec348d">BuildingSuper</a>, <a class="el" href="d8/d71/class_chemlight___color_base.html#a0d3fc0c2ce89eb50a83a47c3d8406bbc">Chemlight_ColorBase</a>, <a class="el" href="d8/db4/class_clothing.html#a8aef7b0c13901f078fec02a91f117fbf">Clothing</a>, <a class="el" href="d1/d00/class_flammable_base.html#a0e8a6d1b5dbeafc07580dae3da168019">FlammableBase</a>, <a class="el" href="de/d7a/class_item_base.html#a2fa3107669ac6251f04590824c60f899">ItemBase</a>, <a class="el" href="d3/dcf/class_roadflare.html#ab99a4ef9aa676f228c35135675451f24">Roadflare</a>, <a class="el" href="d7/d67/class_switchable___base.html#a0308565b02e3529dac3af18a205c20c5">Switchable_Base</a></li>
+<li>m_Light&#160;:&#160;<a class="el" href="d5/d2c/class_building_super.html#ae3f20d7e468a8c0096fa40f2d1ec348d">BuildingSuper</a>, <a class="el" href="d8/d71/class_chemlight___color_base.html#a0d3fc0c2ce89eb50a83a47c3d8406bbc">Chemlight_ColorBase</a>, <a class="el" href="d8/db4/class_clothing.html#a8aef7b0c13901f078fec02a91f117fbf">Clothing</a>, <a class="el" href="d1/d00/class_flammable_base.html#a0e8a6d1b5dbeafc07580dae3da168019">FlammableBase</a>, <a class="el" href="de/d7a/class_item_base.html#ac73c492145c5c564657d59ca480d9181">ItemBase</a>, <a class="el" href="d3/dcf/class_roadflare.html#ab99a4ef9aa676f228c35135675451f24">Roadflare</a>, <a class="el" href="d7/d67/class_switchable___base.html#a0308565b02e3529dac3af18a205c20c5">Switchable_Base</a></li>
 <li>m_LightLocalOrientation&#160;:&#160;<a class="el" href="de/d7a/class_item_base.html#abf83550cc16726769fb6226a30bb88f8">ItemBase</a></li>
 <li>m_LightLocalPosition&#160;:&#160;<a class="el" href="de/d7a/class_item_base.html#aae6bfdcee72338557dea6904b856ebf0">ItemBase</a></li>
 <li>m_LightSourceItem&#160;:&#160;<a class="el" href="d6/d0e/class_inventory_item.html#af008926b38176fee745394246bdd2c8f">InventoryItem</a></li>
@@ -4033,7 +4036,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_Timeout&#160;:&#160;<a class="el" href="d6/d45/class_bot_state_base.html#ae42d77c8361d50b873fa1b9309bdfdf1">BotStateBase</a></li>
 <li>m_TimeoutTimer&#160;:&#160;<a class="el" href="d7/d99/class_chat_line.html#a73482de81c6a9aeeb246001017cc2617">ChatLine</a></li>
 <li>m_TimeProgBreath&#160;:&#160;<a class="el" href="d6/ded/class_gameplay_effect_widgets__base.html#a50745cd766bd1826cc07e6c936b9c00f">GameplayEffectWidgets_base</a></li>
-<li>m_Timer&#160;:&#160;<a class="el" href="d1/d49/class_blinded_mdfr.html#a54aac35c9f912525123deb202e7c7b55">BlindedMdfr</a>, <a class="el" href="de/d69/class_bot.html#a386c137f33b37de41da33a5fd9794a01">Bot</a>, <a class="el" href="d8/db4/class_clothing.html#ade208a99b4d0ba9d762ce532f7e5d709">Clothing</a>, <a class="el" href="da/de8/class_fireworks_launcher_client_event.html#a386c137f33b37de41da33a5fd9794a01">FireworksLauncherClientEvent</a>, <a class="el" href="d5/dbf/class_hud.html#ade208a99b4d0ba9d762ce532f7e5d709">Hud</a>, <a class="el" href="d7/d5d/class_inventory___base.html#ade208a99b4d0ba9d762ce532f7e5d709">Inventory_Base</a>, <a class="el" href="de/d7a/class_item_base.html#ade208a99b4d0ba9d762ce532f7e5d709">ItemBase</a>, <a class="el" href="dd/da1/class_plugin_base.html#ade208a99b4d0ba9d762ce532f7e5d709">PluginBase</a>, <a class="el" href="d8/dbb/class_point_light_base.html#a8fa3c96d86e7ad771fa518016260126a">PointLightBase</a>, <a class="el" href="d8/d3c/class_powered_optic___base.html#a386c137f33b37de41da33a5fd9794a01">PoweredOptic_Base</a>, <a class="el" href="dd/d8b/class_symptom_manager.html#ade208a99b4d0ba9d762ce532f7e5d709">SymptomManager</a>, <a class="el" href="df/d6b/class_universal_temperature_source_debug.html#a0b73578d06fe4daea8f502a25fe8ba78">UniversalTemperatureSourceDebug</a>, <a class="el" href="d0/d24/class_world_data.html#afbde063c72f8bd469d53bad16a6d260c">WorldData</a></li>
+<li>m_Timer&#160;:&#160;<a class="el" href="d1/d49/class_blinded_mdfr.html#a54aac35c9f912525123deb202e7c7b55">BlindedMdfr</a>, <a class="el" href="de/d69/class_bot.html#a386c137f33b37de41da33a5fd9794a01">Bot</a>, <a class="el" href="d8/db4/class_clothing.html#ade208a99b4d0ba9d762ce532f7e5d709">Clothing</a>, <a class="el" href="da/de8/class_fireworks_launcher_client_event.html#a386c137f33b37de41da33a5fd9794a01">FireworksLauncherClientEvent</a>, <a class="el" href="d5/dbf/class_hud.html#ade208a99b4d0ba9d762ce532f7e5d709">Hud</a>, <a class="el" href="d7/d5d/class_inventory___base.html#ade208a99b4d0ba9d762ce532f7e5d709">Inventory_Base</a>, <a class="el" href="de/d7a/class_item_base.html#a386c137f33b37de41da33a5fd9794a01">ItemBase</a>, <a class="el" href="dd/da1/class_plugin_base.html#ade208a99b4d0ba9d762ce532f7e5d709">PluginBase</a>, <a class="el" href="d8/dbb/class_point_light_base.html#a8fa3c96d86e7ad771fa518016260126a">PointLightBase</a>, <a class="el" href="d8/d3c/class_powered_optic___base.html#a386c137f33b37de41da33a5fd9794a01">PoweredOptic_Base</a>, <a class="el" href="dd/d8b/class_symptom_manager.html#ade208a99b4d0ba9d762ce532f7e5d709">SymptomManager</a>, <a class="el" href="df/d6b/class_universal_temperature_source_debug.html#a0b73578d06fe4daea8f502a25fe8ba78">UniversalTemperatureSourceDebug</a>, <a class="el" href="d0/d24/class_world_data.html#afbde063c72f8bd469d53bad16a6d260c">WorldData</a></li>
 <li>m_Timer1&#160;:&#160;<a class="el" href="dc/d57/class_contaminated_area___local.html#a89c5ebbaad098d99e605079d84fe1e77">ContaminatedArea_Local</a>, <a class="el" href="d9/d1b/class_notifier_base.html#a89c5ebbaad098d99e605079d84fe1e77">NotifierBase</a></li>
 <li>m_TimerClientUpdate&#160;:&#160;<a class="el" href="da/d9b/class_day_z_intro_scene_xbox.html#a1afb8656ecf6f20f28789bdc9bd29935">DayZIntroSceneXbox</a></li>
 <li>m_TimerDate&#160;:&#160;<a class="el" href="da/d9b/class_day_z_intro_scene_xbox.html#a1a8f19d294273ed41b6daae2c6c80169">DayZIntroSceneXbox</a></li>
@@ -4709,11 +4712,11 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
-</body>
-</html>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8ZT2QC248"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R8ZT2QC248');
+</script>

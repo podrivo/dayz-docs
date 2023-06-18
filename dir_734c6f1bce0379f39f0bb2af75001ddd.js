@@ -36,6 +36,7 @@ var dir_734c6f1bce0379f39f0bb2af75001ddd =
     [ "ActionSetKitchenTimer.c", "db/d31/_action_set_kitchen_timer_8c.html", "db/d31/_action_set_kitchen_timer_8c" ],
     [ "ActionSwapItemToHand.c", "d9/d7a/_action_swap_item_to_hand_8c.html", null ],
     [ "ActionTakeArrow.c", "d7/d12/_action_take_arrow_8c.html", "d7/d12/_action_take_arrow_8c" ],
+    [ "ActionTakeArrowToHands.c", "d2/d61/_action_take_arrow_to_hands_8c.html", "d2/d61/_action_take_arrow_to_hands_8c" ],
     [ "ActionTakeFireplaceFromBarrel.c", "d0/d81/_action_take_fireplace_from_barrel_8c.html", "d0/d81/_action_take_fireplace_from_barrel_8c" ],
     [ "ActionTakeFireplaceIndoor.c", "db/dcd/_action_take_fireplace_indoor_8c.html", "db/dcd/_action_take_fireplace_indoor_8c" ],
     [ "ActionTakeHybridAttachment.c", "d0/d71/_action_take_hybrid_attachment_8c.html", "d0/d71/_action_take_hybrid_attachment_8c" ],

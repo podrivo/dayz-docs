@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156201 · May 23, 2023</div>
+   <div id="projectbrief">v1.21.156243 · Jun 06, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -442,6 +442,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aab7420a84eb5e88169edb9dcf60afcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae111a5a61f9923c2538cdbd57f5174d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/class_i_entity.html#ae111a5a61f9923c2538cdbd57f5174d2">CanBeIgnoredByDroppedItem</a> ()</td></tr>
 <tr class="separator:ae111a5a61f9923c2538cdbd57f5174d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1e1adea783558b3a33caa49717e56d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/class_i_entity.html#aac1e1adea783558b3a33caa49717e56d">CanBeAutoDeleted</a> ()</td></tr>
+<tr class="separator:aac1e1adea783558b3a33caa49717e56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7adefa71e1dc8a3ad8524a57a0bb223a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/class_i_entity.html#a7adefa71e1dc8a3ad8524a57a0bb223a">DisableVicinityIcon</a> ()</td></tr>
 <tr class="memdesc:a7adefa71e1dc8a3ad8524a57a0bb223a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables icon in the vicinity, useful for large, immovable items, that are not buildings.  <br /></td></tr>
 <tr class="separator:a7adefa71e1dc8a3ad8524a57a0bb223a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1009,7 +1011,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01344">1344</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01349">1349</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga33e82262c3fc30a0921094432901b8d3">AddChild()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gaa91b3c444a5b3c10664e4da53d5057d4">Math3D::MatrixInvMultiply4()</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga81492b56f1d5c70b65ecf8af8103814c">Math3D::MatrixOrthogonalize4()</a>.</p>
 
@@ -1041,7 +1043,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of AddHealth("", "", float value);. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01078">1078</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01083">1083</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1134,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Similar to 'SetHealthLevel', but allows to jump up/down 'healthLevelDelta' amount of health levels from the current one. Positive values cause health level increase, therefore damage the item, and vice-versa. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01060">1060</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01065">1065</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>.</p>
 
@@ -1214,9 +1216,36 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01375">1375</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01380">1380</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c_source.html#l05556">IsHologram()</a>.</p>
+
+</div>
+</div>
+<a id="aac1e1adea783558b3a33caa49717e56d" name="aac1e1adea783558b3a33caa49717e56d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1e1adea783558b3a33caa49717e56d">&#9670;&#160;</a></span>CanBeAutoDeleted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> CanBeAutoDeleted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00776">776</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -1272,7 +1301,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01321">1321</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01326">1326</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -1513,7 +1542,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00864">864</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00869">869</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -1934,7 +1963,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of DecreaseHealth("", "", float value, bool auto_delete);. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01083">1083</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01088">1088</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -2044,7 +2073,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01017">1017</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01022">1022</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/dac/class_script_call_queue.html#a90d46bca4f2fee822c985500e877b926">ScriptCallQueue::Call()</a>, <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00008">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01153">CGame::GetCallQueue()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -2086,7 +2115,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Decreases health by the given coeficient. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01088">1088</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01093">1093</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -2149,7 +2178,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01314">1314</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01319">1319</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -2178,7 +2207,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Disables icon in the vicinity, useful for large, immovable items, that are not buildings. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00777">777</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00782">782</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -2282,7 +2311,7 @@ Static Private Member Functions</h2></td></tr>
 <p>Event called from C++ right before damage is applied. </p>
 <dl class="section return"><dt>Returns</dt><dd>whether to apply the damage or not </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01112">1112</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01117">1117</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -2508,7 +2537,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01198">1198</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01203">1203</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -2952,7 +2981,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01326">1326</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01331">1331</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
 
@@ -3179,7 +3208,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00793">793</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00798">798</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -3427,7 +3456,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of GetHealth("", "");. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01030">1030</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01035">1035</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -3501,7 +3530,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of GetHealth01("", "");. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01035">1035</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01040">1040</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -3864,7 +3893,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of GetMaxHealth("", "");. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01040">1040</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01045">1045</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -4111,7 +4140,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00786">786</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00791">791</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -4254,7 +4283,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00827">827</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00832">832</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a9350ecb28c6ebbec7a81866658137a07">CGame::ObjectGetSelectionPositionLS()</a>.</p>
 
@@ -4284,7 +4313,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00832">832</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00837">837</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a49d6705177d97404a36328e9f940aa67">CGame::ObjectGetSelectionPositionMS()</a>.</p>
 
@@ -4314,7 +4343,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00822">822</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00827">827</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a1a14657c5358c542333953a8b1e8f716">CGame::ObjectGetSelectionPosition()</a>.</p>
 
@@ -4344,7 +4373,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00837">837</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00842">842</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a1bbd3db1a00ede5ee94380912117501a">CGame::ObjectGetSelectionPositionWS()</a>.</p>
 
@@ -4701,7 +4730,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01301">1301</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01306">1306</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -4888,7 +4917,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00928">928</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00933">933</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -5799,7 +5828,7 @@ Static Private Member Functions</h2></td></tr>
 <div class="line">}</div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01187">1187</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01192">1192</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00912">IsDamageDestroyed()</a>.</p>
 
@@ -6087,7 +6116,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Compares config class name to given string. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00909">909</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00914">914</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>.</p>
 
@@ -6143,7 +6172,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00843">843</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00848">848</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#ac2f6b867f4a44bdc0dec3947ac5c78aa">CGame::ObjectModelToWorld()</a>.</p>
 
@@ -6173,7 +6202,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01309">1309</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01314">1314</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -6480,7 +6509,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Event called from C++ when simulation is disabled. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01196">1196</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01201">1201</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -6509,7 +6538,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Event called from C++ when simulation is enabled. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01193">1193</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01198">1198</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -6612,7 +6641,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Plays the given sound once on this object's instance. Range is in meters. Created sound is only local, unless create_local is set to false. Returns the sound itself. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01203">1203</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01208">1208</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a61db5176ca7a14fccbb6acdbb2db41e1">CGame::CreateSoundOnObject()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -6660,7 +6689,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Plays the given sound in loop on this object's instance. Range is in meters. Created sound is only local, unless create_local is set to false. Returns the sound itself. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01209">1209</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01214">1214</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a61db5176ca7a14fccbb6acdbb2db41e1">CGame::CreateSoundOnObject()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -6720,7 +6749,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p><a class="el" href="../../d9/d89/class_effect_sound.html" title="Wrapper class for managing sound through SEffectManager.">EffectSound</a> - plays soundset on this object and returns state of the sound (true - played, false - not played) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01215">1215</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01220">1220</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00243">SEffectManager::PlaySoundOnObject()</a>, and <a class="el" href="../../d4/d70/_effect_sound_8c_source.html#l00587">EffectSound::SetAutodestroy()</a>.</p>
 
@@ -6784,7 +6813,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01262">1262</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01267">1267</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, and <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00224">SEffectManager::PlaySoundEnviroment()</a>.</p>
 
@@ -6842,7 +6871,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01256">1256</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01261">1261</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -6900,7 +6929,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Same as PlaySoundSetAtMemoryPointLooped, only requests stoppage of the currently playing <a class="el" href="../../d9/d89/class_effect_sound.html" title="Wrapper class for managing sound through SEffectManager.">EffectSound</a> if it already exists and playing, before playing the new sound. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01247">1247</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01252">1252</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -6952,7 +6981,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p><a class="el" href="../../d9/d89/class_effect_sound.html" title="Wrapper class for managing sound through SEffectManager.">EffectSound</a> - plays soundset on this object in loop and returns state of the sound (true - played, false - not played) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01241">1241</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01246">1246</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7110,7 +7139,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01319">1319</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01324">1324</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7217,7 +7246,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Remote procedure call shortcut, see <a class="el" href="../../d2/de6/class_c_game.html#a2fd98e5859fa46ea6c7f73471a57c026" title="Initiate remote procedure call. When called on client, RPC is evaluated on server; When called on ser...">CGame.RPC</a> / <a class="el" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8" title="see CGame.RPC">CGame.RPCSingleParam</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00804">804</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00809">809</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a2fd98e5859fa46ea6c7f73471a57c026">CGame::RPC()</a>.</p>
 
@@ -7271,7 +7300,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Remote procedure call shortcut, see <a class="el" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8" title="see CGame.RPC">CGame.RPCSingleParam</a> / <a class="el" href="../../d2/de6/class_c_game.html#a2fd98e5859fa46ea6c7f73471a57c026" title="Initiate remote procedure call. When called on client, RPC is evaluated on server; When called on ser...">CGame.RPC</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00810">810</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00815">815</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00882">CGame::RPCSingleParam()</a>.</p>
 
@@ -7559,7 +7588,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of SetHealth("", "", float value);. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01050">1050</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01055">1055</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7589,7 +7618,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Equivalent of SetHealth("", "", float value);. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01045">1045</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01050">1050</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7686,7 +7715,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Sets health relative to its maximum. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01068">1068</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01073">1073</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7726,7 +7755,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Sets specific health level. It will use the cutoff value as returned by 'GetHealthLevelValue' as the health value for the given health level, which means it will always be set to the max health as allowed by the given health level. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01055">1055</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01060">1060</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7766,7 +7795,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Sets health to its maximum (zone or global) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01073">1073</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01078">1078</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 </div>
 </div>
@@ -7941,7 +7970,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p><a class="el" href="../../d9/d89/class_effect_sound.html" title="Wrapper class for managing sound through SEffectManager.">EffectSound</a> - stops soundset and returns state of the sound (true - stopped, false - not playing) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01282">1282</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l01287">1287</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -8027,7 +8056,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00848">848</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d93/_object_8c_source.html#l00853">853</a> of file <a class="el" href="../../dd/d93/_object_8c_source.html">Object.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a1ffd9fcd54ba2d2f7c04695d374da4f3">CGame::ObjectWorldToModel()</a>.</p>
 
@@ -8039,12 +8068,11 @@ Static Private Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
-</body>
-</html>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8ZT2QC248"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R8ZT2QC248');
+</script>

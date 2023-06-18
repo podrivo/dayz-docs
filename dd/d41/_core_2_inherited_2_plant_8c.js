@@ -1,4 +1,7 @@
 var _core_2_inherited_2_plant_8c =
 [
-    [ "PlantSuper", "d5/d33/class_plant_super.html", "d5/d33/class_plant_super" ]
+    [ "TreeHard", "d1/daa/class_tree_hard.html", "d1/daa/class_tree_hard" ],
+    [ "TreeSoft", "d2/df8/class_tree_soft.html", "d2/df8/class_tree_soft" ],
+    [ "BushHard", "dd/d29/class_bush_hard.html", "dd/d29/class_bush_hard" ],
+    [ "BushSoft", "da/dc6/class_bush_soft.html", "da/dc6/class_bush_soft" ]
 ];
