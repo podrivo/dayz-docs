@@ -145,9 +145,13 @@ div.contents a {
     text-decoration: underline;
 }
 
-#bigger ~ p {
+#bigger ~ p, #bigger ~ ul li a {
     font-size: 20px;
     line-height: 28px;
+}
+
+#bigger ~ ul {
+    padding-left: 20px;
 }
 
 
