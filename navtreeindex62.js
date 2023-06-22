@@ -1,7 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"d5/d22/class_d_eagle_recoil.html#a8045e088b31fe0754fb20cb0a5ff0dc9":[2,0,1122,0],
-"d5/d23/_de_craft_bow_8c.html":[3,0,0,3,0,21,0,69],
 "d5/d23/_de_craft_bow_8c_source.html":[3,0,0,3,0,21,0,69],
 "d5/d24/_health_notfr_8c.html":[3,0,0,3,0,18,0,5],
 "d5/d24/_health_notfr_8c_source.html":[3,0,0,3,0,18,0,5],
@@ -56,8 +54,8 @@ var NAVTREEINDEX62 =
 "d5/d2a/_option_selector_slider_8c_source.html":[3,0,0,4,0,6,15],
 "d5/d2c/class_building_super.html":[2,0,810],
 "d5/d2c/class_building_super.html#a0059eb46cde0e00387c1295f87619a71":[2,0,810,21],
-"d5/d2c/class_building_super.html#a0d564f986e2ebe95a7af0364ff447b0c":[2,0,810,8],
 "d5/d2c/class_building_super.html#a0d564f986e2ebe95a7af0364ff447b0c":[2,0,810,7],
+"d5/d2c/class_building_super.html#a0d564f986e2ebe95a7af0364ff447b0c":[2,0,810,8],
 "d5/d2c/class_building_super.html#a1b706293ff0ff59134cae537da935722":[2,0,810,1],
 "d5/d2c/class_building_super.html#a2dbadf7f4a9a072b93826d0d0f748a58":[2,0,810,18],
 "d5/d2c/class_building_super.html#a3831534f304d2fd69aff3e46b30e06e8":[2,0,810,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX62 =
 "d5/d44/class_effect_area.html#a698473426ecaf0e1be2dc70dd5f0db39":[2,0,1180,5],
 "d5/d44/class_effect_area.html#a6a8689cafc85496d0cbae00c0a19afb9":[2,0,1180,11],
 "d5/d44/class_effect_area.html#a808ec6aadba302b454f2ba8f07af5981":[2,0,1180,17],
-"d5/d44/class_effect_area.html#a83a1e547e0d1e65ad421070058a093a9":[2,0,1180,7]
+"d5/d44/class_effect_area.html#a83a1e547e0d1e65ad421070058a093a9":[2,0,1180,7],
+"d5/d44/class_effect_area.html#a86b4eb81c41dae7a52ebac588a71919f":[2,0,1180,27],
+"d5/d44/class_effect_area.html#a872bc791b197e67399ef531626b231dd":[2,0,1180,15]
 };
