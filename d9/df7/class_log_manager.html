@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -139,6 +139,10 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:ae239d2637a770378c99bed543798a3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ff7b9b5ccc58d40a5d9a3b30fa70fef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/class_log_manager.html#a4ff7b9b5ccc58d40a5d9a3b30fa70fef">IsWeatherLogEnabled</a> ()</td></tr>
 <tr class="separator:a4ff7b9b5ccc58d40a5d9a3b30fa70fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb908af74fa567e026fc162be2fc8dd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/class_log_manager.html#afb908af74fa567e026fc162be2fc8dd9">IsBleedingChancesLogEnable</a> ()</td></tr>
+<tr class="separator:afb908af74fa567e026fc162be2fc8dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2c291eee8735220fa6a8e9f62ec23e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/class_log_manager.html#ade2c291eee8735220fa6a8e9f62ec23e">BleedingChancesLogEnable</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> enable)</td></tr>
+<tr class="separator:ade2c291eee8735220fa6a8e9f62ec23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -158,11 +162,10 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:aa53d3b6b3fd02c789ae1518471a1f4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace5743c0a30f6a5927bac067f0f93c66"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/class_log_manager.html#ace5743c0a30f6a5927bac067f0f93c66">m_DoWeatherLog</a></td></tr>
 <tr class="separator:ace5743c0a30f6a5927bac067f0f93c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd39aee7cacf82de804ecab3e50e477"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df7/class_log_manager.html#a9bd39aee7cacf82de804ecab3e50e477">m_DoBleedingChanceLog</a></td></tr>
+<tr class="separator:a9bd39aee7cacf82de804ecab3e50e477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00552">552</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a59f38f753673dd33e4286ece057440a7" name="a59f38f753673dd33e4286ece057440a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59f38f753673dd33e4286ece057440a7">&#9670;&#160;</a></span>ActionLogEnable()</h2>
 
@@ -187,9 +190,35 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00595">595</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a74e99ae5d2bd5e38a637dc10d07c53aa">m_DoActionDebugLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00555">m_DoActionDebugLog</a>.</p>
+</div>
+</div>
+<a id="ade2c291eee8735220fa6a8e9f62ec23e" name="ade2c291eee8735220fa6a8e9f62ec23e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade2c291eee8735220fa6a8e9f62ec23e">&#9670;&#160;</a></span>BleedingChancesLogEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void BleedingChancesLogEnable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a9bd39aee7cacf82de804ecab3e50e477">m_DoBleedingChanceLog</a>.</p>
 
 </div>
 </div>
@@ -216,11 +245,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">563</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de2/group___system.html#ga7b18b38eaf689dea76594dd5e43a1352">IsCLIParam()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a74e99ae5d2bd5e38a637dc10d07c53aa">m_DoActionDebugLog</a>, <a class="el" href="../../d9/df7/class_log_manager.html#ae389c633bebd1420e30fc5b572186162">m_DoInventoryHFSMLog</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a99836164b395b44661ff87d4d232884c">m_DoInventoryMoveLog</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a2c44058a8574b74e5367cdff885bb6b6">m_DoInventoryReservationLog</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a28bdb78373871c6e9f6561a868a7e633">m_DoLogs</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a82b1f451656dbf416dd94ba1002b0c4c">m_DoSymptomDebugLog</a>, <a class="el" href="../../d9/df7/class_log_manager.html#aa53d3b6b3fd02c789ae1518471a1f4f6">m_DoWeaponLog</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#ace5743c0a30f6a5927bac067f0f93c66">m_DoWeatherLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/de2/group___system.html#ga7b18b38eaf689dea76594dd5e43a1352">IsCLIParam()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00555">m_DoActionDebugLog</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00559">m_DoInventoryHFSMLog</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00557">m_DoInventoryMoveLog</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00558">m_DoInventoryReservationLog</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00554">m_DoLogs</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00556">m_DoSymptomDebugLog</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00560">m_DoWeaponLog</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00561">m_DoWeatherLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00033">CGame::CGame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#acfcae4f183feb6e59688655bf298515b">CGame::CGame()</a>.</p>
 
 </div>
 </div>
@@ -248,9 +275,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00625">625</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00559">m_DoInventoryHFSMLog</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#ae389c633bebd1420e30fc5b572186162">m_DoInventoryHFSMLog</a>.</p>
 
 </div>
 </div>
@@ -278,9 +303,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00605">605</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00557">m_DoInventoryMoveLog</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a99836164b395b44661ff87d4d232884c">m_DoInventoryMoveLog</a>.</p>
 
 </div>
 </div>
@@ -308,9 +331,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00615">615</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00558">m_DoInventoryReservationLog</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a2c44058a8574b74e5367cdff885bb6b6">m_DoInventoryReservationLog</a>.</p>
 
 </div>
 </div>
@@ -337,11 +358,38 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00590">590</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a74e99ae5d2bd5e38a637dc10d07c53aa">m_DoActionDebugLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00555">m_DoActionDebugLog</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/da1/class_action_manager_client.html#a5755513f60c10716feb4f737376bd2db">ActionManagerClient::ActionStart()</a>, <a class="el" href="../../df/df9/class_entity_a_i.html#a52cdff768ebc148eee5a17e4ebef3408">EntityAI::AddAction()</a>, <a class="el" href="../../d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction()</a>, <a class="el" href="../../d6/d0e/class_inventory_item.html#a52cdff768ebc148eee5a17e4ebef3408">InventoryItem::AddAction()</a>, <a class="el" href="../../d7/d94/class_animated_action_base.html#a56aef61d03c102d899bc3a717cbac302">AnimatedActionBase::Do()</a>, <a class="el" href="../../d7/d94/class_animated_action_base.html#ad733af3bc84027d917055fc1b0d697c7">AnimatedActionBase::End()</a>, <a class="el" href="../../dc/d37/class_action_input.html#ad28521833d8e0c54b96d379c984d302d">ActionInput::Init()</a>, <a class="el" href="../../d9/dd9/class_action_interact_base_c_b.html#aba102feb8b95d3539c145469351091c2">ActionInteractBaseCB::InitActionComponent()</a>, <a class="el" href="../../dd/d7f/class_action_base_c_b.html#ac1c30a63fcff78de5e4924f7ee2b822e">ActionBaseCB::Interrupt()</a>, <a class="el" href="../../d7/da1/class_action_manager_client.html#af91ebef0306b10fe47057efb57330b1d">ActionManagerClient::LockInventory()</a>, <a class="el" href="../../d5/db9/_action_manager_base_8c.html#a33af5b8d96eb544f221949688cec6627">OnActionEnd()</a>, <a class="el" href="../../d7/d94/class_animated_action_base.html#a4f0a87fd51ecef3f6aa0358b9cd7953a">AnimatedActionBase::OnAnimationEvent()</a>, <a class="el" href="../../d9/dd9/class_action_interact_base_c_b.html#a22bed5de968d9d839afa53bc1b8067c0">ActionInteractBaseCB::OnAnimationEvent()</a>, <a class="el" href="../../d6/d3f/class_action_continuous_base.html#a33f968e753dc50d95353b9353e64d75f">ActionContinuousBase::OnEndAnimationLoop()</a>, <a class="el" href="../../dd/d7f/class_action_base_c_b.html#aa844cd28d168496e8cb52608ffd7ded1">ActionBaseCB::OnFinish()</a>, <a class="el" href="../../d6/d3f/class_action_continuous_base.html#adc6a69047d32600e53974425a5c21e9a">ActionContinuousBase::OnFinishProgress()</a>, <a class="el" href="../../d6/d3f/class_action_continuous_base.html#a02f72e289469bdbf474788a20c4f7fc5">ActionContinuousBase::OnStartAnimationLoop()</a>, <a class="el" href="../../d7/da1/class_action_manager_client.html#a0d6564c4e0b48132ed27b89d764e8f7e">ActionManagerClient::ProcessActionInputEnd()</a>, <a class="el" href="../../d7/da1/class_action_manager_client.html#a87cb44355f2222b67eebd9c7b6169e68">ActionManagerClient::ProcessActionRequestEnd()</a>, <a class="el" href="../../dc/d37/class_action_input.html#a514d1cce5e63c74afcab29b56da8903f">ActionInput::SetInput()</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#a8a21ffe70ea6b59da731edb7976dffa7">SetupAction()</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#a41a32155201921d885c85cc4c0bd2962">Start()</a>, <a class="el" href="../../d3/d33/class_action_manager_server.html#a8b5f709bb03ca616b4367c927f2fe832">ActionManagerServer::StartDeliveredAction()</a>, <a class="el" href="../../d7/da1/class_action_manager_client.html#adcc95ddba8b2691548b33f217a668412">ActionManagerClient::UnlockInventory()</a>, and <a class="el" href="../../d3/d33/class_action_manager_server.html#a47d07e65dec68c40fc31b18e63954616">ActionManagerServer::Update()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00592">ActionManagerClient::ActionStart()</a>, <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00087">EntityAI::AddAction()</a>, <a class="el" href="../../d6/db8/4___world_2_entities_2_game_2_super_2_building_8c_source.html#l00047">AddAction()</a>, <a class="el" href="../../df/d2e/_item_base_8c_source.html#l00311">InventoryItem::AddAction()</a>, <a class="el" href="../../df/dad/_animated_action_base_8c_source.html#l00294">AnimatedActionBase::Do()</a>, <a class="el" href="../../df/dad/_animated_action_base_8c_source.html#l00357">AnimatedActionBase::End()</a>, <a class="el" href="../../d2/df5/_action_input_8c_source.html#l00060">ActionInput::Init()</a>, <a class="el" href="../../d7/d90/_action_interact_base_8c_source.html#l00024">ActionInteractBaseCB::InitActionComponent()</a>, <a class="el" href="../../df/dad/_animated_action_base_8c_source.html#l00075">ActionBaseCB::Interrupt()</a>, <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00558">ActionManagerClient::LockInventory()</a>, <a class="el" href="../../d5/db9/_action_manager_base_8c_source.html#l00265">OnActionEnd()</a>, <a class="el" href="../../df/dad/_animated_action_base_8c_source.html#l00176">AnimatedActionBase::OnAnimationEvent()</a>, <a class="el" href="../../d7/d90/_action_interact_base_8c_source.html#l00008">ActionInteractBaseCB::OnAnimationEvent()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00186">ActionContinuousBase::OnEndAnimationLoop()</a>, <a class="el" href="../../df/dad/_animated_action_base_8c_source.html#l00019">ActionBaseCB::OnFinish()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00203">ActionContinuousBase::OnFinishProgress()</a>, <a class="el" href="../../d5/d96/_action_continuous_base_8c_source.html#l00168">ActionContinuousBase::OnStartAnimationLoop()</a>, <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00355">ActionManagerClient::ProcessActionInputEnd()</a>, <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00325">ActionManagerClient::ProcessActionRequestEnd()</a>, <a class="el" href="../../d2/df5/_action_input_8c_source.html#l00076">ActionInput::SetInput()</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00144">SetupAction()</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00570">Start()</a>, <a class="el" href="../../d4/da5/_action_manager_server_8c_source.html#l00110">ActionManagerServer::StartDeliveredAction()</a>, <a class="el" href="../../d2/dae/_action_manager_client_8c_source.html#l00582">ActionManagerClient::UnlockInventory()</a>, and <a class="el" href="../../d4/da5/_action_manager_server_8c_source.html#l00205">ActionManagerServer::Update()</a>.</p>
+</div>
+</div>
+<a id="afb908af74fa567e026fc162be2fc8dd9" name="afb908af74fa567e026fc162be2fc8dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb908af74fa567e026fc162be2fc8dd9">&#9670;&#160;</a></span>IsBleedingChancesLogEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/db9/classbool.html">bool</a> IsBleedingChancesLogEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a9bd39aee7cacf82de804ecab3e50e477">m_DoBleedingChanceLog</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d4b/class_bleed_chance_data.html#a5a97ebd00dfc216cbcb3e661ab872138">BleedChanceData::CalculateBleedChance()</a>, and <a class="el" href="../../dc/da8/class_bleeding_sources_manager_base.html#a0ef9d80ead8cb24c351b885701345256">BleedingSourcesManagerBase::ProcessHit()</a>.</p>
 
 </div>
 </div>
@@ -368,11 +416,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00620">620</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#ae389c633bebd1420e30fc5b572186162">m_DoInventoryHFSMLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00559">m_DoInventoryHFSMLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/d82/_hand___actions_8c_source.html#l00017">HandActionBase::Action()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00205">HandEventBase::CanPerformEvent()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00657">HandEventSwap::CanPerformEvent()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00558">HandEventBase::CheckRequest()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00639">HandEventSwap::CheckRequest()</a>, <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00311">HandEventBase::CheckRequestSrc()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00024">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../dc/d2e/_hand___guards_8c_source.html#l00114">HandGuardHasItemInEvent::GuardCondition()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l02034">HandleHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01528">HandleTakeToDst()</a>, <a class="el" href="../../da/df3/_hand_animated_taking_from_att_8c_source.html#l00109">HandStateBase::OnAbort()</a>, <a class="el" href="../../d0/db8/_hand_animated_force_swapping_8c_source.html#l00007">HandStateBase::OnEntry()</a>, <a class="el" href="../../d3/d1d/_hand_animated_moving_to_att_8c_source.html#l00030">HandStartAction::OnEntry()</a>, and <a class="el" href="../../d5/d7b/_human_inventory_with_f_s_m_8c_source.html#l00096">HumanInventoryWithFSM::ProcessHandEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d49/class_hand_action_base.html#aa48f7d7786ad8088b84720add04ea1d8">HandActionBase::Action()</a>, <a class="el" href="../../d8/d9e/class_hand_event_base.html#a7ffb00d2ed9636101bbd0a9ea260682e">HandEventBase::CanPerformEvent()</a>, <a class="el" href="../../d1/d52/class_hand_event_swap.html#a7ffb00d2ed9636101bbd0a9ea260682e">HandEventSwap::CanPerformEvent()</a>, <a class="el" href="../../d8/d9e/class_hand_event_base.html#a6141b536ee3fd98e33ff7ce4e2970137">HandEventBase::CheckRequest()</a>, <a class="el" href="../../d1/d52/class_hand_event_swap.html#a6141b536ee3fd98e33ff7ce4e2970137">HandEventSwap::CheckRequest()</a>, <a class="el" href="../../d8/d9e/class_hand_event_base.html#ade1be49963b6307b1eeeeb69363c5924">HandEventBase::CheckRequestSrc()</a>, <a class="el" href="../../d3/d96/class_hand_guard_base.html#a06c9b67406ed592984213963466592c5">HandGuardBase::GuardCondition()</a>, <a class="el" href="../../d6/de7/class_hand_guard_has_item_in_event.html#a06c9b67406ed592984213963466592c5">HandGuardHasItemInEvent::GuardCondition()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a2023b05f7fd230a9b8fac571483ea158">HandleHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a379756f16e3579854473ca71030f836b">HandleTakeToDst()</a>, <a class="el" href="../../d2/d9a/class_hand_state_base.html#a37111a4727ab7c9e56921242e35fd09d">HandStateBase::OnAbort()</a>, <a class="el" href="../../d2/d9a/class_hand_state_base.html#a5af9858c011f114ddfd56d0edc6b60c7">HandStateBase::OnEntry()</a>, <a class="el" href="../../d5/ded/class_hand_start_action.html#a5af9858c011f114ddfd56d0edc6b60c7">HandStartAction::OnEntry()</a>, and <a class="el" href="../../d4/d59/class_human_inventory_with_f_s_m.html#a611651478b09a831c5cb412825cd7679">HumanInventoryWithFSM::ProcessHandEvent()</a>.</p>
 
 </div>
 </div>
@@ -399,11 +445,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00600">600</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a99836164b395b44661ff87d4d232884c">m_DoInventoryMoveLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00557">m_DoInventoryMoveLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01717">ForceSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01757">HandleForceSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01654">HandleSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01528">HandleTakeToDst()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01429">StoreInputForRemotes()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01618">SwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01445">TakeToDst()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01225">ValidateDestroy()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00828">ValidateHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01018">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00662">ValidateSyncMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#abe2d83ac0c98db0acdb554f13193de4b">ForceSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#ada59d1487a72f5cf29204e1c66a5d3e6">HandleForceSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#ac7c88135b5bf77cf8dceb109fe075f9c">HandleSwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a379756f16e3579854473ca71030f836b">HandleTakeToDst()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#af332dfd5599ad6ff00ff71e110c41054">StoreInputForRemotes()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a92ae506a926a85013caf3e20952e34eb">SwapEntities()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a6f3ac4a65e51aa125f52179fd0ee1ed6">TakeToDst()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a49c7c290f03e2efca046ca273df2b3c9">ValidateDestroy()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a12b88205e7422d09884016e9cbd0e7e3">ValidateHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#ac7881512061aab4a17eefe7bc5531257">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a10df1fd150c7c0fcdd437c246cddcd01">ValidateSyncMove()</a>.</p>
 
 </div>
 </div>
@@ -430,11 +474,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00610">610</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a2c44058a8574b74e5367cdff885bb6b6">m_DoInventoryReservationLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00558">m_DoInventoryReservationLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00714">CGame::AddInventoryJunctureEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00687">GameInventory::AddInventoryReservationEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00733">GameInventory::ClearInventoryReservationEx()</a>, <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00735">CGame::ClearJunctureEx()</a>, <a class="el" href="../../dc/dd3/3___game_2_systems_2_inventory_2_inventory_8c_source.html#l00710">GameInventory::ExtendInventoryReservationEx()</a>, and <a class="el" href="../../da/d12/_junctures_8c_source.html#l00029">TryAcquireTwoInventoryJuncturesFromServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#a1e1f6d796cb8f193899e3dd7c80117a6">CGame::AddInventoryJunctureEx()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a65592dfc21243755e92072ee9a798188">GameInventory::AddInventoryReservationEx()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#a4e843c45fe1055bb1d71b0d70b34168e">GameInventory::ClearInventoryReservationEx()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab3869f7f8f8ad39250dbf0412750ab6d">CGame::ClearJunctureEx()</a>, <a class="el" href="../../dc/d11/class_game_inventory.html#afcfcd8fcc8008258eee1de2dfea0b213">GameInventory::ExtendInventoryReservationEx()</a>, and <a class="el" href="../../da/d12/_junctures_8c.html#af6d34597fc489e9577bc8e0e636486cc">TryAcquireTwoInventoryJuncturesFromServer()</a>.</p>
 
 </div>
 </div>
@@ -461,11 +503,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00580">580</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a28bdb78373871c6e9f6561a868a7e633">m_DoLogs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00554">m_DoLogs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00461">Debug::LogMessage()</a>, <a class="el" href="../../d6/daf/mission_gameplay_8c_source.html#l00091">MissionBase::OnInit()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00262">Debug::ReceivedLogMessageFromServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d7d/class_debug.html#ab6ad154cb8a154043a10a3ba153b6cf0">Debug::LogMessage()</a>, <a class="el" href="../../d5/d04/class_mission_base.html#a01f1070c46e4cc24d25a0ea0869bc972">MissionBase::OnInit()</a>, and <a class="el" href="../../da/d7d/class_debug.html#ae0261ee9c10a5111b83f743be531cad0">Debug::ReceivedLogMessageFromServer()</a>.</p>
 
 </div>
 </div>
@@ -492,11 +532,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00630">630</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a82b1f451656dbf416dd94ba1002b0c4c">m_DoSymptomDebugLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00556">m_DoSymptomDebugLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/dcb/_freeze_state_8c_source.html#l00053">SymptomBase::OnGetActivatedClient()</a>, <a class="el" href="../../d3/dcb/_freeze_state_8c_source.html#l00035">SymptomBase::OnGetActivatedServer()</a>, <a class="el" href="../../d3/dcb/_freeze_state_8c_source.html#l00065">SymptomBase::OnGetDeactivatedClient()</a>, and <a class="el" href="../../d3/dcb/_freeze_state_8c_source.html#l00059">SymptomBase::OnGetDeactivatedServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/db3/class_symptom_base.html#a45ccd5d78afb6e7cb2ba715fbd9f368b">SymptomBase::OnGetActivatedClient()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a3d8220eba05ca3b37b1653e7372ddc32">SymptomBase::OnGetActivatedServer()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a59ac48e9dddb23c5081399940c807576">SymptomBase::OnGetDeactivatedClient()</a>, and <a class="el" href="../../d9/db3/class_symptom_base.html#a35ed1e5850ebcc15fb25a77af3daf693">SymptomBase::OnGetDeactivatedServer()</a>.</p>
 
 </div>
 </div>
@@ -523,11 +561,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">640</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#aa53d3b6b3fd02c789ae1518471a1f4f6">m_DoWeaponLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00560">m_DoWeaponLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00266">AbortWeaponEvent()</a>, <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01063">Weapon::CanRemoveFromHands()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c_source.html#l00058">ejectBulletAndStoreInMagazine()</a>, <a class="el" href="../../de/dc3/_guards_8c_source.html#l00021">WeaponGuardBase::GuardCondition()</a>, <a class="el" href="../../de/dc3/_guards_8c_source.html#l00101">GuardCondition()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00320">HandleWeaponEvents()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00096">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::LoadAndSetCurrentFSMState()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00054">WeaponStateBase::LoadCurrentFSMState()</a>, <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00506">Weapon::LoadCurrentFSMState()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00123">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::LoadCurrentFSMState()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00134">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::LoadCurrentUnstableFSMState()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c_source.html#l00096">magazinesHaveEqualSizes()</a>, <a class="el" href="../../df/d13/_weapon_attach_magazine_8c_source.html#l00190">WeaponStateBase::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00113">WeaponChambering_Base::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00783">OnAbort()</a>, <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00028">WeaponStableState::OnEntry()</a>, <a class="el" href="../../dd/daa/_s_k_s_8c_source.html#l00054">WeaponStateJammed::OnEntry()</a>, <a class="el" href="../../d9/d40/_rifle_chambering_8c_source.html#l00042">WeaponStateBase::OnEntry()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00087">WeaponChambering_Base::OnEntry()</a>, <a class="el" href="../../d5/d6b/_weapon_fire_8c_source.html#l00050">WeaponStartAction::OnEntry()</a>, <a class="el" href="../../d5/d6b/_weapon_fire_8c_source.html#l00100">WeaponFire::OnEntry()</a>, <a class="el" href="../../d5/d6b/_weapon_fire_8c_source.html#l00127">OnEntry()</a>, <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00018">OnExit()</a>, <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00029">WeaponStableState::OnExit()</a>, <a class="el" href="../../dd/daa/_s_k_s_8c_source.html#l00055">WeaponStateJammed::OnExit()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00142">WeaponChambering_Base::OnExit()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00163">WeaponChambering_Cartridge::OnExit()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c_source.html#l00514">WeaponStateBase::OnExit()</a>, <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00416">Weapon::OnStoreLoad()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00381">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::OnStoreLoad()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00447">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::OnStoreSave()</a>, <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html#l00027">WeaponStartAction::OnUpdate()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00284">PostWeaponEvent()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c_source.html#l00001">pushToChamberFromAttachedMagazine()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c_source.html#l00033">pushToChamberFromInnerMagazine()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00473">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::RandomizeFSMStateEx()</a>, <a class="el" href="../../d3/d28/_weapon_state_base_8c_source.html#l00034">WeaponStateBase::SaveCurrentFSMState()</a>, <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00491">Weapon::SaveCurrentFSMState()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00154">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::SaveCurrentFSMState()</a>, <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00175">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::SaveCurrentUnstableFSMState()</a>, <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01089">Weapon::SyncEventToRemote()</a>, and <a class="el" href="../../dd/d89/_weapon_f_s_m_8c_source.html#l00287">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::ValidateAndRepairHelper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a5757047ec95ef40c309ca0acf4886513">AbortWeaponEvent()</a>, <a class="el" href="../../db/de5/class_weapon.html#aed925ee192783eac2b5b80458d1e6f3c">Weapon::CanRemoveFromHands()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c.html#a49a9fd6099779d8aeb52daba7dfbea14">ejectBulletAndStoreInMagazine()</a>, <a class="el" href="../../dc/d3f/class_weapon_guard_base.html#a2b256b4c2f01476ed361d8445d872d75">WeaponGuardBase::GuardCondition()</a>, <a class="el" href="../../de/dc3/_guards_8c.html#a2b256b4c2f01476ed361d8445d872d75">GuardCondition()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a2bfcec42953387c3d22278a9a7d9d5cb">HandleWeaponEvents()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#a61710410cae0b48947d2352fe50d9893">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::LoadAndSetCurrentFSMState()</a>, <a class="el" href="../../d2/db4/class_weapon_state_base.html#a75e28031b95c23b801128af0c18f2c2b">WeaponStateBase::LoadCurrentFSMState()</a>, <a class="el" href="../../db/de5/class_weapon.html#a75e28031b95c23b801128af0c18f2c2b">Weapon::LoadCurrentFSMState()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#afbcb6d26729b336acbb1622b23bcf667">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::LoadCurrentFSMState()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#a40f25bd4a37d486324100152478d4c47">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::LoadCurrentUnstableFSMState()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c.html#a159dd547834260b1c9dcbd8a51fa6459">magazinesHaveEqualSizes()</a>, <a class="el" href="../../d2/db4/class_weapon_state_base.html#a832fd16d806aa9791c4e3eefa9849d21">WeaponStateBase::OnAbort()</a>, <a class="el" href="../../d1/d1f/class_weapon_chambering___base.html#a832fd16d806aa9791c4e3eefa9849d21">WeaponChambering_Base::OnAbort()</a>, <a class="el" href="../../dd/db3/_weapon_chambering_8c.html#a832fd16d806aa9791c4e3eefa9849d21">OnAbort()</a>, <a class="el" href="../../dc/dcc/class_weapon_stable_state.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponStableState::OnEntry()</a>, <a class="el" href="../../db/d5e/class_weapon_state_jammed.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponStateJammed::OnEntry()</a>, <a class="el" href="../../d2/db4/class_weapon_state_base.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponStateBase::OnEntry()</a>, <a class="el" href="../../d1/d1f/class_weapon_chambering___base.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponChambering_Base::OnEntry()</a>, <a class="el" href="../../dd/dcb/class_weapon_start_action.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponStartAction::OnEntry()</a>, <a class="el" href="../../d5/db3/class_weapon_fire.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponFire::OnEntry()</a>, <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a554194fbf83f198e8f8e9ecb7a31e330">OnEntry()</a>, <a class="el" href="../../d9/d3c/_crossbow_8c.html#aa40f8697dfa587f8adabc8640bc98ad8">OnExit()</a>, <a class="el" href="../../dc/dcc/class_weapon_stable_state.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponStableState::OnExit()</a>, <a class="el" href="../../db/d5e/class_weapon_state_jammed.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponStateJammed::OnExit()</a>, <a class="el" href="../../d1/d1f/class_weapon_chambering___base.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponChambering_Base::OnExit()</a>, <a class="el" href="../../da/d19/class_weapon_chambering___cartridge.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponChambering_Cartridge::OnExit()</a>, <a class="el" href="../../d2/db4/class_weapon_state_base.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponStateBase::OnExit()</a>, <a class="el" href="../../db/de5/class_weapon.html#ab311cdf3df0e3547b7d3cd810e61ca61">Weapon::OnStoreLoad()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#a148c27804d8942f731dc724c78fe8d06">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::OnStoreLoad()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#a0ad3a73c6fdfd7da1ebbf5c5456b8ea2">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::OnStoreSave()</a>, <a class="el" href="../../dd/dcb/class_weapon_start_action.html#abf66986e08676e65b1e4fbf3c5f69f48">WeaponStartAction::OnUpdate()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a5fd6dc7588df13b9f526d0de97d49eac">PostWeaponEvent()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c.html#a74f42313b991e8c2b3128abc54646bfc">pushToChamberFromAttachedMagazine()</a>, <a class="el" href="../../d5/d44/weapon__utils_8c.html#a04d056bc1c397d13bb47b46ab4d31766">pushToChamberFromInnerMagazine()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#a012af2b4b6a5c2837f43e1f9e7c6343d">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::RandomizeFSMStateEx()</a>, <a class="el" href="../../d2/db4/class_weapon_state_base.html#a78cb9133e4986a7cb1bedbc7977291eb">WeaponStateBase::SaveCurrentFSMState()</a>, <a class="el" href="../../db/de5/class_weapon.html#a31c017993df6f4c25bc3879890391a55">Weapon::SaveCurrentFSMState()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#a74c1b4ba65ef542133707ff76dcc601e">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::SaveCurrentFSMState()</a>, <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#ae26ce8d6fa12955dca2431eb8362fe0a">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::SaveCurrentUnstableFSMState()</a>, <a class="el" href="../../db/de5/class_weapon.html#a5a9d8becd0293c2414019dc36ab1803b">Weapon::SyncEventToRemote()</a>, and <a class="el" href="../../d2/d15/class_h_f_s_m_base_3_01_weapon_state_base_00_01_weapon_event_base_00_01_weapon_action_base_00_01_weapon_guard_base_01_4.html#ab93d2bf5b183cc7b0a058f978b633d08">HFSMBase&lt; WeaponStateBase, WeaponEventBase, WeaponActionBase, WeaponGuardBase &gt;::ValidateAndRepairHelper()</a>.</p>
 
 </div>
 </div>
@@ -554,11 +590,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00650">650</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#ace5743c0a30f6a5927bac067f0f93c66">m_DoWeatherLog</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00561">m_DoWeatherLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00189">Debug::WeatherLog()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d7d/class_debug.html#a3e426fb1a08fa447f323aa7969895639">Debug::WeatherLog()</a>.</p>
 
 </div>
 </div>
@@ -586,11 +620,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00585">585</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a28bdb78373871c6e9f6561a868a7e633">m_DoLogs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00554">m_DoLogs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/db7/_script_console_8c_source.html#l01180">UIScriptedMenu::OnClick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dc4/class_script_console_general_tab.html#aee6a27cad085ec84d5f5dbb765b63b53">ScriptConsoleGeneralTab::OnClick()</a>.</p>
 
 </div>
 </div>
@@ -618,9 +650,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00635">635</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00556">m_DoSymptomDebugLog</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#a82b1f451656dbf416dd94ba1002b0c4c">m_DoSymptomDebugLog</a>.</p>
 
 </div>
 </div>
@@ -648,9 +678,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00645">645</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00560">m_DoWeaponLog</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df7/class_log_manager.html#aa53d3b6b3fd02c789ae1518471a1f4f6">m_DoWeaponLog</a>.</p>
 
 </div>
 </div>
@@ -675,9 +703,31 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00555">555</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a59f38f753673dd33e4286ece057440a7">ActionLogEnable()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#a7a46c2956126f27a67a98cb689da987c">IsActionLogEnable()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00595">ActionLogEnable()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00590">IsActionLogEnable()</a>.</p>
+</div>
+</div>
+<a id="a9bd39aee7cacf82de804ecab3e50e477" name="a9bd39aee7cacf82de804ecab3e50e477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd39aee7cacf82de804ecab3e50e477">&#9670;&#160;</a></span>m_DoBleedingChanceLog</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_DoBleedingChanceLog</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#ade2c291eee8735220fa6a8e9f62ec23e">BleedingChancesLogEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#afb908af74fa567e026fc162be2fc8dd9">IsBleedingChancesLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -701,9 +751,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00559">559</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00625">InventoryHFSMLogEnable()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00620">IsInventoryHFSMLogEnable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a443a6cd31b775c8ec1c2aa5ceeb6deda">InventoryHFSMLogEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#a1d85377e18f016d0c80816c505bdc4d5">IsInventoryHFSMLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -727,9 +775,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00557">557</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00605">InventoryMoveLogEnable()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00600">IsInventoryMoveLogEnable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a38e6c614bcfa629c35b5bc9efdabf1b6">InventoryMoveLogEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#a400422b608b8a983acf68cee66b72604">IsInventoryMoveLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -753,9 +799,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00558">558</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00615">InventoryReservationLogEnable()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00610">IsInventoryReservationLogEnable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#aefafb1ddd8f7b360d8de1681eccbb9e9">InventoryReservationLogEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#aa95b9f69fa7c3317cf8ddff9a611b5c7">IsInventoryReservationLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -779,9 +823,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00554">554</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00580">IsLogsEnable()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00585">SetLogsEnabled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a4b6e534c82ed27543ca4af564f39c2bf">IsLogsEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#a5fcd63a1dc8ebe3deae3a5c4a932bc0c">SetLogsEnabled()</a>.</p>
 
 </div>
 </div>
@@ -805,9 +847,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00556">556</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00630">IsSymptomLogEnable()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00635">SymptomLogEnable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#ad17af8d9fd502b9bb89e01e041316180">IsSymptomLogEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#a31686db009e8a415d46dc4c7334621a9">SymptomLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -831,9 +871,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00560">560</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">IsWeaponLogEnable()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00645">WeaponLogEnable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654">IsWeaponLogEnable()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#ae239d2637a770378c99bed543798a3f0">WeaponLogEnable()</a>.</p>
 
 </div>
 </div>
@@ -857,14 +895,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00561">561</a> of file <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00563">Init()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00650">IsWeatherLogEnabled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, and <a class="el" href="../../d9/df7/class_log_manager.html#a4ff7b9b5ccc58d40a5d9a3b30fa70fef">IsWeatherLogEnabled()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/tools/<a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html">Debug.c</a></li>
+<li>3_Game/tools/<a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c.html">Debug.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -63,6 +63,7 @@ var class_particle_list =
     [ "EASTER_EGG_ACTIVATE", "dd/dd2/class_particle_list.html#a4d0f964c2c38866cd5880ecf0cb257bf", null ],
     [ "ENV_SWARMING_FLIES", "dd/dd2/class_particle_list.html#a9f3bae4846dd61eda4c0fda405927f4b", null ],
     [ "EVAPORATION", "dd/dd2/class_particle_list.html#aecd63ca118abb7cacbe2c233d76cbd02", null ],
+    [ "EXPLOSION_GOAT", "dd/dd2/class_particle_list.html#aeea48f43dd0612c16901527e4802cc33", null ],
     [ "EXPLOSION_LANDMINE", "dd/dd2/class_particle_list.html#ad163c31d7e29032a19df3c5826f22e71", null ],
     [ "EXPLOSION_TEST", "dd/dd2/class_particle_list.html#a6345648d147411d452ac0345ee1da607", null ],
     [ "FIREWORKS_AFTERBURN_END", "dd/dd2/class_particle_list.html#a2df9de4ffb9b16b03130e509af26ed1c", null ],

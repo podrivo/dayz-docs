@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -143,6 +143,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a97401893df24d7db96065c653471af5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83132f28c0bd0f95090cb9d8e3dd9b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a83132f28c0bd0f95090cb9d8e3dd9b5a">GenerateHumanReadableRecipeList</a> ()</td></tr>
 <tr class="separator:a83132f28c0bd0f95090cb9d8e3dd9b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f1103abf0a7c6f70e2b93fe7db44af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../db/d2a/class_recipe_base.html">RecipeBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#ab4f1103abf0a7c6f70e2b93fe7db44af">GetRecipesForItem</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> itemName)</td></tr>
+<tr class="separator:ab4f1103abf0a7c6f70e2b93fe7db44af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18c901f9383e0ad1f898300ae1382e78"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a18c901f9383e0ad1f898300ae1382e78">RecipeSanityCheck</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> num_of_ingredients, <a class="el" href="../../d5/d4a/4___world_2_entities_2_game_2_super_2_inventory_item_8c.html#aa5a8dcd70bcb27177833139b82b94899">InventoryItemBase</a> items[], <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player)</td></tr>
 <tr class="separator:a18c901f9383e0ad1f898300ae1382e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a819811fc86d261fa63b1470f7ad38244"><td class="memItemLeft" align="right" valign="top">override protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a819811fc86d261fa63b1470f7ad38244">RegisterRecipe</a> (<a class="el" href="../../db/d2a/class_recipe_base.html">RecipeBase</a> recipe)</td></tr>
@@ -245,10 +247,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:a237768fb13165414d3a36f1b38c550af"><td class="memItemLeft" align="right" valign="top">static ref <a class="el" href="../../d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07c">map</a>&lt; <a class="el" href="../../d5/d92/classstring.html">string</a>, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a237768fb13165414d3a36f1b38c550af">m_RecipeNamesList</a> = new <a class="el" href="../../d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07c">map</a>&lt;<a class="el" href="../../d5/d92/classstring.html">string</a>, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&gt;</td></tr>
 <tr class="separator:a237768fb13165414d3a36f1b38c550af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00012">12</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a01ab0f903a7039d13c98042cca989ba9" name="a01ab0f903a7039d13c98042cca989ba9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01ab0f903a7039d13c98042cca989ba9">&#9670;&#160;</a></span>~PluginRecipesManager()</h2>
 
@@ -271,8 +270,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00061">61</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -300,9 +297,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00158">158</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00166">GenerateRecipeCache()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00133">Debug::Log()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#afcd312879190acf3b20fd12a0c806879">GenerateRecipeCache()</a>, and <a class="el" href="../../da/d7d/class_debug.html#ac0a75400c551a91931b86b09125cfa59">Debug::Log()</a>.</p>
 
 </div>
 </div>
@@ -352,11 +347,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00416">416</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d2a/class_recipe_base.html#a009b89c3f1348e0549bc5e3fe0a7b269">RecipeBase::CheckRecipe()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00483">RecipeBase::CheckRecipe()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00282">PerformRecipeServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a97401893df24d7db96065c653471af5d">PerformRecipeServer()</a>.</p>
 
 </div>
 </div>
@@ -383,11 +376,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00460">460</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a3206bfc63dadc10e17a8f308e26fe6bc">MAX_INGREDIENTS</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00021">MAX_INGREDIENTS</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00435">SortIngredientsInRecipe()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a82cc224d6c40f911a2a6eaceb06db964">SortIngredientsInRecipe()</a>.</p>
 
 </div>
 </div>
@@ -414,11 +405,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00599">599</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d9d/_plugin_recipes_manager_base_8c.html#a591c6ae0bade3e5da383ed0778fc90ac">RegisterRecipies()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d9d/_plugin_recipes_manager_base_8c_source.html#l00014">RegisterRecipies()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00052">PluginRecipesManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a78405c3bb5659d6a7e9b5c22e8e56234">PluginRecipesManager()</a>.</p>
 
 </div>
 </div>
@@ -445,9 +434,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00314">314</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c_source.html#l00035">CacheObject()</a>, <a class="el" href="../../d5/df6/group___file.html#ga0a4e75ef8b9c1089566c2fcb93c98deb">CloseFile()</a>, <a class="el" href="../../d5/df6/group___file.html#gaeecdc6e29388d4c3625c4596cb87c322">FPrintln()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00077">GetRecipeName()</a>, <a class="el" href="../../d5/df6/group___file.html#ga3d9a79efe70e77db00da15d1355e40ce">OpenFile()</a>, <a class="el" href="../../d4/d15/_en_script_8c_source.html#l00345">PrintString()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>, <a class="el" href="../../d5/df6/group___file.html#ga0a4e75ef8b9c1089566c2fcb93c98deb">CloseFile()</a>, <a class="el" href="../../d5/df6/group___file.html#gaeecdc6e29388d4c3625c4596cb87c322">FPrintln()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#ad3eb0815026d8276eb655338a68ae313">GetRecipeName()</a>, <a class="el" href="../../d5/df6/group___file.html#ga3d9a79efe70e77db00da15d1355e40ce">OpenFile()</a>, <a class="el" href="../../d5/d78/group___enforce.html#ga57f32b036e535bd975e903bb47bc7c3c">PrintString()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
 </div>
 </div>
@@ -474,11 +461,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00166">166</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d7f/group___menu_i_d.html#gaffa280014cd9af91abe74b767cf2a45b">CFG_MAGAZINESPATH</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#ga4eefa6610d914e19744cb7e377171479">CFG_VEHICLESPATH</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#gade71505908fa8ae2b1f0da309770c68a">CFG_WEAPONSPATH</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d2/de6/class_c_game.html#adac8933125e09e4478e5fe1c06087f01">CGame::ConfigGetFullPath()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a778994c3a7d21b4d54de6d332d91f600">CGame::ConfigGetInt()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#addbe1418bebb52f90bd3e1a2b2b071e7">MatchItems()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a72eb872122a154ff6960757fb60924ed">CGame::ProfilerStart()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a57d90cf849a71ae09e3b10dccb282192">CGame::ProfilerStop()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a5d0e28cfe3b57a4a63cb6bb60ce695db">WalkRecipes()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00197">CFG_MAGAZINESPATH</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00195">CFG_VEHICLESPATH</a>, <a class="el" href="../../d3/ddc/3___game_2constants_8c_source.html#l00196">CFG_WEAPONSPATH</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d2/de6/class_c_game.html#adac8933125e09e4478e5fe1c06087f01">CGame::ConfigGetFullPath()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a778994c3a7d21b4d54de6d332d91f600">CGame::ConfigGetInt()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00249">MatchItems()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a72eb872122a154ff6960757fb60924ed">CGame::ProfilerStart()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a57d90cf849a71ae09e3b10dccb282192">CGame::ProfilerStop()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00205">WalkRecipes()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00158">CallbackGenerateCache()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00052">PluginRecipesManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#afcaa530bc866de8bef77c486554747a4">CallbackGenerateCache()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a78405c3bb5659d6a7e9b5c22e8e56234">PluginRecipesManager()</a>.</p>
 
 </div>
 </div>
@@ -506,8 +491,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00144">144</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="abee49feb94f746511d8167a1ad9004d1" name="abee49feb94f746511d8167a1ad9004d1"></a>
@@ -532,8 +515,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00047">47</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -573,11 +554,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>fills an array with recipe IDs which 'item_a' and 'item_b' share </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00529">529</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c_source.html#l00035">CacheObject()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00104">GetValidRecipesProper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a424cba30b1d31f2823a360251aac6033">GetValidRecipesProper()</a>.</p>
 
 </div>
 </div>
@@ -605,8 +584,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00132">132</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="ad3eb0815026d8276eb655338a68ae313" name="ad3eb0815026d8276eb655338a68ae313"></a>
@@ -633,9 +610,35 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00077">77</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a83132f28c0bd0f95090cb9d8e3dd9b5a">GenerateHumanReadableRecipeList()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00314">GenerateHumanReadableRecipeList()</a>.</p>
+</div>
+</div>
+<a id="ab4f1103abf0a7c6f70e2b93fe7db44af" name="ab4f1103abf0a7c6f70e2b93fe7db44af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f1103abf0a7c6f70e2b93fe7db44af">&#9670;&#160;</a></span>GetRecipesForItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../db/d2a/class_recipe_base.html">RecipeBase</a> &gt; GetRecipesForItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td>
+          <td class="paramname"><em>itemName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>.</p>
 
 </div>
 </div>
@@ -662,8 +665,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00138">138</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -707,9 +708,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00605">605</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00608">RecipeBase::GetSoundCategory()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00435">SortIngredientsInRecipe()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d2a/class_recipe_base.html#a1b3bd8906d6b4ee902d50ef800c462af">RecipeBase::GetSoundCategory()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a82cc224d6c40f911a2a6eaceb06db964">SortIngredientsInRecipe()</a>.</p>
 
 </div>
 </div>
@@ -759,9 +758,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00085">85</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/da9/_kit_base_8c_source.html#l00063">ItemBase::DisassembleOnLastDetach()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00104">GetValidRecipesProper()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d7a/class_item_base.html#aaaa7c01329097cf6467404415bdbdb27">ItemBase::DisassembleOnLastDetach()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a424cba30b1d31f2823a360251aac6033">GetValidRecipesProper()</a>.</p>
 
 </div>
 </div>
@@ -811,11 +808,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00104">104</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d2a/class_recipe_base.html#a009b89c3f1348e0549bc5e3fe0a7b269">RecipeBase::CheckRecipe()</a>, <a class="el" href="../../db/d2a/class_recipe_base.html#a2ba77aa3e0b17d2f4b2eb519db6aeaf7">RecipeBase::GetID()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a939c9b48fefeb10180b32b59878307f8">GetRecipeIntersection()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#aea057c92263d7b383eac24080ccffe3a">SortIngredients()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00483">RecipeBase::CheckRecipe()</a>, <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00584">RecipeBase::GetID()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00529">GetRecipeIntersection()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00579">SortIngredients()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00085">GetValidRecipes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a10772ad1999b117d4550245d4cb7aab8">GetValidRecipes()</a>.</p>
 
 </div>
 </div>
@@ -842,9 +837,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00066">66</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00026">m_EnableDebugCrafting</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a87354688fe41f82b6b4f452688643b9a">m_EnableDebugCrafting</a>.</p>
 
 </div>
 </div>
@@ -872,11 +865,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00249">249</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>, <a class="el" href="../../d5/d08/class_layout_holder.html#a0cb7c47723f72f9554e3905fc94140e4">LayoutHolder::Count()</a>, <a class="el" href="../../df/d5d/_action_detach_8c.html#a7440ef2a236ad6638268b559c5f4f46d">m_ItemName</a>, <a class="el" href="../../df/dde/_action_world_craft_8c.html#a72f20198e857a6f19152bea42b7b582d">m_RecipeID</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c_source.html#l00035">CacheObject()</a>, <a class="el" href="../../df/d3c/_container_8c_source.html#l00302">LayoutHolder::Count()</a>, <a class="el" href="../../df/d5d/_action_detach_8c.html#a7440ef2a236ad6638268b559c5f4f46d">m_ItemName</a>, <a class="el" href="../../df/dde/_action_world_craft_8c.html#a72f20198e857a6f19152bea42b7b582d">m_RecipeID</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00166">GenerateRecipeCache()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#afcd312879190acf3b20fd12a0c806879">GenerateRecipeCache()</a>.</p>
 
 </div>
 </div>
@@ -902,8 +893,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00150">150</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -953,9 +942,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00282">282</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00416">CheckRecipe()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00525">RecipeBase::PerformRecipe()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00346">RecipeSanityCheck()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00435">SortIngredientsInRecipe()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#aa7ad38b00e2b73ee4f9578ae30688c0c">CheckRecipe()</a>, <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, <a class="el" href="../../db/d2a/class_recipe_base.html#abc7536552bc8fa12643563e45d795d25">RecipeBase::PerformRecipe()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a18c901f9383e0ad1f898300ae1382e78">RecipeSanityCheck()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a82cc224d6c40f911a2a6eaceb06db964">SortIngredientsInRecipe()</a>.</p>
 
 </div>
 </div>
@@ -982,9 +969,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00052">52</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00599">CreateAllRecipes()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00166">GenerateRecipeCache()</a>, and <a class="el" href="../../da/dbd/_plugin_item_diagnostic_8c_source.html#l00046">myTimer1</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a1a4665bfff57def7ee0e05131e1b888c">CreateAllRecipes()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#afcd312879190acf3b20fd12a0c806879">GenerateRecipeCache()</a>, and <a class="el" href="../../da/dbd/_plugin_item_diagnostic_8c.html#aec9e9429cc4dfcfe3895154cb433e6db">myTimer1</a>.</p>
 
 </div>
 </div>
@@ -1011,9 +996,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00422">422</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c_source.html#l00035">CacheObject()</a>, and <a class="el" href="../../d4/d15/_en_script_8c_source.html#l00345">PrintString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>, and <a class="el" href="../../d5/d78/group___enforce.html#ga57f32b036e535bd975e903bb47bc7c3c">PrintString()</a>.</p>
 
 </div>
 </div>
@@ -1041,9 +1024,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00520">520</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00133">Debug::Log()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d7d/class_debug.html#ac0a75400c551a91931b86b09125cfa59">Debug::Log()</a>.</p>
 
 </div>
 </div>
@@ -1071,9 +1052,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00409">409</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00396">UnregisterRecipe()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a91a24cbaf886679f079500ec64cbe836">UnregisterRecipe()</a>.</p>
 
 </div>
 </div>
@@ -1117,11 +1096,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00346">346</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c.html#aecab22a2e4c8556d1c6e7ef31db4702e">ACCEPTABLE_DISTANCE</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a3206bfc63dadc10e17a8f308e26fe6bc">MAX_INGREDIENTS</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c.html#a2b5ac91e0a34edc07a84edbf2c87d751">SANITY_CHECK_ACCEPTABLE_RESULT</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c.html#aecab22a2e4c8556d1c6e7ef31db4702e">ACCEPTABLE_DISTANCE</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00021">MAX_INGREDIENTS</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00010">SANITY_CHECK_ACCEPTABLE_RESULT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00282">PerformRecipeServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a97401893df24d7db96065c653471af5d">PerformRecipeServer()</a>.</p>
 
 </div>
 </div>
@@ -1149,11 +1126,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00382">382</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, and <a class="el" href="../../db/d2a/class_recipe_base.html#ad7788179007745267c85e62d91fc4a07">RecipeBase::SetID()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, and <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00590">RecipeBase::SetID()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d9d/_plugin_recipes_manager_base_8c_source.html#l00014">RegisterRecipies()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d9d/_plugin_recipes_manager_base_8c.html#a591c6ae0bade3e5da383ed0778fc90ac">RegisterRecipies()</a>.</p>
 
 </div>
 </div>
@@ -1191,11 +1166,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00469">469</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga46107fe5da70b9f5f33642d643dc813f">Math::Pow()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#ae9be023d8c4a010c3731a05b4b86fe06">ResolveIngredients()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga46107fe5da70b9f5f33642d643dc813f">Math::Pow()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00469">ResolveIngredients()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00469">ResolveIngredients()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00435">SortIngredientsInRecipe()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#ae9be023d8c4a010c3731a05b4b86fe06">ResolveIngredients()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a82cc224d6c40f911a2a6eaceb06db964">SortIngredientsInRecipe()</a>.</p>
 
 </div>
 </div>
@@ -1222,8 +1195,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00071">71</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1267,11 +1238,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00579">579</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a82cc224d6c40f911a2a6eaceb06db964">SortIngredientsInRecipe()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00435">SortIngredientsInRecipe()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00104">GetValidRecipesProper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a424cba30b1d31f2823a360251aac6033">GetValidRecipesProper()</a>.</p>
 
 </div>
 </div>
@@ -1323,11 +1292,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>sorts ingredients correctly as either first or second ingredient based on their masks </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00435">435</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a9999075341befb50000b00255001124d">ClearResults()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, <a class="el" href="../../d5/d98/group___math.html#ga3dd7536f8b6a037c16fab0de2f8ada3b">Math::Log2()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#ae9be023d8c4a010c3731a05b4b86fe06">ResolveIngredients()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c_source.html#l00035">CacheObject()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00460">ClearResults()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, <a class="el" href="../../d5/d98/group___math.html#ga3dd7536f8b6a037c16fab0de2f8ada3b">Math::Log2()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00469">ResolveIngredients()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00605">GetSoundCategory()</a>, <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00282">PerformRecipeServer()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00579">SortIngredients()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#aea81d1b720adcc08694e50fff27410d8">GetSoundCategory()</a>, <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a97401893df24d7db96065c653471af5d">PerformRecipeServer()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#aea057c92263d7b383eac24080ccffe3a">SortIngredients()</a>.</p>
 
 </div>
 </div>
@@ -1355,9 +1322,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00396">396</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00409">RecipeIDFromClassname()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#ac129f5e4f71e5a8b41511afb53d5d7b6">RecipeIDFromClassname()</a>.</p>
 
 </div>
 </div>
@@ -1384,11 +1349,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00205">205</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c.html#a63b0fa68ad4ea3b06a459eced6c76a36">CacheObject()</a>, <a class="el" href="../../db/d2a/class_recipe_base.html#a2ba77aa3e0b17d2f4b2eb519db6aeaf7">RecipeBase::GetID()</a>, <a class="el" href="../../db/d2a/class_recipe_base.html#ab0139ab199e4ce6eab2bf971e1c4cf4c">RecipeBase::m_Ingredients</a>, <a class="el" href="../../d3/da8/_recipe_base_8c.html#aea936966a907bb4bf0d4337d60770198">MAX_NUMBER_OF_INGREDIENTS</a>, <a class="el" href="../../d5/d98/group___math.html#ga46107fe5da70b9f5f33642d643dc813f">Math::Pow()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dc2/_cache_object_8c_source.html#l00035">CacheObject()</a>, <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00584">RecipeBase::GetID()</a>, <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00007">RecipeBase::m_Ingredients</a>, <a class="el" href="../../d3/da8/_recipe_base_8c_source.html#l00001">MAX_NUMBER_OF_INGREDIENTS</a>, <a class="el" href="../../d5/d98/group___math.html#ga46107fe5da70b9f5f33642d643dc813f">Math::Pow()</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00166">GenerateRecipeCache()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#afcd312879190acf3b20fd12a0c806879">GenerateRecipeCache()</a>.</p>
 
 </div>
 </div>
@@ -1413,8 +1376,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00242">242</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="ac0cd641a9610968e741813e80d3fe946" name="ac0cd641a9610968e741813e80d3fe946"></a>
@@ -1436,8 +1397,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00243">243</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1461,8 +1420,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00240">240</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="ac2a85d5fc8df5e369173fae9940b24c7" name="ac2a85d5fc8df5e369173fae9940b24c7"></a>
@@ -1484,8 +1441,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00031">31</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1509,8 +1464,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00040">40</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="aacaea7b1186ad831f668783c44be0f1f" name="aacaea7b1186ad831f668783c44be0f1f"></a>
@@ -1532,8 +1485,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00246">246</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1557,8 +1508,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00245">245</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="a87354688fe41f82b6b4f452688643b9a" name="a87354688fe41f82b6b4f452688643b9a"></a>
@@ -1581,9 +1530,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00026">26</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00066">IsEnableDebugCrafting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#aa09debdb36924e7ebbb55b09cd172486">IsEnableDebugCrafting()</a>.</p>
 
 </div>
 </div>
@@ -1607,8 +1554,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00033">33</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="aa8ac23911b0b00ba48555302b132f09a" name="aa8ac23911b0b00ba48555302b132f09a"></a>
@@ -1630,8 +1575,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00034">34</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1655,8 +1598,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00035">35</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="abfe51ee92802ce4bd81cb87739f6c2fc" name="abfe51ee92802ce4bd81cb87739f6c2fc"></a>
@@ -1678,8 +1619,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00028">28</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1703,8 +1642,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00029">29</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="a1d4fcad46c8956f952796aca396f60e8" name="a1d4fcad46c8956f952796aca396f60e8"></a>
@@ -1726,8 +1663,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00027">27</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1751,8 +1686,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00244">244</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="ad1e301a306b24243ae7984755e2c97bc" name="ad1e301a306b24243ae7984755e2c97bc"></a>
@@ -1774,8 +1707,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00239">239</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1799,8 +1730,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00014">14</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="adcfc53d0859a753513fab0036f88bf0e" name="adcfc53d0859a753513fab0036f88bf0e"></a>
@@ -1822,8 +1751,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00241">241</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1847,8 +1774,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00042">42</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="a237768fb13165414d3a36f1b38c550af" name="a237768fb13165414d3a36f1b38c550af"></a>
@@ -1870,8 +1795,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00043">43</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1895,8 +1818,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00015">15</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="aff1b2dcad23f286d4f31ffe0d3643e49" name="aff1b2dcad23f286d4f31ffe0d3643e49"></a>
@@ -1918,8 +1839,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00039">39</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1943,8 +1862,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00023">23</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="a662d3ea98e124aa7cfc74d0a8993fe5f" name="a662d3ea98e124aa7cfc74d0a8993fe5f"></a>
@@ -1966,8 +1883,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00024">24</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -1991,8 +1906,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00037">37</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="ae06885f63dbda70cfc5cfe46720733d0" name="ae06885f63dbda70cfc5cfe46720733d0"></a>
@@ -2014,8 +1927,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00018">18</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
 
 </div>
 </div>
@@ -2039,8 +1950,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00020">20</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="a3206bfc63dadc10e17a8f308e26fe6bc" name="a3206bfc63dadc10e17a8f308e26fe6bc"></a>
@@ -2063,9 +1972,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00021">21</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00460">ClearResults()</a>, and <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00346">RecipeSanityCheck()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a9999075341befb50000b00255001124d">ClearResults()</a>, and <a class="el" href="../../dd/d5d/class_plugin_recipes_manager_base.html#a18c901f9383e0ad1f898300ae1382e78">RecipeSanityCheck()</a>.</p>
 
 </div>
 </div>
@@ -2089,8 +1996,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00019">19</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <a id="aec9e9429cc4dfcfe3895154cb433e6db" name="aec9e9429cc4dfcfe3895154cb433e6db"></a>
@@ -2113,12 +2018,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html#l00045">45</a> of file <a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/4_World/Plugins/PluginBase/<a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c_source.html">PluginRecipesManager.c</a></li>
+<li>4_World/Plugins/PluginBase/<a class="el" href="../../d9/dcb/_plugin_recipes_manager_8c.html">PluginRecipesManager.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

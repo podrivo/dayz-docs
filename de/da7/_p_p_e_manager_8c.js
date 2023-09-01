@@ -11,6 +11,7 @@ var _p_p_e_manager_8c =
     [ "Init", "de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae", null ],
     [ "InitPPEManagerClassMap", "de/da7/_p_p_e_manager_8c.html#a1b9b71468e1ec8f4b788f1e6c565ff91", null ],
     [ "InsertUpdatedMaterial", "de/da7/_p_p_e_manager_8c.html#a4e36ebc18ec5c7feca23a42fd88d46d9", null ],
+    [ "IsAnyRequesterRunning", "de/da7/_p_p_e_manager_8c.html#a65f68b4081b36824962a386b6bc32743", null ],
     [ "PPEManager", "de/da7/_p_p_e_manager_8c.html#a3f65891e72814e8a6b29c4af7885038d", null ],
     [ "ProcessApplyValueChanges", "de/da7/_p_p_e_manager_8c.html#aec3843bc3b1f75b5c5bd3d453f52cd0d", null ],
     [ "ProcessMaterialUpdates", "de/da7/_p_p_e_manager_8c.html#a5dd9cab82412520ec5fb8cd169173b70", null ],

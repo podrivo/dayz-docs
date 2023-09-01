@@ -1,5 +1,7 @@
 var class_layout_holder =
 [
+    [ "AddItemToQuickbarRadial", "d5/d08/class_layout_holder.html#a98fcd87b1bcb8ccfc1016a7af6038ccf", null ],
+    [ "CanAddToQuickbarEx", "d5/d08/class_layout_holder.html#ae95fa207ad55101c0bf4b82f5124916f", null ],
     [ "CanCombine", "d5/d08/class_layout_holder.html#a81e4df310774497c86c3f25fc265e3e9", null ],
     [ "CanCombineAmmo", "d5/d08/class_layout_holder.html#aa623b5d0a07d482b926fef8d17a3b119", null ],
     [ "CanCombineEx", "d5/d08/class_layout_holder.html#a86f9177f84d361092166fbb7d3a3d322", null ],

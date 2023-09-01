@@ -1,6 +1,8 @@
 var class_right_area =
 [
     [ "RightArea", "d2/d5d/class_right_area.html#a1cf7132cda6314c92331c1686efb7c76", null ],
+    [ "CanTakeToInventory", "d2/d5d/class_right_area.html#a5ed384b939d1ae329af3cf22ecfbfc50", null ],
+    [ "CanTakeToInventoryEx", "d2/d5d/class_right_area.html#afee91f99eef45c286510e932080ee9d3", null ],
     [ "Combine", "d2/d5d/class_right_area.html#aa2acb04588ab948a8893be1d95f9cd1f", null ],
     [ "DraggingOverHeader", "d2/d5d/class_right_area.html#a9d744b9914ac440bf316cb39e33adb3f", null ],
     [ "EquipItem", "d2/d5d/class_right_area.html#aa30b3eef807e23fba8bef8d18c8632a8", null ],

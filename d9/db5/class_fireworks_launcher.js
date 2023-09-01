@@ -22,7 +22,7 @@ var class_fireworks_launcher =
     [ "OnFiringStop", "d9/db5/class_fireworks_launcher.html#a9072d9c75bc749e5e993afad1ea9ace6", null ],
     [ "OnFuseIgnitedClient", "d9/db5/class_fireworks_launcher.html#a8d003aa88ce7961ff62822427f3aae2a", null ],
     [ "OnFuseIgnitedServer", "d9/db5/class_fireworks_launcher.html#a9da4102193afe66af871925945c13542", null ],
-    [ "OnIgnitedThis", "d9/db5/class_fireworks_launcher.html#ae4a166ce8ca52121d8e4183c8bf8a654", null ],
+    [ "OnIgnitedThis", "d9/db5/class_fireworks_launcher.html#a89ee9c793503408599f1d172a6278179", null ],
     [ "OnIndexChangedClient", "d9/db5/class_fireworks_launcher.html#ae31072ae2d015ed6f60a6f52200e1d0f", null ],
     [ "OnPlacementComplete", "d9/db5/class_fireworks_launcher.html#ae36946e76ed0a5ec3ab9d90ef271d050", null ],
     [ "OnStateChangedClient", "d9/db5/class_fireworks_launcher.html#a40732a5ade2a2acde30158e9d3ae2d91", null ],

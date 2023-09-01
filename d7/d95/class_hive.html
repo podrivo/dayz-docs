@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -130,11 +130,11 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ae274217557a07bce477e2012c8bf3cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dfa066603ba7075edfa83213d1067e0"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d95/class_hive.html#a7dfa066603ba7075edfa83213d1067e0">CallUpdater</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> content)</td></tr>
 <tr class="separator:a7dfa066603ba7075edfa83213d1067e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064b599998a4e5687a8a1932e5fdf497"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d95/class_hive.html#a064b599998a4e5687a8a1932e5fdf497">CharacterIsLoginPositionChanged</a> (Man player)</td></tr>
+<tr class="memdesc:a064b599998a4e5687a8a1932e5fdf497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only valid during login.  <br /></td></tr>
+<tr class="separator:a064b599998a4e5687a8a1932e5fdf497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/_hive_8c_source.html#l00005">5</a> of file <a class="el" href="../../d3/d1d/_hive_8c_source.html">Hive.c</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2cea31fe9ef92c5cf6318186c7fddc8f" name="a2cea31fe9ef92c5cf6318186c7fddc8f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cea31fe9ef92c5cf6318186c7fddc8f">&#9670;&#160;</a></span>Hive()</h2>
 
@@ -157,8 +157,6 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/_hive_8c_source.html#l00007">7</a> of file <a class="el" href="../../d3/d1d/_hive_8c_source.html">Hive.c</a>.</p>
 
 </div>
 </div>
@@ -184,8 +182,6 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/_hive_8c_source.html#l00008">8</a> of file <a class="el" href="../../d3/d1d/_hive_8c_source.html">Hive.c</a>.</p>
 
 </div>
 </div>
@@ -240,7 +236,37 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00606">MissionBase::PlayerDisconnected()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d04/class_mission_base.html#a8fcf587245eac7091ff065ea2c87f427">MissionBase::PlayerDisconnected()</a>.</p>
+
+</div>
+</div>
+<a id="a064b599998a4e5687a8a1932e5fdf497" name="a064b599998a4e5687a8a1932e5fdf497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a064b599998a4e5687a8a1932e5fdf497">&#9670;&#160;</a></span>CharacterIsLoginPositionChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a> CharacterIsLoginPositionChanged </td>
+          <td>(</td>
+          <td class="paramtype">Man&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Only valid during login. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#ab311cdf3df0e3547b7d3cd810e61ca61">ManBase::OnStoreLoad()</a>.</p>
 
 </div>
 </div>
@@ -268,7 +294,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00777">ManBase::EEKilled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a4de4d414d0cbf15100ab71ec84ca25f7">ManBase::EEKilled()</a>.</p>
 
 </div>
 </div>
@@ -296,7 +322,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07368">ManBase::Save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#af68aceebcb2ff554c143f85d26942dad">ManBase::Save()</a>.</p>
 
 </div>
 </div>
@@ -464,7 +490,7 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/Hive/<a class="el" href="../../d3/d1d/_hive_8c_source.html">Hive.c</a></li>
+<li>3_Game/Hive/<a class="el" href="../../d3/d1d/_hive_8c.html">Hive.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

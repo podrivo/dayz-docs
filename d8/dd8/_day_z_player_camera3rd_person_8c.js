@@ -26,6 +26,9 @@ var _day_z_player_camera3rd_person_8c =
     [ "CONST_LR_MIN", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a5d6c5c9f3cb694f50d794bd50a1f1cd3", null ],
     [ "CONST_UD_MAX", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a4e15292c0485bdae55b4ca339aa450c8", null ],
     [ "CONST_UD_MIN", "d8/dd8/_day_z_player_camera3rd_person_8c.html#aa59814833643a675cf580aa2bc0314bf", null ],
+    [ "m_BaseOffsetVelX", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a98eeb64efec46c5097ae01bc7f36c3d7", null ],
+    [ "m_BaseOffsetVelY", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a7e6989769582a6111d5c0b140a2faa12", null ],
+    [ "m_BaseOffsetVelZ", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a17ac65fb0119b9845ff61b55bb4afd8b", null ],
     [ "m_bShoulderInLS", "d8/dd8/_day_z_player_camera3rd_person_8c.html#aba241f4abfd9560715a47e0ab9f5ac54", null ],
     [ "m_CameraOffsetLS", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a36b5f20fb85db20946190c5dd857635a", null ],
     [ "m_CameraOffsetMS", "d8/dd8/_day_z_player_camera3rd_person_8c.html#ac4686aa51bae4031b84b18735efab3cf", null ],
@@ -51,6 +54,6 @@ var _day_z_player_camera3rd_person_8c =
     [ "m_iBoneIndex", "d8/dd8/_day_z_player_camera3rd_person_8c.html#aa222e4eda0aab2c42126dc6300683604", null ],
     [ "m_iPelvisBone", "d8/dd8/_day_z_player_camera3rd_person_8c.html#af202b28a1defa698a406072c4d56f536", null ],
     [ "m_jumpOffsetVelocity", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a2088488712a2805e6de9bd402b4b39fc", null ],
-    [ "m_LookAtLRAngle", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a7caf9dc1fb956b858e7d2485379044df", null ],
+    [ "m_LookAtLRAngle", "d8/dd8/_day_z_player_camera3rd_person_8c.html#a7ce55fb9ce9c0ac73ba0499afde7ca2f", null ],
     [ "m_MovementState", "d8/dd8/_day_z_player_camera3rd_person_8c.html#aa20c94cf3a51fa5af0ca371fd70a7cd9", null ]
 ];

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -175,6 +175,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memItemLeft" align="right" valign="top">override protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192">OnStart</a> (<a class="el" href="../../de/d90/class_param.html">Param</a> par=null)</td></tr>
 <tr class="separator:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54bd255d7f109b84cf1908eba71036ae"><td class="memItemLeft" align="right" valign="top">override protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> delta)</td></tr>
+<tr class="separator:a54bd255d7f109b84cf1908eba71036ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa06c0c32ad9a154d02cb2077ade09a58"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#aa06c0c32ad9a154d02cb2077ade09a58">OnStop</a> (<a class="el" href="../../de/d90/class_param.html">Param</a> par=null)</td></tr>
+<tr class="separator:aa06c0c32ad9a154d02cb2077ade09a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1896a4fd2bec134291256de3b506cdac"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a1896a4fd2bec134291256de3b506cdac">FadeColourMult</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>, <a class="el" href="../../d4/dc3/classfloat.html">float</a> <a class="el" href="../../dd/d4b/_icon_8c.html#acd41c12fe81446bff0920670641367de">y</a>, <a class="el" href="../../d4/dc3/classfloat.html">float</a> deltaT)</td></tr>
+<tr class="separator:a1896a4fd2bec134291256de3b506cdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memItemLeft" align="right" valign="top">override protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192">OnStart</a> (<a class="el" href="../../de/d90/class_param.html">Param</a> par=null)</td></tr>
+<tr class="separator:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memItemLeft" align="right" valign="top">override protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192">OnStart</a> (<a class="el" href="../../de/d90/class_param.html">Param</a> par=null)</td></tr>
 <tr class="separator:a7d198af8f80bfb8d62f2b6028a8b0192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26ca4fdcddd9f852de9b86184a16e48a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a26ca4fdcddd9f852de9b86184a16e48a">SetEyeAccommodation</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> value)</td></tr>
@@ -252,11 +260,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>base, not to be used directly, would lead to layering collisions! </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d2d/_p_p_e_r_blood_loss_8c_source.html#l00001">1</a> of file <a class="el" href="../../d5/d2d/_p_p_e_r_blood_loss_8c_source.html">PPERBloodLoss.c</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1896a4fd2bec134291256de3b506cdac" name="a1896a4fd2bec134291256de3b506cdac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1896a4fd2bec134291256de3b506cdac">&#9670;&#160;</a></span>FadeColourMult()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1896a4fd2bec134291256de3b506cdac">&#9670;&#160;</a></span>FadeColourMult() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,16 +301,58 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00077">77</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc0/class_easing.html#a7d3a5931e21e308a496558dc66566c1b">Easing::EaseInOutSine()</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#acd41c12fe81446bff0920670641367de">y</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dc0/_easing_8c_source.html#l00014">Easing::EaseInOutSine()</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#acd41c12fe81446bff0920670641367de">y</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00028">OnUpdate()</a>.</p>
+</div>
+</div>
+<a id="a1896a4fd2bec134291256de3b506cdac" name="a1896a4fd2bec134291256de3b506cdac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1896a4fd2bec134291256de3b506cdac">&#9670;&#160;</a></span>FadeColourMult() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> FadeColourMult </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>deltaT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dc/dc0/class_easing.html#a7d3a5931e21e308a496558dc66566c1b">Easing::EaseInOutSine()</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../dd/d4b/_icon_8c.html#a2970c38de5fbde060cc7a0ed546e674f">x</a>, and <a class="el" href="../../dd/d4b/_icon_8c.html#acd41c12fe81446bff0920670641367de">y</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,14 +375,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da3/_p_p_e_r_burlap_sack_8c_source.html#l00003">3</a> of file <a class="el" href="../../d7/da3/_p_p_e_r_burlap_sack_8c_source.html">PPERBurlapSack.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/db0/_gameplay_effect_widgets_8c_source.html#l00351">GameplayEffectWidgets_base::AddSuspendRequest()</a>, <a class="el" href="../../d8/d18/gameplay_8c_source.html#l00817">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00014">PPEExposureNative::L_0_BURLAP</a>, <a class="el" href="../../dc/d47/_p_p_e_eye_accomodation_native_8c_source.html#l00015">PPEEyeAccomodationNative::L_0_BURLAP</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00060">PPEGlow::L_25_BURLAP</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00066">PPEGlow::L_26_BURLAP</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00008">PPEExposureNative::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d47/_p_p_e_eye_accomodation_native_8c_source.html#l00008">PPEEyeAccomodationNative::PARAM_INTENSITY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00034">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00035">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/ded/class_gameplay_effect_widgets__base.html#ab7fed03b775976ab4f4234e32a7e89c8">GameplayEffectWidgets_base::AddSuspendRequest()</a>, <a class="el" href="../../db/dad/class_mission.html#a72e19e44a4dc19eabfb30ae30cf63cfc">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#afa68db70b52762816937619a4d3982ca">PPEExposureNative::L_0_BURLAP</a>, <a class="el" href="../../d8/dcf/class_p_p_e_eye_accomodation_native.html#afa68db70b52762816937619a4d3982ca">PPEEyeAccomodationNative::L_0_BURLAP</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a34a9774e623494b69636f3df5ca6d97d">PPEGlow::L_25_BURLAP</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#acf8d521274a1035660e8636b56488fa5">PPEGlow::L_26_BURLAP</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEExposureNative::PARAM_INTENSITY</a>, <a class="el" href="../../d8/dcf/class_p_p_e_eye_accomodation_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEEyeAccomodationNative::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#abd1f06d1113a794a9ffd9e0bb733e665">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ac77c5e041be4dff797e139dec7c7dd67">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,14 +403,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00073">73</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,14 +431,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00015">15</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00020">PPEFilmGrain::L_1_TOXIC_TINT</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00022">PPEFilmGrain::L_2_TOXIC_TINT</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00010">PPEFilmGrain::PARAM_GRAINSIZE</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00009">PPEFilmGrain::PARAM_SHARPNESS</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#acd2287140f1809d89241c412cbb181ce">PPEFilmGrain::L_1_TOXIC_TINT</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a04a169b9616e7b14cf6423675ec22f0a">PPEFilmGrain::L_2_TOXIC_TINT</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a60a2f72b7f39e91fe95b9c00f3417215">PPEFilmGrain::PARAM_GRAINSIZE</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a0be90ce9f9b49e1b9ba473014147cbd0">PPEFilmGrain::PARAM_SHARPNESS</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[4/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,14 +459,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html#l00005">5</a> of file <a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html">PPERDeathDarkening.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d2/dc0/_easing_8c_source.html#l00037">Easing::EaseInCubic()</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00015">PPEExposureNative::L_0_DEATH</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../de/dd5/_en_entity_8c_source.html#l00806">m_Value</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00008">PPEExposureNative::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc0/class_easing.html#a13244f6d6a618f8b487ebffcba8f02f5">Easing::EaseInCubic()</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#ae3e30b84e928ceae0c7bd1972d1ef332">PPEExposureNative::L_0_DEATH</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../d3/d14/group___entity_attributes.html#gaaea70e7c6201c28366a5107506d29d77">m_Value</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEExposureNative::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -447,12 +487,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00010">10</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -475,14 +513,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00008">8</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/db0/_gameplay_effect_widgets_8c_source.html#l00281">GameplayEffectWidgets_base::AddActiveEffects()</a>, <a class="el" href="../../d8/d18/gameplay_8c_source.html#l00817">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00437">m_IsRunning</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/ded/class_gameplay_effect_widgets__base.html#a7373127542ef38bf0e2e436446688b88">GameplayEffectWidgets_base::AddActiveEffects()</a>, <a class="el" href="../../db/dad/class_mission.html#a72e19e44a4dc19eabfb30ae30cf63cfc">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a3cfcab11813ac52590c08f1b5866c2bf">m_IsRunning</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,14 +541,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html#l00005">5</a> of file <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html">PPERGlasses.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00011">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00052">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00032">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00004">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a585e9c99745270afd6f3010fdd155c7a">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a85333139ca6169219fe7501f59c16c3d">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -535,14 +569,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html#l00031">31</a> of file <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html">PPERGlasses.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00011">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00052">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00032">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00004">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a585e9c99745270afd6f3010fdd155c7a">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a85333139ca6169219fe7501f59c16c3d">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,14 +597,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html#l00053">53</a> of file <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html">PPERGlasses.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00011">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00052">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00032">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00004">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a585e9c99745270afd6f3010fdd155c7a">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a85333139ca6169219fe7501f59c16c3d">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -595,14 +625,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html#l00074">74</a> of file <a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html">PPERGlasses.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00011">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00052">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00032">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00004">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a585e9c99745270afd6f3010fdd155c7a">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a85333139ca6169219fe7501f59c16c3d">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGodRays::PARAM_INTENSITY</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,14 +653,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da4/_p_p_e_r_inventory_blur_8c_source.html#l00003">3</a> of file <a class="el" href="../../db/da4/_p_p_e_r_inventory_blur_8c_source.html">PPERInventoryBlur.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00010">PPEGaussFilter::L_0_INV</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00004">PPEGaussFilter::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a4cfd704edfb27b6c3215e1b9b59672d1">PPEGaussFilter::L_0_INV</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGaussFilter::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,14 +681,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html#l00008">8</a> of file <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html">PPERShockHit.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00007">PPEGaussFilter::L_0_SHOCK</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00044">PPEGlow::L_20_SHOCK</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00046">PPEGlow::L_21_SHOCK</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00058">PPEGlow::L_25_SHOCK</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00004">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00030">PPEGlow::PARAM_OVERLAYCOLOR</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00029">PPEGlow::PARAM_OVERLAYFACTOR</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00034">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a1fed515addd1c2fd535b5d5e90f41ca3">PPEGaussFilter::L_0_SHOCK</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#af3071d65e306b3ed99edd5cece310d3e">PPEGlow::L_20_SHOCK</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1939eda389e2546f5793962fe2f35e7d">PPEGlow::L_21_SHOCK</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a914bba0b6eeb223cfe809c50b5873b1e">PPEGlow::L_25_SHOCK</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aea0ff0bd6a4c632160129b92197ce679">PPEGlow::PARAM_OVERLAYCOLOR</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a94c52beb54f9234b3ab574fcb73667b9">PPEGlow::PARAM_OVERLAYFACTOR</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#abd1f06d1113a794a9ffd9e0bb733e665">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -685,14 +709,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d40/_p_p_e_r_tunnel_8c_source.html#l00005">5</a> of file <a class="el" href="../../dd/d40/_p_p_e_r_tunnel_8c_source.html">PPERTunnel.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00057">PPEGlow::L_25_TUNNEL</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00063">PPEGlow::L_26_TUNNEL</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00034">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00035">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#acd2287140f1809d89241c412cbb181ce">PPEFilmGrain::L_1_TOXIC_TINT</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a04a169b9616e7b14cf6423675ec22f0a">PPEFilmGrain::L_2_TOXIC_TINT</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a60a2f72b7f39e91fe95b9c00f3417215">PPEFilmGrain::PARAM_GRAINSIZE</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a0be90ce9f9b49e1b9ba473014147cbd0">PPEFilmGrain::PARAM_SHARPNESS</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -715,14 +737,40 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d70/_p_p_e_r_uncon_effects_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/d70/_p_p_e_r_uncon_effects_8c_source.html">PPERUnconEffects.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a4a15f209f7aab36214c2fcb92b6c9f19">PPEGlow::L_25_TUNNEL</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ae8d0d8b70816cf42a722c2f66ed14ed0">PPEGlow::L_26_TUNNEL</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#abd1f06d1113a794a9ffd9e0bb733e665">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ac77c5e041be4dff797e139dec7c7dd67">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00059">PPEGlow::L_25_UNCON</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00065">PPEGlow::L_26_UNCON</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00034">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00035">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+</div>
+</div>
+<a id="a7d198af8f80bfb8d62f2b6028a8b0192" name="a7d198af8f80bfb8d62f2b6028a8b0192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d198af8f80bfb8d62f2b6028a8b0192">&#9670;&#160;</a></span>OnStart() <span class="overload">[15/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override protected void OnStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/class_param.html">Param</a>&#160;</td>
+          <td class="paramname"><em>par</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a915f777b9dbebce03b2ed09cdc57bbfa">PPEGlow::L_25_UNCON</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ad00eac3d3c2dcc0ffae3feef80bb9cb4">PPEGlow::L_26_UNCON</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#abd1f06d1113a794a9ffd9e0bb733e665">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ac77c5e041be4dff797e139dec7c7dd67">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
 <a id="ad59c240b03a654865c36319092617769" name="ad59c240b03a654865c36319092617769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -745,14 +793,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da3/_p_p_e_r_burlap_sack_8c_source.html#l00018">18</a> of file <a class="el" href="../../d7/da3/_p_p_e_r_burlap_sack_8c_source.html">PPERBurlapSack.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c_source.html#l00817">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d4/db0/_gameplay_effect_widgets_8c_source.html#l00357">GameplayEffectWidgets_base::RemoveSuspendRequest()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dad/class_mission.html#a72e19e44a4dc19eabfb30ae30cf63cfc">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d6/ded/class_gameplay_effect_widgets__base.html#a938e90ea8abfe266c55833344745f7d3">GameplayEffectWidgets_base::RemoveSuspendRequest()</a>.</p>
 
 </div>
 </div>
 <a id="ad59c240b03a654865c36319092617769" name="ad59c240b03a654865c36319092617769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -774,15 +820,13 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html#l00053">53</a> of file <a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html">PPERCameraADS_Opt.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#abfb5db1b201270e8de3010a97da96425">CGame::ResetPPMask()</a>.</p>
 
 </div>
 </div>
 <a id="ad59c240b03a654865c36319092617769" name="ad59c240b03a654865c36319092617769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -805,12 +849,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00081">81</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
 </div>
 </div>
 <a id="aa06c0c32ad9a154d02cb2077ade09a58" name="aa06c0c32ad9a154d02cb2077ade09a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa06c0c32ad9a154d02cb2077ade09a58">&#9670;&#160;</a></span>OnStop() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06c0c32ad9a154d02cb2077ade09a58">&#9670;&#160;</a></span>OnStop() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -833,14 +875,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00062">62</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>.</p>
 
 </div>
 </div>
 <a id="ad59c240b03a654865c36319092617769" name="ad59c240b03a654865c36319092617769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59c240b03a654865c36319092617769">&#9670;&#160;</a></span>OnStop() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -863,14 +903,40 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00019">19</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dad/class_mission.html#a72e19e44a4dc19eabfb30ae30cf63cfc">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d6/ded/class_gameplay_effect_widgets__base.html#a4c21f1ac75451a97b21764b27d0a62f2">GameplayEffectWidgets_base::RemoveActiveEffects()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c_source.html#l00817">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d4/db0/_gameplay_effect_widgets_8c_source.html#l00301">GameplayEffectWidgets_base::RemoveActiveEffects()</a>.</p>
+</div>
+</div>
+<a id="aa06c0c32ad9a154d02cb2077ade09a58" name="aa06c0c32ad9a154d02cb2077ade09a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06c0c32ad9a154d02cb2077ade09a58">&#9670;&#160;</a></span>OnStop() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/class_param.html">Param</a>&#160;</td>
+          <td class="paramname"><em>par</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>.</p>
 
 </div>
 </div>
 <a id="a54bd255d7f109b84cf1908eba71036ae" name="a54bd255d7f109b84cf1908eba71036ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -893,14 +959,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00028">28</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00013">B_TARGET</a>, <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00077">FadeColourMult()</a>, <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00012">G_TARGET</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00053">PPEGlow::L_23_TOXIC_TINT</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00032">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00011">R_TARGET</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/d2d/_effect_8c_source.html#l00179">Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#aab3a40b9ae0e141446fc4e07a0ce3fe9">B_TARGET</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a1896a4fd2bec134291256de3b506cdac">FadeColourMult()</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a21a41b82b5ac838529cc99e821c0e16e">G_TARGET</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#af0520a1753ea51528f3c01a13174c4a0">PPEGlow::L_23_TOXIC_TINT</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#adbcdcb6c6d8d3fb7010da08b09224188">R_TARGET</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/d2d/_effect_8c.html#a17a237457e57625296e6b24feb19c60a">Stop()</a>.</p>
 
 </div>
 </div>
 <a id="a54bd255d7f109b84cf1908eba71036ae" name="a54bd255d7f109b84cf1908eba71036ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -923,14 +987,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00018">18</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d2/dc0/_easing_8c_source.html#l00103">Easing::EaseInExpo()</a>, <a class="el" href="../../d3/de7/_p_p_e_god_rays_8c_source.html#l00011">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00052">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00437">m_IsRunning</a>, <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00006">m_MaxMagnitude</a>, <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00005">m_MinMagnitude</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00034">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00035">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>, and <a class="el" href="../../d5/d98/group___math.html#gaccef64ebbbc15b51149fa890d24d730d">Math::Sin()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc0/class_easing.html#a8ec05e022abf8ebece6bc60f9ba4ffbc">Easing::EaseInExpo()</a>, <a class="el" href="../../d5/ded/class_p_p_e_god_rays.html#a585e9c99745270afd6f3010fdd155c7a">PPEGodRays::L_0_GLASSES</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a85333139ca6169219fe7501f59c16c3d">PPEGlow::L_23_GLASSES</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a3cfcab11813ac52590c08f1b5866c2bf">m_IsRunning</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a97b33c43054d5f8bbf23354497234158">m_MaxMagnitude</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#ae05305c0268742411d672b259c7848c9">m_MinMagnitude</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#abd1f06d1113a794a9ffd9e0bb733e665">PPEGlow::PARAM_VIGNETTE</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ac77c5e041be4dff797e139dec7c7dd67">PPEGlow::PARAM_VIGNETTECOLOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>, and <a class="el" href="../../d5/d98/group___math.html#gaccef64ebbbc15b51149fa890d24d730d">Math::Sin()</a>.</p>
 
 </div>
 </div>
 <a id="a54bd255d7f109b84cf1908eba71036ae" name="a54bd255d7f109b84cf1908eba71036ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -953,9 +1015,35 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00030">30</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dad/class_mission.html#a72e19e44a4dc19eabfb30ae30cf63cfc">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d6/ded/class_gameplay_effect_widgets__base.html#ab86bfe7aa32c9afd1076ab2bf4156ee1">GameplayEffectWidgets_base::UpdateWidgets()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c_source.html#l00817">Mission::GetEffectWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, and <a class="el" href="../../d4/db0/_gameplay_effect_widgets_8c_source.html#l00379">GameplayEffectWidgets_base::UpdateWidgets()</a>.</p>
+</div>
+</div>
+<a id="a54bd255d7f109b84cf1908eba71036ae" name="a54bd255d7f109b84cf1908eba71036ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bd255d7f109b84cf1908eba71036ae">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override protected void OnUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#aab3a40b9ae0e141446fc4e07a0ce3fe9">B_TARGET</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a1896a4fd2bec134291256de3b506cdac">FadeColourMult()</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a21a41b82b5ac838529cc99e821c0e16e">G_TARGET</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#af0520a1753ea51528f3c01a13174c4a0">PPEGlow::L_23_TOXIC_TINT</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#adbcdcb6c6d8d3fb7010da08b09224188">R_TARGET</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/d2d/_effect_8c.html#a17a237457e57625296e6b24feb19c60a">Stop()</a>.</p>
 
 </div>
 </div>
@@ -983,9 +1071,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2d/_p_p_e_r_blood_loss_8c_source.html#l00003">3</a> of file <a class="el" href="../../d5/d2d/_p_p_e_r_blood_loss_8c_source.html">PPERBloodLoss.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00050">PPEGlow::L_22_BLOODLOSS</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00031">PPEGlow::PARAM_SATURATION</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a577cfe6b4a0d09857fb2cde5a14c1afb">PPEGlow::L_22_BLOODLOSS</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a4b81cb96de69aae89b5a719f80573ded">PPEGlow::PARAM_SATURATION</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1013,9 +1099,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d22/_p_p_e_r_underground_acco_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/d22/_p_p_e_r_underground_acco_8c_source.html">PPERUndergroundAcco.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dc/d47/_p_p_e_eye_accomodation_native_8c_source.html#l00010">PPEEyeAccomodationNative::L_0_UNDERGROUND</a>, <a class="el" href="../../dc/d47/_p_p_e_eye_accomodation_native_8c_source.html#l00008">PPEEyeAccomodationNative::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dcf/class_p_p_e_eye_accomodation_native.html#ad71c5fbd17f0b161ea449fc6acff3e76">PPEEyeAccomodationNative::L_0_UNDERGROUND</a>, <a class="el" href="../../d8/dcf/class_p_p_e_eye_accomodation_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEEyeAccomodationNative::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1043,9 +1127,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d80/_p_p_e_r_fever_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/d80/_p_p_e_r_fever_8c_source.html">PPERFever.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00008">PPEGaussFilter::L_0_FEVER</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00004">PPEGaussFilter::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a679a85044bc5ec84cbf15f7b363229c3">PPEGaussFilter::L_0_FEVER</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGaussFilter::PARAM_INTENSITY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1083,9 +1165,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00041">41</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d2/dc0/_easing_8c_source.html#l00056">Easing::EaseInQuart()</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00013">PPEExposureNative::L_0_FLASHBANG</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00009">PPEGaussFilter::L_0_FLASHBANG</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00043">PPEGlow::L_20_FLASHBANG</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00048">PPEGlow::L_21_FLASHBANG</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00008">PPEExposureNative::PARAM_INTENSITY</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00004">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00030">PPEGlow::PARAM_OVERLAYCOLOR</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00029">PPEGlow::PARAM_OVERLAYFACTOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../dc/dc0/class_easing.html#a2ce56ae4eec4140e5ed85974a6378709">Easing::EaseInQuart()</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a399511489c815120b17354c55d338b9a">PPEExposureNative::L_0_FLASHBANG</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a399511489c815120b17354c55d338b9a">PPEGaussFilter::L_0_FLASHBANG</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a45b91dd1701223e4be2ebdfc39c9e219">PPEGlow::L_20_FLASHBANG</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a6a28c35e6c062ee54a9277d13a4f47c0">PPEGlow::L_21_FLASHBANG</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEExposureNative::PARAM_INTENSITY</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aea0ff0bd6a4c632160129b92197ce679">PPEGlow::PARAM_OVERLAYCOLOR</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a94c52beb54f9234b3ab574fcb73667b9">PPEGlow::PARAM_OVERLAYFACTOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1113,9 +1193,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d68/_p_p_e_r_health_hit_8c_source.html#l00005">5</a> of file <a class="el" href="../../d5/d68/_p_p_e_r_health_hit_8c_source.html">PPERHealthHit.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00042">PPEGlow::L_20_HIT</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00047">PPEGlow::L_21_HIT</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00030">PPEGlow::PARAM_OVERLAYCOLOR</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00029">PPEGlow::PARAM_OVERLAYFACTOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a2f4f8d7277777a7d073a3232d80c3652">PPEGlow::L_20_HIT</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aabfba1d67da55e1a73491abe5b748354">PPEGlow::L_21_HIT</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aea0ff0bd6a4c632160129b92197ce679">PPEGlow::PARAM_OVERLAYCOLOR</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a94c52beb54f9234b3ab574fcb73667b9">PPEGlow::PARAM_OVERLAYFACTOR</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1143,11 +1221,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">13</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d8b/class_p_p_e_light_intensity_params_native.html#a3af010d313b4ac952b68ed00473f808e">PPELightIntensityParamsNative::L_0_NVG</a>, <a class="el" href="../../d8/dcf/class_p_p_e_eye_accomodation_native.html#a3d0d4417ea2356e0a812fb1f6b464de9">PPEEyeAccomodationNative::L_0_NVG_GENERIC</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a23f65c09cd76551d06ea6136a8af89f5">PPEExposureNative::L_0_NVG_GOGGLES</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a7636133f6010da5e63358e2915690d18">PPEExposureNative::L_0_NVG_OPTIC</a>, <a class="el" href="../../de/d8b/class_p_p_e_light_intensity_params_native.html#a8b290116d98b4e27672db0327eb603ef">PPELightIntensityParamsNative::L_1_NVG</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a8b290116d98b4e27672db0327eb603ef">PPEFilmGrain::L_1_NVG</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a266fd9df00b9eba62ef3fec6171b9ce0">PPEGlow::L_23_NVG</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a6c7b157bacc2d51797997f30657eec5c">PPEFilmGrain::L_2_NVG</a>, <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c.html#a73b0443f50b69c6a112ee8502a72841c">m_CurrentMode</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a1b85a2d82ce94bd6b4172548690f0199">NV_DAYTIME_OPTICS</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#aaabeed03bac6f153720a3b3f56ad14f9">NV_DEFAULT_GLASSES</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a9234538e50d550c597001011e3d9ac01">NV_DEFAULT_OPTICS</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a39baba1072c431829a0f34fa6099c0f9">NV_NO_BATTERY</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#af9e7864f67a8b2b09619f6a244311626">NV_PUMPKIN</a>, <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#ac5710bbb69b7484376905155bd383203">NV_TRANSITIVE</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a1ad713dae7a401fee75f4266d4ea5cf0">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a60a2f72b7f39e91fe95b9c00f3417215">PPEFilmGrain::PARAM_GRAINSIZE</a>, <a class="el" href="../../d2/d6d/class_p_p_e_exposure_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEExposureNative::PARAM_INTENSITY</a>, <a class="el" href="../../d8/dcf/class_p_p_e_eye_accomodation_native.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEEyeAccomodationNative::PARAM_INTENSITY</a>, <a class="el" href="../../de/d8b/class_p_p_e_light_intensity_params_native.html#a64274a4e05a3d1770e1607be64241770">PPELightIntensityParamsNative::PARAM_LIGHT_MULT</a>, <a class="el" href="../../de/d8b/class_p_p_e_light_intensity_params_native.html#ae847b7a8ffc0c0db4dfa8188ce53b38c">PPELightIntensityParamsNative::PARAM_NOISE_MULT</a>, <a class="el" href="../../dd/d86/class_p_p_e_film_grain.html#a0be90ce9f9b49e1b9ba473014147cbd0">PPEFilmGrain::PARAM_SHARPNESS</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#ad6b64b6826ba7036d3fc91d9c37fa6d0">SetTargetValueColor()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a34eb876b0b8c716c06aac3750966fbdb">SetTargetValueFloatDefault()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d72/_p_p_e_light_intensity_params_native_8c_source.html#l00011">PPELightIntensityParamsNative::L_0_NVG</a>, <a class="el" href="../../dc/d47/_p_p_e_eye_accomodation_native_8c_source.html#l00011">PPEEyeAccomodationNative::L_0_NVG_GENERIC</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00011">PPEExposureNative::L_0_NVG_GOGGLES</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00010">PPEExposureNative::L_0_NVG_OPTIC</a>, <a class="el" href="../../d7/d72/_p_p_e_light_intensity_params_native_8c_source.html#l00013">PPELightIntensityParamsNative::L_1_NVG</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00019">PPEFilmGrain::L_1_NVG</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00054">PPEGlow::L_23_NVG</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00021">PPEFilmGrain::L_2_NVG</a>, <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00330">m_CurrentMode</a>, <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00008">NV_DAYTIME_OPTICS</a>, <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00005">NV_DEFAULT_GLASSES</a>, <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00004">NV_DEFAULT_OPTICS</a>, <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00003">NV_NO_BATTERY</a>, <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00006">NV_PUMPKIN</a>, <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00007">NV_TRANSITIVE</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00032">PPEGlow::PARAM_COLORIZATIONCOLOR</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00010">PPEFilmGrain::PARAM_GRAINSIZE</a>, <a class="el" href="../../dd/d50/_p_p_e_exposure_native_8c_source.html#l00008">PPEExposureNative::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d47/_p_p_e_eye_accomodation_native_8c_source.html#l00008">PPEEyeAccomodationNative::PARAM_INTENSITY</a>, <a class="el" href="../../d7/d72/_p_p_e_light_intensity_params_native_8c_source.html#l00008">PPELightIntensityParamsNative::PARAM_LIGHT_MULT</a>, <a class="el" href="../../d7/d72/_p_p_e_light_intensity_params_native_8c_source.html#l00009">PPELightIntensityParamsNative::PARAM_NOISE_MULT</a>, <a class="el" href="../../d7/d84/_p_p_e_film_grain_8c_source.html#l00009">PPEFilmGrain::PARAM_SHARPNESS</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00630">SetTargetValueColor()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00611">SetTargetValueFloatDefault()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00073">OnStart()</a>, and <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00086">SetUndergroundExposureCoef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192">OnStart()</a>, and <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a17715f3184ff2b37fee2b441394289ed">SetUndergroundExposureCoef()</a>.</p>
 
 </div>
 </div>
@@ -1203,9 +1279,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2f/_p_p_e_r_pain_8c_source.html#l00003">3</a> of file <a class="el" href="../../d2/d2f/_p_p_e_r_pain_8c_source.html">PPERPain.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d7e/_p_p_e_radial_blur_8c_source.html#l00011">PPERadialBlur::L_0_PAIN_BLUR</a>, <a class="el" href="../../d3/d7e/_p_p_e_radial_blur_8c_source.html#l00006">PPERadialBlur::PARAM_OFFSETX</a>, <a class="el" href="../../d3/d7e/_p_p_e_radial_blur_8c_source.html#l00007">PPERadialBlur::PARAM_OFFSETY</a>, <a class="el" href="../../d3/d7e/_p_p_e_radial_blur_8c_source.html#l00008">PPERadialBlur::PARAM_PIXELSCALE</a>, <a class="el" href="../../d3/d7e/_p_p_e_radial_blur_8c_source.html#l00004">PPERadialBlur::PARAM_POWERX</a>, <a class="el" href="../../d3/d7e/_p_p_e_radial_blur_8c_source.html#l00005">PPERadialBlur::PARAM_POWERY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d1d/class_p_p_e_radial_blur.html#a6c5c17fa1c27a2df7a52818675f1d7fc">PPERadialBlur::L_0_PAIN_BLUR</a>, <a class="el" href="../../de/d1d/class_p_p_e_radial_blur.html#a41c5da3c50f3852f7446fe1055589793">PPERadialBlur::PARAM_OFFSETX</a>, <a class="el" href="../../de/d1d/class_p_p_e_radial_blur.html#a9f6dd09f989ebc803ebf7ccad3d9e7bf">PPERadialBlur::PARAM_OFFSETY</a>, <a class="el" href="../../de/d1d/class_p_p_e_radial_blur.html#a05fefa8b2af2ac9bb5e70691602be468">PPERadialBlur::PARAM_PIXELSCALE</a>, <a class="el" href="../../de/d1d/class_p_p_e_radial_blur.html#a17051eb0f3344c148200e94c5e925c64">PPERadialBlur::PARAM_POWERX</a>, <a class="el" href="../../de/d1d/class_p_p_e_radial_blur.html#aab901302262b8a0277fb38ebfad416f0">PPERadialBlur::PARAM_POWERY</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1233,8 +1307,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00037">37</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
 </div>
 </div>
 <a id="a17715f3184ff2b37fee2b441394289ed" name="a17715f3184ff2b37fee2b441394289ed"></a>
@@ -1261,9 +1333,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00086">86</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c_source.html#l00330">m_CurrentMode</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00437">m_IsRunning</a>, and <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d69/_plugin_dayz_player_debug_8c.html#a73b0443f50b69c6a112ee8502a72841c">m_CurrentMode</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a3cfcab11813ac52590c08f1b5866c2bf">m_IsRunning</a>, and <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -1291,9 +1361,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html#l00030">30</a> of file <a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html">PPERCameraADS_Opt.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00015">PPEDOF::L_0_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00016">PPEDOF::L_1_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00017">PPEDOF::L_2_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00018">PPEDOF::L_3_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00019">PPEDOF::L_4_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00020">PPEDOF::L_5_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00012">PPEDOF::PARAM_BLUR</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00008">PPEDOF::PARAM_ENABLE</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00013">PPEDOF::PARAM_FOCUS_DEPTH_OFFSET</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00009">PPEDOF::PARAM_FOCUS_DIST</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00010">PPEDOF::PARAM_FOCUS_LEN</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00011">PPEDOF::PARAM_FOCUS_LEN_NEAR</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00004">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00038">PPEGlow::PARAM_LENSCENTERX</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00039">PPEGlow::PARAM_LENSCENTERY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00036">PPEGlow::PARAM_LENSDISTORT</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00037">PPEGlow::PARAM_MAXCHROMABBERATION</a>, <a class="el" href="../../d2/de6/class_c_game.html#abfb5db1b201270e8de3010a97da96425">CGame::ResetPPMask()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00511">SetTargetValueBool()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00611">SetTargetValueFloatDefault()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a73dd7686ae69749f66c4368ca2aed749">PPEDOF::L_0_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a8ea8213573e5f03538b55da76d2d3d73">PPEDOF::L_1_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a625b4c59bbdb2cc4bbc71fb0d8a7ca83">PPEDOF::L_2_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#acd4d224728b531075b9fd8cfa477e68d">PPEDOF::L_3_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a5e6f53ffd4ee47bb98da7d46b9334b78">PPEDOF::L_4_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a0503108de47292d6e51167e803ec5d38">PPEDOF::L_5_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#aeb7b5bb40ee6f8b0bc703799bd8f4003">PPEDOF::PARAM_BLUR</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a392b3aa73cf29a433354178b8fba9b60">PPEDOF::PARAM_ENABLE</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a6ebe651ce94fd49d2253da37544b4d29">PPEDOF::PARAM_FOCUS_DEPTH_OFFSET</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a082d8315b5bc809b71a5d2ca8c743c81">PPEDOF::PARAM_FOCUS_DIST</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a44e1d9676415ce51d6b6caf0f6044586">PPEDOF::PARAM_FOCUS_LEN</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a80dec2e4e30b47704e8622127cc01638">PPEDOF::PARAM_FOCUS_LEN_NEAR</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aca9e5e96f20d8142b1fe127d8bfefacc">PPEGlow::PARAM_LENSCENTERX</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ae5891f78a2b63bbc28cb5cc25c85dbe8">PPEGlow::PARAM_LENSCENTERY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a8e8900197c627254be3ad4298c42690e">PPEGlow::PARAM_LENSDISTORT</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aaf3b4435e05fcd59f5f1266ce06002d9">PPEGlow::PARAM_MAXCHROMABBERATION</a>, <a class="el" href="../../d2/de6/class_c_game.html#abfb5db1b201270e8de3010a97da96425">CGame::ResetPPMask()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a41707f9312a4ed4879bbbdeb170db793">SetTargetValueBool()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a34eb876b0b8c716c06aac3750966fbdb">SetTargetValueFloatDefault()</a>.</p>
 
 </div>
 </div>
@@ -1337,9 +1405,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html#l00003">3</a> of file <a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html">PPERCameraADS_Opt.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a6efb77e4b331524a57c248ac45dfeb1e">CGame::AddPPMask()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00006">PPEGaussFilter::L_0_ADS</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00068">PPEGlow::L_27_ADS</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00070">PPEGlow::L_28_ADS</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00072">PPEGlow::L_29_ADS</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00074">PPEGlow::L_30_ADS</a>, <a class="el" href="../../d2/d7d/_p_p_e_d_o_f_8c_source.html#l00008">PPEDOF::PARAM_ENABLE</a>, <a class="el" href="../../d5/da3/_p_p_e_gauss_filter_8c_source.html#l00004">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00038">PPEGlow::PARAM_LENSCENTERX</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00039">PPEGlow::PARAM_LENSCENTERY</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00036">PPEGlow::PARAM_LENSDISTORT</a>, <a class="el" href="../../df/d16/_p_p_e_glow_8c_source.html#l00037">PPEGlow::PARAM_MAXCHROMABBERATION</a>, <a class="el" href="../../d2/de6/class_c_game.html#abfb5db1b201270e8de3010a97da96425">CGame::ResetPPMask()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00533">SetTargetValueBoolDefault()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00588">SetTargetValueFloat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a6efb77e4b331524a57c248ac45dfeb1e">CGame::AddPPMask()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a73dd7686ae69749f66c4368ca2aed749">PPEGaussFilter::L_0_ADS</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a502c9abd8f9ec2a4152cb97e4c2ce9e2">PPEGlow::L_27_ADS</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a56a9d8fc4eb2f37072b1a25954f0ebea">PPEGlow::L_28_ADS</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a7d9ca060c9254a5381c06d7445afa16c">PPEGlow::L_29_ADS</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a72d96e300a653d52237328bb490e5651">PPEGlow::L_30_ADS</a>, <a class="el" href="../../d6/d98/class_p_p_e_d_o_f.html#a392b3aa73cf29a433354178b8fba9b60">PPEDOF::PARAM_ENABLE</a>, <a class="el" href="../../d4/db2/class_p_p_e_gauss_filter.html#a8e4f2597c63e29268c603ee81e16aa9e">PPEGaussFilter::PARAM_INTENSITY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aca9e5e96f20d8142b1fe127d8bfefacc">PPEGlow::PARAM_LENSCENTERX</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#ae5891f78a2b63bbc28cb5cc25c85dbe8">PPEGlow::PARAM_LENSCENTERY</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#a8e8900197c627254be3ad4298c42690e">PPEGlow::PARAM_LENSDISTORT</a>, <a class="el" href="../../dc/d5c/class_p_p_e_glow.html#aaf3b4435e05fcd59f5f1266ce06002d9">PPEGlow::PARAM_MAXCHROMABBERATION</a>, <a class="el" href="../../d2/de6/class_c_game.html#abfb5db1b201270e8de3010a97da96425">CGame::ResetPPMask()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#a101f2f81e90633e731289dcf3f861ccb">SetTargetValueBoolDefault()</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c.html#aa90b1958e65e65eadce415b9521ad323">SetTargetValueFloat()</a>.</p>
 
 </div>
 </div>
@@ -1364,9 +1430,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00013">13</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00028">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1390,8 +1454,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
-
 </div>
 </div>
 <a id="aab8f4c90caf54f42b21d574de8208221" name="aab8f4c90caf54f42b21d574de8208221"></a>
@@ -1413,8 +1475,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00009">9</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
 
 </div>
 </div>
@@ -1438,9 +1498,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00012">12</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00028">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1464,8 +1522,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d68/_p_p_e_r_health_hit_8c_source.html#l00003">3</a> of file <a class="el" href="../../d5/d68/_p_p_e_r_health_hit_8c_source.html">PPERHealthHit.c</a>.</p>
-
 </div>
 </div>
 <a id="a3df88aa6c0cd13cfe9c1a3cd25387678" name="a3df88aa6c0cd13cfe9c1a3cd25387678"></a>
@@ -1487,8 +1543,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00005">5</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
 
 </div>
 </div>
@@ -1512,8 +1566,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00010">10</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
 </div>
 </div>
 <a id="ab58f42c018c4f00172e87167007e424e" name="ab58f42c018c4f00172e87167007e424e"></a>
@@ -1535,8 +1587,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00003">3</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
 
 </div>
 </div>
@@ -1560,8 +1610,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00005">5</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
-
 </div>
 </div>
 <a id="ae7d3c033cafad3a78cfbfb84c04e61ee" name="ae7d3c033cafad3a78cfbfb84c04e61ee"></a>
@@ -1583,8 +1631,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
 
 </div>
 </div>
@@ -1608,8 +1654,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00007">7</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
 </div>
 </div>
 <a id="a35ec7ea8cff3ccf0bf09a90687500311" name="a35ec7ea8cff3ccf0bf09a90687500311"></a>
@@ -1631,8 +1675,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00007">7</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
 
 </div>
 </div>
@@ -1656,8 +1698,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html#l00003">3</a> of file <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html">PPERShockHit.c</a>.</p>
-
 </div>
 </div>
 <a id="a270a0060754606425ef7218389e10a91" name="a270a0060754606425ef7218389e10a91"></a>
@@ -1679,8 +1719,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00006">6</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
 
 </div>
 </div>
@@ -1704,8 +1742,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
 </div>
 </div>
 <a id="a97b33c43054d5f8bbf23354497234158" name="a97b33c43054d5f8bbf23354497234158"></a>
@@ -1728,9 +1764,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00006">6</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00018">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1754,9 +1788,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00005">5</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00018">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1780,8 +1812,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html#l00006">6</a> of file <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html">PPERShockHit.c</a>.</p>
-
 </div>
 </div>
 <a id="a493f2ad10f21568b836cae5732b76cf8" name="a493f2ad10f21568b836cae5732b76cf8"></a>
@@ -1803,8 +1833,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html#l00005">5</a> of file <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html">PPERShockHit.c</a>.</p>
 
 </div>
 </div>
@@ -1828,8 +1856,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html#l00008">8</a> of file <a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a>.</p>
-
 </div>
 </div>
 <a id="a5fb621eee0c6041ff0589be27bfa2eb3" name="a5fb621eee0c6041ff0589be27bfa2eb3"></a>
@@ -1851,8 +1877,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00004">4</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
 
 </div>
 </div>
@@ -1876,8 +1900,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00011">11</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
 </div>
 </div>
 <a id="ac2abfbc190b9739dae5a2d19a2c90b28" name="ac2abfbc190b9739dae5a2d19a2c90b28"></a>
@@ -1899,8 +1921,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html#l00003">3</a> of file <a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html">PPERDeathDarkening.c</a>.</p>
 
 </div>
 </div>
@@ -1924,8 +1944,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html#l00004">4</a> of file <a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html">PPERShockHit.c</a>.</p>
-
 </div>
 </div>
 <a id="a1b85a2d82ce94bd6b4172548690f0199" name="a1b85a2d82ce94bd6b4172548690f0199"></a>
@@ -1948,9 +1966,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00008">8</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -1974,9 +1990,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00005">5</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -2000,9 +2014,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -2026,9 +2038,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -2052,9 +2062,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00006">6</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -2078,9 +2086,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00007">7</a> of file <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html#l00013">SetNVMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a0b4d23cea0bf6e7a34d9949f2a40e06d">SetNVMode()</a>.</p>
 
 </div>
 </div>
@@ -2104,9 +2110,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00011">11</a> of file <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html#l00028">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -2130,28 +2134,27 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html#l00003">3</a> of file <a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d5/d2d/_p_p_e_r_blood_loss_8c_source.html">PPERBloodLoss.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c_source.html">PPERCameraNV.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c_source.html">PPERContaminated.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c_source.html">PPERDeathDarkening.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c_source.html">PPERDrowningEffect.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c_source.html">PPERFlashbangEffects.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d5/d68/_p_p_e_r_health_hit_8c_source.html">PPERHealthHit.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c_source.html">PPERShockHit.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../dd/d40/_p_p_e_r_tunnel_8c_source.html">PPERTunnel.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d9/d70/_p_p_e_r_uncon_effects_8c_source.html">PPERUnconEffects.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d7/da3/_p_p_e_r_burlap_sack_8c_source.html">PPERBurlapSack.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c_source.html">PPERCameraADS_Opt.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d1/d80/_p_p_e_r_fever_8c_source.html">PPERFever.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c_source.html">PPERGlasses.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../db/da4/_p_p_e_r_inventory_blur_8c_source.html">PPERInventoryBlur.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d2/d2f/_p_p_e_r_pain_8c_source.html">PPERPain.c</a></li>
-<li>P:/scripts/3_Game/PPEManager/Requesters/<a class="el" href="../../d0/d22/_p_p_e_r_underground_acco_8c_source.html">PPERUndergroundAcco.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d5/d2d/_p_p_e_r_blood_loss_8c.html">PPERBloodLoss.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d1/dea/_p_p_e_r_camera_n_v_8c.html">PPERCameraNV.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d5/d30/_p_p_e_r_contaminated_8c.html">PPERContaminated.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../dc/da1/_p_p_e_r_death_darkening_8c.html">PPERDeathDarkening.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d8/d6e/_p_p_e_r_drowning_effect_8c.html">PPERDrowningEffect.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d2/d3b/_p_p_e_r_flashbang_effects_8c.html">PPERFlashbangEffects.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d5/d68/_p_p_e_r_health_hit_8c.html">PPERHealthHit.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d6/d90/_p_p_e_r_shock_hit_8c.html">PPERShockHit.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d1/d97/_p_p_e_r_spooky_8c.html">PPERSpooky.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../dd/d40/_p_p_e_r_tunnel_8c.html">PPERTunnel.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d9/d70/_p_p_e_r_uncon_effects_8c.html">PPERUnconEffects.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d7/da3/_p_p_e_r_burlap_sack_8c.html">PPERBurlapSack.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../df/dd3/_p_p_e_r_camera_a_d_s___opt_8c.html">PPERCameraADS_Opt.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d1/d80/_p_p_e_r_fever_8c.html">PPERFever.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../dc/d58/_p_p_e_r_glasses_8c.html">PPERGlasses.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../db/da4/_p_p_e_r_inventory_blur_8c.html">PPERInventoryBlur.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d2/d2f/_p_p_e_r_pain_8c.html">PPERPain.c</a></li>
+<li>3_Game/PPEManager/Requesters/<a class="el" href="../../d0/d22/_p_p_e_r_underground_acco_8c.html">PPERUndergroundAcco.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

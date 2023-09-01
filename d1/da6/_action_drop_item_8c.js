@@ -12,5 +12,6 @@ var _action_drop_item_8c =
     [ "OnExecuteClient", "d1/da6/_action_drop_item_8c.html#a7c0913512f25d83df6aa6530b769b65e", null ],
     [ "OnExecuteServer", "d1/da6/_action_drop_item_8c.html#a26c6922d796bdf663f49119e83fe26f8", null ],
     [ "PhysicalDropItem", "d1/da6/_action_drop_item_8c.html#a0b14c68b94f52c80edc812974e71c3cc", null ],
+    [ "UseAcknowledgment", "d1/da6/_action_drop_item_8c.html#ac6972ef21817121a02b9d590ff2ed3dd", null ],
     [ "m_ItemName", "d1/da6/_action_drop_item_8c.html#af9d714fd90919b946088aae21a9d2c96", null ]
 ];

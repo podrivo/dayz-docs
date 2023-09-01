@@ -68,6 +68,7 @@ var _emote_manager_8c =
     [ "m_InterruptInputDirect", "df/d13/_emote_manager_8c.html#a1625fb9fb2a4b15715f042ad9224b4fb", null ],
     [ "m_InterruptInputs", "df/d13/_emote_manager_8c.html#a379a85d8961dd13154fde800fcd658fc", null ],
     [ "m_InterruptInputsCount", "df/d13/_emote_manager_8c.html#a95731945d07a52b60799fd8e17129a9b", null ],
+    [ "m_InventoryAccessLocked", "df/d13/_emote_manager_8c.html#a0d693dd919192dda644e0494189e3cca", null ],
     [ "m_IsSurrendered", "df/d13/_emote_manager_8c.html#ac473f71b455791f5f853c6f628128706", null ],
     [ "m_item", "df/d13/_emote_manager_8c.html#a4c26ae4d157d5aa437897bd189c7e311", null ],
     [ "m_ItemIsOn", "df/d13/_emote_manager_8c.html#aa20336b411e2d48353b6259f7e986347", null ],

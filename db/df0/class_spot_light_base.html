@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -126,6 +126,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a3544bfa6cdbbfc22f1149e25b54dd28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a156fe2a81f61aa507a827e9ce4a7101f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/class_spot_light_base.html#a156fe2a81f61aa507a827e9ce4a7101f">SetIntensity</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> coef, <a class="el" href="../../d4/dc3/classfloat.html">float</a> time)</td></tr>
 <tr class="separator:a156fe2a81f61aa507a827e9ce4a7101f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac45d75f3ce7297a6c1b0408c3c2d7531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/class_spot_light_base.html#ac45d75f3ce7297a6c1b0408c3c2d7531">PerformVisibilityCheck</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> owner)</td></tr>
+<tr class="separator:ac45d75f3ce7297a6c1b0408c3c2d7531"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a643f501f751a7aee5e4979162ce7b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/class_spot_light_base.html#a4a643f501f751a7aee5e4979162ce7b0">PistollightLight</a> ()</td></tr>
 <tr class="separator:a4a643f501f751a7aee5e4979162ce7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a156fe2a81f61aa507a827e9ce4a7101f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/class_spot_light_base.html#a156fe2a81f61aa507a827e9ce4a7101f">SetIntensity</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> coef, <a class="el" href="../../d4/dc3/classfloat.html">float</a> time)</td></tr>
@@ -169,10 +171,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:aaafed153ad92d8d35fe70981e66492db"><td class="memItemLeft" align="right" valign="top">static private <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/class_spot_light_base.html#aaafed153ad92d8d35fe70981e66492db">m_DefaultAngle</a> = 100</td></tr>
 <tr class="separator:aaafed153ad92d8d35fe70981e66492db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00001">1</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a73a52537e0e268f2f5c573eb01d92eb9" name="a73a52537e0e268f2f5c573eb01d92eb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73a52537e0e268f2f5c573eb01d92eb9">&#9670;&#160;</a></span>AggregateLight()</h2>
 
@@ -195,8 +194,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00028">28</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
 
 </div>
 </div>
@@ -223,8 +220,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00018">18</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-
 </div>
 </div>
 <a id="a6a910753d9645386826a5f50d260573f" name="a6a910753d9645386826a5f50d260573f"></a>
@@ -250,9 +245,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html#l00006">6</a> of file <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html">FlashlightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -279,9 +272,33 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html">HeadtorchLight.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+</div>
+</div>
+<a id="ac45d75f3ce7297a6c1b0408c3c2d7531" name="ac45d75f3ce7297a6c1b0408c3c2d7531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac45d75f3ce7297a6c1b0408c3c2d7531">&#9670;&#160;</a></span>PerformVisibilityCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PerformVisibilityCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -308,9 +325,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html#l00008">8</a> of file <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html">PistollightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -337,8 +352,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00038">38</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-
 </div>
 </div>
 <a id="a3544bfa6cdbbfc22f1149e25b54dd28f" name="a3544bfa6cdbbfc22f1149e25b54dd28f"></a>
@@ -364,8 +377,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html#l00026">26</a> of file <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html">HeadtorchLight.c</a>.</p>
-
 </div>
 </div>
 <a id="af9541b7dca2c05a6b7730a7e8dba20c2" name="af9541b7dca2c05a6b7730a7e8dba20c2"></a>
@@ -390,8 +401,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html#l00020">20</a> of file <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html">HeadtorchLight.c</a>.</p>
 
 </div>
 </div>
@@ -428,8 +437,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html#l00019">19</a> of file <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html">FlashlightLight.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>.</p>
 
@@ -469,9 +476,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html#l00032">32</a> of file <a class="el" href="../../d5/db3/_headtorch_light_8c_source.html">HeadtorchLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -509,9 +514,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html#l00021">21</a> of file <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html">PistollightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -549,9 +552,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9d/_universallight_light_8c_source.html#l00020">20</a> of file <a class="el" href="../../d6/d9d/_universallight_light_8c_source.html">UniversallightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -578,8 +579,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/de7/_spotlight_light_8c_source.html#l00003">3</a> of file <a class="el" href="../../d8/de7/_spotlight_light_8c_source.html">SpotlightLight.c</a>.</p>
-
 </div>
 </div>
 <a id="ae963c37451b90849771bd764de4cecf0" name="ae963c37451b90849771bd764de4cecf0"></a>
@@ -605,9 +604,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9d/_universallight_light_8c_source.html#l00007">7</a> of file <a class="el" href="../../d6/d9d/_universallight_light_8c_source.html">UniversallightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#a2202cad687ba74d92664106a8b8baee3">m_DefaultBrightness</a>, and <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -635,9 +632,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html#l00027">27</a> of file <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html">PistollightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -665,9 +660,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9d/_universallight_light_8c_source.html#l00026">26</a> of file <a class="el" href="../../d6/d9d/_universallight_light_8c_source.html">UniversallightLight.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c_source.html#l00014">m_DefaultRadius</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/_contaminated_area___dynamic_8c.html#ad03bb02d17f63aee0a171b52caadf929">m_DefaultRadius</a>.</p>
 
 </div>
 </div>
@@ -692,8 +685,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00015">15</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-
 </div>
 </div>
 <a id="ae0178a5b55551df0cb9d9b4aa7ac220d" name="ae0178a5b55551df0cb9d9b4aa7ac220d"></a>
@@ -715,8 +706,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00013">13</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
 
 </div>
 </div>
@@ -740,8 +729,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00016">16</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-
 </div>
 </div>
 <a id="ade90c2d52bde73d0cce5b055839dd42e" name="ade90c2d52bde73d0cce5b055839dd42e"></a>
@@ -763,8 +750,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00014">14</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
 
 </div>
 </div>
@@ -788,8 +773,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html#l00005">5</a> of file <a class="el" href="../../d1/df4/_pistollight_light_8c_source.html">PistollightLight.c</a>.</p>
-
 </div>
 </div>
 <a id="aeba552c37ed8ea658365d3035faccfd1" name="aeba552c37ed8ea658365d3035faccfd1"></a>
@@ -811,8 +794,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html#l00003">3</a> of file <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html">FlashlightLight.c</a>.</p>
 
 </div>
 </div>
@@ -836,8 +817,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html#l00004">4</a> of file <a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html">FlashlightLight.c</a>.</p>
-
 </div>
 </div>
 <a id="ad7633f2518cd8c874a4364074269ab81" name="ad7633f2518cd8c874a4364074269ab81"></a>
@@ -859,8 +838,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00010">10</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
 
 </div>
 </div>
@@ -884,8 +861,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00008">8</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-
 </div>
 </div>
 <a id="a9c32109af52095bbcff95e7b98667ddc" name="a9c32109af52095bbcff95e7b98667ddc"></a>
@@ -907,8 +882,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00011">11</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
 
 </div>
 </div>
@@ -932,17 +905,15 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8b/_car_light_base_8c_source.html#l00009">9</a> of file <a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>P:/scripts/4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../da/d8b/_car_light_base_8c_source.html">CarLightBase.c</a></li>
-<li>P:/scripts/4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d4/d3b/_flashlight_light_8c_source.html">FlashlightLight.c</a></li>
-<li>P:/scripts/4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d5/db3/_headtorch_light_8c_source.html">HeadtorchLight.c</a></li>
-<li>P:/scripts/4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d1/df4/_pistollight_light_8c_source.html">PistollightLight.c</a></li>
-<li>P:/scripts/4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d6/d9d/_universallight_light_8c_source.html">UniversallightLight.c</a></li>
-<li>P:/scripts/4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d8/de7/_spotlight_light_8c_source.html">SpotlightLight.c</a></li>
+<li>4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../da/d8b/_car_light_base_8c.html">CarLightBase.c</a></li>
+<li>4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d4/d3b/_flashlight_light_8c.html">FlashlightLight.c</a></li>
+<li>4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d5/db3/_headtorch_light_8c.html">HeadtorchLight.c</a></li>
+<li>4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d1/df4/_pistollight_light_8c.html">PistollightLight.c</a></li>
+<li>4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d6/d9d/_universallight_light_8c.html">UniversallightLight.c</a></li>
+<li>4_World/Entities/ScriptedLightBase/SpotLightBase/<a class="el" href="../../d8/de7/_spotlight_light_8c.html">SpotlightLight.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

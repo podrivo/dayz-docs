@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -119,6 +119,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a5890e606b5e89a9e3439e51224f14864"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d2a8345e41a29419989ff96052b43c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/class_debug_monitor.html#a7d2a8345e41a29419989ff96052b43c9">SetPosition</a> (<a class="el" href="../../d7/dfc/classvector.html">vector</a> value)</td></tr>
 <tr class="separator:a7d2a8345e41a29419989ff96052b43c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace79e5f49885e486e8e1d48ff0666476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/class_debug_monitor.html#ace79e5f49885e486e8e1d48ff0666476">Show</a> ()</td></tr>
+<tr class="separator:ace79e5f49885e486e8e1d48ff0666476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a130bc36524c72ad408ecd7338f1e0070"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/class_debug_monitor.html#a130bc36524c72ad408ecd7338f1e0070">Hide</a> ()</td></tr>
 <tr class="separator:a130bc36524c72ad408ecd7338f1e0070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -135,10 +137,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aaab99999ae0464e912469ac1c775b094"><td class="memItemLeft" align="right" valign="top">private MultilineTextWidget&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/class_debug_monitor.html#aaab99999ae0464e912469ac1c775b094">m_pModifiersMultiTextWidget</a></td></tr>
 <tr class="separator:aaab99999ae0464e912469ac1c775b094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00001">1</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a52648b337b812358fb6354fa413d98c0" name="a52648b337b812358fb6354fa413d98c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52648b337b812358fb6354fa413d98c0">&#9670;&#160;</a></span>DebugMonitor()</h2>
 
@@ -162,9 +161,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00009">9</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga5ac0918240aa6e5e54a70a8099772078">WorkspaceWidget::CreateWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#adb96c0834ab412befca5cc1f608610dc">CGame::GetWorkspace()</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00007">m_pModifiersMultiTextWidget</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00005">m_pNamesListboxWidget</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">m_pValuesListboxWidget</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00004">m_pWindowLabelText</a>, and <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00003">m_WidgetRoot</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga5ac0918240aa6e5e54a70a8099772078">WorkspaceWidget::CreateWidgets()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#adb96c0834ab412befca5cc1f608610dc">CGame::GetWorkspace()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#aaab99999ae0464e912469ac1c775b094">m_pModifiersMultiTextWidget</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a2f26cc05ca2894622e7146ff51921b01">m_pNamesListboxWidget</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a06a3ea8bb45f328aa19fae9ade795987">m_pValuesListboxWidget</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#af34aa2080c20534b077d0b51e3eb231e">m_pWindowLabelText</a>, and <a class="el" href="../../dd/d16/class_debug_monitor.html#a5ad31dafdfffbab61c59fa87eb0200e3">m_WidgetRoot</a>.</p>
 
 </div>
 </div>
@@ -192,9 +189,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00070">70</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00003">m_WidgetRoot</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a5ad31dafdfffbab61c59fa87eb0200e3">m_WidgetRoot</a>.</p>
 
 </div>
 </div>
@@ -221,9 +216,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00020">20</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00005">m_pNamesListboxWidget</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">m_pValuesListboxWidget</a>, and <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00003">m_WidgetRoot</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a2f26cc05ca2894622e7146ff51921b01">m_pNamesListboxWidget</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a06a3ea8bb45f328aa19fae9ade795987">m_pValuesListboxWidget</a>, and <a class="el" href="../../dd/d16/class_debug_monitor.html#a5ad31dafdfffbab61c59fa87eb0200e3">m_WidgetRoot</a>.</p>
 
 </div>
 </div>
@@ -251,9 +244,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00052">52</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">m_pValuesListboxWidget</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a06a3ea8bb45f328aa19fae9ade795987">m_pValuesListboxWidget</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
 
 </div>
 </div>
@@ -281,9 +272,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00046">46</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">m_pValuesListboxWidget</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a06a3ea8bb45f328aa19fae9ade795987">m_pValuesListboxWidget</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
 
 </div>
 </div>
@@ -311,9 +300,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00058">58</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">m_pValuesListboxWidget</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a06a3ea8bb45f328aa19fae9ade795987">m_pValuesListboxWidget</a>.</p>
 
 </div>
 </div>
@@ -341,9 +328,34 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00064">64</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a06a3ea8bb45f328aa19fae9ade795987">m_pValuesListboxWidget</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#afa7657e4f6687b78bc860ddff41c3bef">ToString()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">m_pValuesListboxWidget</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#afa7657e4f6687b78bc860ddff41c3bef">ToString()</a>.</p>
+</div>
+</div>
+<a id="ace79e5f49885e486e8e1d48ff0666476" name="ace79e5f49885e486e8e1d48ff0666476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace79e5f49885e486e8e1d48ff0666476">&#9670;&#160;</a></span>Show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Show </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dd/d16/class_debug_monitor.html#a5ad31dafdfffbab61c59fa87eb0200e3">m_WidgetRoot</a>.</p>
 
 </div>
 </div>
@@ -368,9 +380,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00007">7</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00009">DebugMonitor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d16/class_debug_monitor.html#a52648b337b812358fb6354fa413d98c0">DebugMonitor()</a>.</p>
 
 </div>
 </div>
@@ -394,9 +404,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00005">5</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00009">DebugMonitor()</a>, and <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00020">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d16/class_debug_monitor.html#a52648b337b812358fb6354fa413d98c0">DebugMonitor()</a>, and <a class="el" href="../../dd/d16/class_debug_monitor.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>.</p>
 
 </div>
 </div>
@@ -420,9 +428,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00006">6</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00009">DebugMonitor()</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00020">Init()</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00052">SetBlood()</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00046">SetHealth()</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00058">SetLastDamage()</a>, and <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00064">SetPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d16/class_debug_monitor.html#a52648b337b812358fb6354fa413d98c0">DebugMonitor()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a9a6ad38ea5a4f0973fabfb7d1cf2ebea">SetBlood()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#aed23d33033671616b8ba68b9d8241781">SetHealth()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a5890e606b5e89a9e3439e51224f14864">SetLastDamage()</a>, and <a class="el" href="../../dd/d16/class_debug_monitor.html#a7d2a8345e41a29419989ff96052b43c9">SetPosition()</a>.</p>
 
 </div>
 </div>
@@ -446,9 +452,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00009">DebugMonitor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d16/class_debug_monitor.html#a52648b337b812358fb6354fa413d98c0">DebugMonitor()</a>.</p>
 
 </div>
 </div>
@@ -472,14 +476,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00003">3</a> of file <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00009">DebugMonitor()</a>, <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00070">Hide()</a>, and <a class="el" href="../../d7/d92/_debug_monitor_8c_source.html#l00020">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d16/class_debug_monitor.html#a52648b337b812358fb6354fa413d98c0">DebugMonitor()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a130bc36524c72ad408ecd7338f1e0070">Hide()</a>, <a class="el" href="../../dd/d16/class_debug_monitor.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, and <a class="el" href="../../dd/d16/class_debug_monitor.html#ace79e5f49885e486e8e1d48ff0666476">Show()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d7/d92/_debug_monitor_8c_source.html">DebugMonitor.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d7/d92/_debug_monitor_8c.html">DebugMonitor.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

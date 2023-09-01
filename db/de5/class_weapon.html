@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -118,6 +118,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a58793c1561abb560da4377da77ad6dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4b676f843921177cdeaa5e96b4d2fc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ad4b676f843921177cdeaa5e96b4d2fc3">SetInitialState</a> (<a class="el" href="../../dc/dcc/class_weapon_stable_state.html">WeaponStableState</a> initState)</td></tr>
 <tr class="separator:ad4b676f843921177cdeaa5e96b4d2fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1de6bcdf7d9837228a60127dc55a7ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ad1de6bcdf7d9837228a60127dc55a7ad">IsCharged</a> ()</td></tr>
+<tr class="separator:ad1de6bcdf7d9837228a60127dc55a7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac303eebeb709506adf72ad89922d69d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ac303eebeb709506adf72ad89922d69d7">SetCharged</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> value)</td></tr>
+<tr class="separator:ac303eebeb709506adf72ad89922d69d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4640bd26a031f281a7e744852321611"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ad4640bd26a031f281a7e744852321611">IsWeaponOpen</a> ()</td></tr>
+<tr class="separator:ad4640bd26a031f281a7e744852321611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae579ea288497328538fd175670033ad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ae579ea288497328538fd175670033ad9">SetWeaponOpen</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> value)</td></tr>
+<tr class="separator:ae579ea288497328538fd175670033ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41e39b87ea206cd3cac6f55098406bc1"><td class="memItemLeft" align="right" valign="top">override protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a41e39b87ea206cd3cac6f55098406bc1">GetWeightSpecialized</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> forceRecalc=false)</td></tr>
 <tr class="separator:a41e39b87ea206cd3cac6f55098406bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad305814599e7be86b271d3ce66bed3cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ad305814599e7be86b271d3ce66bed3cd">AssembleGun</a> ()</td></tr>
@@ -226,6 +234,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0be90aadc734ee59a862fd87b1a40ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7041ee8f532d01b8927a711c3c39692c"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a7041ee8f532d01b8927a711c3c39692c">m_ButtstockAttached</a></td></tr>
 <tr class="separator:a7041ee8f532d01b8927a711c3c39692c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327cd302b32869c407a9ea53dc0ae696"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a327cd302b32869c407a9ea53dc0ae696">m_Charged</a> = false</td></tr>
+<tr class="separator:a327cd302b32869c407a9ea53dc0ae696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da4b98c01fc372820908d9bbdaf8f95"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a2da4b98c01fc372820908d9bbdaf8f95">m_WeaponOpen</a> = false</td></tr>
+<tr class="separator:a2da4b98c01fc372820908d9bbdaf8f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6bbadf802d838af2a81cd217aac4423"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ad6bbadf802d838af2a81cd217aac4423">m_BurstCount</a></td></tr>
 <tr class="separator:ad6bbadf802d838af2a81cd217aac4423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038fdee92138bf4c8e5440d9501a6ad5"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a038fdee92138bf4c8e5440d9501a6ad5">m_BayonetAttachmentIdx</a></td></tr>
@@ -366,8 +378,6 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>script counterpart to engine's class <a class="el" href="../../db/de5/class_weapon.html" title="script counterpart to engine&#39;s class Weapon">Weapon</a> </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html#l00048">48</a> of file <a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a94e94836ed80bf81df4751938ab00cbc" name="a94e94836ed80bf81df4751938ab00cbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94e94836ed80bf81df4751938ab00cbc">&#9670;&#160;</a></span>AfterStoreLoad()</h2>
@@ -391,8 +401,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00539">539</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -457,9 +465,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00279">279</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00144">IsChamberFiredOut()</a>, and <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00145">IsChamberFull()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ad02cadbbfe88b6fa28acd9649244d73c">IsChamberFiredOut()</a>, and <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ae62d9ebf7276af123ad0d441662bb599">IsChamberFull()</a>.</p>
 
 </div>
 </div>
@@ -486,8 +492,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00363">363</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a232e92058521b9284b6575ac74158989" name="a232e92058521b9284b6575ac74158989"></a>
@@ -512,8 +516,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01124">1124</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -540,9 +542,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01117">1117</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00144">IsChamberFiredOut()</a>, <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00912">IsDamageDestroyed()</a>, and <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00022">IsJammed()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ad02cadbbfe88b6fa28acd9649244d73c">IsChamberFiredOut()</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>, and <a class="el" href="../../d9/d3c/_crossbow_8c.html#aac14d196e64cad535c5aa50f0c954df3">IsJammed()</a>.</p>
 
 </div>
 </div>
@@ -580,8 +580,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00191">191</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="adaf6c2b559234908ab57c43c825ce3cb" name="adaf6c2b559234908ab57c43c825ce3cb"></a>
@@ -607,8 +605,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>true if weapon has running fsm </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00225">225</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -636,8 +632,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01044">1044</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="aed925ee192783eac2b5b80458d1e6f3c" name="aed925ee192783eac2b5b80458d1e6f3c"></a>
@@ -664,9 +658,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01063">1063</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00088">IsIdle()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d4/d2c/_json_data_contaminated_area_8c_source.html#l00011">Type</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#a8ce19f9cc6998a5eacdec013ddce60a4">IsIdle()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d4/d2c/_json_data_contaminated_area_8c.html#a651a3c9de2e16ff0deca8d09dedbda58">Type</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html#afa33033805ea8cbc9b91ae2d002ffcd7">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -694,9 +686,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01282">1282</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/da2/class_script_read_write_context.html#a1fb0a7af6f3a6610ca16cef7d5aada13">ScriptReadWriteContext::GetReadContext()</a>, <a class="el" href="../../d7/da2/class_script_read_write_context.html#aaa1e965da231245c7494acf720126e15">ScriptReadWriteContext::GetWriteContext()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c_source.html#l00270">OnStoreLoad()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/da2/class_script_read_write_context.html#a1fb0a7af6f3a6610ca16cef7d5aada13">ScriptReadWriteContext::GetReadContext()</a>, <a class="el" href="../../d7/da2/class_script_read_write_context.html#aaa1e965da231245c7494acf720126e15">ScriptReadWriteContext::GetWriteContext()</a>, and <a class="el" href="../../d3/d3c/_modifiers_manager_8c.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9">OnStoreLoad()</a>.</p>
 
 </div>
 </div>
@@ -751,9 +741,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The created weapon </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00655">655</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00037">ECE_PLACE_ON_SURFACE</a>, <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00110">vector::Zero</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d35/_central_economy_8c.html#a4389063907bd8acede7114e3887d6102">ECE_PLACE_ON_SURFACE</a>, <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector::Zero</a>.</p>
 
 </div>
 </div>
@@ -797,9 +785,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00296">296</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/d2e/_item_base_8c_source.html#l05119">IncreaseOverheating()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#a83467008e8d634e672934487fcda3034">IncreaseOverheating()</a>.</p>
 
 </div>
 </div>
@@ -826,9 +812,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00115">115</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/dd0/_magnum_8c_source.html#l00181">Weapon_Base::AssembleGun()</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a90d46bca4f2fee822c985500e877b926">ScriptCallQueue::Call()</a>, <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00010">CALL_CATEGORY_GAMEPLAY</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01153">CGame::GetCallQueue()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d9c/class_weapon___base.html#a49e5f0d23b711ee80e7e2ed15ff69ddf">Weapon_Base::AssembleGun()</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a90d46bca4f2fee822c985500e877b926">ScriptCallQueue::Call()</a>, <a class="el" href="../../d9/dc3/group___tools.html#ga32e05515215d4ff50969513ff6d88310">CALL_CATEGORY_GAMEPLAY</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
 </div>
 </div>
@@ -866,8 +850,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00998">998</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a870b0dcd0dfafe4a764232688d9356c0" name="a870b0dcd0dfafe4a764232688d9356c0"></a>
@@ -904,8 +886,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01005">1005</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="aafac0842577356f878e87cbecd8dbdc1" name="aafac0842577356f878e87cbecd8dbdc1"></a>
@@ -941,8 +921,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01012">1012</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/db0/class_human_command_move.html#abcc0553fd0e35002f8ca4c06fc68703d">HumanCommandMove::SetMeleeBlock()</a>.</p>
 
@@ -1000,8 +978,6 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if bullet removed from chamber </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01267">1267</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="ae0240a6790df007552a7e4add331ff83" name="ae0240a6790df007552a7e4add331ff83"></a>
@@ -1054,9 +1030,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether any chamber was filled </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00824">824</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d7f/_ammo_types_8c_source.html#l00012">AmmoTypesAPI::MagazineTypeToAmmoType()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00053">Math::RandomIntInclusive()</a>, and <a class="el" href="../../d2/d71/_combination_lock_8c_source.html#l00151">Synchronize()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d92/class_ammo_types_a_p_i.html#a5f4ef5fb823a1f755d0b0069a7901610">AmmoTypesAPI::MagazineTypeToAmmoType()</a>, <a class="el" href="../../d5/d98/group___math.html#ga8134ff8f8630dcf6d279816daf600837">Math::RandomIntInclusive()</a>, and <a class="el" href="../../d2/d71/_combination_lock_8c.html#a9ca5b99b3550503ca7bad8418e133156">Synchronize()</a>.</p>
 
 </div>
 </div>
@@ -1110,9 +1084,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether any ammo was added to the gun or not </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00756">756</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d7f/_ammo_types_8c_source.html#l00012">AmmoTypesAPI::MagazineTypeToAmmoType()</a>, and <a class="el" href="../../da/d34/_en_math_8c_source.html#l00053">Math::RandomIntInclusive()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d92/class_ammo_types_a_p_i.html#a5f4ef5fb823a1f755d0b0069a7901610">AmmoTypesAPI::MagazineTypeToAmmoType()</a>, and <a class="el" href="../../d5/d98/group___math.html#ga8134ff8f8630dcf6d279816daf600837">Math::RandomIntInclusive()</a>.</p>
 
 </div>
 </div>
@@ -1139,9 +1111,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00389">389</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/dd0/_magnum_8c_source.html#l00329">Weapon_Base::HideBullet()</a>, <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00145">IsChamberFull()</a>, and <a class="el" href="../../db/dd0/_magnum_8c_source.html#l00306">Weapon_Base::ShowBullet()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d9c/class_weapon___base.html#ad8da0d9a1d72a41e42c045f8a2f94ae6">Weapon_Base::HideBullet()</a>, <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ae62d9ebf7276af123ad0d441662bb599">IsChamberFull()</a>, and <a class="el" href="../../d3/d9c/class_weapon___base.html#ac0bb3f0c0862d1b3084bae4a9bc24614">Weapon_Base::ShowBullet()</a>.</p>
 
 </div>
 </div>
@@ -1176,8 +1146,6 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ability record </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00220">220</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a1d9fb73cf5fedcd6ae2e53f3a228d837" name="a1d9fb73cf5fedcd6ae2e53f3a228d837"></a>
@@ -1204,8 +1172,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>number of stored abilities </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00215">215</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a30ebd47bae0b1e1e9591780573f66c20" name="a30ebd47bae0b1e1e9591780573f66c20"></a>
@@ -1230,8 +1196,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01328">1328</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1258,8 +1222,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01414">1414</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="ae59ce4f64fdec70cc2c6dda7fc5858c4" name="ae59ce4f64fdec70cc2c6dda7fc5858c4"></a>
@@ -1285,8 +1247,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01344">1344</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a4067f10060b5b67d817584924569c451" name="a4067f10060b5b67d817584924569c451"></a>
@@ -1311,8 +1271,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00366">366</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1340,8 +1298,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>tries to return identifier of current stable state (or nearest stable state if unstable state is currently running) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00589">589</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1371,8 +1327,6 @@ Private Attributes</h2></td></tr>
 <p>returns currently active state </p>
 <dl class="section return"><dt>Returns</dt><dd>current state the FSM is in (or NULL) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00231">231</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a893525a91cbcd48916cbb28902b5b90e" name="a893525a91cbcd48916cbb28902b5b90e"></a>
@@ -1397,8 +1351,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00579">579</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1427,9 +1379,7 @@ Private Attributes</h2></td></tr>
 
 <p>Helper method for RandomizeFSMState. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00618">618</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00144">IsChamberFiredOut()</a>, and <a class="el" href="../../d8/d8f/_weapon_stable_state_8c_source.html#l00145">IsChamberFull()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ad02cadbbfe88b6fa28acd9649244d73c">IsChamberFiredOut()</a>, and <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ae62d9ebf7276af123ad0d441662bb599">IsChamberFull()</a>.</p>
 
 </div>
 </div>
@@ -1455,8 +1405,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00923">923</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1485,8 +1433,6 @@ Private Attributes</h2></td></tr>
 
 <p>Returns number of slots for attachments corrected for weapons. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00915">915</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a899edd684c680e7c0a3448fef32f5892" name="a899edd684c680e7c0a3448fef32f5892"></a>
@@ -1514,8 +1460,6 @@ Private Attributes</h2></td></tr>
 
 <p>Returns number of slots for attachments corrected for weapons. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d55/_binoculars_base_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/d55/_binoculars_base_8c_source.html">BinocularsBase.c</a>.</p>
-
 </div>
 </div>
 <a id="a9e9de106631bda8e295638fd2c431066" name="a9e9de106631bda8e295638fd2c431066"></a>
@@ -1540,8 +1484,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00365">365</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1568,8 +1510,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00294">294</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a627050d49c04ad080bf5cc12d9b43c02" name="a627050d49c04ad080bf5cc12d9b43c02"></a>
@@ -1594,8 +1534,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01166">1166</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1633,8 +1571,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01112">1112</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a41e39b87ea206cd3cac6f55098406bc1" name="a41e39b87ea206cd3cac6f55098406bc1"></a>
@@ -1661,9 +1597,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00128">128</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00734">WeightDebugData::AddCalcDetails()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, <a class="el" href="../../d8/d8d/_ammunition_piles_8c_source.html#l00006">Ammunition_Base::GetAmmoWeightByBulletType()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00728">WeightDebugData::SetCalcDetails()</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2e/class_weight_debug_data.html#ac1dbb21770777d11dd8b371fc86da0b0">WeightDebugData::AddCalcDetails()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, <a class="el" href="../../dc/d53/class_ammunition___base.html#ace88383688c0181e71cd0e39ad2fd445">Ammunition_Base::GetAmmoWeightByBulletType()</a>, <a class="el" href="../../d7/d2e/class_weight_debug_data.html#a9dbe9b9d9a25df8bc76705b1de5e98e2">WeightDebugData::SetCalcDetails()</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
 
 </div>
 </div>
@@ -1711,9 +1645,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if weapon supports operation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00201">201</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00006">AbilityRecord::m_action</a>, and <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00007">AbilityRecord::m_actionType</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d74/class_ability_record.html#a9a6379dd023a6259d25f858c9d91e27a">AbilityRecord::m_action</a>, and <a class="el" href="../../d9/d74/class_ability_record.html#ab9afd856777fb421ec5c15c8ecf6a243">AbilityRecord::m_actionType</a>.</p>
 
 </div>
 </div>
@@ -1740,8 +1672,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01323">1323</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a490bf66466be3d7266d3942dc313921f" name="a490bf66466be3d7266d3942dc313921f"></a>
@@ -1766,8 +1696,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01339">1339</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1795,8 +1723,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00352">352</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="af70ff820460b85a21a9e2189ae8a3866" name="af70ff820460b85a21a9e2189ae8a3866"></a>
@@ -1821,8 +1747,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01369">1369</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1849,8 +1773,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01349">1349</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
@@ -1882,9 +1804,7 @@ Private Attributes</h2></td></tr>
 
 <p>Initializes DOF properties for weapon's ironsight/optics cameras. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01134">1134</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>.</p>
 
 </div>
 </div>
@@ -1912,9 +1832,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01144">1144</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a3ab02b691fc691c81309247345adcff1">CGame::ConfigGetFloatArray()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>.</p>
 
 </div>
 </div>
@@ -1940,8 +1858,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00113">113</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -1970,7 +1886,30 @@ Private Attributes</h2></td></tr>
 
 <p>gets weapon length from config for weaponlift raycast </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01155">1155</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+</div>
+</div>
+<a id="ad1de6bcdf7d9837228a60127dc55a7ad" name="ad1de6bcdf7d9837228a60127dc55a7ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1de6bcdf7d9837228a60127dc55a7ad">&#9670;&#160;</a></span>IsCharged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsCharged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1997,8 +1936,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00241">241</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="ae0d1a50d3504207b5de70c8d79d134f3" name="ae0d1a50d3504207b5de70c8d79d134f3"></a>
@@ -2024,8 +1961,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00362">362</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a2aecf5a9357094bc86ab902846ae0ead" name="a2aecf5a9357094bc86ab902846ae0ead"></a>
@@ -2050,8 +1985,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01073">1073</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dc5/class_inventory_location.html#aa4957320ada1b1e401862296fe14370b">InventoryLocation::GetParent()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
 
@@ -2080,8 +2013,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01409">1409</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a5817270380f34a56ba25da27e82fcd48" name="a5817270380f34a56ba25da27e82fcd48"></a>
@@ -2109,7 +2040,30 @@ Private Attributes</h2></td></tr>
 
 <p>returns true if state machine started playing action/actionType and waits for finish </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00236">236</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+</div>
+</div>
+<a id="ad4640bd26a031f281a7e744852321611" name="ad4640bd26a031f281a7e744852321611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4640bd26a031f281a7e744852321611">&#9670;&#160;</a></span>IsWeaponOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsWeaponOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2136,8 +2090,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00329">329</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -2166,9 +2118,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>snippet below measures distance from "RightHandIndex1" bone for lifting calibration</p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01172">1172</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a12cef74155564a85f15164eb018f4134">CGame::GetCurrentCameraDirection()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d4/d9e/human_8c_source.html#l01124">HumanMovementState::IsRaised()</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d3/d27/class_day_z_physics.html#a25404b465f0329039f6d428637b4caae">DayZPhysics::RayCastBullet()</a>, and <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00110">vector::Zero</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a12cef74155564a85f15164eb018f4134">CGame::GetCurrentCameraDirection()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a3cafea2922faeea28e38014b98401212">HumanMovementState::IsRaised()</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d3/d27/class_day_z_physics.html#a25404b465f0329039f6d428637b4caae">DayZPhysics::RayCastBullet()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector::Zero</a>.</p>
 
 </div>
 </div>
@@ -2206,9 +2156,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00506">506</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00031">WeaponStableState::HasBullet()</a>, <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00032">WeaponStableState::HasMagazine()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, <a class="el" href="../../dc/dcc/class_weapon_stable_state.html#ab49d3803bebd844c3f873106849df18a">WeaponStableState::HasBullet()</a>, <a class="el" href="../../dc/dcc/class_weapon_stable_state.html#af2a2200b1debc914a8e34252c33e8dfe">WeaponStableState::HasMagazine()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654">LogManager::IsWeaponLogEnable()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html#afa33033805ea8cbc9b91ae2d002ffcd7">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2234,8 +2182,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01439">1439</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -2263,8 +2209,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00932">932</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a74753abf6c3a7ed24cfe682902683448" name="a74753abf6c3a7ed24cfe682902683448"></a>
@@ -2291,9 +2235,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00960">960</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c_source.html#l00009">GetPosition</a>, <a class="el" href="../../d9/d4d/_effect_manager_8c_source.html#l00165">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d4/d70/_effect_sound_8c_source.html#l00587">EffectSound::SetAutodestroy()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c.html#af4b5180d61f839c99de2d15fdcda4568">GetPosition</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#af0e79eb49231c4fb5ae3467be05f43a0">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#af5eacfbd1ed6f18ade3c93953dece0d1">EffectSound::SetAutodestroy()</a>.</p>
 
 </div>
 </div>
@@ -2321,8 +2263,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00983">983</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a20d34b02e5b27a8bbefbf3b6f72f0b89" name="a20d34b02e5b27a8bbefbf3b6f72f0b89"></a>
@@ -2348,8 +2288,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00992">992</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -2387,8 +2325,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01030">1030</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="ab311cdf3df0e3547b7d3cd810e61ca61" name="ab311cdf3df0e3547b7d3cd810e61ca61"></a>
@@ -2425,9 +2361,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00416">416</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html#afa33033805ea8cbc9b91ae2d002ffcd7">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2454,8 +2388,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00551">551</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
 
@@ -2485,8 +2417,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01377">1377</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a32ea991bce8eeb1b79e907634badafb9" name="a32ea991bce8eeb1b79e907634badafb9"></a>
@@ -2513,8 +2443,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>@NOTE: warning: ProcessWeaponEvent can be called only within <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons</a> (or <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6350a0773d57dbef4c073d8ac3ba7cdf" title="-------------— command handling ----------------------—">CommandHandler</a>) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00270">270</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -2544,9 +2472,7 @@ Private Attributes</h2></td></tr>
 
 <p>weapon's fsm handling of events @NOTE: warning: ProcessWeaponEvent can be called only within <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons</a> (or <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6350a0773d57dbef4c073d8ac3ba7cdf" title="-------------— command handling ----------------------—">CommandHandler</a>) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00250">250</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/dea/_events_8c_source.html#l00042">WeaponEventBase::GetEventID()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/db7/class_weapon_event_base.html#a4bf16d0ca057d13162056dccb455c5aa">WeaponEventBase::GetEventID()</a>.</p>
 
 </div>
 </div>
@@ -2575,9 +2501,7 @@ Private Attributes</h2></td></tr>
 
 <p>With the parameters given, selects a random suitable state for the FSM of the weapon @WARNING: Weapon_Base.Synchronize call might be needed, if this method is called while clients are connected. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00602">602</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d3c/_crossbow_8c_source.html#l00022">IsJammed()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d3c/_crossbow_8c.html#aac14d196e64cad535c5aa50f0c954df3">IsJammed()</a>.</p>
 
 </div>
 </div>
@@ -2604,8 +2528,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01419">1419</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a0a05cf51c6a557da1a153e8706b498bf" name="a0a05cf51c6a557da1a153e8706b498bf"></a>
@@ -2631,9 +2553,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00289">289</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/d99/_h_f_s_m_base_8c_source.html#l00005">fsmDebugSpam()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d99/_h_f_s_m_base_8c.html#a42ec7b4847da51d422f4b048151c94a1">fsmDebugSpam()</a>.</p>
 
 </div>
 </div>
@@ -2661,9 +2581,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00491">491</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00063">GetType()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654">LogManager::IsWeaponLogEnable()</a>, and <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html#afa33033805ea8cbc9b91ae2d002ffcd7">wpnDebugPrint()</a>.</p>
 
 </div>
 </div>
@@ -2690,9 +2608,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01424">1424</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/dfd/_advanced_communication_8c_source.html#l00220">AddAction()</a>, and <a class="el" href="../../df/d32/_firearm_action_load_bullet_8c.html#acb7a4120ff4f419f9ecd1018500eb143">FirearmActionLoadBulletQuick()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dfd/_advanced_communication_8c.html#a52cdff768ebc148eee5a17e4ebef3408">AddAction()</a>, and <a class="el" href="../../df/d32/_firearm_action_load_bullet_8c.html#acb7a4120ff4f419f9ecd1018500eb143">FirearmActionLoadBulletQuick()</a>.</p>
 
 </div>
 </div>
@@ -2732,8 +2648,6 @@ Private Attributes</h2></td></tr>
 
 <p>attachment helpers (firearm melee) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01317">1317</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="aa06d22f3fdc0b43581c6c60df3ca4de7" name="aa06d22f3fdc0b43581c6c60df3ca4de7"></a>
@@ -2770,7 +2684,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01333">1333</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+</div>
+</div>
+<a id="ac303eebeb709506adf72ad89922d69d7" name="ac303eebeb709506adf72ad89922d69d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac303eebeb709506adf72ad89922d69d7">&#9670;&#160;</a></span>SetCharged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetCharged </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2798,7 +2736,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00122">122</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dcc/class_weapon_stable_state.html#a8bbba5af8edfe436c31a5d4da3f6f576">WeaponStableState::IsDischarged()</a>.</p>
 
 </div>
 </div>
@@ -2826,8 +2764,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00364">364</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a70ff81c1a7fb5a8f91acdb99c9668d8c" name="a70ff81c1a7fb5a8f91acdb99c9668d8c"></a>
@@ -2853,8 +2789,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01252">1252</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -2882,7 +2816,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00284">284</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+</div>
+</div>
+<a id="ae579ea288497328538fd175670033ad9" name="ae579ea288497328538fd175670033ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae579ea288497328538fd175670033ad9">&#9670;&#160;</a></span>SetWeaponOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetWeaponOpen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2910,8 +2868,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00342">342</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a8d3037afa92ae221a061880116eb6fd0" name="a8d3037afa92ae221a061880116eb6fd0"></a>
@@ -2936,8 +2892,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01361">1361</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -2985,8 +2939,6 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>whether anything was spawned or done </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00675">675</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a2a3b89658ecf372bf2f5a73d4f0ea81e" name="a2a3b89658ecf372bf2f5a73d4f0ea81e"></a>
@@ -3033,9 +2985,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The created magazine or null </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00698">698</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00436">GetDebugName()</a>, <a class="el" href="../../da/d34/_en_math_8c_source.html#l00053">Math::RandomIntInclusive()</a>, and <a class="el" href="../../d2/d71/_combination_lock_8c_source.html#l00151">Synchronize()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c.html#a2731e77365c090d55fd098fedd5d2b1e">GetDebugName()</a>, <a class="el" href="../../d5/d98/group___math.html#ga8134ff8f8630dcf6d279816daf600837">Math::RandomIntInclusive()</a>, and <a class="el" href="../../d2/d71/_combination_lock_8c.html#a9ca5b99b3550503ca7bad8418e133156">Synchronize()</a>.</p>
 
 </div>
 </div>
@@ -3061,8 +3011,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01107">1107</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3090,9 +3038,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l01089">1089</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/dea/_events_8c_source.html#l00042">WeaponEventBase::GetEventID()</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c_source.html#l00012">INPUT_UDT_WEAPON_REMOTE_EVENT</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00640">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00038">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d8/dea/_events_8c_source.html#l00037">WeaponEventBase::m_player</a>, <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c_source.html#l00009">wpnDebugPrint()</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>, and <a class="el" href="../../d8/dea/_events_8c_source.html#l00054">WeaponEventBase::WriteToContext()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/db7/class_weapon_event_base.html#a4bf16d0ca057d13162056dccb455c5aa">WeaponEventBase::GetEventID()</a>, <a class="el" href="../../d9/d17/3___game_2tools_2_component_2__constants_8c.html#aab61457ed0accb62ab4c1cdfe41ced52">INPUT_UDT_WEAPON_REMOTE_EVENT</a>, <a class="el" href="../../d9/df7/class_log_manager.html#a477deb51388ca4cc9426a7e13e97e654">LogManager::IsWeaponLogEnable()</a>, <a class="el" href="../../d7/db7/class_weapon_event_base.html#a4476a89d63ab011508fb2d5430e4b074">WeaponEventBase::m_magazine</a>, <a class="el" href="../../d7/db7/class_weapon_event_base.html#aef33c42cd9f2c3506278326238dcc9a6">WeaponEventBase::m_player</a>, <a class="el" href="../../dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html#afa33033805ea8cbc9b91ae2d002ffcd7">wpnDebugPrint()</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>, and <a class="el" href="../../d7/db7/class_weapon_event_base.html#abf68c50ff557f0a6efb5e25659b17c70">WeaponEventBase::WriteToContext()</a>.</p>
 
 </div>
 </div>
@@ -3130,8 +3076,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00376">376</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="aeaf3c148d24964a2a19799a344f089f7" name="aeaf3c148d24964a2a19799a344f089f7"></a>
@@ -3156,8 +3100,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00977">977</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3184,9 +3126,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00067">67</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../db/dd0/_magnum_8c_source.html#l00088">Weapon_Base::InitStateMachine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d3/d9c/class_weapon___base.html#a54787499372ae713fe5e1b6b1414a6d8">Weapon_Base::InitStateMachine()</a>.</p>
 
 </div>
 </div>
@@ -3211,8 +3151,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00045">45</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="acabb249db0dd310d20e8624e7cb3be8c" name="acabb249db0dd310d20e8624e7cb3be8c"></a>
@@ -3234,8 +3172,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00065">65</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3259,8 +3195,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00046">46</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a0be90aadc734ee59a862fd87b1a40ce6" name="a0be90aadc734ee59a862fd87b1a40ce6"></a>
@@ -3282,8 +3216,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00050">50</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3307,8 +3239,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00053">53</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="ae3f96ed8cf7e5404acb3f09b96e48892" name="ae3f96ed8cf7e5404acb3f09b96e48892"></a>
@@ -3330,8 +3260,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00060">60</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3355,8 +3283,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00052">52</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a7041ee8f532d01b8927a711c3c39692c" name="a7041ee8f532d01b8927a711c3c39692c"></a>
@@ -3378,8 +3304,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00051">51</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3403,8 +3327,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00054">54</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a25313b2a0b6ac4dc8ea240c268f69bdf" name="a25313b2a0b6ac4dc8ea240c268f69bdf"></a>
@@ -3426,8 +3348,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00062">62</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3451,7 +3371,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00063">63</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+</div>
+</div>
+<a id="a327cd302b32869c407a9ea53dc0ae696" name="a327cd302b32869c407a9ea53dc0ae696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327cd302b32869c407a9ea53dc0ae696">&#9670;&#160;</a></span>m_Charged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_Charged = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3475,8 +3415,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00058">58</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a935c8bf91c4a4874804751a7d1ae4147" name="a935c8bf91c4a4874804751a7d1ae4147"></a>
@@ -3498,8 +3436,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00061">61</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3525,8 +3461,6 @@ Private Attributes</h2></td></tr>
 
 <p>weapon abilities </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00047">47</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a60207df8906a468f6361367a5247be0e" name="a60207df8906a468f6361367a5247be0e"></a>
@@ -3551,8 +3485,6 @@ Private Attributes</h2></td></tr>
 
 <p>weapon state machine </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00048">48</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a1ca36fd9ed6eabdbb06248e0affd5161" name="a1ca36fd9ed6eabdbb06248e0affd5161"></a>
@@ -3574,8 +3506,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00049">49</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3601,8 +3531,6 @@ Private Attributes</h2></td></tr>
 
 <p>animation state the weapon is in, -1 == uninitialized </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00056">56</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="a01d77e672b07e898d7475f6600e2ab95" name="a01d77e672b07e898d7475f6600e2ab95"></a>
@@ -3624,8 +3552,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00064">64</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3649,8 +3575,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00055">55</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="aaa0f3ce7db25bf5479b022311a59eb5e" name="aaa0f3ce7db25bf5479b022311a59eb5e"></a>
@@ -3672,8 +3596,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00057">57</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
 
 </div>
 </div>
@@ -3697,7 +3619,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00059">59</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
+</div>
+</div>
+<a id="a2da4b98c01fc372820908d9bbdaf8f95" name="a2da4b98c01fc372820908d9bbdaf8f95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da4b98c01fc372820908d9bbdaf8f95">&#9670;&#160;</a></span>m_WeaponOpen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_WeaponOpen = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3723,8 +3665,6 @@ Private Attributes</h2></td></tr>
 
 <p>Full highest capacity magazine + chambered round. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00041">41</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <a id="ac1015be159647292bd0c7780fb2243d9" name="ac1015be159647292bd0c7780fb2243d9"></a>
@@ -3749,14 +3689,12 @@ Private Attributes</h2></td></tr>
 
 <p>Random bullet quantity + maybe chambered round. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df2/_weapon___base_8c_source.html#l00043">43</a> of file <a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>P:/scripts/4_World/Entities/Core/Inherited/<a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c_source.html">InventoryItem.c</a></li>
-<li>P:/scripts/4_World/Entities/Firearms/<a class="el" href="../../de/df2/_weapon___base_8c_source.html">Weapon_Base.c</a></li>
-<li>P:/scripts/4_World/Entities/ItemBase/<a class="el" href="../../d5/d55/_binoculars_base_8c_source.html">BinocularsBase.c</a></li>
+<li>4_World/Entities/Core/Inherited/<a class="el" href="../../d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c.html">InventoryItem.c</a></li>
+<li>4_World/Entities/Firearms/<a class="el" href="../../de/df2/_weapon___base_8c.html">Weapon_Base.c</a></li>
+<li>4_World/Entities/ItemBase/<a class="el" href="../../d5/d55/_binoculars_base_8c.html">BinocularsBase.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

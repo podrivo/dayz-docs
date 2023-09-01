@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DayZ Scripts: P:/scripts/3_Game/dayzplayer.c File Reference</title>
+<title>DayZ Scripts: 3_Game/dayzplayer.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,8 +106,6 @@ $(document).ready(function(){initNavTree('d3/d58/dayzplayer_8c.html','../../'); 
   <div class="headertitle"><div class="title">dayzplayer.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="../../d3/d58/dayzplayer_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -282,242 +280,245 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4">CMD_ACTIONMOD_EAT_PILL</a> = 527
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a180ab943f9aeceb589d3b5db0dbf6525">CMD_ACTIONMOD_EAT_TABLET</a> = 528
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ade0adfbe261b0a89154e6e852b8f469e">CMD_ACTIONMOD_HEATPACK</a> = 529
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4">CMD_ACTIONMOD_DROPITEM_HANDS</a> = 900
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef">CMD_ACTIONMOD_DROPITEM_INVENTORY</a> = 901
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66">CMD_ACTIONFB_DRINK</a> = 0
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef">CMD_ACTIONMOD_DROPITEM_INVENTORY</a> = 901
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66">CMD_ACTIONFB_DRINK</a> = 0
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3f24a2b67f25b4cc10363e70db1333fd">CMD_ACTIONFB_EAT</a> = 1
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a74a2dda3adf8d046f9211721b9ef831c">CMD_ACTIONFB_CATCHRAIN</a> = 3
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aed9fd79b20bb6b97ace7c5392db7eb37">CMD_ACTIONFB_ITEM_TUNE</a> = 9
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af31ac0a911f357f7ff4d76c6bacbac89">CMD_ACTIONFB_GIVEL</a> = 10
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aed9fd79b20bb6b97ace7c5392db7eb37">CMD_ACTIONFB_ITEM_TUNE</a> = 9
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af31ac0a911f357f7ff4d76c6bacbac89">CMD_ACTIONFB_GIVEL</a> = 10
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a70e251700104a222db70523e924b02af">CMD_ACTIONFB_GIVER</a> = 11
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a033af898184771fc052453c0bf7c7db3">CMD_ACTIONFB_FILLMAG</a> = 13
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abe28d46a005d525c902abcccbaeb057a">CMD_ACTIONFB_EMPTYMAG</a> = 14
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a452ad6de4b478c5563154aec0d132b5e">CMD_ACTIONFB_DRINKPOND</a> = 50
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abe28d46a005d525c902abcccbaeb057a">CMD_ACTIONFB_EMPTYMAG</a> = 14
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a452ad6de4b478c5563154aec0d132b5e">CMD_ACTIONFB_DRINKPOND</a> = 50
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4c13fba1075e2900fbcaac86475a3600">CMD_ACTIONFB_DRINKWELL</a> = 51
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab6f46a0105387ca14489db3b280be52b">CMD_ACTIONFB_FILLBOTTLEWELL</a> = 52
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac389a99239ad3ceb0f5b249e3f803b95">CMD_ACTIONFB_FIREESTINGUISHER</a> = 53
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1a0bb53a2ec11e4d7046b6577ad99d91">CMD_ACTIONFB_WRING</a> = 54
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac389a99239ad3ceb0f5b249e3f803b95">CMD_ACTIONFB_FIREESTINGUISHER</a> = 53
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1a0bb53a2ec11e4d7046b6577ad99d91">CMD_ACTIONFB_WRING</a> = 54
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1618d475a8a8eeca1a07fddddd7f1e4f">CMD_ACTIONFB_FISHING</a> = 56
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9f2cc9b0a3981515bafbdd1dabbd1e07">CMD_ACTIONFB_CPR</a> = 57
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a34fce013b27c92a75633c5c440687006">CMD_ACTIONFB_BANDAGE</a> = 58
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a43d5903ffce24df40f365ef9494c2c15">CMD_ACTIONFB_CRAFTING</a> = 59
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a34fce013b27c92a75633c5c440687006">CMD_ACTIONFB_BANDAGE</a> = 58
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a43d5903ffce24df40f365ef9494c2c15">CMD_ACTIONFB_CRAFTING</a> = 59
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac0d9123669fe2f44605bce1770b3f2ff">CMD_ACTIONFB_INTERACT</a> = 60
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afde467aca84af145be02ca9f70e2307c">CMD_ACTIONFB_FORCEFEED</a> = 62
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aff2e59eae7969e07d7f871bee97f55fa">CMD_ACTIONFB_BANDAGETARGET</a> = 63
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a161ea5d0b75f3d2e4601389d892f3d8b">CMD_ACTIONFB_SPRAYPLANT</a> = 64
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aff2e59eae7969e07d7f871bee97f55fa">CMD_ACTIONFB_BANDAGETARGET</a> = 63
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a161ea5d0b75f3d2e4601389d892f3d8b">CMD_ACTIONFB_SPRAYPLANT</a> = 64
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab816bd79046e0bcd6463be4aadd48eb0">CMD_ACTIONFB_STARTFIRE</a> = 65
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adce4e132e7be55241680745ffd7b2541">CMD_ACTIONFB_ANIMALSKINNING</a> = 66
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad312b26dba76f9ed0cb22060b8d418d8">CMD_ACTIONFB_WASHHANDSWELL</a> = 67
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaa340427279666783e4efc9dfabd2895">CMD_ACTIONFB_WASHHANDSPOND</a> = 68
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad312b26dba76f9ed0cb22060b8d418d8">CMD_ACTIONFB_WASHHANDSWELL</a> = 67
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaa340427279666783e4efc9dfabd2895">CMD_ACTIONFB_WASHHANDSPOND</a> = 68
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab3c6f271a12989d1e39e4a5020e9d6ea">CMD_ACTIONFB_SALINEBLOODBAGTARGET</a> = 69
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3da387c245359d3e7e0dc6f628cff24f">CMD_ACTIONFB_SALINEBLOODBAG</a> = 70
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acf01459a498f648712cb6b3827e82edd">CMD_ACTIONFB_STITCHUPSELF</a> = 71
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a50d8e6d88ee11b6bf20e547836264627">CMD_ACTIONFB_VOMIT</a> = 72
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acf01459a498f648712cb6b3827e82edd">CMD_ACTIONFB_STITCHUPSELF</a> = 71
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a50d8e6d88ee11b6bf20e547836264627">CMD_ACTIONFB_VOMIT</a> = 72
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a56855ac690b07daaa85c8b2da1d69463">CMD_ACTIONFB_UNRESTRAINTARGET</a> = 73
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1c2a57a88c082dc16b5021398d7dee75">CMD_ACTIONFB_RESTRAINTARGET</a> = 74
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab48cb9eab4ff8676691e6e43eb49ccfd">CMD_ACTIONFB_CHECKPULSE</a> = 76
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6943fbc3eb1b460dc45bfba12624563a">CMD_ACTIONFB_CLEANWOUNDSTARGET</a> = 78
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab48cb9eab4ff8676691e6e43eb49ccfd">CMD_ACTIONFB_CHECKPULSE</a> = 76
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6943fbc3eb1b460dc45bfba12624563a">CMD_ACTIONFB_CLEANWOUNDSTARGET</a> = 78
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aebb2f4ddfcc5c7d1b6824d60f8e9d933">CMD_ACTIONFB_COLLECTBLOODSELF</a> = 81
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a69a918196178725a39d9a5d9b5ff3e18">CMD_ACTIONFB_EMPTY_VESSEL</a> = 82
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ace25c5894b9017496fecc0fd8a40d15e">CMD_ACTIONFB_OPENITEM</a> = 83
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1cb70fb85c536bbd51f1c125bba08f90">CMD_ACTIONFB_HACKBUSH</a> = 85
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ace25c5894b9017496fecc0fd8a40d15e">CMD_ACTIONFB_OPENITEM</a> = 83
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1cb70fb85c536bbd51f1c125bba08f90">CMD_ACTIONFB_HACKBUSH</a> = 85
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae1980aa5d01433db8e8ce880a111571d">CMD_ACTIONFB_HACKTREE</a> = 86
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6339dfb0d640870d75d6654c20bdb6d6">CMD_ACTIONFB_TAKETEMPSELF</a> = 87
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5f4e0c7ffd6e697095cdf222bd01b778">CMD_ACTIONFB_DIG</a> = 88
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afca6543308b43895a2f3ea8d1bbca7b4">CMD_ACTIONFB_DIGUPCACHE</a> = 89
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5f4e0c7ffd6e697095cdf222bd01b778">CMD_ACTIONFB_DIG</a> = 88
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afca6543308b43895a2f3ea8d1bbca7b4">CMD_ACTIONFB_DIGUPCACHE</a> = 89
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa42151748ee308b1a4cdf11d1bb86d04">CMD_ACTIONFB_DIGMANIPULATE</a> = 90
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aedf06824a4cc2823230a25515f917842">CMD_ACTIONFB_DEPLOY_HEAVY</a> = 95
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3c90132d71baee951a6daa999f1e6331">CMD_ACTIONFB_DEPLOY_2HD</a> = 96
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5021b3a52953cb85bf6e36661b03cc2c">CMD_ACTIONFB_DEPLOY_1HD</a> = 97
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3c90132d71baee951a6daa999f1e6331">CMD_ACTIONFB_DEPLOY_2HD</a> = 96
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5021b3a52953cb85bf6e36661b03cc2c">CMD_ACTIONFB_DEPLOY_1HD</a> = 97
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7d5dcfabc47a8d6f9b3158c58ba2b9d3">CMD_ACTIONFB_BLOWFIREPLACE</a> = 98
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a192a85593097c5a1f13dea353511327d">CMD_ACTIONFB_VIEWMAP</a> = 99
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a033aeb6c9546ccda41155784eb2ca2e7">CMD_ACTIONFB_VIEWCOMPASS</a> = 100
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a09c71c81ae919bc3006bd2539f8066f1">CMD_ACTIONFB_FILLBOTTLEPOND</a> = 101
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a033aeb6c9546ccda41155784eb2ca2e7">CMD_ACTIONFB_VIEWCOMPASS</a> = 100
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a09c71c81ae919bc3006bd2539f8066f1">CMD_ACTIONFB_FILLBOTTLEPOND</a> = 101
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1843b75f38227312015049051d64b0e7">CMD_ACTIONFB_PLACING_HEAVY</a> = 102
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af623d33489c3d0a3bc2038fce08fa6ed">CMD_ACTIONFB_PLACING_2HD</a> = 103
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9b1be8682166325e7a7a04d1bb2d113c">CMD_ACTIONFB_PLACING_1HD</a> = 104
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0fe6dbcf7c4acd219f250a67a56efd0a">CMD_ACTIONFB_CUTBARK</a> = 105
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9b1be8682166325e7a7a04d1bb2d113c">CMD_ACTIONFB_PLACING_1HD</a> = 104
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0fe6dbcf7c4acd219f250a67a56efd0a">CMD_ACTIONFB_CUTBARK</a> = 105
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aba01aa417a9025690c3849cf285e38d5">CMD_ACTIONFB_VIEWNOTE</a> = 106
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af234ac42f846daf1014ce91af9876820">CMD_ACTIONFB_SEARCHINVENTORY</a> = 107
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a10dcc89536f3f8d73fed1687313d0ee2">CMD_GESTUREFB_LOOKOPTICS</a> = 108
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9cd12f4efb058c926cdd449eb6c9464b">CMD_ACTIONFB_MINEROCK</a> = 109
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a10dcc89536f3f8d73fed1687313d0ee2">CMD_GESTUREFB_LOOKOPTICS</a> = 108
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9cd12f4efb058c926cdd449eb6c9464b">CMD_ACTIONFB_MINEROCK</a> = 109
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab64d2944a054e58d2208ec2b1c23cb09">CMD_ACTIONFB_RAISEITEM</a> = 110
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5474826d33f76074a97f764cee255267">CMD_ACTIONFB_RESTRAINEDSTRUGGLE</a> = 111
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7960a701452867a6af64a7f48ceebae2">CMD_ACTIONFB_RESTRAINSELF</a> = 112
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af888d25efd8e5565b9d0798a96dbb047">CMD_ACTIONFB_ASSEMBLE</a> = 113
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7960a701452867a6af64a7f48ceebae2">CMD_ACTIONFB_RESTRAINSELF</a> = 112
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af888d25efd8e5565b9d0798a96dbb047">CMD_ACTIONFB_ASSEMBLE</a> = 113
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab9674e503d1de37b1fb7624732ed8993">CMD_ACTIONFB_DISASSEMBLE</a> = 114
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aea7fbb0db8cb05ac7e7b780c6f5de572">CMD_ACTIONFB_FLAME_REPAIR</a> = 115
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a106c6280709e1d0260d8d83dacf60ffa">CMD_ACTIONFB_TURN_VALVE</a> = 116
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569">CMD_ACTIONFB_SET_ALARM</a> = 250
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a106c6280709e1d0260d8d83dacf60ffa">CMD_ACTIONFB_TURN_VALVE</a> = 116
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569">CMD_ACTIONFB_SET_ALARM</a> = 250
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6cf599306aa042fa8a12ac1d051b2251">CMD_ACTIONFB_PICKUP_HANDS</a> = 500
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae1840de4d39743dd653819542c090c6d">CMD_ACTIONFB_PICKUP_INVENTORY</a> = 501
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121">CMD_ACTIONFB_LICKBATTERY</a> = 502
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a687229198cc811fdaf504e1209203ffa">CMD_ACTIONFB_LIGHTFLARE</a> = 503
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121">CMD_ACTIONFB_LICKBATTERY</a> = 502
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a687229198cc811fdaf504e1209203ffa">CMD_ACTIONFB_LIGHTFLARE</a> = 503
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a815fec8e83eac7aa0393b9146648bba0">CMD_ACTIONFB_LITCHEMLIGHT</a> = 504
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a344d7a3c9e634e2edf668a0870a63034">CMD_ACTIONFB_UNPINGRENAGE</a> = 505
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fcf401fd0b203e31b1f7fef04528499">CMD_ACTIONFB_ITEM_ON</a> = 506
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0bb8f473c14de5c04d087d04de2b6e3f">CMD_ACTIONFB_ITEM_OFF</a> = 507
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fcf401fd0b203e31b1f7fef04528499">CMD_ACTIONFB_ITEM_ON</a> = 506
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0bb8f473c14de5c04d087d04de2b6e3f">CMD_ACTIONFB_ITEM_OFF</a> = 507
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa47a8d84b96b96af80f63e0baddd6d45">CMD_ACTIONFB_HANDCUFFTARGET</a> = 508
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a72f71ba3b549abb1be0c8bba282d1919">CMD_ACTIONFB_MORPHINE</a> = 509
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aafde8c143cbdfff90f223124aa697971">CMD_ACTIONFB_INJECTION</a> = 510
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a13336299ffab21bd9e82b4c9ef957028">CMD_ACTIONFB_INJECTIONTARGET</a> = 511
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aafde8c143cbdfff90f223124aa697971">CMD_ACTIONFB_INJECTION</a> = 510
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a13336299ffab21bd9e82b4c9ef957028">CMD_ACTIONFB_INJECTIONTARGET</a> = 511
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0bce5aa06cb1230bbaa1a3fffe8fb6d1">CMD_ACTIONFB_DRINKSIP</a> = 512
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2499ddde36d1d4aab531901102e02522">CMD_ACTIONFB_CLEANHANDSBOTTLE</a> = 513
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82d4f7d6e9a215abf76b7471b93affb5">CMD_ACTIONFB_OPENITEM_ONCE</a> = 514
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a35c24a40d55fc7d23c1ec930fd970523">CMD_ACTIONFB_POKE</a> = 515
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82d4f7d6e9a215abf76b7471b93affb5">CMD_ACTIONFB_OPENITEM_ONCE</a> = 514
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a35c24a40d55fc7d23c1ec930fd970523">CMD_ACTIONFB_POKE</a> = 515
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6b8a1c82977543e34e30a989ea808611">CMD_ACTIONFB_ATTACHSCOPE</a> = 516
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2fcb862b7872790dca548c94cf9d7374">CMD_ACTIONFB_ATTACHBARREL</a> = 517
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9de82006128f175a8e591de44443eac9">CMD_ACTIONFB_RESTRAIN</a> = 518
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af45026903963b8e9beb62a6a1c4fde2e">CMD_ACTIONFB_PICKUP_HEAVY</a> = 519
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9de82006128f175a8e591de44443eac9">CMD_ACTIONFB_RESTRAIN</a> = 518
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af45026903963b8e9beb62a6a1c4fde2e">CMD_ACTIONFB_PICKUP_HEAVY</a> = 519
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8189c4a2fe3fd2d1ab29b7b394fd3f3a">CMD_ACTIONFB_PRESS_TRIGGER</a> = 526
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ace3369846920d313228ffaa044454806">CMD_ACTIONFB_RAISE_FLAG</a> = 600
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a965663080a6172e10bc261dd876bb925">CMD_ACTIONFB_LOWER_FLAG</a> = 601
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a173698d6a7e31caae176d60a813b640f">CMD_ACTIONFB_STOP_ALARM</a> = 251
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a965663080a6172e10bc261dd876bb925">CMD_ACTIONFB_LOWER_FLAG</a> = 601
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a173698d6a7e31caae176d60a813b640f">CMD_ACTIONFB_STOP_ALARM</a> = 251
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae178aae214557b400ffc69933916a20a">CMD_ACTIONFB_EAT_PILL</a> = 527
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a27c19ef0efa8f9512df5c6cff55e9c09">CMD_ACTIONFB_EAT_TABLET</a> = 528
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c">CMD_ACTIONFB_HEATPACK</a> = 529
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fab283212cde9f3a7076d0cbe55663d">CMD_ACTIONFB_DROPITEM_HANDS</a> = 900
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44">CMD_ACTIONMOD_STARTENGINE</a> = 300
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44">CMD_ACTIONMOD_STARTENGINE</a> = 300
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abd0d92cd274516dd4a926f356c42b6d8">CMD_ACTIONMOD_TOOTHORN</a> = 301
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a90743483a87286ec1282708870e07d50">CMD_ACTIONMOD_DRIVER_DOOR_OPEN</a> = 400
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a90743483a87286ec1282708870e07d50">CMD_ACTIONMOD_DRIVER_DOOR_OPEN</a> = 400
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3e4b07b28f987f527f629b4973f99c66">CMD_ACTIONMOD_DRIVER_DOOR_CLOSE</a> = 401
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a576045dfe80583e9f824e64b01e7cd01">CMD_ACTIONMOD_CODRIVER_DOOROPEN</a> = 402
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a576045dfe80583e9f824e64b01e7cd01">CMD_ACTIONMOD_CODRIVER_DOOROPEN</a> = 402
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8206c1cd9d32a3f82dae92ed408bc893">CMD_ACTIONMOD_CODRIVER_DOORCLOSE</a> = 403
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a09f579e1e83e02cc326d51e19bcef1af">CMD_ACTIONMOD_STOPENGINE</a> = 404
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a09f579e1e83e02cc326d51e19bcef1af">CMD_ACTIONMOD_STOPENGINE</a> = 404
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aed64db43b888cd62dfa49e3d00c0ff2a">CMD_ACTIONMOD_SHIFTGEAR</a> = 405
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad7b2466810cfec781bae37945e9c64e0">CMD_ACTIONMOD_HEADLIGHT</a> = 406
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad7b2466810cfec781bae37945e9c64e0">CMD_ACTIONMOD_HEADLIGHT</a> = 406
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaac42afe38dc5990fb88f7477e5fe27b">CMD_GESTUREMOD_GREETING</a> = 1000
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0599b458ae53391e00c88e43d0e9076c">CMD_GESTUREMOD_POINT</a> = 1001
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0599b458ae53391e00c88e43d0e9076c">CMD_GESTUREMOD_POINT</a> = 1001
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8597a966a7774987c2727f4359239edf">CMD_GESTUREMOD_THUMB</a> = 1002
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af0d60263d57c424e6fc90d02a6709f2f">CMD_GESTUREMOD_THUMBDOWN</a> = 1003
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af0d60263d57c424e6fc90d02a6709f2f">CMD_GESTUREMOD_THUMBDOWN</a> = 1003
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6f0ad44c979d6d54d06956a3a6cdf045">CMD_GESTUREMOD_SILENCE</a> = 1004
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a19eb5c4941b9a302830babf7e1bfd544">CMD_GESTUREMOD_TAUNT</a> = 1005
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a19eb5c4941b9a302830babf7e1bfd544">CMD_GESTUREMOD_TAUNT</a> = 1005
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4e5b13b0066930786b139808c0ca9f97">CMD_GESTUREMOD_TIMEOUT</a> = 1006
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9ab3a7d71a57752af4ff137c639fdb18">CMD_GESTUREMOD_HEART</a> = 1007
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9ab3a7d71a57752af4ff137c639fdb18">CMD_GESTUREMOD_HEART</a> = 1007
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad40c63e4e3b92d60f2daba80bb9831ad">CMD_GESTUREMOD_FACEPALM</a> = 1008
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a827b529c60e8cedb6a88f5362a53dfea">CMD_GESTUREMOD_WATCHING</a> = 1009
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a827b529c60e8cedb6a88f5362a53dfea">CMD_GESTUREMOD_WATCHING</a> = 1009
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a22bdabb655d0f575f459cf69dab36091">CMD_GESTUREMOD_HOLD</a> = 1010
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a041ed236814e70c229860c290c4994f6">CMD_GESTUREMOD_LISTENING</a> = 1011
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a041ed236814e70c229860c290c4994f6">CMD_GESTUREMOD_LISTENING</a> = 1011
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acaf390254fd5be38374c3c02bc5ea959">CMD_GESTUREMOD_POINTSELF</a> = 1012
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac2ed1ce598323650ad8f9fb50ec6e6e8">CMD_GESTUREMOD_LOOKATME</a> = 1013
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac2ed1ce598323650ad8f9fb50ec6e6e8">CMD_GESTUREMOD_LOOKATME</a> = 1013
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ade5cfa47ddabadf2e81b7bb07c24f384">CMD_GESTUREMOD_OKAY</a> = 1014
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7cab50b0283d0f67929984ac2fbb9661">CMD_GESTUREMOD_RPS</a> = 10000
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7cab50b0283d0f67929984ac2fbb9661">CMD_GESTUREMOD_RPS</a> = 10000
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6a3dc49a78ce2b81b891f69769f69179">CMD_ACTIONINT_RPS_ROCK</a> = 10
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae9cf964fead1d419a23b1f8f0a2b6cba">CMD_ACTIONINT_RPS_PAPER</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae9cf964fead1d419a23b1f8f0a2b6cba">CMD_ACTIONINT_RPS_PAPER</a> = 11
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9a0d6d5218dcefc3d4a7be889b465a18">CMD_ACTIONINT_RPS_SCISSORS</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac3d82bd6403a78ad7aa96b6dfd1b2bdf">CMD_GESTUREMOD_THROAT</a> = 1100
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac3d82bd6403a78ad7aa96b6dfd1b2bdf">CMD_GESTUREMOD_THROAT</a> = 1100
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8bf69946bbc89189fdebf882e9c3d8a9">CMD_GESTUREMOD_CLAP</a> = 1101
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a55856699348c4c0126225507074a2ca8">CMD_GESTUREMOD_DABBING</a> = 1102
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a55856699348c4c0126225507074a2ca8">CMD_GESTUREMOD_DABBING</a> = 1102
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4f564f84adfddad2e48d2bc38d1698d8">CMD_GESTUREMOD_MOVE</a> = 1103
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aee0a92058abde4eb6f2494fd5e465962">CMD_GESTUREMOD_DOWN</a> = 1104
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aee0a92058abde4eb6f2494fd5e465962">CMD_GESTUREMOD_DOWN</a> = 1104
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7b9d1b590d3074660bed222df4bffcaa">CMD_GESTUREMOD_COME</a> = 1105
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3b2147a337d450d7cfbdb0e17dd4b38b">CMD_GESTUREMOD_TAUNTKISS</a> = 1106
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3b2147a337d450d7cfbdb0e17dd4b38b">CMD_GESTUREMOD_TAUNTKISS</a> = 1106
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a05699ece4c0dbdc6396fd1a79263c22f">CMD_GESTUREMOD_TAUNTELBOW</a> = 1107
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acadf3cd7b819eba065ad19b2ad60bd9a">CMD_GESTUREMOD_TAUNTTHINK</a> = 1108
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acadf3cd7b819eba065ad19b2ad60bd9a">CMD_GESTUREMOD_TAUNTTHINK</a> = 1108
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aeb4dabbe87b79babbda19906b6df38a0">CMD_GESTUREMOD_NODHEAD</a> = 1109
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab412558f62b14d3c68a719bf003d64d1">CMD_GESTUREMOD_SHAKEHEAD</a> = 1110
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab412558f62b14d3c68a719bf003d64d1">CMD_GESTUREMOD_SHAKEHEAD</a> = 1110
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af7c10977464277497e0299944a6c1e6c">CMD_GESTUREMOD_SHRUG</a> = 1111
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5116fe95021e108852b295f78d5f057e">CMD_GESTUREMOD_SURRENDER</a> = 1112
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5116fe95021e108852b295f78d5f057e">CMD_GESTUREMOD_SURRENDER</a> = 1112
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a38c42a96f433bca1f7310666abb0be97">CMD_GESTUREMOD_SURRENDERIN</a> = 1112
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0d7bd07a489bc8ab79a89b287716e7f9">CMD_GESTUREMOD_SURRENDEROUT</a> = 1113
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0d7bd07a489bc8ab79a89b287716e7f9">CMD_GESTUREMOD_SURRENDEROUT</a> = 1113
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a069d98e984629e9ba3a2d53fb163eb12">CMD_GESTUREFB_GREETING</a> = 1000
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4d21fbb22af3241effcd3b2bb4f8d8d3">CMD_GESTUREFB_POINT</a> = 1001
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4d21fbb22af3241effcd3b2bb4f8d8d3">CMD_GESTUREFB_POINT</a> = 1001
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6b2fee6c4d42ea42cbe2d52a45b3aae3">CMD_GESTUREFB_THUMB</a> = 1002
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae7ca7528ba9fcdf39e0e87341ce2384f">CMD_GESTUREFB_THUMBDOWN</a> = 1003
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae7ca7528ba9fcdf39e0e87341ce2384f">CMD_GESTUREFB_THUMBDOWN</a> = 1003
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a33f732f191937de7a77d8dbb0a8dd85e">CMD_GESTUREFB_SILENCE</a> = 1004
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abcbdcd3c7f45e84a8055e94115a02522">CMD_GESTUREFB_TAUNT</a> = 1005
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abcbdcd3c7f45e84a8055e94115a02522">CMD_GESTUREFB_TAUNT</a> = 1005
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6ae01c0c93adc2f8c22f9d0dc89d04c2">CMD_GESTUREFB_TIMEOUT</a> = 1006
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7360bf0ae85d4c2a0de8b9e76d647909">CMD_GESTUREFB_HEART</a> = 1007
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7360bf0ae85d4c2a0de8b9e76d647909">CMD_GESTUREFB_HEART</a> = 1007
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8b084a66fc50043c5e8a8949246104df">CMD_GESTUREFB_WATCHING</a> = 1009
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a901dfbe85754e5b895006bb5773223df">CMD_GESTUREFB_HOLD</a> = 1010
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a901dfbe85754e5b895006bb5773223df">CMD_GESTUREFB_HOLD</a> = 1010
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af245815f221dc0f97da9c781fdccd0a3">CMD_GESTUREFB_LISTENING</a> = 1011
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a54c0bd8821bde4c7d82fcf1016471e3c">CMD_GESTUREFB_POINTSELF</a> = 1012
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a54c0bd8821bde4c7d82fcf1016471e3c">CMD_GESTUREFB_POINTSELF</a> = 1012
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab86a12d444b23e18a9ee5c5c305222b4">CMD_GESTUREFB_LOOKATME</a> = 1013
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af2d511dd01287cf69050f8348a8c4acb">CMD_GESTUREFB_OKAY</a> = 1014
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af2d511dd01287cf69050f8348a8c4acb">CMD_GESTUREFB_OKAY</a> = 1014
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac18c00c79622b777b0eca993a282c686">CMD_GESTUREFB_SALUTE</a> = 1050
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aee35f5f13e9fabcdba951946a95521b3">CMD_GESTUREFB_CAMPFIRE</a> = 1051
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aee35f5f13e9fabcdba951946a95521b3">CMD_GESTUREFB_CAMPFIRE</a> = 1051
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a16246b96b2694596b76115cbca69aa2d">CMD_GESTUREFB_LYINGDOWN</a> = 1052
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae57a1ecc7f29305e0ee38753addb4feb">CMD_GESTUREFB_SOS</a> = 1053
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae57a1ecc7f29305e0ee38753addb4feb">CMD_GESTUREFB_SOS</a> = 1053
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3ffe37e3e104b451ad4ce3215a5a76bc">CMD_GESTUREFB_SITA</a> = 1054
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9a789766a31e48b54af413b3bbadc620">CMD_GESTUREFB_SITB</a> = 1055
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9a789766a31e48b54af413b3bbadc620">CMD_GESTUREFB_SITB</a> = 1055
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afd4386fed5b713561af153440848af1d">CMD_GESTUREFB_DABBING</a> = 1056
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4c2bfde5f4af4d9c10468ee18fcf9068">CMD_GESTUREFB_KNEEL</a> = 1057
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4c2bfde5f4af4d9c10468ee18fcf9068">CMD_GESTUREFB_KNEEL</a> = 1057
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9d1b7f49706ad2aafccc3df50dee2e85">CMD_GESTUREFB_THROAT</a> = 1100
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af2e9a6900ca8be777d18c6d2e735ec11">CMD_GESTUREFB_MOVE</a> = 1103
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af2e9a6900ca8be777d18c6d2e735ec11">CMD_GESTUREFB_MOVE</a> = 1103
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a90d72cba69079e7c8f1a262472fff89e">CMD_GESTUREFB_DOWN</a> = 1104
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0340c1a0c0d3a16b96652846c5a3e966">CMD_GESTUREFB_COME</a> = 1105
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0340c1a0c0d3a16b96652846c5a3e966">CMD_GESTUREFB_COME</a> = 1105
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2a6ab0d4bbc8fac0ae3db238e914c123">CMD_GESTUREFB_TAUNTKISS</a> = 1106
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82271b957ea87bba739ae74126b0f908">CMD_GESTUREFB_TAUNTTHINK</a> = 1108
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82271b957ea87bba739ae74126b0f908">CMD_GESTUREFB_TAUNTTHINK</a> = 1108
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aba9be0fc0b2adb894e1e6f13db7607a3">CMD_GESTUREFB_DANCE</a> = 1109
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab65fbb919a0fdc560f72050f2607989a">CMD_GESTUREFB_NODHEAD</a> = 1110
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab65fbb919a0fdc560f72050f2607989a">CMD_GESTUREFB_NODHEAD</a> = 1110
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a24f1ac2bdebd15bba59b6f213ed48b7e">CMD_GESTUREFB_SHAKEHEAD</a> = 1111
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a41ea314c92ce140f9f008d92af2cb8c6">CMD_GESTUREFB_SHRUG</a> = 1112
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a41ea314c92ce140f9f008d92af2cb8c6">CMD_GESTUREFB_SHRUG</a> = 1112
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af9daba96ae792ce0c22b9f43f4f028f4">CMD_GESTUREFB_SURRENDER</a> = 1113
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adb597d4daa13cc1312b7c115212f0a90">CMD_GESTUREFB_SURRENDERIN</a> = 1113
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adb597d4daa13cc1312b7c115212f0a90">CMD_GESTUREFB_SURRENDERIN</a> = 1113
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a56ae75fc2be25848f68fa11d002f25d2">CMD_GESTUREFB_SURRENDEROUT</a> = 1114
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a15c69c05d8c3f352be0336ce2f818e8c">CMD_TRAILER_WAKE_UP</a> = 3000
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a15c69c05d8c3f352be0336ce2f818e8c">CMD_TRAILER_WAKE_UP</a> = 3000
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac7a0f2d06a2cb190af3631871aaccab6">CMD_TRAILER_DEAD_BODY</a> = 3001
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa3f11d5bca2420066d447541b1421687">CMD_TRAILER_WALKIE_TALKIE</a> = 3002
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa3f11d5bca2420066d447541b1421687">CMD_TRAILER_WALKIE_TALKIE</a> = 3002
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a96d04e79580f7d37215de1dfabc166fd">CMD_TRAILER_WOUNDED</a> = 3003
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a88c09d898f96e6e2ed3d4cc145215754">CMD_TRAILER_WALK_AWAY</a> = 3004
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a88c09d898f96e6e2ed3d4cc145215754">CMD_TRAILER_WALK_AWAY</a> = 3004
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acec32431b14e5f7e187d7f9245d07414">CMD_TRAILER_DEAD</a> = 3005
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a75c8eb8f0291a120a19c3cda60b8b8a7">CMD_SUICIDEFB_1HD</a> = 2000
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a75c8eb8f0291a120a19c3cda60b8b8a7">CMD_SUICIDEFB_1HD</a> = 2000
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8b2f270e9ecb4d322c09b7b3295ff6fa">CMD_SUICIDEFB_FIREAXE</a> = 2001
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a57e2d7ad067bfa5750daf28353120f7a">CMD_SUICIDEFB_PITCHFORK</a> = 2002
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a57e2d7ad067bfa5750daf28353120f7a">CMD_SUICIDEFB_PITCHFORK</a> = 2002
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0f3d4e8c6deda936bc2f90e4b70d3bdf">CMD_SUICIDEFB_PISTOL</a> = 2003
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa9acf552351dca7ce7ecf24cef0b0bd7">CMD_SUICIDEFB_RIFLE</a> = 2004
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa9acf552351dca7ce7ecf24cef0b0bd7">CMD_SUICIDEFB_RIFLE</a> = 2004
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abec92b06ce1e909425253bc5427f7e5d">CMD_SUICIDEFB_SWORD</a> = 2005
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3e7c96a6928a3082feb33df1778fb33b">CMD_SUICIDEFB_UNARMED</a> = 2006
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a809d2e5efe01c7a24bef57cdeaab1a48">CMD_SUICIDEFB_WOODAXE</a> = 2007
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a80611ae3a3f4f1d29cddf86d0eb4c4d3">CMD_SUICIDEFB_SPEAR</a> = 2008
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3e7c96a6928a3082feb33df1778fb33b">CMD_SUICIDEFB_UNARMED</a> = 2006
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a809d2e5efe01c7a24bef57cdeaab1a48">CMD_SUICIDEFB_WOODAXE</a> = 2007
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a80611ae3a3f4f1d29cddf86d0eb4c4d3">CMD_SUICIDEFB_SPEAR</a> = 2008
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a978d362389d0036062a699414831424c">CMD_SUICIDEFB_SICKLE</a> = 2009
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad350fc34776c98430359011db3a8f5a6">CMD_SUICIDEFB_HOE</a> = 2010
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad350fc34776c98430359011db3a8f5a6">CMD_SUICIDEFB_HOE</a> = 2010
 <br />
  }</td></tr>
 <tr class="memdesc:a6fd289b7043f1412362529ab769d7881"><td class="mdescLeft">&#160;</td><td class="mdescRight">defined in C++  <a href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881">More...</a><br /></td></tr>
@@ -548,9 +549,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a559db3d85b0934b3933b408c9ba993f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a559db3d85b0934b3933b408c9ba993f3">CanFreeLook</a> ()</td></tr>
 <tr class="memdesc:a559db3d85b0934b3933b408c9ba993f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">this overrides freelook for cameras  <br /></td></tr>
 <tr class="separator:a559db3d85b0934b3933b408c9ba993f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2978a6cc562087b9198138955ef368f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#af2978a6cc562087b9198138955ef368f">OnActivate</a> (<a class="el" href="../../d3/d58/dayzplayer_8c.html#aec7df242d6c8a470331cdb4d38bb4ab4">DayZPlayerCamera</a> pPrevCamera, <a class="el" href="../../d2/d66/class_day_z_player_camera_result.html">DayZPlayerCameraResult</a> pPrevCameraResult)</td></tr>
-<tr class="memdesc:af2978a6cc562087b9198138955ef368f"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual callback - called when camera is created  <br /></td></tr>
-<tr class="separator:af2978a6cc562087b9198138955ef368f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07555527db4ba7d2ca221e38e48d8c9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a07555527db4ba7d2ca221e38e48d8c9d">OnActivate</a> (<a class="el" href="../../d3/d58/dayzplayer_8c.html#aec7df242d6c8a470331cdb4d38bb4ab4">DayZPlayerCamera</a> pPrevCamera, <a class="el" href="../../d2/d66/class_day_z_player_camera_result.html">DayZPlayerCameraResult</a> pPrevCameraResult)</td></tr>
+<tr class="memdesc:a07555527db4ba7d2ca221e38e48d8c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual callback - called when camera is created  <br /></td></tr>
+<tr class="separator:a07555527db4ba7d2ca221e38e48d8c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ce173bffe5efbb8e2e1af06a594805"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, out <a class="el" href="../../d2/d66/class_day_z_player_camera_result.html">DayZPlayerCameraResult</a> pOutResult)</td></tr>
 <tr class="memdesc:a33ce173bffe5efbb8e2e1af06a594805"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual callback - called each frame  <br /></td></tr>
 <tr class="separator:a33ce173bffe5efbb8e2e1af06a594805"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -954,8 +955,6 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>this file is interface <a class="el" href="../../db/d2e/class_day_z_player.html">DayZPlayer</a> classes </p>
-
-<p class="definition">Definition in file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a6fd289b7043f1412362529ab769d7881" name="a6fd289b7043f1412362529ab769d7881"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fd289b7043f1412362529ab769d7881">&#9670;&#160;</a></span>DayZPlayerConstants</h2>
@@ -1149,6 +1148,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a2d85cbbad06e2325704cbd5cc5b9d4a6" name="a6fd289b7043f1412362529ab769d7881a2d85cbbad06e2325704cbd5cc5b9d4a6"></a>CMD_ACTIONMOD_STOP_ALARM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4" name="a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4"></a>CMD_ACTIONMOD_EAT_PILL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a180ab943f9aeceb589d3b5db0dbf6525" name="a6fd289b7043f1412362529ab769d7881a180ab943f9aeceb589d3b5db0dbf6525"></a>CMD_ACTIONMOD_EAT_TABLET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ade0adfbe261b0a89154e6e852b8f469e" name="a6fd289b7043f1412362529ab769d7881ade0adfbe261b0a89154e6e852b8f469e"></a>CMD_ACTIONMOD_HEATPACK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4" name="a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4"></a>CMD_ACTIONMOD_DROPITEM_HANDS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef" name="a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef"></a>CMD_ACTIONMOD_DROPITEM_INVENTORY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66" name="a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66"></a>CMD_ACTIONFB_DRINK&#160;</td><td class="fielddoc"><hr  />
@@ -1244,6 +1244,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a173698d6a7e31caae176d60a813b640f" name="a6fd289b7043f1412362529ab769d7881a173698d6a7e31caae176d60a813b640f"></a>CMD_ACTIONFB_STOP_ALARM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ae178aae214557b400ffc69933916a20a" name="a6fd289b7043f1412362529ab769d7881ae178aae214557b400ffc69933916a20a"></a>CMD_ACTIONFB_EAT_PILL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a27c19ef0efa8f9512df5c6cff55e9c09" name="a6fd289b7043f1412362529ab769d7881a27c19ef0efa8f9512df5c6cff55e9c09"></a>CMD_ACTIONFB_EAT_TABLET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c" name="a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c"></a>CMD_ACTIONFB_HEATPACK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a6fab283212cde9f3a7076d0cbe55663d" name="a6fd289b7043f1412362529ab769d7881a6fab283212cde9f3a7076d0cbe55663d"></a>CMD_ACTIONFB_DROPITEM_HANDS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44" name="a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44"></a>CMD_ACTIONMOD_STARTENGINE&#160;</td><td class="fielddoc"><hr  />
  <h2><a class="anchor" id="autotoc_md4"></a>
@@ -1358,8 +1359,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ad350fc34776c98430359011db3a8f5a6" name="a6fd289b7043f1412362529ab769d7881ad350fc34776c98430359011db3a8f5a6"></a>CMD_SUICIDEFB_HOE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00601">601</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a6bf3172c861dd775de5c544fed868499" name="a6bf3172c861dd775de5c544fed868499"></a>
@@ -1388,8 +1387,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6bf3172c861dd775de5c544fed868499a5d10095a012090cdb06f34eddc58bf01" name="a6bf3172c861dd775de5c544fed868499a5d10095a012090cdb06f34eddc58bf01"></a>INSTANCETYPE_AI_SINGLEPLAYER&#160;</td><td class="fielddoc"><p>temporary! </p>
 </td></tr>
 </table>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01033">1033</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -1697,8 +1694,6 @@ Variables</h2></td></tr>
 
 <p>this overrides freelook for cameras </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00063">63</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="aca28ff09261c351cf1a99874187c3fed" name="aca28ff09261c351cf1a99874187c3fed"></a>
@@ -1818,9 +1813,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00001">1</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00342">OnActivate()</a>, and <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l02896">CGame::OnRPC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a07555527db4ba7d2ca221e38e48d8c9d">OnActivate()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#aa9a0604c3c6c4896ff72498ca55e47a9">CGame::OnRPC()</a>.</p>
 
 </div>
 </div>
@@ -1841,8 +1834,6 @@ Variables</h2></td></tr>
 
 <p>cannot be instanced from script (always created from C++) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00083">83</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="ac59bf98466d4f3f38592427bbab714bd" name="ac59bf98466d4f3f38592427bbab714bd"></a>
@@ -1860,11 +1851,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">512</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a75d7459010bf214e7250d8f41e3855ea">LoadSoundWeaponEvent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#afe574c1e09a1b2c92fd2a3f829811b9b">LoadVegetationSounds()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a71440a29fe572399bfa7c11b692a1f92">m_pNoiseLandHeavy</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#ada83ca1651f22abcd6d295d90298220b">m_pNoiseLandLight</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a2ab426ccf7e34000e631fffd64c5586e">m_pNoiseShout</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac63cc3f3ba97e67b47eeaea7e38eb1f0">m_pNoiseStepCrouch</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a78865d9531c473b6eb394fe1e69d74d4">m_pNoiseStepProne</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a441d1d49649cc4a491d0658b75347fda">m_pNoiseStepStand</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#ab400e3677c44c623576708363549f93d">m_pNoiseTalk</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#adc7a89ec0046c929f2f667b8b5e116d7">m_pNoiseWhisper</a>, and <a class="el" href="../../d9/d27/_noise_8c.html#aceda78b4f4625e1c9901f7bf4a7f5cf0">NoiseParams()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00406">LoadSoundWeaponEvent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00424">LoadVegetationSounds()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00577">m_pNoiseLandHeavy</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00576">m_pNoiseLandLight</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00582">m_pNoiseShout</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00574">m_pNoiseStepCrouch</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00575">m_pNoiseStepProne</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00573">m_pNoiseStepStand</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00581">m_pNoiseTalk</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00580">m_pNoiseWhisper</a>, and <a class="el" href="../../d9/d27/_noise_8c_source.html#l00015">NoiseParams()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02900">DayZPlayer::OnStepEvent()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03110">DayZPlayer::ProcessAttachmentEvent()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03174">DayZPlayer::ProcessSoundEvent()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03213">DayZPlayer::ProcessVoiceEvent()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03056">DayZPlayer::ProcessWeaponEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#ad482dbbe14284552629859fd89bad353">DayZPlayer::OnStepEvent()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a098a48cb263c0a628002cf8b83d38e05">DayZPlayer::ProcessAttachmentEvent()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#ab0d50f54b161bf1a836fed289f7a7a2e">DayZPlayer::ProcessSoundEvent()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a810ad2c7a9d09977ce9f2e102b5c7141">DayZPlayer::ProcessVoiceEvent()</a>, and <a class="el" href="../../db/d2e/class_day_z_player.html#ac0762e027d5622d7a33a9864c6b1ff14">DayZPlayer::ProcessWeaponEvent()</a>.</p>
 
 </div>
 </div>
@@ -1926,11 +1915,9 @@ Variables</h2></td></tr>
 
 <p>-------------&mdash; Forces player to stand up when swapping to heavy item ----------------------&mdash; </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01270">1270</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/db0/class_human_command_move.html#a91c6bd84a85f9a092dda41d341df16c6">HumanCommandMove::ForceStance()</a>, <a class="el" href="../../d4/d9e/human_8c.html#a3e7a4df882911200e4564b1c71ba785a">GetCommand_Move()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#ae4e18f69b45fc7198283513dc8d8fd55">IsPlayerInStance()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/db0/class_human_command_move.html#a91c6bd84a85f9a092dda41d341df16c6">HumanCommandMove::ForceStance()</a>, <a class="el" href="../../d4/d9e/human_8c.html#a3e7a4df882911200e4564b1c71ba785a">GetCommand_Move()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01232">IsPlayerInStance()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01283">ForceStandUpForHeavyItemsSwap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a587c56e7b61da6b83021f08c23059f5e">ForceStandUpForHeavyItemsSwap()</a>.</p>
 
 </div>
 </div>
@@ -1960,11 +1947,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01283">1283</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a53e27faaf86e9a3f182dd548685ff1b8">ForceStandUpForHeavyItems()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01270">ForceStandUpForHeavyItems()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08287">ManBase::PredictiveForceSwapEntities()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08228">ManBase::PredictiveSwapEntities()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a409021449204ed53dc7d04ebe78a7eab">ManBase::PredictiveForceSwapEntities()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#ac8183f1773a44b6d6a50d50b23334855">ManBase::PredictiveSwapEntities()</a>.</p>
 
 </div>
 </div>
@@ -1983,8 +1968,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00087">87</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a54df9d183ca4b5e15d7e01c783c60420" name="a54df9d183ca4b5e15d7e01c783c60420"></a>
@@ -2001,8 +1984,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00014">14</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -2021,9 +2002,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00324">324</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00569">m_pAttachmentSoundLookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a8dbf2e5eaf3605808b3d6e73b5f41f34">m_pAttachmentSoundLookupTable</a>.</p>
 
 </div>
 </div>
@@ -2043,8 +2022,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>helper to blend between cameras ret[0] - up down angle ret[1] - left right angle ret[2] - roll angle </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00082">82</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="ac7eadb1aa86a34f0acc421e0c9f1f69f" name="ac7eadb1aa86a34f0acc421e0c9f1f69f"></a>
@@ -2061,8 +2038,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00092">92</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -2137,11 +2112,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00112">112</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a9952e9c12e05c4ea20d4abfb6e13d4bf">GetCurrentPitch()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a0f03bc76f753be548ebf8c01d05d3574">GetCurrentRoll()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a19df17e3cb23e131d5484d95e1c5a266">GetCurrentYaw()</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00102">GetCurrentPitch()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00107">GetCurrentRoll()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00097">GetCurrentYaw()</a>, and <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00043">DayZPlayerCameraBase::OnUpdate()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00072">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a33ce173bffe5efbb8e2e1af06a594805">DayZPlayerCameraBase::OnUpdate()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -2179,9 +2152,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00102">102</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00112">GetCurrentOrientation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#af024aaffc0601951b70fbba9d32d20ad">GetCurrentOrientation()</a>.</p>
 
 </div>
 </div>
@@ -2200,9 +2171,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00107">107</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00112">GetCurrentOrientation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#af024aaffc0601951b70fbba9d32d20ad">GetCurrentOrientation()</a>.</p>
 
 </div>
 </div>
@@ -2221,6 +2190,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#abc3e7fdd75465860847edd6c0beec869">ManBase::CanChangeStance()</a>.</p>
+
 </div>
 </div>
 <a id="a19df17e3cb23e131d5484d95e1c5a266" name="a19df17e3cb23e131d5484d95e1c5a266"></a>
@@ -2238,9 +2209,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00097">97</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00112">GetCurrentOrientation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#af024aaffc0601951b70fbba9d32d20ad">GetCurrentOrientation()</a>.</p>
 
 </div>
 </div>
@@ -2261,7 +2230,7 @@ Variables</h2></td></tr>
 
 <p>returns appropriate DayZPlayerType </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00972">ManBase::GetDefaultHitComponent()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00966">ManBase::GetHitComponentForAI()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03376">DayZPlayer::GetSlidePoseAngle()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00983">ManBase::GetSuitableFinisherHitComponents()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01696">DayZPlayer::HandleView()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00285">ManBase::Init()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02900">DayZPlayer::OnStepEvent()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03365">DayZPlayer::OverrideSlidePoseAngle()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03110">DayZPlayer::ProcessAttachmentEvent()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03174">DayZPlayer::ProcessSoundEvent()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03213">DayZPlayer::ProcessVoiceEvent()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03056">DayZPlayer::ProcessWeaponEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#abc3e7fdd75465860847edd6c0beec869">ManBase::CanChangeStance()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a66f65af37751f094e75efd1a7bd9ef07">ManBase::GetDefaultHitComponent()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a383b6a07ecf14bd76a8a08320da2a76e">ManBase::GetHitComponentForAI()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a1c1ecc659a6d3d73b67a50c80593c677">DayZPlayer::GetSlidePoseAngle()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a191174835004f03ba8bbfb6688bbd992">ManBase::GetSuitableFinisherHitComponents()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a356acc9e5492c1fca4c437668912b743">DayZPlayer::HandleView()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a1e3b6d38df0786ccf7f938d60e386aae">ManBase::Init()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#ad482dbbe14284552629859fd89bad353">DayZPlayer::OnStepEvent()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a07cd4d756d0ff945a2eb8fd90c336d75">DayZPlayer::OverrideSlidePoseAngle()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a098a48cb263c0a628002cf8b83d38e05">DayZPlayer::ProcessAttachmentEvent()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#ab0d50f54b161bf1a836fed289f7a7a2e">DayZPlayer::ProcessSoundEvent()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a810ad2c7a9d09977ce9f2e102b5c7141">DayZPlayer::ProcessVoiceEvent()</a>, and <a class="el" href="../../db/d2e/class_day_z_player.html#ac0762e027d5622d7a33a9864c6b1ff14">DayZPlayer::ProcessWeaponEvent()</a>.</p>
 
 </div>
 </div>
@@ -2280,11 +2249,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00497">497</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a63b07faaf1e23e09aa93602a6b2c0a67">m_DefaultHitComponent</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00588">m_DefaultHitComponent</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00485">GetHitComponentForAI()</a>, and <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00768">DayZCreatureAI::GetHitComponentForAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ad3886127506f6e8f27b1a17fb1d1eec8">GetHitComponentForAI()</a>, and <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a383b6a07ecf14bd76a8a08320da2a76e">DayZCreatureAI::GetHitComponentForAI()</a>.</p>
 
 </div>
 </div>
@@ -2303,11 +2270,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00502">502</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a453dfc47b8cac672c5fa19d41e093812">m_DefaultHitPositionComponent</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00589">m_DefaultHitPositionComponent</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00461">DayZCreatureAI::DayZAnimal()</a>, <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00047">DayZInfected::Init()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l00285">ManBase::Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a92da661af2fc9e83114c32123b850f6b">DayZCreatureAI::DayZAnimal()</a>, <a class="el" href="../../dd/dca/class_day_z_infected.html#a1e3b6d38df0786ccf7f938d60e386aae">DayZInfected::Init()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#a1e3b6d38df0786ccf7f938d60e386aae">ManBase::Init()</a>.</p>
 
 </div>
 </div>
@@ -2328,7 +2293,7 @@ Variables</h2></td></tr>
 
 <p>returns eye zoom level, uses ECameraZoomType values </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00206">DayZPlayer::IsEyeZoom()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a00cc8efd9fbf31397896fd3c1205f4f3">DayZPlayer::IsEyeZoom()</a>.</p>
 
 </div>
 </div>
@@ -2385,9 +2350,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00485">485</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00497">GetDefaultHitComponent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00587">m_HitComponentsForAI</a>, and <a class="el" href="../../d6/d58/_day_z_a_i_hit_components_8c_source.html#l00040">DayZAIHitComponentHelpers::SelectMostProbableHitComponent()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a54b962072711d6cb9583db7c164d0af5">GetDefaultHitComponent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a4cf6d464f2dcc2ba86c93778d297a683">m_HitComponentsForAI</a>, and <a class="el" href="../../dd/d6d/class_day_z_a_i_hit_component_helpers.html#a9eae1392932bb6ea36aa7b4ca14d797f">DayZAIHitComponentHelpers::SelectMostProbableHitComponent()</a>.</p>
 
 </div>
 </div>
@@ -2406,7 +2369,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l05714">ManBase::CheckForBurlap()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07930">ManBase::CheckLiftWeapon()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06292">ManBase::ClearInventory()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03877">ManBase::EOnFrame()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03896">ManBase::EOnPostFrame()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01716">ManBase::GetCraftingRecipeID()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07969">ManBase::HideClothing()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l06231">ManBase::Message()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04620">ManBase::NeedInventoryJunctureFromServer()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02556">ManBase::OnCommandHandlerTick()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04348">ManBase::OnQuickBarContinuousUseEnd()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04313">ManBase::OnQuickBarContinuousUseStart()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04205">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l05054">ManBase::OnRPC()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l05591">ManBase::OnSelectPlayer()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l03017">DayZPlayer::OnSoundEvent()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04549">ManBase::OnSpawnedFromConsole()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02656">DayZPlayer::OnSprintEnd()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l02647">DayZPlayer::OnSprintStart()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03155">ManBase::OnUnconsciousStart()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03199">ManBase::OnUnconsciousStop()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01439">ManBase::ProcessHandDamage()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l04418">ManBase::ReloadWeapon()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02219">ManBase::RequestResetADSSync()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07087">ManBase::RequestSoundEventEx()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01728">ManBase::SetCraftingRecipeID()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l08367">ManBase::SetHairLevelToHide()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l05942">ManBase::SpawnEntityOnGroundPos()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01429">StoreInputForRemotes()</a>, <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02254">ManBase::TogglePlacingLocal()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00478">DayZPlayer::TriggerPullPlayerOutOfVehicleImpl()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00828">ValidateHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01018">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l00662">ValidateSyncMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a011a42999649907ec00e68361b2d3ab6">ManBase::CheckForBurlap()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abb7e1126d073cdb7e7f81e0ec3cfc2df">ManBase::CheckLiftWeapon()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#af518addd8ca6ecba428ecee6b06506a9">ManBase::EOnFrame()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a2c1dc59876423c59a463cf7e95d85d8b">ManBase::EOnPostFrame()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a889c22e67908876c0f87eb7e58a1fa8a">ManBase::GetCraftingRecipeID()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a30605c628302b32a52f9b67b49111790">ManBase::HideClothing()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a50fbe85478fb553a0344241e0ce75fec">ManBase::Message()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abecc6d5b2ebaba1fd71e4625fd94f863">ManBase::NeedInventoryJunctureFromServer()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a8b2630988be0f5b201410595eebc931c">ManBase::OnCommandHandlerTick()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a581f115736bd14818068d16470c0005f">ManBase::OnQuickBarContinuousUseEnd()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a53615b8d1d611d1d464a91b7205ab048">ManBase::OnQuickBarContinuousUseStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a9880d74a6b7fc9a37f0b8b551cd378a5">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a23f886d53b513cd9424769403fbf6866">ManBase::OnRPC()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abce169bce9d7217c9def172013cf981a">ManBase::OnSelectPlayer()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a7e4f286146752cfcf0f3f9ad425bc466">DayZPlayer::OnSoundEvent()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a3639d092ab04ebd6b39be7743336f57c">ManBase::OnSpawnedFromConsole()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a8c0fb93cbb0e3230d5da086fb8fee4ae">DayZPlayer::OnSprintEnd()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a7453b6cae42252c17f31e82774fba45e">DayZPlayer::OnSprintStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a7042fe353836b02710cebbfad9464a7f">ManBase::OnUnconsciousStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#af485ba9caca9a432b56274e1e99a8bee">ManBase::OnUnconsciousStop()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a8cbb96c6ea998779df60d2eb02223d84">ManBase::ProcessHandDamage()</a>, <a class="el" href="../../d4/d87/class_man_base.html#ae9383b1e70f9ade6ee4b2a2869ed787b">ManBase::ReloadWeapon()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a72cf1e6ca4dea34dce61b6291ff73bbc">ManBase::RequestResetADSSync()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a7cc38af2306af012dc651ae13029bbd7">ManBase::RequestSoundEventEx()</a>, <a class="el" href="../../d4/d87/class_man_base.html#ac58dc0daf03e4b1f75b5b51e92ed5011">ManBase::SetCraftingRecipeID()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a0a9ef8a1a54b5bd1335f52b4f6bca022">ManBase::SetHairLevelToHide()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a52831c5fa8fa94d26786cf444b23cb25">ManBase::SpawnEntityOnGroundPos()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#af332dfd5599ad6ff00ff71e110c41054">StoreInputForRemotes()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a2418edc59b76254d4356e59089e08329">ManBase::TogglePlacingLocal()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a20cae8d29ef6e69e0e8a19c35f38a6ec">DayZPlayer::TriggerPullPlayerOutOfVehicleImpl()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a12b88205e7422d09884016e9cbd0e7e3">ValidateHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#ac7881512061aab4a17eefe7bc5531257">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a10df1fd150c7c0fcdd437c246cddcd01">ValidateSyncMove()</a>.</p>
 
 </div>
 </div>
@@ -2464,8 +2427,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d66/_day_z_player_cfg_sounds_8c_source.html#l00306">306</a> of file <a class="el" href="../../df/d66/_day_z_player_cfg_sounds_8c_source.html">DayZPlayerCfgSounds.c</a>.</p>
-
 </div>
 </div>
 <a id="ae81a74157559788375dd3fe1a7122a1e" name="ae81a74157559788375dd3fe1a7122a1e"></a>
@@ -2483,9 +2444,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00371">371</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00574">m_pNoiseStepCrouch</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac63cc3f3ba97e67b47eeaea7e38eb1f0">m_pNoiseStepCrouch</a>.</p>
 
 </div>
 </div>
@@ -2504,9 +2463,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00386">386</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00577">m_pNoiseLandHeavy</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a71440a29fe572399bfa7c11b692a1f92">m_pNoiseLandHeavy</a>.</p>
 
 </div>
 </div>
@@ -2525,9 +2482,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00381">381</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00576">m_pNoiseLandLight</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#ada83ca1651f22abcd6d295d90298220b">m_pNoiseLandLight</a>.</p>
 
 </div>
 </div>
@@ -2546,9 +2501,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00376">376</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00575">m_pNoiseStepProne</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a78865d9531c473b6eb394fe1e69d74d4">m_pNoiseStepProne</a>.</p>
 
 </div>
 </div>
@@ -2567,9 +2520,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00401">401</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00582">m_pNoiseShout</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a2ab426ccf7e34000e631fffd64c5586e">m_pNoiseShout</a>.</p>
 
 </div>
 </div>
@@ -2588,9 +2539,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00366">366</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00573">m_pNoiseStepStand</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a441d1d49649cc4a491d0658b75347fda">m_pNoiseStepStand</a>.</p>
 
 </div>
 </div>
@@ -2609,9 +2558,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00396">396</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00581">m_pNoiseTalk</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#ab400e3677c44c623576708363549f93d">m_pNoiseTalk</a>.</p>
 
 </div>
 </div>
@@ -2630,9 +2577,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00391">391</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00580">m_pNoiseWhisper</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#adc7a89ec0046c929f2f667b8b5e116d7">m_pNoiseWhisper</a>.</p>
 
 </div>
 </div>
@@ -2661,8 +2606,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00139">139</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -2704,8 +2647,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00160">160</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a1a00ff4c3559b2b0f203e1ef71ff9e21" name="a1a00ff4c3559b2b0f203e1ef71ff9e21"></a>
@@ -2740,8 +2681,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00181">181</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="acb6cc4bb70980229ecae098bb6075970" name="acb6cc4bb70980229ecae098bb6075970"></a>
@@ -2760,8 +2699,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00164">164</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a09414f8d8f7a8e0c58e5eb8849e00141" name="a09414f8d8f7a8e0c58e5eb8849e00141"></a>
@@ -2778,8 +2715,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00009">9</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -2798,9 +2733,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00344">344</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00571">m_pSoundTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a89243d827ec1a3df420674b29e84a930">m_pSoundTable</a>.</p>
 
 </div>
 </div>
@@ -2820,9 +2753,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00451">451</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00593">m_animSoundEventsAttack</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#af047d697cba3731ec3257c90caeff2fb">m_animSoundEventsAttack</a>.</p>
 
 </div>
 </div>
@@ -2841,9 +2772,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00314">314</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00568">m_pStepSoundLookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a42676bfec84074659efdc0efd03b0ce0">m_pStepSoundLookupTable</a>.</p>
 
 </div>
 </div>
@@ -2862,9 +2791,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00507">507</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00591">m_SuitableFinisherHitComponents</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a4465edad6b18d09eeb11af413680004b">m_SuitableFinisherHitComponents</a>.</p>
 
 </div>
 </div>
@@ -2883,9 +2810,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00361">361</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00584">m_pVegetationSounds</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a3f7c99daef0f4426132113ad35541817">m_pVegetationSounds</a>.</p>
 
 </div>
 </div>
@@ -2904,9 +2829,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00334">334</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00570">m_pVoiceSoundLookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a841f573c77808b2dc45f5f2cb6368a56">m_pVoiceSoundLookupTable</a>.</p>
 
 </div>
 </div>
@@ -2954,8 +2877,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00117">117</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -3071,11 +2992,9 @@ Variables</h2></td></tr>
 <p>-------------&mdash; camera additiona functions ----------------------&mdash; </p>
 <p>returns true if player is currently in one of the stances specified by stance mask IsPlayerInStance(STANCEMASK_ERECT | STANCEMASK_CROUCH) returns true if player is standing or crouching and not raised (aimed) IsPlayerInStance(STANCEMASK_PRONE | STANCEIDX_RAISEDPRONE) returns true if player is in or in prone (both raised or nonraised) IsPlayerInStance(STANCEMASK_ALL) returns true always IsPlayerInStance(STANCEMASK_RAISEDERECT | STANCEMASK_RAISEDCROUCH | STANCEMASK_RAISEDPRONE) returns true if player has raised hands </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01232">1232</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#a08aa91f58be3514543cfb8580475c316">GetMovementState()</a>, and <a class="el" href="../../d2/d1b/class_human_movement_state.html#a0646359a1660fc604cf395394bbc8df3">HumanMovementState::m_iStanceIdx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9e/human_8c.html#a08aa91f58be3514543cfb8580475c316">GetMovementState()</a>, and <a class="el" href="../../d4/d9e/human_8c_source.html#l01117">HumanMovementState::m_iStanceIdx</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03810">ManBase::CanRoll()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01270">ForceStandUpForHeavyItems()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01696">DayZPlayer::HandleView()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l03796">ManBase::OnCommandMoveStart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a3e78ac36e847e7835aea63d6f36bea3f">ManBase::CanRoll()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a53e27faaf86e9a3f182dd548685ff1b8">ForceStandUpForHeavyItems()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a356acc9e5492c1fca4c437668912b743">DayZPlayer::HandleView()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#ad07dbfc649701ced9702cfe4fa379937">ManBase::OnCommandMoveStart()</a>.</p>
 
 </div>
 </div>
@@ -3097,7 +3016,7 @@ Variables</h2></td></tr>
 <p>-------------&mdash; speaking anim ----------------------&mdash; </p>
 <p>Check if player is using VoN to speak and return max amplitude from current samples </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -3135,11 +3054,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00406">406</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#af047d697cba3731ec3257c90caeff2fb">m_animSoundEventsAttack</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00593">m_animSoundEventsAttack</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>.</p>
 
 </div>
 </div>
@@ -3158,22 +3075,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00424">424</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a4e7e694c9e4693ad02cdaaa3b82f77c8">CGame::ConfigGetIntArray()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/d6b/class_sound_params.html#a12ac56eacd52df3fe1c19a18046c7c99">SoundParams::IsValid()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a3f7c99daef0f4426132113ad35541817">m_pVegetationSounds</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#ab6c4c2ce3d3663185ca650b2a378ceb9">CGame::ConfigGetChildName()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2ad1af8d533330097cc3ecf36017c386">CGame::ConfigGetChildrenCount()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a4e7e694c9e4693ad02cdaaa3b82f77c8">CGame::ConfigGetIntArray()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ffe1614b5936229aa803eee3d4d99d7">CGame::ConfigGetText()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/d6b/class_sound_params.html#a12ac56eacd52df3fe1c19a18046c7c99">SoundParams::IsValid()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00584">m_pVegetationSounds</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>.</p>
 
 </div>
 </div>
-<a id="af2978a6cc562087b9198138955ef368f" name="af2978a6cc562087b9198138955ef368f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2978a6cc562087b9198138955ef368f">&#9670;&#160;</a></span>OnActivate()</h2>
+<a id="a07555527db4ba7d2ca221e38e48d8c9d" name="a07555527db4ba7d2ca221e38e48d8c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07555527db4ba7d2ca221e38e48d8c9d">&#9670;&#160;</a></span>OnActivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OnActivate </td>
+          <td class="memname">override void OnActivate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d3/d58/dayzplayer_8c.html#aec7df242d6c8a470331cdb4d38bb4ab4">DayZPlayerCamera</a>&#160;</td>
           <td class="paramname"><em>pPrevCamera</em>, </td>
@@ -3194,8 +3109,6 @@ Variables</h2></td></tr>
 
 <p>virtual callback - called when camera is created </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00069">69</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a7aa92e9b1a11970dbd28b74a754692c7" name="a7aa92e9b1a11970dbd28b74a754692c7"></a>
@@ -3213,8 +3126,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01241">1241</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -3234,8 +3145,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01242">1242</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="ace4fc458646efaf70730bfe309efc94c" name="ace4fc458646efaf70730bfe309efc94c"></a>
@@ -3253,8 +3162,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01289">1289</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -3287,8 +3194,6 @@ Variables</h2></td></tr>
 <p>virtual callback - called each frame </p>
 <p>basically -&gt; transform up vector (0,1,0) and read x coord -&gt; and set is as roll</p>
 <p>prev update</p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00074">74</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -3471,9 +3376,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00319">319</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00569">m_pAttachmentSoundLookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a8dbf2e5eaf3605808b3d6e73b5f41f34">m_pAttachmentSoundLookupTable</a>.</p>
 
 </div>
 </div>
@@ -3588,9 +3491,7 @@ Variables</h2></td></tr>
 <p>list of components suitable for melee finisher attacks (used in fight logic)</p>
 <p>register hit components that are selected by probability</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00463">463</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00588">m_DefaultHitComponent</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00589">m_DefaultHitPositionComponent</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00587">m_HitComponentsForAI</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00591">m_SuitableFinisherHitComponents</a>, and <a class="el" href="../../d6/d58/_day_z_a_i_hit_components_8c_source.html#l00021">DayZAIHitComponentHelpers::RegisterHitComponent()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a63b07faaf1e23e09aa93602a6b2c0a67">m_DefaultHitComponent</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a453dfc47b8cac672c5fa19d41e093812">m_DefaultHitPositionComponent</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a4cf6d464f2dcc2ba86c93778d297a683">m_HitComponentsForAI</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a4465edad6b18d09eeb11af413680004b">m_SuitableFinisherHitComponents</a>, and <a class="el" href="../../dd/d6d/class_day_z_a_i_hit_component_helpers.html#a11a36a7e77cb9e7a94d71c76fff7de2d">DayZAIHitComponentHelpers::RegisterHitComponent()</a>.</p>
 
 </div>
 </div>
@@ -3670,9 +3571,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00339">339</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00571">m_pSoundTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a89243d827ec1a3df420674b29e84a930">m_pSoundTable</a>.</p>
 
 </div>
 </div>
@@ -3723,9 +3622,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00309">309</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00568">m_pStepSoundLookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a42676bfec84074659efdc0efd03b0ce0">m_pStepSoundLookupTable</a>.</p>
 
 </div>
 </div>
@@ -3745,9 +3642,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00329">329</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00570">m_pVoiceSoundLookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a841f573c77808b2dc45f5f2cb6368a56">m_pVoiceSoundLookupTable</a>.</p>
 
 </div>
 </div>
@@ -3827,8 +3722,6 @@ Variables</h2></td></tr>
 <p>cannot be created from script <br  />
  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01055">1055</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a7fa8ac2e6831ab58e08840336f14fab8" name="a7fa8ac2e6831ab58e08840336f14fab8"></a>
@@ -3848,8 +3741,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>m_fCamPosOffsetZ info, used to adjust near plane in DayZPlayerCameraIronsights now </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00139">139</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -3881,7 +3772,7 @@ Variables</h2></td></tr>
 
 <p>-------------&mdash; sync stuff ----------------------&mdash; </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l07872">ManBase::ReadLiftWeaponRequest()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02237">ManBase::ResetADSPlayerSync()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a49488e0449fabe07ad5616bde00c588e">ManBase::ReadLiftWeaponRequest()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#a3787cd77a88b86b11db175ac282028c1">ManBase::ResetADSPlayerSync()</a>.</p>
 
 </div>
 </div>
@@ -4111,9 +4002,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00127">127</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00317">SpawnCameraShakeProper()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a40f1d3d9a12d5f035d31616b2d5db80b">SpawnCameraShakeProper()</a>.</p>
 
 </div>
 </div>
@@ -4155,11 +4044,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00317">317</a> of file <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html">DayZPlayerCamera_Base.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a4e0de8dae61266b98b57bde75a87a72d">m_CameraShake</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00075">m_CameraShake</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00127">SpawnCameraShake()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00122">SpawnDiagCameraShake()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a689d87ae13ffb41da3b63ec2f1677d87">SpawnCameraShake()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a2a2410ae3f146b0fde496cd7dc5146f7">SpawnDiagCameraShake()</a>.</p>
 
 </div>
 </div>
@@ -4178,9 +4065,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00122">122</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00317">SpawnCameraShakeProper()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a40f1d3d9a12d5f035d31616b2d5db80b">SpawnCameraShakeProper()</a>.</p>
 
 </div>
 </div>
@@ -4200,7 +4085,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c_source.html#l01306">ProcessInputData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a15ff5ff2b7ba662e5977f96673a7c1cd">ProcessInputData()</a>.</p>
 
 </div>
 </div>
@@ -4230,9 +4115,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01249">1249</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01092">SIMPLE_SELECTION_MELEE_MELEE</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a7da3bdd45d2dca6f4a44ef881cea5a8d">SIMPLE_SELECTION_MELEE_RIFLE</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01094">SIMPLE_SELECTION_SHOULDER_MELEE</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01093">SIMPLE_SELECTION_SHOULDER_RIFLE</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a90b8eb1ed0e75b1c11fe5d99a3226bf2">SIMPLE_SELECTION_MELEE_MELEE</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a7da3bdd45d2dca6f4a44ef881cea5a8d">SIMPLE_SELECTION_MELEE_RIFLE</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a26be64c4f9e8aa4d5a28fc8da44db5a9">SIMPLE_SELECTION_SHOULDER_MELEE</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a228b769fda3f0a17e75a0f913e05a73b">SIMPLE_SELECTION_SHOULDER_RIFLE</a>.</p>
 
 </div>
 </div>
@@ -4262,8 +4145,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00003">3</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="aa8247a9cebbc426e98f7101ff64fe354" name="aa8247a9cebbc426e98f7101ff64fe354"></a>
@@ -4282,8 +4163,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>cannot be instanced from script (always created from C++) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00088">88</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4319,8 +4198,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01056">1056</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -4336,8 +4213,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00001">1</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="af047d697cba3731ec3257c90caeff2fb" name="af047d697cba3731ec3257c90caeff2fb"></a>
@@ -4352,9 +4227,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00593">593</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00451">GetSoundWeaponEvent()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00406">LoadSoundWeaponEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a59553acdb23271cd840771a7ad4fec6c">GetSoundWeaponEvent()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a75d7459010bf214e7250d8f41e3855ea">LoadSoundWeaponEvent()</a>.</p>
 
 </div>
 </div>
@@ -4372,8 +4245,6 @@ Variables</h2></td></tr>
 
 <p>The world space transform of the owner to the camera. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00078">78</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a6a946ec515754301b3e2913b9b28e11d" name="a6a946ec515754301b3e2913b9b28e11d"></a>
@@ -4389,8 +4260,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Whether the camera updates the next frame or blends with next character update. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00075">75</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4408,8 +4277,6 @@ Variables</h2></td></tr>
 
 <p>true - camera is updated when blending to new camera (Ironsights == false) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00070">70</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a98ee16459425f65ce38811dcb9c7442e" name="a98ee16459425f65ce38811dcb9c7442e"></a>
@@ -4425,8 +4292,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>transformation matrix - pos + orient of the camera </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00058">58</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4444,8 +4309,6 @@ Variables</h2></td></tr>
 
 <p>ignore entity in 3rd person camera collision solver </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00080">80</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a63b07faaf1e23e09aa93602a6b2c0a67" name="a63b07faaf1e23e09aa93602a6b2c0a67"></a>
@@ -4460,9 +4323,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00588">588</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00497">GetDefaultHitComponent()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00780">DayZCreatureAI::GetDefaultHitComponent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00463">RegisterHitComponentsForAI()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00757">DayZCreatureAI::RegisterHitComponentsForAI()</a>, and <a class="el" href="../../de/db7/_animal_base_8c_source.html#l00079">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a54b962072711d6cb9583db7c164d0af5">GetDefaultHitComponent()</a>, <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a66f65af37751f094e75efd1a7bd9ef07">DayZCreatureAI::GetDefaultHitComponent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a50b569e83e675a0332a655b16d4fe2cd">RegisterHitComponentsForAI()</a>, <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a2d8cfab8b2db8faf62a4026293cde4ab">DayZCreatureAI::RegisterHitComponentsForAI()</a>, and <a class="el" href="../../d4/d8f/class_animal_base.html#a50b569e83e675a0332a655b16d4fe2cd">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
 
 </div>
 </div>
@@ -4478,9 +4339,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00589">589</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00502">GetDefaultHitPositionComponent()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00785">DayZCreatureAI::GetDefaultHitPositionComponent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00463">RegisterHitComponentsForAI()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00757">DayZCreatureAI::RegisterHitComponentsForAI()</a>, and <a class="el" href="../../de/db7/_animal_base_8c_source.html#l00079">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#aa48b09d629def9f52549a5930f919bb2">GetDefaultHitPositionComponent()</a>, <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a7384c2ff2ea34ccc3a092cf2bb034886">DayZCreatureAI::GetDefaultHitPositionComponent()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a50b569e83e675a0332a655b16d4fe2cd">RegisterHitComponentsForAI()</a>, <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a2d8cfab8b2db8faf62a4026293cde4ab">DayZCreatureAI::RegisterHitComponentsForAI()</a>, and <a class="el" href="../../d4/d8f/class_animal_base.html#a50b569e83e675a0332a655b16d4fe2cd">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
 
 </div>
 </div>
@@ -4498,9 +4357,7 @@ Variables</h2></td></tr>
 
 <p>camera distance (external cameras only) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00063">63</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00418">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00256">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00242">DayZPlayerCamera3rdPersonJump()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00533">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00551">DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00033">DayZPlayerCamera3rdPersonVehicle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d09/class_day_z_player_camera3rd_person_crouch.html#aedad1b26d59420a494f2929a7be9f09e">DayZPlayerCamera3rdPersonCrouch::DayZPlayerCamera3rdPersonCrouchRaised()</a>, <a class="el" href="../../da/d2d/class_day_z_player_camera3rd_person_erc.html#a8dfde86d0e675e23a2eba730c2191479">DayZPlayerCamera3rdPersonErc::DayZPlayerCamera3rdPersonErcSpr()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a4a702d8cfe3b2fd17a6eac6c45cb9773">DayZPlayerCamera3rdPersonJump()</a>, <a class="el" href="../../de/de1/class_day_z_player_camera3rd_person_prone_base.html#a154b91b54cce0978d782d78b48cf1296">DayZPlayerCamera3rdPersonProneBase::DayZPlayerCamera3rdPersonProne()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a154b91b54cce0978d782d78b48cf1296">DayZPlayerCamera3rdPersonProne()</a>, and <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c.html#a24a309bcd5676bce950b1f4068864c86">DayZPlayerCamera3rdPersonVehicle()</a>.</p>
 
 </div>
 </div>
@@ -4518,9 +4375,7 @@ Variables</h2></td></tr>
 
 <p>fov absolute value override - -1.0 default, if set - overrides absolute fov setting </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00060">60</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00078">DayZPlayerCameraBase()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00236">DayZPlayerCameraBase::HoldBreathFOVEffect()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00430">HoldBreathFOVEffect()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00288">StdFovUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a9277e89a7672a869fdde8eca56e22346">DayZPlayerCameraBase()</a>, <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a774a68b0094e139b117dac18e41f204d">DayZPlayerCameraBase::HoldBreathFOVEffect()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c.html#a63cfe5fb5ce63892c333133289189a7f">HoldBreathFOVEffect()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a589903243b2ce2813cb247cc13c8ff58">StdFovUpdate()</a>.</p>
 
 </div>
 </div>
@@ -4538,8 +4393,6 @@ Variables</h2></td></tr>
 
 <p>fov multiplier - 1.0 default - used for modifying fov - </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00059">59</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a0c3fe237d4b47ff248a1e20b6baddfb7" name="a0c3fe237d4b47ff248a1e20b6baddfb7"></a>
@@ -4553,8 +4406,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01052">1052</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4572,8 +4423,6 @@ Variables</h2></td></tr>
 
 <p>1 - resets base transforms pitch </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00073">73</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a0bdb3ade9f19a3c01f52d164d1c931d8" name="a0bdb3ade9f19a3c01f52d164d1c931d8"></a>
@@ -4590,8 +4439,6 @@ Variables</h2></td></tr>
 
 <p>1 - resets base transforms roll </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00072">72</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="ad2838342b06b0ef6e805a07789820777" name="ad2838342b06b0ef6e805a07789820777"></a>
@@ -4607,8 +4454,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>1 - resets base transforms yaw </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00074">74</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4627,8 +4472,6 @@ Variables</h2></td></tr>
 <p>0 not used, 1 - pos, 2 - rot, 3 - pos+rot applied as a parent to m_CameraTM, 4 as 3 but cam aligned with Y </p>
 <p>0..1 (0 normal lod, 1 inside lod), &gt;0.7 -&gt; inside </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00069">69</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="af2e7ae1403ce128f9897a947155336cb" name="af2e7ae1403ce128f9897a947155336cb"></a>
@@ -4645,8 +4488,6 @@ Variables</h2></td></tr>
 
 <p>nearplane distance </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00061">61</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a821652ab10a87c58a29cb5a1fda6e08a" name="a821652ab10a87c58a29cb5a1fda6e08a"></a>
@@ -4660,8 +4501,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01051">1051</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4679,8 +4518,6 @@ Variables</h2></td></tr>
 
 <p>0.0 position is in heading space, 1.0 position is in model space </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00062">62</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a6d04f6d82f549a390570d804a7e76d6e" name="a6d04f6d82f549a390570d804a7e76d6e"></a>
@@ -4697,9 +4534,7 @@ Variables</h2></td></tr>
 
 <p>sphere radius used for collision prediction </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00065">65</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00242">DayZPlayerCamera3rdPersonJump()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a908636ab603b4d1049005e946c422a38">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#a4a702d8cfe3b2fd17a6eac6c45cb9773">DayZPlayerCamera3rdPersonJump()</a>.</p>
 
 </div>
 </div>
@@ -4717,9 +4552,7 @@ Variables</h2></td></tr>
 
 <p>1(default) - uses shoot from camera (+aiming sway), 0 pure weapon shoot (ironsights == 0) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00071">71</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00411">AdjustCameraParameters()</a>, and <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00365">DayZPlayerCameraOptics()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c.html#acb6f24e3f6df779e87f0b3556097f3ae">AdjustCameraParameters()</a>, and <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c.html#a0035dfa873d9e1b182418d208f721304">DayZPlayerCameraOptics()</a>.</p>
 
 </div>
 </div>
@@ -4737,8 +4570,6 @@ Variables</h2></td></tr>
 
 <p>0..1 (0 uses direct dir returned, 1 uses heading from player) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00064">64</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a4cf6d464f2dcc2ba86c93778d297a683" name="a4cf6d464f2dcc2ba86c93778d297a683"></a>
@@ -4755,9 +4586,7 @@ Variables</h2></td></tr>
 
 <p>Melee hit components (AI targeting) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00587">587</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00461">DayZCreatureAI::DayZAnimal()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00485">GetHitComponentForAI()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00768">DayZCreatureAI::GetHitComponentForAI()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00463">RegisterHitComponentsForAI()</a>, <a class="el" href="../../df/d55/_day_z_animal_8c_source.html#l00757">DayZCreatureAI::RegisterHitComponentsForAI()</a>, and <a class="el" href="../../de/db7/_animal_base_8c_source.html#l00079">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a92da661af2fc9e83114c32123b850f6b">DayZCreatureAI::DayZAnimal()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#ad3886127506f6e8f27b1a17fb1d1eec8">GetHitComponentForAI()</a>, <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a383b6a07ecf14bd76a8a08320da2a76e">DayZCreatureAI::GetHitComponentForAI()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a50b569e83e675a0332a655b16d4fe2cd">RegisterHitComponentsForAI()</a>, <a class="el" href="../../df/d1b/class_day_z_creature_a_i.html#a2d8cfab8b2db8faf62a4026293cde4ab">DayZCreatureAI::RegisterHitComponentsForAI()</a>, and <a class="el" href="../../d4/d8f/class_animal_base.html#a50b569e83e675a0332a655b16d4fe2cd">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
 
 </div>
 </div>
@@ -4787,8 +4616,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01050">1050</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a32a10062d77bd73e2a39c71d0df8d8ce" name="a32a10062d77bd73e2a39c71d0df8d8ce"></a>
@@ -4805,8 +4632,6 @@ Variables</h2></td></tr>
 
 <p>-1 no bone, &gt;= 0 - bone index camera is bound to, m_CameraTM is offset to the bone </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00067">67</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a22dac2d23366716ff24bb9c1af51892a" name="a22dac2d23366716ff24bb9c1af51892a"></a>
@@ -4820,8 +4645,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00068">68</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
 
 </div>
 </div>
@@ -4839,8 +4662,6 @@ Variables</h2></td></tr>
 
 <p>override automatically calculated owner transform during rendering (default - false) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00077">77</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a8dbf2e5eaf3605808b3d6e73b5f41f34" name="a8dbf2e5eaf3605808b3d6e73b5f41f34"></a>
@@ -4855,9 +4676,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00569">569</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00324">GetAttachmentSoundLookupTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00319">RegisterAttachmentSoundLookupTable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ad7ef495d80e0f9a02dad1f4e7b02a1c5">GetAttachmentSoundLookupTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6a4828a7a9ae981fc17b591dc91fe9ed">RegisterAttachmentSoundLookupTable()</a>.</p>
 
 </div>
 </div>
@@ -4875,9 +4694,7 @@ Variables</h2></td></tr>
 
 <p>human input </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00136">136</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00254">UpdateLRAngle()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00442">UpdateLRAngleLookAt()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00163">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00202">UpdateUDAngle()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00122">UpdateUDAngleUnlocked()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00368">DayZPlayerCamera3rdPersonErcRaised::~DayZPlayerCamera3rdPersonErcRaisedMelee()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a33ce173bffe5efbb8e2e1af06a594805">DayZPlayerCameraBase::OnUpdate()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a81c88a1a4620503a53c8a11a368e4e3f">UpdateLRAngle()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#aa26eec70aad4726e878218e2f695e6a1">UpdateLRAngleLookAt()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a0ff8945b8e8b4b80ffbc392e3af62203">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#ae9475fb9f56d8508d7f87d20aae0a5a2">UpdateUDAngle()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a40e3bbd2306af3ac9d07884e2f4a0eec">UpdateUDAngleUnlocked()</a>, and <a class="el" href="../../dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#a19bee0f7f79ad77ea0d46bcd34eca324">DayZPlayerCamera3rdPersonErcRaised::~DayZPlayerCamera3rdPersonErcRaisedMelee()</a>.</p>
 
 </div>
 </div>
@@ -4893,9 +4710,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00577">577</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00386">GetNoiseParamsLandHeavy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#af310b0d332b25b176ee33df9bab6689e">GetNoiseParamsLandHeavy()</a>.</p>
 
 </div>
 </div>
@@ -4911,9 +4726,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00576">576</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00381">GetNoiseParamsLandLight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#ae035ae509f4e16eb5822532d764f6579">GetNoiseParamsLandLight()</a>.</p>
 
 </div>
 </div>
@@ -4929,9 +4742,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00582">582</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00401">GetNoiseParamsShout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a3b52a25a33382469adf460fc2dd42cc1">GetNoiseParamsShout()</a>.</p>
 
 </div>
 </div>
@@ -4947,9 +4758,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00574">574</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00371">GetNoiseParamsCrouch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#ae81a74157559788375dd3fe1a7122a1e">GetNoiseParamsCrouch()</a>.</p>
 
 </div>
 </div>
@@ -4965,9 +4774,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00575">575</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00376">GetNoiseParamsProne()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#aeba1dabf19a7b462ea03791de87dfdef">GetNoiseParamsProne()</a>.</p>
 
 </div>
 </div>
@@ -4983,9 +4790,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00573">573</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00366">GetNoiseParamsStand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#ae6691ae69c7a5f949e1989377ca46cff">GetNoiseParamsStand()</a>.</p>
 
 </div>
 </div>
@@ -5001,9 +4806,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00581">581</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00396">GetNoiseParamsTalk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a011370f655b30f2501d4560f374f471e">GetNoiseParamsTalk()</a>.</p>
 
 </div>
 </div>
@@ -5019,9 +4822,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00580">580</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00512">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00391">GetNoiseParamsWhisper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#ac59bf98466d4f3f38592427bbab714bd">DayZPlayerType()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#ad5c493ab52428720abf898019af6bbf5">GetNoiseParamsWhisper()</a>.</p>
 
 </div>
 </div>
@@ -5040,9 +4841,7 @@ Variables</h2></td></tr>
 <p>data </p>
 <p>player camera is attached to </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00135">135</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00078">DayZPlayerCameraBase()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00230">GetMovementSpeedVisualCoef()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00253">GetMovementStanceVisualCoef()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00236">DayZPlayerCameraBase::HoldBreathFOVEffect()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00430">HoldBreathFOVEffect()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00112">Init()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00117">Init()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00534">InitCameraOnPlayer()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00342">OnActivate()</a>, <a class="el" href="../../d1/d53/_day_z_player_camera1st_person_8c_source.html#l00043">DayZPlayerCameraBase::OnUpdate()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00203">DayZPlayerCamera3rdPersonErc::OnUpdate()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00322">OnUpdate()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00216">ProcessNoiseComponents()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00205">ProcessVisualComponents()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00408">SetCameraPP()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00256">DayZPlayerCameraBase::SetCameraPP()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00450">SetNVPostprocess()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00062">DayZPlayerCameraBase::SetupSightEntities()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c_source.html#l00127">ShowCoefsDbg()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00288">StdFovUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a9277e89a7672a869fdde8eca56e22346">DayZPlayerCameraBase()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c.html#acbc2825d73baf612363b974b5aa80b47">GetMovementSpeedVisualCoef()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c.html#a0e161c88d77db801220694fcb3cb1abd">GetMovementStanceVisualCoef()</a>, <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a774a68b0094e139b117dac18e41f204d">DayZPlayerCameraBase::HoldBreathFOVEffect()</a>, <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c.html#a63cfe5fb5ce63892c333133289189a7f">HoldBreathFOVEffect()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c.html#a37958b09191a632d7a75d89b752397e7">Init()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a9dbf6771ce02f6712411280ed30613cc">InitCameraOnPlayer()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a07555527db4ba7d2ca221e38e48d8c9d">OnActivate()</a>, <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a33ce173bffe5efbb8e2e1af06a594805">DayZPlayerCameraBase::OnUpdate()</a>, <a class="el" href="../../da/d2d/class_day_z_player_camera3rd_person_erc.html#a33ce173bffe5efbb8e2e1af06a594805">DayZPlayerCamera3rdPersonErc::OnUpdate()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c.html#a23196782a145f069b97d4e5d5e369231">ProcessNoiseComponents()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c.html#a37df9a09393fabd7076097ed48025e43">ProcessVisualComponents()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#aa992a4d1d6d6e4698c1b5c505539e86e">SetCameraPP()</a>, <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#ac849630d3f27aaa0475ca7374e2bf134">DayZPlayerCameraBase::SetCameraPP()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a9c0f38dc1d501c7d513e3e6a466f1ea5">SetNVPostprocess()</a>, <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a53bacf5595b3ed3435bdb2b9c3040d14">DayZPlayerCameraBase::SetupSightEntities()</a>, <a class="el" href="../../df/d02/_plugin_presence_notifier_8c.html#ad78fcf38874c723807096dd45e058f6e">ShowCoefsDbg()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a589903243b2ce2813cb247cc13c8ff58">StdFovUpdate()</a>.</p>
 
 </div>
 </div>
@@ -5058,9 +4857,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00571">571</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00344">GetSoundTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00339">RegisterSoundTable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#afbd1b0050644b583c94a9b05eeb85517">GetSoundTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#aaa5d5d9e81b40fb8c742804f1864eb7c">RegisterSoundTable()</a>.</p>
 
 </div>
 </div>
@@ -5076,9 +4873,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00568">568</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00314">GetStepSoundLookupTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00309">RegisterStepSoundLookupTable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#af9f3e8447dd757afef66b84fce790689">GetStepSoundLookupTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a5ac60946e0b7b49de5d1bc156b6ed92f">RegisterStepSoundLookupTable()</a>.</p>
 
 </div>
 </div>
@@ -5094,9 +4889,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00584">584</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00361">GetVegetationSounds()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00424">LoadVegetationSounds()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a53dd9b95d63dec47186a710e5333f3f4">GetVegetationSounds()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#afe574c1e09a1b2c92fd2a3f829811b9b">LoadVegetationSounds()</a>.</p>
 
 </div>
 </div>
@@ -5112,9 +4905,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00570">570</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00334">GetVoiceSoundLookupTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00329">RegisterVoiceSoundLookupTable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6af8d08935da1728dbb9e9223b22b72b">GetVoiceSoundLookupTable()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a5b6ad9520ce2387c6e4b65f384b61a16">RegisterVoiceSoundLookupTable()</a>.</p>
 
 </div>
 </div>
@@ -5130,8 +4921,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00000">0</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
 </div>
 </div>
 <a id="a4465edad6b18d09eeb11af413680004b" name="a4465edad6b18d09eeb11af413680004b"></a>
@@ -5146,9 +4935,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00591">591</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00507">GetSuitableFinisherHitComponents()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l00463">RegisterHitComponentsForAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#af3a9b76eb92256b23816b198a0ebe466">GetSuitableFinisherHitComponents()</a>, and <a class="el" href="../../d3/d58/dayzplayer_8c.html#a50b569e83e675a0332a655b16d4fe2cd">RegisterHitComponentsForAI()</a>.</p>
 
 </div>
 </div>
@@ -5178,9 +4965,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01092">1092</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01249">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01127">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a699ce71feb63bbb0fc646e7da1ca733c">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#ae665bd1ddf71ee7d3a85f5fd828f9c0f">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
 
 </div>
 </div>
@@ -5196,7 +4981,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01249">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01127">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a699ce71feb63bbb0fc646e7da1ca733c">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#ae665bd1ddf71ee7d3a85f5fd828f9c0f">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
 
 </div>
 </div>
@@ -5212,9 +4997,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01094">1094</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01249">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01127">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a699ce71feb63bbb0fc646e7da1ca733c">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#ae665bd1ddf71ee7d3a85f5fd828f9c0f">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
 
 </div>
 </div>
@@ -5230,9 +5013,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01093">1093</a> of file <a class="el" href="../../d3/d58/dayzplayer_8c_source.html">dayzplayer.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c_source.html#l01249">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l01127">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d58/dayzplayer_8c.html#a699ce71feb63bbb0fc646e7da1ca733c">UpdateDummyPlayerProxyVisibility()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#ae665bd1ddf71ee7d3a85f5fd828f9c0f">ManBase::UpdateShoulderProxyVisibility()</a>.</p>
 
 </div>
 </div>

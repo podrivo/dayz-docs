@@ -7,7 +7,7 @@ var class_u_i_manager =
     [ "CloseMenu", "d7/d75/class_u_i_manager.html#a3d57c7cf6d023518ed0ed0ef89da4e9d", null ],
     [ "CloseSpecificDialog", "d7/d75/class_u_i_manager.html#aa55404b80dc86335fd34d2c72bd147dc", null ],
     [ "CloseWindow", "d7/d75/class_u_i_manager.html#aaf3db5b9f42367fe590af6d23de2b3fc", null ],
-    [ "CreateScriptedMenu", "d7/d75/class_u_i_manager.html#a147bad5f82c2a2b3da505fdce6a54970", null ],
+    [ "CreateScriptedMenu", "d7/d75/class_u_i_manager.html#a956acc8cc08fee1ae490bc7e1e27f87d", null ],
     [ "DeleteWindow", "d7/d75/class_u_i_manager.html#a0921abb37b388c21d2e1c64ed3b9e527", null ],
     [ "EnterScriptedMenu", "d7/d75/class_u_i_manager.html#a7269af37da7c55d8e1ba887ad79906fe", null ],
     [ "EnterServerBrowser", "d7/d75/class_u_i_manager.html#a561a46ad1b405537f91b84b23c3e1671", null ],

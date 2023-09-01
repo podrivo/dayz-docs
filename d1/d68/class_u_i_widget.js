@@ -18,6 +18,7 @@ var class_u_i_widget =
     [ "GetState", "d9/d0e/group___widget_a_p_i.html#ga5dbda4fadf08089493a12256501e6390", null ],
     [ "GetStep", "d9/d0e/group___widget_a_p_i.html#ga68a384cd85a2986ab3f9958dd9588907", null ],
     [ "GetText", "d9/d0e/group___widget_a_p_i.html#gab5c33007b29abd1db1356c46c505d2bc", null ],
+    [ "GetText", "d9/d0e/group___widget_a_p_i.html#ga75e169e18cff35a4d7383d8aa34c89f1", null ],
     [ "GetTextProportion", "d9/d0e/group___widget_a_p_i.html#gac1fe2632f29917290bfebd08d0eaec4a", null ],
     [ "IsChecked", "d9/d0e/group___widget_a_p_i.html#gac63d53093c0191eece3d065be81124ab", null ],
     [ "RemoveItem", "d9/d0e/group___widget_a_p_i.html#gac2185136dcebcf3be4d9395ca3a4512d", null ],

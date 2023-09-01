@@ -177,6 +177,7 @@ var class_i_entity =
     [ "GetYawPitchRoll", "d3/d14/group___entity_attributes.html#ga59a636035f5c6f3d7b6ba1f0f6077284", null ],
     [ "HasAnimation", "dc/da9/class_i_entity.html#a50d101f7ee9a0388ec66d5061a4efc05", null ],
     [ "HasDamageSystem", "dc/da9/class_i_entity.html#a7b0e1d11eda0b560c4b77d8da6fb9463", null ],
+    [ "HasFixedActionTargetCursorPosition", "dc/da9/class_i_entity.html#a8cf690c7e1484184f71766d9a1d7871d", null ],
     [ "HasNetworkID", "dc/da9/class_i_entity.html#af0a0066e61c825533d0e6767c5ca0650", null ],
     [ "HasProxyParts", "dc/da9/class_i_entity.html#a4a14152d42d7f12b29ad9aaa6cdbb84c", null ],
     [ "HasSelection", "dc/da9/class_i_entity.html#af29fbb2a691ccf59707e7cfecf09da16", null ],

@@ -8,11 +8,12 @@ var searchData=
   ['jsondatacredits_2ec_5',['JsonDataCredits.c',['../d8/d1d/_json_data_credits_8c.html',1,'']]],
   ['jsondatacreditsdepartment_2ec_6',['JsonDataCreditsDepartment.c',['../d3/d27/_json_data_credits_department_8c.html',1,'']]],
   ['jsondatacreditssection_2ec_7',['JsonDataCreditsSection.c',['../d8/dc2/_json_data_credits_section_8c.html',1,'']]],
-  ['jsonfileloader_2ec_8',['JsonFileLoader.c',['../d7/dbd/_json_file_loader_8c.html',1,'']]],
-  ['jsonobject_2ec_9',['JsonObject.c',['../dc/d54/_json_object_8c.html',1,'']]],
-  ['jumpevents_2ec_10',['JumpEvents.c',['../d9/d62/_jump_events_8c.html',1,'']]],
-  ['jumpsuitjacket_5fcolorbase_2ec_11',['JumpsuitJacket_ColorBase.c',['../d8/de4/_jumpsuit_jacket___color_base_8c.html',1,'']]],
-  ['jumpsuitpants_5fcolorbase_2ec_12',['JumpsuitPants_ColorBase.c',['../dc/d18/_jumpsuit_pants___color_base_8c.html',1,'']]],
-  ['junctures_2ec_13',['Junctures.c',['../da/d12/_junctures_8c.html',1,'']]],
-  ['jungleboots_5fcolorbase_2ec_14',['JungleBoots_ColorBase.c',['../d4/dc5/_jungle_boots___color_base_8c.html',1,'']]]
+  ['jsondatadlcinfo_2ec_8',['JsonDataDLCInfo.c',['../d8/d63/_json_data_d_l_c_info_8c.html',1,'']]],
+  ['jsonfileloader_2ec_9',['JsonFileLoader.c',['../d7/dbd/_json_file_loader_8c.html',1,'']]],
+  ['jsonobject_2ec_10',['JsonObject.c',['../dc/d54/_json_object_8c.html',1,'']]],
+  ['jumpevents_2ec_11',['JumpEvents.c',['../d9/d62/_jump_events_8c.html',1,'']]],
+  ['jumpsuitjacket_5fcolorbase_2ec_12',['JumpsuitJacket_ColorBase.c',['../d8/de4/_jumpsuit_jacket___color_base_8c.html',1,'']]],
+  ['jumpsuitpants_5fcolorbase_2ec_13',['JumpsuitPants_ColorBase.c',['../dc/d18/_jumpsuit_pants___color_base_8c.html',1,'']]],
+  ['junctures_2ec_14',['Junctures.c',['../da/d12/_junctures_8c.html',1,'']]],
+  ['jungleboots_5fcolorbase_2ec_15',['JungleBoots_ColorBase.c',['../d4/dc5/_jungle_boots___color_base_8c.html',1,'']]]
 ];

@@ -226,6 +226,7 @@ var 3___game_2constants_8c =
     [ "MENU_SCRIPTCONSOLE", "d7/d7f/group___menu_i_d.html#ga1f9c728143ed68225163b352c33f1fc4", null ],
     [ "MENU_SCRIPTCONSOLE_DIALOG_PRESET_NAME", "d7/d7f/group___menu_i_d.html#gaa28b91949e44f077192253121344fa23", null ],
     [ "MENU_SCRIPTCONSOLE_DIALOG_PRESET_RENAME", "d7/d7f/group___menu_i_d.html#gab031d773ed240ab3a2f2d7c3350c7bc5", null ],
+    [ "MENU_SCRIPTCONSOLE_UNIVERSAL_INFO_DIALOG", "d7/d7f/group___menu_i_d.html#ga681f46a331638ed7a40b174f37513964", null ],
     [ "MENU_SERVER_BROWSER", "d7/d7f/group___menu_i_d.html#ga3bd95cd37dffbdfb2ef50fbf07871134", null ],
     [ "MENU_STARTUP", "d7/d7f/group___menu_i_d.html#ga6d296a5365c0d4818cffa4ab72be3ea4", null ],
     [ "MENU_TITLE_SCREEN", "d7/d7f/group___menu_i_d.html#ga0dbb176db8d71b105044f7c2b3010b43", null ],

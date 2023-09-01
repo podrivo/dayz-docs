@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DayZ Scripts: P:/scripts/3_Game/Global/DayZPhysics.c File Reference</title>
+<title>DayZ Scripts: 3_Game/Global/DayZPhysics.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,8 +104,6 @@ $(document).ready(function(){initNavTree('d6/de4/_day_z_physics_8c.html','../../
   <div class="headertitle"><div class="title">DayZPhysics.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="../../d6/de4/_day_z_physics_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -133,28 +131,30 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac2053b3830bd5273a2c24c014d6abc61">VEHICLE_NOTERRAIN</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa416166834c71f523dcfaa6bee6f3418f">CHARACTER_NO_GRAVITY</a>
+, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9cd3a03199ed1cc608a27fc26d53d058">RAGDOLL_NO_CHARACTER</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a">FIREGEOM</a>
-, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9">DOOR</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6dd34476b864b389cb28b655222b1858">RAGDOLL</a>
+&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9">DOOR</a>
+, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6dd34476b864b389cb28b655222b1858">RAGDOLL</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa44021f1a52edc2c884a544a38c672a56">WATERLAYER</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa58c2bc22908015ec088d6cb81dd3112f">TERRAIN</a>
-, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa61fe741a013aba041eb9a4a3d55e46bc">GHOST</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aabfac00358e0647fc33e06e78543f44d8">WORLDBOUNDS</a>
+&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa61fe741a013aba041eb9a4a3d55e46bc">GHOST</a>
+, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aabfac00358e0647fc33e06e78543f44d8">WORLDBOUNDS</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac9c04652d7bde83489037a941f229e65">FENCE</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9c74caa56a3c05723eb1dbad44bc9bc3">AI</a>
-, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6b82657907572c302a95f00c7b5b51dc">AI_NO_COLLISION</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0972cd715c6aa0be3d4ec31461b9933d">AI_COMPLEX</a>
+&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6b82657907572c302a95f00c7b5b51dc">AI_NO_COLLISION</a>
+, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0972cd715c6aa0be3d4ec31461b9933d">AI_COMPLEX</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaaa60e119b1b1f70feca0c15be782a0fc">TINYCAPSULE</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa16be61c7643c97ef03953cad704f0345">TRIGGER</a>
-, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0ce2fcefb8d2bbd1b045c2130074778a">TRIGGER_NOTERRAIN</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1e31c1d3e8d0acd75fe8a066c2b01396">ITEM_SMALL</a>
+&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0ce2fcefb8d2bbd1b045c2130074778a">TRIGGER_NOTERRAIN</a>
+, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1e31c1d3e8d0acd75fe8a066c2b01396">ITEM_SMALL</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa01f4dcc45340182711ad5c949bfa440b">ITEM_LARGE</a>
 , <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada31f516cdf218b68b790fb31e8a6956">CAMERA</a>
-, <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa5937389a60030a604f0efdf5e3927325">TEMP</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa5937389a60030a604f0efdf5e3927325">TEMP</a>
 <br />
  }</td></tr>
 <tr class="separator:a726c859fa381777c5894cba896f7db3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,7 +182,9 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aaa40171ea8c0980e35c7ad0ee529c8cfa" name="a726c859fa381777c5894cba896f7db3aaa40171ea8c0980e35c7ad0ee529c8cfa"></a>ROADWAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aac2053b3830bd5273a2c24c014d6abc61" name="a726c859fa381777c5894cba896f7db3aac2053b3830bd5273a2c24c014d6abc61"></a>VEHICLE_NOTERRAIN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa416166834c71f523dcfaa6bee6f3418f" name="a726c859fa381777c5894cba896f7db3aa416166834c71f523dcfaa6bee6f3418f"></a>CHARACTER_NO_GRAVITY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a" name="a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a"></a>FIREGEOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa9cd3a03199ed1cc608a27fc26d53d058" name="a726c859fa381777c5894cba896f7db3aa9cd3a03199ed1cc608a27fc26d53d058"></a>RAGDOLL_NO_CHARACTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a" name="a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a"></a>FIREGEOM&#160;</td><td class="fielddoc"><p>Redefinition of 'RAGDOLL_NO_CHARACTER'. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9" name="a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9"></a>DOOR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa6dd34476b864b389cb28b655222b1858" name="a726c859fa381777c5894cba896f7db3aa6dd34476b864b389cb28b655222b1858"></a>RAGDOLL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa44021f1a52edc2c884a544a38c672a56" name="a726c859fa381777c5894cba896f7db3aa44021f1a52edc2c884a544a38c672a56"></a>WATERLAYER&#160;</td><td class="fielddoc"></td></tr>
@@ -201,8 +203,6 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aada31f516cdf218b68b790fb31e8a6956" name="a726c859fa381777c5894cba896f7db3aada31f516cdf218b68b790fb31e8a6956"></a>CAMERA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a726c859fa381777c5894cba896f7db3aa5937389a60030a604f0efdf5e3927325" name="a726c859fa381777c5894cba896f7db3aa5937389a60030a604f0efdf5e3927325"></a>TEMP&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
-<p class="definition">Definition at line <a class="el" href="../../d6/de4/_day_z_physics_8c_source.html#l00001">1</a> of file <a class="el" href="../../d6/de4/_day_z_physics_8c_source.html">DayZPhysics.c</a>.</p>
 
 </div>
 </div>

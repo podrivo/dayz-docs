@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -133,8 +133,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manager class which handles Voice-over-network functionality while player is connected to a server. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00300">300</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a49ac11ff95b0200883d00f8fe048caaa" name="a49ac11ff95b0200883d00f8fe048caaa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49ac11ff95b0200883d00f8fe048caaa">&#9670;&#160;</a></span>CleanupInstance()</h2>
@@ -161,11 +159,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Uninitializes <a class="el" href="../../d3/d7a/class_v_o_n_manager.html" title="Manager class which handles Voice-over-network functionality while player is connected to a server.">VONManager</a>, runs when user disconnects from server. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00325">325</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a6eb7bd92430bd8bf7f21a7d00254d5f6">m_VONManager</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00302">m_VONManager</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00062">CGame::~CGame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#af9283c1d784a4904709f268ce53f54e3">CGame::~CGame()</a>.</p>
 
 </div>
 </div>
@@ -195,11 +191,9 @@ Static Private Attributes</h2></td></tr>
 <p>Main way to access <a class="el" href="../../d3/d7a/class_v_o_n_manager.html" title="Manager class which handles Voice-over-network functionality while player is connected to a server.">VONManager</a> functionality from script. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>Instance</code> of VONManagerImplementation if logged on to server, or <a class="el" href="../../df/dba/class_v_o_n_manager_base.html">VONManagerBase</a> otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00308">308</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a6eb7bd92430bd8bf7f21a7d00254d5f6">m_VONManager</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00302">m_VONManager</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01391">CGame::OnEvent()</a>, <a class="el" href="../../d6/daf/mission_gameplay_8c_source.html#l00232">MissionBase::OnUpdate()</a>, and <a class="el" href="../../db/d2d/_options_menu_sounds_8c_source.html#l00036">ScriptedWidgetEventHandler::OptionsMenuSounds()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#a782622ac8223bff6214026b011173fb1">CGame::OnEvent()</a>, <a class="el" href="../../d5/d04/class_mission_base.html#a7ab491bf0e44a0d24c1709d8822652d8">MissionBase::OnUpdate()</a>, and <a class="el" href="../../df/df4/class_scripted_widget_event_handler.html#a017bf49138d4499b18ce5ab117cd9452">ScriptedWidgetEventHandler::OptionsMenuSounds()</a>.</p>
 
 </div>
 </div>
@@ -228,11 +222,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Initializes <a class="el" href="../../d3/d7a/class_v_o_n_manager.html" title="Manager class which handles Voice-over-network functionality while player is connected to a server.">VONManager</a>, runs when user first connects to a server. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00316">316</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a6eb7bd92430bd8bf7f21a7d00254d5f6">m_VONManager</a>, and <a class="el" href="../../dd/d43/_v_o_n_manager_8c.html#a49bfeeb79e0404b0d5eaabae24c6a068">VONManagerImplementation()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00302">m_VONManager</a>, and <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00026">VONManagerImplementation()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00033">CGame::CGame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#acfcae4f183feb6e59688655bf298515b">CGame::CGame()</a>.</p>
 
 </div>
 </div>
@@ -262,11 +254,9 @@ Static Private Attributes</h2></td></tr>
 <p>Specifies whether user's voice activation threshold value is equal to the minimum voice activation threshold value. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>True</code> if threshold minimum, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00344">344</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../da/dd5/class_game_options.html#a8df95e029bbbcdc0d293afbcd7b55a21">GameOptions::GetOptionByType()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a57166c5b6300a3c85c6028a384efc379">CGame::GetSoundScene()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00113">HandleInput()</a>, <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00188">OnEvent()</a>, and <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00165">OnVOIPThresholdChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d43/_v_o_n_manager_8c.html#a67d24085933a4c0f7824d1a3c2eaa7a8">HandleInput()</a>, <a class="el" href="../../dd/d43/_v_o_n_manager_8c.html#ac7ecc522138d7e70c68f044effd43c73">OnEvent()</a>, and <a class="el" href="../../dd/d43/_v_o_n_manager_8c.html#aa66d74880425f2fe484928b1861baa5f">OnVOIPThresholdChanged()</a>.</p>
 
 </div>
 </div>
@@ -296,9 +286,7 @@ Static Private Attributes</h2></td></tr>
 <p>Specifies whether VON mode is toggled or not. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>True</code> if in Voice Activation mode, False if in Push-to-Talk mode </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00335">335</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00018">VONManagerBase::IsVonToggled()</a>, and <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00302">m_VONManager</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dba/class_v_o_n_manager_base.html#a97da69b299b6f3825db0e0adef8a0dc6">VONManagerBase::IsVonToggled()</a>, and <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a6eb7bd92430bd8bf7f21a7d00254d5f6">m_VONManager</a>.</p>
 
 </div>
 </div>
@@ -323,14 +311,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00302">302</a> of file <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00325">CleanupInstance()</a>, <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00308">GetInstance()</a>, <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00316">Init()</a>, and <a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html#l00335">IsVONToggled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a49ac11ff95b0200883d00f8fe048caaa">CleanupInstance()</a>, <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a84d408d31c8144ae35e1ae32785d4682">GetInstance()</a>, <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a1716946dffd7f7f6a9c8f46406ab0732">Init()</a>, and <a class="el" href="../../d3/d7a/class_v_o_n_manager.html#a7677518f847adfb17d5c46f75054d046">IsVONToggled()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/<a class="el" href="../../dd/d43/_v_o_n_manager_8c_source.html">VONManager.c</a></li>
+<li>3_Game/<a class="el" href="../../dd/d43/_v_o_n_manager_8c.html">VONManager.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

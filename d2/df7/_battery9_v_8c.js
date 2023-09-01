@@ -1,4 +1,4 @@
 var _battery9_v_8c =
 [
-    [ "ItemBase", "de/d7a/class_item_base.html", "de/d7a/class_item_base" ]
+    [ "Battery9V", "dd/da9/class_battery9_v.html", "dd/da9/class_battery9_v" ]
 ];

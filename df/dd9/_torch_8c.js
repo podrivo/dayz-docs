@@ -7,6 +7,7 @@ var _torch_8c =
     [ "OnStoreSave", "df/dd9/_torch_8c.html#a35a85dbb8d86badfdee250107b15e803", null ],
     [ "OnWasAttached", "df/dd9/_torch_8c.html#ac49b1cab32f5eab70aab44528726e721", null ],
     [ "OnWasDetached", "df/dd9/_torch_8c.html#a9ad76a420042dadc6ab67b7aa821a407", null ],
+    [ "SetActions", "df/dd9/_torch_8c.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "m_BurnTimePerFullFuelDose", "df/dd9/_torch_8c.html#a37f7a3f68d375758f2621061804e4e3c", null ],
     [ "m_BurnTimePerFullLard", "df/dd9/_torch_8c.html#a22d7f144497ea6931c74a6b5ae2172cc", null ],
     [ "m_BurnTimePerRag", "df/dd9/_torch_8c.html#ad1dbb82bde987fe30444a7ac3a330ab2", null ],

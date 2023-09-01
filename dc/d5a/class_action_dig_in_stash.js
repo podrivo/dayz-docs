@@ -2,6 +2,7 @@ var class_action_dig_in_stash =
 [
     [ "ActionDigInStash", "dc/d5a/class_action_dig_in_stash.html#ad44aa1ec4076e0266077e835411e8047", null ],
     [ "ActionCondition", "dc/d5a/class_action_dig_in_stash.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
+    [ "Can", "dc/d5a/class_action_dig_in_stash.html#a732f32e7996ac2253ffd6f6e239594fb", null ],
     [ "CreateConditionComponents", "dc/d5a/class_action_dig_in_stash.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "GetAdminLogMessage", "dc/d5a/class_action_dig_in_stash.html#a5cf7c0a3bd1ed2154d3b917244047a40", null ],
     [ "OnExecuteClient", "dc/d5a/class_action_dig_in_stash.html#a7c0913512f25d83df6aa6530b769b65e", null ],

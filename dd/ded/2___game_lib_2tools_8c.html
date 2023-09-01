@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DayZ Scripts: P:/scripts/2_GameLib/tools.c File Reference</title>
+<title>DayZ Scripts: 2_GameLib/tools.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,8 +106,6 @@ $(document).ready(function(){initNavTree('dd/ded/2___game_lib_2tools_8c.html','.
   <div class="headertitle"><div class="title">tools.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="../../dd/ded/2___game_lib_2tools_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -139,6 +137,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a65f3ef8ad427baebf4857792d0173d2a"><td class="memItemLeft" align="right" valign="top">proto void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/2___game_lib_2tools_8c.html#a65f3ef8ad427baebf4857792d0173d2a">Invoke</a> (void param1=null, void param2=null, void param3=null, void param4=null, void param5=null, void param6=null, void param7=null, void param8=null, void param9=null)</td></tr>
 <tr class="memdesc:a65f3ef8ad427baebf4857792d0173d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoke call on the registered func, throws errors if unsuccessful.  <br /></td></tr>
 <tr class="separator:a65f3ef8ad427baebf4857792d0173d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd8b4c2f3ab593f4666df71dbedc346"><td class="memItemLeft" align="right" valign="top">proto <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/2___game_lib_2tools_8c.html#aedd8b4c2f3ab593f4666df71dbedc346">IsValid</a> ()</td></tr>
+<tr class="memdesc:aedd8b4c2f3ab593f4666df71dbedc346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the ScriptCaller is valid.  <br /></td></tr>
+<tr class="separator:aedd8b4c2f3ab593f4666df71dbedc346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb5a5de62dc0139a81b416b5dad767d8"><td class="memItemLeft" align="right" valign="top">proto <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/2___game_lib_2tools_8c.html#abb5a5de62dc0139a81b416b5dad767d8">Equals</a> (notnull <a class="el" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a> other)</td></tr>
+<tr class="memdesc:abb5a5de62dc0139a81b416b5dad767d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this script caller against another script caller.  <br /></td></tr>
+<tr class="separator:abb5a5de62dc0139a81b416b5dad767d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -166,8 +170,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html#l00129">129</a> of file <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html">tools.c</a>.</p>
 
 </div>
 </div>
@@ -198,6 +200,60 @@ Variables</h2></td></tr>
 
 <p>Creates a ScriptCaller. </p>
 
+</div>
+</div>
+<a id="abb5a5de62dc0139a81b416b5dad767d8" name="abb5a5de62dc0139a81b416b5dad767d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5a5de62dc0139a81b416b5dad767d8">&#9670;&#160;</a></span>Equals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto <a class="el" href="../../d9/db9/classbool.html">bool</a> Equals </td>
+          <td>(</td>
+          <td class="paramtype">notnull <a class="el" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a>&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares this script caller against another script caller. </p>
+<dl class="section note"><dt>Note</dt><dd>May return true even if either one is invalid</dd></dl>
+<div class="fragment"><div class="line"><span class="keyword">class </span>SomeClass</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">void</span> SomeMethod()</div>
+<div class="line">    {</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> Test()</div>
+<div class="line">{</div>
+<div class="line">    SomeClass instanceA = <span class="keyword">new</span> SomeClass();</div>
+<div class="line">    SomeClass instanceB = <span class="keyword">new</span> SomeClass();</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_function" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a> callerA;</div>
+<div class="line">    <a class="code hl_function" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a> callerB;</div>
+<div class="line"> </div>
+<div class="line">    callerA = <a class="code hl_function" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a>.Create(instanceA.SomeMethod);</div>
+<div class="line">    callerB = <a class="code hl_function" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a>.Create(instanceA.SomeMethod);</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerA.Equals(callerB)); </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerA == callerB); </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerA); </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerB); </div>
+<div class="line"> </div>
+<div class="line">    callerA = <a class="code hl_function" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a>.Create(instanceA.SomeMethod);</div>
+<div class="line">    callerB = <a class="code hl_function" href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a>.Create(instanceB.SomeMethod);</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerA.Equals(callerB)); </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerA == callerB); </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerA); </div>
+<div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(callerB); </div>
+<div class="line">}</div>
+<div class="ttc" id="a2___game_lib_2tools_8c_html_a5b0333a9ac0655d837396209ddb4ecb6"><div class="ttname"><a href="../../dd/ded/2___game_lib_2tools_8c.html#a5b0333a9ac0655d837396209ddb4ecb6">ScriptCaller</a></div><div class="ttdeci">enum EScriptInvokerInsertFlags ScriptCaller()</div><div class="ttdoc">Designed to hold 1 valid call.</div></div>
+<div class="ttc" id="agroup___debug_html_gaaa9351d895a1f244a26fd635c378c536"><div class="ttname"><a href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a></div><div class="ttdeci">proto void Print(void var)</div><div class="ttdoc">Prints content of variable to console/log.</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a5d94c6f7349c2aa6b7e09db9553f094c" name="a5d94c6f7349c2aa6b7e09db9553f094c"></a>
@@ -292,6 +348,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aedd8b4c2f3ab593f4666df71dbedc346" name="aedd8b4c2f3ab593f4666df71dbedc346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd8b4c2f3ab593f4666df71dbedc346">&#9670;&#160;</a></span>IsValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto <a class="el" href="../../d9/db9/classbool.html">bool</a> IsValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the ScriptCaller is valid. </p>
+
+</div>
+</div>
 <a id="a5b0333a9ac0655d837396209ddb4ecb6" name="a5b0333a9ac0655d837396209ddb4ecb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b0333a9ac0655d837396209ddb4ecb6">&#9670;&#160;</a></span>ScriptCaller()</h2>
 
@@ -349,8 +424,6 @@ In case of "Possible endless Insert detected" VME, either create an exit, remove
 <dd>
 The Endless Insert is detected by seeing if "amount of calls &gt; initial size + 128" </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html#l00007">7</a> of file <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html">tools.c</a>.</p>
-
 </div>
 </div>
 <a id="ac157bdf0b85a40d2619cbc8bc1ae5fe2" name="ac157bdf0b85a40d2619cbc8bc1ae5fe2"></a>
@@ -364,8 +437,6 @@ The Endless Insert is detected by seeing if "amount of calls &gt; initial size +
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html#l00000">0</a> of file <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html">tools.c</a>.</p>
 
 </div>
 </div>
@@ -385,8 +456,6 @@ The Endless Insert is detected by seeing if "amount of calls &gt; initial size +
 <dl class="section note"><dt>Note</dt><dd>Will throw a VME when a second one is attempted to be added </dd>
 <dd>
 If it was already added without the flag, it will also throw a VME and keep the first of all previously inserted </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html#l00013">13</a> of file <a class="el" href="../../dd/ded/2___game_lib_2tools_8c_source.html">tools.c</a>.</p>
 
 </div>
 </div>

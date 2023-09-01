@@ -1,5 +1,6 @@
 var class_contaminated_area___local =
 [
+    [ "ContaminatedArea_Local", "dc/d57/class_contaminated_area___local.html#acabd49c9574b5d8711532f6161daa5b9", null ],
     [ "EEInit", "dc/d57/class_contaminated_area___local.html#a58793c1561abb560da4377da77ad6dea", null ],
     [ "GetFinishDecayLifetime", "dc/d57/class_contaminated_area___local.html#a8977dfb048eaf8b4e9e423c9ff85d160", null ],
     [ "GetRemainingTime", "dc/d57/class_contaminated_area___local.html#a2bf9f7c81e4efbba5be101655fa98987", null ],

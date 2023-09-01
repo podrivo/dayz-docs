@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,12 +124,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a9bacc3ece395de80ef44d6bcc3d201c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af502d3157bcee38a457e5500ec9e9c31"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#af502d3157bcee38a457e5500ec9e9c31">IsZombieMilitary</a> ()</td></tr>
 <tr class="separator:af502d3157bcee38a457e5500ec9e9c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af58aa5824109ba8bbe4082c0b0a2ed5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#af58aa5824109ba8bbe4082c0b0a2ed5a">ZmbM_Mummy</a> ()</td></tr>
-<tr class="separator:af58aa5824109ba8bbe4082c0b0a2ed5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58793c1561abb560da4377da77ad6dea"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#a58793c1561abb560da4377da77ad6dea">EEInit</a> ()</td></tr>
+<tr class="separator:a58793c1561abb560da4377da77ad6dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dd672064941a56f481202d2ea65d930"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#a9dd672064941a56f481202d2ea65d930">~ZmbM_Mummy</a> ()</td></tr>
 <tr class="separator:a9dd672064941a56f481202d2ea65d930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae518188b38ce01d7e9d1bdf2ee3982f6"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#ae518188b38ce01d7e9d1bdf2ee3982f6">OnDamageDestroyed</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> oldLevel)</td></tr>
 <tr class="separator:ae518188b38ce01d7e9d1bdf2ee3982f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3138a058572e097defe428776f3b570"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#af3138a058572e097defe428776f3b570">ChangeVisual</a> ()</td></tr>
+<tr class="separator:af3138a058572e097defe428776f3b570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bacc3ece395de80ef44d6bcc3d201c5"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/class_zombie_male_base.html#a9bacc3ece395de80ef44d6bcc3d201c5">ResistContaminatedEffect</a> ()</td></tr>
 <tr class="separator:a9bacc3ece395de80ef44d6bcc3d201c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -140,8 +142,6 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for eatch Infected type. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00016">16</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9dd672064941a56f481202d2ea65d930" name="a9dd672064941a56f481202d2ea65d930"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9dd672064941a56f481202d2ea65d930">&#9670;&#160;</a></span>~ZmbM_Mummy()</h2>
@@ -153,7 +153,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ~<a class="el" href="../../d6/d91/class_zombie_male_base.html#af58aa5824109ba8bbe4082c0b0a2ed5a">ZmbM_Mummy</a> </td>
+          <td class="memname">void ~ZmbM_Mummy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -166,11 +166,63 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00227">227</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/db7/_animal_base_8c.html#af6cb938f8ed93b64d4be68ebd679c130">m_EyeLight</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af3138a058572e097defe428776f3b570" name="af3138a058572e097defe428776f3b570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3138a058572e097defe428776f3b570">&#9670;&#160;</a></span>ChangeVisual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChangeVisual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58793c1561abb560da4377da77ad6dea" name="a58793c1561abb560da4377da77ad6dea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58793c1561abb560da4377da77ad6dea">&#9670;&#160;</a></span>EEInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void EEInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>, and <a class="el" href="../../de/db7/_animal_base_8c.html#af6cb938f8ed93b64d4be68ebd679c130">m_EyeLight</a>.</p>
+
+</div>
+</div>
 <a id="af502d3157bcee38a457e5500ec9e9c31" name="af502d3157bcee38a457e5500ec9e9c31"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af502d3157bcee38a457e5500ec9e9c31">&#9670;&#160;</a></span>IsZombieMilitary() <span class="overload">[1/5]</span></h2>
 
@@ -193,8 +245,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00130">130</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
 
 </div>
 </div>
@@ -221,8 +271,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00162">162</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
-
 </div>
 </div>
 <a id="af502d3157bcee38a457e5500ec9e9c31" name="af502d3157bcee38a457e5500ec9e9c31"></a>
@@ -247,8 +295,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00170">170</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
 
 </div>
 </div>
@@ -275,8 +321,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00182">182</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
-
 </div>
 </div>
 <a id="af502d3157bcee38a457e5500ec9e9c31" name="af502d3157bcee38a457e5500ec9e9c31"></a>
@@ -301,8 +345,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00211">211</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
 
 </div>
 </div>
@@ -330,7 +372,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00232">232</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">ScriptCallQueue::CallLater()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../de/db7/_animal_base_8c.html#af6cb938f8ed93b64d4be68ebd679c130">m_EyeLight</a>.</p>
 
 </div>
 </div>
@@ -357,8 +399,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00198">198</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
-
 </div>
 </div>
 <a id="a9bacc3ece395de80ef44d6bcc3d201c5" name="a9bacc3ece395de80ef44d6bcc3d201c5"></a>
@@ -383,8 +423,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00206">206</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
 
 </div>
 </div>
@@ -411,37 +449,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00238">238</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
-
-</div>
-</div>
-<a id="af58aa5824109ba8bbe4082c0b0a2ed5a" name="af58aa5824109ba8bbe4082c0b0a2ed5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af58aa5824109ba8bbe4082c0b0a2ed5a">&#9670;&#160;</a></span>ZmbM_Mummy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ZmbM_Mummy </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00221">221</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c_source.html#l00912">IsDamageDestroyed()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
@@ -465,12 +472,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html#l00220">220</a> of file <a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/4_World/Entities/Creatures/Infected/<a class="el" href="../../d6/d74/_zombie_male_base_8c_source.html">ZombieMaleBase.c</a></li>
+<li>4_World/Entities/Creatures/Infected/<a class="el" href="../../d6/d74/_zombie_male_base_8c.html">ZombieMaleBase.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

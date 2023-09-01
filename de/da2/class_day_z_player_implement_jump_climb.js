@@ -6,6 +6,8 @@ var class_day_z_player_implement_jump_climb =
     [ "GetClimbType", "de/da2/class_day_z_player_implement_jump_climb.html#a82e857fe06144d1d8f5cd9414e9b0b76", null ],
     [ "Jump", "de/da2/class_day_z_player_implement_jump_climb.html#a55c46da27be6e9102e0121988a03737f", null ],
     [ "JumpOrClimb", "de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078", null ],
+    [ "WasSuccessful", "de/da2/class_day_z_player_implement_jump_climb.html#ae59b566afa1ce2c92b4f15ef4debf4bc", null ],
     [ "m_bIsJumpInProgress", "de/da2/class_day_z_player_implement_jump_climb.html#aca62c85189fef24b0a5b466dfb4a13f3", null ],
+    [ "m_bWasClimb", "de/da2/class_day_z_player_implement_jump_climb.html#a69ed9711a4176eb5559094e67a811705", null ],
     [ "m_Player", "de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e", null ]
 ];

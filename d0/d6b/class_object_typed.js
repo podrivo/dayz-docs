@@ -9,6 +9,7 @@ var class_object_typed =
     [ "MoveInTime", "d0/d6b/class_object_typed.html#adfd144257a02cac57a313d95c1e55c00", null ],
     [ "OnAnimationPhaseStarted", "d0/d6b/class_object_typed.html#a2c8cabdf192eedaaf51e0e12cc776d08", null ],
     [ "OnCreatePhysics", "d0/d6b/class_object_typed.html#a601320c8e39f41f1fa9eefc6cc87399d", null ],
+    [ "OnInvisibleSet", "d0/d6b/class_object_typed.html#aa96d39ea32084973886751953a349d19", null ],
     [ "OnNetworkTransformUpdate", "d0/d6b/class_object_typed.html#a8fef9a73f9c0ffe2695fdf53c9014126", null ],
     [ "ResetAnimationPhase", "d0/d6b/class_object_typed.html#a932b31be02ff9c3808a6c9aa041d55ec", null ],
     [ "SetAnimationPhase", "d0/d6b/class_object_typed.html#a3681905d7487c491fe89a5e6a1536d17", null ],

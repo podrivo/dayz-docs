@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -115,6 +115,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:adc1b1fbe659ee546f3d6b558e3013ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6be21490a86437a91202a15500ea623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/class_trigger_effect_manager.html#aa6be21490a86437a91202a15500ea623">OnPlayerEnter</a> (notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, notnull <a class="el" href="../../d6/d9f/class_effect_trigger.html">EffectTrigger</a> trigger)</td></tr>
 <tr class="separator:aa6be21490a86437a91202a15500ea623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d609f7238f28d5ffdf5a22ad9b90be7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/class_trigger_effect_manager.html#a7d609f7238f28d5ffdf5a22ad9b90be7">OnPlayerInsideEffectAreaEnter</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player)</td></tr>
+<tr class="separator:a7d609f7238f28d5ffdf5a22ad9b90be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e5fed3d973946c52ca2408a570a02c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/class_trigger_effect_manager.html#a2e5fed3d973946c52ca2408a570a02c7">OnPlayerInsideEffectAreaExit</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player)</td></tr>
+<tr class="separator:a2e5fed3d973946c52ca2408a570a02c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b68e7d1bad732fe6c21877130ffdb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/class_trigger_effect_manager.html#a33b68e7d1bad732fe6c21877130ffdb5">OnPlayerExit</a> (notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, notnull <a class="el" href="../../d6/d9f/class_effect_trigger.html">EffectTrigger</a> trigger)</td></tr>
 <tr class="separator:a33b68e7d1bad732fe6c21877130ffdb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a816208a94070300d6e852a5d87e3abc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/class_trigger_effect_manager.html#a816208a94070300d6e852a5d87e3abc7">IsPlayerInTriggerType</a> (notnull <a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, notnull <a class="el" href="../../d6/d9f/class_effect_trigger.html">EffectTrigger</a> trigger)</td></tr>
@@ -137,10 +141,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:a10c221bafc7c7b2be62f2e48e53936d2"><td class="memItemLeft" align="right" valign="top">static ref <a class="el" href="../../df/def/class_trigger_effect_manager.html">TriggerEffectManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/class_trigger_effect_manager.html#a10c221bafc7c7b2be62f2e48e53936d2">m_This</a></td></tr>
 <tr class="separator:a10c221bafc7c7b2be62f2e48e53936d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00007">7</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abcf5c08ca86b7d37f74171b97d17221a" name="abcf5c08ca86b7d37f74171b97d17221a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcf5c08ca86b7d37f74171b97d17221a">&#9670;&#160;</a></span>TriggerEffectManager()</h2>
 
@@ -164,11 +165,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00014">14</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#ac0e3c763f4b9b7411b94bf5606efbf34">m_PlayerInsiderMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00012">m_PlayerInsiderMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00025">GetInstance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/def/class_trigger_effect_manager.html#ae671369b03257153cbdd41fbac40533e">GetInstance()</a>.</p>
 
 </div>
 </div>
@@ -196,11 +195,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00019">19</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#a10c221bafc7c7b2be62f2e48e53936d2">m_This</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00009">m_This</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/d68/mission_base_8c_source.html#l00049">MissionBaseWorld::~MissionBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d26/class_mission_base_world.html#a85e17efdff93a76c3dde21fda48c99ca">MissionBaseWorld::~MissionBase()</a>.</p>
 
 </div>
 </div>
@@ -227,11 +224,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00025">25</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#a10c221bafc7c7b2be62f2e48e53936d2">m_This</a>, and <a class="el" href="../../df/def/class_trigger_effect_manager.html#abcf5c08ca86b7d37f74171b97d17221a">TriggerEffectManager()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00009">m_This</a>, and <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00014">TriggerEffectManager()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dd6/_contaminated_trigger_8c_source.html#l00108">ContaminatedTrigger_Dynamic()</a>, and <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00013">EffectTrigger::EffectTrigger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/dd6/_contaminated_trigger_8c.html#a7fe4790ce5d772afc927667b0e04c79e">ContaminatedTrigger_Dynamic()</a>, and <a class="el" href="../../d6/d9f/class_effect_trigger.html#a398d787599ac4768560532e44b707915">EffectTrigger::EffectTrigger()</a>.</p>
 
 </div>
 </div>
@@ -269,11 +264,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00106">106</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#ac0e3c763f4b9b7411b94bf5606efbf34">m_PlayerInsiderMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00012">m_PlayerInsiderMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00042">EffectTrigger::SetupClientEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d9f/class_effect_trigger.html#a25bce6281a6179a1b859d2d63393fd7a">EffectTrigger::SetupClientEffects()</a>.</p>
 
 </div>
 </div>
@@ -311,11 +304,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00045">45</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#ac0e3c763f4b9b7411b94bf5606efbf34">m_PlayerInsiderMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00012">m_PlayerInsiderMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00102">EffectTrigger::OnEnterClientEvent()</a>, and <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00083">EffectTrigger::OnEnterServerEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d9f/class_effect_trigger.html#af882f0ed5d220ff79057bd31b73692a4">EffectTrigger::OnEnterClientEvent()</a>, and <a class="el" href="../../d6/d9f/class_effect_trigger.html#ad16543cdaa1c85cc80cbb2305c04034b">EffectTrigger::OnEnterServerEvent()</a>.</p>
 
 </div>
 </div>
@@ -353,11 +344,61 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00080">80</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#ac0e3c763f4b9b7411b94bf5606efbf34">m_PlayerInsiderMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00012">m_PlayerInsiderMap</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d9f/class_effect_trigger.html#a7a9fcb087aae28b2dc84d3fdbe588c74">EffectTrigger::OnLeaveClientEvent()</a>, and <a class="el" href="../../d6/d9f/class_effect_trigger.html#ae33b313d57d7be4bc3215ed8f326de8b">EffectTrigger::OnLeaveServerEvent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00136">EffectTrigger::OnLeaveClientEvent()</a>, and <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00121">EffectTrigger::OnLeaveServerEvent()</a>.</p>
+</div>
+</div>
+<a id="a7d609f7238f28d5ffdf5a22ad9b90be7" name="a7d609f7238f28d5ffdf5a22ad9b90be7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d609f7238f28d5ffdf5a22ad9b90be7">&#9670;&#160;</a></span>OnPlayerInsideEffectAreaEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnPlayerInsideEffectAreaEnter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e5fed3d973946c52ca2408a570a02c7" name="a2e5fed3d973946c52ca2408a570a02c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e5fed3d973946c52ca2408a570a02c7">&#9670;&#160;</a></span>OnPlayerInsideEffectAreaExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnPlayerInsideEffectAreaExit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -385,11 +426,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00033">33</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/def/class_trigger_effect_manager.html#ac0e3c763f4b9b7411b94bf5606efbf34">m_PlayerInsiderMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00012">m_PlayerInsiderMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d8e/_effect_trigger_8c_source.html#l00013">EffectTrigger::EffectTrigger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d9f/class_effect_trigger.html#a398d787599ac4768560532e44b707915">EffectTrigger::EffectTrigger()</a>.</p>
 
 </div>
 </div>
@@ -414,9 +453,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00012">12</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00106">IsPlayerInTriggerType()</a>, <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00045">OnPlayerEnter()</a>, <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00080">OnPlayerExit()</a>, <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00033">RegisterTriggerType()</a>, and <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00014">TriggerEffectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/def/class_trigger_effect_manager.html#a816208a94070300d6e852a5d87e3abc7">IsPlayerInTriggerType()</a>, <a class="el" href="../../df/def/class_trigger_effect_manager.html#aa6be21490a86437a91202a15500ea623">OnPlayerEnter()</a>, <a class="el" href="../../df/def/class_trigger_effect_manager.html#a33b68e7d1bad732fe6c21877130ffdb5">OnPlayerExit()</a>, <a class="el" href="../../df/def/class_trigger_effect_manager.html#adc1b1fbe659ee546f3d6b558e3013ced">RegisterTriggerType()</a>, and <a class="el" href="../../df/def/class_trigger_effect_manager.html#abcf5c08ca86b7d37f74171b97d17221a">TriggerEffectManager()</a>.</p>
 
 </div>
 </div>
@@ -440,14 +477,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00009">9</a> of file <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00019">DestroyInstance()</a>, and <a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html#l00025">GetInstance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/def/class_trigger_effect_manager.html#ac05b74accb00f96eb7fd026d10b1058e">DestroyInstance()</a>, and <a class="el" href="../../df/def/class_trigger_effect_manager.html#ae671369b03257153cbdd41fbac40533e">GetInstance()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/4_World/Entities/ScriptedEntities/Triggers/<a class="el" href="../../d2/d9f/_trigger_effect_manager_8c_source.html">TriggerEffectManager.c</a></li>
+<li>4_World/Entities/ScriptedEntities/Triggers/<a class="el" href="../../d2/d9f/_trigger_effect_manager_8c.html">TriggerEffectManager.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

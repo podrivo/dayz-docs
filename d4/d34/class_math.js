@@ -31,6 +31,7 @@ var class_math =
     [ "NormalizeAngle", "d5/d98/group___math.html#gab2ad05380f5f8282abe3c5846903b0e4", null ],
     [ "Poisson", "d5/d98/group___math.html#gaa2b4cfc09529157a89f6aaddf45437a3", null ],
     [ "Pow", "d5/d98/group___math.html#ga46107fe5da70b9f5f33642d643dc813f", null ],
+    [ "RandomBool", "d5/d98/group___math.html#gaab0562b8e1b9f1975f4571b92318c34c", null ],
     [ "RandomFloat", "d5/d98/group___math.html#ga88747c54aed88a2142b3a22367020993", null ],
     [ "RandomFloat01", "d5/d98/group___math.html#ga990733f5c3d22ee731e6e4d76cc8e6d7", null ],
     [ "RandomFloatInclusive", "d5/d98/group___math.html#ga7ffb8c4fb175c920b81a73eebc2faa73", null ],

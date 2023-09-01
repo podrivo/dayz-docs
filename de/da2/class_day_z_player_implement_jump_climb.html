@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,7 +109,11 @@ $(document).ready(function(){initNavTree('de/da2/class_day_z_player_implement_ju
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a62af134457203fe6c773591e2e4df89c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a62af134457203fe6c773591e2e4df89c">DayZPlayerImplementJumpClimb</a> (<a class="el" href="../../d3/d85/class_day_z_player_implement.html">DayZPlayerImplement</a> pPlayer)</td></tr>
 <tr class="separator:a62af134457203fe6c773591e2e4df89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59b566afa1ce2c92b4f15ef4debf4bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#ae59b566afa1ce2c92b4f15ef4debf4bc">WasSuccessful</a> ()</td></tr>
+<tr class="memdesc:ae59b566afa1ce2c92b4f15ef4debf4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only valid immediately after 'JumpOrClimb' is called.  <br /></td></tr>
+<tr class="separator:ae59b566afa1ce2c92b4f15ef4debf4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff2dea5d13e1db6dae7b6901881de078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078">JumpOrClimb</a> ()</td></tr>
+<tr class="memdesc:aff2dea5d13e1db6dae7b6901881de078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can't change to bool return.  <br /></td></tr>
 <tr class="separator:aff2dea5d13e1db6dae7b6901881de078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1054873583f667625a6fdef93b8d15b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a1054873583f667625a6fdef93b8d15b0">CheckAndFinishJump</a> (<a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> pLandType=0)</td></tr>
 <tr class="separator:a1054873583f667625a6fdef93b8d15b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,11 +130,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aca62c85189fef24b0a5b466dfb4a13f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc821ac692b6f57d47f3502a4207397e"><td class="memItemLeft" align="right" valign="top">private <a class="el" href="../../d3/d85/class_day_z_player_implement.html">DayZPlayerImplement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e">m_Player</a></td></tr>
 <tr class="separator:abc821ac692b6f57d47f3502a4207397e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ed9711a4176eb5559094e67a811705"><td class="memItemLeft" align="right" valign="top">private <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a69ed9711a4176eb5559094e67a811705">m_bWasClimb</a></td></tr>
+<tr class="separator:a69ed9711a4176eb5559094e67a811705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00001">1</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a62af134457203fe6c773591e2e4df89c" name="a62af134457203fe6c773591e2e4df89c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62af134457203fe6c773591e2e4df89c">&#9670;&#160;</a></span>DayZPlayerImplementJumpClimb()</h2>
 
@@ -155,9 +158,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00003">3</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00093">m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e">m_Player</a>.</p>
 
 </div>
 </div>
@@ -186,9 +187,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00045">45</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00090">m_bIsJumpInProgress</a>, and <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00093">m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aca62c85189fef24b0a5b466dfb4a13f3">m_bIsJumpInProgress</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e">m_Player</a>.</p>
 
 </div>
 </div>
@@ -216,11 +215,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00054">54</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a82e857fe06144d1d8f5cd9414e9b0b76">GetClimbType()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a69ed9711a4176eb5559094e67a811705">m_bWasClimb</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e">m_Player</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00076">GetClimbType()</a>, and <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00093">m_Player</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00008">JumpOrClimb()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078">JumpOrClimb()</a>.</p>
 
 </div>
 </div>
@@ -248,9 +245,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00076">76</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00054">Climb()</a>, and <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00008">JumpOrClimb()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a056d2c11413e805d1febf403b1d212f1">Climb()</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078">JumpOrClimb()</a>.</p>
 
 </div>
 </div>
@@ -277,11 +272,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00066">66</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aca62c85189fef24b0a5b466dfb4a13f3">m_bIsJumpInProgress</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e">m_Player</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00090">m_bIsJumpInProgress</a>, and <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00093">m_Player</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00008">JumpOrClimb()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078">JumpOrClimb()</a>.</p>
 
 </div>
 </div>
@@ -308,9 +301,40 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00008">8</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
+<p>Can't change to bool return. </p>
+<p>Reset states</p>
+<p>Early exit if the player is being heavy damaged so the stagger animation can't be skipped</p>
 
-<p class="reference">References <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00054">Climb()</a>, <a class="el" href="../../d9/ddc/class_human_command_climb.html#a2524c03f013ab71da58a5276416618f5">HumanCommandClimb::DoClimbTest()</a>, <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00076">GetClimbType()</a>, <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00066">Jump()</a>, <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00093">m_Player</a>, and <a class="el" href="../../dd/da9/humansettings_8c_source.html#l00074">SHumanCommandClimbSettings()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a056d2c11413e805d1febf403b1d212f1">Climb()</a>, <a class="el" href="../../d9/ddc/class_human_command_climb.html#a2524c03f013ab71da58a5276416618f5">HumanCommandClimb::DoClimbTest()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a82e857fe06144d1d8f5cd9414e9b0b76">GetClimbType()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a55c46da27be6e9102e0121988a03737f">Jump()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a69ed9711a4176eb5559094e67a811705">m_bWasClimb</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#abc821ac692b6f57d47f3502a4207397e">m_Player</a>, and <a class="el" href="../../dd/da9/humansettings_8c.html#a64df81de9e6cc19349affd00b854e01c">SHumanCommandClimbSettings()</a>.</p>
+
+</div>
+</div>
+<a id="ae59b566afa1ce2c92b4f15ef4debf4bc" name="ae59b566afa1ce2c92b4f15ef4debf4bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59b566afa1ce2c92b4f15ef4debf4bc">&#9670;&#160;</a></span>WasSuccessful()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> WasSuccessful </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Only valid immediately after 'JumpOrClimb' is called. </p>
+
+<p class="reference">References <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aca62c85189fef24b0a5b466dfb4a13f3">m_bIsJumpInProgress</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a69ed9711a4176eb5559094e67a811705">m_bWasClimb</a>.</p>
 
 </div>
 </div>
@@ -335,9 +359,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00090">90</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a1054873583f667625a6fdef93b8d15b0">CheckAndFinishJump()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a55c46da27be6e9102e0121988a03737f">Jump()</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#ae59b566afa1ce2c92b4f15ef4debf4bc">WasSuccessful()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00045">CheckAndFinishJump()</a>, and <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00066">Jump()</a>.</p>
+</div>
+</div>
+<a id="a69ed9711a4176eb5559094e67a811705" name="a69ed9711a4176eb5559094e67a811705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69ed9711a4176eb5559094e67a811705">&#9670;&#160;</a></span>m_bWasClimb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private <a class="el" href="../../d9/db9/classbool.html">bool</a> m_bWasClimb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a056d2c11413e805d1febf403b1d212f1">Climb()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078">JumpOrClimb()</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#ae59b566afa1ce2c92b4f15ef4debf4bc">WasSuccessful()</a>.</p>
 
 </div>
 </div>
@@ -361,14 +407,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00093">93</a> of file <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00045">CheckAndFinishJump()</a>, <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00054">Climb()</a>, <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00003">DayZPlayerImplementJumpClimb()</a>, <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00066">Jump()</a>, and <a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html#l00008">JumpOrClimb()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a1054873583f667625a6fdef93b8d15b0">CheckAndFinishJump()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a056d2c11413e805d1febf403b1d212f1">Climb()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a62af134457203fe6c773591e2e4df89c">DayZPlayerImplementJumpClimb()</a>, <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#a55c46da27be6e9102e0121988a03737f">Jump()</a>, and <a class="el" href="../../de/da2/class_day_z_player_implement_jump_climb.html#aff2dea5d13e1db6dae7b6901881de078">JumpOrClimb()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/4_World/Entities/<a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c_source.html">DayZPlayerImplementJumpClimb.c</a></li>
+<li>4_World/Entities/<a class="el" href="../../d7/de7/_day_z_player_implement_jump_climb_8c.html">DayZPlayerImplementJumpClimb.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

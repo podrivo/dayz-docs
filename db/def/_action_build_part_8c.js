@@ -11,6 +11,7 @@ var _action_build_part_8c =
     [ "CreateConditionComponents", "db/def/_action_build_part_8c.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "GetAdminLogMessage", "db/def/_action_build_part_8c.html#a5cf7c0a3bd1ed2154d3b917244047a40", null ],
     [ "GetInputType", "db/def/_action_build_part_8c.html#a466eac7887a013e7294d1a4f0f9875fe", null ],
+    [ "GetSoundCategory", "db/def/_action_build_part_8c.html#acbdb98dbb58e767a0e556007ba9aeb07", null ],
     [ "HandleReciveData", "db/def/_action_build_part_8c.html#ae4b8096e050d0a62daa431588f8af715", null ],
     [ "HasAlternativeInterrupt", "db/def/_action_build_part_8c.html#a8776280df4c7e336f026407579b68872", null ],
     [ "HasProgress", "db/def/_action_build_part_8c.html#a6201cf1bf986bd9c1f571cb58a6946ed", null ],

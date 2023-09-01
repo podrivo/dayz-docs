@@ -2,6 +2,7 @@ var class_action_dig_worms =
 [
     [ "ActionDigWorms", "da/dc7/class_action_dig_worms.html#a3088cede76fa1936778eb529e4f65a95", null ],
     [ "ActionCondition", "da/dc7/class_action_dig_worms.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
+    [ "Can", "da/dc7/class_action_dig_worms.html#a732f32e7996ac2253ffd6f6e239594fb", null ],
     [ "CreateConditionComponents", "da/dc7/class_action_dig_worms.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "HasTarget", "da/dc7/class_action_dig_worms.html#ab80733e1a8c145c8ee7b04476d535d72", null ],
     [ "IsTargetFertile", "da/dc7/class_action_dig_worms.html#a060bd605d5ca239bf3afb71d4881df28", null ],

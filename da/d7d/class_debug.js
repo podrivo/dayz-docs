@@ -1,6 +1,7 @@
 var class_debug =
 [
     [ "ActionLog", "da/d7d/class_debug.html#a8c59e38da6c690521319ebdba489ad8d", null ],
+    [ "BleedingChancesLog", "da/d7d/class_debug.html#abbbfaf8b3732d9e1f755b97353b925a7", null ],
     [ "CanvasDrawLine", "da/d7d/class_debug.html#a465ffcb3bbebfca401621ef02e43b0df", null ],
     [ "CanvasDrawPoint", "da/d7d/class_debug.html#af184830590d396089ad0b2ec167a248f", null ],
     [ "ClearCanvas", "da/d7d/class_debug.html#ae28d66cac13ef9c6ef6c3c5c04d9fe10", null ],
@@ -46,6 +47,7 @@ var class_debug =
     [ "WeightLog", "da/d7d/class_debug.html#a634713d729dcca9d3cce4e48cffe43d7", null ],
     [ "LOG_DEBUG", "da/d7d/class_debug.html#a54a9dac0df927cd8a672c2700a98dfda", null ],
     [ "LOG_DEBUG_ACTION", "da/d7d/class_debug.html#a399ad8f631db8c9d515547b4660d3205", null ],
+    [ "LOG_DEBUG_BLEEDING_CHANCES", "da/d7d/class_debug.html#a51c550578a6a2f2d1e65854f712a794d", null ],
     [ "LOG_DEBUG_INV_HFSM", "da/d7d/class_debug.html#a59d516d0c4bec4a408cc6dcbb65e1fce", null ],
     [ "LOG_DEBUG_INV_MOVE", "da/d7d/class_debug.html#ac57a1607403589298a10947692766cdd", null ],
     [ "LOG_DEBUG_INV_RESERVATION", "da/d7d/class_debug.html#a8603f08ea8a8c0e1bc4e69a76bab0136", null ],

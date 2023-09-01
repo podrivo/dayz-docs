@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -387,8 +387,6 @@ Static Private Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>Unfortunately the native methods are private and have a script wrapper This is because of backwards compatibility with the old <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a> and to avoid confusion As we should continue to use <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a> for consistency, as it is too deeply rooted in script Which means switching is no longer possible due to it being harmful for already existing mods Even though using the <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a> directly would be preferred</dd>
 <dd>
 Some variables from <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a> are invalid on this level, those marked DEPRECATED by <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a> are still DEPRECATED here m_ParticleID; //!&lt; INVALID - Use <a class="el" href="../../de/d38/class_particle_source.html#a23c5351c64e9cd390663955e448f182b" title="Gets the ParticleList ID of the currently assigned particle.">GetParticleID()</a> instead m_Lifetime; //!&lt; INVALID - No EOnFrame, so no use for it m_IsPlaying; //!&lt; VALID - Set through events - <a class="el" href="../../de/d38/class_particle_source.html#a99a48160d0f1a50c1650743565a9659e" title="Ask if the particle is still playing.">IsParticlePlaying()</a> is still better m_IsRepeat; //!&lt; INVALID - Use <a class="el" href="../../de/d38/class_particle_source.html#a0ba41a82709e91225ad657168d672ea4" title="Returns whether there is a repeating particle.">IsRepeat()</a> instead m_MarkedForDeletion; //!&lt; INVALID - No EOnFrame, so no use for it Wiggle API variables are still used for Wiggle API m_ParentObject; //!&lt; VALID - Set through events - Or use <a class="el" href="../../de/d38/class_particle_source.html#af0e9e351540f23e2f220ec217cc77a43" title="Returns the parent of this Particle if there is one.">GetParticleParent()</a> or <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga1d63886deac2f225cc139143f9d79141" title="Get parent of the Effect.">GetParent()</a> m_ParticleEffect; //!&lt; VALID - Not in the same usage as <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a>, as it will always be 'this', never null </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00123">123</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae1fad797756ce239439998fa1353f07d" name="ae1fad797756ce239439998fa1353f07d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1fad797756ce239439998fa1353f07d">&#9670;&#160;</a></span>ParticleSource()</h2>
@@ -415,9 +413,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>ctor </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00126">126</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00050">Particle::m_ParticleEffect</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d85/class_particle.html#a8e9655f7f3b734ab5e0518b667495446">Particle::m_ParticleEffect</a>.</p>
 
 </div>
 </div>
@@ -445,8 +441,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </div><div class="memdoc">
 
 <p>dtor </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00132">132</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 </div>
 </div>
@@ -509,11 +503,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00783">783</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a35dbf1ec8b9be8b180b89fbb6004750a">ApplyProperties()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00547">ApplyProperties()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../da/d5b/_destruction_effect_base_8c_source.html#l00121">DestructionEffectBase::PlayParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dee/class_destruction_effect_base.html#a9f0d3ec1e3ce9d322a1ecb807d2ad229">DestructionEffectBase::PlayParticle()</a>.</p>
 
 </div>
 </div>
@@ -551,11 +543,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the properties were successfully applied </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00547">547</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a717f298f6128ca5ef0313a670f4af410">ApplyPropertiesNative()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00783">AddAsChild()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00205">CreateParticleEx()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00982">RandomizeOrientation()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00960">StopWiggle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a29bc035b2fe4dd9512ceea469f80ea8c">AddAsChild()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a534490b31670b17d6cbd494610a86289">CreateParticleEx()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a3d80cd08391d1dbc9518679cad1a5c00">RandomizeOrientation()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a1548517cfbc7e225f830af6629a6f04c">StopWiggle()</a>.</p>
 
 </div>
 </div>
@@ -593,7 +583,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the properties were successfully applied </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00547">ApplyProperties()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a35dbf1ec8b9be8b180b89fbb6004750a">ApplyProperties()</a>.</p>
 
 </div>
 </div>
@@ -645,9 +635,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Legacy function for backwards compatibility. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00249">249</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00236">CreateOnObject()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a96563554a3c2c0fe1ca4ac302c97482b">CreateOnObject()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>.</p>
 
 </div>
 </div>
@@ -693,9 +681,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Legacy function for backwards compatibility with 1.01 and below. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00270">270</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00262">CreateInWorld()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a7a969f2127f288e25af01b3116baba61">CreateInWorld()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>.</p>
 
 </div>
 </div>
@@ -757,11 +743,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a></code> Created particle instance </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00262">262</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aa613c8a80fc89086d77fa356df549ba0">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00083">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00270">Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a0f44c132b42f143ccb4300ae1988509e">Create()</a>.</p>
 
 </div>
 </div>
@@ -830,11 +814,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a></code> Created particle instance </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00236">236</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aa613c8a80fc89086d77fa356df549ba0">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00083">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00249">Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a46ef68896f4435d8b823c2c861390d3b">Create()</a>.</p>
 
 </div>
 </div>
@@ -918,11 +900,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a></code> Created particle instance when successful </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00178">178</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a534490b31670b17d6cbd494610a86289">CreateParticleEx()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00205">CreateParticleEx()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00075">PMTPlayback::TestOnePlayingStandAlone()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00059">PMTPlayback::TestOnePlayingStandAloneAutoDestroy()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00104">PMTPlayback::TestStopping()</a>, and <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00092">PMTPlayback::TestWiggleStress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a1186db3421ed29530fcf6160ca87bbd9">PMTPlayback::TestOnePlayingStandAlone()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a44f8ce1214197fb3fb563af8f766de92">PMTPlayback::TestOnePlayingStandAloneAutoDestroy()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a87056e05ce2c51a137146c06e5d18a5f">PMTPlayback::TestStopping()</a>, and <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a12f963c81674d21b46b20feeaa271b69">PMTPlayback::TestWiggleStress()</a>.</p>
 
 </div>
 </div>
@@ -950,8 +930,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </div><div class="memdoc">
 
 <p>Empty. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l01019">1019</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>.</p>
 
@@ -1030,11 +1008,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a></code> Created particle instance when successful </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00205">205</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a35dbf1ec8b9be8b180b89fbb6004750a">ApplyProperties()</a>, <a class="el" href="../../db/d35/_central_economy_8c.html#a3ccbd5dade671e8d228329395ec78ec2">ECE_LOCAL</a>, <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/dd2/class_particle_list.html#a2fb63b58c96855a93ace523b4aae3832">ParticleList::GetParticleFullPath()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a6bee8049e148e8c3c08e64e43467f56c">SetParticle()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00547">ApplyProperties()</a>, <a class="el" href="../../db/d35/_central_economy_8c_source.html#l00024">ECE_LOCAL</a>, <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00386">ParticleList::GetParticleFullPath()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00444">SetParticle()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00178">CreateParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#af25551d86ffda6d920d2799c4640d75c">CreateParticle()</a>.</p>
 
 </div>
 </div>
@@ -1062,8 +1038,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </div><div class="memdoc">
 
 <p>Empty. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l01016">1016</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>.</p>
 
@@ -1094,11 +1068,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Disables the particle automatically cleaning up itself when ending or stopping. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00151">151</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a704e03e2117151f41c0aa940bb11bd3a">SetParticleAutoDestroyFlags()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00075">PMTPlayback::TestOnePlayingStandAlone()</a>, and <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00104">PMTPlayback::TestStopping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a1186db3421ed29530fcf6160ca87bbd9">PMTPlayback::TestOnePlayingStandAlone()</a>, and <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a87056e05ce2c51a137146c06e5d18a5f">PMTPlayback::TestStopping()</a>.</p>
 
 </div>
 </div>
@@ -1137,8 +1109,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </div><div class="memdoc">
 
 <p>Empty. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l01022">1022</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>.</p>
 
@@ -1200,8 +1170,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <dl class="section note"><dt>Note</dt><dd>Backwards compatibility with <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a>, here it is the <a class="el" href="../../d8/d83/class_object.html">Object</a> itself </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../d8/d83/class_object.html">Object</a></code> The <a class="el" href="../../d8/d83/class_object.html">Object</a> with the particle component (this) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00566">566</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 </div>
 </div>
 <a id="a3fc6feb5672c239be5b4c25c5dff6121" name="a3fc6feb5672c239be5b4c25c5dff6121"></a>
@@ -1258,8 +1226,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Returns the approx. max lifetime. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>float</code> The largest lifetime sum among the emitors </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00637">637</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#afc725b1c51fd4efbf884db4621676abc">GetMaxLifetimeNative()</a>.</p>
 
 </div>
@@ -1290,7 +1256,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Returns the approx. max lifetime. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>float</code> The largest lifetime sum among the emitors </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00637">GetMaxLifetime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a2d73e31d7d7b016b9b1ca0e34a759456">GetMaxLifetime()</a>.</p>
 
 </div>
 </div>
@@ -1320,7 +1286,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Get the owner of this <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../d4/d14/class_class.html" title="Super root of all classes in Enforce script.">Class</a></code> The owner or null </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00982">RandomizeOrientation()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00960">StopWiggle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a3d80cd08391d1dbc9518679cad1a5c00">RandomizeOrientation()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a1548517cfbc7e225f830af6629a6f04c">StopWiggle()</a>.</p>
 
 </div>
 </div>
@@ -1374,8 +1340,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00830">830</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#gaf8b8d0a62c36697a8e34fc9ef2c492e3">GetParticleParm()</a>.</p>
 
 </div>
@@ -1423,8 +1387,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>float</code> The value </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00841">841</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#gaf8b8d0a62c36697a8e34fc9ef2c492e3">GetParticleParm()</a>.</p>
 
@@ -1474,11 +1436,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the path is filled in or not </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00492">492</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a4ac58c09e20eed72a5f98a43b1360414">GetParticleNative()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a4ac58c09e20eed72a5f98a43b1360414">GetParticleNative()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00123">PMTPlayback::CheckOnePlaying()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00501">GetParticleID()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00516">GetParticleIDLegacy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#aa25cb17c2fc5838bc01b4c125d8fd40e">PMTPlayback::CheckOnePlaying()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a23c5351c64e9cd390663955e448f182b">GetParticleID()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a4efbf3abd6837fbc66da785aa3f93221">GetParticleIDLegacy()</a>.</p>
 
 </div>
 </div>
@@ -1537,8 +1497,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <dl class="section note"><dt>Note</dt><dd>Internally does a sum, HasActiveParticle is better for a quick check </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>int</code> Total count of active particles </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00607">607</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a7f9b16e2673eb6683cebe216afef7187">GetParticleCountNative()</a>.</p>
 
 </div>
@@ -1570,7 +1528,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <dl class="section note"><dt>Note</dt><dd>Internally does a sum, HasActiveParticle is better for a quick check </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>int</code> Total count of active particles </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00607">GetParticleCount()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#acdd1f5c7305c675e5e15c046b5f8dd2a">GetParticleCount()</a>.</p>
 
 </div>
 </div>
@@ -1600,9 +1558,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Gets the <a class="el" href="../../dd/dd2/class_particle_list.html">ParticleList</a> ID of the currently assigned particle. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>int</code> ID of particle registered in <a class="el" href="../../dd/dd2/class_particle_list.html">ParticleList</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00501">501</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00492">GetParticle()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00401">ParticleList::GetParticleIDByName()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a3b85fd867b123c3560b50f5547fdfd63">GetParticle()</a>, <a class="el" href="../../dd/dd2/class_particle_list.html#a9a7550746a45a15914065ae710310c19">ParticleList::GetParticleIDByName()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>.</p>
 
 </div>
 </div>
@@ -1633,9 +1589,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <dl class="section note"><dt>Note</dt><dd>This is because the new GetParticleID will only work when every particle file name has a unique name In case this is not the case, then this method is what one will want to use </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>int</code> ID of particle registered in <a class="el" href="../../dd/dd2/class_particle_list.html">ParticleList</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00516">516</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00492">GetParticle()</a>, <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00392">ParticleList::GetParticleID()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a3b85fd867b123c3560b50f5547fdfd63">GetParticle()</a>, <a class="el" href="../../dd/dd2/class_particle_list.html#ac7313e25c6e271fe1a1b8e971d9699e5">ParticleList::GetParticleID()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>.</p>
 
 </div>
 </div>
@@ -1711,7 +1665,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the path is filled in or not </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00492">GetParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a3b85fd867b123c3560b50f5547fdfd63">GetParticle()</a>.</p>
 
 </div>
 </div>
@@ -1741,11 +1695,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Returns the parent of this <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a> if there is one. </p>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../d8/d83/class_object.html">Object</a></code> The parent or null if there is none </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00575">575</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga1d63886deac2f225cc139143f9d79141">GetParent()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d2d/_effect_8c_source.html#l00396">GetParent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00982">RandomizeOrientation()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00960">StopWiggle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a3d80cd08391d1dbc9518679cad1a5c00">RandomizeOrientation()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a1548517cfbc7e225f830af6629a6f04c">StopWiggle()</a>.</p>
 
 </div>
 </div>
@@ -1775,7 +1727,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Gets the amount of <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a> that are currently existing. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>int</code> Amount of <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a> that are currently existing </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/de7/_p_m_t_f_8c_source.html#l00032">PMTF::PrintActiveStats()</a>, and <a class="el" href="../../de/dbd/_p_m_t_creation_and_cleanup_8c_source.html#l00149">TestCleanup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d28/class_p_m_t_f.html#a5b1d63ff6ca3573abc86737265254126">PMTF::PrintActiveStats()</a>, and <a class="el" href="../../de/dbd/_p_m_t_creation_and_cleanup_8c.html#a192c1b903db9524f333d139f80748230">TestCleanup()</a>.</p>
 
 </div>
 </div>
@@ -1833,8 +1785,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Returns if there is any particle active. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether there is any particle active </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00590">590</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a0a9ab3f9fcc36408143a9e4140202a1c">HasActiveParticleNative()</a>.</p>
 
 </div>
@@ -1865,7 +1815,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Returns if there is any particle active. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether there is any particle active </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00590">HasActiveParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a4b56bdc02b2fe296091c09c9fc326aa2">HasActiveParticle()</a>.</p>
 
 </div>
 </div>
@@ -1912,8 +1862,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00903">903</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#gaaf48f6e9cee7070941c9c8a1fd42563d">GetParticleEmitorCount()</a>, <a class="el" href="../../da/d43/group___particle_effect.html#gaf8b8d0a62c36697a8e34fc9ef2c492e3">GetParticleParm()</a>, and <a class="el" href="../../da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f">SetParticleParm()</a>.</p>
 
@@ -1963,8 +1911,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00886">886</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#gaaf48f6e9cee7070941c9c8a1fd42563d">GetParticleEmitorCount()</a>, <a class="el" href="../../da/d43/group___particle_effect.html#ga7cf9b540067b188149be7512b29ceb60">GetParticleParmOriginal()</a>, and <a class="el" href="../../da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f">SetParticleParm()</a>.</p>
 
 </div>
@@ -1995,11 +1941,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Ask if the particle is still playing. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle is playing </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00417">417</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a8a9825afa08476ca095f9d27bedb3b73">IsParticlePlayingNative()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00123">PMTPlayback::CheckOnePlaying()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00190">PMTPlayback::CheckOnePlayingSA()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00152">PMTPlayback::CheckOnePlayingSAAD()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00222">PMTPlayback::CheckStop()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00042">PMTPlayback::TestOnePlaying()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00075">PMTPlayback::TestOnePlayingStandAlone()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00059">PMTPlayback::TestOnePlayingStandAloneAutoDestroy()</a>, <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00104">PMTPlayback::TestStopping()</a>, and <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00092">PMTPlayback::TestWiggleStress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#aa25cb17c2fc5838bc01b4c125d8fd40e">PMTPlayback::CheckOnePlaying()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a9b368f2c0f5c15c1f23ddf4f38c95b51">PMTPlayback::CheckOnePlayingSA()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a3c500a4021b77dcb12986c38509a46f0">PMTPlayback::CheckOnePlayingSAAD()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a3bcb1afdb49541dfcfb25e63d3c55c6a">PMTPlayback::CheckStop()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#ae41ad15fed6726ceb4e40cfaaf562312">PMTPlayback::TestOnePlaying()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a1186db3421ed29530fcf6160ca87bbd9">PMTPlayback::TestOnePlayingStandAlone()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a44f8ce1214197fb3fb563af8f766de92">PMTPlayback::TestOnePlayingStandAloneAutoDestroy()</a>, <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a87056e05ce2c51a137146c06e5d18a5f">PMTPlayback::TestStopping()</a>, and <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a12f963c81674d21b46b20feeaa271b69">PMTPlayback::TestWiggleStress()</a>.</p>
 
 </div>
 </div>
@@ -2029,7 +1973,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Ask if the particle is still playing. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle is playing </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00417">IsParticlePlaying()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a99a48160d0f1a50c1650743565a9659e">IsParticlePlaying()</a>.</p>
 
 </div>
 </div>
@@ -2058,8 +2002,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Returns whether there is a repeating particle. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> whether there is a repeating particle </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00622">622</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#adbefc86bb015234474a04d8a97e53309">IsRepeatNative()</a>.</p>
 
@@ -2091,7 +2033,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Returns whether there is a repeating particle. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> whether there is a repeating particle </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00622">IsRepeat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a0ba41a82709e91225ad657168d672ea4">IsRepeat()</a>.</p>
 
 </div>
 </div>
@@ -2119,8 +2061,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </div><div class="memdoc">
 
 <p>Empty. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l01025">1025</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>.</p>
 
@@ -2152,9 +2092,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Event when the particle receives a parent. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00722">722</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00048">Particle::m_ParentObject</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d85/class_particle.html#aa0446b53ca909592107765035b145f3a">Particle::m_ParentObject</a>.</p>
 
 </div>
 </div>
@@ -2183,9 +2121,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Event when the particle stops. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00755">755</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00753">Particle::IsWiggling()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00044">Particle::m_RandomizeOri</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00960">StopWiggle()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d85/class_particle.html#a34fb3aba3d56660f10db610936eab28c">Particle::IsWiggling()</a>, <a class="el" href="../../de/d85/class_particle.html#afb2e33d4be9f07e12d9d28e090c77118">Particle::m_RandomizeOri</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a1548517cfbc7e225f830af6629a6f04c">StopWiggle()</a>.</p>
 
 </div>
 </div>
@@ -2215,9 +2151,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Event when the particle is orphaned. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00732">732</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00753">Particle::IsWiggling()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00031">Particle::m_DefaultOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00033">Particle::m_DefaultPos</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00035">Particle::m_DefaultWorldOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00037">Particle::m_DefaultWorldPos</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00042">Particle::m_MaxOriInterval</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00040">Particle::m_MaxOriWiggle</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00048">Particle::m_ParentObject</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00027">Particle::m_WiggleProcessing</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00929">SetWiggle()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00960">StopWiggle()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d85/class_particle.html#a34fb3aba3d56660f10db610936eab28c">Particle::IsWiggling()</a>, <a class="el" href="../../de/d85/class_particle.html#a58935b0b6abb0e38f5a7ffa116a6e21b">Particle::m_DefaultOri</a>, <a class="el" href="../../de/d85/class_particle.html#a6e5261a3ab68c038d2c25c3107147afe">Particle::m_DefaultPos</a>, <a class="el" href="../../de/d85/class_particle.html#af1d7a20c2f44595a05eb8c7956a069d7">Particle::m_DefaultWorldOri</a>, <a class="el" href="../../de/d85/class_particle.html#a884edb57ff98635b417f2151093aa407">Particle::m_DefaultWorldPos</a>, <a class="el" href="../../de/d85/class_particle.html#a8df8c91524d52ad102c5fd325d260547">Particle::m_MaxOriInterval</a>, <a class="el" href="../../de/d85/class_particle.html#a2d83bcf311ea5352063b5d55e0f5f9d6">Particle::m_MaxOriWiggle</a>, <a class="el" href="../../de/d85/class_particle.html#aa0446b53ca909592107765035b145f3a">Particle::m_ParentObject</a>, <a class="el" href="../../de/d85/class_particle.html#a7d2d57031bbf4b791cf9c1e1f67611a8">Particle::m_WiggleProcessing</a>, <a class="el" href="../../de/d38/class_particle_source.html#a69e05dd1371d7c1b72f266cbd259740a">SetWiggle()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a1548517cfbc7e225f830af6629a6f04c">StopWiggle()</a>.</p>
 
 </div>
 </div>
@@ -2245,8 +2179,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </div><div class="memdoc">
 
 <p>Empty. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l01028">1028</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>.</p>
 
@@ -2304,8 +2236,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Empty - Only needed for <a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00137">137</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 </div>
 </div>
 <a id="a145329a70cfee05bf9e8a0f95f708b73" name="a145329a70cfee05bf9e8a0f95f708b73"></a>
@@ -2356,9 +2286,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Legacy function for backwards compatibility with 1.01 and below. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00301">301</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00293">PlayOnObject()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a484724bc82b3ff24ebca02712af9445d">PlayOnObject()</a>.</p>
 
 </div>
 </div>
@@ -2398,9 +2326,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Legacy function for backwards compatibility with 1.01 and below. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00320">320</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00312">PlayInWorld()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a9432e24d7f5e60a19ae3a80732d58a91">PlayInWorld()</a>.</p>
 
 </div>
 </div>
@@ -2448,11 +2374,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a></code> Created particle instance </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00312">312</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aa613c8a80fc89086d77fa356df549ba0">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00083">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00320">Play()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a120968842721a2cf734f1360df3193b8">Play()</a>.</p>
 
 </div>
 </div>
@@ -2521,11 +2445,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a></code> Created particle instance </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00293">293</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aa613c8a80fc89086d77fa356df549ba0">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c_source.html#l00083">CreateParticle()</a>, and <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00301">Play()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a145329a70cfee05bf9e8a0f95f708b73">Play()</a>.</p>
 
 </div>
 </div>
@@ -2572,9 +2494,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully started </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00346">346</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>, <a class="el" href="../../de/d38/class_particle_source.html#a580305d395f0115538f5d704887f51d3">PlayParticleNative()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00454">SetParticleByID()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>, <a class="el" href="../../de/d38/class_particle_source.html#a580305d395f0115538f5d704887f51d3">PlayParticleNative()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a79264acbcf48363cbea468e08d4ac6aa">SetParticleByID()</a>.</p>
 
 </div>
 </div>
@@ -2606,7 +2526,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <dl class="section note"><dt>Note</dt><dd>Will call OnParticleStart when successful </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully started </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00346">PlayParticleEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a5e6db9333b0b8f29c006d019b5de748a">PlayParticleEx()</a>.</p>
 
 </div>
 </div>
@@ -2635,9 +2555,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Randomizes a new orientation and applies it. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00982">982</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00547">ApplyProperties()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a2855e9fb521763d47108ec53f554ffff">GetOwner()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00575">GetParticleParent()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00031">Particle::m_DefaultOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00033">Particle::m_DefaultPos</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00029">Particle::m_ForceOrientationRelativeToWorld</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00042">Particle::m_MaxOriInterval</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00044">Particle::m_RandomizeOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00027">Particle::m_WiggleProcessing</a>, <a class="el" href="../../d5/d98/group___math.html#ga88747c54aed88a2142b3a22367020993">Math::RandomFloat()</a>, and <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00823">Particle::RandWiggleVector()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a35dbf1ec8b9be8b180b89fbb6004750a">ApplyProperties()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a2855e9fb521763d47108ec53f554ffff">GetOwner()</a>, <a class="el" href="../../de/d38/class_particle_source.html#af0e9e351540f23e2f220ec217cc77a43">GetParticleParent()</a>, <a class="el" href="../../de/d85/class_particle.html#a58935b0b6abb0e38f5a7ffa116a6e21b">Particle::m_DefaultOri</a>, <a class="el" href="../../de/d85/class_particle.html#a6e5261a3ab68c038d2c25c3107147afe">Particle::m_DefaultPos</a>, <a class="el" href="../../de/d85/class_particle.html#aa17a4f089ebca7be7d7a25ae758229f0">Particle::m_ForceOrientationRelativeToWorld</a>, <a class="el" href="../../de/d85/class_particle.html#a8df8c91524d52ad102c5fd325d260547">Particle::m_MaxOriInterval</a>, <a class="el" href="../../de/d85/class_particle.html#afb2e33d4be9f07e12d9d28e090c77118">Particle::m_RandomizeOri</a>, <a class="el" href="../../de/d85/class_particle.html#a7d2d57031bbf4b791cf9c1e1f67611a8">Particle::m_WiggleProcessing</a>, <a class="el" href="../../d5/d98/group___math.html#ga88747c54aed88a2142b3a22367020993">Math::RandomFloat()</a>, and <a class="el" href="../../de/d85/class_particle.html#a917bd88c6f121e393a1abd52c6299c35">Particle::RandWiggleVector()</a>.</p>
 
 </div>
 </div>
@@ -2666,8 +2584,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Method to tell the particle to reset. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully reset </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00387">387</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#acf6ac1ef27c7c4ff814a4cc8e036aebf">ResetParticleNative()</a>.</p>
 
@@ -2699,7 +2615,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Method to tell the particle to reset. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully reset </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00387">ResetParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a38007e109aa5d5413f3cb5ef2d0a8df3">ResetParticle()</a>.</p>
 
 </div>
 </div>
@@ -2728,8 +2644,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 
 <p>Method to tell the particle to restart (reset + play) </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully restarted </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00402">402</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a1d74d2ca2cabb4c057f96fc2993d65d3">RestartParticleNative()</a>.</p>
 
@@ -2761,7 +2675,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 <p>Method to tell the particle to restart (reset + play) </p>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully restarted </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00402">RestartParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a0cb8144ceae721e3cb86b7e3faab83c0">RestartParticle()</a>.</p>
 
 </div>
 </div>
@@ -2807,8 +2721,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00869">869</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#gaaf48f6e9cee7070941c9c8a1fd42563d">GetParticleEmitorCount()</a>, <a class="el" href="../../da/d43/group___particle_effect.html#gaf8b8d0a62c36697a8e34fc9ef2c492e3">GetParticleParm()</a>, and <a class="el" href="../../da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f">SetParticleParm()</a>.</p>
 
@@ -2857,8 +2769,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00853">853</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#gaaf48f6e9cee7070941c9c8a1fd42563d">GetParticleEmitorCount()</a>, <a class="el" href="../../da/d43/group___particle_effect.html#ga7cf9b540067b188149be7512b29ceb60">GetParticleParmOriginal()</a>, and <a class="el" href="../../da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f">SetParticleParm()</a>.</p>
 
 </div>
@@ -2896,7 +2806,7 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <p>p <a class="el" href="../../d4/d14/class_class.html" title="Super root of all classes in Enforce script.">Class</a> The owner or null </p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00116">FireworksLauncherClientEvent::OnFired()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00504">FireworksLauncher::OnFuseIgnitedClient()</a>, and <a class="el" href="../../da/d5b/_destruction_effect_base_8c_source.html#l00055">DestructionEffectBase::OnHealthLevelChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de8/class_fireworks_launcher_client_event.html#a5069a60b9116d79a98acfe2a74ddc775">FireworksLauncherClientEvent::OnFired()</a>, <a class="el" href="../../d9/db5/class_fireworks_launcher.html#a8d003aa88ce7961ff62822427f3aae2a">FireworksLauncher::OnFuseIgnitedClient()</a>, and <a class="el" href="../../d6/dee/class_destruction_effect_base.html#ac51338892038440663f68ebe5b92e61a">DestructionEffectBase::OnHealthLevelChanged()</a>.</p>
 
 </div>
 </div>
@@ -2950,8 +2860,6 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00819">819</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f">SetParticleParm()</a>.</p>
 
 </div>
@@ -2990,11 +2898,9 @@ Some variables from <a class="el" href="../../de/d85/class_particle.html" title=
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the creating and assigning of particle was successful </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00444">444</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>, and <a class="el" href="../../de/d38/class_particle_source.html#ac028cdb36d998353cce4b305d8cdcfa5">SetParticleNative()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>, and <a class="el" href="../../de/d38/class_particle_source.html#ac028cdb36d998353cce4b305d8cdcfa5">SetParticleNative()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00205">CreateParticleEx()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00454">SetParticleByID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a534490b31670b17d6cbd494610a86289">CreateParticleEx()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a79264acbcf48363cbea468e08d4ac6aa">SetParticleByID()</a>.</p>
 
 </div>
 </div>
@@ -3035,7 +2941,7 @@ Looping particles never end </dd>
   </dd>
 </dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00151">DisableAutoDestroy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a5a708c9582d50f481d03eb9677b6a93b">DisableAutoDestroy()</a>.</p>
 
 </div>
 </div>
@@ -3072,11 +2978,9 @@ Looping particles never end </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the creating and assigning of particle was successful </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00454">454</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd2/class_particle_list.html#a2fb63b58c96855a93ace523b4aae3832">ParticleList::GetParticleFullPath()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a6bee8049e148e8c3c08e64e43467f56c">SetParticle()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d4f/_particle_list_8c_source.html#l00386">ParticleList::GetParticleFullPath()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00444">SetParticle()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00346">PlayParticleEx()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00464">SetSource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a5e6db9333b0b8f29c006d019b5de748a">PlayParticleEx()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a6e5388c2be79c9404a419d52b853d58f">SetSource()</a>.</p>
 
 </div>
 </div>
@@ -3113,7 +3017,7 @@ Looping particles never end </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the creating and assigning of particle was successful </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00444">SetParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#a6bee8049e148e8c3c08e64e43467f56c">SetParticle()</a>.</p>
 
 </div>
 </div>
@@ -3160,8 +3064,6 @@ Looping particles never end </dd>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00808">808</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f">SetParticleParm()</a>.</p>
 
 </div>
@@ -3199,9 +3101,7 @@ Looping particles never end </dd>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00464">464</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c_source.html#l00028">particle_id</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00454">SetParticleByID()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d9c/_smoke_simulation_8c.html#a7ccc29a80f5e39e2fa08fabc79bca587">particle_id</a>, and <a class="el" href="../../de/d38/class_particle_source.html#a79264acbcf48363cbea468e08d4ac6aa">SetParticleByID()</a>.</p>
 
 </div>
 </div>
@@ -3249,11 +3149,9 @@ Looping particles never end </dd>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00929">929</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d2d/_effect_8c.html#a92e1636e54e0654531f52b036e7842b5">GetLocalPosition()</a>, <a class="el" href="../../de/d85/class_particle.html#a34fb3aba3d56660f10db610936eab28c">Particle::IsWiggling()</a>, <a class="el" href="../../de/d85/class_particle.html#a58935b0b6abb0e38f5a7ffa116a6e21b">Particle::m_DefaultOri</a>, <a class="el" href="../../de/d85/class_particle.html#a6e5261a3ab68c038d2c25c3107147afe">Particle::m_DefaultPos</a>, <a class="el" href="../../de/d85/class_particle.html#af1d7a20c2f44595a05eb8c7956a069d7">Particle::m_DefaultWorldOri</a>, <a class="el" href="../../de/d85/class_particle.html#a884edb57ff98635b417f2151093aa407">Particle::m_DefaultWorldPos</a>, <a class="el" href="../../de/d85/class_particle.html#aa17a4f089ebca7be7d7a25ae758229f0">Particle::m_ForceOrientationRelativeToWorld</a>, <a class="el" href="../../de/d85/class_particle.html#a8df8c91524d52ad102c5fd325d260547">Particle::m_MaxOriInterval</a>, <a class="el" href="../../de/d85/class_particle.html#a2d83bcf311ea5352063b5d55e0f5f9d6">Particle::m_MaxOriWiggle</a>, and <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga70ac517aa5d3b3af95f61a2d560d811f">Update()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d2d/_effect_8c_source.html#l00477">GetLocalPosition()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00753">Particle::IsWiggling()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00031">Particle::m_DefaultOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00033">Particle::m_DefaultPos</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00035">Particle::m_DefaultWorldOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00037">Particle::m_DefaultWorldPos</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00029">Particle::m_ForceOrientationRelativeToWorld</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00042">Particle::m_MaxOriInterval</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00040">Particle::m_MaxOriWiggle</a>, and <a class="el" href="../../d2/d52/_player_sound_manager_8c_source.html#l00125">Update()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00732">OnParticleUnParented()</a>, and <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00092">PMTPlayback::TestWiggleStress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#ace3423a7bec8efcded9bd2c51e34a047">OnParticleUnParented()</a>, and <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a12f963c81674d21b46b20feeaa271b69">PMTPlayback::TestWiggleStress()</a>.</p>
 
 </div>
 </div>
@@ -3290,11 +3188,9 @@ Looping particles never end </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully stopped </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00372">372</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#aa3320adf9df418f09c574861046373cd">StopParticleNative()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dec/_p_m_t_playback_8c_source.html#l00222">PMTPlayback::CheckStop()</a>, <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00538">FireworksLauncher::OnFiringStartClient()</a>, and <a class="el" href="../../db/d8d/_fireworks_launcher_8c_source.html#l00106">FireworksLauncherClientEvent::~FireworksLauncherClientEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dbd/class_p_m_t_playback.html#a3bcb1afdb49541dfcfb25e63d3c55c6a">PMTPlayback::CheckStop()</a>, <a class="el" href="../../d9/db5/class_fireworks_launcher.html#a034426e739fc07f01e6fce0cdfa7500d">FireworksLauncher::OnFiringStartClient()</a>, and <a class="el" href="../../da/de8/class_fireworks_launcher_client_event.html#a105d3566489b41d6c5bdb591cf61046f">FireworksLauncherClientEvent::~FireworksLauncherClientEvent()</a>.</p>
 
 </div>
 </div>
@@ -3332,7 +3228,7 @@ Looping particles never end </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the particle successfully stopped </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00372">StopParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#aeff8a9e463733a8f5531d5a73872ad3f">StopParticle()</a>.</p>
 
 </div>
 </div>
@@ -3361,11 +3257,9 @@ Looping particles never end </dd>
 
 <p>Stops randomized wiggle. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00960">960</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d38/class_particle_source.html#a35dbf1ec8b9be8b180b89fbb6004750a">ApplyProperties()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a2855e9fb521763d47108ec53f554ffff">GetOwner()</a>, <a class="el" href="../../de/d38/class_particle_source.html#af0e9e351540f23e2f220ec217cc77a43">GetParticleParent()</a>, <a class="el" href="../../de/d85/class_particle.html#a34fb3aba3d56660f10db610936eab28c">Particle::IsWiggling()</a>, <a class="el" href="../../de/d85/class_particle.html#a58935b0b6abb0e38f5a7ffa116a6e21b">Particle::m_DefaultOri</a>, <a class="el" href="../../de/d85/class_particle.html#a6e5261a3ab68c038d2c25c3107147afe">Particle::m_DefaultPos</a>, and <a class="el" href="../../de/d85/class_particle.html#aa17a4f089ebca7be7d7a25ae758229f0">Particle::m_ForceOrientationRelativeToWorld</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00547">ApplyProperties()</a>, <a class="el" href="../../de/d38/class_particle_source.html#a2855e9fb521763d47108ec53f554ffff">GetOwner()</a>, <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00575">GetParticleParent()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00753">Particle::IsWiggling()</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00031">Particle::m_DefaultOri</a>, <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00033">Particle::m_DefaultPos</a>, and <a class="el" href="../../d0/dfb/_particle_8c_source.html#l00029">Particle::m_ForceOrientationRelativeToWorld</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00755">OnParticleStop()</a>, and <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l00732">OnParticleUnParented()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d38/class_particle_source.html#af024f1e2e6b957cb755887c03c13fb18">OnParticleStop()</a>, and <a class="el" href="../../de/d38/class_particle_source.html#ace3423a7bec8efcded9bd2c51e34a047">OnParticleUnParented()</a>.</p>
 
 </div>
 </div>
@@ -3394,14 +3288,12 @@ Looping particles never end </dd>
 
 <p>Empty. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d75/_particle_source_8c_source.html#l01013">1013</a> of file <a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/Particles/ParticleManager/<a class="el" href="../../d7/d75/_particle_source_8c_source.html">ParticleSource.c</a></li>
+<li>3_Game/Particles/ParticleManager/<a class="el" href="../../d7/d75/_particle_source_8c.html">ParticleSource.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

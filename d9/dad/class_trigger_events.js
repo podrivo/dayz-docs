@@ -1,6 +1,8 @@
 var class_trigger_events =
 [
     [ "Enter", "d9/dad/class_trigger_events.html#a52a87dc0e91cb0c2758f4a7cb3b7c85b", null ],
+    [ "GetOnEnterInvoker", "d9/dad/class_trigger_events.html#a795194f4739c703c10684cb4d8d1c989", null ],
+    [ "GetOnLeaveInvoker", "d9/dad/class_trigger_events.html#a54d6004c7744353530aa0fb384e2223b", null ],
     [ "Leave", "d9/dad/class_trigger_events.html#a5893c02ac7a0a053da2d318de7b6c000", null ],
     [ "OnEnterBeginEvent", "d9/dad/class_trigger_events.html#a8e6034ff5536104155eda8d41a17df39", null ],
     [ "OnEnterClientEvent", "d9/dad/class_trigger_events.html#a0f6c0810e7efc29d76c8537a2927ca48", null ],
@@ -24,5 +26,7 @@ var class_trigger_events =
     [ "OnStayStartServerEvent", "d9/dad/class_trigger_events.html#a9023efd0805110e8ceb16eff99015247", null ],
     [ "Stay", "d9/dad/class_trigger_events.html#af52a45762d086f2f42d0f329f8019e98", null ],
     [ "StayFinish", "d9/dad/class_trigger_events.html#a8b0281ba8cb60c26b85d5e2d8d1f69a7", null ],
-    [ "StayStart", "d9/dad/class_trigger_events.html#a943c2a9458e9b167a567ec1b92519a58", null ]
+    [ "StayStart", "d9/dad/class_trigger_events.html#a943c2a9458e9b167a567ec1b92519a58", null ],
+    [ "m_OnEnterInvoker", "d9/dad/class_trigger_events.html#a7f7dd7ffd1f69d10bad5fa3fbd711dcf", null ],
+    [ "m_OnLeaveInvoker", "d9/dad/class_trigger_events.html#a0f0831b29c4580370de308a9c7274b03", null ]
 ];

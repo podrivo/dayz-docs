@@ -28,6 +28,7 @@ var _misc_gameplay_functions_8c =
     [ "FilterObstructingObjects", "dc/d98/_misc_gameplay_functions_8c.html#afb7c471d722888587eb082dbcff37c79", null ],
     [ "FModulus", "dc/d98/_misc_gameplay_functions_8c.html#aee6c090c366e820b89de4299b3772c99", null ],
     [ "GenerateAINoiseAtPosition", "dc/d98/_misc_gameplay_functions_8c.html#a58485640eaad0e0ce93296739ff427b4", null ],
+    [ "GetAttachedChildren", "dc/d98/_misc_gameplay_functions_8c.html#a21554a22cda6072ea98df17b21eb01b9", null ],
     [ "GetClosestSafePos", "dc/d98/_misc_gameplay_functions_8c.html#a66299ceef38e1dbe60504064e4485f1e", null ],
     [ "GetColorString", "dc/d98/_misc_gameplay_functions_8c.html#aa593d6f5a6e96cf79da3e0f890ec4a4f", null ],
     [ "GetComponentIndex", "dc/d98/_misc_gameplay_functions_8c.html#a330e8e9d9824258afb5cd88d1e614dc2", null ],

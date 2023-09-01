@@ -6,6 +6,7 @@ var class_point_light_base =
     [ "EntranceLight", "d8/dbb/class_point_light_base.html#a3a2935ee4507ef7b83df85a0e712d102", null ],
     [ "FireplaceLight", "d8/dbb/class_point_light_base.html#a01c4c462c510eaf5b5ef8fe05d19ce0c", null ],
     [ "FlareLight", "d8/dbb/class_point_light_base.html#a15e936203be347c7690dbc085237455b", null ],
+    [ "GoatLight", "d8/dbb/class_point_light_base.html#a0c58823b345d06040869f611ef360c1a", null ],
     [ "MuzzleFlashLight", "d8/dbb/class_point_light_base.html#a7edf69dc0e9d447e4a7e25537275c3d9", null ],
     [ "MuzzleFlashLight_2", "d8/dbb/class_point_light_base.html#a40dc3b69b6039d211a39f510f3e071ab", null ],
     [ "OnFrameLightSource", "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9", null ],

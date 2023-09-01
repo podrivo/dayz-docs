@@ -14,7 +14,7 @@ var searchData=
   ['clientreconnecteventparams_11',['ClientReconnectEventParams',['../d8/d18/gameplay_8c.html#a9a021640e1cdcc36ff9333aa6c728801',1,'gameplay.c']]],
   ['clientrespawneventparams_12',['ClientRespawnEventParams',['../d8/d18/gameplay_8c.html#a550f101acc9ca92ae27f949ceafb8b98',1,'gameplay.c']]],
   ['clothingbase_13',['ClothingBase',['../d1/dab/_clothing___base_8c.html#ac80b4bd15b839ab9aab452079e6c9c2f',1,'Clothing_Base.c']]],
-  ['configparams_14',['ConfigParams',['../dc/db7/_script_console_8c.html#a1775d06eeae54f0eb0a65a24b223b165',1,'ScriptConsole.c']]],
-  ['configparamsex_15',['ConfigParamsEx',['../dc/db7/_script_console_8c.html#a27d1dfc9961c71e86e9f314c287e9eda',1,'ScriptConsole.c']]],
+  ['configparams_14',['ConfigParams',['../de/d9b/_script_console_config_tab_8c.html#a1775d06eeae54f0eb0a65a24b223b165',1,'ScriptConsoleConfigTab.c']]],
+  ['configparamsex_15',['ConfigParamsEx',['../de/d9b/_script_console_config_tab_8c.html#a27d1dfc9961c71e86e9f314c287e9eda',1,'ScriptConsoleConfigTab.c']]],
   ['connectivitystatsupdatedeventparams_16',['ConnectivityStatsUpdatedEventParams',['../d8/d18/gameplay_8c.html#aa7be75fa9a935597326987a488458fc4',1,'gameplay.c']]]
 ];

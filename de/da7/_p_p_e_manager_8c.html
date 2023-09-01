@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DayZ Scripts: P:/scripts/3_Game/PPEManager/PPEManager.c File Reference</title>
+<title>DayZ Scripts: 3_Game/PPEManager/PPEManager.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,8 +105,6 @@ $(document).ready(function(){initNavTree('de/da7/_p_p_e_manager_8c.html','../../
   <div class="headertitle"><div class="title">PPEManager.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="../../de/da7/_p_p_e_manager_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -147,6 +145,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac3cf4afc2b88ead1154943cae6b55aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfec04b19badaf40c88be6cab24ce004"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/_p_p_e_manager_8c.html#acfec04b19badaf40c88be6cab24ce004">GetExistingRequester</a> (<a class="el" href="../../d2/db4/classtypename.html">typename</a> req, out <a class="el" href="../../d0/d96/class_p_p_e_requester_base.html">PPERequesterBase</a> ret)</td></tr>
 <tr class="separator:acfec04b19badaf40c88be6cab24ce004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f68b4081b36824962a386b6bc32743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a65f68b4081b36824962a386b6bc32743">IsAnyRequesterRunning</a> (<a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d2/db4/classtypename.html">typename</a> &gt; requesters)</td></tr>
+<tr class="separator:a65f68b4081b36824962a386b6bc32743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf2aa5bec2a42a7e92051658d7dc1344"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/_p_p_e_manager_8c.html#abf2aa5bec2a42a7e92051658d7dc1344">RemoveActiveRequestFromMaterials</a> (<a class="el" href="../../d0/d96/class_p_p_e_requester_base.html">PPERequesterBase</a> req)</td></tr>
 <tr class="separator:abf2aa5bec2a42a7e92051658d7dc1344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5af247d0488b90a0118a412f60add18d"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5af247d0488b90a0118a412f60add18d">RequestsCleanup</a> ()</td></tr>
@@ -236,9 +236,7 @@ Variables</h2></td></tr>
 
 <p>Changes material file associated with the script material class. Will be used very rarely, mostly set in C++ anyway. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00341">341</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a554a0b106fcf9a5fa152c30efa8cf0ef">CAMERA_ID</a>, <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00326">PPEClassBase::ChangeMaterialPathUsed()</a>, <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00041">PPEClassBase::GetMaterial()</a>, <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00133">Debug::Log()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c_source.html#l00032">name</a>, <a class="el" href="../../d1/db8/_option_selector_multistate_8c_source.html#l00135">path</a>, and <a class="el" href="../../dd/dd2/group___camera.html#gaf10ab120d06c5b35d83a3cce12da61ea">SetCameraPostProcessEffect()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a554a0b106fcf9a5fa152c30efa8cf0ef">CAMERA_ID</a>, <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#ac42626ce33b44585baf5a4390fa8527e">PPEClassBase::ChangeMaterialPathUsed()</a>, <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#a0fad1b5738dfb83e602b69b5bd8fb1f9">PPEClassBase::GetMaterial()</a>, <a class="el" href="../../da/d7d/class_debug.html#ac0a75400c551a91931b86b09125cfa59">Debug::Log()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, <a class="el" href="../../db/d3f/_plugin_day_z_infected_debug_8c.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>, and <a class="el" href="../../dd/dd2/group___camera.html#gaf10ab120d06c5b35d83a3cce12da61ea">SetCameraPostProcessEffect()</a>.</p>
 
 </div>
 </div>
@@ -257,9 +255,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00070">70</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00061">m_ExistingPostprocessRequests</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00057">m_ManagerInitialized</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">m_PPEMaterialUpdateQueueMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00062">m_UpdatingRequests</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a73619b42026369f5bc7c0fa042070b79">m_ExistingPostprocessRequests</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ada31e7a3ccd94a067e802178d7c775e1">m_ManagerInitialized</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab6d019f0e9e83a154334e64b5ea486f5">m_PPEMaterialUpdateQueueMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4f3a0b94ce13791ca81bd439850f6792">m_UpdatingRequests</a>.</p>
 
 </div>
 </div>
@@ -278,11 +274,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00187">187</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab6d019f0e9e83a154334e64b5ea486f5">m_PPEMaterialUpdateQueueMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">m_PPEMaterialUpdateQueueMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00299">ProcessApplyValueChanges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aec3843bc3b1f75b5c5bd3d453f52cd0d">ProcessApplyValueChanges()</a>.</p>
 
 </div>
 </div>
@@ -301,8 +295,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00380">380</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
 
 </div>
 </div>
@@ -332,9 +324,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00230">230</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a73619b42026369f5bc7c0fa042070b79">m_ExistingPostprocessRequests</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00061">m_ExistingPostprocessRequests</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a65f68b4081b36824962a386b6bc32743">IsAnyRequesterRunning()</a>.</p>
 
 </div>
 </div>
@@ -366,9 +358,7 @@ Variables</h2></td></tr>
 
 <p>Returns current values as <a class="el" href="../../de/d90/class_param.html" title="Base Param Class with no parameters. Used as general purpose parameter overloaded with Param1 to Para...">Param</a>. See 'PPEConstants' file for various typedefs used. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00332">332</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/db1/_p_p_e_mat_class_parameter_command_data_8c_source.html#l00122">PPEMatClassParameterCommandData::GetCurrentValues()</a>, <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00350">PPEClassBase::GetParameterCommandData()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d75/class_p_p_e_mat_class_parameter_command_data.html#a1aaee7f5a153e00f4f9fc3092f47a5e5">PPEMatClassParameterCommandData::GetCurrentValues()</a>, <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#ac587eca4a24ee3458048a1d14f5e9cb3">PPEClassBase::GetParameterCommandData()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>.</p>
 
 </div>
 </div>
@@ -400,9 +390,7 @@ Variables</h2></td></tr>
 
 <p>Returns default values as <a class="el" href="../../de/d90/class_param.html" title="Base Param Class with no parameters. Used as general purpose parameter overloaded with Param1 to Para...">Param</a>. See 'PPEConstants' file for various typedefs used. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00325">325</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/db1/_p_p_e_mat_class_parameter_command_data_8c_source.html#l00116">PPEMatClassParameterCommandData::GetDefaultValues()</a>, <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00350">PPEClassBase::GetParameterCommandData()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d75/class_p_p_e_mat_class_parameter_command_data.html#a2c18b6306852dad90049a17b7ca193ff">PPEMatClassParameterCommandData::GetDefaultValues()</a>, <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#ac587eca4a24ee3458048a1d14f5e9cb3">PPEClassBase::GetParameterCommandData()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>.</p>
 
 </div>
 </div>
@@ -423,9 +411,7 @@ Variables</h2></td></tr>
 
 <p>Launched from 'DayZGame.DeferredInit' to make earlier access, use, and updates impossible (downside of a non-static system) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">84</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../df/dc2/3___game_2tools_2tools_8c_source.html#l00009">CALL_CATEGORY_GUI</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01158">CGame::GetUpdateQueue()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00101">InitPPEManagerClassMap()</a>, <a class="el" href="../../d4/d2d/class_script_invoker.html#a97ed19e1e143a0863889e8ec011af969">ScriptInvoker::Insert()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00061">m_ExistingPostprocessRequests</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00057">m_ManagerInitialized</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">m_PPEMaterialUpdateQueueMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00060">m_UpdatedMaterials</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00062">m_UpdatingRequests</a>, and <a class="el" href="../../d2/d52/_player_sound_manager_8c_source.html#l00125">Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaae15173306f94a164b31a4baea73e5eb">CALL_CATEGORY_GUI</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a9b74a5ec02b2feede9913c77d3471b97">CGame::GetUpdateQueue()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1b9b71468e1ec8f4b788f1e6c565ff91">InitPPEManagerClassMap()</a>, <a class="el" href="../../d4/d2d/class_script_invoker.html#a97ed19e1e143a0863889e8ec011af969">ScriptInvoker::Insert()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a73619b42026369f5bc7c0fa042070b79">m_ExistingPostprocessRequests</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ada31e7a3ccd94a067e802178d7c775e1">m_ManagerInitialized</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab6d019f0e9e83a154334e64b5ea486f5">m_PPEMaterialUpdateQueueMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ad18fd913a84dd753c29a9a40dce41154">m_UpdatedMaterials</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4f3a0b94ce13791ca81bd439850f6792">m_UpdatingRequests</a>, and <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga70ac517aa5d3b3af95f61a2d560d811f">Update()</a>.</p>
 
 </div>
 </div>
@@ -446,11 +432,9 @@ Variables</h2></td></tr>
 
 <p>Ordered by 'PostProcessEffectType' for easy access through the same enum; ID saved all the same. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00101">101</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4553501b894bc6249a789dbbd2d35e86">RegisterPPEClass()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00137">RegisterPPEClass()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>.</p>
 
 </div>
 </div>
@@ -472,9 +456,27 @@ Variables</h2></td></tr>
 
 <p>Marks material class as updated and values to be set in the course of update - 'ProcessApplyValueChanges'. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00263">263</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ad18fd913a84dd753c29a9a40dce41154">m_UpdatedMaterials</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00060">m_UpdatedMaterials</a>.</p>
+</div>
+</div>
+<a id="a65f68b4081b36824962a386b6bc32743" name="a65f68b4081b36824962a386b6bc32743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f68b4081b36824962a386b6bc32743">&#9670;&#160;</a></span>IsAnyRequesterRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsAnyRequesterRunning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d2/db4/classtypename.html">typename</a> &gt;&#160;</td>
+          <td class="paramname"><em>requesters</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#acfec04b19badaf40c88be6cab24ce004">GetExistingRequester()</a>, and <a class="el" href="../../d0/d96/class_p_p_e_requester_base.html#a3941cd2a334a1f893b739b7c57751f2b">PPERequesterBase::IsRequesterRunning()</a>.</p>
 
 </div>
 </div>
@@ -493,11 +495,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00064">64</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ada31e7a3ccd94a067e802178d7c775e1">m_ManagerInitialized</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00057">m_ManagerInitialized</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00006">PPEManagerStatic::CreateManagerStatic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d99/class_p_p_e_manager_static.html#adb960a46ef9ec18adf30102b5256f25c">PPEManagerStatic::CreateManagerStatic()</a>.</p>
 
 </div>
 </div>
@@ -516,11 +516,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00299">299</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#a4b9e889c18549351882bd9ae6fc288bd">PPEClassBase::ApplyValueChanges()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5749de315222d03b6a5480df3122ed54">ClearMaterialUpdating()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ad18fd913a84dd753c29a9a40dce41154">m_UpdatedMaterials</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00269">PPEClassBase::ApplyValueChanges()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00187">ClearMaterialUpdating()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00060">m_UpdatedMaterials</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00313">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a325083b299d352e645ed7995f974ce59">Update()</a>.</p>
 
 </div>
 </div>
@@ -540,11 +538,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00284">284</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc5/_random_generator_sync_manager_8c.html#afe3bb26b57097f9a390bb1e8de15d84aa928f33270be19855038d0245a0fa06a1">Count</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab6d019f0e9e83a154334e64b5ea486f5">m_PPEMaterialUpdateQueueMap</a>, and <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#ade9e75ee4c60ab2be60a1ccfcc14cd3e">PPEClassBase::OnUpdate()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/dc5/_random_generator_sync_manager_8c_source.html#l00007">Count</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">m_PPEMaterialUpdateQueueMap</a>, and <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00201">PPEClassBase::OnUpdate()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00313">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a325083b299d352e645ed7995f974ce59">Update()</a>.</p>
 
 </div>
 </div>
@@ -564,11 +560,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00272">272</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4f3a0b94ce13791ca81bd439850f6792">m_UpdatingRequests</a>, and <a class="el" href="../../d0/d96/class_p_p_e_requester_base.html#a847188dfee1db91a521b095e23701f04">PPERequesterBase::OnUpdate()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00062">m_UpdatingRequests</a>, and <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00336">PPERequesterBase::OnUpdate()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00313">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a325083b299d352e645ed7995f974ce59">Update()</a>.</p>
 
 </div>
 </div>
@@ -590,11 +584,9 @@ Variables</h2></td></tr>
 
 <p>Registeres material class and creates data structure within. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00137">137</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#a26d9005285bbb9ebded260c69eb90df0">PPEClassBase::GetPostProcessEffectID()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00339">PPEClassBase::GetPostProcessEffectID()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00101">InitPPEManagerClassMap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1b9b71468e1ec8f4b788f1e6c565ff91">InitPPEManagerClassMap()</a>.</p>
 
 </div>
 </div>
@@ -615,9 +607,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>/brief Originally designed to rip the requester data from all relevant mat/params, but that proved too costly and volatile. /note Still, it is here, use at your own peril. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00245">245</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00319">PPERequesterBase::GetActiveRequestStructure()</a>, <a class="el" href="../../d5/dbe/_p_p_e_request_platforms_base_8c_source.html#l00065">PPERequesterBase::GetRequesterIDX()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, and <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00170">PPEClassBase::RemoveRequest()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d96/class_p_p_e_requester_base.html#a079a9830bbd96fbca45a633b5c1e9128">PPERequesterBase::GetActiveRequestStructure()</a>, <a class="el" href="../../d0/d96/class_p_p_e_requester_base.html#ade669c1b75024e40cf6d0f71a4341092">PPERequesterBase::GetRequesterIDX()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, and <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#adb75bae42e689c3664b730699a9d05c6">PPEClassBase::RemoveRequest()</a>.</p>
 
 </div>
 </div>
@@ -649,9 +639,7 @@ Variables</h2></td></tr>
 
 <p>Currently unused, requests remain in the hierarchy and are used when needed (slightly faster than constantly re-shuffilng the arrays) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00176">176</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">m_PPEMaterialUpdateQueueMap</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab6d019f0e9e83a154334e64b5ea486f5">m_PPEMaterialUpdateQueueMap</a>.</p>
 
 </div>
 </div>
@@ -672,9 +660,7 @@ Variables</h2></td></tr>
 
 <p>Unused cleanup method, should it be ever needed. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00258">258</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00313">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a325083b299d352e645ed7995f974ce59">Update()</a>.</p>
 
 </div>
 </div>
@@ -694,9 +680,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00142">142</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/d2c/_p_p_e_request_data_8c_source.html#l00069">PPERequestParamDataBase::GetMaterialID()</a>, <a class="el" href="../../d4/d2c/_p_p_e_request_data_8c_source.html#l00074">PPERequestParamDataBase::GetParameterID()</a>, <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00151">PPEClassBase::InsertParamValueData()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00151">SetMaterialParamUpdating()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dbb/class_p_p_e_request_param_data_base.html#a917b4d6228e9f3c22e7c2c60febd8234">PPERequestParamDataBase::GetMaterialID()</a>, <a class="el" href="../../d0/dbb/class_p_p_e_request_param_data_base.html#a1f0627e588d65110a819be7250e76e7e">PPERequestParamDataBase::GetParameterID()</a>, <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#a59e2e5ddc629f9d2f36b2bc177fcd5f4">PPEClassBase::InsertParamValueData()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aaca68301fd7adfefb48f0bab6df8f671">SetMaterialParamUpdating()</a>.</p>
 
 </div>
 </div>
@@ -734,11 +718,9 @@ Variables</h2></td></tr>
 
 <p>Queues material/parameter to update (once) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00151">151</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a2a1fece8780c830f07ff9494529e1e4d">m_PPEClassMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab6d019f0e9e83a154334e64b5ea486f5">m_PPEMaterialUpdateQueueMap</a>, and <a class="el" href="../../d3/ddf/class_p_p_e_class_base.html#a791301199c4ab82570e682f795770d8b">PPEClassBase::SetParameterUpdating()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">m_PPEClassMap</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">m_PPEMaterialUpdateQueueMap</a>, and <a class="el" href="../../d9/dba/_p_p_e_mat_classes_base_8c_source.html#l00295">PPEClassBase::SetParameterUpdating()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00142">SendMaterialValueData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab50b198c90931284c15756c65c7462ff">SendMaterialValueData()</a>.</p>
 
 </div>
 </div>
@@ -770,9 +752,7 @@ Variables</h2></td></tr>
 
 <p>Marks requester as 'active'. Currently indistinguiishable from 'updating' requester, can potentially be used for intermittently updated requesters. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00193">193</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00061">m_ExistingPostprocessRequests</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a73619b42026369f5bc7c0fa042070b79">m_ExistingPostprocessRequests</a>.</p>
 
 </div>
 </div>
@@ -804,9 +784,7 @@ Variables</h2></td></tr>
 
 <p>Marks requester as 'updating' and to be processed on manager update. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00209">209</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00133">Debug::Log()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00062">m_UpdatingRequests</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d7d/class_debug.html#ac0a75400c551a91931b86b09125cfa59">Debug::Log()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4f3a0b94ce13791ca81bd439850f6792">m_UpdatingRequests</a>.</p>
 
 </div>
 </div>
@@ -828,9 +806,7 @@ Variables</h2></td></tr>
 
 <p>stops all effects of a certain kind </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00366">366</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00061">m_ExistingPostprocessRequests</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a73619b42026369f5bc7c0fa042070b79">m_ExistingPostprocessRequests</a>.</p>
 
 </div>
 </div>
@@ -850,9 +826,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00313">313</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00057">m_ManagerInitialized</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00299">ProcessApplyValueChanges()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00284">ProcessMaterialUpdates()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00272">ProcessRequesterUpdates()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00258">RequestsCleanup()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ada31e7a3ccd94a067e802178d7c775e1">m_ManagerInitialized</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aec3843bc3b1f75b5c5bd3d453f52cd0d">ProcessApplyValueChanges()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5dd9cab82412520ec5fb8cd169173b70">ProcessMaterialUpdates()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aed61d5da9d7ed52efd439d0870577386">ProcessRequesterUpdates()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5af247d0488b90a0118a412f60add18d">RequestsCleanup()</a>.</p>
 
 </div>
 </div>
@@ -877,7 +851,7 @@ Updates the material/parameter structure and calculates the blend values
 Sets the final values via native functions (only called once per changed parameter - optimization stonks)
 </pre><p> /note Requester serves as a centralized platform for specific effec/group of effects. Although technically the direct commands to mat/param would be feasible, this allows for easier control of effect groups, /note and clearer command hierarchy (no value setters without clear parentage). </p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00341">ChangePPEMaterial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a8dbfa415c098f074f397fdbd469ba56d">ChangePPEMaterial()</a>.</p>
 
 </div>
 </div>
@@ -893,9 +867,7 @@ Sets the final values via native functions (only called once per changed paramet
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00061">61</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00070">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00230">GetExistingRequester()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00193">SetRequestActive()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00366">StopAllEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ae89a123aad1c66a76c398b7af216aae4">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#acfec04b19badaf40c88be6cab24ce004">GetExistingRequester()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a48da27826925d0ab1d9441103e1afca2">SetRequestActive()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a23c9ee9ccb5145214a008010f02751f3">StopAllEffects()</a>.</p>
 
 </div>
 </div>
@@ -911,9 +883,7 @@ Sets the final values via native functions (only called once per changed paramet
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00057">57</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00070">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00064">PPEManager()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00313">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ae89a123aad1c66a76c398b7af216aae4">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a3f65891e72814e8a6b29c4af7885038d">PPEManager()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a325083b299d352e645ed7995f974ce59">Update()</a>.</p>
 
 </div>
 </div>
@@ -929,9 +899,7 @@ Sets the final values via native functions (only called once per changed paramet
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00058">58</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00341">ChangePPEMaterial()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00070">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00332">GetPostProcessCurrentValues()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00325">GetPostProcessDefaultValues()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00101">InitPPEManagerClassMap()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00299">ProcessApplyValueChanges()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00284">ProcessMaterialUpdates()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00137">RegisterPPEClass()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00245">RemoveActiveRequestFromMaterials()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00142">SendMaterialValueData()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00151">SetMaterialParamUpdating()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a8dbfa415c098f074f397fdbd469ba56d">ChangePPEMaterial()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ae89a123aad1c66a76c398b7af216aae4">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ad1163cb72984e768e95769db199a0212">GetPostProcessCurrentValues()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a8dba9b9e47a4cfffa4a0f9287164f566">GetPostProcessDefaultValues()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1b9b71468e1ec8f4b788f1e6c565ff91">InitPPEManagerClassMap()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aec3843bc3b1f75b5c5bd3d453f52cd0d">ProcessApplyValueChanges()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5dd9cab82412520ec5fb8cd169173b70">ProcessMaterialUpdates()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4553501b894bc6249a789dbbd2d35e86">RegisterPPEClass()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#abf2aa5bec2a42a7e92051658d7dc1344">RemoveActiveRequestFromMaterials()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ab50b198c90931284c15756c65c7462ff">SendMaterialValueData()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aaca68301fd7adfefb48f0bab6df8f671">SetMaterialParamUpdating()</a>.</p>
 
 </div>
 </div>
@@ -947,9 +915,7 @@ Sets the final values via native functions (only called once per changed paramet
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00059">59</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00070">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00187">ClearMaterialUpdating()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00284">ProcessMaterialUpdates()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00176">RemoveMaterialUpdating()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00151">SetMaterialParamUpdating()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ae89a123aad1c66a76c398b7af216aae4">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5749de315222d03b6a5480df3122ed54">ClearMaterialUpdating()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a5dd9cab82412520ec5fb8cd169173b70">ProcessMaterialUpdates()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ac25c1e5db3b4d3bcd09af9fd0d7d60e5">RemoveMaterialUpdating()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aaca68301fd7adfefb48f0bab6df8f671">SetMaterialParamUpdating()</a>.</p>
 
 </div>
 </div>
@@ -965,9 +931,7 @@ Sets the final values via native functions (only called once per changed paramet
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00060">60</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00263">InsertUpdatedMaterial()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00299">ProcessApplyValueChanges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a4e36ebc18ec5c7feca23a42fd88d46d9">InsertUpdatedMaterial()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aec3843bc3b1f75b5c5bd3d453f52cd0d">ProcessApplyValueChanges()</a>.</p>
 
 </div>
 </div>
@@ -983,9 +947,7 @@ Sets the final values via native functions (only called once per changed paramet
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00062">62</a> of file <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html">PPEManager.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00070">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00084">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00272">ProcessRequesterUpdates()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c_source.html#l00209">SetRequestUpdating()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ae89a123aad1c66a76c398b7af216aae4">Cleanup()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#a1e3b6d38df0786ccf7f938d60e386aae">Init()</a>, <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#aed61d5da9d7ed52efd439d0870577386">ProcessRequesterUpdates()</a>, and <a class="el" href="../../de/da7/_p_p_e_manager_8c.html#ac3cf4afc2b88ead1154943cae6b55aa3">SetRequestUpdating()</a>.</p>
 
 </div>
 </div>

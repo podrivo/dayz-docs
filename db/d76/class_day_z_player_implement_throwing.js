@@ -4,6 +4,7 @@ var class_day_z_player_implement_throwing =
     [ "CanChangeThrowingStance", "db/d76/class_day_z_player_implement_throwing.html#ad7b0019a897d667e3f865e9518e7d77d", null ],
     [ "CanContinueThrowing", "db/d76/class_day_z_player_implement_throwing.html#ab3968ce2a27e58c2d8a3d8c2ec88414c", null ],
     [ "CanContinueThrowingEx", "db/d76/class_day_z_player_implement_throwing.html#ae64e25c2300b8f317d71aff90c3a4a6b", null ],
+    [ "CheckFreeSpace", "db/d76/class_day_z_player_implement_throwing.html#a3e109f989087b1d071deef0c77f2f95b", null ],
     [ "HandleThrowing", "db/d76/class_day_z_player_implement_throwing.html#ac0dd1a42da302f1113f8204c42fef028", null ],
     [ "IsThrowingAnimationPlaying", "db/d76/class_day_z_player_implement_throwing.html#a6bc27564c0d546c71de68d86f93296c1", null ],
     [ "IsThrowingInProgress", "db/d76/class_day_z_player_implement_throwing.html#a19ad2e3fa5e65049c93446d0ef0ed21d", null ],

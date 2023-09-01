@@ -16,6 +16,7 @@ var _day_z_animal_8c =
     [ "GetAnimInterface", "df/d55/_day_z_animal_8c.html#a0702ddf6a618773e0e13d041c510aece", null ],
     [ "GetBoneIndexByName", "df/d55/_day_z_animal_8c.html#a97fcb2d37001b1e9aee457e3514f423f", null ],
     [ "GetCurrentAnimationInstanceUUID", "df/d55/_day_z_animal_8c.html#a7ba32734393c2c4e52dbf93a1c456c24", null ],
+    [ "HasFixedActionTargetCursorPosition", "df/d55/_day_z_animal_8c.html#a5e53e3e9c829cafac47d8620581de0ce", null ],
     [ "IsDayZCreature", "df/d55/_day_z_animal_8c.html#af674c4b4009fa9c2cd0ba0db201bc334", null ],
     [ "IsDeathConditionMet", "df/d55/_day_z_animal_8c.html#afce67205115ddb10d3150ec487146419", null ],
     [ "IsDeathProcessed", "df/d55/_day_z_animal_8c.html#a7f0d048637f854d45a0d01ccbb579e60", null ],

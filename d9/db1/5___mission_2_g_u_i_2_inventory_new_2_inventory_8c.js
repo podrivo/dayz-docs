@@ -77,6 +77,7 @@ var 5___mission_2_g_u_i_2_inventory_new_2_inventory_8c =
     [ "m_InvInputWrappersCount", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#ad328d5ac2ddd20eff7828a8dcd7efdda", null ],
     [ "m_InvUAInput", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a606f8981bfb9fe3512c9c34be7b5d1c9", null ],
     [ "m_LeftArea", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a734c1fdbea8ed08b5864be1da1f29c30", null ],
+    [ "m_NeedUpdateConsoleToolbar", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#acb59e4327f56b6178221b10c2e9e52d0", null ],
     [ "m_PlayerAttachmentsIndexes", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a7f3d8f375e127a9053baff6ab92accf1", null ],
     [ "m_PlayerPreview", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a9cea8a7d2145ab7d58c42aaf8e6d4c38", null ],
     [ "m_QBHoveredItems", "d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#ae922dacc234c89e3d5ec2558b470a003", null ],

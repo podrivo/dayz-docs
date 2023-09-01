@@ -7,6 +7,7 @@ var class_action_build_part =
     [ "CreateActionData", "d3/d35/class_action_build_part.html#a5e0f63043b33849610c0ad517a105a80", null ],
     [ "CreateConditionComponents", "d3/d35/class_action_build_part.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "GetAdminLogMessage", "d3/d35/class_action_build_part.html#a5cf7c0a3bd1ed2154d3b917244047a40", null ],
+    [ "GetSoundCategory", "d3/d35/class_action_build_part.html#acbdb98dbb58e767a0e556007ba9aeb07", null ],
     [ "HandleReciveData", "d3/d35/class_action_build_part.html#ae4b8096e050d0a62daa431588f8af715", null ],
     [ "OnActionInfoUpdate", "d3/d35/class_action_build_part.html#a2b6dbc5004ccc3fb83b39577c5ae9b32", null ],
     [ "OnFinishProgressServer", "d3/d35/class_action_build_part.html#a00cda41fe9dd093059da5c4b83b591bc", null ],

@@ -181,6 +181,7 @@ var class_weapon_stable_state =
     [ "IsBoltOpen", "dc/dcc/class_weapon_stable_state.html#a4c09bde99bd60b7e18e0da605a7882ac", null ],
     [ "IsBoltOpen", "dc/dcc/class_weapon_stable_state.html#a4c09bde99bd60b7e18e0da605a7882ac", null ],
     [ "IsBoltOpen", "dc/dcc/class_weapon_stable_state.html#a4c09bde99bd60b7e18e0da605a7882ac", null ],
+    [ "IsDischarged", "dc/dcc/class_weapon_stable_state.html#a8bbba5af8edfe436c31a5d4da3f6f576", null ],
     [ "IsJammed", "dc/dcc/class_weapon_stable_state.html#aac14d196e64cad535c5aa50f0c954df3", null ],
     [ "IsJammed", "dc/dcc/class_weapon_stable_state.html#aac14d196e64cad535c5aa50f0c954df3", null ],
     [ "IsJammed", "dc/dcc/class_weapon_stable_state.html#aac14d196e64cad535c5aa50f0c954df3", null ],

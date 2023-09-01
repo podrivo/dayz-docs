@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -253,8 +253,6 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ggaefc8378ef88030349d44d0da88a3a834ad468937383ff5cbd3e39d3086a6548ee" name="ggaefc8378ef88030349d44d0da88a3a834ad468937383ff5cbd3e39d3086a6548ee"></a>ALWAYS_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d13/_en_physics_8c_source.html#l00085">85</a> of file <a class="el" href="../../d1/d13/_en_physics_8c_source.html">EnPhysics.c</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -380,7 +378,7 @@ Functions</h2></td></tr>
 
 <p>Applies impuls on a rigidbody (origin) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/de5/_zombie_base_8c_source.html#l00384">DayZInfected::EvaluateDeathAnimation()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l01005">ThrowEntityFromInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dca/class_day_z_infected.html#a812af7f3bbd978b626fa21cae3909174">DayZInfected::EvaluateDeathAnimation()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c.html#abfa8e9fb82ef57cd8a70bb6afda4e24a">ThrowEntityFromInventory()</a>.</p>
 
 </div>
 </div>
@@ -611,7 +609,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">mass</td><td>Body mass </td></tr>
     <tr><td class="paramname">geoms</td><td>array of custom made geometries <div class="fragment"><div class="line">autoptr <a class="code hl_class" href="../../d5/d43/class_physics_geom_def.html">PhysicsGeomDef</a> geoms[] = {<a class="code hl_class" href="../../d5/d43/class_physics_geom_def.html">PhysicsGeomDef</a>(<span class="stringliteral">&quot;&quot;</span>, <a class="code hl_function" href="../../d2/d3b/group___geometry.html#gae939af78ac68f864f3db4bed60430fb6">dGeomCreateBox</a>(size), <span class="stringliteral">&quot;material/default&quot;</span>, 0xffffffff)};</div>
 <div class="line"><a class="code hl_function" href="../../d7/d1e/group___rigid_body.html#gaa324165b985fa1639addae012bdad502">dBodyCreateDynamicEx</a>(<span class="keyword">this</span>, center, 1.0, geoms);</div>
-<div class="ttc" id="aclass_physics_geom_def_html"><div class="ttname"><a href="../../d5/d43/class_physics_geom_def.html">PhysicsGeomDef</a></div><div class="ttdef"><b>Definition</b> <a href="../../d1/d13/_en_physics_8c_source.html#l00031">EnPhysics.c:32</a></div></div>
+<div class="ttc" id="aclass_physics_geom_def_html"><div class="ttname"><a href="../../d5/d43/class_physics_geom_def.html">PhysicsGeomDef</a></div><div class="ttdef"><b>Definition</b> EnPhysics.c:32</div></div>
 <div class="ttc" id="agroup___geometry_html_gae939af78ac68f864f3db4bed60430fb6"><div class="ttname"><a href="../../d2/d3b/group___geometry.html#gae939af78ac68f864f3db4bed60430fb6">dGeomCreateBox</a></div><div class="ttdeci">proto native dGeom dGeomCreateBox(vector size)</div><div class="ttdoc">Creates box geometry.</div></div>
 <div class="ttc" id="agroup___rigid_body_html_gaa324165b985fa1639addae012bdad502"><div class="ttname"><a href="../../d7/d1e/group___rigid_body.html#gaa324165b985fa1639addae012bdad502">dBodyCreateDynamicEx</a></div><div class="ttdeci">proto bool dBodyCreateDynamicEx(notnull IEntity ent, vector centerOfMass, float mass, PhysicsGeomDef geoms[])</div></div>
 </div><!-- fragment --> </td></tr>
@@ -704,7 +702,7 @@ Functions</h2></td></tr>
 
 <p>Destroys attached physics body. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/db7/_script_console_8c_source.html#l02417">UIScriptedMenu::SetPreviewObject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/db7/class_script_console_items_tab.html#a4a71f8cd7470a1f576429c0267691bd0">ScriptConsoleItemsTab::SetPreviewObject()</a>.</p>
 
 </div>
 </div>
@@ -823,7 +821,7 @@ Functions</h2></td></tr>
 
 <p>Gets angular velocity for a rigidbody. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00072">OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -891,7 +889,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../df/d44/_transport_8c_source.html#l00176">EntityAI::IsIgnoredObject()</a>, and <a class="el" href="../../d8/dbb/_fireplace_base_8c_source.html#l02477">IsSpaceFor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/df9/class_entity_a_i.html#a208fa77172384af5a0ad1846271c0e55">EntityAI::IsIgnoredObject()</a>, and <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#acf5f8cd5507f976f83c5c1a0e9c80e7e">IsSpaceFor()</a>.</p>
 
 </div>
 </div>
@@ -993,7 +991,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c_source.html#l01047">CheckContactCache()</a>, and <a class="el" href="../../d5/d71/_car_script_8c_source.html#l02461">GetMomentum()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#a65638cecaf096d3b309491d72546d326">CheckContactCache()</a>, and <a class="el" href="../../d5/d71/_car_script_8c.html#a979431c323600634ce75adfbedda51ab">GetMomentum()</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1039,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dad/_fireplace_8c_source.html#l00034">FireplaceBase::ContactEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#ac60de25d314b7c46e1a100993f9798a0">FireplaceBase::ContactEvent()</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1059,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../df/d2e/_item_base_8c_source.html#l03143">InventoryItem::OnVariablesSynchronized()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d0e/class_inventory_item.html#ad183155e7592e816863539c54b6fa83f">InventoryItem::OnVariablesSynchronized()</a>.</p>
 
 </div>
 </div>
@@ -1166,7 +1164,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="reference">Referenced by <a class="el" href="../../da/ddf/_developer_teleport_8c_source.html#l00079">DeveloperTeleport::SetPlayerPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d2e/class_developer_teleport.html#ab9fdc91be54045f9edd87d2c566d40f2">DeveloperTeleport::SetPlayerPosition()</a>.</p>
 
 </div>
 </div>
@@ -1505,12 +1503,12 @@ Functions</h2></td></tr>
 <div class="line"><a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>( <a class="code hl_function" href="../../d7/d1e/group___rigid_body.html#ga3e827787960ad4f9fd63618e6bf20e8a">GetVelocity</a>(player) );</div>
 <div class="line"> </div>
 <div class="line">&gt;&gt; &lt;0,0,0&gt;</div>
-<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition</b> <a href="../../d8/dc8/_day_z_game_8c_source.html#l03654">DayZGame.c:3654</a></div></div>
+<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition</b> DayZGame.c:3719</div></div>
 <div class="ttc" id="agroup___debug_html_gaaa9351d895a1f244a26fd635c378c536"><div class="ttname"><a href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a></div><div class="ttdeci">proto void Print(void var)</div><div class="ttdoc">Prints content of variable to console/log.</div></div>
 <div class="ttc" id="agroup___rigid_body_html_ga3e827787960ad4f9fd63618e6bf20e8a"><div class="ttname"><a href="../../d7/d1e/group___rigid_body.html#ga3e827787960ad4f9fd63618e6bf20e8a">GetVelocity</a></div><div class="ttdeci">proto native vector GetVelocity(notnull IEntity ent)</div><div class="ttdoc">Returns linear velocity.</div></div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c_source.html#l01047">CheckContactCache()</a>, <a class="el" href="../../d5/d71/_car_script_8c_source.html#l00759">EOnPostSimulate()</a>, <a class="el" href="../../d5/d71/_car_script_8c_source.html#l02461">GetMomentum()</a>, <a class="el" href="../../d5/d71/_car_script_8c_source.html#l01018">OnContact()</a>, <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c_source.html#l00072">OnUpdate()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00972">ThrowAllItemsInInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#a65638cecaf096d3b309491d72546d326">CheckContactCache()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a07f9b8f0e51242525d4c618354a03fe0">EOnPostSimulate()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a979431c323600634ce75adfbedda51ab">GetMomentum()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#acba5b2837a47ec398b44a0e8802b6459">OnContact()</a>, <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c.html#af5ca1e23035798fe2f034cdd5f36f702">ThrowAllItemsInInventory()</a>.</p>
 
 </div>
 </div>
@@ -1549,7 +1547,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d00/_easter_egg_8c_source.html#l00157">Capture()</a>, <a class="el" href="../../d9/d00/_easter_egg_8c_source.html#l00185">Release()</a>, and <a class="el" href="../../da/ddf/_developer_teleport_8c_source.html#l00079">DeveloperTeleport::SetPlayerPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d00/_easter_egg_8c.html#a89c7c370703d18b4d81b4a7b1e035b8c">Capture()</a>, <a class="el" href="../../d9/d00/_easter_egg_8c.html#a6d4e64e3fcb08879351051793966aae0">Release()</a>, and <a class="el" href="../../dd/d2e/class_developer_teleport.html#ab9fdc91be54045f9edd87d2c566d40f2">DeveloperTeleport::SetPlayerPosition()</a>.</p>
 
 </div>
 </div>

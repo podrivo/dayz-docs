@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -226,8 +226,6 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Scripted <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01537">1537</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afd8dece2e892db27ae62b4b54ca3a1ee" name="afd8dece2e892db27ae62b4b54ca3a1ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd8dece2e892db27ae62b4b54ca3a1ee">&#9670;&#160;</a></span>Trigger()</h2>
@@ -254,9 +252,7 @@ Private Attributes</h2></td></tr>
 
 <p>ctor </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00053">53</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>, and <a class="el" href="../../d6/dae/group___debug_shape.html#gaa9ba3114af4e5ecafd82fcdfd3c196b1">SetFlags()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>, and <a class="el" href="../../d6/dae/group___debug_shape.html#gaa9ba3114af4e5ecafd82fcdfd3c196b1">SetFlags()</a>.</p>
 
 </div>
 </div>
@@ -284,8 +280,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>dtor </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00062">62</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
 
 </div>
 </div>
@@ -315,13 +309,10 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adding of new <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a>. </p>
-<p>DEBUG</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">228</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4b/class_trigger.html#a1186b5fa16f51dacfe0d0afb7069fa0a">CreateInsider()</a>, <a class="el" href="../../d9/dad/class_trigger_events.html#a52a87dc0e91cb0c2758f4a7cb3b7c85b">TriggerEvents::Enter()</a>, <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c.html#a2731e77365c090d55fd098fedd5d2b1e">GetDebugName()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#ae07091bee1271e12af09c63aa22de5d5">GetInsiderForObject()</a>, <a class="el" href="../../d2/db9/class_trigger_insider.html#a64b2c2de77f996761fba532adaea8c18">TriggerInsider::lastUpdated</a>, <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a6f3e815bc03adcee76332eb159bdc042">ShouldRemoveInsider()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a716c452f8f306d61776e32864a3b900c">ShouldRemoveInsiderNoLeave()</a>, <a class="el" href="../../d2/db9/class_trigger_insider.html#aab1a3e4bdc169e52d8c438c08e25188a">TriggerInsider::timeEntered</a>, <a class="el" href="../../d2/db9/class_trigger_insider.html#a566d626024d8deb453bda457a8dce80d">TriggerInsider::timeStamp</a>, and <a class="el" href="../../da/d7d/class_debug.html#a078e2e64dcdc09e1b926d70fd69b8efc">Debug::TriggerLog()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00222">CreateInsider()</a>, <a class="el" href="../../de/dcb/_trigger_events_8c_source.html#l00009">TriggerEvents::Enter()</a>, <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00436">GetDebugName()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00134">GetInsiderForObject()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00016">TriggerInsider::lastUpdated</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00204">ShouldRemoveInsider()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00210">ShouldRemoveInsiderNoLeave()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00013">TriggerInsider::timeEntered</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00010">TriggerInsider::timeStamp</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00163">Debug::TriggerLog()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00094">EOnEnter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#aff5b265712e0c6e5f3538b6f5b8807f2">EOnEnter()</a>.</p>
 
 </div>
 </div>
@@ -351,9 +342,7 @@ Private Attributes</h2></td></tr>
 
 <p>Condition whether an <a class="el" href="../../d8/d83/class_object.html">Object</a> can be added as <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> (checked before calling AddInsider) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00198">198</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00094">EOnEnter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#aff5b265712e0c6e5f3538b6f5b8807f2">EOnEnter()</a>.</p>
 
 </div>
 </div>
@@ -383,9 +372,7 @@ Private Attributes</h2></td></tr>
 
 <p>Used for easily overriding <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> creation without rewriting AddInsider. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00222">222</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">AddInsider()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a870ed3df7a11413746d8a2e1b7b5e7e8">AddInsider()</a>.</p>
 
 </div>
 </div>
@@ -425,9 +412,7 @@ Private Attributes</h2></td></tr>
 
 <p>When an <a class="el" href="../../d8/d83/class_object.html">Object</a> enters the trigger add it to Insiders. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00094">94</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">AddInsider()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00198">CanAddObjectAsInsider()</a>, and <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4b/class_trigger.html#a870ed3df7a11413746d8a2e1b7b5e7e8">AddInsider()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a1eaae7983e07de7e3e3d1ebf5222e82d">CanAddObjectAsInsider()</a>, and <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>.</p>
 
 </div>
 </div>
@@ -468,9 +453,7 @@ Private Attributes</h2></td></tr>
 <p>When an <a class="el" href="../../d8/d83/class_object.html">Object</a> touches the <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a>, we want to register it being inside the <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a> -&gt; Replaced by EOnEnter. </p>
 <p>We want to update the insiders every frame (or do we?) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00088">88</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00042">TIMEOUT</a>, and <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01562">UpdateInsiders()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4b/class_trigger.html#ab9f12dae685ebdefb69bb04967a1ff43">TIMEOUT</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#abd7f95531e1386daf956fb07690a2157">UpdateInsiders()</a>.</p>
 
 </div>
 </div>
@@ -510,9 +493,7 @@ Private Attributes</h2></td></tr>
 
 <p>Set the default extents of the <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a> only once it is properly initialized. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00074">74</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00116">SetExtents()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4b/class_trigger.html#a27f15f48e7670e5ffcf84f8865f502c6">SetExtents()</a>.</p>
 
 </div>
 </div>
@@ -552,9 +533,7 @@ Private Attributes</h2></td></tr>
 
 <p>When an <a class="el" href="../../d8/d83/class_object.html">Object</a> exits the trigger remove it from Insiders. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00102">102</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00289">RemoveInsiderByObject()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#a903b8a314884796f5833f31b20261866">RemoveInsiderByObject()</a>.</p>
 
 </div>
 </div>
@@ -584,11 +563,9 @@ Private Attributes</h2></td></tr>
 
 <p>Gets the <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> for the <a class="el" href="../../d8/d83/class_object.html">Object</a> if it exists. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00134">134</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">AddInsider()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a870ed3df7a11413746d8a2e1b7b5e7e8">AddInsider()</a>.</p>
 
 </div>
 </div>
@@ -618,9 +595,7 @@ Private Attributes</h2></td></tr>
 
 <p>Gets the index in m_insiders for the <a class="el" href="../../d8/d83/class_object.html">Object</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00149">149</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>.</p>
 
 </div>
 </div>
@@ -649,11 +624,9 @@ Private Attributes</h2></td></tr>
 
 <p>Get the current <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> array, left for backwards compatibility, moved down from <a class="el" href="../../d7/d05/class_man_trigger.html" title="Trigger only accepting Object which IsMan()">ManTrigger</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00128">128</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/df0/_construction_8c_source.html#l01338">ConstructionBoxTrigger::IsColliding()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd2/class_construction_box_trigger.html#a2a738a606496a6b1068aa2efc75871c3">ConstructionBoxTrigger::IsColliding()</a>.</p>
 
 </div>
 </div>
@@ -693,8 +666,6 @@ Private Attributes</h2></td></tr>
 
 <p>Get the radius of the CollisionBox, simply left for backwards compatibility. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00122">122</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
 </div>
 </div>
 <a id="ab10d17d9f4f3d7ec920f58b830e30131" name="ab10d17d9f4f3d7ec920f58b830e30131"></a>
@@ -721,11 +692,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01543">1543</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a2516b97ad8217d8a8387566179afbc88">m_ParentObj</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d8c/_trap_trigger_8c_source.html#l00058">m_ParentObj</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00169">OnEnterBeginEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a9cb9e77316dbedc76765fe41a8b96f48">OnEnterBeginEvent()</a>.</p>
 
 </div>
 </div>
@@ -753,8 +722,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00187">187</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
 </div>
 </div>
 <a id="a9cb9e77316dbedc76765fe41a8b96f48" name="a9cb9e77316dbedc76765fe41a8b96f48"></a>
@@ -781,9 +748,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00169">169</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01543">OnEnter()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#ab10d17d9f4f3d7ec920f58b830e30131">OnEnter()</a>.</p>
 
 </div>
 </div>
@@ -811,11 +776,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01553">1553</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a2516b97ad8217d8a8387566179afbc88">m_ParentObj</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d8c/_trap_trigger_8c_source.html#l00058">m_ParentObj</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00175">OnLeaveBeginEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a63a1f3233d91d1cb18e12846931fa251">OnLeaveBeginEvent()</a>.</p>
 
 </div>
 </div>
@@ -843,8 +806,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00189">189</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
 </div>
 </div>
 <a id="a63a1f3233d91d1cb18e12846931fa251" name="a63a1f3233d91d1cb18e12846931fa251"></a>
@@ -871,9 +832,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00175">175</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01553">OnLeave()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#ab6172a08741fd994ec03b9b1446d6438">OnLeave()</a>.</p>
 
 </div>
 </div>
@@ -917,9 +876,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00361">361</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../d0/d13/_en_convert_8c_source.html#l00110">vector::Zero</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector::Zero</a>.</p>
 
 </div>
 </div>
@@ -958,13 +915,10 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Removing of <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a>. </p>
-<p>DEBUG</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00268">268</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d6f/_particle_manager_8c.html#a2731e77365c090d55fd098fedd5d2b1e">GetDebugName()</a>, <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, <a class="el" href="../../d9/dad/class_trigger_events.html#a5893c02ac7a0a053da2d318de7b6c000">TriggerEvents::Leave()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>, and <a class="el" href="../../da/d7d/class_debug.html#a078e2e64dcdc09e1b926d70fd69b8efc">Debug::TriggerLog()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00436">GetDebugName()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, <a class="el" href="../../de/dcb/_trigger_events_8c_source.html#l00109">TriggerEvents::Leave()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00163">Debug::TriggerLog()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00289">RemoveInsiderByObject()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00307">UpdateInsiders()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a903b8a314884796f5833f31b20261866">RemoveInsiderByObject()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#a5fc68a2725c6cbe129300efd0b9fd97b">UpdateInsiders()</a>.</p>
 
 </div>
 </div>
@@ -994,11 +948,9 @@ Private Attributes</h2></td></tr>
 
 <p>Removing of <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> through <a class="el" href="../../d8/d83/class_object.html">Object</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00289">289</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#a44837c1ea7acdb34035ddb60b87ef9df">RemoveInsider()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00268">RemoveInsider()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00102">EOnLeave()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a3e32e966f7a9b95f1db5afa2abdc9a59">EOnLeave()</a>.</p>
 
 </div>
 </div>
@@ -1038,11 +990,9 @@ Private Attributes</h2></td></tr>
 
 <p>Set the size of the <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a>, avoid using SetCollisionBox directly. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00116">116</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../dc/d9f/_scripted_entity_8c.html#a22ba5dfb63f14c85f50e1e8578603dbf">SetCollisionBox()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/df0/_construction_8c_source.html#l01180">CreateCollisionTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c_source.html#l00530">CreateTrigger()</a>, <a class="el" href="../../d7/d6f/_trap___bear_8c_source.html#l00043">TrapBase::CreateTrigger()</a>, <a class="el" href="../../d1/dd0/_man_trigger_8c_source.html#l00004">ManTrigger::EOnInit()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00074">EOnInit()</a>, and <a class="el" href="../../de/d15/_underground_trigger_8c_source.html#l00089">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/df0/_construction_8c.html#ab34712ec64ae61864669650f13eb31a6">CreateCollisionTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a56e9fba9303f5e86f50ccf4c54562794">CreateTrigger()</a>, <a class="el" href="../../d8/dec/class_trap_base.html#afc7c03491c0efb104d0d0d108993d733">TrapBase::CreateTrigger()</a>, <a class="el" href="../../d7/d05/class_man_trigger.html#ab9cb1478eb08f9ce33c4549fd6e26b50">ManTrigger::EOnInit()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#ab9cb1478eb08f9ce33c4549fd6e26b50">EOnInit()</a>, and <a class="el" href="../../de/d15/_underground_trigger_8c.html#a7419e11ff68daf0a1f8958b54c4c3093">Init()</a>.</p>
 
 </div>
 </div>
@@ -1070,9 +1020,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01567">1567</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d6/d8c/_trap_trigger_8c_source.html#l00058">m_ParentObj</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a2516b97ad8217d8a8387566179afbc88">m_ParentObj</a>.</p>
 
 </div>
 </div>
@@ -1100,9 +1048,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01572">1572</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d6/d21/_hand___events_8c_source.html#l00042">m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354">m_Player</a>.</p>
 
 </div>
 </div>
@@ -1132,9 +1078,7 @@ Private Attributes</h2></td></tr>
 
 <p>Condition whether a <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> should still be updated or not (checked in update loop and before adding) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00204">204</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">AddInsider()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00307">UpdateInsiders()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a870ed3df7a11413746d8a2e1b7b5e7e8">AddInsider()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#a5fc68a2725c6cbe129300efd0b9fd97b">UpdateInsiders()</a>.</p>
 
 </div>
 </div>
@@ -1164,9 +1108,7 @@ Private Attributes</h2></td></tr>
 
 <p>Condition whether a <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> should still be updated or not, skips OnLeaveEvent (checked in update loop and before adding) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00210">210</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">AddInsider()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00307">UpdateInsiders()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a870ed3df7a11413746d8a2e1b7b5e7e8">AddInsider()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#a5fc68a2725c6cbe129300efd0b9fd97b">UpdateInsiders()</a>.</p>
 
 </div>
 </div>
@@ -1194,9 +1136,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01562">1562</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00088">EOnFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#af518addd8ca6ecba428ecee6b06506a9">EOnFrame()</a>.</p>
 
 </div>
 </div>
@@ -1225,11 +1165,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update the current <a class="el" href="../../d2/db9/class_trigger_insider.html" title="The object which is in a trigger and its metadata.">TriggerInsider</a> inside the <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a>, timeout paramter is deprecated. </p>
-<p>DEBUG</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00307">307</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c_source.html#l00436">GetDebugName()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00028">TriggerInsider::GetObject()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00016">TriggerInsider::lastUpdated</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">m_insiders</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00268">RemoveInsider()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00204">ShouldRemoveInsider()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00210">ShouldRemoveInsiderNoLeave()</a>, <a class="el" href="../../de/dcb/_trigger_events_8c_source.html#l00059">TriggerEvents::Stay()</a>, <a class="el" href="../../de/dcb/_trigger_events_8c_source.html#l00084">TriggerEvents::StayFinish()</a>, <a class="el" href="../../de/dcb/_trigger_events_8c_source.html#l00034">TriggerEvents::StayStart()</a>, and <a class="el" href="../../de/d4c/3___game_2tools_2_debug_8c_source.html#l00163">Debug::TriggerLog()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, <a class="el" href="../../d8/d6f/_particle_manager_8c.html#a2731e77365c090d55fd098fedd5d2b1e">GetDebugName()</a>, <a class="el" href="../../d2/db9/class_trigger_insider.html#aaa4160de65ac77debe2902527ebfc4f2">TriggerInsider::GetObject()</a>, <a class="el" href="../../d2/db9/class_trigger_insider.html#a64b2c2de77f996761fba532adaea8c18">TriggerInsider::lastUpdated</a>, <a class="el" href="../../d1/d4b/class_trigger.html#adfd9652c6c9e944927e8aeb028d07b83">m_insiders</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a44837c1ea7acdb34035ddb60b87ef9df">RemoveInsider()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a6f3e815bc03adcee76332eb159bdc042">ShouldRemoveInsider()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a716c452f8f306d61776e32864a3b900c">ShouldRemoveInsiderNoLeave()</a>, <a class="el" href="../../d9/dad/class_trigger_events.html#af52a45762d086f2f42d0f329f8019e98">TriggerEvents::Stay()</a>, <a class="el" href="../../d9/dad/class_trigger_events.html#a8b0281ba8cb60c26b85d5e2d8d1f69a7">TriggerEvents::StayFinish()</a>, <a class="el" href="../../d9/dad/class_trigger_events.html#a943c2a9458e9b167a567ec1b92519a58">TriggerEvents::StayStart()</a>, and <a class="el" href="../../da/d7d/class_debug.html#a078e2e64dcdc09e1b926d70fd69b8efc">Debug::TriggerLog()</a>.</p>
 
 </div>
 </div>
@@ -1256,9 +1193,7 @@ Private Attributes</h2></td></tr>
 
 <p>The objects and their metadata which are currently inside the <a class="el" href="../../d1/d4b/class_trigger.html" title="Scripted Trigger.">Trigger</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00044">44</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00228">AddInsider()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00134">GetInsiderForObject()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00149">GetInsiderIndexForObject()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00128">GetInsiders()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00268">RemoveInsider()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00289">RemoveInsiderByObject()</a>, <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00053">Trigger()</a>, and <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00307">UpdateInsiders()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#a870ed3df7a11413746d8a2e1b7b5e7e8">AddInsider()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#ae07091bee1271e12af09c63aa22de5d5">GetInsiderForObject()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#ac547015001558e1cb3a1c6d1ad735f68">GetInsiderIndexForObject()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#aed6632bfc7f672317601c21f0b4e4f7c">GetInsiders()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a44837c1ea7acdb34035ddb60b87ef9df">RemoveInsider()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a903b8a314884796f5833f31b20261866">RemoveInsiderByObject()</a>, <a class="el" href="../../d1/d4b/class_trigger.html#afd8dece2e892db27ae62b4b54ca3a1ee">Trigger()</a>, and <a class="el" href="../../d1/d4b/class_trigger.html#a5fc68a2725c6cbe129300efd0b9fd97b">UpdateInsiders()</a>.</p>
 
 </div>
 </div>
@@ -1282,8 +1217,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01540">1540</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
-
 </div>
 </div>
 <a id="a9dd2585f9b6cb233c97468e2356201f7" name="a9dd2585f9b6cb233c97468e2356201f7"></a>
@@ -1306,8 +1239,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01541">1541</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
-
 </div>
 </div>
 <a id="a708f18303ccdd316946919f03fb5bbaf" name="a708f18303ccdd316946919f03fb5bbaf"></a>
@@ -1329,8 +1260,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d2e/_hologram_8c_source.html#l01539">1539</a> of file <a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a>.</p>
 
 </div>
 </div>
@@ -1356,15 +1285,13 @@ Private Attributes</h2></td></tr>
 
 <p>DEPRECATED. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00042">42</a> of file <a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/db2/_trigger_8c_source.html#l00088">EOnFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4b/class_trigger.html#af518addd8ca6ecba428ecee6b06506a9">EOnFrame()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>P:/scripts/4_World/Classes/<a class="el" href="../../d7/d2e/_hologram_8c_source.html">Hologram.c</a></li>
-<li>P:/scripts/4_World/Entities/ScriptedEntities/Triggers/<a class="el" href="../../d7/db2/_trigger_8c_source.html">Trigger.c</a></li>
+<li>4_World/Classes/<a class="el" href="../../d7/d2e/_hologram_8c.html">Hologram.c</a></li>
+<li>4_World/Entities/ScriptedEntities/Triggers/<a class="el" href="../../d7/db2/_trigger_8c.html">Trigger.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

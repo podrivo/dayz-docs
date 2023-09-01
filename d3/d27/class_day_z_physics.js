@@ -8,6 +8,7 @@ var class_day_z_physics =
     [ "EntityOverlapBullet", "d3/d27/class_day_z_physics.html#ade5eff97153a3a6469fec28173019620", null ],
     [ "GeometryOverlapBullet", "d3/d27/class_day_z_physics.html#ac68712db1417945a69f50887c2741022", null ],
     [ "GetHitSurface", "d3/d27/class_day_z_physics.html#ab8cda969182943550e771df7e4775c0e", null ],
+    [ "GetHitSurfaceAndLiquid", "d3/d27/class_day_z_physics.html#ac72c433e52aed41e2a5315417383180c", null ],
     [ "RayCastBullet", "d3/d27/class_day_z_physics.html#a25404b465f0329039f6d428637b4caae", null ],
     [ "RaycastRV", "d3/d27/class_day_z_physics.html#a51c7724d1fe5246118a0b83d6bdb82ce", null ],
     [ "RaycastRVProxy", "d3/d27/class_day_z_physics.html#a28c0819fe03bd794e2beae43a6261761", null ],

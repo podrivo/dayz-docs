@@ -14,13 +14,10 @@ var _day_z_infected_8c =
       [ "MINDSTATE_CHASE", "d6/dea/_day_z_infected_8c.html#a5af35b5d134c35e54a8ad45527637c77a3cce65eed55642792a70a3c869855057", null ],
       [ "MINDSTATE_FIGHT", "d6/dea/_day_z_infected_8c.html#a5af35b5d134c35e54a8ad45527637c77aee1040db992d5f0a6d1740edacb9cc90", null ]
     ] ],
-    [ "DayZInfectedConstantsMovement", "d6/dea/_day_z_infected_8c.html#adf88f47392416509db59844798d79c20", [
-      [ "MOVEMENTSTATE_IDLE", "d6/dea/_day_z_infected_8c.html#adf88f47392416509db59844798d79c20a32d2b3ea6f9468d096ed792f10e0c72b", null ],
-      [ "MOVEMENTSTATE_WALK", "d6/dea/_day_z_infected_8c.html#adf88f47392416509db59844798d79c20a1a452fd22c238a0bc76978d78fe20955", null ],
-      [ "MOVEMENTSTATE_RUN", "d6/dea/_day_z_infected_8c.html#adf88f47392416509db59844798d79c20ab81ae4bd327dd7880f2bc09a606ed7cf", null ],
-      [ "MOVEMENTSTATE_SPRINT", "d6/dea/_day_z_infected_8c.html#adf88f47392416509db59844798d79c20ac109069a4e48a8775abd51dcf17e5500", null ]
-    ] ],
-    [ "ANIM_DEATH_BACKSTAB", "d6/dea/_day_z_infected_8c.html#a6a913e4197aa931ed3ed8ecff9b93604", null ],
-    [ "ANIM_DEATH_DEFAULT", "d6/dea/_day_z_infected_8c.html#afd471e8bda627be6b42c471a16f675be", null ],
-    [ "ANIM_DEATH_IMPULSE", "d6/dea/_day_z_infected_8c.html#a79f4b1a8c06785565f6f9aaccd582834", null ]
+    [ "ANIM_DEATH_BACKSTAB", "d6/dea/_day_z_infected_8c.html#a02918e85055b4e87f53a826c4e5ba85a", null ],
+    [ "ANIM_DEATH_DEFAULT", "d6/dea/_day_z_infected_8c.html#a16f38de47215b064c6d8c81a80f8bf7a", null ],
+    [ "ANIM_DEATH_IMPULSE", "d6/dea/_day_z_infected_8c.html#a2f25356269aca01bfdfb7a56f07c596f", null ],
+    [ "MOVEMENTSTATE_IDLE", "d6/dea/_day_z_infected_8c.html#a463aeb6cf288f7e03e793f9f0983a984", null ],
+    [ "MOVEMENTSTATE_RUN", "d6/dea/_day_z_infected_8c.html#aa178adeca8b16ef84b66e92273019082", null ],
+    [ "MOVEMENTSTATE_WALK", "d6/dea/_day_z_infected_8c.html#a1a2bddf8de00df9e7105119b146ca07f", null ]
 ];

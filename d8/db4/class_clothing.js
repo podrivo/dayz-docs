@@ -9,6 +9,7 @@ var class_clothing =
     [ "Headtorch_ColorBase", "d8/db4/class_clothing.html#a04129569c3bcc45d7d4378796bf87593", null ],
     [ "InitGlobalExclusionValues", "d8/db4/class_clothing.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
     [ "IsLightSource", "d8/db4/class_clothing.html#a5db353cf4944e3e60eccae77c89969a1", null ],
+    [ "OnInvisibleSet", "d8/db4/class_clothing.html#abefb1453d832836371cffe011eadbfa0", null ],
     [ "OnLightCreated", "d8/db4/class_clothing.html#aef47b52f4f0394bff24580c477491df4", null ],
     [ "OnWasAttached", "d8/db4/class_clothing.html#ac49b1cab32f5eab70aab44528726e721", null ],
     [ "OnWasDetached", "d8/db4/class_clothing.html#a9ad76a420042dadc6ab67b7aa821a407", null ],

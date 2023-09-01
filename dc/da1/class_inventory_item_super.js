@@ -111,6 +111,7 @@ var class_inventory_item_super =
     [ "IsChamberEmpty", "dc/da1/class_inventory_item_super.html#a00568e04b036ac686a0dcd1b8d175031", null ],
     [ "IsChamberFiredOut", "dc/da1/class_inventory_item_super.html#a8bbec3494ea9b70976b76f0fda75f115", null ],
     [ "IsChamberFull", "dc/da1/class_inventory_item_super.html#af0504c52bfb5bb747bfa6f7e0ac0d2ba", null ],
+    [ "IsChamberFullEx", "dc/da1/class_inventory_item_super.html#ab547f88bfa04b6fa46e11af0f4761486", null ],
     [ "IsChamberJammed", "dc/da1/class_inventory_item_super.html#abb95bd36ac554a8e732e7cd3ed2769b7", null ],
     [ "IsFlashlightOn", "dc/da1/class_inventory_item_super.html#a85faa7df58a4644d966e0fcfff4ace1c", null ],
     [ "IsInOptics", "dc/da1/class_inventory_item_super.html#a9c5f33caff2258b14c8e4cb2707d7083", null ],

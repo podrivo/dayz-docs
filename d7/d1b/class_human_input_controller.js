@@ -37,6 +37,7 @@ var class_human_input_controller =
     [ "IsReloadOrMechanismSingleUse", "d7/d1b/class_human_input_controller.html#add4053014cbb2771eff2c29ba6a03fc4", null ],
     [ "IsSightChange", "d7/d1b/class_human_input_controller.html#ab526a9cfe98428144b9b8634cdaec1b0", null ],
     [ "IsSingleUse", "d7/d1b/class_human_input_controller.html#aa6690f83deed951f44425313cc3d9d1a", null ],
+    [ "IsStanceChange", "d7/d1b/class_human_input_controller.html#a33d8ed16310cd69c8fc408a5358461fb", null ],
     [ "IsThrowingModeChange", "d7/d1b/class_human_input_controller.html#aeaf3a83c1c911e7b6fc6449d1618e1d7", null ],
     [ "IsUseButton", "d7/d1b/class_human_input_controller.html#a062b8acc3f675b2dd639c90077a57925", null ],
     [ "IsUseButtonDown", "d7/d1b/class_human_input_controller.html#a0e91609552d6b69a0acdc6edb7e4d1fa", null ],

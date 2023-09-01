@@ -10,6 +10,7 @@ var class_action_build_shelter =
     [ "DestroyActionLoopSound", "db/d71/class_action_build_shelter.html#ad5a363cff3246210a655faed7a7b2837", null ],
     [ "DetermineConstructionSounds", "db/d71/class_action_build_shelter.html#ae5099ec125367e1589cae6dd925b62b8", null ],
     [ "GetInputType", "db/d71/class_action_build_shelter.html#ab6eb153abc42e514909126c621d01280", null ],
+    [ "GetSoundCategory", "db/d71/class_action_build_shelter.html#acbdb98dbb58e767a0e556007ba9aeb07", null ],
     [ "GetText", "db/d71/class_action_build_shelter.html#af127b91bedeb70f79583b0183d86be98", null ],
     [ "HandleReciveData", "db/d71/class_action_build_shelter.html#ae4b8096e050d0a62daa431588f8af715", null ],
     [ "HasAlternativeInterrupt", "db/d71/class_action_build_shelter.html#a8776280df4c7e336f026407579b68872", null ],

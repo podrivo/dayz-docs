@@ -1,6 +1,8 @@
 var class_p_p_e_requester___gameplay_base =
 [
     [ "FadeColourMult", "d7/dca/class_p_p_e_requester___gameplay_base.html#a1896a4fd2bec134291256de3b506cdac", null ],
+    [ "FadeColourMult", "d7/dca/class_p_p_e_requester___gameplay_base.html#a1896a4fd2bec134291256de3b506cdac", null ],
+    [ "OnStart", "d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192", null ],
     [ "OnStart", "d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192", null ],
     [ "OnStart", "d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192", null ],
     [ "OnStart", "d7/dca/class_p_p_e_requester___gameplay_base.html#a7d198af8f80bfb8d62f2b6028a8b0192", null ],
@@ -20,6 +22,8 @@ var class_p_p_e_requester___gameplay_base =
     [ "OnStop", "d7/dca/class_p_p_e_requester___gameplay_base.html#ad59c240b03a654865c36319092617769", null ],
     [ "OnStop", "d7/dca/class_p_p_e_requester___gameplay_base.html#aa06c0c32ad9a154d02cb2077ade09a58", null ],
     [ "OnStop", "d7/dca/class_p_p_e_requester___gameplay_base.html#ad59c240b03a654865c36319092617769", null ],
+    [ "OnStop", "d7/dca/class_p_p_e_requester___gameplay_base.html#aa06c0c32ad9a154d02cb2077ade09a58", null ],
+    [ "OnUpdate", "d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae", null ],
     [ "OnUpdate", "d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae", null ],
     [ "OnUpdate", "d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae", null ],
     [ "OnUpdate", "d7/dca/class_p_p_e_requester___gameplay_base.html#a54bd255d7f109b84cf1908eba71036ae", null ],

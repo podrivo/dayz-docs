@@ -1,11 +1,13 @@
 var class_log_manager =
 [
     [ "ActionLogEnable", "d9/df7/class_log_manager.html#a59f38f753673dd33e4286ece057440a7", null ],
+    [ "BleedingChancesLogEnable", "d9/df7/class_log_manager.html#ade2c291eee8735220fa6a8e9f62ec23e", null ],
     [ "Init", "d9/df7/class_log_manager.html#a1716946dffd7f7f6a9c8f46406ab0732", null ],
     [ "InventoryHFSMLogEnable", "d9/df7/class_log_manager.html#a443a6cd31b775c8ec1c2aa5ceeb6deda", null ],
     [ "InventoryMoveLogEnable", "d9/df7/class_log_manager.html#a38e6c614bcfa629c35b5bc9efdabf1b6", null ],
     [ "InventoryReservationLogEnable", "d9/df7/class_log_manager.html#aefafb1ddd8f7b360d8de1681eccbb9e9", null ],
     [ "IsActionLogEnable", "d9/df7/class_log_manager.html#a7a46c2956126f27a67a98cb689da987c", null ],
+    [ "IsBleedingChancesLogEnable", "d9/df7/class_log_manager.html#afb908af74fa567e026fc162be2fc8dd9", null ],
     [ "IsInventoryHFSMLogEnable", "d9/df7/class_log_manager.html#a1d85377e18f016d0c80816c505bdc4d5", null ],
     [ "IsInventoryMoveLogEnable", "d9/df7/class_log_manager.html#a400422b608b8a983acf68cee66b72604", null ],
     [ "IsInventoryReservationLogEnable", "d9/df7/class_log_manager.html#aa95b9f69fa7c3317cf8ddff9a611b5c7", null ],
@@ -17,6 +19,7 @@ var class_log_manager =
     [ "SymptomLogEnable", "d9/df7/class_log_manager.html#a31686db009e8a415d46dc4c7334621a9", null ],
     [ "WeaponLogEnable", "d9/df7/class_log_manager.html#ae239d2637a770378c99bed543798a3f0", null ],
     [ "m_DoActionDebugLog", "d9/df7/class_log_manager.html#a74e99ae5d2bd5e38a637dc10d07c53aa", null ],
+    [ "m_DoBleedingChanceLog", "d9/df7/class_log_manager.html#a9bd39aee7cacf82de804ecab3e50e477", null ],
     [ "m_DoInventoryHFSMLog", "d9/df7/class_log_manager.html#ae389c633bebd1420e30fc5b572186162", null ],
     [ "m_DoInventoryMoveLog", "d9/df7/class_log_manager.html#a99836164b395b44661ff87d4d232884c", null ],
     [ "m_DoInventoryReservationLog", "d9/df7/class_log_manager.html#a2c44058a8574b74e5367cdff885bb6b6", null ],

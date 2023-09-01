@@ -23,6 +23,7 @@ var class_u_a_time_spent =
     [ "DEFAULT_CONSTRUCT", "d8/d3b/class_u_a_time_spent.html#a564e6346de6bf8c416631836903d43e3", null ],
     [ "DEFAULT_CRAFT", "d8/d3b/class_u_a_time_spent.html#a3bb0feb1a2c0ee603dbb339ba504ebb0", null ],
     [ "DEFAULT_DECONSTRUCT", "d8/d3b/class_u_a_time_spent.html#ae8377061cda51836648ab33773b40c64", null ],
+    [ "DEFAULT_DECRAFT", "d8/d3b/class_u_a_time_spent.html#a5ccd9b1eda495c2291ddc86574ca4921", null ],
     [ "DEFAULT_DEPLOY", "d8/d3b/class_u_a_time_spent.html#a69e7ad07461a9fb265a66269bcb1745d", null ],
     [ "DEFAULT_DESTROY", "d8/d3b/class_u_a_time_spent.html#aca7ff9195595766f4e508a8e769d16bb", null ],
     [ "DEFAULT_FILL", "d8/d3b/class_u_a_time_spent.html#a6b806c31b388d4c890e22a9ce6292a80", null ],

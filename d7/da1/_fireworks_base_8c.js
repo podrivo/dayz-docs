@@ -16,7 +16,7 @@ var _fireworks_base_8c =
     [ "HasFlammableMaterial", "d7/da1/_fireworks_base_8c.html#ab82ea3929dacabea878b0247abacd5c8", null ],
     [ "Init", "d7/da1/_fireworks_base_8c.html#a2865dcd0243804f3b1b93c982130e8c3", null ],
     [ "OnEventServer", "d7/da1/_fireworks_base_8c.html#a0b1b7794e859e108e37f85f3f3e3318d", null ],
-    [ "OnIgnitedThis", "d7/da1/_fireworks_base_8c.html#ae4a166ce8ca52121d8e4183c8bf8a654", null ],
+    [ "OnIgnitedThis", "d7/da1/_fireworks_base_8c.html#a89ee9c793503408599f1d172a6278179", null ],
     [ "OnInventoryEnter", "d7/da1/_fireworks_base_8c.html#aa6015ef050c0f2ad57b87d6d7a0f58dd", null ],
     [ "OnInventoryExit", "d7/da1/_fireworks_base_8c.html#a5d7082117a9fb6269161b3b210808d24", null ],
     [ "OnStateChangedClient", "d7/da1/_fireworks_base_8c.html#a721ebb21922c892b5cd54108663df3d1", null ],

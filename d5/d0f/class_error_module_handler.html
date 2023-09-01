@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -184,8 +184,6 @@ Static Private Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The error handler itself, for managing and distributing errors to modules Manages the <a class="el" href="../../da/ddf/class_error_handler_module.html" title="Definition and API of an ErrorHandlerModule - Do not insert any logic here! (as this class is not mod...">ErrorHandlerModule</a> instances inserted in Init. API comes with several functions to Create, Throw and extract data from error codes. The format used is an int which is made up of two shorts, one that holds the category and one that holds the code. Therefore when looking at an error code, it is much easier to identify when looking at the hex value. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00028">28</a> of file <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa250cbc95eaf464b682cc261af17dd11" name="aa250cbc95eaf464b682cc261af17dd11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa250cbc95eaf464b682cc261af17dd11">&#9670;&#160;</a></span>AddModule()</h2>
@@ -231,7 +229,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the adding of the module was successful or not </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00211">SafeAddModule()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d0f/class_error_module_handler.html#a2aed18ac8af7b1ac6cbd589bea1354dd">SafeAddModule()</a>.</p>
 
 </div>
 </div>
@@ -281,8 +279,8 @@ Static Private Member Functions</h2></td></tr>
 <div class="line"><a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>( errorCode );</div>
 <div class="line"> </div>
 <div class="line">&gt;&gt; errorCode = 196607</div>
-<div class="ttc" id="a_error_module_handler_8c_html_ae780bc06025224f6526b03ee3527469e"><div class="ttname"><a href="../../d5/dde/_error_module_handler_8c.html#ae780bc06025224f6526b03ee3527469e">ErrorCategory</a></div><div class="ttdeci">ErrorCategory</div><div class="ttdoc">ErrorCategory - To decide what ErrorHandlerModule needs to be called and easily identify where it cam...</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dde/_error_module_handler_8c_source.html#l00004">ErrorModuleHandler.c:5</a></div></div>
-<div class="ttc" id="aclass_error_module_handler_html"><div class="ttname"><a href="../../d5/d0f/class_error_module_handler.html">ErrorModuleHandler</a></div><div class="ttdoc">The error handler itself, for managing and distributing errors to modules Manages the ErrorHandlerMod...</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dde/_error_module_handler_8c_source.html#l00028">ErrorModuleHandler.c:29</a></div></div>
+<div class="ttc" id="a_error_module_handler_8c_html_ae780bc06025224f6526b03ee3527469e"><div class="ttname"><a href="../../d5/dde/_error_module_handler_8c.html#ae780bc06025224f6526b03ee3527469e">ErrorCategory</a></div><div class="ttdeci">ErrorCategory</div><div class="ttdoc">ErrorCategory - To decide what ErrorHandlerModule needs to be called and easily identify where it cam...</div><div class="ttdef"><b>Definition</b> ErrorModuleHandler.c:5</div></div>
+<div class="ttc" id="aclass_error_module_handler_html"><div class="ttname"><a href="../../d5/d0f/class_error_module_handler.html">ErrorModuleHandler</a></div><div class="ttdoc">The error handler itself, for managing and distributing errors to modules Manages the ErrorHandlerMod...</div><div class="ttdef"><b>Definition</b> ErrorModuleHandler.c:29</div></div>
 <div class="ttc" id="aclass_error_module_handler_html_ab202b7aeba55497fdb279d97d995f66d"><div class="ttname"><a href="../../d5/d0f/class_error_module_handler.html#ab202b7aeba55497fdb279d97d995f66d">ErrorModuleHandler::CreateError</a></div><div class="ttdeci">static proto int CreateError(ErrorCategory category, int code)</div><div class="ttdoc">Creates full error code.</div></div>
 <div class="ttc" id="agroup___debug_html_gaaa9351d895a1f244a26fd635c378c536"><div class="ttname"><a href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a></div><div class="ttdeci">proto void Print(void var)</div><div class="ttdoc">Prints content of variable to console/log.</div></div>
 </div><!-- fragment --> </dd></dl>
@@ -380,7 +378,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>string</code> The message which would appear on Client </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d67/_online_services_8c_source.html#l00082">OnlineServices::ErrorCaught()</a>, and <a class="el" href="../../de/d87/_server_browser_tab_console_8c_source.html#l00067">ServerBrowserTab::OnLoadServersAsyncConsole()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d36/class_online_services.html#af8c29f539a99b07f94d652bde535d612">OnlineServices::ErrorCaught()</a>, and <a class="el" href="../../d9/de0/class_server_browser_tab.html#afbe146cfc7e9c0b5c09b29df20dd6900">ServerBrowserTab::OnLoadServersAsyncConsole()</a>.</p>
 
 </div>
 </div>
@@ -468,7 +466,7 @@ Static Private Member Functions</h2></td></tr>
 <div class="ttc" id="aclass_error_module_handler_html_a1b7d9aefb7738345cc653af776d0b3e0"><div class="ttname"><a href="../../d5/d0f/class_error_module_handler.html#a1b7d9aefb7738345cc653af776d0b3e0">ErrorModuleHandler::GetCodeFromError</a></div><div class="ttdeci">static proto int GetCodeFromError(int errorCode)</div><div class="ttdoc">Returns the code of the error.</div></div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00112">GetProperties()</a>, and <a class="el" href="../../df/d50/_connect_error_script_module_8c_source.html#l00053">ConnectErrorScriptModuleUI::OnModalResult()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dce/_error_handler_module_8c.html#a6b56ea5d897cdd097e113fe4d4152c1b">GetProperties()</a>, and <a class="el" href="../../d3/d61/class_connect_error_script_module_u_i.html#aba342bdd2e2fb9f4c49394601a42cee3">ConnectErrorScriptModuleUI::OnModalResult()</a>.</p>
 
 </div>
 </div>
@@ -510,7 +508,7 @@ Static Private Member Functions</h2></td></tr>
 <div class="ttc" id="aclass_error_module_handler_html_a0b237be2d93232b757e73572a67aa650"><div class="ttname"><a href="../../d5/d0f/class_error_module_handler.html#a0b237be2d93232b757e73572a67aa650">ErrorModuleHandler::GetErrorHex</a></div><div class="ttdeci">static proto owned string GetErrorHex(int errorCode)</div><div class="ttdoc">Returns a formatted string of the error code.</div></div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00149">GetLastClientMessage()</a>, <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00186">GetLastServerMessage()</a>, <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00112">GetProperties()</a>, <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00046">ErrorHandlerModule::GetSimpleMessage()</a>, <a class="el" href="../../d2/dbd/_error_properties_8c_source.html#l00055">HandleError()</a>, <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00014">ErrorHandlerModule::OnErrorThrown()</a>, and <a class="el" href="../../d3/dce/_error_handler_module_8c_source.html#l00206">OnErrorThrown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dce/_error_handler_module_8c.html#a57e467a31876ad3e6335579f7be36366">GetLastClientMessage()</a>, <a class="el" href="../../d3/dce/_error_handler_module_8c.html#a398657054a8e76623f6bbb33e42953d8">GetLastServerMessage()</a>, <a class="el" href="../../d3/dce/_error_handler_module_8c.html#a6b56ea5d897cdd097e113fe4d4152c1b">GetProperties()</a>, <a class="el" href="../../da/ddf/class_error_handler_module.html#ac5e472ad9fb40ecd0c4c217b9dd893eb">ErrorHandlerModule::GetSimpleMessage()</a>, <a class="el" href="../../d2/dbd/_error_properties_8c.html#abe2e65e405fc888d87a7b67b5807a8fb">HandleError()</a>, <a class="el" href="../../da/ddf/class_error_handler_module.html#a282c64368f48ad0fd689e4c6267aa067">ErrorHandlerModule::OnErrorThrown()</a>, and <a class="el" href="../../d3/dce/_error_handler_module_8c.html#a6c5f9d53c0c51d185baf71c342ee45d2">OnErrorThrown()</a>.</p>
 
 </div>
 </div>
@@ -538,7 +536,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00255">OnEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d0f/class_error_module_handler.html#ac7ecc522138d7e70c68f044effd43c73">OnEvent()</a>.</p>
 
 </div>
 </div>
@@ -568,7 +566,7 @@ Static Private Member Functions</h2></td></tr>
 <p>Gets the EMH Instance. </p>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../d5/d0f/class_error_module_handler.html" title="The error handler itself, for managing and distributing errors to modules Manages the ErrorHandlerMod...">ErrorModuleHandler</a></code> The <a class="el" href="../../d5/d0f/class_error_module_handler.html" title="The error handler itself, for managing and distributing errors to modules Manages the ErrorHandlerMod...">ErrorModuleHandler</a> Instance </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01391">CGame::OnEvent()</a>, and <a class="el" href="../../dd/dbe/_en_profiler_tests_8c_source.html#l00544">EnProfilerTests::TestFuncCountData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#a782622ac8223bff6214026b011173fb1">CGame::OnEvent()</a>, and <a class="el" href="../../d8/d4b/class_en_profiler_tests.html#a34ad773be6d2df1c44ac7bef0368cd57">EnProfilerTests::TestFuncCountData()</a>.</p>
 
 </div>
 </div>
@@ -858,9 +856,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Gets called shortly after creation of <a class="el" href="../../d5/d0f/class_error_module_handler.html" title="The error handler itself, for managing and distributing errors to modules Manages the ErrorHandlerMod...">ErrorModuleHandler</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00240">240</a> of file <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../df/d50/_connect_error_script_module_8c_source.html#l00012">ConnectErrorScriptModule()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l03654">g_Game</a>, and <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00211">SafeAddModule()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d50/_connect_error_script_module_8c.html#ac2a5957b7ef8bc8459fbe531d428ba6e">ConnectErrorScriptModule()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, and <a class="el" href="../../d5/d0f/class_error_module_handler.html#a2aed18ac8af7b1ac6cbd589bea1354dd">SafeAddModule()</a>.</p>
 
 </div>
 </div>
@@ -900,11 +896,9 @@ Static Private Member Functions</h2></td></tr>
 
 <p>is called by DayZGame to pass Events. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00255">255</a> of file <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a>.</p>
-
 <p class="reference">References <a class="el" href="../../d5/d0f/class_error_module_handler.html#a1ef447206d1894c57af1bf0a744c4931">GetErrorModules()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l01391">CGame::OnEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#a782622ac8223bff6214026b011173fb1">CGame::OnEvent()</a>.</p>
 
 </div>
 </div>
@@ -941,7 +935,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>bool</code> Whether the removing of the module was successful or not </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00231">SafeRemoveModule()</a>, and <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00221">SafeRemoveModule()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d0f/class_error_module_handler.html#a0051040cb9d95390c810633cfbd9607a">SafeRemoveModule()</a>, and <a class="el" href="../../d5/d0f/class_error_module_handler.html#a3f26c3cc452b12365aef51f50774324e">SafeRemoveModule()</a>.</p>
 
 </div>
 </div>
@@ -977,11 +971,9 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00211">211</a> of file <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d0f/class_error_module_handler.html#aa250cbc95eaf464b682cc261af17dd11">AddModule()</a>, and <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d0f/class_error_module_handler.html#aa250cbc95eaf464b682cc261af17dd11">AddModule()</a>, and <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00240">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d0f/class_error_module_handler.html#ae9105677c6264246ec2621f382afc59d">Init()</a>.</p>
 
 </div>
 </div>
@@ -1017,9 +1009,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00231">231</a> of file <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, and <a class="el" href="../../d5/d0f/class_error_module_handler.html#aeb4d3c3435053ce3235352e58eb72210">RemoveModule()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, and <a class="el" href="../../d5/d0f/class_error_module_handler.html#aeb4d3c3435053ce3235352e58eb72210">RemoveModule()</a>.</p>
 
 </div>
 </div>
@@ -1055,9 +1045,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html#l00221">221</a> of file <a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d3/d19/_en_debug_8c_source.html#l00090">Error()</a>, and <a class="el" href="../../d5/d0f/class_error_module_handler.html#aeb4d3c3435053ce3235352e58eb72210">RemoveModule()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, and <a class="el" href="../../d5/d0f/class_error_module_handler.html#aeb4d3c3435053ce3235352e58eb72210">RemoveModule()</a>.</p>
 
 </div>
 </div>
@@ -1117,7 +1105,7 @@ Static Private Member Functions</h2></td></tr>
 <div class="ttc" id="aclass_error_module_handler_html_a0d63331ac669a00b4fece3723110f7ef"><div class="ttname"><a href="../../d5/d0f/class_error_module_handler.html#a0d63331ac669a00b4fece3723110f7ef">ErrorModuleHandler::ThrowError</a></div><div class="ttdeci">static proto int ThrowError(ErrorCategory category, int code, string additionalInfo=&quot;&quot;)</div><div class="ttdoc">Creates and throws the error code, sending it to the handler of the category.</div></div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc8/_day_z_game_8c_source.html#l02436">CGame::TryConnect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/class_c_game.html#abe517dc31993ad531974c1c5e7ea3e58">CGame::TryConnect()</a>.</p>
 
 </div>
 </div>
@@ -1173,7 +1161,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/Global/ErrorModuleHandler/<a class="el" href="../../d5/dde/_error_module_handler_8c_source.html">ErrorModuleHandler.c</a></li>
+<li>3_Game/Global/ErrorModuleHandler/<a class="el" href="../../d5/dde/_error_module_handler_8c.html">ErrorModuleHandler.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

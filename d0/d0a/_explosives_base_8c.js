@@ -24,6 +24,7 @@ var _explosives_base_8c =
     [ "OnDisarmed", "d0/d0a/_explosives_base_8c.html#a8de69478a0677945fc647a90c11e6b8c", null ],
     [ "OnExplode", "d0/d0a/_explosives_base_8c.html#a8b41f84db8cb6cc9c4d8a33e49e5419e", null ],
     [ "OnExplosionEffects", "d0/d0a/_explosives_base_8c.html#a0fcd8344befc84c66f6d91bbb4d0c78f", null ],
+    [ "OnPlacementComplete", "d0/d0a/_explosives_base_8c.html#a6ff31a876fba89e2f0ae6c33af8cd551", null ],
     [ "OnStoreLoad", "d0/d0a/_explosives_base_8c.html#ab311cdf3df0e3547b7d3cd810e61ca61", null ],
     [ "OnStoreSave", "d0/d0a/_explosives_base_8c.html#a35a85dbb8d86badfdee250107b15e803", null ],
     [ "SetActions", "d0/d0a/_explosives_base_8c.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],

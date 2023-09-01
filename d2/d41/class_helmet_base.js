@@ -1,5 +1,10 @@
 var class_helmet_base =
 [
+    [ "GetAttachmentExclusionInitSlotValue", "d2/d41/class_helmet_base.html#a513801d0273246e55305d36225ab0418", null ],
+    [ "GetAttachmentExclusionInitSlotValue", "d2/d41/class_helmet_base.html#a513801d0273246e55305d36225ab0418", null ],
+    [ "GetAttachmentExclusionInitSlotValue", "d2/d41/class_helmet_base.html#a513801d0273246e55305d36225ab0418", null ],
+    [ "GetAttachmentExclusionInitSlotValue", "d2/d41/class_helmet_base.html#a513801d0273246e55305d36225ab0418", null ],
+    [ "GetAttachmentExclusionInitSlotValue", "d2/d41/class_helmet_base.html#a513801d0273246e55305d36225ab0418", null ],
     [ "GetEffectWidgetTypes", "d2/d41/class_helmet_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f", null ],
     [ "GetEffectWidgetTypes", "d2/d41/class_helmet_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f", null ],
     [ "GetEffectWidgetTypes", "d2/d41/class_helmet_base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f", null ],
@@ -10,11 +15,6 @@ var class_helmet_base =
     [ "GetVoiceEffect", "d2/d41/class_helmet_base.html#a84997d788ceef05315231b8c9751c0a0", null ],
     [ "GetVoiceEffect", "d2/d41/class_helmet_base.html#a84997d788ceef05315231b8c9751c0a0", null ],
     [ "GetVoiceEffect", "d2/d41/class_helmet_base.html#a84997d788ceef05315231b8c9751c0a0", null ],
-    [ "InitGlobalExclusionValues", "d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
-    [ "InitGlobalExclusionValues", "d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
-    [ "InitGlobalExclusionValues", "d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
-    [ "InitGlobalExclusionValues", "d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
-    [ "InitGlobalExclusionValues", "d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
     [ "InitGlobalExclusionValues", "d2/d41/class_helmet_base.html#abb31df34d18be9cfd04b07d55bba5eec", null ],
     [ "IsObstructingVoice", "d2/d41/class_helmet_base.html#a821787b33a04c9121f7b4d0601b6b583", null ],
     [ "IsObstructingVoice", "d2/d41/class_helmet_base.html#a821787b33a04c9121f7b4d0601b6b583", null ],

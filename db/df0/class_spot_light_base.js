@@ -4,6 +4,7 @@ var class_spot_light_base =
     [ "CarLightBase", "db/df0/class_spot_light_base.html#a7c0b83f801dbb5cabfeb6467b79550cc", null ],
     [ "FlashlightLight", "db/df0/class_spot_light_base.html#a6a910753d9645386826a5f50d260573f", null ],
     [ "HeadtorchLight", "db/df0/class_spot_light_base.html#a19e57989e01b2ecce3c5590398570e30", null ],
+    [ "PerformVisibilityCheck", "db/df0/class_spot_light_base.html#ac45d75f3ce7297a6c1b0408c3c2d7531", null ],
     [ "PistollightLight", "db/df0/class_spot_light_base.html#a4a643f501f751a7aee5e4979162ce7b0", null ],
     [ "SegregateLight", "db/df0/class_spot_light_base.html#a012d5193b067f8bae55fcf38c5f47b0f", null ],
     [ "SetColorToRed", "db/df0/class_spot_light_base.html#a3544bfa6cdbbfc22f1149e25b54dd28f", null ],

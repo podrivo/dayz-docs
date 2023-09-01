@@ -4,6 +4,7 @@ var _action_dig_out_stash_8c =
     [ "DigOutStashLambda", "d4/dd7/class_dig_out_stash_lambda.html", "d4/dd7/class_dig_out_stash_lambda" ],
     [ "ActionCondition", "da/dd6/_action_dig_out_stash_8c.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
     [ "ActionDigOutStash", "da/dd6/_action_dig_out_stash_8c.html#a4b60549dbe83a0d55f8133ceb25d8a41", null ],
+    [ "Can", "da/dd6/_action_dig_out_stash_8c.html#a732f32e7996ac2253ffd6f6e239594fb", null ],
     [ "CreateActionComponent", "da/dd6/_action_dig_out_stash_8c.html#accfb238782010198bdb5128a8ee44300", null ],
     [ "CreateConditionComponents", "da/dd6/_action_dig_out_stash_8c.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "GetAdminLogMessage", "da/dd6/_action_dig_out_stash_8c.html#a5cf7c0a3bd1ed2154d3b917244047a40", null ],

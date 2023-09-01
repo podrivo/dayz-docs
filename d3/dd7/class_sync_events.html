@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -123,10 +123,7 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:af0a304cc565061617e45b3d0a42c8a5b"><td class="memItemLeft" align="right" valign="top">static private void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd7/class_sync_events.html#af0a304cc565061617e45b3d0a42c8a5b">SendSyncEventEx</a> (<a class="el" href="../../d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37">ERPCs</a> rpc_event_id, <a class="el" href="../../da/d0b/_e_sync_event_8c.html#a3e43561d421c0cccfb76a9854d949cf9">ESyncEvent</a> sync_event_type, <a class="el" href="../../df/dc0/class_sync_data.html">SyncData</a> data=null, <a class="el" href="../../d9/db9/classbool.html">bool</a> guaranteed=true, Man recipient=null)</td></tr>
 <tr class="separator:af0a304cc565061617e45b3d0a42c8a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00001">1</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aba891d58a13b24201b546a2dfa4be0a5" name="aba891d58a13b24201b546a2dfa4be0a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba891d58a13b24201b546a2dfa4be0a5">&#9670;&#160;</a></span>Event_OnRPC()</h2>
 
@@ -173,11 +170,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00011">11</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d3/dd7/class_sync_events.html#a35a1d0be5bb7979407b22b54959291fa">OnSyncEvent()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00024">OnSyncEvent()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00003">RegisterEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd7/class_sync_events.html#aa05c7575f9a03dd1c1d9283fe27f60a2">RegisterEvents()</a>.</p>
 
 </div>
 </div>
@@ -221,11 +216,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00024">24</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dc0/class_sync_data.html#a32289d0a7edc45d1a2332a0fa6cba08a">SyncData::m_EntityKill</a>, <a class="el" href="../../df/dc0/class_sync_data.html#a2d1cc1f8e78aa22b430a1ff77c0d7942">SyncData::m_ServerPlayerList</a>, <a class="el" href="../../df/dc0/class_sync_data.html#ae462e08ef1183c8e1dcc4939bb41db54">SyncData::m_SyncInt</a>, <a class="el" href="../../d5/daf/class_client_data.html#aefb65a77ba66f920e98553730e285072">ClientData::SyncEvent_OnEntityKilled</a>, <a class="el" href="../../d5/daf/class_client_data.html#a6de382d96eda3280266b5a2e8079a4b0">ClientData::SyncEvent_OnPlayerIgnitedFireplace</a>, and <a class="el" href="../../d5/daf/class_client_data.html#a2bcd05ad5d503f2905392614eac72046">ClientData::SyncEvent_OnRecievedPlayerList()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dc8/_sync_data_8c_source.html#l00005">SyncData::m_EntityKill</a>, <a class="el" href="../../db/dc8/_sync_data_8c_source.html#l00004">SyncData::m_ServerPlayerList</a>, <a class="el" href="../../db/dc8/_sync_data_8c_source.html#l00003">SyncData::m_SyncInt</a>, <a class="el" href="../../de/d26/_client_data_8c_source.html#l00004">ClientData::SyncEvent_OnEntityKilled</a>, <a class="el" href="../../de/d26/_client_data_8c_source.html#l00005">ClientData::SyncEvent_OnPlayerIgnitedFireplace</a>, and <a class="el" href="../../de/d26/_client_data_8c_source.html#l00035">ClientData::SyncEvent_OnRecievedPlayerList()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00011">Event_OnRPC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd7/class_sync_events.html#aba891d58a13b24201b546a2dfa4be0a5">Event_OnRPC()</a>.</p>
 
 </div>
 </div>
@@ -252,11 +245,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00003">3</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dd7/class_sync_events.html#aba891d58a13b24201b546a2dfa4be0a5">Event_OnRPC()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00011">Event_OnRPC()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d6/daf/mission_gameplay_8c_source.html#l00052">MissionBase::MissionGameplay()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d04/class_mission_base.html#ac296f8c458d761bf6374e43a706fb561">MissionBase::MissionGameplay()</a>.</p>
 
 </div>
 </div>
@@ -306,11 +297,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00055">55</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dc0/class_sync_data.html#a32289d0a7edc45d1a2332a0fa6cba08a">SyncData::m_EntityKill</a>, <a class="el" href="../../d9/d80/class_sync_entity_kill_info.html#ab74507c1202c8394072d5496d3736e92">SyncEntityKillInfo::m_EntityKiller</a>, <a class="el" href="../../d9/d80/class_sync_entity_kill_info.html#ad5524f17e644d3c47e8b6a3a4b2b5090">SyncEntityKillInfo::m_EntitySource</a>, <a class="el" href="../../d9/d80/class_sync_entity_kill_info.html#a8acebc2b8c5432d3d099d3135e9734aa">SyncEntityKillInfo::m_EntityVictim</a>, <a class="el" href="../../d9/d80/class_sync_entity_kill_info.html#aee1956841a9338ef6ef4abcff1a34a92">SyncEntityKillInfo::m_IsHeadShot</a>, and <a class="el" href="../../d3/dd7/class_sync_events.html#af0a304cc565061617e45b3d0a42c8a5b">SendSyncEventEx()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dc8/_sync_data_8c_source.html#l00005">SyncData::m_EntityKill</a>, <a class="el" href="../../d8/d25/_sync_entity_kill_8c_source.html#l00004">SyncEntityKillInfo::m_EntityKiller</a>, <a class="el" href="../../d8/d25/_sync_entity_kill_8c_source.html#l00005">SyncEntityKillInfo::m_EntitySource</a>, <a class="el" href="../../d8/d25/_sync_entity_kill_8c_source.html#l00003">SyncEntityKillInfo::m_EntityVictim</a>, <a class="el" href="../../d8/d25/_sync_entity_kill_8c_source.html#l00006">SyncEntityKillInfo::m_IsHeadShot</a>, and <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00103">SendSyncEventEx()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02556">ManBase::OnCommandHandlerTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a8b2630988be0f5b201410595eebc931c">ManBase::OnCommandHandlerTick()</a>.</p>
 
 </div>
 </div>
@@ -348,11 +337,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00082">82</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dc0/class_sync_data.html#ae462e08ef1183c8e1dcc4939bb41db54">SyncData::m_SyncInt</a>, and <a class="el" href="../../d3/dd7/class_sync_events.html#af77b49ab6c7377c18b6cb61fb69cba45">SendSyncEvent()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dc8/_sync_data_8c_source.html#l00003">SyncData::m_SyncInt</a>, and <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00090">SendSyncEvent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/dad/_fireplace_8c_source.html#l00599">FireplaceBase::OnIgnitedThis()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#a89ee9c793503408599f1d172a6278179">FireplaceBase::OnIgnitedThis()</a>.</p>
 
 </div>
 </div>
@@ -379,11 +366,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00046">46</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d7f/class_sync_player_list.html#af30b7592115b1b4c5d6ec911ffe72510">SyncPlayerList::CreatePlayerList()</a>, <a class="el" href="../../df/dc0/class_sync_data.html#a2d1cc1f8e78aa22b430a1ff77c0d7942">SyncData::m_ServerPlayerList</a>, and <a class="el" href="../../d3/dd7/class_sync_events.html#af77b49ab6c7377c18b6cb61fb69cba45">SendSyncEvent()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d55/_sync_player_list_8c_source.html#l00005">SyncPlayerList::CreatePlayerList()</a>, <a class="el" href="../../db/dc8/_sync_data_8c_source.html#l00004">SyncData::m_ServerPlayerList</a>, and <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00090">SendSyncEvent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00255">MissionBase::OnEvent()</a>, and <a class="el" href="../../d5/d24/mission_server_8c_source.html#l00606">MissionBase::PlayerDisconnected()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d04/class_mission_base.html#a782622ac8223bff6214026b011173fb1">MissionBase::OnEvent()</a>, and <a class="el" href="../../d5/d04/class_mission_base.html#a8fcf587245eac7091ff065ea2c87f427">MissionBase::PlayerDisconnected()</a>.</p>
 
 </div>
 </div>
@@ -439,11 +424,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00090">90</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">CGame::RPCSingleParam()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../db/d6e/_global_2game_8c_source.html#l00882">CGame::RPCSingleParam()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00082">SendPlayerIgnatedFireplace()</a>, <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00046">SendPlayerList()</a>, and <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00103">SendSyncEventEx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd7/class_sync_events.html#a0c21d0206fc0604ed6f8223c0f0cfb03">SendPlayerIgnatedFireplace()</a>, <a class="el" href="../../d3/dd7/class_sync_events.html#afa650e11f58b9afb7719bbe075922108">SendPlayerList()</a>, and <a class="el" href="../../d3/dd7/class_sync_events.html#af0a304cc565061617e45b3d0a42c8a5b">SendSyncEventEx()</a>.</p>
 
 </div>
 </div>
@@ -499,16 +482,14 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00103">103</a> of file <a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dd7/class_sync_events.html#af77b49ab6c7377c18b6cb61fb69cba45">SendSyncEvent()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00090">SendSyncEvent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d83/_sync_events_8c_source.html#l00055">SendEntityKilled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd7/class_sync_events.html#a51c3a53f649a15744b930d3bd9c643de">SendEntityKilled()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/<a class="el" href="../../d5/d83/_sync_events_8c_source.html">SyncEvents.c</a></li>
+<li>3_Game/<a class="el" href="../../d5/d83/_sync_events_8c.html">SyncEvents.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

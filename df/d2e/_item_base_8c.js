@@ -37,6 +37,7 @@ var _item_base_8c =
     [ "ChangeIntoOnAttach", "df/d2e/_item_base_8c.html#a42d1b9a21150bb5f4fca1459188d5fc9", null ],
     [ "ChangeIntoOnDetach", "df/d2e/_item_base_8c.html#a5b4349ee5df74eb73b65e8c522c7ac3b", null ],
     [ "CheckOverheating", "df/d2e/_item_base_8c.html#a9a4c2fff60b15ffb77aef7834be463f3", null ],
+    [ "ClearInventory", "df/d2e/_item_base_8c.html#ab1f69d8655519392f852f682ce5e92a3", null ],
     [ "Close", "df/d2e/_item_base_8c.html#a7f7a3199c392465d0767c6506c1af5b4", null ],
     [ "CombineItems", "df/d2e/_item_base_8c.html#a90ae53a13e1514647dd03a9d8ae498f7", null ],
     [ "CombineItemsClient", "df/d2e/_item_base_8c.html#a46814e9047f6fa43cc640fc7d49bfd4e", null ],

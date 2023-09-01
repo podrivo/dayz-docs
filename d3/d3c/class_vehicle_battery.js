@@ -15,7 +15,6 @@ var class_vehicle_battery =
     [ "OnInventoryEnter", "d3/d3c/class_vehicle_battery.html#ad0580e19ee7c965536e590ae5f2c9ea8", null ],
     [ "OnMovedInsideCargo", "d3/d3c/class_vehicle_battery.html#ab8e92721ee40fa824c550bf17c70b212", null ],
     [ "SetActions", "d3/d3c/class_vehicle_battery.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
-    [ "SetCEBasedQuantity", "d3/d3c/class_vehicle_battery.html#aae12a5b69714894faafe6de0313bc360", null ],
     [ "ShowZonesHealth", "d3/d3c/class_vehicle_battery.html#a382edc7177025aabd711c1ab780f80c4", null ],
     [ "m_Efficiency0To10", "d3/d3c/class_vehicle_battery.html#abb696789bd48839572277b8ab2bd5b3a", null ],
     [ "m_EfficiencyDecayStart", "d3/d3c/class_vehicle_battery.html#aa6896388ef37a0d90f0f396e043c2b93", null ]

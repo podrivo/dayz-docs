@@ -18,6 +18,8 @@ var _action_get_out_transport_8c =
     [ "OnUpdate", "d9/da1/_action_get_out_transport_8c.html#a2caf1c030cd197f2ba53cffa0d5b9237", null ],
     [ "ProcessGetOutActionData", "d9/da1/_action_get_out_transport_8c.html#a712edfc7c645d309a9da357ba485de9f", null ],
     [ "Unhide", "d9/da1/_action_get_out_transport_8c.html#ad352301fe48925d12fdeb7387c52c056", null ],
+    [ "HEALTH_HIGH_SPEED_VALUE", "d9/da1/_action_get_out_transport_8c.html#a4926500114fb7edf14e3b724808a9c50", null ],
+    [ "HEALTH_LOW_SPEED_VALUE", "d9/da1/_action_get_out_transport_8c.html#a1006b33f0dda80c71bb506211c581fbc", null ],
     [ "HIGH_SPEED_VALUE", "d9/da1/_action_get_out_transport_8c.html#ae72f832d8871bc1d6db00222d3f1b47e", null ],
     [ "LOW_SPEED_VALUE", "d9/da1/_action_get_out_transport_8c.html#a8c4e3abbf504ba8109c02738cbec33b2", null ],
     [ "m_DmgFactor", "d9/da1/_action_get_out_transport_8c.html#a6ed1c1c7abe1f0eecb2af5025de07fa6", null ],

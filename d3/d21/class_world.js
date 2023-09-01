@@ -46,5 +46,6 @@ var class_world =
     [ "SetVoiceOn", "d3/d21/class_world.html#a6ccf439f35e2688f8cc513c174aa8ddb", null ],
     [ "StartFpsBenchmark", "d3/d21/class_world.html#a933d825e9c6756853b7c0b97d1854885", null ],
     [ "StartFpsBenchmarkViews", "d3/d21/class_world.html#a5e28ad6733896f6018e5cdfe122528c1", null ],
-    [ "StartFpsBenchmarkWithMask", "d3/d21/class_world.html#a49427070878f20c1ed57c99e89a247c9", null ]
+    [ "StartFpsBenchmarkWithMask", "d3/d21/class_world.html#a49427070878f20c1ed57c99e89a247c9", null ],
+    [ "UpdatePathgraphDoorByAnimationSourceName", "d3/d21/class_world.html#a575c0204a70b1c1aa9997fa3ba5a6759", null ]
 ];

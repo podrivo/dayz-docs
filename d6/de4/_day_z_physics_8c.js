@@ -15,6 +15,7 @@ var _day_z_physics_8c =
       [ "ROADWAY", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaa40171ea8c0980e35c7ad0ee529c8cfa", null ],
       [ "VEHICLE_NOTERRAIN", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac2053b3830bd5273a2c24c014d6abc61", null ],
       [ "CHARACTER_NO_GRAVITY", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa416166834c71f523dcfaa6bee6f3418f", null ],
+      [ "RAGDOLL_NO_CHARACTER", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9cd3a03199ed1cc608a27fc26d53d058", null ],
       [ "FIREGEOM", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9753af6c5def70f247fe2a41c4d2082a", null ],
       [ "DOOR", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9", null ],
       [ "RAGDOLL", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa6dd34476b864b389cb28b655222b1858", null ],

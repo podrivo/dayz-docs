@@ -14,6 +14,7 @@ var _pistol___base_8c =
     [ "HasBullet", "d1/daa/_pistol___base_8c.html#ab49d3803bebd844c3f873106849df18a", null ],
     [ "HasMagazine", "d1/daa/_pistol___base_8c.html#af2a2200b1debc914a8e34252c33e8dfe", null ],
     [ "InitMuzzleArray", "d1/daa/_pistol___base_8c.html#aecb416b07a0879e66f05969cc59bd671", null ],
+    [ "IsDischarged", "d1/daa/_pistol___base_8c.html#a8bbba5af8edfe436c31a5d4da3f6f576", null ],
     [ "IsJammed", "d1/daa/_pistol___base_8c.html#aac14d196e64cad535c5aa50f0c954df3", null ],
     [ "IsRepairEnabled", "d1/daa/_pistol___base_8c.html#a5505b40857f04731ef377a6be07e9d8c", null ],
     [ "OnEntry", "d1/daa/_pistol___base_8c.html#ae1a61abef7991922fcc93116e2c6ab76", null ],

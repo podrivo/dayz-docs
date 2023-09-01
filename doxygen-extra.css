@@ -159,6 +159,7 @@ div.contents a {
 
 /* Sidebar */
 #side-nav {
+    position: fixed;
     min-width: 320px;
 }
 

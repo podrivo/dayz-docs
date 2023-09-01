@@ -56,6 +56,7 @@ var class_game_inventory =
     [ "FindPlaceholderForSlot", "dc/d11/class_game_inventory.html#aae99d662a194b5f5d08e5a6edd4e8d07", null ],
     [ "FlipCargo", "dc/d11/class_game_inventory.html#a94d7e9562eabdc4b465ae7fb743f7f5a", null ],
     [ "ForceSwapEntities", "dc/d11/class_game_inventory.html#a1a30b8117b62f9d430e9ce84354e38f7", null ],
+    [ "GetAnyInventoryReservationCount", "dc/d11/class_game_inventory.html#a1b038d21467e82f92b334c76b2eaa213", null ],
     [ "GetAttachmentFromIndex", "dc/d11/class_game_inventory.html#a173f76f00b0bb6d6957b6e98c66a5bed", null ],
     [ "GetAttachmentSlotId", "dc/d11/class_game_inventory.html#ac2e5f2a74e5e0d26c1da05b2cdad2976", null ],
     [ "GetAttachmentSlotsCount", "dc/d11/class_game_inventory.html#aab05fc95f4c1901fe25e90f0cd24a7bd", null ],

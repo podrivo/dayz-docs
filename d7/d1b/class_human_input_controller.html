@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.21.156300 · Jun 20, 2023</div>
+   <div id="projectbrief">v1.22.156593 · Ago 29, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -139,6 +139,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a2de38e4a51f96a2d9ab58aa6c890166e"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/class_human_input_controller.html#a2de38e4a51f96a2d9ab58aa6c890166e">Camera3rdIsRightShoulder</a> ()</td></tr>
 <tr class="memdesc:a2de38e4a51f96a2d9ab58aa6c890166e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if camera is on right/ false-left shoulder  <br /></td></tr>
 <tr class="separator:a2de38e4a51f96a2d9ab58aa6c890166e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d8ed16310cd69c8fc408a5358461fb"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/class_human_input_controller.html#a33d8ed16310cd69c8fc408a5358461fb">IsStanceChange</a> ()</td></tr>
+<tr class="memdesc:a33d8ed16310cd69c8fc408a5358461fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">stance change button was pressed  <br /></td></tr>
+<tr class="separator:a33d8ed16310cd69c8fc408a5358461fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9afdd679dad66c72f679f30ba4eef602"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/class_human_input_controller.html#a9afdd679dad66c72f679f30ba4eef602">IsJumpClimb</a> ()</td></tr>
 <tr class="memdesc:a9afdd679dad66c72f679f30ba4eef602"><td class="mdescLeft">&#160;</td><td class="mdescRight">jump/climb action was pressed  <br /></td></tr>
 <tr class="separator:a9afdd679dad66c72f679f30ba4eef602"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,10 +296,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:adcd33e9c11a33c47023cb6908cda9d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">never created by script  <br /></td></tr>
 <tr class="separator:adcd33e9c11a33c47023cb6908cda9d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00014">14</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afee575b17edf3343d3bc450915cb900c" name="afee575b17edf3343d3bc450915cb900c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afee575b17edf3343d3bc450915cb900c">&#9670;&#160;</a></span>HumanInputController()</h2>
 
@@ -321,8 +321,6 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>never created by script </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00252">252</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -350,8 +348,6 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>never created by script </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d9e/human_8c_source.html#l00257">257</a> of file <a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a>.</p>
 
 </div>
 </div>
@@ -381,7 +377,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if camera is on right/ false-left shoulder </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00012">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00360">DayZPlayerCamera3rdPersonErcRaised::DayZPlayerCamera3rdPersonErcRaisedMelee()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00049">DayZPlayerCameraBase::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a908636ab603b4d1049005e946c422a38">DayZPlayerCameraBase::DayZPlayerCamera3rdPerson()</a>, <a class="el" href="../../dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#ad4069b6dca54e2d99961f805c065ebae">DayZPlayerCamera3rdPersonErcRaised::DayZPlayerCamera3rdPersonErcRaisedMelee()</a>, and <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a33ce173bffe5efbb8e2e1af06a594805">DayZPlayerCameraBase::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -410,7 +406,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if freelook is active </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00164">SelectCrossHair()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00254">UpdateLRAngle()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00442">UpdateLRAngleLookAt()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00163">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00202">UpdateUDAngle()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00122">UpdateUDAngleUnlocked()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a390b0b22b7d7b47f9c3c015ef36c7e6c">SelectCrossHair()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a81c88a1a4620503a53c8a11a368e4e3f">UpdateLRAngle()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#aa26eec70aad4726e878218e2f695e6a1">UpdateLRAngleLookAt()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a0ff8945b8e8b4b80ffbc392e3af62203">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#ae9475fb9f56d8508d7f87d20aae0a5a2">UpdateUDAngle()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a40e3bbd2306af3ac9d07884e2f4a0eec">UpdateUDAngleUnlocked()</a>.</p>
 
 </div>
 </div>
@@ -439,7 +435,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns if camera is tracking (using IR device) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">FloatingCrossHair()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00254">UpdateLRAngle()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00163">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00202">UpdateUDAngle()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00122">UpdateUDAngleUnlocked()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a6e10cf8f74e0727c7b6575edd9506b28">FloatingCrossHair()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a81c88a1a4620503a53c8a11a368e4e3f">UpdateLRAngle()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a0ff8945b8e8b4b80ffbc392e3af62203">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#ae9475fb9f56d8508d7f87d20aae0a5a2">UpdateUDAngle()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a40e3bbd2306af3ac9d07884e2f4a0eec">UpdateUDAngleUnlocked()</a>.</p>
 
 </div>
 </div>
@@ -468,7 +464,7 @@ Private Member Functions</h2></td></tr>
 
 <p>1st/3rd person camera view </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01696">DayZPlayer::HandleView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a356acc9e5492c1fca4c437668912b743">DayZPlayer::HandleView()</a>.</p>
 
 </div>
 </div>
@@ -497,7 +493,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns per tick aim change (in radians) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00254">UpdateLRAngle()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00442">UpdateLRAngleLookAt()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00202">UpdateUDAngle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a81c88a1a4620503a53c8a11a368e4e3f">UpdateLRAngle()</a>, <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c.html#aa26eec70aad4726e878218e2f695e6a1">UpdateLRAngleLookAt()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#ae9475fb9f56d8508d7f87d20aae0a5a2">UpdateUDAngle()</a>.</p>
 
 </div>
 </div>
@@ -527,7 +523,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns aim change (in radians) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dbf/_day_z_player_camera_ironsights_8c_source.html#l00136">DayZPlayerCameraBase::OnUpdate()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00163">UpdateLRAngleUnlocked()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00122">UpdateUDAngleUnlocked()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d73/class_day_z_player_camera_base.html#a33ce173bffe5efbb8e2e1af06a594805">DayZPlayerCameraBase::OnUpdate()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a0ff8945b8e8b4b80ffbc392e3af62203">UpdateLRAngleUnlocked()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a40e3bbd2306af3ac9d07884e2f4a0eec">UpdateUDAngleUnlocked()</a>.</p>
 
 </div>
 </div>
@@ -556,7 +552,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns main heading angle (in radians) -PI .. PI (this is world Y angle player is actualy pointing the camera) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c_source.html#l00229">FloatingCrossHair()</a>, <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c_source.html#l00604">GetHeadingAngle()</a>, and <a class="el" href="../../d1/d52/_entity_placement_callback_8c_source.html#l00032">EntityPlacementCallback::OnSetup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d9f/_cross_hair_selector_8c.html#a6e10cf8f74e0727c7b6575edd9506b28">FloatingCrossHair()</a>, <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c.html#ab33724be9d37b039005189ad22ea1de5">GetHeadingAngle()</a>, and <a class="el" href="../../dd/dcf/class_entity_placement_callback.html#a64f7f7fa7689dd7627b74ee265ec7046">EntityPlacementCallback::OnSetup()</a>.</p>
 
 </div>
 </div>
@@ -596,7 +592,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns pSpeed 0,1..2..3 (idle, walk, run, sprint), local normalized direction vector </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01696">DayZPlayer::HandleView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a356acc9e5492c1fca4c437668912b743">DayZPlayer::HandleView()</a>.</p>
 
 </div>
 </div>
@@ -625,7 +621,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns absolute tracking change (in radians) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00254">UpdateLRAngle()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00163">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00202">UpdateUDAngle()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c_source.html#l00122">UpdateUDAngleUnlocked()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a81c88a1a4620503a53c8a11a368e4e3f">UpdateLRAngle()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a0ff8945b8e8b4b80ffbc392e3af62203">UpdateLRAngleUnlocked()</a>, <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#ae9475fb9f56d8508d7f87d20aae0a5a2">UpdateUDAngle()</a>, and <a class="el" href="../../d3/dd8/_day_z_player_camera___base_8c.html#a40e3bbd2306af3ac9d07884e2f4a0eec">UpdateUDAngleUnlocked()</a>.</p>
 
 </div>
 </div>
@@ -654,7 +650,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if 'UAFire' button is pressed (== true for multiple ticks). Synced. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d22/_day_z_player_implement_throwing_8c_source.html#l00011">DayZPlayerImplementThrowing::HandleThrowing()</a>, <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../d5/d6b/_weapon_fire_8c_source.html#l00018">WeaponStartAction::OnUpdate()</a>, and <a class="el" href="../../dd/d57/_weapon_fire_and_chamber_next_8c_source.html#l00038">WeaponStateBase::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d76/class_day_z_player_implement_throwing.html#ac0dd1a42da302f1113f8204c42fef028">DayZPlayerImplementThrowing::HandleThrowing()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons()</a>, <a class="el" href="../../dd/dcb/class_weapon_start_action.html#abf66986e08676e65b1e4fbf3c5f69f48">WeaponStartAction::OnUpdate()</a>, and <a class="el" href="../../d2/db4/class_weapon_state_base.html#abf66986e08676e65b1e4fbf3c5f69f48">WeaponStateBase::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -683,7 +679,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if 'UAFire' button has just been pressed (== true for 1 tick only). Synced. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c_source.html#l00126">HandleFightLogic()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a6bbbf4a646223e8fd3a5328517fefd0b">HandleFightLogic()</a>, and <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons()</a>.</p>
 
 </div>
 </div>
@@ -766,7 +762,7 @@ Private Member Functions</h2></td></tr>
 
 <p>is start of cont. 'UADefaultAction' (== true for 1 tick only) + not raised </p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d13/_emote_manager_8c_source.html#l00279">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d13/_emote_manager_8c.html#a0944bb36335f2aac59b5d5a46566fa0c">Update()</a>.</p>
 
 </div>
 </div>
@@ -795,7 +791,7 @@ Private Member Functions</h2></td></tr>
 
 <p>fire mode has changed </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons()</a>.</p>
 
 </div>
 </div>
@@ -850,7 +846,7 @@ Private Member Functions</h2></td></tr>
 
 <p>holding breath </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons()</a>.</p>
 
 </div>
 </div>
@@ -905,7 +901,7 @@ Private Member Functions</h2></td></tr>
 
 <p>jump/climb action was pressed </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -961,7 +957,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns SHIFT down (melee fast/heavy) attack modifier </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c_source.html#l00079">GetAttackTypeFromInputs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a57c3e4187f709704a70245a1d1aae688">GetAttackTypeFromInputs()</a>.</p>
 
 </div>
 </div>
@@ -990,7 +986,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns 0,1,2 = none,left,right </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c_source.html#l00126">HandleFightLogic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a6bbbf4a646223e8fd3a5328517fefd0b">HandleFightLogic()</a>.</p>
 
 </div>
 </div>
@@ -1019,7 +1015,7 @@ Private Member Functions</h2></td></tr>
 
 <p>return weapon melee attack modifier </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01959">DayZPlayer::CommandHandler()</a>, and <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c_source.html#l00126">HandleFightLogic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, and <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a6bbbf4a646223e8fd3a5328517fefd0b">HandleFightLogic()</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1097,7 @@ Private Member Functions</h2></td></tr>
 <p>is end of cont use (== true for 1 tick only) long quickbar + not raised ! <br  />
  </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1125,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>is start of cont use (== true for 1 tick only) long quickbar + not raised ! </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -1157,7 +1153,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>single use (== true for 1 tick only) quickbar + not raised ! </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -1186,7 +1182,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns 1..10 if some quickbar slot is used, 0 otherwise </p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d4d/_quick_bar_base_8c_source.html#l00281">CancelContinuousUse()</a>, and <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d4d/_quick_bar_base_8c.html#a399ac7409edfe78d53bd21288c979eb3">CancelContinuousUse()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>.</p>
 
 </div>
 </div>
@@ -1215,7 +1211,7 @@ Private Member Functions</h2></td></tr>
 
 <p>R - reloading / bolting - long press (== true for multiple ticks) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d7c/_weapon_unjamming_8c_source.html#l00027">WeaponStartAction::OnUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dcb/class_weapon_start_action.html#abf66986e08676e65b1e4fbf3c5f69f48">WeaponStartAction::OnUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1353,7 +1349,36 @@ Private Member Functions</h2></td></tr>
 
 <p>single 'UADefaultAction' (== true for 1 tick only) + not raised </p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d13/_emote_manager_8c_source.html#l00279">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d13/_emote_manager_8c.html#a0944bb36335f2aac59b5d5a46566fa0c">Update()</a>.</p>
+
+</div>
+</div>
+<a id="a33d8ed16310cd69c8fc408a5358461fb" name="a33d8ed16310cd69c8fc408a5358461fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d8ed16310cd69c8fc408a5358461fb">&#9670;&#160;</a></span>IsStanceChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a> IsStanceChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>stance change button was pressed </p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/d76/class_day_z_player_implement_throwing.html#ad7b0019a897d667e3f865e9518e7d77d">DayZPlayerImplementThrowing::CanChangeThrowingStance()</a>.</p>
 
 </div>
 </div>
@@ -1382,7 +1407,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if change of throwing mode has been requested </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d22/_day_z_player_implement_throwing_8c_source.html#l00011">DayZPlayerImplementThrowing::HandleThrowing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d76/class_day_z_player_implement_throwing.html#ac0dd1a42da302f1113f8204c42fef028">DayZPlayerImplementThrowing::HandleThrowing()</a>.</p>
 
 </div>
 </div>
@@ -1548,7 +1573,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if weapon is raised </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d22/_day_z_player_implement_throwing_8c_source.html#l00150">DayZPlayerImplementThrowing::CanChangeThrowingStance()</a>, <a class="el" href="../../d1/d22/_day_z_player_implement_throwing_8c_source.html#l00188">DayZPlayerImplementThrowing::CanContinueThrowing()</a>, <a class="el" href="../../df/d13/_emote_manager_8c_source.html#l00871">CanPlayEmote()</a>, <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c_source.html#l00126">HandleFightLogic()</a>, and <a class="el" href="../../df/d13/_emote_manager_8c_source.html#l00279">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d76/class_day_z_player_implement_throwing.html#ad7b0019a897d667e3f865e9518e7d77d">DayZPlayerImplementThrowing::CanChangeThrowingStance()</a>, <a class="el" href="../../db/d76/class_day_z_player_implement_throwing.html#ab3968ce2a27e58c2d8a3d8c2ec88414c">DayZPlayerImplementThrowing::CanContinueThrowing()</a>, <a class="el" href="../../df/d13/_emote_manager_8c.html#a426acba25d40533723c97102c9f739db">CanPlayEmote()</a>, <a class="el" href="../../d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a6bbbf4a646223e8fd3a5328517fefd0b">HandleFightLogic()</a>, and <a class="el" href="../../df/d13/_emote_manager_8c.html#a0944bb36335f2aac59b5d5a46566fa0c">Update()</a>.</p>
 
 </div>
 </div>
@@ -1577,7 +1602,7 @@ Private Member Functions</h2></td></tr>
 
 <p>zeroing down </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons()</a>.</p>
 
 </div>
 </div>
@@ -1606,7 +1631,7 @@ Private Member Functions</h2></td></tr>
 
 <p>zeroing up </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l00844">DayZPlayer::HandleWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#ab6bf010c5edd3a5143cbbb337b1fe938">DayZPlayer::HandleWeapons()</a>.</p>
 
 </div>
 </div>
@@ -1712,7 +1737,7 @@ Private Member Functions</h2></td></tr>
 
 <p>zooming toggle </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01696">DayZPlayer::HandleView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a356acc9e5492c1fca4c437668912b743">DayZPlayer::HandleView()</a>.</p>
 
 </div>
 </div>
@@ -1742,7 +1767,7 @@ Private Member Functions</h2></td></tr>
 
 <p>this disables sprint </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>, and <a class="el" href="../../d6/daf/mission_gameplay_8c_source.html#l00723">MissionBase::PlayerControlEnable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>, and <a class="el" href="../../d5/d04/class_mission_base.html#a028a0d6f4e73ea6481ea689b85befb40">MissionBase::PlayerControlEnable()</a>.</p>
 
 </div>
 </div>
@@ -1807,7 +1832,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00360">DayZPlayerCamera3rdPersonErcRaised::DayZPlayerCamera3rdPersonErcRaisedMelee()</a>, and <a class="el" href="../../d8/dd8/_day_z_player_camera3rd_person_8c_source.html#l00368">DayZPlayerCamera3rdPersonErcRaised::~DayZPlayerCamera3rdPersonErcRaisedMelee()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#ad4069b6dca54e2d99961f805c065ebae">DayZPlayerCamera3rdPersonErcRaised::DayZPlayerCamera3rdPersonErcRaisedMelee()</a>, and <a class="el" href="../../dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#a19bee0f7f79ad77ea0d46bcd34eca324">DayZPlayerCamera3rdPersonErcRaised::~DayZPlayerCamera3rdPersonErcRaisedMelee()</a>.</p>
 
 </div>
 </div>
@@ -2052,7 +2077,7 @@ Private Member Functions</h2></td></tr>
 
 <p>resets ADS mode to default </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d9a/_player_base_8c_source.html#l02701">ManBase::CommandHandler()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01565">DayZPlayer::HandleADS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>, and <a class="el" href="../../db/d2e/class_day_z_player.html#a89833e3a69d0a90baf062444e6a13a43">DayZPlayer::HandleADS()</a>.</p>
 
 </div>
 </div>
@@ -2081,7 +2106,7 @@ Private Member Functions</h2></td></tr>
 
 <p>reset freelook toggle </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01565">DayZPlayer::HandleADS()</a>, and <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01011">DayZPlayer::HandleOptic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a89833e3a69d0a90baf062444e6a13a43">DayZPlayer::HandleADS()</a>, and <a class="el" href="../../db/d2e/class_day_z_player.html#ae1f52092f64c0f32aee59079bc74fd93">DayZPlayer::HandleOptic()</a>.</p>
 
 </div>
 </div>
@@ -2219,7 +2244,7 @@ Private Member Functions</h2></td></tr>
 
 <p>returns true if weapon ADS mode </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d32/_day_z_player_implement_8c_source.html#l01565">DayZPlayer::HandleADS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a89833e3a69d0a90baf062444e6a13a43">DayZPlayer::HandleADS()</a>.</p>
 
 </div>
 </div>
@@ -2251,7 +2276,7 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/<a class="el" href="../../d4/d9e/human_8c_source.html">human.c</a></li>
+<li>3_Game/<a class="el" href="../../d4/d9e/human_8c.html">human.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

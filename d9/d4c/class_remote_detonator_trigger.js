@@ -13,7 +13,7 @@ var class_remote_detonator_trigger =
     [ "PairRemote", "d9/d4c/class_remote_detonator_trigger.html#a887b6004c3899ea2c9888d8f3e1d90f9", null ],
     [ "SetActions", "d9/d4c/class_remote_detonator_trigger.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SetControlledDevice", "d9/d4c/class_remote_detonator_trigger.html#a97d536c9080ea10c722a8fb8f455a79a", null ],
-    [ "SpawnInPlayerHands", "d9/d4c/class_remote_detonator_trigger.html#a2d1a9f377484b7fe75334da4720a7dea", null ],
+    [ "SpawnInPlayerHands", "d9/d4c/class_remote_detonator_trigger.html#abeb7b456f7bce00cd5908109de6dd452", null ],
     [ "UnpairRemote", "d9/d4c/class_remote_detonator_trigger.html#aabae2c5fd3871959ff0c1d57baa2d354", null ],
     [ "ANIM_PHASE_TRIGGER", "d9/d4c/class_remote_detonator_trigger.html#a733cecb3ff8420b07d62ad835be26b14", null ],
     [ "m_LED", "d9/d4c/class_remote_detonator_trigger.html#a10a4f64a2b6cfd664c461f89bfcf26d9", null ],

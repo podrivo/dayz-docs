@@ -23,6 +23,7 @@ var class_mission =
     [ "GetOnInputDeviceConnected", "db/dad/class_mission.html#a779703271152986baa168e6420f8d091", null ],
     [ "GetOnInputDeviceDisconnected", "db/dad/class_mission.html#ac1e986a6bcd5b2e89562e74792d62f98", null ],
     [ "GetOnInputPresetChanged", "db/dad/class_mission.html#a3463ee9fda49245b27fb1bba6a13436a", null ],
+    [ "GetOnModMenuVisibilityChanged", "db/dad/class_mission.html#a90153a63101508f0f2609883ac44022f", null ],
     [ "GetRainProcurementHandler", "db/dad/class_mission.html#a144a2b34c13377e1920b6ee0427de437", null ],
     [ "GetRespawnModeClient", "db/dad/class_mission.html#a31509db81f21161e3e75498eeee8e9b2", null ],
     [ "GetVoiceLevelTimers", "db/dad/class_mission.html#a2b40649881d97987e805bc1f90cdc037", null ],
@@ -31,6 +32,7 @@ var class_mission =
     [ "GetWorldLighting", "db/dad/class_mission.html#a315a69db2fa0983e40c47cb142a75355", null ],
     [ "HideChat", "db/dad/class_mission.html#ac4038dcb0b80d46e9b29b1f10054c8d9", null ],
     [ "HideCrosshairVisibility", "db/dad/class_mission.html#af00320d226f29d8e7cb080b42fa72c45", null ],
+    [ "HideDebugMonitor", "db/dad/class_mission.html#a3230e0f4858fd8b5e9235c0cf7abbc68", null ],
     [ "HideInventory", "db/dad/class_mission.html#ad59866e2e77c85faa51cf355d7ee1360", null ],
     [ "HideVoiceLevelWidgets", "db/dad/class_mission.html#a623f192ac361e0bafcf62e148c1f3ee9", null ],
     [ "InsertCorpse", "db/dad/class_mission.html#a97accdb3900bb722bd2e76820a5781eb", null ],
@@ -79,5 +81,6 @@ var class_mission =
     [ "m_OnInputDeviceConnected", "db/dad/class_mission.html#a8c137de67329e8087aa095e6240a5870", null ],
     [ "m_OnInputDeviceDisconnected", "db/dad/class_mission.html#a42d7fe3f46a8ac026463ea937ace3303", null ],
     [ "m_OnInputPresetChanged", "db/dad/class_mission.html#a695b8b1086e16061d11c4348826065bf", null ],
+    [ "m_OnModMenuVisibilityChanged", "db/dad/class_mission.html#a4221dce2353b39ecdf06ff3088182732", null ],
     [ "MissionScript", "db/dad/class_mission.html#a53ff0fd25a1d5a39b5bc4c82d8040ea5", null ]
 ];
