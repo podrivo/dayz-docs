@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d4/d77/class_area_damage_events.html#a8c4a81207c0f34cc2179341fe56be50c":[2,0,635,24],
 "d4/d77/class_area_damage_events.html#a972b8da432077f59d997db5744b3a8ef":[2,0,635,18],
 "d4/d77/class_area_damage_events.html#a97d2beafda4f9a8d85d07122572104b2":[2,0,635,22],
 "d4/d77/class_area_damage_events.html#aa332426bd29abe7ceace378dd1fcc788":[2,0,635,13],
@@ -16,14 +17,14 @@ var NAVTREEINDEX48 =
 "d4/d77/class_area_damage_events.html#af4f0fb609d3e524cb8f0bfffacd88208":[2,0,635,16],
 "d4/d77/class_area_damage_events.html#af6bfa4297ec54d8cb98a5a0971cef1f7":[2,0,635,3],
 "d4/d79/class_mag___dartgun___c_o2.html":[2,0,1662],
-"d4/d7a/_prison_uniform_jacket_8c.html":[3,0,3,1,9,3,146],
+"d4/d7a/_prison_uniform_jacket_8c.html":[3,0,0,3,1,9,3,146],
 "d4/d7a/class_cfg_slots_1_1_slot___seed_base__8.html":[2,0,951,259],
 "d4/d7a/class_cfg_slots_1_1_slot___seed_base__8.html#a13e8f9b69fe776b7a8ace2f2941de044":[2,0,951,259,4],
 "d4/d7a/class_cfg_slots_1_1_slot___seed_base__8.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,951,259,0],
 "d4/d7a/class_cfg_slots_1_1_slot___seed_base__8.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,951,259,3],
 "d4/d7a/class_cfg_slots_1_1_slot___seed_base__8.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,951,259,1],
 "d4/d7a/class_cfg_slots_1_1_slot___seed_base__8.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,951,259,2],
-"d4/d7b/_heatpack_8c.html":[3,0,3,1,9,70],
+"d4/d7b/_heatpack_8c.html":[3,0,0,3,1,9,70],
 "d4/d7b/class_cfg_slots_1_1_slot___civ_van_trunk_up.html":[2,0,951,58],
 "d4/d7b/class_cfg_slots_1_1_slot___civ_van_trunk_up.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,951,58,0],
 "d4/d7b/class_cfg_slots_1_1_slot___civ_van_trunk_up.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,951,58,1],
@@ -90,7 +91,7 @@ var NAVTREEINDEX48 =
 "d4/d7c/class_c_c_i_none.html#af0ad0321cc6bff995881eedff56aa46b":[2,0,924,0],
 "d4/d7c/class_mine_action_data.html":[2,0,1746],
 "d4/d7c/class_mine_action_data.html#ade389d6579b2d10ea62a5596521ff3ba":[2,0,1746,0],
-"d4/d7d/_c_a_interact_8c.html":[3,0,3,0,29,0,33],
+"d4/d7d/_c_a_interact_8c.html":[3,0,0,3,0,29,0,33],
 "d4/d7d/class_canvas_bag___medical.html":[2,0,895],
 "d4/d7d/class_drowning_sound_event_base.html":[2,0,1174],
 "d4/d7d/class_drowning_sound_event_base.html#af7f68870eef8460c8e0f123c8e805a59":[2,0,1174,0],
@@ -129,7 +130,7 @@ var NAVTREEINDEX48 =
 "d4/d83/class_c_a_continuous_fill_oil.html#adc4eeed851ccdf899b90e5a82a758509":[2,0,861,12],
 "d4/d83/class_c_a_continuous_fill_oil.html#ae8b63dda0aa5fd03ccba6a65bfa27554":[2,0,861,0],
 "d4/d83/class_c_a_continuous_fill_oil.html#afaf420574963aef13ecf2b69b92a81fc":[2,0,861,5],
-"d4/d84/_b95_8c.html":[3,0,3,1,5,6,0],
+"d4/d84/_b95_8c.html":[3,0,0,3,1,5,6,0],
 "d4/d84/class_cfg_slots_1_1_slot___material___shelter___frame_sticks.html":[2,0,951,181],
 "d4/d84/class_cfg_slots_1_1_slot___material___shelter___frame_sticks.html#a13e8f9b69fe776b7a8ace2f2941de044":[2,0,951,181,4],
 "d4/d84/class_cfg_slots_1_1_slot___material___shelter___frame_sticks.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,951,181,0],
@@ -183,7 +184,7 @@ var NAVTREEINDEX48 =
 "d4/d84/class_u_a_input.html#af5cc3e9de9fae69c592a5d204faf845d":[2,0,2449,0],
 "d4/d84/class_u_a_input.html#afc88158fa9203c0b33f7e6754baec239":[2,0,2449,7],
 "d4/d84/class_u_a_input.html#aff0d2da1afd26410d00b55a863e67620":[2,0,2449,42],
-"d4/d87/_inventory_quickbar_8c.html":[3,0,4,0,4,1],
+"d4/d87/_inventory_quickbar_8c.html":[3,0,0,4,0,4,1],
 "d4/d87/class_cfg_slots_1_1_slot___d_b_helmet_mouth.html":[2,0,951,66],
 "d4/d87/class_cfg_slots_1_1_slot___d_b_helmet_mouth.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,951,66,0],
 "d4/d87/class_cfg_slots_1_1_slot___d_b_helmet_mouth.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,951,66,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d4/d87/class_man_base.html#a144e0263dfdd4e5e67ca0039d47ee255":[2,0,1707,16],
 "d4/d87/class_man_base.html#a14d430bb3254fb8361c705f58b4f22bb":[2,0,1707,227],
 "d4/d87/class_man_base.html#a1518bc39b5ee039331b99daefb20aa94":[2,0,1707,100],
-"d4/d87/class_man_base.html#a15f5f8d7b3fde9704cf74270b3e844bf":[2,0,1707,57],
-"d4/d87/class_man_base.html#a16788dcccdf9132ca36931a948509bdb":[2,0,1707,601]
+"d4/d87/class_man_base.html#a15f5f8d7b3fde9704cf74270b3e844bf":[2,0,1707,57]
 };

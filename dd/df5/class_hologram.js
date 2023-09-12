@@ -49,6 +49,7 @@ var class_hologram =
     [ "IsObjectStatic", "dd/df5/class_hologram.html#af8e1ae598be5a992ac2984190b6d1ecb", null ],
     [ "IsPlacementPermitted", "dd/df5/class_hologram.html#a9f74568ffd13f632faac4167497963a4", null ],
     [ "IsProjectionTrap", "dd/df5/class_hologram.html#af9eb89bb30bca5da4d1a6946e1937970", null ],
+    [ "IsRestrictedFromAdvancedPlacing", "dd/df5/class_hologram.html#a703afb070934853e4cb8936e5fb48237", null ],
     [ "IsSurfaceSea", "dd/df5/class_hologram.html#aaad539f97ab8f0def61160d777190798", null ],
     [ "IsSurfaceWater", "dd/df5/class_hologram.html#abadda98083288c3597e5f25476a00fc8", null ],
     [ "IsUnderwater", "dd/df5/class_hologram.html#add469d928cd48b90f3f2453474d60336", null ],

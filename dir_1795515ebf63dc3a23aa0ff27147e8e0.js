@@ -7,5 +7,6 @@ var dir_1795515ebf63dc3a23aa0ff27147e8e0 =
     [ "DynamicArea_Flare.c", "dc/d30/_dynamic_area___flare_8c.html", "dc/d30/_dynamic_area___flare_8c" ],
     [ "EffectArea.c", "de/df7/_effect_area_8c.html", "de/df7/_effect_area_8c" ],
     [ "JsonDataContaminatedArea.c", "d4/d2c/_json_data_contaminated_area_8c.html", "d4/d2c/_json_data_contaminated_area_8c" ],
-    [ "SpookyArea.c", "d4/da6/_spooky_area_8c.html", "d4/da6/_spooky_area_8c" ]
+    [ "SpookyArea.c", "d4/da6/_spooky_area_8c.html", "d4/da6/_spooky_area_8c" ],
+    [ "SpookyAreaMisc.c", "d8/d26/_spooky_area_misc_8c.html", "d8/d26/_spooky_area_misc_8c" ]
 ];

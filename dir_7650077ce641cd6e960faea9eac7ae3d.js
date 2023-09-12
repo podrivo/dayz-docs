@@ -7,6 +7,7 @@ var dir_7650077ce641cd6e960faea9eac7ae3d =
     [ "EntranceLight.c", "dc/d4e/_entrance_light_8c.html", "dc/d4e/_entrance_light_8c" ],
     [ "FireplaceLight.c", "d9/d39/_fireplace_light_8c.html", "d9/d39/_fireplace_light_8c" ],
     [ "FlareLight.c", "d7/d9d/_flare_light_8c.html", "d7/d9d/_flare_light_8c" ],
+    [ "GoatLight.c", "d1/db9/_goat_light_8c.html", "d1/db9/_goat_light_8c" ],
     [ "MuzzleFlashLight.c", "de/dc6/_muzzle_flash_light_8c.html", "de/dc6/_muzzle_flash_light_8c" ],
     [ "PartyLight.c", "d9/d03/_party_light_8c.html", "d9/d03/_party_light_8c" ],
     [ "PersonalLight.c", "d6/dcc/_personal_light_8c.html", "d6/dcc/_personal_light_8c" ],
