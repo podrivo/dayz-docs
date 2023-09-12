@@ -33,3 +33,20 @@ Version 1.20
 - [Update 3 v1.20.155844 · Mar 01, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=4&tab=comments#comment-2484270)
 - [Update 2 v1.20.155817 · Feb 22, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=3&tab=comments#comment-2484121)
 - [Update 1 v1.20.155766 · Feb 14, 2023](https://forums.dayz.com/topic/254301-stable-update-120/)
+
+
+License
+--
+
+Arma and DayZ Public License Share Alike (ADPL-SA)
+
+With this license you are free to adapt (i.e. modify, rework or update) and share (i.e. copy, distribute or transmit) the material under the following conditions:
+
+- Attribution - You must attribute the material in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the material).
+- Noncommercial - You may not use this material for any commercial purposes.
+- Arma and DayZ Only - You may not convert or adapt this material to be used in other games than Arma and DayZ.
+- Share Alike - If you adapt, or build upon this material, you may distribute the resulting material only under the same license.
+
+Full text: https://www.bohemia.net/community/licenses/arma-and-dayz-public-license-share-alike-adpl-sa
+
+© 2023 BOHEMIA INTERACTIVE a.s. DAYZ®, ENFUSION®, and BOHEMIA INTERACTIVE® are registered trademarks of BOHEMIA INTERACTIVE a.s. All rights reserved.
