@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"d6/d5a/group___stamina_handler_cfg.html#ga5929889ad1a0cfa0d280c2ed56a573ef":[1,23,11,30],
+"d6/d5a/group___stamina_handler_cfg.html#ga612eab212909faf75be57449816fdf1b":[1,23,11,19],
+"d6/d5a/group___stamina_handler_cfg.html#ga6c12d86b5059bfb057c63c5855f01799":[1,23,11,10],
+"d6/d5a/group___stamina_handler_cfg.html#ga78b8a29273fa4e6d21d891c2e5092c0d":[1,23,11,3],
 "d6/d5a/group___stamina_handler_cfg.html#ga7a7b7b2dab058e5d853398ffd0c018a0":[1,23,11,7],
 "d6/d5a/group___stamina_handler_cfg.html#ga7ae5c1492b8528539a795a0e772f56bc":[1,23,11,31],
 "d6/d5a/group___stamina_handler_cfg.html#ga84d02c9c8bfbd347be0199a1dc2e5af7":[1,23,11,9],
@@ -27,10 +31,10 @@ var NAVTREEINDEX75 =
 "d6/d5b/group___custom_emote_i_ds.html":[1,23,0],
 "d6/d5b/group___custom_emote_i_ds.html#ga989ef35af05e4fb2e85ca0568dd04c72":[1,23,0,5],
 "d6/d5b/group___custom_emote_i_ds.html#ga989ef35af05e4fb2e85ca0568dd04c72":[1,23,0,4],
-"d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,1],
 "d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,0],
-"d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,2],
+"d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,1],
 "d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,3],
+"d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,2],
 "d6/d5c/_action_craft_improvised_eye_patch_8c.html":[3,0,0,3,0,29,1,0,22],
 "d6/d5c/class_agaricus_mushroom.html":[2,0,527],
 "d6/d5c/class_agaricus_mushroom.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,527,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "d6/d88/_soft_skills_manager_8c.html#a7cd72e2d7c3c7f384f42d0f11c4d6075":[3,0,0,3,0,64,1],
 "d6/d88/_soft_skills_manager_8c.html#abe8140b3d3060368ef636c5971d9737d":[3,0,0,3,0,64,5],
 "d6/d88/_soft_skills_manager_8c.html#ac13bcc15ea4365ce22fbaa4c4ca158ad":[3,0,0,3,0,64,10],
-"d6/d88/_soft_skills_manager_8c.html#ac6ed31fe7e4d1a2b5c4f36a75d2679fc":[3,0,0,3,0,64,9],
-"d6/d88/_soft_skills_manager_8c.html#ac7d1977dd15828fbdc8ec368269836a0":[3,0,0,3,0,64,6],
-"d6/d88/_soft_skills_manager_8c.html#adc82fd64f3826efa9ac5d4f89949f830":[3,0,0,3,0,64,11],
-"d6/d88/_soft_skills_manager_8c.html#ae98bcd645a7636db9958918c1712799a":[3,0,0,3,0,64,12],
-"d6/d88/class_box___base.html":[2,0,800]
+"d6/d88/_soft_skills_manager_8c.html#ac6ed31fe7e4d1a2b5c4f36a75d2679fc":[3,0,0,3,0,64,9]
 };

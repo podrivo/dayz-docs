@@ -1,5 +1,9 @@
 var NAVTREEINDEX128 =
 {
+"db/d2d/class_stamina_modifiers.html#afadf293ff56b8e11ec23724044665e61":[2,0,2182,5],
+"db/d2e/_server_browser_entry_8c.html":[3,0,0,4,0,6,8,0],
+"db/d2e/_slacks_pants___color_base_8c.html":[3,0,0,3,1,9,3,158],
+"db/d2e/class_contamination_stage3_mdfr.html":[2,0,1036],
 "db/d2e/class_contamination_stage3_mdfr.html#a26f9fd15a00330c021c7d5c1a55d039a":[2,0,1036,7],
 "db/d2e/class_contamination_stage3_mdfr.html#a3fae6d6b0946cbe842c50c8ab274e1e4":[2,0,1036,2],
 "db/d2e/class_contamination_stage3_mdfr.html#a6ab0d3ad2f7b2bdf0b084bfff5fce142":[2,0,1036,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "db/d2f/class_cargo_container_row.html#a043f0201927f03efd3d5b434af7ff809":[2,0,903,14],
 "db/d2f/class_cargo_container_row.html#a08fcb7e265c528e1d95065ac7eae478f":[2,0,903,32],
 "db/d2f/class_cargo_container_row.html#a0e9404f30ae061154f3f20550b791e97":[2,0,903,13],
-"db/d2f/class_cargo_container_row.html#a1e27bdaf5689eb056c5cdb6a0cc96853":[2,0,903,15],
-"db/d2f/class_cargo_container_row.html#a1e4cab7eb87d69814961473fe8c99e32":[2,0,903,37],
-"db/d2f/class_cargo_container_row.html#a2245c3bdfc13f8f9038c2fce27215daa":[2,0,903,30],
-"db/d2f/class_cargo_container_row.html#a35645fe123dfd3240f8feac2e9d46cbf":[2,0,903,21],
-"db/d2f/class_cargo_container_row.html#a3d03e6ca9c0f881d383cef4ed662982f":[2,0,903,16]
+"db/d2f/class_cargo_container_row.html#a1e27bdaf5689eb056c5cdb6a0cc96853":[2,0,903,15]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX74 =
 {
+"d6/d52/_inventory_location_8c.html#ad12db73d28b1b3de5cad36e8b5ab7d21":[3,0,0,2,17,3,22,4],
+"d6/d52/class_eff_generator_smoke.html":[2,0,1204],
+"d6/d52/class_eff_generator_smoke.html#a50097f34387598c45f0ae69e6b9b604e":[2,0,1204,0],
+"d6/d53/class_action_force_bite_charcoal_tablets.html":[2,0,246],
 "d6/d53/class_action_force_bite_charcoal_tablets.html#aa3c33301ac1494510a06d1e649ea456b":[2,0,246,0],
 "d6/d54/_u_m_p45_8c.html":[3,0,0,3,1,5,8,4],
 "d6/d55/_amanita_mushroom_8c.html":[3,0,0,3,1,9,5,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX74 =
 "d6/d5a/group___stamina_handler_cfg.html#ga4a10178cb69ac6c58cf1103ed780b17e":[1,23,11,16],
 "d6/d5a/group___stamina_handler_cfg.html#ga50f60a0145015ae6330d2649cc9ad29a":[1,23,11,36],
 "d6/d5a/group___stamina_handler_cfg.html#ga55ce2475519ad4416f17aefac80ba97e":[1,23,11,18],
-"d6/d5a/group___stamina_handler_cfg.html#ga57b794aa4600aecd0b1f310e09efbad5":[1,23,11,21],
-"d6/d5a/group___stamina_handler_cfg.html#ga5929889ad1a0cfa0d280c2ed56a573ef":[1,23,11,30],
-"d6/d5a/group___stamina_handler_cfg.html#ga612eab212909faf75be57449816fdf1b":[1,23,11,19],
-"d6/d5a/group___stamina_handler_cfg.html#ga6c12d86b5059bfb057c63c5855f01799":[1,23,11,10],
-"d6/d5a/group___stamina_handler_cfg.html#ga78b8a29273fa4e6d21d891c2e5092c0d":[1,23,11,3]
+"d6/d5a/group___stamina_handler_cfg.html#ga57b794aa4600aecd0b1f310e09efbad5":[1,23,11,21]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX179 =
 {
+"df/d2e/_item_base_8c.html#a818240f2eea1f04df3742e69092aeeae":[3,0,0,3,1,34,28],
+"df/d2e/_item_base_8c.html#a828be696ccceaf7efd28ef94549a5145":[3,0,0,3,1,34,266],
+"df/d2e/_item_base_8c.html#a830fb172abb11a45ba122eccd40b0017":[3,0,0,3,1,34,215],
 "df/d2e/_item_base_8c.html#a83467008e8d634e672934487fcda3034":[3,0,0,3,1,34,129],
 "df/d2e/_item_base_8c.html#a83a1e547e0d1e65ad421070058a093a9":[3,0,0,3,1,34,51],
 "df/d2e/_item_base_8c.html#a8501b66ad2d854ae9dd2ffc9ae48f134":[3,0,0,3,1,34,290],
@@ -246,8 +249,5 @@ var NAVTREEINDEX179 =
 "df/d36/class_inventory_slots.html#a0c874316071afe05b3d5beab50ab7a1c":[2,0,1507,0],
 "df/d36/class_inventory_slots.html#a0f1928c60d38458c84b56116d762292d":[2,0,1507,3],
 "df/d36/class_inventory_slots.html#a208b0e783cceeacfac9262dc84d43be3":[2,0,1507,10],
-"df/d36/class_inventory_slots.html#a23e0bc9f7cc04fecd66e4de70c314438":[2,0,1507,9],
-"df/d36/class_inventory_slots.html#a308572e3937ef7742e8cc93025faf712":[2,0,1507,11],
-"df/d36/class_inventory_slots.html#a338920c4d5fac6af3b9cc86a85b0a1eb":[2,0,1507,8],
-"df/d36/class_inventory_slots.html#a3a1b104603ba4b9b8a2f2b1d8f73fa32":[2,0,1507,1]
+"df/d36/class_inventory_slots.html#a23e0bc9f7cc04fecd66e4de70c314438":[2,0,1507,9]
 };

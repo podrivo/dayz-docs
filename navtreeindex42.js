@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"d3/de1/class_injury_handler_thresholds.html#a5483291274679b2b66a47fff0d7837ba":[2,0,1491,2],
+"d3/de1/class_injury_handler_thresholds.html#ab133cc7e22c6fbd3b248b06240d7cde5":[2,0,1491,1],
+"d3/de1/class_injury_handler_thresholds.html#abd1b286a89418ef1f7c1ffb35cf045ae":[2,0,1491,0],
+"d3/de2/class_bios_privacy_service.html":[2,0,728],
 "d3/de2/class_bios_privacy_service.html#a00d45675914959ff3c4092c70aedb180":[2,0,728,1],
 "d3/de2/class_bios_privacy_service.html#a3ca56329fe852106b10d5113d5688325":[2,0,728,0],
 "d3/de2/class_bios_privacy_service.html#a45e208c1ace6a916619281ba08b5ef6e":[2,0,728,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "d3/def/class_player_constants.html#ab3712e52a42a6fe17134cbe967db68c1":[2,0,1890,119],
 "d3/def/class_player_constants.html#ab5cb3d9e7c70c20c9f3bee73edc7444a":[2,0,1890,64],
 "d3/def/class_player_constants.html#ab6adb001a9e4eba1fb0e704d5378c099":[2,0,1890,143],
-"d3/def/class_player_constants.html#ab79da2db23c5538c699b3028c1931501":[2,0,1890,116],
-"d3/def/class_player_constants.html#ab8b87ed79c7456e30a69e14d757b055b":[2,0,1890,107],
-"d3/def/class_player_constants.html#abb42ac24770a030ddb314cfb75313b8f":[2,0,1890,36],
-"d3/def/class_player_constants.html#abc94518f6d657bbcdbbbc38d3e6d32dd":[2,0,1890,125],
-"d3/def/class_player_constants.html#abdcb577b52be13d2dcc642001840f837":[2,0,1890,130]
+"d3/def/class_player_constants.html#ab79da2db23c5538c699b3028c1931501":[2,0,1890,116]
 };

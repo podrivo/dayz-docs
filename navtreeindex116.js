@@ -1,5 +1,12 @@
 var NAVTREEINDEX116 =
 {
+"da/d1e/_log_templates_8c.html#a58d9e3e929a2b265837a5177254e2a11":[3,0,0,2,18,13,8],
+"da/d1e/_log_templates_8c.html#a64d4646b3600db28641cb4eb87c2f41a":[3,0,0,2,18,13,2],
+"da/d1e/_log_templates_8c.html#a77a9875ff34fd08e3777409a0d4958cf":[3,0,0,2,18,13,11],
+"da/d1e/_log_templates_8c.html#a7b89175beacf3fc94e4fac1bdf223c89":[3,0,0,2,18,13,10],
+"da/d1e/_log_templates_8c.html#aa750d1437a5a1db7a78e3d4ba292df8c":[3,0,0,2,18,13,5],
+"da/d1e/_log_templates_8c.html#aafa11cdd3df20ce93920ef577dc30901":[3,0,0,2,18,13,14],
+"da/d1e/_log_templates_8c.html#abb96a2dd2e9827dd2eb3b17b5908ff43":[3,0,0,2,18,13,3],
 "da/d1e/_log_templates_8c.html#abbf93816efb97339f9913993bb6cb47a":[3,0,0,2,18,13,9],
 "da/d1e/_log_templates_8c.html#ac213e22d348730067e8d0d4cf561f3b7":[3,0,0,2,18,13,6],
 "da/d1e/_log_templates_8c.html#aea40501bdcf683cd7510dd424db172c1":[3,0,0,2,18,13,15],
@@ -240,14 +247,7 @@ var NAVTREEINDEX116 =
 "da/d41/_slot_8c.html#a16deda878fff78b25fcc31c1ef0a1985a58022b77c5a51230d2e95990e4b6c5a9":[3,0,0,3,1,7,2,0,1],
 "da/d41/_slot_8c.html#a16deda878fff78b25fcc31c1ef0a1985ac157bdf0b85a40d2619cbc8bc1ae5fe2":[3,0,0,3,1,7,2,0,0],
 "da/d42/class_plastic___explosive.html":[2,0,1884],
-"da/d42/class_plastic___explosive.html#a0150c9d41d23b6664acb7a61f99d64eb":[2,0,1884,34],
-"da/d42/class_plastic___explosive.html#a08fc35b80c7cbd9a298b4e81841c7c25":[2,0,1884,32],
-"da/d42/class_plastic___explosive.html#a0f9e1857cf6ed85460fd5e61e97578a0":[2,0,1884,33],
-"da/d42/class_plastic___explosive.html#a1040927b23ef410e66780031b64ab846":[2,0,1884,37],
-"da/d42/class_plastic___explosive.html#a264ad0dff1969b21c2227e848737433b":[2,0,1884,14],
-"da/d42/class_plastic___explosive.html#a28844b1ba07e57041f60b3284c064916":[2,0,1884,25],
-"da/d42/class_plastic___explosive.html#a35a85dbb8d86badfdee250107b15e803":[2,0,1884,23],
-"da/d42/class_plastic___explosive.html#a39ff70d7c687bb8df5fcf8348016e9ea":[2,0,1884,2],
-"da/d42/class_plastic___explosive.html#a4d599b94793d88f9f09fc19b82a22a04":[2,0,1884,36],
-"da/d42/class_plastic___explosive.html#a4de4d414d0cbf15100ab71ec84ca25f7":[2,0,1884,12]
+"da/d42/class_plastic___explosive.html#a0150c9d41d23b6664acb7a61f99d64eb":[2,0,1884,31],
+"da/d42/class_plastic___explosive.html#a08fc35b80c7cbd9a298b4e81841c7c25":[2,0,1884,29],
+"da/d42/class_plastic___explosive.html#a0f9e1857cf6ed85460fd5e61e97578a0":[2,0,1884,30]
 };

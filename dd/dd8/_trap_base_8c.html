@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156656 · Sep 09, 2023</div>
+   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -184,6 +184,8 @@ Functions</h2></td></tr>
 <tr class="separator:a56e9fba9303f5e86f50ccf4c54562794"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad566b67fc8ada7882b5a0a6522b55a01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#ad566b67fc8ada7882b5a0a6522b55a01">DeleteTrigger</a> ()</td></tr>
 <tr class="separator:ad566b67fc8ada7882b5a0a6522b55a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19d2f44c6bac0ba37d0b7f24560020a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#a19d2f44c6bac0ba37d0b7f24560020a6">DeferredEnableTrigger</a> ()</td></tr>
+<tr class="separator:a19d2f44c6bac0ba37d0b7f24560020a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1320fa5889e47c848cbb7b33a142bda2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#a1320fa5889e47c848cbb7b33a142bda2">OnItemLocationChanged</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> old_owner, <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> new_owner)</td></tr>
 <tr class="separator:a1320fa5889e47c848cbb7b33a142bda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac063b6124c64033d904f29247d8eb45a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#ac063b6124c64033d904f29247d8eb45a">EEItemAttached</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item, <a class="el" href="../../d5/d92/classstring.html">string</a> slot_name)</td></tr>
@@ -230,8 +232,8 @@ Variables</h2></td></tr>
 <tr class="separator:ab6a1c3344ff68c61b0f298dfca0d1b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2406f7b22951ec022c12d6469a9549b4"><td class="memItemLeft" align="right" valign="top">protected const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#a2406f7b22951ec022c12d6469a9549b4">UPDATE_TIMER_INTERVAL</a> = 0.05</td></tr>
 <tr class="separator:a2406f7b22951ec022c12d6469a9549b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab356033c77d459948a36eac7dd6a2eb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#ab356033c77d459948a36eac7dd6a2eb9">m_InitWaitTime</a></td></tr>
-<tr class="separator:ab356033c77d459948a36eac7dd6a2eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa94de20dbcf2a477aa0b2e197fb5b0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#aaa94de20dbcf2a477aa0b2e197fb5b0f">m_InitWaitTime</a></td></tr>
+<tr class="separator:aaa94de20dbcf2a477aa0b2e197fb5b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7023f7e30811a92e7d49ce2ee2c1a266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#a7023f7e30811a92e7d49ce2ee2c1a266">m_NeedActivation</a></td></tr>
 <tr class="separator:a7023f7e30811a92e7d49ce2ee2c1a266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a065465201074b5f13d75b7d91db6facc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/_trap_base_8c.html#a065465201074b5f13d75b7d91db6facc">m_DefectRate</a></td></tr>
@@ -461,7 +463,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a3bae34135b918bcd04b5f8a3d136e313">GetOrientation()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c.html#af4b5180d61f839c99de2d15fdcda4568">GetPosition</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#afa4899c37d495901cb139b2e50555923">m_TrapTrigger</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a27f15f48e7670e5ffcf84f8865f502c6">Trigger::SetExtents()</a>, <a class="el" href="../../dd/d01/class_trap_trigger.html#a2e242d98db20ad2ab36ae419f3878996">TrapTrigger::SetParentObject()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a4cf7baeb7d617d5aef0081be3934f510">SPAWN_FLAGS</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dac/class_script_call_queue.html#a90d46bca4f2fee822c985500e877b926">ScriptCallQueue::Call()</a>, <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a19d2f44c6bac0ba37d0b7f24560020a6">DeferredEnableTrigger()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dbe/_area_damage_manager_8c.html#a3bae34135b918bcd04b5f8a3d136e313">GetOrientation()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c.html#af4b5180d61f839c99de2d15fdcda4568">GetPosition</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#afa4899c37d495901cb139b2e50555923">m_TrapTrigger</a>, <a class="el" href="../../d1/d4b/class_trigger.html#a27f15f48e7670e5ffcf84f8865f502c6">Trigger::SetExtents()</a>, <a class="el" href="../../dd/d01/class_trap_trigger.html#a2e242d98db20ad2ab36ae419f3878996">TrapTrigger::SetParentObject()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a4cf7baeb7d617d5aef0081be3934f510">SPAWN_FLAGS</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d48/_contaminated_area_8c.html#a76f4e4b51b4025ee919dcf5fa28b28b4">InitZoneServer()</a>, <a class="el" href="../../d5/db0/class_contaminated_area___dynamic.html#a76f4e4b51b4025ee919dcf5fa28b28b4">ContaminatedArea_Dynamic::InitZoneServer()</a>, and <a class="el" href="../../dc/d7e/class_spooky_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">SpookyArea::InitZoneServer()</a>.</p>
 
@@ -486,6 +488,27 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c.html#aa967c9463b787cd642716d6ba49acd14">m_ClothingDmg</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a832179b1b442b1db4376da2693413de5">OnSteppedOn()</a>.</p>
+
+</div>
+</div>
+<a id="a19d2f44c6bac0ba37d0b7f24560020a6" name="a19d2f44c6bac0ba37d0b7f24560020a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19d2f44c6bac0ba37d0b7f24560020a6">&#9670;&#160;</a></span>DeferredEnableTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeferredEnableTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c.html#afa4899c37d495901cb139b2e50555923">m_TrapTrigger</a>, and <a class="el" href="../../dd/d01/class_trap_trigger.html#a609bba70603b6f7bb3dc55a2ba21189f">TrapTrigger::SetEnabled()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a56e9fba9303f5e86f50ccf4c54562794">CreateTrigger()</a>.</p>
 
 </div>
 </div>
@@ -1086,8 +1109,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/dec/class_trap_base.html#a4403b4f304acf2affb04880ba46a1313">TrapBase::GetLoopDeploySoundset()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c.html#af4b5180d61f839c99de2d15fdcda4568">GetPosition</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a74e3c93f38bb0e12d862d88d10a32ecc">EffectSound::IsSoundPlaying()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a045f8057c23e1381de727ba2b84d7222">m_DeployLoopSound</a>, and <a class="el" href="../../d2/d03/class_s_effect_manager.html#af0e79eb49231c4fb5ae3467be05f43a0">SEffectManager::PlaySound()</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a23f886d53b513cd9424769403fbf6866">OnRPC()</a>, <a class="el" href="../../de/d7a/class_item_base.html#ad183155e7592e816863539c54b6fa83f">ItemBase::OnVariablesSynchronized()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad183155e7592e816863539c54b6fa83f">OnVariablesSynchronized()</a>.</p>
 
 </div>
@@ -1306,7 +1327,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ab356033c77d459948a36eac7dd6a2eb9">m_InitWaitTime</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#adb54f3b7e1f2b9722be8da25af93ddf3">m_IsInProgress</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#ade208a99b4d0ba9d762ce532f7e5d709">m_Timer</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a6e24e8c83077da760962af8be205d942">SetActive()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a6c0d25d6f7749f82555d4b073214eb8f">Synch()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#aaa94de20dbcf2a477aa0b2e197fb5b0f">m_InitWaitTime</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#adb54f3b7e1f2b9722be8da25af93ddf3">m_IsInProgress</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#ade208a99b4d0ba9d762ce532f7e5d709">m_Timer</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a6e24e8c83077da760962af8be205d942">SetActive()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a6c0d25d6f7749f82555d4b073214eb8f">Synch()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/dec/class_trap_base.html#a6ff31a876fba89e2f0ae6c33af8cd551">TrapBase::OnPlacementComplete()</a>, <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a6ff31a876fba89e2f0ae6c33af8cd551">OnPlacementComplete()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ab311cdf3df0e3547b7d3cd810e61ca61">OnStoreLoad()</a>, <a class="el" href="../../de/d7a/class_item_base.html#ab311cdf3df0e3547b7d3cd810e61ca61">ItemBase::OnStoreLoad()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad183155e7592e816863539c54b6fa83f">OnVariablesSynchronized()</a>.</p>
 
@@ -1348,8 +1369,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c.html#a045f8057c23e1381de727ba2b84d7222">m_DeployLoopSound</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a924d368cb3dda43a9bcccfd348872584">EffectSound::SetSoundFadeOut()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">EffectSound::SoundStop()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a23f886d53b513cd9424769403fbf6866">OnRPC()</a>, <a class="el" href="../../de/d7a/class_item_base.html#ad183155e7592e816863539c54b6fa83f">ItemBase::OnVariablesSynchronized()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad183155e7592e816863539c54b6fa83f">OnVariablesSynchronized()</a>.</p>
 
@@ -1395,7 +1414,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>timer calling OnUpdate in configured interval</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad3498a0721b634226cb8232212d297f1">m_AddActivationDefect</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ae0e42a1236c389cc813354ac62981d34">m_AddDeactivationDefect</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a59d2be4e8c91bd135a1adeef74b3985a">m_AnimationPhaseGrounded</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a8e3a770cc95dc558b9b1d7c5c5f2eebd">m_AnimationPhaseSet</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a040da04c77b049d7e43219a2fe30cd3d">m_AnimationPhaseTriggered</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ae44b005b77cf9c90f89b08c2a996b019">m_DamageOthers</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ac45c00c32c19647f4e038f85c180a0e5">m_DamagePlayers</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a065465201074b5f13d75b7d91db6facc">m_DefectRate</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a8dcd220fb43cdd6c35c6a298cc40629c">m_InfoActivationTime</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad02c5336a140a1dcce7329ed9edb69f8">m_InfoDamage</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a31f2a97fe64750dce640ca0937cda1d3">m_InfoDamageManipulation</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ab72027ae6383e27e195f8a27544a38e4">m_InfoDeactivated</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a993dd69197de272870ae4c60434dad43">m_InfoSetup</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ab356033c77d459948a36eac7dd6a2eb9">m_InitWaitTime</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#adb54f3b7e1f2b9722be8da25af93ddf3">m_IsInProgress</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a7023f7e30811a92e7d49ce2ee2c1a266">m_NeedActivation</a>, <a class="el" href="../../d7/dc2/_radial_menu_8c.html#ad2e26b3579a09b0f5513be82ec80b04e">m_UpdateTimer</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a32797c3dc1ea65981aaee35b21895121">m_WasActivatedOrDeactivated</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad3498a0721b634226cb8232212d297f1">m_AddActivationDefect</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ae0e42a1236c389cc813354ac62981d34">m_AddDeactivationDefect</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a59d2be4e8c91bd135a1adeef74b3985a">m_AnimationPhaseGrounded</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a8e3a770cc95dc558b9b1d7c5c5f2eebd">m_AnimationPhaseSet</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a040da04c77b049d7e43219a2fe30cd3d">m_AnimationPhaseTriggered</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ae44b005b77cf9c90f89b08c2a996b019">m_DamageOthers</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ac45c00c32c19647f4e038f85c180a0e5">m_DamagePlayers</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a065465201074b5f13d75b7d91db6facc">m_DefectRate</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a8dcd220fb43cdd6c35c6a298cc40629c">m_InfoActivationTime</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad02c5336a140a1dcce7329ed9edb69f8">m_InfoDamage</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a31f2a97fe64750dce640ca0937cda1d3">m_InfoDamageManipulation</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ab72027ae6383e27e195f8a27544a38e4">m_InfoDeactivated</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a993dd69197de272870ae4c60434dad43">m_InfoSetup</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#aaa94de20dbcf2a477aa0b2e197fb5b0f">m_InitWaitTime</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#adb54f3b7e1f2b9722be8da25af93ddf3">m_IsInProgress</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a7023f7e30811a92e7d49ce2ee2c1a266">m_NeedActivation</a>, <a class="el" href="../../d7/dc2/_radial_menu_8c.html#ad2e26b3579a09b0f5513be82ec80b04e">m_UpdateTimer</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a32797c3dc1ea65981aaee35b21895121">m_WasActivatedOrDeactivated</a>, and <a class="el" href="../../d4/dc3/classfloat.html#afa7657e4f6687b78bc860ddff41c3bef">float::ToString()</a>.</p>
 
 </div>
 </div>
@@ -1591,7 +1610,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../de/d7a/class_item_base.html#ad183155e7592e816863539c54b6fa83f">ItemBase::OnVariablesSynchronized()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#ad183155e7592e816863539c54b6fa83f">Inventory_Base::OnVariablesSynchronized()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad183155e7592e816863539c54b6fa83f">OnVariablesSynchronized()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a571ec89bf4d6c2c296b56290d6d62f1e">ItemBase::PlayDeployLoopSound()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#a571ec89bf4d6c2c296b56290d6d62f1e">Inventory_Base::PlayDeployLoopSound()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a571ec89bf4d6c2c296b56290d6d62f1e">PlayDeployLoopSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a581d53c0b9a95438b7642f051a706325">ItemBase::StopDeployLoopSound()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#a581d53c0b9a95438b7642f051a706325">Inventory_Base::StopDeployLoopSound()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a581d53c0b9a95438b7642f051a706325">StopDeployLoopSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a90298e35333b700415f02f60fda98564">ItemBase::~BarbedWire()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#ace82bf84acfe296c5d05a0d9ec5b04ee">Inventory_Base::~HescoBox()</a>, <a class="el" href="../../de/d7a/class_item_base.html#ab18a391e9476928c4a96f0f8f4b792b0">ItemBase::~KitBase()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a84f654e3ec21f3a21f4850d09b64d1d0">ItemBase::~Spotlight()</a>, <a class="el" href="../../de/d7a/class_item_base.html#aabdd5fe97681d8a24c9f269cd03a35ed">ItemBase::~TentBase()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#add07091e609d77de5a284a22b4139bd1">~TrapBase()</a>, and <a class="el" href="../../de/d7a/class_item_base.html#ac01338e708ba8e91d75305460f2f4c60">ItemBase::~TrapSpawnBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d7a/class_item_base.html#ad183155e7592e816863539c54b6fa83f">ItemBase::OnVariablesSynchronized()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#ad183155e7592e816863539c54b6fa83f">Inventory_Base::OnVariablesSynchronized()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad183155e7592e816863539c54b6fa83f">OnVariablesSynchronized()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a571ec89bf4d6c2c296b56290d6d62f1e">ItemBase::PlayDeployLoopSound()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#a571ec89bf4d6c2c296b56290d6d62f1e">Inventory_Base::PlayDeployLoopSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a581d53c0b9a95438b7642f051a706325">ItemBase::StopDeployLoopSound()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#a581d53c0b9a95438b7642f051a706325">Inventory_Base::StopDeployLoopSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a90298e35333b700415f02f60fda98564">ItemBase::~BarbedWire()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#ace82bf84acfe296c5d05a0d9ec5b04ee">Inventory_Base::~HescoBox()</a>, <a class="el" href="../../de/d7a/class_item_base.html#ab18a391e9476928c4a96f0f8f4b792b0">ItemBase::~KitBase()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a84f654e3ec21f3a21f4850d09b64d1d0">ItemBase::~Spotlight()</a>, <a class="el" href="../../de/d7a/class_item_base.html#aabdd5fe97681d8a24c9f269cd03a35ed">ItemBase::~TentBase()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#add07091e609d77de5a284a22b4139bd1">~TrapBase()</a>, and <a class="el" href="../../de/d7a/class_item_base.html#ac01338e708ba8e91d75305460f2f4c60">ItemBase::~TrapSpawnBase()</a>.</p>
 
 </div>
 </div>
@@ -1691,14 +1710,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab356033c77d459948a36eac7dd6a2eb9" name="ab356033c77d459948a36eac7dd6a2eb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab356033c77d459948a36eac7dd6a2eb9">&#9670;&#160;</a></span>m_InitWaitTime</h2>
+<a id="aaa94de20dbcf2a477aa0b2e197fb5b0f" name="aaa94de20dbcf2a477aa0b2e197fb5b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa94de20dbcf2a477aa0b2e197fb5b0f">&#9670;&#160;</a></span>m_InitWaitTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> m_InitWaitTime</td>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_InitWaitTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1779,7 +1798,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a56e9fba9303f5e86f50ccf4c54562794">CreateTrigger()</a>, <a class="el" href="../../d8/dec/class_trap_base.html#afc7c03491c0efb104d0d0d108993d733">TrapBase::CreateTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad566b67fc8ada7882b5a0a6522b55a01">DeleteTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a83a1e547e0d1e65ad421070058a093a9">EEDelete()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#aafac0842577356f878e87cbecd8dbdc1">EEItemLocationChanged()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a4de4d414d0cbf15100ab71ec84ca25f7">EEKilled()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a3cde98865e284a2347b9f1fd16cf738e">GetTrapTrigger()</a>, and <a class="el" href="../../d8/dec/class_trap_base.html#a6ff31a876fba89e2f0ae6c33af8cd551">TrapBase::OnPlacementComplete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a56e9fba9303f5e86f50ccf4c54562794">CreateTrigger()</a>, <a class="el" href="../../d8/dec/class_trap_base.html#afc7c03491c0efb104d0d0d108993d733">TrapBase::CreateTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a19d2f44c6bac0ba37d0b7f24560020a6">DeferredEnableTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#ad566b67fc8ada7882b5a0a6522b55a01">DeleteTrigger()</a>, <a class="el" href="../../dd/dd8/_trap_base_8c.html#a83a1e547e0d1e65ad421070058a093a9">EEDelete()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#aafac0842577356f878e87cbecd8dbdc1">EEItemLocationChanged()</a>, <a class="el" href="../../d0/d4a/_trap___trip_wire_8c.html#a4de4d414d0cbf15100ab71ec84ca25f7">EEKilled()</a>, and <a class="el" href="../../dd/dd8/_trap_base_8c.html#a3cde98865e284a2347b9f1fd16cf738e">GetTrapTrigger()</a>.</p>
 
 </div>
 </div>

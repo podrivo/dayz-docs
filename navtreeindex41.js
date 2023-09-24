@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"d3/dcf/class_roadflare.html#a242193281fb34381dbdd40e1a78ece0a":[2,0,2039,54],
+"d3/dcf/class_roadflare.html#a277eafcdbf4c795ed7096a50099786a5":[2,0,2039,34],
+"d3/dcf/class_roadflare.html#a2beb01b8eea44e1137a7b58916f8b8c9":[2,0,2039,50],
+"d3/dcf/class_roadflare.html#a35a85dbb8d86badfdee250107b15e803":[2,0,2039,11],
 "d3/dcf/class_roadflare.html#a3a84ad9def1549830de50909268e8e07":[2,0,2039,4],
 "d3/dcf/class_roadflare.html#a4775be84bc54c1050c3bd9caf69a839d":[2,0,2039,0],
 "d3/dcf/class_roadflare.html#a47ead501eb19b138d8a6780a39f253c5":[2,0,2039,19],
@@ -189,8 +193,8 @@ var NAVTREEINDEX41 =
 "d3/ddb/class_eff_bullet_impact_base.html#af7dce660a7496640b75739f5b023c97d":[2,0,1194,21],
 "d3/ddb/class_hand_stable_state.html":[2,0,1361],
 "d3/ddb/class_weapon_action_base.html":[2,0,2517],
-"d3/ddb/class_weapon_action_base.html#a35a69b5b8becb81b2c377783f631a999":[2,0,2517,1],
 "d3/ddb/class_weapon_action_base.html#a35a69b5b8becb81b2c377783f631a999":[2,0,2517,2],
+"d3/ddb/class_weapon_action_base.html#a35a69b5b8becb81b2c377783f631a999":[2,0,2517,1],
 "d3/ddb/class_weapon_action_base.html#a6c7ecdfb6d1b9552f0ce5872a6a8b1e8":[2,0,2517,4],
 "d3/ddb/class_weapon_action_base.html#a8ad7bab4ed61ef75af7daebc554d13c6":[2,0,2517,3],
 "d3/ddb/class_weapon_action_base.html#ad0e0b81fa69f4127c96bdc1cbbd8d006":[2,0,2517,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "d3/de0/3___game_2_inventory_item_type_8c.html":[3,0,0,2,51],
 "d3/de1/_display_element_base_8c.html":[3,0,0,3,0,30,3],
 "d3/de1/class_injury_handler_thresholds.html":[2,0,1491],
-"d3/de1/class_injury_handler_thresholds.html#a16a5e7aa0fbeb622252ed0b62daae049":[2,0,1491,3],
-"d3/de1/class_injury_handler_thresholds.html#a5483291274679b2b66a47fff0d7837ba":[2,0,1491,2],
-"d3/de1/class_injury_handler_thresholds.html#ab133cc7e22c6fbd3b248b06240d7cde5":[2,0,1491,1],
-"d3/de1/class_injury_handler_thresholds.html#abd1b286a89418ef1f7c1ffb35cf045ae":[2,0,1491,0],
-"d3/de2/class_bios_privacy_service.html":[2,0,728]
+"d3/de1/class_injury_handler_thresholds.html#a16a5e7aa0fbeb622252ed0b62daae049":[2,0,1491,3]
 };

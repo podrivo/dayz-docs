@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156656 · Sep 09, 2023</div>
+   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -159,6 +159,12 @@ Functions</h2></td></tr>
 <tr class="separator:a6de1fd0cb2bdb06bab78c93bc6cd5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc4b640b4ca07e0f50a891953a56a0b"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/_explosives_base_8c.html#aadc4b640b4ca07e0f50a891953a56a0b">SetArmed</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> state)</td></tr>
 <tr class="separator:aadc4b640b4ca07e0f50a891953a56a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea0aaf035a1939c725579219040c481"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/_explosives_base_8c.html#a5ea0aaf035a1939c725579219040c481">CanPutInCargo</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent)</td></tr>
+<tr class="separator:a5ea0aaf035a1939c725579219040c481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c46909a8838ed5e1786f94e56237b43"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/_explosives_base_8c.html#a9c46909a8838ed5e1786f94e56237b43">CanPutIntoHands</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent)</td></tr>
+<tr class="separator:a9c46909a8838ed5e1786f94e56237b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed925ee192783eac2b5b80458d1e6f3c"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/_explosives_base_8c.html#aed925ee192783eac2b5b80458d1e6f3c">CanRemoveFromHands</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent)</td></tr>
+<tr class="separator:aed925ee192783eac2b5b80458d1e6f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ba8a611614b1f2598e88da15e7c4e46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/_explosives_base_8c.html#a8ba8a611614b1f2598e88da15e7c4e46">GetDefused</a> ()</td></tr>
 <tr class="separator:a8ba8a611614b1f2598e88da15e7c4e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3244b06cbdc7e27eef684c955d5b956"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/_explosives_base_8c.html#ae3244b06cbdc7e27eef684c955d5b956">SetDefused</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> state)</td></tr>
@@ -273,6 +279,66 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ea0aaf035a1939c725579219040c481" name="a5ea0aaf035a1939c725579219040c481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea0aaf035a1939c725579219040c481">&#9670;&#160;</a></span>CanPutInCargo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> CanPutInCargo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../de/d7a/class_item_base.html#ac04a39fa356ae48f99ac9fed3df8887d">ItemBase::IsTakeable()</a>.</p>
+
+</div>
+</div>
+<a id="a9c46909a8838ed5e1786f94e56237b43" name="a9c46909a8838ed5e1786f94e56237b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c46909a8838ed5e1786f94e56237b43">&#9670;&#160;</a></span>CanPutIntoHands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> CanPutIntoHands </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../de/d7a/class_item_base.html#ac04a39fa356ae48f99ac9fed3df8887d">ItemBase::IsTakeable()</a>.</p>
+
+</div>
+</div>
+<a id="aed925ee192783eac2b5b80458d1e6f3c" name="aed925ee192783eac2b5b80458d1e6f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed925ee192783eac2b5b80458d1e6f3c">&#9670;&#160;</a></span>CanRemoveFromHands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> CanRemoveFromHands </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../de/d7a/class_item_base.html#ac04a39fa356ae48f99ac9fed3df8887d">ItemBase::IsTakeable()</a>.</p>
 
 </div>
 </div>

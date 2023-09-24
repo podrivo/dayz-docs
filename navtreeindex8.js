@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"d1/d00/class_flammable_base.html#a7447102dc46b8816a50d63d140ba0f4f":[2,0,1282,30],
+"d1/d00/class_flammable_base.html#a74c85230d6fe6ba12937bb59a932aa2c":[2,0,1282,16],
+"d1/d00/class_flammable_base.html#a761b6677975cd99e5f479538567079c1":[2,0,1282,25],
 "d1/d00/class_flammable_base.html#a76b7ce83e69172e521958f059bc3eee2":[2,0,1282,1],
 "d1/d00/class_flammable_base.html#a76f479c91419f4a76f665cc2a0648014":[2,0,1282,10],
 "d1/d00/class_flammable_base.html#a792745d9a19dd93f9ae76d895dc6fed1":[2,0,1282,9],
@@ -84,11 +87,12 @@ var NAVTREEINDEX8 =
 "d1/d06/input_8c.html#a541a84e06cfb332b5f5d061c2dba4d86acc662c9d2568a849240783512c79f34d":[3,0,0,2,18,8,1,1],
 "d1/d07/class_action_take_item_to_hands.html":[2,0,423],
 "d1/d07/class_action_take_item_to_hands.html#a1db50e3d7e6c9fffc8be8ca5abc847b2":[2,0,423,2],
+"d1/d07/class_action_take_item_to_hands.html#a2ebf3855cc8960864124ba5ca4949033":[2,0,423,9],
 "d1/d07/class_action_take_item_to_hands.html#a427ee5f2915112cea90b33f5988338c6":[2,0,423,3],
 "d1/d07/class_action_take_item_to_hands.html#a509a522eca8dacb80ba4b9aad5af9fdc":[2,0,423,0],
 "d1/d07/class_action_take_item_to_hands.html#a6201cf1bf986bd9c1f571cb58a6946ed":[2,0,423,7],
 "d1/d07/class_action_take_item_to_hands.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,423,5],
-"d1/d07/class_action_take_item_to_hands.html#a8cd166a68dd6f387d58965b4b20698a5":[2,0,423,9],
+"d1/d07/class_action_take_item_to_hands.html#a8cd166a68dd6f387d58965b4b20698a5":[2,0,423,10],
 "d1/d07/class_action_take_item_to_hands.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,423,1],
 "d1/d07/class_action_take_item_to_hands.html#ab6eb153abc42e514909126c621d01280":[2,0,423,6],
 "d1/d07/class_action_take_item_to_hands.html#ad7c2b71ba925a43a0fef9ef4aa765963":[2,0,423,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "d1/d13/_sound_8c.html#a74b181361565fadbc741767c6b098528":[3,0,0,2,62,18],
 "d1/d13/_sound_8c.html#a76e61776bbf24bff68ea3be824eb98aa":[3,0,0,2,62,12],
 "d1/d13/_sound_8c.html#a7bc477fd2ce46423d0134915874870c6":[3,0,0,2,62,17],
-"d1/d13/_sound_8c.html#a7dc75f85023a656395e0f4eaca377b78":[3,0,0,2,62,20],
-"d1/d13/_sound_8c.html#a7ebacba81b3472d3cb5d628b3d73a7b1":[3,0,0,2,62,31],
-"d1/d13/_sound_8c.html#a83afcb5fd2bf54507978268390aa6d33":[3,0,0,2,62,9],
-"d1/d13/_sound_8c.html#a88b8e74ab7a8a3d20a2f3f55948b0ed6":[3,0,0,2,62,35],
-"d1/d13/_sound_8c.html#a974f96eab58d3d33d000b8f287fc949b":[3,0,0,2,62,33]
+"d1/d13/_sound_8c.html#a7dc75f85023a656395e0f4eaca377b78":[3,0,0,2,62,20]
 };

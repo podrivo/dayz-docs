@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"d0/d5d/class_day_z_player_cameras.html#a045aa47290d5ac529c8f7a82eb2ce292":[2,0,1107,11],
+"d0/d5d/class_day_z_player_cameras.html#a0550bb596569592527633c2e74edc809":[2,0,1107,9],
+"d0/d5d/class_day_z_player_cameras.html#a135f640d18e82867efa51c4619faa7a1":[2,0,1107,18],
 "d0/d5d/class_day_z_player_cameras.html#a25032666f4eeaa136c9e6173287152f2":[2,0,1107,1],
 "d0/d5d/class_day_z_player_cameras.html#a2a5a8ed6273a8f4ed0e4ea7face4a287":[2,0,1107,21],
 "d0/d5d/class_day_z_player_cameras.html#a340f6f7fbd35c6ef82e24c4e473b71ae":[2,0,1107,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d7c/class_hit___plaster.html#ab6e734c3e0ee39616305278645b43c67":[2,0,1426,0],
 "d0/d7d/_civilian_sedan_front_light_8c.html":[3,0,0,3,1,12,1,0,2],
 "d0/d7d/_hoxton_mask_8c.html":[3,0,0,3,1,9,3,79],
-"d0/d7d/class_action_detach_from_target___specific_slots_category___barrel.html":[2,0,138],
-"d0/d7d/class_action_detach_from_target___specific_slots_category___barrel.html#a7e5e54065b3749e91e292a33edfed5e4":[2,0,138,0],
-"d0/d7e/class_cfg_slots_1_1_slot__pistol_muzzle.html":[2,0,951,218],
-"d0/d7e/class_cfg_slots_1_1_slot__pistol_muzzle.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,951,218,0]
+"d0/d7d/class_action_detach_from_target___specific_slots_category___barrel.html":[2,0,138]
 };

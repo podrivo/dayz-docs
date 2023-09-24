@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"dc/de1/class_item_manager.html#a0579aa251f3193ab2ac1d5353bb01267":[2,0,1524,25],
+"dc/de1/class_item_manager.html#a1106c228451e032f03269b8b02f200cc":[2,0,1524,78],
 "dc/de1/class_item_manager.html#a14b8ddd5e94156a77817c35436ce5a15":[2,0,1524,82],
 "dc/de1/class_item_manager.html#a15a23b42f020aec35776680265638ce6":[2,0,1524,39],
 "dc/de1/class_item_manager.html#a160fb3a0ad511fd047b83dd5b2ab4e04":[2,0,1524,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX149 =
 "dc/df2/class_cfg_slots_1_1_slot___hands.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,951,83,2],
 "dc/df2/class_cfg_slots_1_1_slot___hands.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,951,83,3],
 "dc/df3/_survivor_base_8c.html":[3,0,0,3,1,10,2,1],
-"dc/df3/class_bot_event_entity_attached.html":[2,0,775],
-"dc/df5/_pen___black_8c.html":[3,0,0,3,1,9,7,10,28],
-"dc/df5/_spotlight_8c.html":[3,0,0,3,1,9,122]
+"dc/df3/class_bot_event_entity_attached.html":[2,0,775]
 };

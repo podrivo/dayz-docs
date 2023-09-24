@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156656 · Sep 09, 2023</div>
+   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -116,15 +116,22 @@ Data Structures</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ad9c795079cb984d63572d37bdebd2624"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d01/class_trap_trigger.html">TrapTrigger</a> <a class="el" href="../../d1/d4b/class_trigger.html">Trigger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#ad9c795079cb984d63572d37bdebd2624">OnEnterServerEvent</a> (<a class="el" href="../../d2/db9/class_trigger_insider.html">TriggerInsider</a> insider)</td></tr>
 <tr class="separator:ad9c795079cb984d63572d37bdebd2624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de033a62fc6485b73d01b1b56103ebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a4de033a62fc6485b73d01b1b56103ebb">TrapTrigger</a> ()</td></tr>
+<tr class="separator:a4de033a62fc6485b73d01b1b56103ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e242d98db20ad2ab36ae419f3878996"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a2e242d98db20ad2ab36ae419f3878996">SetParentObject</a> (<a class="el" href="../../d8/dec/class_trap_base.html">TrapBase</a> obj)</td></tr>
 <tr class="separator:a2e242d98db20ad2ab36ae419f3878996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af890dfc7c0d3559a481d8d3ab075157b"><td class="memItemLeft" align="right" valign="top">override protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#af890dfc7c0d3559a481d8d3ab075157b">CanAddObjectAsInsider</a> (<a class="el" href="../../d8/d83/class_object.html">Object</a> object)</td></tr>
 <tr class="separator:af890dfc7c0d3559a481d8d3ab075157b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d85bfa267f378e12a4f6afdea46af5"><td class="memItemLeft" align="right" valign="top">override protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a94d85bfa267f378e12a4f6afdea46af5">OnLeaveServerEvent</a> (<a class="el" href="../../d2/db9/class_trigger_insider.html">TriggerInsider</a> insider)</td></tr>
 <tr class="separator:a94d85bfa267f378e12a4f6afdea46af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609bba70603b6f7bb3dc55a2ba21189f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a609bba70603b6f7bb3dc55a2ba21189f">SetEnabled</a> ()</td></tr>
+<tr class="memdesc:a609bba70603b6f7bb3dc55a2ba21189f"><td class="mdescLeft">&#160;</td><td class="mdescRight">prevents insider adding in the wrong position, HOTFIX  <br /></td></tr>
+<tr class="separator:a609bba70603b6f7bb3dc55a2ba21189f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a34e0355a7ef90e2770f21df2fec7045d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a34e0355a7ef90e2770f21df2fec7045d">m_Enabled</a> = false</td></tr>
+<tr class="separator:a34e0355a7ef90e2770f21df2fec7045d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2516b97ad8217d8a8387566179afbc88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dec/class_trap_base.html">TrapBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/_trap_trigger_8c.html#a2516b97ad8217d8a8387566179afbc88">m_ParentObj</a></td></tr>
 <tr class="separator:a2516b97ad8217d8a8387566179afbc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -183,6 +190,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a609bba70603b6f7bb3dc55a2ba21189f" name="a609bba70603b6f7bb3dc55a2ba21189f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609bba70603b6f7bb3dc55a2ba21189f">&#9670;&#160;</a></span>SetEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>prevents insider adding in the wrong position, HOTFIX </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d29/class_entity_light_source.html#a5b49fad96e6bb4fb391c04c6cfb4bf48">EntityLightSource::CheckIfParentIsInCargo()</a>, <a class="el" href="../../d7/d29/class_entity_light_source.html#ac919a991060ede6983343719401686de">EntityLightSource::Destroy()</a>, <a class="el" href="../../db/df0/class_spot_light_base.html#ac45d75f3ce7297a6c1b0408c3c2d7531">SpotLightBase::PerformVisibilityCheck()</a>, and <a class="el" href="../../d7/d29/class_entity_light_source.html#a84904e7ec6ec2c1a62aeb12c58629b23">EntityLightSource::ScriptedLightBase()</a>.</p>
+
+</div>
+</div>
 <a id="a2e242d98db20ad2ab36ae419f3878996" name="a2e242d98db20ad2ab36ae419f3878996"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e242d98db20ad2ab36ae419f3878996">&#9670;&#160;</a></span>SetParentObject()</h2>
 
@@ -201,7 +229,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4de033a62fc6485b73d01b1b56103ebb" name="a4de033a62fc6485b73d01b1b56103ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4de033a62fc6485b73d01b1b56103ebb">&#9670;&#160;</a></span>TrapTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dd/d01/class_trap_trigger.html">TrapTrigger</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a34e0355a7ef90e2770f21df2fec7045d" name="a34e0355a7ef90e2770f21df2fec7045d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e0355a7ef90e2770f21df2fec7045d">&#9670;&#160;</a></span>m_Enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_Enabled = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../df/df4/class_scripted_widget_event_handler.html#a0b0a8402327309e2554c218967e472fe">ScriptedWidgetEventHandler::Disable()</a>, <a class="el" href="../../df/df4/class_scripted_widget_event_handler.html#ab54a4752efd8105eb26e795c150a0e4c">ScriptedWidgetEventHandler::Enable()</a>, <a class="el" href="../../d6/df8/class_option_selector_base.html#a3a949dbb3ac4d99f2695150114109934">OptionSelectorBase::IsSelectorEnabled()</a>, and <a class="el" href="../../d6/df8/class_option_selector_base.html#a4d0276c6c220ba863c2bcd8255fb6060">OptionSelectorBase::OptionSelector()</a>.</p>
+
+</div>
+</div>
 <a id="a2516b97ad8217d8a8387566179afbc88" name="a2516b97ad8217d8a8387566179afbc88"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2516b97ad8217d8a8387566179afbc88">&#9670;&#160;</a></span>m_ParentObj</h2>
 

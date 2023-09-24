@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"d5/d80/class_day_z_player_implement_aiming.html#a0f54e00c1c6161773438b7c53a0c8142":[2,0,1110,21],
+"d5/d80/class_day_z_player_implement_aiming.html#a149409690f3e3800c25fd22b7aa069dc":[2,0,1110,27],
+"d5/d80/class_day_z_player_implement_aiming.html#a19af7f7aed080d401035eb5eb79389eb":[2,0,1110,45],
+"d5/d80/class_day_z_player_implement_aiming.html#a1ab690ec25798331b6da7afaa2b7c4c3":[2,0,1110,13],
 "d5/d80/class_day_z_player_implement_aiming.html#a21df97fde9578ff2d1cb219299ecb41b":[2,0,1110,12],
 "d5/d80/class_day_z_player_implement_aiming.html#a247db971569c01fb3b0a026ad57e4197":[2,0,1110,29],
 "d5/d80/class_day_z_player_implement_aiming.html#a27605b6739ab5baa2341cc4a837ed691":[2,0,1110,48],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "d5/d98/group___math.html#gae93d8438793f39c04afbe3b656c23b75":[1,4,38],
 "d5/d98/group___math.html#gaec605c18b3705628b82a4e2a9c1f5fb3":[1,4,21],
 "d5/d98/group___math.html#gaf6caba2d6f3900fd01a0ae6d3df14ccd":[1,4,46],
-"d5/d98/group___math.html#gaf7ab64e17ea15bbc06c2b0de8d4af6ad":[1,4,4],
-"d5/d98/group___math.html#gafb455a5c88958a7219b1c63d2d377766":[1,4,13],
-"d5/d99/_paint_a_k_wood_bttstck_black_8c.html":[3,0,0,3,0,21,0,120],
-"d5/d99/class_day_z_creature_anim_interface.html":[2,0,1089],
-"d5/d99/class_day_z_creature_anim_interface.html#a0347bea9cde467ada5dd1cb2d950cd61":[2,0,1089,6]
+"d5/d98/group___math.html#gaf7ab64e17ea15bbc06c2b0de8d4af6ad":[1,4,4]
 };

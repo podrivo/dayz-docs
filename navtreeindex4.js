@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"d0/d7d/class_action_detach_from_target___specific_slots_category___barrel.html#a7e5e54065b3749e91e292a33edfed5e4":[2,0,138,0],
+"d0/d7e/class_cfg_slots_1_1_slot__pistol_muzzle.html":[2,0,951,218],
+"d0/d7e/class_cfg_slots_1_1_slot__pistol_muzzle.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,951,218,0],
 "d0/d7e/class_cfg_slots_1_1_slot__pistol_muzzle.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,951,218,1],
 "d0/d7e/class_cfg_slots_1_1_slot__pistol_muzzle.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,951,218,2],
 "d0/d7f/_controls_xbox_8c.html":[3,0,0,4,0,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "d0/d97/class_burning_mdfr.html#a88063838d650af5f0aaad1bfdfc5c38e":[2,0,820,5],
 "d0/d97/class_burning_mdfr.html#a97b1b398e0e2e6cce5972768a7b8f39f":[2,0,820,0],
 "d0/d97/class_burning_mdfr.html#adc10e3c705473f8fe9e3a6afe3976eab":[2,0,820,6],
-"d0/d98/_unconsciousness_8c.html":[3,0,0,3,0,17,0,27],
-"d0/d99/_hunger_8c.html":[3,0,0,3,0,17,0,14],
-"d0/d99/class_p_p_e_manager_static.html":[2,0,1952],
-"d0/d99/class_p_p_e_manager_static.html#a41371a93ace6f696f98b445a8e9ea3ac":[2,0,1952,2]
+"d0/d98/_unconsciousness_8c.html":[3,0,0,3,0,17,0,27]
 };

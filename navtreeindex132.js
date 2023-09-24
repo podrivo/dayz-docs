@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"db/d71/class_action_build_shelter.html#a5e0f63043b33849610c0ad517a105a80":[2,0,36,5],
+"db/d71/class_action_build_shelter.html#a6201cf1bf986bd9c1f571cb58a6946ed":[2,0,36,14],
 "db/d71/class_action_build_shelter.html#a65c8804fef6652f78ea56960f30d15b1":[2,0,36,0],
 "db/d71/class_action_build_shelter.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,36,6],
 "db/d71/class_action_build_shelter.html#a841e97dbe0c115fa73c013edcec6efb7":[2,0,36,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "db/d8d/_fireworks_launcher_8c.html#a90ed0c0da65e2ed152cbccbf50e4930e":[3,0,0,3,1,9,7,10,11,6],
 "db/d8d/_fireworks_launcher_8c.html#a9706d5bbf038ee093ab22a7774419d44":[3,0,0,3,1,9,7,10,11,3],
 "db/d8d/_fireworks_launcher_8c.html#ad01b0e48cd0f3b12d731f9d5444bc775":[3,0,0,3,1,9,7,10,11,5],
-"db/d8d/_fireworks_launcher_8c.html#ae10e92c2a0a0e9c75cee17ddc4be0cf3":[3,0,0,3,1,9,7,10,11,10],
-"db/d8d/_fireworks_launcher_8c.html#aebc56ee2ae1dc9a1f5a7117f97d67c48":[3,0,0,3,1,9,7,10,11,7],
-"db/d8d/_state_manager_8c.html":[3,0,0,3,0,20,4]
+"db/d8d/_fireworks_launcher_8c.html#ae10e92c2a0a0e9c75cee17ddc4be0cf3":[3,0,0,3,1,9,7,10,11,10]
 };

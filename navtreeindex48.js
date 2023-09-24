@@ -1,5 +1,9 @@
 var NAVTREEINDEX48 =
 {
+"d4/d77/class_area_damage_events.html#a6b9912d3bbb9c8263ae48f7abe2b700f":[2,0,635,20],
+"d4/d77/class_area_damage_events.html#a75b1f376866876c27927f721ad0a6f11":[2,0,635,9],
+"d4/d77/class_area_damage_events.html#a7e47a9e6ccf4eac8b76a55848d514f8d":[2,0,635,17],
+"d4/d77/class_area_damage_events.html#a8ad589d73e7b470310fdc7b63a352d82":[2,0,635,11],
 "d4/d77/class_area_damage_events.html#a8c4a81207c0f34cc2179341fe56be50c":[2,0,635,24],
 "d4/d77/class_area_damage_events.html#a972b8da432077f59d997db5744b3a8ef":[2,0,635,18],
 "d4/d77/class_area_damage_events.html#a97d2beafda4f9a8d85d07122572104b2":[2,0,635,22],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "d4/d87/class_man_base.html#a124b2eae9d719ae4f9510215c4d61800":[2,0,1707,598],
 "d4/d87/class_man_base.html#a12e87560c9df27da7939dfd9e4789546":[2,0,1707,140],
 "d4/d87/class_man_base.html#a12f049d6fd02f2d42b2a2c1eee2238cb":[2,0,1707,179],
-"d4/d87/class_man_base.html#a1414a09b9adcc3050737d0606f75e94f":[2,0,1707,95],
-"d4/d87/class_man_base.html#a144e0263dfdd4e5e67ca0039d47ee255":[2,0,1707,16],
-"d4/d87/class_man_base.html#a14d430bb3254fb8361c705f58b4f22bb":[2,0,1707,227],
-"d4/d87/class_man_base.html#a1518bc39b5ee039331b99daefb20aa94":[2,0,1707,100],
-"d4/d87/class_man_base.html#a15f5f8d7b3fde9704cf74270b3e844bf":[2,0,1707,57]
+"d4/d87/class_man_base.html#a1414a09b9adcc3050737d0606f75e94f":[2,0,1707,95]
 };

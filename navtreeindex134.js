@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"db/db6/class_action_craft_improvised_face_cover_c_b.html":[2,0,98],
+"db/db6/class_action_craft_improvised_face_cover_c_b.html#a269d108c129bc911a7e3af64d3335b46":[2,0,98,1],
 "db/db6/class_action_craft_improvised_face_cover_c_b.html#accfb238782010198bdb5128a8ee44300":[2,0,98,0],
 "db/db6/class_car_door.html":[2,0,901],
 "db/db6/class_car_door.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,901,0],
@@ -118,8 +120,8 @@ var NAVTREEINDEX134 =
 "db/dd0/_magnum_8c.html#a8fba6d4213ebbe1820d719974f601736":[3,0,0,3,1,5,5,8,5],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9c":[3,0,0,3,1,5,5,8,4],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca6ce26a62afab55d7606ad4e92428b30c":[3,0,0,3,1,5,5,8,4,0],
-"db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,5,5,8,4,1],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,5,5,8,3,0],
+"db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,5,5,8,4,1],
 "db/dd0/_magnum_8c.html#a9f7122d8e57dcec0a8aa49227b8be502":[3,0,0,3,1,5,5,8,13],
 "db/dd0/_magnum_8c.html#aa40f8697dfa587f8adabc8640bc98ad8":[3,0,0,3,1,5,5,8,11],
 "db/dd0/_magnum_8c.html#aac14d196e64cad535c5aa50f0c954df3":[3,0,0,3,1,5,5,8,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "db/de5/class_weapon.html#ab311cdf3df0e3547b7d3cd810e61ca61":[2,0,2515,65],
 "db/de5/class_weapon.html#abc4d247afcb679264164fe967397efa6":[2,0,2515,31],
 "db/de5/class_weapon.html#abc948614902946112c4cb143b72be7d0":[2,0,2515,39],
-"db/de5/class_weapon.html#ac043a424eaa68aedd6b3c661e0e63466":[2,0,2515,67],
-"db/de5/class_weapon.html#ac063b6124c64033d904f29247d8eb45a":[2,0,2515,14],
-"db/de5/class_weapon.html#ac1015be159647292bd0c7780fb2243d9":[2,0,2515,116]
+"db/de5/class_weapon.html#ac043a424eaa68aedd6b3c661e0e63466":[2,0,2515,67]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX101 =
 {
+"d8/dd8/_day_z_player_camera3rd_person_8c.html#aed618b13e20b04013adc1077f0c233b1":[3,0,0,3,1,10,1,1,15],
+"d8/dd8/_day_z_player_camera3rd_person_8c.html#af202b28a1defa698a406072c4d56f536":[3,0,0,3,1,10,1,1,52],
+"d8/dd9/_c_c_t_cursor_no_ruin_check_8c.html":[3,0,0,3,0,29,3,3],
+"d8/dda/class_bot_test_swap_internal.html":[2,0,793],
+"d8/dda/class_bot_test_swap_internal.html#a1d84e4bc3dfbd6160bc232d846f67ca2":[2,0,793,3],
+"d8/dda/class_bot_test_swap_internal.html#a2547db49900818069e8bb828608529f8":[2,0,793,0],
+"d8/dda/class_bot_test_swap_internal.html#aaee13280ad07a33aaa28304b129b1742":[2,0,793,1],
 "d8/dda/class_bot_test_swap_internal.html#abf66986e08676e65b1e4fbf3c5f69f48":[2,0,793,2],
 "d8/dda/class_bot_test_swap_internal.html#ad397f26522310e1fbc7ec9c38f98352a":[2,0,793,4],
 "d8/dda/class_tripod_base.html":[2,0,2431],
@@ -242,12 +249,5 @@ var NAVTREEINDEX101 =
 "d8/df5/_injury_handler_8c.html#a5252b3258826274dedbd2d371b18633f":[3,0,0,3,0,43,32],
 "d8/df5/_injury_handler_8c.html#a55454243e27233ad8a5f05463b43ab81":[3,0,0,3,0,43,3],
 "d8/df5/_injury_handler_8c.html#a5a8c34e719b7289e91096e8fa1c26608":[3,0,0,3,0,43,29],
-"d8/df5/_injury_handler_8c.html#a5d93abd5ef76fe12d8c87272f554270e":[3,0,0,3,0,43,13],
-"d8/df5/_injury_handler_8c.html#a60ac3dbd2aff898eda08c8f7240b1fe9":[3,0,0,3,0,43,12],
-"d8/df5/_injury_handler_8c.html#a6423575c04af57d40fb1fd0d41dcd979":[3,0,0,3,0,43,4],
-"d8/df5/_injury_handler_8c.html#a859d24d134564f07697afe50c122f8ce":[3,0,0,3,0,43,33],
-"d8/df5/_injury_handler_8c.html#a8cac4f18c7e786bff4e9f626c363cff2":[3,0,0,3,0,43,31],
-"d8/df5/_injury_handler_8c.html#aab851550e71abd27f52bf560e1b32bfa":[3,0,0,3,0,43,2],
-"d8/df5/_injury_handler_8c.html#aab851550e71abd27f52bf560e1b32bfaa10acf7777823e1491dc0ede7d7f8238b":[3,0,0,3,0,43,2,4],
-"d8/df5/_injury_handler_8c.html#aab851550e71abd27f52bf560e1b32bfaa58b3d3ed02142f09d5f86daef4ccb5fc":[3,0,0,3,0,43,2,3]
+"d8/df5/_injury_handler_8c.html#a5d93abd5ef76fe12d8c87272f554270e":[3,0,0,3,0,43,13]
 };

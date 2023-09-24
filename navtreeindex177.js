@@ -1,5 +1,8 @@
 var NAVTREEINDEX177 =
 {
+"df/d02/_plugin_presence_notifier_8c.html#a26eb660bc08667a3df49200436daab2f":[3,0,0,3,2,0,23,30],
+"df/d02/_plugin_presence_notifier_8c.html#a2e8a854d7503898587f1584e8d773a33":[3,0,0,3,2,0,23,25],
+"df/d02/_plugin_presence_notifier_8c.html#a310a0f4d4181f048e0030ebc66d8b83c":[3,0,0,3,2,0,23,14],
 "df/d02/_plugin_presence_notifier_8c.html#a371d618ed45676b8b6906378ce15eab1":[3,0,0,3,2,0,23,15],
 "df/d02/_plugin_presence_notifier_8c.html#a37958b09191a632d7a75d89b752397e7":[3,0,0,3,2,0,23,13],
 "df/d02/_plugin_presence_notifier_8c.html#a37df9a09393fabd7076097ed48025e43":[3,0,0,3,2,0,23,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX177 =
 "df/d20/class_action_eat_painkiller_tablets.html":[2,0,192],
 "df/d20/class_action_eat_painkiller_tablets.html#aa3c33301ac1494510a06d1e649ea456b":[2,0,192,1],
 "df/d20/class_action_eat_painkiller_tablets.html#ab15279bd5eb0080071e5ff114d3f29ef":[2,0,192,2],
-"df/d20/class_action_eat_painkiller_tablets.html#acde8777fec12517fd6144aa0211bc116":[2,0,192,0],
-"df/d21/class_action_turn_on_transmitter_on_ground.html":[2,0,462],
-"df/d21/class_action_turn_on_transmitter_on_ground.html#a26c6922d796bdf663f49119e83fe26f8":[2,0,462,2],
-"df/d21/class_action_turn_on_transmitter_on_ground.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,462,1]
+"df/d20/class_action_eat_painkiller_tablets.html#acde8777fec12517fd6144aa0211bc116":[2,0,192,0]
 };

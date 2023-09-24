@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"db/d8d/_fireworks_launcher_8c.html#aebc56ee2ae1dc9a1f5a7117f97d67c48":[3,0,0,3,1,9,7,10,11,7],
+"db/d8d/_state_manager_8c.html":[3,0,0,3,0,20,4],
 "db/d8d/_state_manager_8c.html#a0efaf6d60d141b211587d147068acdd3":[3,0,0,3,0,20,4,7],
 "db/d8d/_state_manager_8c.html#a12d5adcb68adf65e2a8c489dbbae1bd5":[3,0,0,3,0,20,4,20],
 "db/d8d/_state_manager_8c.html#a15337b224ac00b55ef1dded356fa4f87":[3,0,0,3,0,20,4,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "db/db5/class_file_serializer.html#a75cb4fa716dc5d003cb75b982aed1fdd":[2,0,1256,1],
 "db/db5/class_file_serializer.html#a82d3a81ff43f5f789a9aa74734fd957d":[2,0,1256,3],
 "db/db5/class_file_serializer.html#ad626d01cbb7e474cc86d8126ffdcf5b6":[2,0,1256,4],
-"db/db6/_paint_a_k10130_mag_8c.html":[3,0,0,3,0,21,0,106],
-"db/db6/class_action_craft_improvised_face_cover_c_b.html":[2,0,98],
-"db/db6/class_action_craft_improvised_face_cover_c_b.html#a269d108c129bc911a7e3af64d3335b46":[2,0,98,1]
+"db/db6/_paint_a_k10130_mag_8c.html":[3,0,0,3,0,21,0,106]
 };
