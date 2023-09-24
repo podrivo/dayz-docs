@@ -21,6 +21,7 @@ Changelog
 --
 
 Version 1.22
+- [Update 3 v1.22.156718 · Sep 18, 2023](https://forums.dayz.com/topic/256662-stable-update-122/?page=3&tab=comments#comment-2489452)
 - [Update 2 v1.22.156656 · Sep 09, 2023](https://forums.dayz.com/topic/256662-stable-update-122/?page=2&tab=comments#comment-2489075)
 - [Update 1 v1.22.156593 · Ago 29, 2023](https://forums.dayz.com/topic/256662-stable-update-122/)
 
