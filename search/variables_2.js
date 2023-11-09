@@ -82,7 +82,7 @@ var searchData=
   ['blinking_5fplus_79',['BLINKING_PLUS',['../d9/de7/_display_status_8c.html#a8628d0e767f320374fa35c4abb495070',1,'DisplayStatus.c']]],
   ['blood_80',['BLOOD',['../d9/da2/class_u_a_quantity_consumed.html#a32354081b3f64e1b3ae0df778907900a',1,'UAQuantityConsumed::BLOOD'],['../d8/d3b/class_u_a_time_spent.html#a32354081b3f64e1b3ae0df778907900a',1,'UATimeSpent::BLOOD']]],
   ['blood_5fdecrement_5fper_5fsec_81',['BLOOD_DECREMENT_PER_SEC',['../d0/d5a/class_bleeding_check_mdfr.html#ad9d3a48ba0ccf5495952a525e9dba428',1,'BleedingCheckMdfr']]],
-  ['blood_5fhitpoints_5funiversal_82',['BLOOD_HITPOINTS_UNIVERSAL',['../de/d4b/class_bleed_chance_data.html#a586ebeedf18b40d01b6e38f6719160f3',1,'BleedChanceData']]],
+  ['blood_5fhitpoints_5funiversal_82',['BLOOD_HITPOINTS_UNIVERSAL',['../de/d4b/class_bleed_chance_data.html#aa7bef395b448999ed66f03a54c175eae',1,'BleedChanceData']]],
   ['blood_5floss_83',['BLOOD_LOSS',['../d9/db3/class_symptom_base.html#a4a7f111303c3f8d9d7e69e84e8e3728c',1,'SymptomBase']]],
   ['blood_5fregen_5fmodifier_5fenergy_5fhigh_84',['BLOOD_REGEN_MODIFIER_ENERGY_HIGH',['../d3/def/class_player_constants.html#a2695209a5d8ec8f0e6826cb0732c7105',1,'PlayerConstants']]],
   ['blood_5fregen_5fmodifier_5fenergy_5flow_85',['BLOOD_REGEN_MODIFIER_ENERGY_LOW',['../d3/def/class_player_constants.html#a6d2c1cd5ed456ed21b63f35bcc389a09',1,'PlayerConstants']]],

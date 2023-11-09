@@ -3,7 +3,6 @@ var class_mission_base_world =
     [ "~MissionBase", "da/d26/class_mission_base_world.html#a85e17efdff93a76c3dde21fda48c99ca", null ],
     [ "AddDummyPlayerToScheduler", "da/d26/class_mission_base_world.html#a33de63d73c8cd19d4e5c6c7ea8464894", null ],
     [ "CreateScriptedMenu", "da/d26/class_mission_base_world.html#ad8919c5a6bcec7254db58c3d6d245eba", null ],
-    [ "CreateScriptedWindow", "da/d26/class_mission_base_world.html#a36d4c7eb00ce8b3b394c09da47845735", null ],
     [ "DumpCurrentUILayout", "da/d26/class_mission_base_world.html#ab0fd2147fa607de3085487b9af8ea769", null ],
     [ "DumpWidget", "da/d26/class_mission_base_world.html#a0fa68f250f2fca518d0bc43e55115e19", null ],
     [ "GetInventoryDropCallback", "da/d26/class_mission_base_world.html#a2e5c4c9be8126a908f0e038e106051bc", null ],

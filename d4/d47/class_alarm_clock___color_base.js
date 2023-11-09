@@ -2,7 +2,7 @@ var class_alarm_clock___color_base =
 [
     [ "~AlarmClock_ColorBase", "d4/d47/class_alarm_clock___color_base.html#af03b071151a28cd7d2a3ad9029e65f04", null ],
     [ "AnimateAlarmHand", "d4/d47/class_alarm_clock___color_base.html#a9b52a427d1dfbd498e84061d70693ca3", null ],
-    [ "GetDebugButtonNames", "d4/d47/class_alarm_clock___color_base.html#add7373fc8492b0821fd03c0692256f5c", null ],
+    [ "GetDebugActions", "d4/d47/class_alarm_clock___color_base.html#ab110c1ad759f395660b0ae9242843731", null ],
     [ "GetDebugText", "d4/d47/class_alarm_clock___color_base.html#a3fae6d6b0946cbe842c50c8ab274e1e4", null ],
     [ "GetDestroyedSound", "d4/d47/class_alarm_clock___color_base.html#aaa1ace02d8a9b082d06a25c812d6f604", null ],
     [ "GetExplosiveTriggerSlotName", "d4/d47/class_alarm_clock___color_base.html#a61904063297f82bf887deb9b01395b92", null ],
@@ -10,7 +10,7 @@ var class_alarm_clock___color_base =
     [ "GetRingingSound", "d4/d47/class_alarm_clock___color_base.html#a4582667c22b4eda47cfa074918174000", null ],
     [ "GetToggleSound", "d4/d47/class_alarm_clock___color_base.html#a43e1dd48dcbd95c126dd3d1b593f3027", null ],
     [ "Init", "d4/d47/class_alarm_clock___color_base.html#a8045e088b31fe0754fb20cb0a5ff0dc9", null ],
-    [ "OnDebugButtonPressServer", "d4/d47/class_alarm_clock___color_base.html#a46c79f6a4908c367de361cddfae5dd0a", null ],
+    [ "OnAction", "d4/d47/class_alarm_clock___color_base.html#a64db4496134a9520c526e341cd13807f", null ],
     [ "OnDebugSpawn", "d4/d47/class_alarm_clock___color_base.html#a05eab95952a189dc9e08ccecec41b51a", null ],
     [ "OnStoreLoad", "d4/d47/class_alarm_clock___color_base.html#ab311cdf3df0e3547b7d3cd810e61ca61", null ],
     [ "OnStoreSave", "d4/d47/class_alarm_clock___color_base.html#a35a85dbb8d86badfdee250107b15e803", null ],

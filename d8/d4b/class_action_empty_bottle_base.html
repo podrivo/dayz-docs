@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
+   <div id="projectbrief">v1.23.156951 · Nov 07, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -118,8 +118,12 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a1f7399d8d410ac172ef0e5f4c4bbb4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b45d0586cb87b4484a292e8510bf509"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4b/class_action_empty_bottle_base.html#a3b45d0586cb87b4484a292e8510bf509">OnStartAnimationLoop</a> (<a class="el" href="../../da/d5a/class_action_data.html">ActionData</a> action_data)</td></tr>
 <tr class="separator:a3b45d0586cb87b4484a292e8510bf509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f6c70fa07399099d3710af7d502d6c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4b/class_action_empty_bottle_base.html#a96f6c70fa07399099d3710af7d502d6c">OnEndAnimationLoop</a> (<a class="el" href="../../da/d5a/class_action_data.html">ActionData</a> action_data)</td></tr>
+<tr class="separator:a96f6c70fa07399099d3710af7d502d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ebf3855cc8960864124ba5ca4949033"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4b/class_action_empty_bottle_base.html#a2ebf3855cc8960864124ba5ca4949033">OnEndServer</a> (<a class="el" href="../../da/d5a/class_action_data.html">ActionData</a> action_data)</td></tr>
 <tr class="separator:a2ebf3855cc8960864124ba5ca4949033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ba1f071a24365254e4f063bf2b82bd"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4b/class_action_empty_bottle_base.html#ad0ba1f071a24365254e4f063bf2b82bd">SendRPC</a> (<a class="el" href="../../da/d5a/class_action_data.html">ActionData</a> actionData, <a class="el" href="../../d9/db9/classbool.html">bool</a> enable)</td></tr>
+<tr class="separator:ad0ba1f071a24365254e4f063bf2b82bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a363f1ac32c63bf6e85f7b1441aa54744" name="a363f1ac32c63bf6e85f7b1441aa54744"></a>
@@ -274,6 +278,34 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a96f6c70fa07399099d3710af7d502d6c" name="a96f6c70fa07399099d3710af7d502d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f6c70fa07399099d3710af7d502d6c">&#9670;&#160;</a></span>OnEndAnimationLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnEndAnimationLoop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d5a/class_action_data.html">ActionData</a>&#160;</td>
+          <td class="paramname"><em>action_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d9/de7/_display_status_8c.html#a8bdb2d50dd3fd50c75dcd3cdc09cc76e">SendRPC()</a>.</p>
+
+</div>
+</div>
 <a id="a2ebf3855cc8960864124ba5ca4949033" name="a2ebf3855cc8960864124ba5ca4949033"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ebf3855cc8960864124ba5ca4949033">&#9670;&#160;</a></span>OnEndServer()</h2>
 
@@ -298,7 +330,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../da/d5a/class_action_data.html#a4c37394ef065e1146c9bc68ba68dc9d7">ActionData::m_MainItem</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">CGame::RPCSingleParam()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/de7/_display_status_8c.html#a8bdb2d50dd3fd50c75dcd3cdc09cc76e">SendRPC()</a>.</p>
 
 </div>
 </div>
@@ -326,7 +358,45 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../da/d5a/class_action_data.html#a4c37394ef065e1146c9bc68ba68dc9d7">ActionData::m_MainItem</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">CGame::RPCSingleParam()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/de7/_display_status_8c.html#a8bdb2d50dd3fd50c75dcd3cdc09cc76e">SendRPC()</a>.</p>
+
+</div>
+</div>
+<a id="ad0ba1f071a24365254e4f063bf2b82bd" name="ad0ba1f071a24365254e4f063bf2b82bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ba1f071a24365254e4f063bf2b82bd">&#9670;&#160;</a></span>SendRPC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void SendRPC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d5a/class_action_data.html">ActionData</a>&#160;</td>
+          <td class="paramname"><em>actionData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>enable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../da/d5a/class_action_data.html#ac8116888b17faa103c6ffc3a8859e10b">ActionData::m_Callback</a>, <a class="el" href="../../da/d5a/class_action_data.html#a4c37394ef065e1146c9bc68ba68dc9d7">ActionData::m_MainItem</a>, <a class="el" href="../../d4/d0b/class_action_empty_bottle_base_c_b.html#ac60929d9a8117cee13a3f345f28582f3">ActionEmptyBottleBaseCB::m_RPCStopAlreadySent</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a9f0e0ce7825af5deb8d9b60842a0d9e8">CGame::RPCSingleParam()</a>.</p>
 
 </div>
 </div>

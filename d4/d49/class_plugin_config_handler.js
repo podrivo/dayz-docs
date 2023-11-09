@@ -70,6 +70,7 @@ var class_plugin_config_handler =
     [ "GetSpawnDistance", "d4/d49/class_plugin_config_handler.html#a0ed37fb469c09b383bea4ad2814be132", null ],
     [ "GetSpawnLocIndex", "d4/d49/class_plugin_config_handler.html#a9b22ec40e38d4c1340c846217c802358", null ],
     [ "GetString", "d4/d49/class_plugin_config_handler.html#a0c66c96c96dea575c791f016a126d54c", null ],
+    [ "GetSubFolderName", "d4/d49/class_plugin_config_handler.html#a602521214e55be740602f88e1440c64f", null ],
     [ "GetSubParametersInStringArray", "d4/d49/class_plugin_config_handler.html#a554175331cfd4db52f166a84a0e1a54e", null ],
     [ "GetTabSelected", "d4/d49/class_plugin_config_handler.html#a00f3ea8668ddce2f5cca62a31c402f36", null ],
     [ "GetTempVisible", "d4/d49/class_plugin_config_handler.html#a1070e46948215ff879e0d1d1328d4365", null ],

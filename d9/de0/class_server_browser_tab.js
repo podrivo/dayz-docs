@@ -88,6 +88,7 @@ var class_server_browser_tab =
     [ "SortedInsert", "d9/de0/class_server_browser_tab.html#ab6a4feadc7503fc808fadf8f8a244b50", null ],
     [ "SortedInsertAsc", "d9/de0/class_server_browser_tab.html#a54f5379d14debfb1e0e6f42097c48db8", null ],
     [ "SortedInsertDesc", "d9/de0/class_server_browser_tab.html#aaac4b91e6c2aea52dd6018305c70db63", null ],
+    [ "SortedInsertEx", "d9/de0/class_server_browser_tab.html#a369a4c4371bc7fef584cfe78b1234948", null ],
     [ "ToggleSort", "d9/de0/class_server_browser_tab.html#a5cac70b7476bd84f6a6b6b53ded62dea", null ],
     [ "UpdatePageButtons", "d9/de0/class_server_browser_tab.html#a4ca8ca2cebf40d046bd403815825af44", null ],
     [ "UpdatePageButtons", "d9/de0/class_server_browser_tab.html#a4ca8ca2cebf40d046bd403815825af44", null ],

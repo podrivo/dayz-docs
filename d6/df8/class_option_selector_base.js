@@ -45,6 +45,7 @@ var class_option_selector_base =
     [ "OptionSelector", "d6/df8/class_option_selector_base.html#a4d0276c6c220ba863c2bcd8255fb6060", null ],
     [ "OptionSelectorEditbox", "d6/df8/class_option_selector_base.html#aad71ac1ca1a81272fb619a4dd053ea39", null ],
     [ "Reset", "d6/df8/class_option_selector_base.html#a372de693ad40b3f42839c8ec6ac845f4", null ],
+    [ "SetMax", "d6/df8/class_option_selector_base.html#a661a2f2112b283dbf40343d65b771359", null ],
     [ "SetNextOption", "d6/df8/class_option_selector_base.html#a7b2a85222c20377acee74f3ed1bfca84", null ],
     [ "SetPrevOption", "d6/df8/class_option_selector_base.html#a44ad03ae8970c09ed7fb58a9e13d9b67", null ],
     [ "SetStep", "d6/df8/class_option_selector_base.html#adc0488f4f77cf4d5a85b5313fec63ac8", null ],

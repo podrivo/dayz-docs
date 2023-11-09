@@ -35,6 +35,7 @@ var _e_diag_menu_i_ds_8c =
       [ "LIFESPAN_BLOODY_HANDS", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a6fad5b3d58573bf9a0eb290a0399449d", null ],
       [ "LIFESPAN_PLAYTIME_UPDATE", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336ae8b2e41e6a35afbfe2e39479bdbe2fda", null ],
       [ "MISC_MENU", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336aba94dc7983d7b5f4775f829d1f651d81", null ],
+      [ "MISC_ACTION_ON_CURSOR", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a512620c70564f2c7a457a67178ef0d25", null ],
       [ "MISC_DISABLE_PERSONAL_LIGHT", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a382ebaffa0f5472f8fdb7fc9e93f71f1", null ],
       [ "MISC_ITEM_DEBUG_ACTIONS", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a02025c040216ba8281cd93e4ec646260", null ],
       [ "MISC_LOG_PLAYER_STATS", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a07a1ce52069bbbb38c77a8160df87453", null ],

@@ -1,8 +1,6 @@
 var _action_manager_base_8c =
 [
     [ "array< ref TSelectableActionInfo >", "de/dba/classarray_3_01ref_01_t_selectable_action_info_01_4.html", "de/dba/classarray_3_01ref_01_t_selectable_action_info_01_4" ],
-    [ "TSelectableActionInfo", "d5/db9/_action_manager_base_8c.html#a85542436a7014b94556e202cefe837e5", null ],
-    [ "TSelectableActionInfoWithColor", "d5/db9/_action_manager_base_8c.html#a417e11232172b54a354155dfc745b4e4", null ],
     [ "ActionManagerBase", "d5/db9/_action_manager_base_8c.html#abbe7cdf44da8aaf4c81ee3b7120ef72e", null ],
     [ "ActionPossibilityCheck", "d5/db9/_action_manager_base_8c.html#aa4bcb5bbd0563be070193a860e13a341", null ],
     [ "EnableActions", "d5/db9/_action_manager_base_8c.html#a6f402fa16a21f9c56bcb06695cf73f4d", null ],

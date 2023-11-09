@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
+   <div id="projectbrief">v1.23.156951 · Nov 07, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -113,7 +113,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a93832f031a26b870b23657fe58d866c2"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8a/class_script_r_p_c.html#a93832f031a26b870b23657fe58d866c2">Reset</a> ()</td></tr>
 <tr class="memdesc:a93832f031a26b870b23657fe58d866c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset internal buffer which stores written data. After Reset is callded, <a class="el" href="../../d5/d8a/class_script_r_p_c.html">ScriptRPC</a> can be used again as "new" <a class="el" href="../../d5/d8a/class_script_r_p_c.html">ScriptRPC</a>.  <br /></td></tr>
 <tr class="separator:a93832f031a26b870b23657fe58d866c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d4dfe14974c47411221cc310e55827e"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8a/class_script_r_p_c.html#a1d4dfe14974c47411221cc310e55827e">Send</a> (<a class="el" href="../../d8/d83/class_object.html">Object</a> target, <a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a> rpc_type, <a class="el" href="../../d9/db9/classbool.html">bool</a> guaranteed, <a class="el" href="../../df/d11/class_player_identity.html">PlayerIdentity</a> recipient=NULL)</td></tr>
+<tr class="memitem:a1d4dfe14974c47411221cc310e55827e"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8a/class_script_r_p_c.html#a1d4dfe14974c47411221cc310e55827e">Send</a> (<a class="el" href="../../d8/d83/class_object.html">Object</a> target, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> rpc_type, <a class="el" href="../../d9/db9/classbool.html">bool</a> guaranteed, <a class="el" href="../../df/d11/class_player_identity.html">PlayerIdentity</a> recipient=NULL)</td></tr>
 <tr class="memdesc:a1d4dfe14974c47411221cc310e55827e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiate remote procedure call. When called on client, RPC is evaluated on server; When called on server, RPC is executed on all clients. Do not reset <a class="el" href="../../d5/d8a/class_script_r_p_c.html">ScriptRPC</a> internal state, so if is Send called multiple times in a row, it sends same (previously written) data again and again, until is <a class="el" href="../../d5/d8a/class_script_r_p_c.html#a93832f031a26b870b23657fe58d866c2" title="Reset internal buffer which stores written data. After Reset is callded, ScriptRPC can be used again ...">Reset()</a> called.  <br /></td></tr>
 <tr class="separator:a1d4dfe14974c47411221cc310e55827e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -214,7 +214,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/dc2/_cache_object_8c.html#a2dd3d4ba19a58e86cd16f281a6b82c8e">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
           <td class="paramname"><em>rpc_type</em>, </td>
         </tr>
         <tr>

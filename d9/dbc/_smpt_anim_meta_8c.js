@@ -21,5 +21,6 @@ var _smpt_anim_meta_8c =
     [ "m_IsPlaying", "d9/dbc/_smpt_anim_meta_8c.html#a5ad9951c1836fd334bdb5c745eac420f", null ],
     [ "m_Manager", "d9/dbc/_smpt_anim_meta_8c.html#aa516e2987c91cc0982b2a54a4bd66757", null ],
     [ "m_Player", "d9/dbc/_smpt_anim_meta_8c.html#a4db3d46d75d2864daed52041fe1f0973", null ],
+    [ "m_StateType", "d9/dbc/_smpt_anim_meta_8c.html#a9230a8487a3429f6a7320c4cc1c4dfab", null ],
     [ "m_SymptomType", "d9/dbc/_smpt_anim_meta_8c.html#a3f4dffa0b222839b13a5e662516e6022", null ]
 ];

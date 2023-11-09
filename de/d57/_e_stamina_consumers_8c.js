@@ -9,6 +9,7 @@ var _e_stamina_consumers_8c =
       [ "VAULT", "de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a86ec45593c2fdeab44911de8504366e0", null ],
       [ "CLIMB", "de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a0468a67c88997d0019a3ffec45aa54a7", null ],
       [ "ROLL", "de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a2eeb9fef8a6a516fa6437a44a6efbd52", null ],
-      [ "DROWN", "de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a56f4b0f641d8d17116a887deeee7502d", null ]
+      [ "DROWN", "de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365a56f4b0f641d8d17116a887deeee7502d", null ],
+      [ "PUSH", "de/d57/_e_stamina_consumers_8c.html#a86d211e01b9383d8d8bc4c529cfab365ad263caec619c4d99e4684ba0fabd9493", null ]
     ] ]
 ];

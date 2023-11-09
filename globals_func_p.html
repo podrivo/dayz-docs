@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
+   <div id="projectbrief">v1.23.156951 · Nov 07, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,6 +124,8 @@ $(document).ready(function(){initNavTree('globals_func_p.html',''); initResizabl
 <li>ParticleFireStartStart()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#a01fbcdc9aed044b4a8c83e17fb15c2fb">FireplaceBase.c</a></li>
 <li>ParticleFireStartStop()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#ac1f08d187f5ad3616f963f7ad6ea6c13">FireplaceBase.c</a></li>
 <li>ParticleFireWindyNoIgniteStart()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#a582e74a5779b79a3640056d8a67241ac">FireplaceBase.c</a></li>
+<li>ParticleGetCount()&#160;:&#160;<a class="el" href="da/d43/group___particle_effect.html#ga98b8ffdf4826099582f15ddc1c81c581">EnVisual.c</a></li>
+<li>ParticleHasActive()&#160;:&#160;<a class="el" href="da/d43/group___particle_effect.html#ga35656fd70c968d045aa42eb9f3515755">EnVisual.c</a></li>
 <li>ParticleManager()&#160;:&#160;<a class="el" href="d8/d6f/_particle_manager_8c.html#a93ef360e8fc315d276eb8cc256dc3ef8">ParticleManager.c</a></li>
 <li>ParticleManagerSettings()&#160;:&#160;<a class="el" href="d8/d6f/_particle_manager_8c.html#a180014652e28cc8fa2cd0cc46d181307">ParticleManager.c</a></li>
 <li>ParticleNormalFireStart()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#ae3e86f88361794a7ab3d45a86dc96281">FireplaceBase.c</a></li>
@@ -171,6 +173,7 @@ $(document).ready(function(){initNavTree('globals_func_p.html',''); initResizabl
 <li>PlayCrashLightSound()&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a476d0df0993439f761fcca8eb2aa06f8">CarScript.c</a></li>
 <li>PlayDeployFinishSound()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#ad1f7493e448012dbaab0c792428baa96">ItemBase.c</a></li>
 <li>PlayDeployLoopSound()&#160;:&#160;<a class="el" href="dd/dd8/_trap_base_8c.html#a571ec89bf4d6c2c296b56290d6d62f1e">TrapBase.c</a></li>
+<li>PlayDeployLoopSoundEx()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#ae41d732835cecb5f89e363718d9fde33">ItemBase.c</a></li>
 <li>PlayDeploySound()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#a0dba7b83b6a798160faed6d7bf0d77f9">ItemBase.c</a></li>
 <li>PlayDetachSound()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#a830fb172abb11a45ba122eccd40b0017">ItemBase.c</a></li>
 <li>PlayDisarmingLoopSound()&#160;:&#160;<a class="el" href="d7/dc3/_trap___land_mine_8c.html#a40a792b7099b4f4b0a44a083c7a73e63">Trap_LandMine.c</a></li>
@@ -222,8 +225,6 @@ $(document).ready(function(){initNavTree('globals_func_p.html',''); initResizabl
 <li>PluginDayzPlayerWeaponsDebugUserData()&#160;:&#160;<a class="el" href="dc/d73/_plugin_dayz_player_debug___weapons_8c.html#a97a9c70b91faaa6e7e727d8abac4b27a">PluginDayzPlayerDebug_Weapons.c</a></li>
 <li>PluginItemDiagnostic()&#160;:&#160;<a class="el" href="da/dbd/_plugin_item_diagnostic_8c.html#a6d12d7171104399b62406cd06e78c7ec">PluginItemDiagnostic.c</a></li>
 <li>PluginLifespan()&#160;:&#160;<a class="el" href="d5/d6f/_plugin_lifespan_8c.html#a40fcf4bf90c76d2b2293d34e798bc531">PluginLifespan.c</a></li>
-<li>PluginLocalEnscriptHistory()&#160;:&#160;<a class="el" href="d6/d51/_plugin_local_enscript_history_8c.html#a9d63ffb2287a77e1e9a2f1ac02f84109">PluginLocalEnscriptHistory.c</a></li>
-<li>PluginLocalEnscriptHistoryServer()&#160;:&#160;<a class="el" href="d6/d51/_plugin_local_enscript_history_8c.html#a57f70a78f487cb6da8f739d0305149ec">PluginLocalEnscriptHistory.c</a></li>
 <li>PluginManagerDelete()&#160;:&#160;<a class="el" href="d9/d5d/_plugin_manager_8c.html#af3241bb6c1c23503ec722a6c408fc365">PluginManager.c</a></li>
 <li>PluginManagerInit()&#160;:&#160;<a class="el" href="d9/d5d/_plugin_manager_8c.html#ab03dcab68d958e9707d9f00ccdb3b5d3">PluginManager.c</a></li>
 <li>PluginPresenceNotifier()&#160;:&#160;<a class="el" href="df/d02/_plugin_presence_notifier_8c.html#a310a0f4d4181f048e0030ebc66d8b83c">PluginPresenceNotifier.c</a></li>
@@ -287,22 +288,23 @@ $(document).ready(function(){initNavTree('globals_func_p.html',''); initResizabl
 <li>ProcessCameraShake()&#160;:&#160;<a class="el" href="d3/dd8/_day_z_player_camera___base_8c.html#aeeb3de71b20781b9ea1510ace4423945">DayZPlayerCamera_Base.c</a></li>
 <li>ProcessDecay()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#a740550ddb7057403fc43ecf5219eed40">ItemBase.c</a>, <a class="el" href="d8/d81/_edible___base_8c.html#adb2ab31b96f2851ab9ac77239a332541">Edible_Base.c</a></li>
 <li>ProcessEvent()&#160;:&#160;<a class="el" href="df/d02/_plugin_presence_notifier_8c.html#a1eca0901a4f9b342d693b23bd77de50e">PluginPresenceNotifier.c</a></li>
-<li>ProcessEyeAcco()&#160;:&#160;<a class="el" href="d4/dd4/_underground_handler_client_8c.html#afe964bc8c1cbaefb89783af74b61e487">UndergroundHandlerClient.c</a></li>
+<li>ProcessEyeAcco()&#160;:&#160;<a class="el" href="d4/dd4/_underground_handler_client_8c.html#a2043ab587070f79b1bb3fb1178742ce2">UndergroundHandlerClient.c</a></li>
 <li>ProcessGetOutActionData()&#160;:&#160;<a class="el" href="d9/da1/_action_get_out_transport_8c.html#a712edfc7c645d309a9da357ba485de9f">ActionGetOutTransport.c</a></li>
 <li>ProcessInputData()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a15ff5ff2b7ba662e5977f96673a7c1cd">DayZPlayerInventory.c</a></li>
 <li>ProcessItemTemperature()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#af5a7c83f844c2a49ccbf47c4dbcf20be">ItemBase.c</a></li>
 <li>ProcessItemToCook()&#160;:&#160;<a class="el" href="d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">Cooking.c</a></li>
 <li>ProcessItemWetness()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#a347e48c468c391e10fb150b4c72936e0">ItemBase.c</a></li>
 <li>ProcessItemWetnessAndTemperature()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#ac437e9f00af886671432f4dd647001e2">ItemBase.c</a></li>
-<li>ProcessLighting()&#160;:&#160;<a class="el" href="d4/dd4/_underground_handler_client_8c.html#adfa70a4b00905d592e4dbfb4a1a15757">UndergroundHandlerClient.c</a></li>
+<li>ProcessLighting()&#160;:&#160;<a class="el" href="d4/dd4/_underground_handler_client_8c.html#aa1f4b8beb1eddbd0d9d2d981194208b4">UndergroundHandlerClient.c</a></li>
 <li>ProcessMaterialUpdates()&#160;:&#160;<a class="el" href="de/da7/_p_p_e_manager_8c.html#a5dd9cab82412520ec5fb8cd169173b70">PPEManager.c</a></li>
 <li>ProcessMeleeHit()&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a7750b427c0a6c6ed423b3e98584d68c7">dayzplayer.c</a></li>
 <li>ProcessMeleeHitName()&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#ae61ff5fa34348ac3fd12e463c8132ac9">dayzplayer.c</a></li>
 <li>ProcessNoiseComponents()&#160;:&#160;<a class="el" href="df/d02/_plugin_presence_notifier_8c.html#a23196782a145f069b97d4e5d5e369231">PluginPresenceNotifier.c</a></li>
 <li>ProcessNutrients()&#160;:&#160;<a class="el" href="d8/dec/_player_stomach_8c.html#aa6b9baf1b3e261548ded1faa8567ccbf">PlayerStomach.c</a></li>
 <li>ProcessRequesterUpdates()&#160;:&#160;<a class="el" href="de/da7/_p_p_e_manager_8c.html#aed61d5da9d7ed52efd439d0870577386">PPEManager.c</a></li>
-<li>ProcessSound()&#160;:&#160;<a class="el" href="d8/d9b/_hunger_sound_handler_8c.html#aad304592324988361cc11d6bc0bb13d8">HungerSoundHandler.c</a>, <a class="el" href="d9/dba/_thirst_sound_handler_8c.html#aad304592324988361cc11d6bc0bb13d8">ThirstSoundHandler.c</a>, <a class="el" href="d4/dd4/_underground_handler_client_8c.html#a89089c8e3d732eb6a2e10742e635a13e">UndergroundHandlerClient.c</a></li>
+<li>ProcessSound()&#160;:&#160;<a class="el" href="d8/d9b/_hunger_sound_handler_8c.html#aad304592324988361cc11d6bc0bb13d8">HungerSoundHandler.c</a>, <a class="el" href="d9/dba/_thirst_sound_handler_8c.html#aad304592324988361cc11d6bc0bb13d8">ThirstSoundHandler.c</a>, <a class="el" href="d4/dd4/_underground_handler_client_8c.html#a3adea1274bd821c3b09788d4b0f72f73">UndergroundHandlerClient.c</a></li>
 <li>ProcessVisualComponents()&#160;:&#160;<a class="el" href="df/d02/_plugin_presence_notifier_8c.html#a37df9a09393fabd7076097ed48025e43">PluginPresenceNotifier.c</a></li>
+<li>ProgressActionComponent()&#160;:&#160;<a class="el" href="dc/df3/_action_push_car_8c.html#a994e8ad8f0d45a863dcce5d21cd803a6">ActionPushCar.c</a></li>
 <li>ProjectVector()&#160;:&#160;<a class="el" href="dd/dd2/group___camera.html#gaa36c5a603a8e01e8c45cfc75e097d4ca">EnWorld.c</a></li>
 <li>Pulling()&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#a03cb1f6b8b7068fa30adf2200e0c67ba">FishingRod_Base.c</a></li>
 <li>pushToChamberFromAttachedMagazine()&#160;:&#160;<a class="el" href="d5/d44/weapon__utils_8c.html#a74f42313b991e8c2b3128abc54646bfc">weapon_utils.c</a></li>

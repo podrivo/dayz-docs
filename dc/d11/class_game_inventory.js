@@ -74,6 +74,7 @@ var class_game_inventory =
     [ "GetSlotLock", "dc/d11/class_game_inventory.html#ab989be883a172f933c5e49636a9f421f", null ],
     [ "HasAttachment", "dc/d11/class_game_inventory.html#a57b8cc52758982c307ed9af457a658d0", null ],
     [ "HasAttachmentEx", "dc/d11/class_game_inventory.html#a04a8d7afe81bdeb65ea82afab53bd5fa", null ],
+    [ "HasAttachmentSlot", "dc/d11/class_game_inventory.html#a2b41e6b26e39190fe65fe4877e55fc5f", null ],
     [ "HasEntityInCargo", "dc/d11/class_game_inventory.html#a70b9d33d3e729301559eb09e47b339e0", null ],
     [ "HasEntityInCargoEx", "dc/d11/class_game_inventory.html#a9e0e1bf6f3e64df4089defd515e64130", null ],
     [ "HasEntityInInventory", "dc/d11/class_game_inventory.html#ab661a5290966e41508741589563d8626", null ],

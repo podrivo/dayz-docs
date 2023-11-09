@@ -6,7 +6,7 @@ var _day_z_physics_8c =
     [ "DayZPhysics", "d3/d27/class_day_z_physics.html", "d3/d27/class_day_z_physics" ],
     [ "PhxInteractionLayers", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3a", [
       [ "NOCOLLISION", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aafc24505d887d19c4bf63c00ec3134834", null ],
-      [ "DEFAULT", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aad20935afa9af8d1f162c113cfbbf111d", null ],
+      [ "DEFAULT", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa88ec7d5086d2469ba843c7fcceade8a6", null ],
       [ "BUILDING", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1ae565a2eb1b9ddd41f0cefc3f33a087", null ],
       [ "CHARACTER", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa762041e95dc7b081aaf6b0019dca8586", null ],
       [ "VEHICLE", "d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada30f0dfe7c99ccb74e83ba77c5c118d", null ],

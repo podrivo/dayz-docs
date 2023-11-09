@@ -36,6 +36,7 @@ var group___menu_i_d =
     [ "MENU_LOGOUT", "d7/d7f/group___menu_i_d.html#ga2a73c4a55ca6e4402d2229c136040a1e", null ],
     [ "MENU_MAIN", "d7/d7f/group___menu_i_d.html#ga36415ec61adcccd59c6edd041a4a3809", null ],
     [ "MENU_MAP", "d7/d7f/group___menu_i_d.html#ga34225021811630a6a32279c34e72fcfd", null ],
+    [ "MENU_MISSION_LOADER", "d7/d7f/group___menu_i_d.html#ga679fb8c4ac077479bb3120599f59cb80", null ],
     [ "MENU_NONE", "d7/d7f/group___menu_i_d.html#ga09201b4e2c9dd6227b701d5ce7ebdbc7", null ],
     [ "MENU_NOTE", "d7/d7f/group___menu_i_d.html#gab4b187c0bd6713044c308f943e834330", null ],
     [ "MENU_OPTIONS", "d7/d7f/group___menu_i_d.html#ga7d993d187a8c214de2aeaa07c12b008b", null ],

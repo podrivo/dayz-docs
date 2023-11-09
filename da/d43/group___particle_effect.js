@@ -62,6 +62,8 @@ var group___particle_effect =
     [ "GetParticleParm", "da/d43/group___particle_effect.html#gaf8b8d0a62c36697a8e34fc9ef2c492e3", null ],
     [ "GetParticleParmOriginal", "da/d43/group___particle_effect.html#ga7cf9b540067b188149be7512b29ceb60", null ],
     [ "HasActiveParticle", "da/d43/group___particle_effect.html#ga0975b5ff10238b585d1577c563783910", null ],
+    [ "ParticleGetCount", "da/d43/group___particle_effect.html#ga98b8ffdf4826099582f15ddc1c81c581", null ],
+    [ "ParticleHasActive", "da/d43/group___particle_effect.html#ga35656fd70c968d045aa42eb9f3515755", null ],
     [ "ResetParticlePosition", "da/d43/group___particle_effect.html#gadcf88483f6e81f5737f90a0f22464cdd", null ],
     [ "RestartParticle", "da/d43/group___particle_effect.html#ga2362a8d6f9c9abd4867fa7c14d59a341", null ],
     [ "SetParticleParm", "da/d43/group___particle_effect.html#ga0f558e6f6131c3ea48fe470c95dd6e5f", null ]

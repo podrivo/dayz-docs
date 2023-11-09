@@ -23,6 +23,7 @@ var dir_033634d6226c208676d37d46cb6839ff =
     [ "Izh18ShotgunRecoil.c", "d1/d4a/_izh18_shotgun_recoil_8c.html", "d1/d4a/_izh18_shotgun_recoil_8c" ],
     [ "Izh43Recoil.c", "d5/d37/_izh43_recoil_8c.html", "d5/d37/_izh43_recoil_8c" ],
     [ "LongHornRecoil.c", "df/d55/_long_horn_recoil_8c.html", "df/d55/_long_horn_recoil_8c" ],
+    [ "M14Recoil.c", "d7/d8b/_m14_recoil_8c.html", "d7/d8b/_m14_recoil_8c" ],
     [ "M16A2Recoil.c", "d3/dda/_m16_a2_recoil_8c.html", "d3/dda/_m16_a2_recoil_8c" ],
     [ "M4a1Recoil.c", "d6/ded/_m4a1_recoil_8c.html", "d6/ded/_m4a1_recoil_8c" ],
     [ "M79Recoil.c", "db/d11/_m79_recoil_8c.html", "db/d11/_m79_recoil_8c" ],

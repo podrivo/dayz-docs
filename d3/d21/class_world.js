@@ -41,6 +41,7 @@ var class_world =
     [ "SetEyeAccom", "d3/d21/class_world.html#a5a9b16dd29f7bf4824218371e79c8fb6", null ],
     [ "SetObjectViewDistance", "d3/d21/class_world.html#a24653f9ed7b37fd128350d9c3af7afd1", null ],
     [ "SetPreferredViewDistance", "d3/d21/class_world.html#ac77872ce36108a709b1334fc285926e6", null ],
+    [ "SetTimeMultiplier", "d3/d21/class_world.html#a62b014946b4a65df811d1d25086c991d", null ],
     [ "SetUserLightingLerp", "d3/d21/class_world.html#aae7dc50b2f8896fca4bf283f08fa58d0", null ],
     [ "SetViewDistance", "d3/d21/class_world.html#a4385a281d6c5ddfecade18c1e6160aac", null ],
     [ "SetVoiceOn", "d3/d21/class_world.html#a6ccf439f35e2688f8cc513c174aa8ddb", null ],

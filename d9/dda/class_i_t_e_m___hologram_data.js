@@ -11,5 +11,6 @@ var class_i_t_e_m___hologram_data =
     [ "disableIsCollidingPlayerCheck", "d9/dda/class_i_t_e_m___hologram_data.html#a9f2adc764d9a559d0c84ce1714add00d", null ],
     [ "disableIsInTerrainCheck", "d9/dda/class_i_t_e_m___hologram_data.html#ad918da2410d8a28ec029b1a2b3ea12b1", null ],
     [ "disableIsPlacementPermittedCheck", "d9/dda/class_i_t_e_m___hologram_data.html#a3f8a8a4800f6f9e278240f5f5332356d", null ],
-    [ "disableIsUnderwaterCheck", "d9/dda/class_i_t_e_m___hologram_data.html#a15f9749f29a10f395d24c328c26c52af", null ]
+    [ "disableIsUnderwaterCheck", "d9/dda/class_i_t_e_m___hologram_data.html#a15f9749f29a10f395d24c328c26c52af", null ],
+    [ "disallowedTypesInUnderground", "d9/dda/class_i_t_e_m___hologram_data.html#a33ea85fb48cd92a84965bfe8f4d352fd", null ]
 ];

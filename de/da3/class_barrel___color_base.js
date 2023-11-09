@@ -12,6 +12,7 @@ var class_barrel___color_base =
     [ "ColourClothes", "de/da3/class_barrel___color_base.html#a4bb1aa5d11e694118860963584c8c82e", null ],
     [ "ColourLeatherClothes", "de/da3/class_barrel___color_base.html#a3e98f0eb1b352f82b43019e61f96c23a", null ],
     [ "DetermineAction", "de/da3/class_barrel___color_base.html#a7b52af3f294fd7342d02055520d1dcdb", null ],
+    [ "EECargoIn", "de/da3/class_barrel___color_base.html#a0b0e37f5ad607ca64689ec14f13f129d", null ],
     [ "GetDamageSystemVersionChange", "de/da3/class_barrel___color_base.html#a8ad3357a624c597d2314f7dc3dbba97d", null ],
     [ "GetLiquidThroughputCoef", "de/da3/class_barrel___color_base.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],
     [ "GetPlaceSoundset", "de/da3/class_barrel___color_base.html#a8c2dc96b8b4dcc70efe3b211654b13f1", null ],

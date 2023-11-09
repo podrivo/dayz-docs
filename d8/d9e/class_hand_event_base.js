@@ -7,7 +7,7 @@ var class_hand_event_base =
     [ "CanPerformEvent", "d8/d9e/class_hand_event_base.html#a7ffb00d2ed9636101bbd0a9ea260682e", null ],
     [ "CanPerformEvent", "d8/d9e/class_hand_event_base.html#a7ffb00d2ed9636101bbd0a9ea260682e", null ],
     [ "CanPerformEvent", "d8/d9e/class_hand_event_base.html#a7ffb00d2ed9636101bbd0a9ea260682e", null ],
-    [ "CanPerformEvent", "d8/d9e/class_hand_event_base.html#a7ffb00d2ed9636101bbd0a9ea260682e", null ],
+    [ "CanPerformEventEx", "d8/d9e/class_hand_event_base.html#ad9db17b93bcf26ef54a3f1ddb267bc26", null ],
     [ "CheckAndExecuteForceStandUp", "d8/d9e/class_hand_event_base.html#a03a69777110fe880fa6889efb97557e9", null ],
     [ "CheckRequest", "d8/d9e/class_hand_event_base.html#a6141b536ee3fd98e33ff7ce4e2970137", null ],
     [ "CheckRequest", "d8/d9e/class_hand_event_base.html#a6141b536ee3fd98e33ff7ce4e2970137", null ],

@@ -45,6 +45,8 @@ var _en_visual_8c =
     [ "GetParticleParmOriginal", "da/d43/group___particle_effect.html#ga7cf9b540067b188149be7512b29ceb60", null ],
     [ "HasActiveParticle", "da/d43/group___particle_effect.html#ga0975b5ff10238b585d1577c563783910", null ],
     [ "IsAnimSlotPlaying", "dc/d48/group___mesh_object.html#ga714d83f3ffb55c682807c90a7583eb56", null ],
+    [ "ParticleGetCount", "da/d43/group___particle_effect.html#ga98b8ffdf4826099582f15ddc1c81c581", null ],
+    [ "ParticleHasActive", "da/d43/group___particle_effect.html#ga35656fd70c968d045aa42eb9f3515755", null ],
     [ "ReleaseObject", "d1/d38/group___visual.html#gaf9e341a2578c4863da4c5cf0fd0da018", null ],
     [ "ResetParticlePosition", "da/d43/group___particle_effect.html#gadcf88483f6e81f5737f90a0f22464cdd", null ],
     [ "RestartParticle", "da/d43/group___particle_effect.html#ga2362a8d6f9c9abd4867fa7c14d59a341", null ],

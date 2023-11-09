@@ -18,6 +18,7 @@ var _cfg_gameplay_data_json_8c =
     [ "disableBaseDamage", "da/d9e/_cfg_gameplay_data_json_8c.html#adbf6da417a17506bb0869132a8e682cb", null ],
     [ "disableContainerDamage", "da/d9e/_cfg_gameplay_data_json_8c.html#ae6c38d7fa82ac0f150855f01987195f8", null ],
     [ "disableRespawnDialog", "da/d9e/_cfg_gameplay_data_json_8c.html#a4c7675feba3234d02f25d8e9f2e8e3c1", null ],
+    [ "disableRespawnInUnconsciousness", "da/d9e/_cfg_gameplay_data_json_8c.html#ab28c0280c57766762b3220d49c132640", null ],
     [ "displayNavInfo", "da/d9e/_cfg_gameplay_data_json_8c.html#ae1a7b6145c4f100fb2991448c82c50bc", null ],
     [ "displayPlayerPosition", "da/d9e/_cfg_gameplay_data_json_8c.html#ab5c38d50d64809304e80be0ae268f994", null ],
     [ "environmentMaxTemps", "da/d9e/_cfg_gameplay_data_json_8c.html#a1bb038420d4e1d1a0c2b792526edee96", null ],

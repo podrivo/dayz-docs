@@ -23,6 +23,7 @@ var _day_z_player_camera___base_8c =
     [ "GetCurrentRoll", "d3/dd8/_day_z_player_camera___base_8c.html#ad9e50a885c64cab1e2b499b4edfd7172", null ],
     [ "GetCurrentYaw", "d3/dd8/_day_z_player_camera___base_8c.html#a572ea62e6d71b36699b44f54589a7f37", null ],
     [ "GetWeaponSwayModifier", "d3/dd8/_day_z_player_camera___base_8c.html#a89f6f71f26b65475d5a0b045069e939b", null ],
+    [ "HandleShoulderCameraOverride", "d3/dd8/_day_z_player_camera___base_8c.html#aa7616e618c71eee364eba1e8649e0891", null ],
     [ "Init", "d3/dd8/_day_z_player_camera___base_8c.html#a1e3b6d38df0786ccf7f938d60e386aae", null ],
     [ "InitCameraOnPlayer", "d3/dd8/_day_z_player_camera___base_8c.html#a9dbf6771ce02f6712411280ed30613cc", null ],
     [ "IsCameraNV", "d3/dd8/_day_z_player_camera___base_8c.html#a75c0441cb605dc0b0eec812860032582", null ],

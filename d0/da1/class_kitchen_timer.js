@@ -1,7 +1,7 @@
 var class_kitchen_timer =
 [
     [ "Disarm", "d0/da1/class_kitchen_timer.html#a2d7fdf4fa8646f3d7d6024a5d5f61a5f", null ],
-    [ "GetDebugButtonNames", "d0/da1/class_kitchen_timer.html#add7373fc8492b0821fd03c0692256f5c", null ],
+    [ "GetDebugActions", "d0/da1/class_kitchen_timer.html#ab110c1ad759f395660b0ae9242843731", null ],
     [ "GetDebugText", "d0/da1/class_kitchen_timer.html#a3fae6d6b0946cbe842c50c8ab274e1e4", null ],
     [ "GetDestroyedSound", "d0/da1/class_kitchen_timer.html#aaa1ace02d8a9b082d06a25c812d6f604", null ],
     [ "GetExplosiveTriggerSlotName", "d0/da1/class_kitchen_timer.html#a61904063297f82bf887deb9b01395b92", null ],
@@ -13,7 +13,7 @@ var class_kitchen_timer =
     [ "GetToggleSound", "d0/da1/class_kitchen_timer.html#a43e1dd48dcbd95c126dd3d1b593f3027", null ],
     [ "GetWorkingSound", "d0/da1/class_kitchen_timer.html#a9325381e2ddf0aa056513d6652a15e5a", null ],
     [ "Init", "d0/da1/class_kitchen_timer.html#a8045e088b31fe0754fb20cb0a5ff0dc9", null ],
-    [ "OnDebugButtonPressServer", "d0/da1/class_kitchen_timer.html#a46c79f6a4908c367de361cddfae5dd0a", null ],
+    [ "OnAction", "d0/da1/class_kitchen_timer.html#a64db4496134a9520c526e341cd13807f", null ],
     [ "OnRingingStopClient", "d0/da1/class_kitchen_timer.html#a3a31f8ef2549c50c1198d46766fcd957", null ],
     [ "OnStoreLoad", "d0/da1/class_kitchen_timer.html#ab311cdf3df0e3547b7d3cd810e61ca61", null ],
     [ "OnStoreSave", "d0/da1/class_kitchen_timer.html#a35a85dbb8d86badfdee250107b15e803", null ],

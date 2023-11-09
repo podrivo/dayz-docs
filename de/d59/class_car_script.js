@@ -114,6 +114,7 @@ var class_car_script =
     [ "GetDoorSelectionNameFromSeatPos", "de/d59/class_car_script.html#aaa6bda5b5859469a7998293168656526", null ],
     [ "GetDoorSelectionNameFromSeatPos", "de/d59/class_car_script.html#aaa6bda5b5859469a7998293168656526", null ],
     [ "GetDoorSelectionNameFromSeatPos", "de/d59/class_car_script.html#aaa6bda5b5859469a7998293168656526", null ],
+    [ "GetPushForceCoefficientMultiplier", "de/d59/class_car_script.html#aa22925541a2230ec990e35cddb66cad2", null ],
     [ "GetSeatAnimationType", "de/d59/class_car_script.html#ab4c991efcb2286a9fcc5b64d7e692dc1", null ],
     [ "GetSeatAnimationType", "de/d59/class_car_script.html#ab4c991efcb2286a9fcc5b64d7e692dc1", null ],
     [ "GetSeatAnimationType", "de/d59/class_car_script.html#ab4c991efcb2286a9fcc5b64d7e692dc1", null ],

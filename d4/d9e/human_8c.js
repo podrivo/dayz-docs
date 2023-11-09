@@ -21,6 +21,11 @@ var human_8c =
       [ "STATE_FALLING", "d4/d9e/human_8c.html#ade8fe15ec4ea2fe06f6b884b0e870c53a871794baf84f6253beaf368fa58319b1", null ],
       [ "STATE_FINISH", "d4/d9e/human_8c.html#ade8fe15ec4ea2fe06f6b884b0e870c53a0c51b3578c448f341d57d1584e79186b", null ]
     ] ],
+    [ "HumanInputControllerOverrideType", "d4/d9e/human_8c.html#ad3193c0de28b119f2210d039a69acf34", [
+      [ "DISABLED", "d4/d9e/human_8c.html#ad3193c0de28b119f2210d039a69acf34a40f39385238042f6ec0cbac821a19fc4", null ],
+      [ "ENABLED", "d4/d9e/human_8c.html#ad3193c0de28b119f2210d039a69acf34a99788d1f27bac42d0c7bac63026c5959", null ],
+      [ "ONE_FRAME", "d4/d9e/human_8c.html#ad3193c0de28b119f2210d039a69acf34ac9a48ac99f878ac9690dcbdb133edc5f", null ]
+    ] ],
     [ "HumanMoveCommandID", "d4/d9e/human_8c.html#a380429493fa82083820b0d118f7ffef8", null ],
     [ "WeaponActionChamberingLoaderTypes", "d4/d9e/human_8c.html#a896b52d6c637022ad55d8504a8b79ddc", [
       [ "CHAMBERINGLOADER_OPENED", "d4/d9e/human_8c.html#a896b52d6c637022ad55d8504a8b79ddca38771f49058b3e496511f985972c712b", null ],
@@ -196,6 +201,7 @@ var human_8c =
     [ "GetCommandModifier_Weapons", "d4/d9e/human_8c.html#a6c0f5d6f2878d86d3941c036db0991e3", null ],
     [ "GetCommandModifierCount", "d4/d9e/human_8c.html#ab5082c4fdc05396571ac5707ec997773", null ],
     [ "GetCommandModifierID", "d4/d9e/human_8c.html#a5812c6a43db347152e56b7abe71b1c92", null ],
+    [ "GetCurrentCommandID", "d4/d9e/human_8c.html#a13b9e1c5a80514b6f8a94b1e4e8ff128", null ],
     [ "GetCurrentHitType", "d4/d9e/human_8c.html#addfc94d2e878cc5bb946a17815a7b202", null ],
     [ "GetCurrentInputAngle", "d4/d9e/human_8c.html#a2c7b5af4b9a83fbc85c5e5303d06b6e7", null ],
     [ "GetCurrentMovementAngle", "d4/d9e/human_8c.html#a7a7dfe59ec1c081e646147e156556757", null ],

@@ -4,6 +4,8 @@ var class_day_z_creature =
     [ "AddDamageSphere", "d3/de9/class_day_z_creature.html#a996d78f0d928bddbe32486988db64042", null ],
     [ "AttenuateSoundIfNecessary", "d3/de9/class_day_z_creature.html#ae0d462890f8fb7abce85256b1f29769f", null ],
     [ "CaptureSound", "d3/de9/class_day_z_creature.html#aedbfbaaea7982a50cc16e44d17e17c9e", null ],
+    [ "CinematicCanJump", "d3/de9/class_day_z_creature.html#a7cad99eacc931bc3fe015e3036736e12", null ],
+    [ "CinematicTakeControl", "d3/de9/class_day_z_creature.html#ac73549f606cd16d8bc540aa04d230e08", null ],
     [ "DayZCreatureAI", "d3/de9/class_day_z_creature.html#a6803b91829d14133c1991a0a4f4567eb", null ],
     [ "DecreaseEffectTriggerCount", "d3/de9/class_day_z_creature.html#a2be5caf2596dc17fcf1cf31e5b1a0122", null ],
     [ "DestroyAIAgent", "d3/de9/class_day_z_creature.html#abdf81d8e2dbf74a20d2f1a3af576f33d", null ],
@@ -15,6 +17,7 @@ var class_day_z_creature =
     [ "InitAIAgent", "d3/de9/class_day_z_creature.html#ab1c835deb0b1741e8d463f0a998f7da2", null ],
     [ "IsDanger", "d3/de9/class_day_z_creature.html#ad52d5ceffcc66f17e2b5153bc96599dc", null ],
     [ "IsSoundInsideBuilding", "d3/de9/class_day_z_creature.html#a8aa39556d2f4dfacf725d918311f5b3b", null ],
+    [ "ModCommandHandlerBefore", "d3/de9/class_day_z_creature.html#aab14292ad58a7cf395f5200e8d18c8d2", null ],
     [ "OnDamageEvent", "d3/de9/class_day_z_creature.html#aa9599d0ddedeae046992c505bcee08e9", null ],
     [ "OnSoundEvent", "d3/de9/class_day_z_creature.html#a0206333ff16332ae41e6c2f258b6fc80", null ],
     [ "OnSoundVoiceEvent", "d3/de9/class_day_z_creature.html#a3b0cecf6120f6f4a6fdcca93ced9e676", null ],
@@ -27,5 +30,6 @@ var class_day_z_creature =
     [ "RegisterAnimEvents", "d3/de9/class_day_z_creature.html#a9d5d22c18f9dbb8ad244ab188ac745ae", null ],
     [ "ReleaseSound", "d3/de9/class_day_z_creature.html#ae4304851afc122bba7103d0ba1ccf1cc", null ],
     [ "ResistContaminatedEffect", "d3/de9/class_day_z_creature.html#a5c8cb7c2e757e600e02e7a502453fb4b", null ],
+    [ "m_CinematicPlayer", "d3/de9/class_day_z_creature.html#a7ec21e670bc95fbfe4ea7be95e8bf8b1", null ],
     [ "m_EffectTriggerCount", "d3/de9/class_day_z_creature.html#a4b49a4ee522d2f7cd4e04d8a4e41a4fb", null ]
 ];

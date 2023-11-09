@@ -2,6 +2,7 @@ var class_action_toggle_place_object =
 [
     [ "ActionTogglePlaceObject", "d8/d94/class_action_toggle_place_object.html#a986c5a6f57d2446206565d578fbba566", null ],
     [ "ActionCondition", "d8/d94/class_action_toggle_place_object.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
+    [ "CanBeUsedWithBrokenLegs", "d8/d94/class_action_toggle_place_object.html#a798699eb2b24d51f4706ebec7debc457", null ],
     [ "CreateConditionComponents", "d8/d94/class_action_toggle_place_object.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "HasTarget", "d8/d94/class_action_toggle_place_object.html#ab80733e1a8c145c8ee7b04476d535d72", null ],
     [ "IsDeploymentAction", "d8/d94/class_action_toggle_place_object.html#a7c6ca247d9b1819c4e46fc2e2ee173bb", null ],

@@ -163,6 +163,7 @@ var group___tools =
     [ "GetNumberOfSetBits", "d9/dc3/group___tools.html#gaf00215752311bd671e6d6bfc9d5efa24", null ],
     [ "GetProfileValueBool", "d9/dc3/group___tools.html#ga1b9c78bd52869151c9bae1d6783afe9d", null ],
     [ "GetRemaining", "d9/dc3/group___tools.html#ga897bff43753a6915d96948a83c859b0f", null ],
+    [ "GetRunTime", "d9/dc3/group___tools.html#gab199c505d0d0026defb976fac3e3e6de", null ],
     [ "GetTemperatureColor", "d9/dc3/group___tools.html#gaed6444e8a04c2e2e6d36ee35fcfa6b9e", null ],
     [ "GetTime", "d9/dc3/group___tools.html#ga8a5888c845f10608a75d9bfd5009089e", null ],
     [ "IsRunning", "d9/dc3/group___tools.html#ga503e3d34e944eb2100a9b6e26cde2aae", null ],
@@ -184,6 +185,7 @@ var group___tools =
     [ "m_duration", "d9/dc3/group___tools.html#ga1f32cd1113bf46668bc04091d642e8b7", null ],
     [ "m_loop", "d9/dc3/group___tools.html#ga8491320ae1aa5f9c21b697951033bff3", null ],
     [ "m_running", "d9/dc3/group___tools.html#ga15caefc1aac89d6965dfb8bd62bd40d4", null ],
+    [ "m_RunTime", "d9/dc3/group___tools.html#gad11fdbc6c3e8d48ecf3b7e93d7bd1cb9", null ],
     [ "m_time", "d9/dc3/group___tools.html#ga2de98207f9046279c80318b556040573", null ],
     [ "m_timerQueue", "d9/dc3/group___tools.html#ga0195a222fabf7f3c3faa0afe68b326d8", null ]
 ];

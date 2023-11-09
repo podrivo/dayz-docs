@@ -18,8 +18,10 @@ var _bios_lobby_service_8c =
       [ "POPULATION", "db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fae73fcec93d0d114165f36c5667b4d7b7", null ],
       [ "SLOTS", "db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fa78f3da5ae1552d591efe62b5617068e7", null ],
       [ "FAVORITE", "db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fafd3a8854adbf848c406058efeac956c9", null ],
-      [ "PASSWORDED", "db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fa75189e5313d3b80d4c9a94cdcc79fb2e", null ]
+      [ "PASSWORDED", "db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fa75189e5313d3b80d4c9a94cdcc79fb2e", null ],
+      [ "QUEUE", "db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fa15daaafacaefff3b690c1c2669ef0caa", null ]
     ] ],
+    [ "CompareTo", "db/de7/_bios_lobby_service_8c.html#ae32b09bfe3a9d1e597c7ea7c07ee9af1", null ],
     [ "GetIP", "db/de7/_bios_lobby_service_8c.html#a6272100f7fb067ea807cb996e906c229", null ],
     [ "GetIpPort", "db/de7/_bios_lobby_service_8c.html#a0db3d464cc3106523d26752c2aec9945", null ],
     [ "GetValueInt", "db/de7/_bios_lobby_service_8c.html#ac338c5a1d1661009c5cdf9aed32ba6bc", null ],
@@ -54,6 +56,7 @@ var _bios_lobby_service_8c =
     [ "m_Name", "db/de7/_bios_lobby_service_8c.html#a3053a6d8752e323caa7797c18a0083b0", null ],
     [ "m_Official", "db/de7/_bios_lobby_service_8c.html#a44781a57ce7822386d9605c72c40226c", null ],
     [ "m_Ping", "db/de7/_bios_lobby_service_8c.html#a823eaace52b710d38486e6c57e9d5c01", null ],
+    [ "m_PlayersInQueue", "db/de7/_bios_lobby_service_8c.html#a7f1ed3bcf2d1f715a938d0d6accca75f", null ],
     [ "m_Priority", "db/de7/_bios_lobby_service_8c.html#a377da45434051ad75ffd2b80f36463a1", null ],
     [ "m_RegionId", "db/de7/_bios_lobby_service_8c.html#a6e17a941c91294872c20baeed74836b6", null ],
     [ "m_ShardId", "db/de7/_bios_lobby_service_8c.html#a44311c505a03b0f51ff0ea459fb9838d", null ],

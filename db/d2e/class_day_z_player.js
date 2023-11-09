@@ -214,6 +214,7 @@ var class_day_z_player =
     [ "m_ShouldReload", "db/d2e/class_day_z_player.html#aa207ba3a4917c2d9be1d09b6447a9b6a", null ],
     [ "m_SoundOffset", "db/d2e/class_day_z_player.html#a47d127ca89153be32911093d2d68524c", null ],
     [ "m_SprintedTime", "db/d2e/class_day_z_player.html#ae693691c5486276ac60ea1ff273c3752", null ],
+    [ "m_SprintedTimePerStanceMin", "db/d2e/class_day_z_player.html#ab11c7acc6a8de7486a464f0e40d39f96", null ],
     [ "m_SprintFull", "db/d2e/class_day_z_player.html#ae35f90ffa4146fbb8b15e5b87cdfa9be", null ],
     [ "m_StepCounter", "db/d2e/class_day_z_player.html#a891f93edbedfee641d5517419cd5ead7", null ],
     [ "m_Suicide", "db/d2e/class_day_z_player.html#a171302ea908c3f65c8d57880d3e54f99", null ],

@@ -19,6 +19,7 @@ var _plugin_item_diagnostic_8c =
     [ "OnMouseButtonUp", "da/dbd/_plugin_item_diagnostic_8c.html#adee345986e87a24113bf46b935ccaea2", null ],
     [ "OnRPC", "da/dbd/_plugin_item_diagnostic_8c.html#ae39262e6a641fc3eb6151ea7ed5166c7", null ],
     [ "OnScriptMenuOpened", "da/dbd/_plugin_item_diagnostic_8c.html#aa069c9281decc8b5ffe42b69905ae922", null ],
+    [ "OnSelectAction", "da/dbd/_plugin_item_diagnostic_8c.html#a4e23a94128ba88a017d7ef1b2d9a386b", null ],
     [ "OnUpdate", "da/dbd/_plugin_item_diagnostic_8c.html#ada777685abe2f010988b4924f95e76bb", null ],
     [ "PluginItemDiagnostic", "da/dbd/_plugin_item_diagnostic_8c.html#a6d12d7171104399b62406cd06e78c7ec", null ],
     [ "PrintOut", "da/dbd/_plugin_item_diagnostic_8c.html#a0c2a0930706a03b3c6cf06aaa5bd915b", null ],

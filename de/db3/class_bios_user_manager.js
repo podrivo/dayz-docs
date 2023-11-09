@@ -19,6 +19,6 @@ var class_bios_user_manager =
     [ "ParseJoinAsync", "de/db3/class_bios_user_manager.html#ab6d9b7f23cc7baa7ec9ad8eed7a72580", null ],
     [ "ParsePartyAsync", "de/db3/class_bios_user_manager.html#a034ea63f83144dd6d6c90c839151e2eb", null ],
     [ "PickUserAsync", "de/db3/class_bios_user_manager.html#af2e722ff152b6d43840008e2ea1ee274", null ],
-    [ "SelectUser", "de/db3/class_bios_user_manager.html#a205933cbba442de1674b955f2051aa55", null ],
-    [ "SelectUserEx", "de/db3/class_bios_user_manager.html#ae23a714f4b793df299e3c5008ef2622d", null ]
+    [ "SelectUser", "de/db3/class_bios_user_manager.html#a4d0c22342c3b9b73458b1ac9fc3da2f9", null ],
+    [ "SelectUserEx", "de/db3/class_bios_user_manager.html#ae1db27d1c974a702116b7d779a238607", null ]
 ];

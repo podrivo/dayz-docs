@@ -30,6 +30,7 @@ var _trap___land_mine_8c =
     [ "BROKEN_LEG_PROB", "d7/dc3/_trap___land_mine_8c.html#a805d15782a04d09c31fb2af334d8c8bf", null ],
     [ "m_DeleteTimer", "d7/dc3/_trap___land_mine_8c.html#a6b4fcef28c02b7789fd5beed146e1f05", null ],
     [ "m_DisarmingLoopSound", "d7/dc3/_trap___land_mine_8c.html#a8bfa720c5428ba48b72afd800ae95b2e", null ],
+    [ "m_SafetyPinSound", "d7/dc3/_trap___land_mine_8c.html#ad9a8d3674597f312c49d38a5bc5826d0", null ],
     [ "m_TimerLoopSound", "d7/dc3/_trap___land_mine_8c.html#afbe253ef8f808d8e9cf45dc7fefa9c01", null ],
     [ "MAX_BLEED_SOURCE", "d7/dc3/_trap___land_mine_8c.html#aca8b953d278e9caba35dae88b43ab339", null ]
 ];

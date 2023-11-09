@@ -10,6 +10,7 @@ var _e_stamina_modifiers_8c =
       [ "VAULT", "d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a86ec45593c2fdeab44911de8504366e0", null ],
       [ "CLIMB", "d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a0468a67c88997d0019a3ffec45aa54a7", null ],
       [ "ROLL", "d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a2eeb9fef8a6a516fa6437a44a6efbd52", null ],
-      [ "DROWN", "d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a56f4b0f641d8d17116a887deeee7502d", null ]
+      [ "DROWN", "d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a56f4b0f641d8d17116a887deeee7502d", null ],
+      [ "PUSH_CAR", "d0/d86/_e_stamina_modifiers_8c.html#a183e748e7ec1eb63d8f8089ca07f69f2a88211b962f9aad7a35baa4e857eb7076", null ]
     ] ]
 ];

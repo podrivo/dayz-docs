@@ -1,5 +1,4 @@
 var class_day_z_player_camera3rd_person_erc_raised =
 [
-    [ "~DayZPlayerCamera3rdPersonErcRaisedMelee", "dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#a19bee0f7f79ad77ea0d46bcd34eca324", null ],
-    [ "DayZPlayerCamera3rdPersonErcRaisedMelee", "dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#ad4069b6dca54e2d99961f805c065ebae", null ]
+    [ "HandleShoulderCameraOverride", "dc/d2b/class_day_z_player_camera3rd_person_erc_raised.html#a1369d206358749ea24cf7c303c056de8", null ]
 ];

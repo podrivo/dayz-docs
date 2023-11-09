@@ -19,6 +19,7 @@ var _civilian_sedan_8c =
     [ "GetCarDoorsState", "d9/d47/_civilian_sedan_8c.html#a04386cccc22574bf9d99a2c86a83738c", null ],
     [ "GetDoorInvSlotNameFromSeatPos", "d9/d47/_civilian_sedan_8c.html#ac3b524eb34a0724ed5140fc72f9f3c32", null ],
     [ "GetDoorSelectionNameFromSeatPos", "d9/d47/_civilian_sedan_8c.html#aaa6bda5b5859469a7998293168656526", null ],
+    [ "GetPushForceCoefficientMultiplier", "d9/d47/_civilian_sedan_8c.html#aa22925541a2230ec990e35cddb66cad2", null ],
     [ "GetSeatAnimationType", "d9/d47/_civilian_sedan_8c.html#ab4c991efcb2286a9fcc5b64d7e692dc1", null ],
     [ "GetTransportCameraDistance", "d9/d47/_civilian_sedan_8c.html#a1d6275ea300d88e37933751970ea3f08", null ],
     [ "IsVitalGlowPlug", "d9/d47/_civilian_sedan_8c.html#a23b69b41870212a21457a7629c5be2ba", null ],

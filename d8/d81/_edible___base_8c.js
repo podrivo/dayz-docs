@@ -1,6 +1,6 @@
 var _edible___base_8c =
 [
-    [ "ItemBase", "de/d7a/class_item_base.html", "de/d7a/class_item_base" ],
+    [ "Edible_Base", "df/d7c/class_edible___base.html", "df/d7c/class_edible___base" ],
     [ "AfterStoreLoad", "d8/d81/_edible___base_8c.html#a94e94836ed80bf81df4751938ab00cbc", null ],
     [ "CanBeCooked", "d8/d81/_edible___base_8c.html#a3dbd208579f9df9f2de07336bd2d1a23", null ],
     [ "CanBeCookedOnStick", "d8/d81/_edible___base_8c.html#a3b6082ea1f51e1c590d3959612824a4c", null ],
@@ -41,7 +41,7 @@ var _edible___base_8c =
     [ "IsFruit", "d8/d81/_edible___base_8c.html#a7a2a64a32b1d7ce4d231e040230a51b9", null ],
     [ "IsMeat", "d8/d81/_edible___base_8c.html#af4dc60fc2494001a29a457fd8113bc6d", null ],
     [ "IsMushroom", "d8/d81/_edible___base_8c.html#a6ae7a976ee8bfb41598c807dfb17b336", null ],
-    [ "MakeSoundsOnClient", "d8/d81/_edible___base_8c.html#aa34ecab6f691d7151320e0fa3a23e6b0", null ],
+    [ "MakeSoundsOnClient", "d8/d81/_edible___base_8c.html#ae8d9fb5b0812570a4848e0522fd89bd8", null ],
     [ "OnAction", "d8/d81/_edible___base_8c.html#a64db4496134a9520c526e341cd13807f", null ],
     [ "OnConsume", "d8/d81/_edible___base_8c.html#a9706175515d693acc0435cea05fc2af0", null ],
     [ "OnStoreLoad", "d8/d81/_edible___base_8c.html#ab311cdf3df0e3547b7d3cd810e61ca61", null ],
@@ -51,7 +51,7 @@ var _edible___base_8c =
     [ "RefreshAudio", "d8/d81/_edible___base_8c.html#ae5f6f869ee2147226146bb12d5fdd084", null ],
     [ "RemoveAudio", "d8/d81/_edible___base_8c.html#abe65222a8163b2165566bb7012d43cd9", null ],
     [ "ReplaceEdibleWithNew", "d8/d81/_edible___base_8c.html#a7ba0012d9201d8e3049419cd2ced9ca3", null ],
-    [ "ReplaceEdibleWithNewLambda", "d8/d81/_edible___base_8c.html#acb4f976fdf3c84a538039029221880d8", null ],
+    [ "ReplaceEdibleWithNewLambda", "d8/d81/_edible___base_8c.html#ac4607efd4e04b1a2069c56a4bc6967bd", null ],
     [ "SetActions", "d8/d81/_edible___base_8c.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "SetCookingTime", "d8/d81/_edible___base_8c.html#a1adf12b0e589110d59348aa0fcdd0144", null ],
     [ "SoundCookingStart", "d8/d81/_edible___base_8c.html#af4208c4c11a8d66b41bb998181d143ff", null ],
@@ -60,6 +60,7 @@ var _edible___base_8c =
     [ "TransferFoodStage", "d8/d81/_edible___base_8c.html#a76f16c2e19fdc80b025a1b764c3be0fc", null ],
     [ "UpdateVisuals", "d8/d81/_edible___base_8c.html#a57ed5d4223f68511e3c487a0487b5573", null ],
     [ "DIRECT_COOKING_SLOT_NAME", "d8/d81/_edible___base_8c.html#a57bef6fa1bd4311d872aa146e0c74337", null ],
+    [ "m_CookedByMethod", "d8/d81/_edible___base_8c.html#a5b9c5cab9236793af33aef5c60859203", null ],
     [ "m_DecayDelta", "d8/d81/_edible___base_8c.html#afc70ed032f1333bd638f1e2f7a61ad27", null ],
     [ "m_DecayTimer", "d8/d81/_edible___base_8c.html#aa84dd86aa071e825e5a0e82917d5d305", null ],
     [ "m_FoodStage", "d8/d81/_edible___base_8c.html#a0359c0a1e1a57e2f6db4091ae93a9911", null ],

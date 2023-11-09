@@ -13,6 +13,7 @@ var class_notification_system =
     [ "SendNotificationToPlayerIdentity", "d8/d5d/class_notification_system.html#af09d1649b3b82efa8e891e263aa2217f", null ],
     [ "SendNotificationToPlayerIdentityExtended", "d8/d5d/class_notification_system.html#a5b599cd41f4c2544cb3e6cd8ba56d795", null ],
     [ "Update", "d8/d5d/class_notification_system.html#a512ded68392305395fb2d0d06c79dedf", null ],
+    [ "DEFAULT_TIME_DISPLAYED", "d8/d5d/class_notification_system.html#ae1218d012c905599d4d71b7ecd4148e2", null ],
     [ "JSON_FILE_PATH", "d8/d5d/class_notification_system.html#a4a13f6631f3f2c7b3ad56636ec196109", null ],
     [ "m_DataArray", "d8/d5d/class_notification_system.html#ab598aba4d43fb2e051bebece7a998222", null ],
     [ "m_DeferredArray", "d8/d5d/class_notification_system.html#a05869f3a5023d81cfc575faba2add818", null ],
@@ -20,5 +21,8 @@ var class_notification_system =
     [ "m_OnNotificationAdded", "d8/d5d/class_notification_system.html#a2b9d3090b685cdc912db2090eec8d442", null ],
     [ "m_OnNotificationRemoved", "d8/d5d/class_notification_system.html#aefb5c501ad3ca9488499e5ee55b60a2e", null ],
     [ "m_TimeArray", "d8/d5d/class_notification_system.html#aac6684b0fe30b8f77f578129223ec105", null ],
-    [ "MAX_NOTIFICATIONS", "d8/d5d/class_notification_system.html#aa51bbe43b62bdf861348ba717f909a23", null ]
+    [ "m_TimeElapsed", "d8/d5d/class_notification_system.html#affd22973bd5da2d5ff6f4ad9e0b2c8f7", null ],
+    [ "MAX_NOTIFICATIONS", "d8/d5d/class_notification_system.html#aa51bbe43b62bdf861348ba717f909a23", null ],
+    [ "NOTIFICATION_FADE_TIME", "d8/d5d/class_notification_system.html#a3676598f5cfb667a8b9dffe03b3c9baf", null ],
+    [ "UPDATE_INTERVAL_THRESHOLD", "d8/d5d/class_notification_system.html#a8e468efebb9a402c2032350fea89fc4c", null ]
 ];

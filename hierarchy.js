@@ -111,8 +111,6 @@ var hierarchy =
             [ "ActionEmptyCookingPot", "d3/d60/class_action_empty_cooking_pot.html", null ]
           ] ],
           [ "ActionEmptyMagazine", "dc/d19/class_action_empty_magazine.html", null ],
-          [ "ActionExtinguishFireplaceByExtinguisher", "d6/de5/class_action_extinguish_fireplace_by_extinguisher.html", null ],
-          [ "ActionExtinguishFireplaceByLiquid", "d0/dd7/class_action_extinguish_fireplace_by_liquid.html", null ],
           [ "ActionFertilizeSlot", "da/db1/class_action_fertilize_slot.html", null ],
           [ "ActionFillBottleBase", "d5/de4/class_action_fill_bottle_base.html", null ],
           [ "ActionFillBrakes", "de/d46/class_action_fill_brakes.html", null ],
@@ -148,6 +146,7 @@ var hierarchy =
           [ "ActionPackGift", "dc/d9b/class_action_pack_gift.html", null ],
           [ "ActionPlaceOnGround", "d4/d04/class_action_place_on_ground.html", null ],
           [ "ActionPourLiquid", "d0/dd9/class_action_pour_liquid.html", null ],
+          [ "ActionPushCar", "dc/d0d/class_action_push_car.html", null ],
           [ "ActionRaiseFlag", "d0/dcd/class_action_raise_flag.html", null ],
           [ "ActionReadPaper", "d7/d3a/class_action_read_paper.html", null ],
           [ "ActionRepackTent", "d9/d91/class_action_repack_tent.html", null ],
@@ -432,6 +431,7 @@ var hierarchy =
     ] ],
     [ "ActionReciveData", null, [
       [ "ActionDebugReciveData", "de/d5a/class_action_debug_recive_data.html", null ],
+      [ "ActionPushCarDataReceiveData", "dd/d6a/class_action_push_car_data_receive_data.html", null ],
       [ "AdvDetachMagActionReciveData", "d5/d5b/class_adv_detach_mag_action_recive_data.html", null ],
       [ "AttachMagazineActionReciveData", "d5/dc0/class_attach_magazine_action_recive_data.html", null ],
       [ "BuildPartActionReciveData", "df/d2e/class_build_part_action_recive_data.html", null ],
@@ -539,6 +539,7 @@ var hierarchy =
     [ "array< ref array< bool > >", "d2/d41/classarray.html", null ],
     [ "array< ref array< float > >", "d2/d41/classarray.html", null ],
     [ "array< ref array< V > >", "d2/d41/classarray.html", null ],
+    [ "array< ref BillboardSet >", "d2/d41/classarray.html", null ],
     [ "array< ref CachedServerInfo >", "d2/d41/classarray.html", null ],
     [ "array< ref CallQueueContext >", "d9/d0c/classarray_3_01ref_01_call_queue_context_01_4.html", null ],
     [ "array< ref CargoContainerRow >", "d2/d41/classarray.html", null ],
@@ -588,6 +589,9 @@ var hierarchy =
     [ "array< ref Param4< int, int, float, bool > >", "d2/d41/classarray.html", null ],
     [ "array< ref Param5< vector, vector, string, ref array< string >, string > >", "d2/d41/classarray.html", null ],
     [ "array< ref Param6< vector, vector, float, float, float, int > >", "d2/d41/classarray.html", null ],
+    [ "array< ref PlayerSpawnPresetComplexChildrenType >", "d2/d41/classarray.html", null ],
+    [ "array< ref PlayerSpawnPresetDiscreteCargoSetData >", "d2/d41/classarray.html", null ],
+    [ "array< ref PlayerSpawnPresetSlotData >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerStatBase >", "d2/d41/classarray.html", null ],
     [ "array< ref PluginDayZInfectedDebugAttackDesc >", "d2/d41/classarray.html", null ],
     [ "array< ref PluginDayzPlayerDebug_AbilityConfig >", "d2/d41/classarray.html", null ],
@@ -654,6 +658,7 @@ var hierarchy =
     [ "BaseListboxWidget", "df/df8/class_base_listbox_widget.html", null ],
     [ "BeanieHat_ColorBase", "de/d40/class_beanie_hat___color_base.html", null ],
     [ "BetaSound", "df/db6/class_beta_sound.html", null ],
+    [ "BillboardSetHandler", "df/db3/class_billboard_set_handler.html", null ],
     [ "BiosCheckUpdateResult", "dd/d50/class_bios_check_update_result.html", null ],
     [ "BiosClientServices", "d5/d06/class_bios_client_services.html", null ],
     [ "BiosFriendInfo", "de/d49/class_bios_friend_info.html", null ],
@@ -764,6 +769,7 @@ var hierarchy =
           ] ],
           [ "SpookyArea", "dc/d7e/class_spooky_area.html", null ]
         ] ],
+        [ "Land_Bilboard_Base", "d1/de0/class_land___bilboard___base.html", null ],
         [ "Land_Underground_EntranceBase", "d4/d9e/class_land___underground___entrance_base.html", [
           [ "Land_Underground_Stairs_Exit", "d5/deb/class_land___underground___stairs___exit.html", null ]
         ] ],
@@ -831,6 +837,7 @@ var hierarchy =
         [ "CAContinuousRepeat", "dc/dec/class_c_a_continuous_repeat.html", [
           [ "CAContinuousLoadMagazine", "db/df3/class_c_a_continuous_load_magazine.html", null ],
           [ "CAContinuousRepeatFishing", "db/d51/class_c_a_continuous_repeat_fishing.html", null ],
+          [ "CAContinuousRepeatPushCar", "d7/d5d/class_c_a_continuous_repeat_push_car.html", null ],
           [ "CAContinuousRepeatStartEngine", "de/d7e/class_c_a_continuous_repeat_start_engine.html", null ]
         ] ],
         [ "CAContinuousTime", "d1/dc2/class_c_a_continuous_time.html", [
@@ -859,6 +866,7 @@ var hierarchy =
       [ "DayZSpectator", "d2/d65/class_day_z_spectator.html", null ]
     ] ],
     [ "CameraShake", "d9/d4b/class_camera_shake.html", null ],
+    [ "Candycane_Colorbase", "dd/d74/class_candycane___colorbase.html", null ],
     [ "Canvas", "d5/df1/class_canvas.html", null ],
     [ "CanvasPants_ColorBase", "d8/dc1/class_canvas_pants___color_base.html", null ],
     [ "CanvasPantsMidi_ColorBase", "d1/da3/class_canvas_pants_midi___color_base.html", null ],
@@ -908,6 +916,7 @@ var hierarchy =
     [ "Chat", "d8/df2/class_chat.html", null ],
     [ "ChatLine", "d7/d99/class_chat_line.html", null ],
     [ "ChildBag_ColorBase", "d2/d93/class_child_bag___color_base.html", null ],
+    [ "ChristmasHeadband_ColorBase", "d8/d81/class_christmas_headband___color_base.html", null ],
     [ "ChristmasTree", "db/d9b/class_christmas_tree.html", null ],
     [ "CivilianSedan", "d3/d2a/class_civilian_sedan.html", null ],
     [ "CivSedanDoors_BackLeft", "d5/db3/class_civ_sedan_doors___back_left.html", null ],
@@ -990,7 +999,13 @@ var hierarchy =
       [ "Glasses_Base", "d0/d3a/class_glasses___base.html", [
         [ "EyeMask_ColorBase", "dc/d8f/class_eye_mask___color_base.html", null ]
       ] ],
-      [ "Gloves_Base", "df/d53/class_gloves___base.html", null ],
+      [ "Gloves_Base", "df/d53/class_gloves___base.html", [
+        [ "PaddedGloves_ColorBase", "d8/de0/class_padded_gloves___color_base.html", [
+          [ "PaddedGloves_Beige", "d6/df5/class_padded_gloves___beige.html", null ],
+          [ "PaddedGloves_Brown", "d5/d92/class_padded_gloves___brown.html", null ],
+          [ "PaddedGloves_Threat", "d3/d54/class_padded_gloves___threat.html", null ]
+        ] ]
+      ] ],
       [ "HeadGear_Base", "dc/d7d/class_head_gear___base.html", [
         [ "CowboyHat_ColorBase", "da/d81/class_cowboy_hat___color_base.html", [
           [ "CowboyHat_Brown", "db/dd0/class_cowboy_hat___brown.html", null ],
@@ -1192,63 +1207,7 @@ var hierarchy =
     [ "Easing", "dc/dc0/class_easing.html", null ],
     [ "EconomyLogCategories", "df/dd4/class_economy_log_categories.html", null ],
     [ "EconomyOutputStrings", "d9/d23/class_economy_output_strings.html", null ],
-    [ "Edible_Base", "df/d7c/class_edible___base.html", [
-      [ "Apple", "dd/dde/class_apple.html", null ],
-      [ "BakedBeansCan", "df/d0e/class_baked_beans_can.html", null ],
-      [ "BakedBeansCan_Opened", "d0/d43/class_baked_beans_can___opened.html", null ],
-      [ "Banana", "d7/d84/class_banana.html", null ],
-      [ "BrisketSpread", "d7/d88/class_brisket_spread.html", null ],
-      [ "Cannabis", "df/da6/class_cannabis.html", null ],
-      [ "DisinfectantAlcohol", "df/db6/class_disinfectant_alcohol.html", null ],
-      [ "DogFoodCan", "d2/d0d/class_dog_food_can.html", [
-        [ "CatFoodCan", "d0/d89/class_cat_food_can.html", null ]
-      ] ],
-      [ "GreenBellPepper", "d7/d3a/class_green_bell_pepper.html", null ],
-      [ "Honey", "df/d87/class_honey.html", null ],
-      [ "IodineTincture", "d1/d63/class_iodine_tincture.html", null ],
-      [ "Kiwi", "d9/dbc/class_kiwi.html", null ],
-      [ "Lunchmeat", "de/dd2/class_lunchmeat.html", null ],
-      [ "Marmalade", "d5/de6/class_marmalade.html", null ],
-      [ "MushroomBase", "d5/dca/class_mushroom_base.html", [
-        [ "AgaricusMushroom", "d6/d5c/class_agaricus_mushroom.html", null ],
-        [ "AmanitaMushroom", "d2/dfb/class_amanita_mushroom.html", null ],
-        [ "AuriculariaMushroom", "db/d4e/class_auricularia_mushroom.html", null ],
-        [ "BoletusMushroom", "d2/d29/class_boletus_mushroom.html", null ],
-        [ "LactariusMushroom", "d9/d2a/class_lactarius_mushroom.html", null ],
-        [ "MacrolepiotaMushroom", "da/d90/class_macrolepiota_mushroom.html", null ],
-        [ "PleurotusMushroom", "de/dcb/class_pleurotus_mushroom.html", null ],
-        [ "PsilocybeMushroom", "d7/d36/class_psilocybe_mushroom.html", null ]
-      ] ],
-      [ "Orange", "d2/d4d/class_orange.html", null ],
-      [ "Pajka", "d9/d99/class_pajka.html", null ],
-      [ "Pate", "d4/d38/class_pate.html", null ],
-      [ "PeachesCan", "d7/da4/class_peaches_can.html", null ],
-      [ "PeachesCan_Opened", "df/dfa/class_peaches_can___opened.html", null ],
-      [ "Pear", "d2/d65/class_pear.html", null ],
-      [ "Plum", "d8/deb/class_plum.html", null ],
-      [ "PorkCan", "d7/d35/class_pork_can.html", null ],
-      [ "Potato", "d8/d39/class_potato.html", null ],
-      [ "PowderedMilk", "df/db2/class_powdered_milk.html", null ],
-      [ "Pumpkin", "d0/df6/class_pumpkin.html", null ],
-      [ "Rice", "da/d4d/class_rice.html", null ],
-      [ "SardinesCan", "d0/d22/class_sardines_can.html", null ],
-      [ "SardinesCan_Opened", "d9/df6/class_sardines_can___opened.html", null ],
-      [ "SlicedPumpkin", "d3/d5c/class_sliced_pumpkin.html", null ],
-      [ "Snack_ColorBase", "d0/d13/class_snack___color_base.html", null ],
-      [ "SodaCan_ColorBase", "d4/d04/class_soda_can___color_base.html", null ],
-      [ "SpaghettiCan", "db/db8/class_spaghetti_can.html", null ],
-      [ "SpaghettiCan_Opened", "dd/d84/class_spaghetti_can___opened.html", null ],
-      [ "TacticalBaconCan", "df/d7a/class_tactical_bacon_can.html", null ],
-      [ "TacticalBaconCan_Opened", "d0/dff/class_tactical_bacon_can___opened.html", null ],
-      [ "TetracyclineAntibiotics", "dc/d61/class_tetracycline_antibiotics.html", null ],
-      [ "Tomato", "d9/dd5/class_tomato.html", null ],
-      [ "TunaCan", "d7/d34/class_tuna_can.html", null ],
-      [ "TunaCan_Opened", "d9/d61/class_tuna_can___opened.html", null ],
-      [ "UnknownFoodCan", "d3/dc1/class_unknown_food_can.html", null ],
-      [ "VitaminBottle", "dd/d45/class_vitamin_bottle.html", null ],
-      [ "Zagorky_ColorBase", "dc/d1c/class_zagorky___color_base.html", null ],
-      [ "Zucchini", "de/d94/class_zucchini.html", null ]
-    ] ],
+    [ "EditBoxWidget", "d0/dbb/class_edit_box_widget.html", null ],
     [ "Effect", null, [
       [ "EffectParticle", "de/d27/class_effect_particle.html", [
         [ "BleedingSourceEffect", "d2/db7/class_bleeding_source_effect.html", null ],
@@ -1351,10 +1310,14 @@ var hierarchy =
     [ "FirefightersPants_ColorBase", "d8/d12/class_firefighters_pants___color_base.html", null ],
     [ "FireplaceBase", "dc/dc1/class_fireplace_base.html", null ],
     [ "FireworksBase", null, [
-      [ "FireworksLauncher", "d9/db5/class_fireworks_launcher.html", null ]
+      [ "FireworksLauncher", "d9/db5/class_fireworks_launcher.html", [
+        [ "Anniversary_FireworksLauncher", "d8/d69/class_anniversary___fireworks_launcher.html", null ]
+      ] ]
     ] ],
     [ "FireworksLauncherClientEventBase", null, [
-      [ "FireworksLauncherClientEvent", "da/de8/class_fireworks_launcher_client_event.html", null ]
+      [ "FireworksLauncherClientEvent", "da/de8/class_fireworks_launcher_client_event.html", [
+        [ "AnniversaryFireworksLauncherClientEvent", "db/dea/class_anniversary_fireworks_launcher_client_event.html", null ]
+      ] ]
     ] ],
     [ "Flag_Base", "dd/dd7/class_flag___base.html", null ],
     [ "FlareLight", "db/db6/class_flare_light.html", null ],
@@ -1800,6 +1763,63 @@ var hierarchy =
         ] ]
       ] ],
       [ "DuctTape", "d8/d44/class_duct_tape.html", null ],
+      [ "Edible_Base", "df/d7c/class_edible___base.html", [
+        [ "Apple", "dd/dde/class_apple.html", null ],
+        [ "BakedBeansCan", "df/d0e/class_baked_beans_can.html", null ],
+        [ "BakedBeansCan_Opened", "d0/d43/class_baked_beans_can___opened.html", null ],
+        [ "Banana", "d7/d84/class_banana.html", null ],
+        [ "BrisketSpread", "d7/d88/class_brisket_spread.html", null ],
+        [ "Cannabis", "df/da6/class_cannabis.html", null ],
+        [ "DisinfectantAlcohol", "df/db6/class_disinfectant_alcohol.html", null ],
+        [ "DogFoodCan", "d2/d0d/class_dog_food_can.html", [
+          [ "CatFoodCan", "d0/d89/class_cat_food_can.html", null ]
+        ] ],
+        [ "GreenBellPepper", "d7/d3a/class_green_bell_pepper.html", null ],
+        [ "Honey", "df/d87/class_honey.html", null ],
+        [ "IodineTincture", "d1/d63/class_iodine_tincture.html", null ],
+        [ "Kiwi", "d9/dbc/class_kiwi.html", null ],
+        [ "Lunchmeat", "de/dd2/class_lunchmeat.html", null ],
+        [ "Marmalade", "d5/de6/class_marmalade.html", null ],
+        [ "MushroomBase", "d5/dca/class_mushroom_base.html", [
+          [ "AgaricusMushroom", "d6/d5c/class_agaricus_mushroom.html", null ],
+          [ "AmanitaMushroom", "d2/dfb/class_amanita_mushroom.html", null ],
+          [ "AuriculariaMushroom", "db/d4e/class_auricularia_mushroom.html", null ],
+          [ "BoletusMushroom", "d2/d29/class_boletus_mushroom.html", null ],
+          [ "LactariusMushroom", "d9/d2a/class_lactarius_mushroom.html", null ],
+          [ "MacrolepiotaMushroom", "da/d90/class_macrolepiota_mushroom.html", null ],
+          [ "PleurotusMushroom", "de/dcb/class_pleurotus_mushroom.html", null ],
+          [ "PsilocybeMushroom", "d7/d36/class_psilocybe_mushroom.html", null ]
+        ] ],
+        [ "Orange", "d2/d4d/class_orange.html", null ],
+        [ "Pajka", "d9/d99/class_pajka.html", null ],
+        [ "Pate", "d4/d38/class_pate.html", null ],
+        [ "PeachesCan", "d7/da4/class_peaches_can.html", null ],
+        [ "PeachesCan_Opened", "df/dfa/class_peaches_can___opened.html", null ],
+        [ "Pear", "d2/d65/class_pear.html", null ],
+        [ "Plum", "d8/deb/class_plum.html", null ],
+        [ "PorkCan", "d7/d35/class_pork_can.html", null ],
+        [ "Potato", "d8/d39/class_potato.html", null ],
+        [ "PowderedMilk", "df/db2/class_powdered_milk.html", null ],
+        [ "Pumpkin", "d0/df6/class_pumpkin.html", null ],
+        [ "Rice", "da/d4d/class_rice.html", null ],
+        [ "SardinesCan", "d0/d22/class_sardines_can.html", null ],
+        [ "SardinesCan_Opened", "d9/df6/class_sardines_can___opened.html", null ],
+        [ "SlicedPumpkin", "d3/d5c/class_sliced_pumpkin.html", null ],
+        [ "Snack_ColorBase", "d0/d13/class_snack___color_base.html", null ],
+        [ "SodaCan_ColorBase", "d4/d04/class_soda_can___color_base.html", null ],
+        [ "SpaghettiCan", "db/db8/class_spaghetti_can.html", null ],
+        [ "SpaghettiCan_Opened", "dd/d84/class_spaghetti_can___opened.html", null ],
+        [ "TacticalBaconCan", "df/d7a/class_tactical_bacon_can.html", null ],
+        [ "TacticalBaconCan_Opened", "d0/dff/class_tactical_bacon_can___opened.html", null ],
+        [ "TetracyclineAntibiotics", "dc/d61/class_tetracycline_antibiotics.html", null ],
+        [ "Tomato", "d9/dd5/class_tomato.html", null ],
+        [ "TunaCan", "d7/d34/class_tuna_can.html", null ],
+        [ "TunaCan_Opened", "d9/d61/class_tuna_can___opened.html", null ],
+        [ "UnknownFoodCan", "d3/dc1/class_unknown_food_can.html", null ],
+        [ "VitaminBottle", "dd/d45/class_vitamin_bottle.html", null ],
+        [ "Zagorky_ColorBase", "dc/d1c/class_zagorky___color_base.html", null ],
+        [ "Zucchini", "de/d94/class_zucchini.html", null ]
+      ] ],
       [ "FarmingHoe", "db/d2b/class_farming_hoe.html", null ],
       [ "FishingRod_Base_New", "d9/d26/class_fishing_rod___base___new.html", [
         [ "FishingRod", "df/d2a/class_fishing_rod.html", null ],
@@ -1878,6 +1898,7 @@ var hierarchy =
     [ "JsonApiHandle", "d9/d8f/class_json_api_handle.html", null ],
     [ "JsonControlMappingInfo", "d9/d09/class_json_control_mapping_info.html", null ],
     [ "JsonFileLoader< Class T >", "dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html", null ],
+    [ "JsonMissionLoaderData", "d6/d52/class_json_mission_loader_data.html", null ],
     [ "JsonObject", "d7/d22/class_json_object.html", null ],
     [ "JsonUndergroundAreaTriggerData", "d1/d13/class_json_underground_area_trigger_data.html", null ],
     [ "JsonUndergroundTriggers", "df/d51/class_json_underground_triggers.html", null ],
@@ -1997,6 +2018,8 @@ var hierarchy =
       [ "Mag_Glock_15Rnd", "d0/d93/class_mag___glock__15_rnd.html", null ],
       [ "Mag_Groza_20Rnd", "d8/d9e/class_mag___groza__20_rnd.html", null ],
       [ "Mag_IJ70_8Rnd", "df/dbe/class_mag___i_j70__8_rnd.html", null ],
+      [ "Mag_M14_10Rnd", "d9/dcb/class_mag___m14__10_rnd.html", null ],
+      [ "Mag_M14_20Rnd", "dc/dde/class_mag___m14__20_rnd.html", null ],
       [ "Mag_M249_Box200Rnd", "d2/d13/class_mag___m249___box200_rnd.html", null ],
       [ "Mag_MKII_10Rnd", "dc/dd9/class_mag___m_k_i_i__10_rnd.html", null ],
       [ "Mag_MP5_15Rnd", "d2/d25/class_mag___m_p5__15_rnd.html", null ],
@@ -2071,6 +2094,12 @@ var hierarchy =
       [ "PlayerIdentityBase", "dd/db4/class_player_identity_base.html", [
         [ "PlayerIdentity", "df/d11/class_player_identity.html", null ]
       ] ],
+      [ "PlayerSpawnJsonDataBase", "df/d50/class_player_spawn_json_data_base.html", [
+        [ "PlayerSpawnPreset", "de/d3b/class_player_spawn_preset.html", null ],
+        [ "PlayerSpawnPresetItemSetBase", "db/d2a/class_player_spawn_preset_item_set_base.html", [
+          [ "PlayerSpawnPresetComplexChildrenType", "d1/d25/class_player_spawn_preset_complex_children_type.html", null ]
+        ] ]
+      ] ],
       [ "ProjectileStoppedInfo", "d7/dd6/class_projectile_stopped_info.html", null ],
       [ "RainProcurementComponentBase", "df/d86/class_rain_procurement_component_base.html", [
         [ "RainProcurementComponentBarrel", "d2/d2c/class_rain_procurement_component_barrel.html", null ]
@@ -2082,12 +2111,14 @@ var hierarchy =
         [ "AutoHeightSpacer", "d7/d1d/class_auto_height_spacer.html", [
           [ "NoticeSpacer", "d0/daa/class_notice_spacer.html", null ]
         ] ],
+        [ "ConsoleToolbarWidgetHandlerBase", "d6/ddc/class_console_toolbar_widget_handler_base.html", null ],
         [ "HorizontalSpacerWithFixedAspect", "de/d63/class_horizontal_spacer_with_fixed_aspect.html", null ],
         [ "HoverEffect", "d0/d5a/class_hover_effect.html", null ],
         [ "ItemsCounter", "d5/d47/class_items_counter.html", null ],
         [ "MainMenuButtonEffect", "d8/dc2/class_main_menu_button_effect.html", null ],
         [ "MapHandler", "d4/dc5/class_map_handler.html", null ],
         [ "RightGap", "d8/d7f/class_right_gap.html", null ],
+        [ "ScriptConsoleToolTipEventHandler", "d9/dba/class_script_console_tool_tip_event_handler.html", null ],
         [ "ScrollBarContainer", "d9/d53/class_scroll_bar_container.html", null ],
         [ "SpacerBase", "d2/d7a/class_spacer_base.html", [
           [ "HorizontalSpacer", "de/de9/class_horizontal_spacer.html", null ],
@@ -2300,6 +2331,7 @@ var hierarchy =
     [ "OffroadHatchback", "d1/d2d/class_offroad_hatchback.html", null ],
     [ "OFSMBase", "d1/d2a/class_o_f_s_m_base.html", null ],
     [ "OFSMBase< Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase >", "dc/d69/class_o_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_01435e9d74cc4290d138c404152b6f8f38.html", null ],
+    [ "OKZKCap_ColorBase", "d6/d6d/class_o_k_z_k_cap___color_base.html", null ],
     [ "OMNOGloves_ColorBase", "df/d77/class_o_m_n_o_gloves___color_base.html", null ],
     [ "OnlineServices", "d0/d36/class_online_services.html", null ],
     [ "OpenableBehaviour", "d9/d4b/class_openable_behaviour.html", null ],
@@ -2351,6 +2383,7 @@ var hierarchy =
       [ "SheepPelt", "d6/d5f/class_sheep_pelt.html", null ],
       [ "WolfPelt", "d5/d8c/class_wolf_pelt.html", null ]
     ] ],
+    [ "PetushokHat_ColorBase", "d7/d78/class_petushok_hat___color_base.html", null ],
     [ "Pistol_Base", "d2/d5e/class_pistol___base.html", [
       [ "CZ75_Base", "d4/d89/class_c_z75___base.html", null ],
       [ "Colt1911_Base", "d1/d57/class_colt1911___base.html", [
@@ -2531,6 +2564,11 @@ var hierarchy =
     [ "PlayerConstants", "d3/def/class_player_constants.html", null ],
     [ "PlayerSoundEventBase", "d5/def/class_player_sound_event_base.html", null ],
     [ "PlayerSoundManagerBase", "df/d88/class_player_sound_manager_base.html", null ],
+    [ "PlayerSpawnDataInterpreted", "d2/dde/class_player_spawn_data_interpreted.html", null ],
+    [ "PlayerSpawnHandler", "dc/d04/class_player_spawn_handler.html", null ],
+    [ "PlayerSpawnPresetDiscreteItemSetBase", null, [
+      [ "PlayerSpawnPresetDiscreteItemSetSlotData", "d8/d5e/class_player_spawn_preset_discrete_item_set_slot_data.html", null ]
+    ] ],
     [ "PlayerStatBase", "d7/d7a/class_player_stat_base.html", null ],
     [ "PlayerStatRecord", "d5/d9a/class_player_stat_record.html", null ],
     [ "PlayerStats", "d0/d80/class_player_stats.html", null ],
@@ -2641,6 +2679,7 @@ var hierarchy =
       [ "Izh18ShotgunRecoil", "de/d69/class_izh18_shotgun_recoil.html", null ],
       [ "Izh43Recoil", "de/db1/class_izh43_recoil.html", null ],
       [ "LongHornRecoil", "de/d75/class_long_horn_recoil.html", null ],
+      [ "M14Recoil", "d4/d79/class_m14_recoil.html", null ],
       [ "M16A2Recoil", "d6/d82/class_m16_a2_recoil.html", null ],
       [ "M4a1Recoil", "d7/d11/class_m4a1_recoil.html", null ],
       [ "M79Recoil", "d3/dcd/class_m79_recoil.html", null ],
@@ -2740,6 +2779,7 @@ var hierarchy =
     [ "RifleBoltLock_Base", null, [
       [ "CZ61_Base", "d1/d93/class_c_z61___base.html", null ],
       [ "FAL_Base", "d0/d58/class_f_a_l___base.html", null ],
+      [ "M14_Base", "dd/df5/class_m14___base.html", null ],
       [ "M16A2_Base", "df/d96/class_m16_a2___base.html", null ],
       [ "M4A1_Base", "d3/dad/class_m4_a1___base.html", null ],
       [ "SVD_Base", "d3/d7d/class_s_v_d___base.html", null ],
@@ -3347,7 +3387,10 @@ var hierarchy =
     [ "UIPopupScript", "d3/da3/class_u_i_popup_script.html", null ],
     [ "UIPropertyAttachment", "d5/d64/class_u_i_property_attachment.html", null ],
     [ "UIScriptedMenu", "d1/d5b/class_u_i_scripted_menu.html", [
-      [ "ConnectErrorScriptModuleUI", "d3/d61/class_connect_error_script_module_u_i.html", null ]
+      [ "ConnectErrorScriptModuleUI", "d3/d61/class_connect_error_script_module_u_i.html", null ],
+      [ "WarningMenuBase", "d8/d68/class_warning_menu_base.html", [
+        [ "PlayerRepositionWarningMenu", "df/d40/class_player_reposition_warning_menu.html", null ]
+      ] ]
     ] ],
     [ "UIScriptedWindow", "d9/d62/class_u_i_scripted_window.html", null ],
     [ "UIWidget", "d1/d68/class_u_i_widget.html", null ],
@@ -3373,7 +3416,6 @@ var hierarchy =
     [ "VicinityObjects", "df/d59/class_vicinity_objects.html", null ],
     [ "vobject", "d3/d5c/classvobject.html", null ],
     [ "VONManager", "d3/d7a/class_v_o_n_manager.html", null ],
-    [ "WarningMenuBase", "d8/d68/class_warning_menu_base.html", null ],
     [ "WaterLevelSettings", "d0/d51/class_water_level_settings.html", null ],
     [ "WaterLevelSnapshot", "df/d7c/class_water_level_snapshot.html", null ],
     [ "WBModuleDef", "dc/d3f/class_w_b_module_def.html", [
@@ -3433,6 +3475,7 @@ var hierarchy =
       [ "WorkspaceWidget", "d8/d74/class_workspace_widget.html", null ]
     ] ],
     [ "WidgetLayoutName", "db/d26/class_widget_layout_name.html", null ],
+    [ "WinterCoif_ColorBase", "d1/d0d/class_winter_coif___color_base.html", null ],
     [ "WomanSuit_ColorBase", "de/d25/class_woman_suit___color_base.html", null ],
     [ "WoolCoat_ColorBase", "d4/d1d/class_wool_coat___color_base.html", null ],
     [ "WoolGloves_ColorBase", "db/df4/class_wool_gloves___color_base.html", null ],
@@ -3456,7 +3499,6 @@ var hierarchy =
     [ "WorkingBoots_ColorBase", "d2/da3/class_working_boots___color_base.html", null ],
     [ "WorkingGloves_ColorBase", "d2/d7a/class_working_gloves___color_base.html", null ],
     [ "WorldContainer_Base", null, [
-      [ "Refrigerator", "de/d72/class_refrigerator.html", null ],
       [ "RefrigeratorMinsk", "dc/d81/class_refrigerator_minsk.html", null ]
     ] ],
     [ "WorldData", "d0/d24/class_world_data.html", null ],

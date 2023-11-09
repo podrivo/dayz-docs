@@ -200,6 +200,8 @@ var dayzplayer_8c =
       [ "CMD_ACTIONFB_FLAME_REPAIR", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aea7fbb0db8cb05ac7e7b780c6f5de572", null ],
       [ "CMD_ACTIONFB_TURN_VALVE", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a106c6280709e1d0260d8d83dacf60ffa", null ],
       [ "CMD_ACTIONFB_SET_ALARM", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569", null ],
+      [ "CMD_ACTIONFB_SHOVEL_DIG", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a19305e1c7a0b8d63efd21a70ff91d35f", null ],
+      [ "CMD_ACTIONFB_VEHICLE_PUSH", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a819f03cb327b656e2db53510c6265585", null ],
       [ "CMD_ACTIONFB_PICKUP_HANDS", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6cf599306aa042fa8a12ac1d051b2251", null ],
       [ "CMD_ACTIONFB_PICKUP_INVENTORY", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae1840de4d39743dd653819542c090c6d", null ],
       [ "CMD_ACTIONFB_LICKBATTERY", "d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121", null ],

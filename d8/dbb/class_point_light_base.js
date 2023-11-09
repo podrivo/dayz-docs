@@ -1,5 +1,6 @@
 var class_point_light_base =
 [
+    [ "AnniversaryBoxLight", "d8/dbb/class_point_light_base.html#a6711040c1943779ce477a15725e6d478", null ],
     [ "BonfireLight", "d8/dbb/class_point_light_base.html#a90bbc050da99a3c246d824c1a3aafd8e", null ],
     [ "BrightnessTestLight", "d8/dbb/class_point_light_base.html#ae779d64b3b9e217c93f8a0eeb988d2e7", null ],
     [ "ChemlightLight", "d8/dbb/class_point_light_base.html#a745a59aa7f43bc998e82391790dde32b", null ],

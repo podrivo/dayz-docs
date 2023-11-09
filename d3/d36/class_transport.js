@@ -52,6 +52,8 @@ var class_transport =
     [ "ShiftDown", "d3/d36/class_transport.html#a8c161f10514c33c712453505427fc5bd", null ],
     [ "ShiftTo", "d3/d36/class_transport.html#abb0d00b84b4d4b8ee19aabc9fde97876", null ],
     [ "ShiftUp", "d3/d36/class_transport.html#a8c1dd8514e9883a271562d376d1a95c7", null ],
+    [ "WheelCount", "d3/d36/class_transport.html#a5bcdc6760f3525b8d1c96932180f4638", null ],
+    [ "WheelCountPresent", "d3/d36/class_transport.html#a380cc75ed4cc9a572280519e531e5ca1", null ],
     [ "WheelIsAnyLocked", "d3/d36/class_transport.html#a9bdf5315bf9ccb94f14214777d59848f", null ],
     [ "WheelIsLocked", "d3/d36/class_transport.html#a0c520c507b72d7ff5ca7af3687fd7935", null ]
 ];

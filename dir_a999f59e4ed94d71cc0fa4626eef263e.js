@@ -13,6 +13,7 @@ var dir_a999f59e4ed94d71cc0fa4626eef263e =
     [ "BoletusMushroom.c", "d9/db5/_boletus_mushroom_8c.html", "d9/db5/_boletus_mushroom_8c" ],
     [ "Bottle_Base.c", "d9/d1a/_bottle___base_8c.html", "d9/d1a/_bottle___base_8c" ],
     [ "BoxCerealCrunchin.c", "d1/d66/_box_cereal_crunchin_8c.html", "d1/d66/_box_cereal_crunchin_8c" ],
+    [ "Candycane_Colorbase.c", "d7/ddc/_candycane___colorbase_8c.html", "d7/ddc/_candycane___colorbase_8c" ],
     [ "CaninaBerry.c", "dc/d75/_canina_berry_8c.html", "dc/d75/_canina_berry_8c" ],
     [ "Cannabis.c", "d5/d16/_cannabis_8c.html", "d5/d16/_cannabis_8c" ],
     [ "Carp.c", "d8/d2f/_carp_8c.html", "d8/d2f/_carp_8c" ],

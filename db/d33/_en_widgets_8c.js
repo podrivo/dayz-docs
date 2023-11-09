@@ -17,6 +17,16 @@ var _en_widgets_8c =
       [ "CID_RADIALMENU", "d9/d0e/group___widget_a_p_i.html#gga12005d3f9e0c34f86acedf9eb0f1bc3aa2fe0a938f5f31114a72ae4f66fb3fc5f", null ],
       [ "CID_COUNT", "d9/d0e/group___widget_a_p_i.html#gga12005d3f9e0c34f86acedf9eb0f1bc3aac6ce8f00ca1a2ab0d6028a29abed8e0e", null ]
     ] ],
+    [ "VideoCallback", "d9/d0e/group___widget_a_p_i.html#ga322f4df297eed804e122e05824f12d42", [
+      [ "ON_PLAY", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42afa654e851a9f30994eac747b9f5f7fca", null ],
+      [ "ON_PAUSE", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42a0cb286415dd775f33a4dff43836a0c0d", null ],
+      [ "ON_STOP", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42a31ad96289abc58c8b98620da7baa5210", null ],
+      [ "ON_END", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42a0d32432a8ce206fee4c57623e467b3c1", null ],
+      [ "ON_LOAD", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42a97c150b6c6f8e0f07034f169d623589f", null ],
+      [ "ON_SEEK", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42a57160a68ae8603dc5a64df48f966f264", null ],
+      [ "ON_BUFFERING_START", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42a22818b188fdbea53f286074f2f4be227", null ],
+      [ "ON_BUFFERING_END", "d9/d0e/group___widget_a_p_i.html#gga322f4df297eed804e122e05824f12d42abbda6ef00389cc31511719201653b8d5", null ]
+    ] ],
     [ "VideoCommand", "d9/d0e/group___widget_a_p_i.html#ga04c094810fbccc908d892a0f9007f4c8", [
       [ "PLAY", "d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a0352906d1ea1dfcd663c918f3a86755b", null ],
       [ "STOP", "d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a679ee5320d66c8322e310daeb2ee99b8", null ],
@@ -25,6 +35,13 @@ var _en_widgets_8c =
       [ "REPEAT", "d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a972f3df9d279a3d3acc88bcbe4452d51", null ],
       [ "ISPLAYING", "d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a8ab8397754b3dad6abf2a7ff16753649", null ],
       [ "KILL", "d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a702a32e3574ea40b8d2f358dec764298", null ]
+    ] ],
+    [ "VideoState", "d9/d0e/group___widget_a_p_i.html#ga164c19706bba538088e506521a338547", [
+      [ "NONE", "d9/d0e/group___widget_a_p_i.html#gga164c19706bba538088e506521a338547ac157bdf0b85a40d2619cbc8bc1ae5fe2", null ],
+      [ "PLAYING", "d9/d0e/group___widget_a_p_i.html#gga164c19706bba538088e506521a338547af095245f5cebc27a97a124345269fed8", null ],
+      [ "PAUSED", "d9/d0e/group___widget_a_p_i.html#gga164c19706bba538088e506521a338547ad4bb05915de3c370d3a33d4f51389655", null ],
+      [ "STOPPED", "d9/d0e/group___widget_a_p_i.html#gga164c19706bba538088e506521a338547a948b2aee15f52b421fa4770c47bcfe8c", null ],
+      [ "FINISHED", "d9/d0e/group___widget_a_p_i.html#gga164c19706bba538088e506521a338547adbd1812bee789fbf3548cf79d3f2b400", null ]
     ] ],
     [ "WidgetAlignment", "d9/d0e/group___widget_a_p_i.html#gace9f7f03af3bb91462ac2490f2b3b71d", null ],
     [ "WidgetFlags", "d9/d0e/group___widget_a_p_i.html#ga22177e6e3358b5dae620056212478a75", [
