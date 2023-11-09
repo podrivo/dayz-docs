@@ -15,27 +15,6 @@ Official links
 - [DayZ Additional Resources](https://github.com/BohemiaInteractive/DayZ-Misc)
 
 
-Changelog
---
-
-Version 1.22
-- [Update 3 v1.22.156718 · Sep 18, 2023](https://forums.dayz.com/topic/256662-stable-update-122/?page=3&tab=comments#comment-2489452)
-- [Update 2 v1.22.156656 · Sep 09, 2023](https://forums.dayz.com/topic/256662-stable-update-122/?page=2&tab=comments#comment-2489075)
-- [Update 1 v1.22.156593 · Ago 29, 2023](https://forums.dayz.com/topic/256662-stable-update-122/)
-
-Version 1.21
-- [Update 3 v1.21.156300 · Jun 20, 2023](https://forums.dayz.com/topic/254893-stable-update-121/?page=3&tab=comments#comment-2486208)
-- [Update 2 v1.21.156243 · Jun 06, 2023](https://forums.dayz.com/topic/254893-stable-update-121/?page=2&tab=comments#comment-2485977)
-- [Update 1 v1.21.156201 · May 23, 2023](https://forums.dayz.com/topic/254893-stable-update-121/)
-
-Version 1.20
-- [Update 5 v1.20.155981 · Mar 28, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=6&tab=comments#comment-2484819)
-- [Update 4 v1.20.155881 · Mar 08, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=5&tab=comments#comment-2484453)
-- [Update 3 v1.20.155844 · Mar 01, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=4&tab=comments#comment-2484270)
-- [Update 2 v1.20.155817 · Feb 22, 2023](https://forums.dayz.com/topic/254301-stable-update-120/?page=3&tab=comments#comment-2484121)
-- [Update 1 v1.20.155766 · Feb 14, 2023](https://forums.dayz.com/topic/254301-stable-update-120/)
-
-
 License
 --
 
