@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.23.156951 · Nov 07, 2023</div>
+   <div id="projectbrief">v1.23.157045 · Nov 30, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -464,6 +464,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aa0b6c4cbd5bc7d63671de2b64fac5e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20746af9bf585a9b33a260a207026e65"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a20746af9bf585a9b33a260a207026e65">Update</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> timeslice)</td></tr>
 <tr class="separator:a20746af9bf585a9b33a260a207026e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f88cf520a7849a1d58a722d510fb4a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a5f88cf520a7849a1d58a722d510fb4a3">ShouldRestartBeVisible</a> (Man player)</td></tr>
+<tr class="separator:a5f88cf520a7849a1d58a722d510fb4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31d2008f85e9bdf4f8554c97fdc089cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a31d2008f85e9bdf4f8554c97fdc089cf">UpdateGUI</a> ()</td></tr>
 <tr class="separator:a31d2008f85e9bdf4f8554c97fdc089cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29ecdf61773ba3009ed5b226f359b61c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a29ecdf61773ba3009ed5b226f359b61c">IsOnlineOpen</a> ()</td></tr>
@@ -22561,6 +22563,36 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5f88cf520a7849a1d58a722d510fb4a3" name="a5f88cf520a7849a1d58a722d510fb4a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f88cf520a7849a1d58a722d510fb4a3">&#9670;&#160;</a></span>ShouldRestartBeVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> ShouldRestartBeVisible </td>
+          <td>(</td>
+          <td class="paramtype">Man&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d7/dbe/class_cfg_gameplay_handler.html#adaf470b564a5c44a5bf97a410ed5181a">CfgGameplayHandler::GetDisableRespawnInUnconsciousness()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a31d2008f85e9bdf4f8554c97fdc089cf">UpdateGUI()</a>, and <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a8d0d722db2d454a5d9f6c00ec6a35bb8">UpdateMenuFocus()</a>.</p>
+
+</div>
+</div>
 <a id="ace79e5f49885e486e8e1d48ff0666476" name="ace79e5f49885e486e8e1d48ff0666476"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace79e5f49885e486e8e1d48ff0666476">&#9670;&#160;</a></span>Show()</h2>
 
@@ -24425,7 +24457,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d7/dbe/class_cfg_gameplay_handler.html#adaf470b564a5c44a5bf97a410ed5181a">CfgGameplayHandler::GetDisableRespawnInUnconsciousness()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, and <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a5f88cf520a7849a1d58a722d510fb4a3">ShouldRestartBeVisible()</a>.</p>
 
 </div>
 </div>
@@ -24911,7 +24943,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, and <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga3198d6d3c89168d93eaf734f13e2f7ef">SetFocus()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga3198d6d3c89168d93eaf734f13e2f7ef">SetFocus()</a>, and <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a5f88cf520a7849a1d58a722d510fb4a3">ShouldRestartBeVisible()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#ab212fc3a61460b771a18d71f052d31e8">Init()</a>, <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#aba342bdd2e2fb9f4c49394601a42cee3">OnModalResult()</a>, and <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#a44c86b20c27f7a8ddb7c1337e9538f80">OnShow()</a>.</p>
 
@@ -35745,43 +35777,43 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>P:/scripts/3_Game/<a class="el" href="../../d8/dc8/_day_z_game_8c.html">DayZGame.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d5/da5/_book_menu_8c.html">BookMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/CameraTools/<a class="el" href="../../df/d39/_camera_tools_menu_8c.html">CameraToolsMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/Chat/<a class="el" href="../../d7/dd9/_chat_input_menu_8c.html">ChatInputMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d6/d7f/_controls_xbox_new_8c.html">ControlsXboxNew.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d7/d6b/_gestures_menu_8c.html">GesturesMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../df/dc0/_help_screen_8c.html">HelpScreen.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d4/d24/_in_game_menu_8c.html">InGameMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d1/dd5/_in_game_menu_xbox_8c.html">InGameMenuXbox.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../dc/d6d/_input_device_disconnect_warning_menu_8c.html">InputDeviceDisconnectWarningMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d0/d9f/_inspect_menu_new_8c.html">InspectMenuNew.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d0/de2/_invite_menu_8c.html">InviteMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d4/d0a/_loading_menu_8c.html">LoadingMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../da/d1c/_logout_menu_8c.html">LogoutMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../dd/de8/_map_menu_8c.html">MapMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/CharacterCreation/<a class="el" href="../../d1/da7/_character_creation_menu_8c.html">CharacterCreationMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/Credits/<a class="el" href="../../da/df9/_credits_menu_8c.html">CreditsMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/Keybindings/<a class="el" href="../../d1/d9f/_keybindings_menu_8c.html">KeybindingsMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../de/db4/_main_menu_8c.html">MainMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../d3/d12/_main_menu_consoles_8c.html">MainMenuConsoles.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../d6/ddb/_main_menu_video_8c.html">MainMenuVideo.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../dc/dd1/_tutorials_menu_8c.html">TutorialsMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/Options/<a class="el" href="../../d0/d83/_options_menu_8c.html">OptionsMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/NewUI/ServerBrowserMenu/<a class="el" href="../../d6/d21/_server_browser_menu_new_8c.html">ServerBrowserMenuNew.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d6/dd7/_note_menu_8c.html">NoteMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../dc/d58/_presets_menu_8c.html">PresetsMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../de/d5e/_radial_quickbar_menu_8c.html">RadialQuickbarMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d2/d5b/_respawn_dialogue_8c.html">RespawnDialogue.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../df/daa/_scene_editor_menu_8c.html">SceneEditorMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../dc/db7/_script_console_8c.html">ScriptConsole.c</a></li>
-<li>P:/scripts/5_Mission/GUI/ScriptConsole/<a class="el" href="../../dd/dd0/_script_console_add_position_8c.html">ScriptConsoleAddPosition.c</a></li>
-<li>P:/scripts/5_Mission/GUI/ScriptConsole/<a class="el" href="../../d7/dc2/_script_console_new_preset_dialog_8c.html">ScriptConsoleNewPresetDialog.c</a></li>
-<li>P:/scripts/5_Mission/GUI/ScriptConsole/<a class="el" href="../../dd/d3d/_script_console_rename_preset_dialog_8c.html">ScriptConsoleRenamePresetDialog.c</a></li>
-<li>P:/scripts/5_Mission/GUI/ScriptConsole/<a class="el" href="../../db/d86/_script_console_universal_info_dialog_8c.html">ScriptConsoleUniversalInfoDialog.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../de/d08/_startup_menu_8c.html">StartupMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../d1/d36/_title_screen_menu_8c.html">TitleScreenMenu.c</a></li>
-<li>P:/scripts/5_Mission/GUI/<a class="el" href="../../dc/d58/_early_access_menu_8c.html">EarlyAccessMenu.c</a></li>
+<li>3_Game/<a class="el" href="../../d8/dc8/_day_z_game_8c.html">DayZGame.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d5/da5/_book_menu_8c.html">BookMenu.c</a></li>
+<li>5_Mission/GUI/CameraTools/<a class="el" href="../../df/d39/_camera_tools_menu_8c.html">CameraToolsMenu.c</a></li>
+<li>5_Mission/GUI/Chat/<a class="el" href="../../d7/dd9/_chat_input_menu_8c.html">ChatInputMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d6/d7f/_controls_xbox_new_8c.html">ControlsXboxNew.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d7/d6b/_gestures_menu_8c.html">GesturesMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../df/dc0/_help_screen_8c.html">HelpScreen.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d4/d24/_in_game_menu_8c.html">InGameMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d1/dd5/_in_game_menu_xbox_8c.html">InGameMenuXbox.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../dc/d6d/_input_device_disconnect_warning_menu_8c.html">InputDeviceDisconnectWarningMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d0/d9f/_inspect_menu_new_8c.html">InspectMenuNew.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d0/de2/_invite_menu_8c.html">InviteMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d4/d0a/_loading_menu_8c.html">LoadingMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../da/d1c/_logout_menu_8c.html">LogoutMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../dd/de8/_map_menu_8c.html">MapMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/CharacterCreation/<a class="el" href="../../d1/da7/_character_creation_menu_8c.html">CharacterCreationMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/Credits/<a class="el" href="../../da/df9/_credits_menu_8c.html">CreditsMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/Keybindings/<a class="el" href="../../d1/d9f/_keybindings_menu_8c.html">KeybindingsMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../de/db4/_main_menu_8c.html">MainMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../d3/d12/_main_menu_consoles_8c.html">MainMenuConsoles.c</a></li>
+<li>5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../d6/ddb/_main_menu_video_8c.html">MainMenuVideo.c</a></li>
+<li>5_Mission/GUI/NewUI/MainMenu/<a class="el" href="../../dc/dd1/_tutorials_menu_8c.html">TutorialsMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/Options/<a class="el" href="../../d0/d83/_options_menu_8c.html">OptionsMenu.c</a></li>
+<li>5_Mission/GUI/NewUI/ServerBrowserMenu/<a class="el" href="../../d6/d21/_server_browser_menu_new_8c.html">ServerBrowserMenuNew.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d6/dd7/_note_menu_8c.html">NoteMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../dc/d58/_presets_menu_8c.html">PresetsMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../de/d5e/_radial_quickbar_menu_8c.html">RadialQuickbarMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d2/d5b/_respawn_dialogue_8c.html">RespawnDialogue.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../df/daa/_scene_editor_menu_8c.html">SceneEditorMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../dc/db7/_script_console_8c.html">ScriptConsole.c</a></li>
+<li>5_Mission/GUI/ScriptConsole/<a class="el" href="../../dd/dd0/_script_console_add_position_8c.html">ScriptConsoleAddPosition.c</a></li>
+<li>5_Mission/GUI/ScriptConsole/<a class="el" href="../../d7/dc2/_script_console_new_preset_dialog_8c.html">ScriptConsoleNewPresetDialog.c</a></li>
+<li>5_Mission/GUI/ScriptConsole/<a class="el" href="../../dd/d3d/_script_console_rename_preset_dialog_8c.html">ScriptConsoleRenamePresetDialog.c</a></li>
+<li>5_Mission/GUI/ScriptConsole/<a class="el" href="../../db/d86/_script_console_universal_info_dialog_8c.html">ScriptConsoleUniversalInfoDialog.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../de/d08/_startup_menu_8c.html">StartupMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../d1/d36/_title_screen_menu_8c.html">TitleScreenMenu.c</a></li>
+<li>5_Mission/GUI/<a class="el" href="../../dc/d58/_early_access_menu_8c.html">EarlyAccessMenu.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

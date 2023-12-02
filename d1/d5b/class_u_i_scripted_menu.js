@@ -620,6 +620,7 @@ var class_u_i_scripted_menu =
     [ "SetTooltipTexts", "d1/d5b/class_u_i_scripted_menu.html#a3bbc435bd198e48c2782385536e79a85", null ],
     [ "SetUpperLegendVisibility", "d1/d5b/class_u_i_scripted_menu.html#a9bdc0a7c67cd399a25993d787943e5ec", null ],
     [ "ShoesChanged", "d1/d5b/class_u_i_scripted_menu.html#a4ebe99f8c31360265b37d1bb12e5206a", null ],
+    [ "ShouldRestartBeVisible", "d1/d5b/class_u_i_scripted_menu.html#a5f88cf520a7849a1d58a722d510fb4a3", null ],
     [ "Show", "d1/d5b/class_u_i_scripted_menu.html#ace79e5f49885e486e8e1d48ff0666476", null ],
     [ "ShowAButton", "d1/d5b/class_u_i_scripted_menu.html#a7fccfb52e1398f77919447132f2ad65d", null ],
     [ "ShowDlcFrame", "d1/d5b/class_u_i_scripted_menu.html#a799db50f43e5fca7305c871a5cd23b30", null ],

@@ -19,7 +19,9 @@ var searchData=
   ['queuevaluessend_16',['QueueValuesSend',['../d0/d96/class_p_p_e_requester_base.html#ace0c262487b8acd145340c896cc703a9',1,'PPERequesterBase::QueueValuesSend()'],['../d5/dbe/_p_p_e_request_platforms_base_8c.html#ace0c262487b8acd145340c896cc703a9',1,'QueueValuesSend():&#160;PPERequestPlatformsBase.c']]],
   ['quickbarbase_17',['QuickBarBase',['../da/d4d/_quick_bar_base_8c.html#a1b579ecc02bd0b420a08cfd3c129da76',1,'QuickBarBase.c']]],
   ['quickbaritem_18',['QuickBarItem',['../dd/d5b/class_quick_bar_item.html#abbadf4dc8df81105a2680dc6f4823183',1,'QuickBarItem']]],
-  ['quickreloadweapon_19',['QuickReloadWeapon',['../d4/d87/class_man_base.html#ad948cf717403f9d02f2a9c08ca070ef1',1,'ManBase']]],
-  ['quicksort_20',['QuickSort',['../dd/da1/class_plugin_base.html#a7b66c2f751bb29d7e7fcc1e1226dea76',1,'PluginBase']]],
-  ['quicksortpartition_21',['QuickSortPartition',['../dd/da1/class_plugin_base.html#a04fcd439e52df902c1c3cd1c098b7f81',1,'PluginBase']]]
+  ['quickbarlog_19',['QuickbarLog',['../da/d7d/class_debug.html#ac48a59047e9ae389da10779ae40df613',1,'Debug']]],
+  ['quickbarlogenable_20',['QuickbarLogEnable',['../d9/df7/class_log_manager.html#a01cc584aac0fac1a025e5f8a0433ae03',1,'LogManager']]],
+  ['quickreloadweapon_21',['QuickReloadWeapon',['../d4/d87/class_man_base.html#ad948cf717403f9d02f2a9c08ca070ef1',1,'ManBase']]],
+  ['quicksort_22',['QuickSort',['../dd/da1/class_plugin_base.html#a7b66c2f751bb29d7e7fcc1e1226dea76',1,'PluginBase']]],
+  ['quicksortpartition_23',['QuickSortPartition',['../dd/da1/class_plugin_base.html#a04fcd439e52df902c1c3cd1c098b7f81',1,'PluginBase']]]
 ];

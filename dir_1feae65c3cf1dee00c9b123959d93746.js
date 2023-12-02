@@ -12,6 +12,7 @@ var dir_1feae65c3cf1dee00c9b123959d93746 =
     [ "FarmingHoe.c", "d5/df8/_farming_hoe_8c.html", "d5/df8/_farming_hoe_8c" ],
     [ "FireExtinguisher.c", "d5/dcb/_fire_extinguisher_8c.html", "d5/dcb/_fire_extinguisher_8c" ],
     [ "FireworksLauncher.c", "db/d8d/_fireworks_launcher_8c.html", "db/d8d/_fireworks_launcher_8c" ],
+    [ "FireworksLauncherAnniversary.c", "d0/d1e/_fireworks_launcher_anniversary_8c.html", "d0/d1e/_fireworks_launcher_anniversary_8c" ],
     [ "FishingRod.c", "d0/d1e/_fishing_rod_8c.html", "d0/d1e/_fishing_rod_8c" ],
     [ "HandcuffKeys.c", "d3/d4d/_handcuff_keys_8c.html", "d3/d4d/_handcuff_keys_8c" ],
     [ "Handcuffs.c", "d3/d63/_handcuffs_8c.html", "d3/d63/_handcuffs_8c" ],

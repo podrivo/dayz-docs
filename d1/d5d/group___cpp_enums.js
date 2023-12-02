@@ -25,9 +25,11 @@ var group___cpp_enums =
       [ "STATIC", "d1/d5d/group___cpp_enums.html#gga4f47f6f4f22f4284ac18ed521d1dc569ae55a36a850c67d46b3b3325de7fce0b8", null ],
       [ "DYNAMIC", "d1/d5d/group___cpp_enums.html#gga4f47f6f4f22f4284ac18ed521d1dc569aaac65e0072e6ff1f4c3209d2fdd8730a", null ]
     ] ],
+    [ "ABOVE", "d1/d5d/group___cpp_enums.html#gab0ce17ed5097da11a93e632ced269929", null ],
     [ "BLEEDING_LAYER", "d1/d5d/group___cpp_enums.html#gab65243a13edc94df457c8f7a513a3bf8", null ],
     [ "BREAKPOINT_BASE", "d1/d5d/group___cpp_enums.html#ga3a3958a96a42d2dc92bf1a012eb6f887", null ],
     [ "BURLAPSACK", "d1/d5d/group___cpp_enums.html#gaf02c7223664bb29e1b946544a545d0fd", null ],
+    [ "CLOSEST", "d1/d5d/group___cpp_enums.html#gacc1e4bb728b9c759ad0a31613fcc5c98", null ],
     [ "COLOR_DEFAULT", "d1/d5d/group___cpp_enums.html#ga95bb3cee1192f22acdc36c9a51ad7e59", null ],
     [ "COVER_FLASHBANG", "d1/d5d/group___cpp_enums.html#gaf6f6ea48f5c1481e854ec7bb6e071b38", null ],
     [ "DISTANCE_ADJUST", "d1/d5d/group___cpp_enums.html#gaf51cbe29b81dcf1687ad942fafe86b23", null ],
@@ -42,6 +44,7 @@ var group___cpp_enums =
     [ "HELMET_OCCLUDER", "d1/d5d/group___cpp_enums.html#ga6182351aa6bd5e1b56888068a77433ef", null ],
     [ "IFire", "d1/d5d/group___cpp_enums.html#ga88f1f99c9f5d9d8a082e4399c5dc5bc0", null ],
     [ "INVENTORY", "d1/d5d/group___cpp_enums.html#gae2f818bbfedf86c15db4aad52b02852a", null ],
+    [ "LEGACY", "d1/d5d/group___cpp_enums.html#gaaff30653c48123c356b5ec824bb238a1", null ],
     [ "MASK_BREATH", "d1/d5d/group___cpp_enums.html#ga2c94d8437f2470540caedf41f31359b1", null ],
     [ "MASK_OCCLUDER", "d1/d5d/group___cpp_enums.html#ga78239dfcff52de88d9757ca6e0693d27", null ],
     [ "MOTO_BREATH", "d1/d5d/group___cpp_enums.html#gad8c3b8dad668b221213c87a6ae9f8846", null ],
@@ -57,6 +60,7 @@ var group___cpp_enums =
     [ "SPLASH", "d1/d5d/group___cpp_enums.html#gadb268db204d9a383da516d8426d92c74", null ],
     [ "Talk", "d1/d5d/group___cpp_enums.html#ga5855eb7bc45da334d366db68721a7953", null ],
     [ "UNCON", "d1/d5d/group___cpp_enums.html#gaf6b0da47e9db8f5fac978fbc58ca124f", null ],
+    [ "UNDER", "d1/d5d/group___cpp_enums.html#ga49d0073540ee08f26d830fb1b45945e0", null ],
     [ "View", "d1/d5d/group___cpp_enums.html#gaded148d661a1bd92e5d894858c4f82f8", null ],
     [ "Whisper", "d1/d5d/group___cpp_enums.html#ga25fe8e63f58d4813123faa18204f166a", null ]
 ];

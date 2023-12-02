@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DayZ Scripts: P:/scripts/3_Game/Systems/Inventory/Hand_Events.c File Reference</title>
+<title>DayZ Scripts: 3_Game/Systems/Inventory/Hand_Events.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.23.156951 · Nov 07, 2023</div>
+   <div id="projectbrief">v1.23.157045 · Nov 30, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -356,8 +356,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Do not check for action validity on remotes or when performing through juncture. Juncture locks guarentee the item is safe to interact with and the server has validated the command at this point. Checking at this point is both wasteful and can result in a failure which leads to desync</p>
 
-<p class="reference">References <a class="el" href="../../d8/d9e/class_hand_event_base.html#a6141b536ee3fd98e33ff7ce4e2970137">HandEventBase::CheckRequest()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d9e/class_hand_event_base.html#a6141b536ee3fd98e33ff7ce4e2970137">HandEventBase::CheckRequest()</a>, <a class="el" href="../../da/d63/class_inventory_validation.html#a599b5d9d7a36d94792f853d248ffdd48">InventoryValidation::m_IsJuncture</a>, and <a class="el" href="../../da/d63/class_inventory_validation.html#a0e6be58035858799a108f80b94afd542">InventoryValidation::m_IsRemote</a>.</p>
 
 </div>
 </div>

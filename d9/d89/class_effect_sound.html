@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.23.156951 · Nov 07, 2023</div>
+   <div id="projectbrief">v1.23.157045 · Nov 30, 2023</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -203,6 +203,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a8c0288bafcb08ce697d4753e2126cbaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d89/class_effect_sound.html#a8c0288bafcb08ce697d4753e2126cbaa">IsSoundAutodestroy</a> ()</td></tr>
 <tr class="memdesc:a8c0288bafcb08ce697d4753e2126cbaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether <a class="el" href="../../d9/d89/class_effect_sound.html" title="Wrapper class for managing sound through SEffectManager.">EffectSound</a> automatically cleans up when sound stops.  <br /></td></tr>
 <tr class="separator:a8c0288bafcb08ce697d4753e2126cbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573af4a11900c9076093952affe03c20"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d89/class_effect_sound.html#a573af4a11900c9076093952affe03c20">CanDestroy</a> ()</td></tr>
+<tr class="separator:a573af4a11900c9076093952affe03c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Generic API</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Setters and getters for generic data and properties </p>
 </div></td></tr>
@@ -330,6 +332,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aadcd48b57e872b525c778d8bc828b523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68c2bf24685b4196d108737ff727e387"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a></td></tr>
 <tr class="separator:a68c2bf24685b4196d108737ff727e387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a747ba96a985c8d876c711afcc9f625fe"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe">m_SoundFadedOut</a></td></tr>
+<tr class="separator:a747ba96a985c8d876c711afcc9f625fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a863ac9836a3d35527a1f8bde5efd7d56"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d89/class_effect_sound.html#a863ac9836a3d35527a1f8bde5efd7d56">m_SoundFadeInDuration</a></td></tr>
 <tr class="separator:a863ac9836a3d35527a1f8bde5efd7d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae78485e5a268876d9e31e7f0ee825e36"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d89/class_effect_sound.html#ae78485e5a268876d9e31e7f0ee825e36">m_SoundFadeOutStartTime</a></td></tr>
@@ -379,7 +383,7 @@ Private Attributes</h2></td></tr>
 
 <p>ctor </p>
 
-<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#af78ca73ff62ae80594b42eba5f13ce51">m_SoundAutodestroy</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad37c91fbe07d50b78145baa56fa87788">m_SoundDoppler</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#afe09e34be14b3088d3aea55545352839">m_SoundWaveKind</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a5bf4c6709b5b32ce883a4e08d907bd4d">m_SoundWaveVolume</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#acb0cbfd0fc538f47b3f72ab42fca8b70">m_SoundWaveVolumeMax</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#af78ca73ff62ae80594b42eba5f13ce51">m_SoundAutodestroy</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad37c91fbe07d50b78145baa56fa87788">m_SoundDoppler</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe">m_SoundFadedOut</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#afe09e34be14b3088d3aea55545352839">m_SoundWaveKind</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a5bf4c6709b5b32ce883a4e08d907bd4d">m_SoundWaveVolume</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#acb0cbfd0fc538f47b3f72ab42fca8b70">m_SoundWaveVolumeMax</a>.</p>
 
 </div>
 </div>
@@ -411,6 +415,33 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a573af4a11900c9076093952affe03c20" name="a573af4a11900c9076093952affe03c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573af4a11900c9076093952affe03c20">&#9670;&#160;</a></span>CanDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> CanDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe">m_SoundFadedOut</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#a6821e7c1a8ee7a20318dec6740770141">m_SoundFadeOutDuration</a>.</p>
+
+</div>
+</div>
 <a id="ad1358dd4a71070ee2b739b156da9fff0" name="ad1358dd4a71070ee2b739b156da9fff0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1358dd4a71070ee2b739b156da9fff0">&#9670;&#160;</a></span>Event_OnFrameUpdate()</h2>
 
@@ -446,7 +477,7 @@ Called from <a class="el" href="../../d2/d03/class_s_effect_manager.html#a37bece
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#abeb4c4f65671d5690ce1002bcb59ceb4">Event_OnSoundFadeInStopped</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a22a4794016f62bca9252800c94dee516">Event_OnSoundFadeOutStarted</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#af3cb2165794803452a33e9b00b55f12d">GetSoundVolume()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a74e3c93f38bb0e12d862d88d10a32ecc">IsSoundPlaying()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad37c91fbe07d50b78145baa56fa87788">m_SoundDoppler</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a863ac9836a3d35527a1f8bde5efd7d56">m_SoundFadeInDuration</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a6821e7c1a8ee7a20318dec6740770141">m_SoundFadeOutDuration</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a8828167da34c13dc9910014a6d903165">m_SoundFadeOutInitVolume</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a4c6c4e2c336f9055c2b02b5de551efa7">m_SoundWaveObject</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#aadcd48b57e872b525c778d8bc828b523">m_SoundWaveStarting</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a3b9b96dea4139f845a68320efa110fbe">m_SoundWaveTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#acb0cbfd0fc538f47b3f72ab42fca8b70">m_SoundWaveVolumeMax</a>, <a class="el" href="../../d9/d52/class_abstract_wave.html#a3f286c16599126a257df66bf70a5fbc3">AbstractWave::SetDoppler()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a7722262041ce1b5342a0e5e38c60db35">SetSoundVolume()</a>, and <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#abeb4c4f65671d5690ce1002bcb59ceb4">Event_OnSoundFadeInStopped</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a22a4794016f62bca9252800c94dee516">Event_OnSoundFadeOutStarted</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#af3cb2165794803452a33e9b00b55f12d">GetSoundVolume()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a74e3c93f38bb0e12d862d88d10a32ecc">IsSoundPlaying()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad37c91fbe07d50b78145baa56fa87788">m_SoundDoppler</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe">m_SoundFadedOut</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a863ac9836a3d35527a1f8bde5efd7d56">m_SoundFadeInDuration</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a6821e7c1a8ee7a20318dec6740770141">m_SoundFadeOutDuration</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a8828167da34c13dc9910014a6d903165">m_SoundFadeOutInitVolume</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a4c6c4e2c336f9055c2b02b5de551efa7">m_SoundWaveObject</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#aadcd48b57e872b525c778d8bc828b523">m_SoundWaveStarting</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a3b9b96dea4139f845a68320efa110fbe">m_SoundWaveTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#acb0cbfd0fc538f47b3f72ab42fca8b70">m_SoundWaveVolumeMax</a>, <a class="el" href="../../d9/d52/class_abstract_wave.html#a3f286c16599126a257df66bf70a5fbc3">AbstractWave::SetDoppler()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a7722262041ce1b5342a0e5e38c60db35">SetSoundVolume()</a>, and <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
 
 </div>
 </div>
@@ -1869,7 +1900,7 @@ Adjusts the current volume to this value as well </dd></dl>
 
 <p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#af0ee18e99ee593abd7ae56f5b9a08274">SoundPlayEx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#aea6409646efb8e3404b4bb6390301028">HandleEngineSound()</a>, <a class="el" href="../../de/da3/class_flashbang_effect.html#adc3b48fa64c00b9c5ac5f2870f5ea39a">FlashbangEffect::PlaySound()</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#af0e79eb49231c4fb5ae3467be05f43a0">SEffectManager::PlaySound()</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#a5356800f5982488d32dc9ffb9e55bc48">SEffectManager::PlaySoundEnviroment()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a819d60ee5975e8249eb3f2d3dd88cdc3">PlaySoundEx()</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#a656bc2b0e38dadd2a8969cd1ac46256e">SEffectManager::PlaySoundOnObject()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#a80cd06517a8ead35b2f5cd8a9145c7ca">Start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#aea6409646efb8e3404b4bb6390301028">HandleEngineSound()</a>, <a class="el" href="../../d2/dcf/_anniversary_music_source_8c.html#a1f5c76d56ce63ebd8fdb390ddfe7eb32">PlayIntense()</a>, <a class="el" href="../../d2/dcf/_anniversary_music_source_8c.html#aba83329ff7839ec93c3e9898a49d8cd4">PlayLight()</a>, <a class="el" href="../../de/da3/class_flashbang_effect.html#adc3b48fa64c00b9c5ac5f2870f5ea39a">FlashbangEffect::PlaySound()</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#af0e79eb49231c4fb5ae3467be05f43a0">SEffectManager::PlaySound()</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#a5356800f5982488d32dc9ffb9e55bc48">SEffectManager::PlaySoundEnviroment()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a819d60ee5975e8249eb3f2d3dd88cdc3">PlaySoundEx()</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#a656bc2b0e38dadd2a8969cd1ac46256e">SEffectManager::PlaySoundOnObject()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#a80cd06517a8ead35b2f5cd8a9145c7ca">Start()</a>.</p>
 
 </div>
 </div>
@@ -1937,7 +1968,7 @@ Adjusts the current volume to this value as well </dd></dl>
 
 <p>Resets <a class="el" href="../../d9/d89/class_effect_sound.html" title="Wrapper class for managing sound through SEffectManager.">EffectSound</a>. </p>
 
-<p class="reference">References <a class="el" href="../../d5/d2d/_effect_8c.html#a68c0359ebd2d432087c617cac5d86939">m_IsPlaying</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a8828167da34c13dc9910014a6d903165">m_SoundFadeOutInitVolume</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ae78485e5a268876d9e31e7f0ee825e36">m_SoundFadeOutStartTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a45b30d179e2605aa87fa04c0937ec669">m_SoundWaveIsPlaying</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a4c6c4e2c336f9055c2b02b5de551efa7">m_SoundWaveObject</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a3b9b96dea4139f845a68320efa110fbe">m_SoundWaveTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a5bf4c6709b5b32ce883a4e08d907bd4d">m_SoundWaveVolume</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#acb0cbfd0fc538f47b3f72ab42fca8b70">m_SoundWaveVolumeMax</a>, <a class="el" href="../../d9/d52/class_abstract_wave.html#a8d0c9d37025db635bd981f6a975371f7">AbstractWave::SetVolumeRelative()</a>, and <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d2d/_effect_8c.html#a68c0359ebd2d432087c617cac5d86939">m_IsPlaying</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe">m_SoundFadedOut</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a8828167da34c13dc9910014a6d903165">m_SoundFadeOutInitVolume</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ae78485e5a268876d9e31e7f0ee825e36">m_SoundFadeOutStartTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a45b30d179e2605aa87fa04c0937ec669">m_SoundWaveIsPlaying</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a4c6c4e2c336f9055c2b02b5de551efa7">m_SoundWaveObject</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a3b9b96dea4139f845a68320efa110fbe">m_SoundWaveTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a5bf4c6709b5b32ce883a4e08d907bd4d">m_SoundWaveVolume</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#acb0cbfd0fc538f47b3f72ab42fca8b70">m_SoundWaveVolumeMax</a>, <a class="el" href="../../d9/d52/class_abstract_wave.html#a8d0c9d37025db635bd981f6a975371f7">AbstractWave::SetVolumeRelative()</a>, and <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">SoundStop()</a>.</p>
 
@@ -1969,9 +2000,9 @@ Adjusts the current volume to this value as well </dd></dl>
 <p>Stops sound. </p>
 <dl class="section note"><dt>Note</dt><dd>Will not be immediately if a SoundFadeOutDuration was set </dd></dl>
 
-<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#a74e3c93f38bb0e12d862d88d10a32ecc">IsSoundPlaying()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a6821e7c1a8ee7a20318dec6740770141">m_SoundFadeOutDuration</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ae78485e5a268876d9e31e7f0ee825e36">m_SoundFadeOutStartTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a4c6c4e2c336f9055c2b02b5de551efa7">m_SoundWaveObject</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#aadcd48b57e872b525c778d8bc828b523">m_SoundWaveStarting</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a3b9b96dea4139f845a68320efa110fbe">m_SoundWaveTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a2f4c15241235420d2e31415f77284695">SoundReset()</a>, and <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d89/class_effect_sound.html#a74e3c93f38bb0e12d862d88d10a32ecc">IsSoundPlaying()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe">m_SoundFadedOut</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a6821e7c1a8ee7a20318dec6740770141">m_SoundFadeOutDuration</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ae78485e5a268876d9e31e7f0ee825e36">m_SoundFadeOutStartTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a4c6c4e2c336f9055c2b02b5de551efa7">m_SoundWaveObject</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#aadcd48b57e872b525c778d8bc828b523">m_SoundWaveStarting</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a68c2bf24685b4196d108737ff727e387">m_SoundWaveStopping</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a3b9b96dea4139f845a68320efa110fbe">m_SoundWaveTime</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a2f4c15241235420d2e31415f77284695">SoundReset()</a>, and <a class="el" href="../../d9/d52/class_abstract_wave.html#aec3d6c69da12025dfcf342c7e5456d46">AbstractWave::Stop()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d2c/class_building_super.html#a83a1e547e0d1e65ad421070058a093a9">BuildingSuper::EEDelete()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a14a53c40a7706dbe29441ac7393bde0b">ItemBase::OnIsCharged()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ab7e8b20a4331f044f2ad2f9d86ebffe9">Stop()</a>, <a class="el" href="../../db/d71/class_action_build_shelter.html#ac25c5c20e4b8c55f06bf5b53383462fe">ActionBuildShelter::StopActionLoopSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a6bbcb8d20ca90f0cca7eea80d9b6e5b9">ItemBase::StopChargedAlarm()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a5bde6ba6f3db3f78897b387d91bb27bc">ItemBase::StopChargingSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a581d53c0b9a95438b7642f051a706325">ItemBase::StopDeployLoopSound()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#a581d53c0b9a95438b7642f051a706325">Inventory_Base::StopDeployLoopSound()</a>, <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#af707e712c92e4a56fef479c86dee9c52">StopDisarmingLoopSound()</a>, <a class="el" href="../../d9/d1a/_bottle___base_8c.html#a1082850467ae686191ec6edc2743c85b">StopEmptyingLoopSound()</a>, <a class="el" href="../../d9/d1a/_bottle___base_8c.html#a1ee18c05ea4da30d03269f0bcc244055">StopPouringLoopSound()</a>, <a class="el" href="../../de/da3/class_flashbang_effect.html#aa8e9fc23e10b23ca0ab63b5be0eae69a">FlashbangEffect::StopSound()</a>, and <a class="el" href="../../d5/d89/class_flare_simulation.html#a43c51c4f76db9f71638171061d5bd6bc">FlareSimulation::~FlareSimulation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d2c/class_building_super.html#a83a1e547e0d1e65ad421070058a093a9">BuildingSuper::EEDelete()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a14a53c40a7706dbe29441ac7393bde0b">ItemBase::OnIsCharged()</a>, <a class="el" href="../../d2/dcf/_anniversary_music_source_8c.html#a1f5c76d56ce63ebd8fdb390ddfe7eb32">PlayIntense()</a>, <a class="el" href="../../d2/dcf/_anniversary_music_source_8c.html#aba83329ff7839ec93c3e9898a49d8cd4">PlayLight()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ab7e8b20a4331f044f2ad2f9d86ebffe9">Stop()</a>, <a class="el" href="../../db/d71/class_action_build_shelter.html#ac25c5c20e4b8c55f06bf5b53383462fe">ActionBuildShelter::StopActionLoopSound()</a>, <a class="el" href="../../d2/dcf/_anniversary_music_source_8c.html#a569abba28ed52fcb542fa11da9be11cc">StopAllMusic()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a6bbcb8d20ca90f0cca7eea80d9b6e5b9">ItemBase::StopChargedAlarm()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a5bde6ba6f3db3f78897b387d91bb27bc">ItemBase::StopChargingSound()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a581d53c0b9a95438b7642f051a706325">ItemBase::StopDeployLoopSound()</a>, <a class="el" href="../../d7/d5d/class_inventory___base.html#a581d53c0b9a95438b7642f051a706325">Inventory_Base::StopDeployLoopSound()</a>, <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#af707e712c92e4a56fef479c86dee9c52">StopDisarmingLoopSound()</a>, <a class="el" href="../../d9/d1a/_bottle___base_8c.html#a1082850467ae686191ec6edc2743c85b">StopEmptyingLoopSound()</a>, <a class="el" href="../../d9/d1a/_bottle___base_8c.html#a1ee18c05ea4da30d03269f0bcc244055">StopPouringLoopSound()</a>, <a class="el" href="../../de/da3/class_flashbang_effect.html#aa8e9fc23e10b23ca0ab63b5be0eae69a">FlashbangEffect::StopSound()</a>, and <a class="el" href="../../d5/d89/class_flare_simulation.html#a43c51c4f76db9f71638171061d5bd6bc">FlareSimulation::~FlareSimulation()</a>.</p>
 
 </div>
 </div>
@@ -2302,6 +2333,30 @@ So this is effectively enabling frame event on all valid <a class="el" href="../
 
 </div>
 </div>
+<a id="a747ba96a985c8d876c711afcc9f625fe" name="a747ba96a985c8d876c711afcc9f625fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747ba96a985c8d876c711afcc9f625fe">&#9670;&#160;</a></span>m_SoundFadedOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_SoundFadedOut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d89/class_effect_sound.html#a573af4a11900c9076093952affe03c20">CanDestroy()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#acf4b44fb62d6b1eb2da6285da8e67d11">EffectSound()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad1358dd4a71070ee2b739b156da9fff0">Event_OnFrameUpdate()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a2f4c15241235420d2e31415f77284695">SoundReset()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">SoundStop()</a>.</p>
+
+</div>
+</div>
 <a id="a863ac9836a3d35527a1f8bde5efd7d56" name="a863ac9836a3d35527a1f8bde5efd7d56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a863ac9836a3d35527a1f8bde5efd7d56">&#9670;&#160;</a></span>m_SoundFadeInDuration</h2>
 
@@ -2346,7 +2401,7 @@ So this is effectively enabling frame event on all valid <a class="el" href="../
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d89/class_effect_sound.html#ad1358dd4a71070ee2b739b156da9fff0">Event_OnFrameUpdate()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a924d368cb3dda43a9bcccfd348872584">SetSoundFadeOut()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">SoundStop()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#aff1052134d58f269e3e74f216771941a">SoundWaveValidation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d89/class_effect_sound.html#a573af4a11900c9076093952affe03c20">CanDestroy()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad1358dd4a71070ee2b739b156da9fff0">Event_OnFrameUpdate()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a924d368cb3dda43a9bcccfd348872584">SetSoundFadeOut()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">SoundStop()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#aff1052134d58f269e3e74f216771941a">SoundWaveValidation()</a>.</p>
 
 </div>
 </div>
@@ -2658,7 +2713,7 @@ So this is effectively enabling frame event on all valid <a class="el" href="../
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d89/class_effect_sound.html#acf4b44fb62d6b1eb2da6285da8e67d11">EffectSound()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad1358dd4a71070ee2b739b156da9fff0">Event_OnFrameUpdate()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">SoundStop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d89/class_effect_sound.html#acf4b44fb62d6b1eb2da6285da8e67d11">EffectSound()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#ad1358dd4a71070ee2b739b156da9fff0">Event_OnFrameUpdate()</a>, <a class="el" href="../../d9/d89/class_effect_sound.html#a2f4c15241235420d2e31415f77284695">SoundReset()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#aee207d1a2b613bbcb4555f3a4a81dc54">SoundStop()</a>.</p>
 
 </div>
 </div>
@@ -2735,7 +2790,7 @@ So this is effectively enabling frame event on all valid <a class="el" href="../
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/Effects/<a class="el" href="../../d4/d70/_effect_sound_8c.html">EffectSound.c</a></li>
+<li>3_Game/Effects/<a class="el" href="../../d4/d70/_effect_sound_8c.html">EffectSound.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

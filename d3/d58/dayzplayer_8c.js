@@ -369,6 +369,7 @@ var dayzplayer_8c =
     [ "GetCurrentWaterLevel", "d3/d58/dayzplayer_8c.html#a89d583965bbec03c0afff348ff99cbd4", null ],
     [ "GetCurrentYaw", "d3/d58/dayzplayer_8c.html#a19df17e3cb23e131d5484d95e1c5a266", null ],
     [ "GetDayZPlayerType", "d3/d58/dayzplayer_8c.html#a6c8b1e269929038a8e1aa40d6f642e9e", null ],
+    [ "GetDebugName", "d3/d58/dayzplayer_8c.html#a2731e77365c090d55fd098fedd5d2b1e", null ],
     [ "GetDefaultHitComponent", "d3/d58/dayzplayer_8c.html#a54b962072711d6cb9583db7c164d0af5", null ],
     [ "GetDefaultHitPositionComponent", "d3/d58/dayzplayer_8c.html#aa48b09d629def9f52549a5930f919bb2", null ],
     [ "GetEyeZoomLevel", "d3/d58/dayzplayer_8c.html#a9528488b6e6ee30676335ba86453f97b", null ],

@@ -759,6 +759,9 @@ var hierarchy =
     ] ],
     [ "BoxCollidingParams", "da/d47/class_box_colliding_params.html", null ],
     [ "Breeches_ColorBase", "dc/dc4/class_breeches___color_base.html", null ],
+    [ "Building", null, [
+      [ "AnniversarySpotLight", "da/d04/class_anniversary_spot_light.html", null ]
+    ] ],
     [ "BuildingBase", null, [
       [ "House", "df/d21/class_house.html", [
         [ "EffectArea", "d5/d44/class_effect_area.html", [
@@ -2593,6 +2596,7 @@ var hierarchy =
     [ "PluginManager", "d8/df1/class_plugin_manager.html", null ],
     [ "PluginRecipesManagerBase", "dd/d5d/class_plugin_recipes_manager_base.html", null ],
     [ "PointLightBase", "d8/dbb/class_point_light_base.html", [
+      [ "AnniversaryMainLight", "d9/dde/class_anniversary_main_light.html", null ],
       [ "BlowtorchLight", "d8/dee/class_blowtorch_light.html", null ],
       [ "ExplosionLight", "dd/dd5/class_explosion_light.html", null ],
       [ "ExplosiveLight", "dd/dd2/class_explosive_light.html", null ]

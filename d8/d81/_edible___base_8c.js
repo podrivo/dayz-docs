@@ -16,6 +16,7 @@ var _edible___base_8c =
     [ "EEItemLocationChanged", "d8/d81/_edible___base_8c.html#aafac0842577356f878e87cbecd8dbdc1", null ],
     [ "GetCookingTime", "d8/d81/_edible___base_8c.html#a75057cfbd62c1a655ea775be6b72927f", null ],
     [ "GetDebugActions", "d8/d81/_edible___base_8c.html#ab110c1ad759f395660b0ae9242843731", null ],
+    [ "GetDebugText", "d8/d81/_edible___base_8c.html#a3fae6d6b0946cbe842c50c8ab274e1e4", null ],
     [ "GetDecayDelta", "d8/d81/_edible___base_8c.html#aee41dcb9ec9b40c4a4bb5ad23c9ea684", null ],
     [ "GetDecayTimer", "d8/d81/_edible___base_8c.html#a970225c5d63e617779ce72994aa86d38", null ],
     [ "GetFoodAgents", "d8/d81/_edible___base_8c.html#abb3d311ba2385de4fded116659166097", null ],

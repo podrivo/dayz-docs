@@ -2,6 +2,7 @@ var class_effect_sound =
 [
     [ "EffectSound", "d9/d89/class_effect_sound.html#acf4b44fb62d6b1eb2da6285da8e67d11", null ],
     [ "~EffectSound", "d9/d89/class_effect_sound.html#a1d26367a589a60b76dde904416cfd401", null ],
+    [ "CanDestroy", "d9/d89/class_effect_sound.html#a573af4a11900c9076093952affe03c20", null ],
     [ "Event_OnFrameUpdate", "d9/d89/class_effect_sound.html#ad1358dd4a71070ee2b739b156da9fff0", null ],
     [ "Event_OnRegistered", "d9/d89/class_effect_sound.html#ad1e502682276b2a6974025c50aadeb55", null ],
     [ "Event_OnSoundFadeInStopped", "d9/d89/class_effect_sound.html#ad017b97723424e9660d32b1900ae87d0", null ],
@@ -60,6 +61,7 @@ var class_effect_sound =
     [ "m_SetEnvVariables", "d9/d89/class_effect_sound.html#a84f427bb8ca8e1a7582a1ba33cd7b02a", null ],
     [ "m_SoundAutodestroy", "d9/d89/class_effect_sound.html#af78ca73ff62ae80594b42eba5f13ce51", null ],
     [ "m_SoundDoppler", "d9/d89/class_effect_sound.html#ad37c91fbe07d50b78145baa56fa87788", null ],
+    [ "m_SoundFadedOut", "d9/d89/class_effect_sound.html#a747ba96a985c8d876c711afcc9f625fe", null ],
     [ "m_SoundFadeInDuration", "d9/d89/class_effect_sound.html#a863ac9836a3d35527a1f8bde5efd7d56", null ],
     [ "m_SoundFadeOutDuration", "d9/d89/class_effect_sound.html#a6821e7c1a8ee7a20318dec6740770141", null ],
     [ "m_SoundFadeOutInitVolume", "d9/d89/class_effect_sound.html#a8828167da34c13dc9910014a6d903165", null ],

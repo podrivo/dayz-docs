@@ -23,6 +23,7 @@ var group___debug_shape =
       [ "DIAMOND", "d6/dae/group___debug_shape.html#gga5a4538eeab397888d88a4eefcc5a1345a714f2cc5c292a305e2da3c03bd63916a", null ],
       [ "PYRAMID", "d6/dae/group___debug_shape.html#gga5a4538eeab397888d88a4eefcc5a1345a3fcd053f6577a9c10a59c3d3595658eb", null ]
     ] ],
+    [ "CanDestroy", "d6/dae/group___debug_shape.html#gaafdc3b0c47ebb1b20509dfbce1c31595", null ],
     [ "Create", "d6/dae/group___debug_shape.html#ga01f744a0b9ed95fc93c015ca4e1d03f4", null ],
     [ "CreateArrow", "d6/dae/group___debug_shape.html#ga33e4c2f905ea7caef5970ea0273106f4", null ],
     [ "CreateBridgeArrow", "d6/dae/group___debug_shape.html#gae79884ecde9c16704b3859d48b9fb2bd", null ],

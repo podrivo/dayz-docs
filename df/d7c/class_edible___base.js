@@ -102,6 +102,7 @@ var class_edible___base =
     [ "EEItemLocationChanged", "df/d7c/class_edible___base.html#aafac0842577356f878e87cbecd8dbdc1", null ],
     [ "GetCookingTime", "df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f", null ],
     [ "GetDebugActions", "df/d7c/class_edible___base.html#ab110c1ad759f395660b0ae9242843731", null ],
+    [ "GetDebugText", "df/d7c/class_edible___base.html#a3fae6d6b0946cbe842c50c8ab274e1e4", null ],
     [ "GetDecayDelta", "df/d7c/class_edible___base.html#aee41dcb9ec9b40c4a4bb5ad23c9ea684", null ],
     [ "GetDecayTimer", "df/d7c/class_edible___base.html#a970225c5d63e617779ce72994aa86d38", null ],
     [ "GetDisinfectQuantity", "df/d7c/class_edible___base.html#a268de6725d989c382e8c50f098283c5f", null ],

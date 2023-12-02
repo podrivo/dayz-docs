@@ -99,6 +99,7 @@ var dir_51b488adf7cb6ffe9961f64bf54479a5 =
     [ "ActionPlaceObject.c", "d6/d38/_action_place_object_8c.html", "d6/d38/_action_place_object_8c" ],
     [ "ActionPlaceOnGround.c", "dd/dd1/_action_place_on_ground_8c.html", "dd/dd1/_action_place_on_ground_8c" ],
     [ "ActionPourLiquid.c", "dc/d4e/_action_pour_liquid_8c.html", "dc/d4e/_action_pour_liquid_8c" ],
+    [ "ActionPushCar.c", "dc/df3/_action_push_car_8c.html", "dc/df3/_action_push_car_8c" ],
     [ "ActionRaiseFlag.c", "d8/d86/_action_raise_flag_8c.html", "d8/d86/_action_raise_flag_8c" ],
     [ "ActionRaiseMegaphone.c", "d8/d2d/_action_raise_megaphone_8c.html", "d8/d2d/_action_raise_megaphone_8c" ],
     [ "ActionRepairCarChassis.c", "da/dff/_action_repair_car_chassis_8c.html", "da/dff/_action_repair_car_chassis_8c" ],

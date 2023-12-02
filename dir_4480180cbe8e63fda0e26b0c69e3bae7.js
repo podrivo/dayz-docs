@@ -8,6 +8,7 @@ var dir_4480180cbe8e63fda0e26b0c69e3bae7 =
     [ "ECharGender.c", "d7/ddc/_e_char_gender_8c.html", "d7/ddc/_e_char_gender_8c" ],
     [ "EConsumeType.c", "d1/d4e/_e_consume_type_8c.html", "d1/d4e/_e_consume_type_8c" ],
     [ "EContaminationTypes.c", "dc/d2e/_e_contamination_types_8c.html", "dc/d2e/_e_contamination_types_8c" ],
+    [ "ECrewMemberState.c", "d8/d80/_e_crew_member_state_8c.html", "d8/d80/_e_crew_member_state_8c" ],
     [ "EDayZProfilesOptions.c", "d0/d96/_e_day_z_profiles_options_8c.html", "d0/d96/_e_day_z_profiles_options_8c" ],
     [ "EDiagMenuIDs.c", "d9/dbc/_e_diag_menu_i_ds_8c.html", "d9/dbc/_e_diag_menu_i_ds_8c" ],
     [ "EGameStateIcons.c", "df/df3/_e_game_state_icons_8c.html", "df/df3/_e_game_state_icons_8c" ],

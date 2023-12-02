@@ -1,6 +1,7 @@
 var _effect_8c =
 [
     [ "EffectType", "d5/d2d/_effect_8c.html#a4809a7bb3fd1a421902a667cc1405d43", null ],
+    [ "CanDestroy", "d6/dae/group___debug_shape.html#gaafdc3b0c47ebb1b20509dfbce1c31595", null ],
     [ "Destroy", "d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a", null ],
     [ "Effect", "d5/d2d/_effect_8c.html#aa9753a60bcd32e2d28e6641973c8bc4e", null ],
     [ "Event_OnFrameUpdate", "d5/d2d/_effect_8c.html#ad733084a8399d95ec80f8908df8ec21e", null ],

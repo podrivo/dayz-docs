@@ -627,6 +627,8 @@ var annotated_dup =
     [ "AnimSoundObjectBuilderBank", "dc/d4a/class_anim_sound_object_builder_bank.html", "dc/d4a/class_anim_sound_object_builder_bank" ],
     [ "Anniversary_FireworksLauncher", "d8/d69/class_anniversary___fireworks_launcher.html", "d8/d69/class_anniversary___fireworks_launcher" ],
     [ "AnniversaryFireworksLauncherClientEvent", "db/dea/class_anniversary_fireworks_launcher_client_event.html", "db/dea/class_anniversary_fireworks_launcher_client_event" ],
+    [ "AnniversaryMainLight", "d9/dde/class_anniversary_main_light.html", "d9/dde/class_anniversary_main_light" ],
+    [ "AnniversarySpotLight", "da/d04/class_anniversary_spot_light.html", "da/d04/class_anniversary_spot_light" ],
     [ "AntibioticsMdfr", "d2/d2f/class_antibiotics_mdfr.html", "d2/d2f/class_antibiotics_mdfr" ],
     [ "AntiChemInjector", "d2/d95/class_anti_chem_injector.html", "d2/d95/class_anti_chem_injector" ],
     [ "AntiPestsSpray", "d3/d3a/class_anti_pests_spray.html", "d3/d3a/class_anti_pests_spray" ],

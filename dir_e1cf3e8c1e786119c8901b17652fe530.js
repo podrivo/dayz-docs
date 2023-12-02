@@ -1,5 +1,7 @@
 var dir_e1cf3e8c1e786119c8901b17652fe530 =
 [
+    [ "AnniversaryBoxLight.c", "da/d0f/_anniversary_box_light_8c.html", "da/d0f/_anniversary_box_light_8c" ],
+    [ "AnniversaryMainLight.c", "de/d23/_anniversary_main_light_8c.html", "de/d23/_anniversary_main_light_8c" ],
     [ "BlowtorchLight.c", "d8/d17/_blowtorch_light_8c.html", "d8/d17/_blowtorch_light_8c" ],
     [ "BonfireLight.c", "dd/da0/_bonfire_light_8c.html", "dd/da0/_bonfire_light_8c" ],
     [ "BrightnessTestLight.c", "d0/d27/_brightness_test_light_8c.html", "d0/d27/_brightness_test_light_8c" ],

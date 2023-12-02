@@ -114,6 +114,7 @@ var class_i_entity =
     [ "GetDamageZoneNameByComponentIndex", "dc/da9/class_i_entity.html#a9389531aa4cfce3d1f7054653cffde11", null ],
     [ "GetDamageZonePos", "dc/da9/class_i_entity.html#a2f3ecc7ccb6dc44ccf7d510cca5cd36a", null ],
     [ "GetDamageZones", "dc/da9/class_i_entity.html#a1d1bf37106b48b8161da14e2711f3ebf", null ],
+    [ "GetDebugName", "dc/da9/class_i_entity.html#a2731e77365c090d55fd098fedd5d2b1e", null ],
     [ "GetDebugName", "dc/da9/class_i_entity.html#aae9452a95d949a375c60fb37f087899b", null ],
     [ "GetDebugNameNative", "dc/da9/class_i_entity.html#a6bf1e99963be321fecc5e3f452f1d47d", null ],
     [ "GetDirection", "dc/da9/class_i_entity.html#acf5f7342c7b6c4c61ef426e83c602998", null ],
