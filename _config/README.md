@@ -20,6 +20,10 @@ Official links
 Changelog
 --
 
+Version 1.24
+- [Update 2 v1.24.157551 · Feb 29, 2024](https://forums.dayz.com/topic/259072-stable-update-124/?page=2&tab=comments#comment-2492939)
+- [Update 1 v1.24.157448 · Feb 20, 2024](https://forums.dayz.com/topic/259072-stable-update-124/)
+
 Version 1.23
 - [Update 2 v1.23.157045 · Nov 30, 2023](https://forums.dayz.com/topic/257986-stable-update-123/?page=2&tab=comments#comment-2491015)
 - [Update 1 v1.23.156951 · Nov 07, 2023](https://forums.dayz.com/topic/257986-stable-update-123/)
