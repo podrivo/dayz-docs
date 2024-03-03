@@ -353,7 +353,7 @@ var human_8c =
     [ "StartCommand_Action", "d4/d9e/human_8c.html#a6effffdb1de49729ffc8ff860ca5334c", null ],
     [ "StartCommand_Climb", "d4/d9e/human_8c.html#ad4b4a34575eac6632b24d2e31e1b664c", null ],
     [ "StartCommand_Damage", "d4/d9e/human_8c.html#a5d4ddb95cce2bc82c8760afea8d9ce55", null ],
-    [ "StartCommand_Death", "d4/d9e/human_8c.html#a907247a772194d73617267489edd1f7b", null ],
+    [ "StartCommand_Death", "d4/d9e/human_8c.html#a9d1b5de4eceba22268e56ce16666d134", null ],
     [ "StartCommand_Fall", "d4/d9e/human_8c.html#a4cca6118cabb0b8b8f43f3eebeb28abe", null ],
     [ "StartCommand_Ladder", "d4/d9e/human_8c.html#ae3deb9e04e932c26eaffb603ce7b6588", null ],
     [ "StartCommand_Melee", "d4/d9e/human_8c.html#a461af141c8ae3a523eed7b9c6a9c37ff", null ],

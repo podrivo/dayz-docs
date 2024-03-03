@@ -32,6 +32,7 @@ var _modifiers_manager_8c =
     [ "OnScheduledTick", "d3/d3c/_modifiers_manager_8c.html#ab005f76d2b3219a0dc7bb5f84626cb99", null ],
     [ "OnStoreLoad", "d3/d3c/_modifiers_manager_8c.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9", null ],
     [ "OnStoreSave", "d3/d3c/_modifiers_manager_8c.html#ad975050d7a080cca462e74c604f404a2", null ],
+    [ "ResetAll", "d3/d3c/_modifiers_manager_8c.html#ad1b489218e37ecc5025dba3e4eeec7b7", null ],
     [ "SetModifierLock", "d3/d3c/_modifiers_manager_8c.html#ace1390f9fbca9fe44c2fdd0ab58441be", null ],
     [ "SetModifiers", "d3/d3c/_modifiers_manager_8c.html#a017e6dbd2f574154605cf1225a2346ad", null ],
     [ "DEFAULT_TICK_TIME_ACTIVE", "d3/d3c/_modifiers_manager_8c.html#ad7b192f22a83d324fbb2fc7fea14ad09", null ],

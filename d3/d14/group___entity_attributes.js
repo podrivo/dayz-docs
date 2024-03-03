@@ -247,6 +247,7 @@ var group___entity_attributes =
       [ "OnExplosionEffects", "dc/da9/class_i_entity.html#a57cbd1810af7563aca4b013f4afd815f", null ],
       [ "OnLeaveTrigger", "dc/da9/class_i_entity.html#a8576ff1ac60c18d37aef9dd66b1de9e7", null ],
       [ "OnPlayerRecievedHit", "dc/da9/class_i_entity.html#a734d382a0506acd699d0ab887ba6ab5a", null ],
+      [ "OnReceivedHit", "dc/da9/class_i_entity.html#a7d734b7f995b6d6afba2efecabe7defa", null ],
       [ "OnRPC", "dc/da9/class_i_entity.html#a09ea733dd230b1a19873ebb7c6f968bf", null ],
       [ "OnSimulationDisabled", "dc/da9/class_i_entity.html#aa1df37f53d621849d703f9cbea51cdce", null ],
       [ "OnSimulationEnabled", "dc/da9/class_i_entity.html#ada5cd52051b20d74ee80ff548e61ee08", null ],

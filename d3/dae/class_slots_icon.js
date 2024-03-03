@@ -8,6 +8,7 @@ var class_slots_icon =
     [ "CheckIsMagazine", "d3/dae/class_slots_icon.html#a1632d53ea17f60525af89695c6055f0b", null ],
     [ "CheckIsWeapon", "d3/dae/class_slots_icon.html#a67af4a72ac0d67f1a15ea5a32fdc4aca", null ],
     [ "Clear", "d3/dae/class_slots_icon.html#aa71d36872f416feaa853788a7a7a7ef8", null ],
+    [ "ClearRemainSelected", "d3/dae/class_slots_icon.html#afacd68a9fc6e0642e1b452233d4c2219", null ],
     [ "GetAmmoIcon", "d3/dae/class_slots_icon.html#a096c12913eda416d500ffe44bb2c7245", null ],
     [ "GetColorWidget", "d3/dae/class_slots_icon.html#a5cbaef57bf007d309a1ea0c7219e5369", null ],
     [ "GetColWidget", "d3/dae/class_slots_icon.html#a2fbc02d7630ed1ad96030aeaafc4e66c", null ],

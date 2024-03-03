@@ -17,6 +17,8 @@ var class_left_area =
     [ "SetActive", "d5/da4/class_left_area.html#a78a617b04fe4a17031e8b20fc200e67d", null ],
     [ "SetLayoutName", "d5/da4/class_left_area.html#ae1f8b6c1655377c9d528afc512183bf0", null ],
     [ "SetParentWidget", "d5/da4/class_left_area.html#aadb6be42c82ef08cb03d667ce26fddde", null ],
+    [ "SetSameLevelNextActive", "d5/da4/class_left_area.html#afe875be9961f0146c900b903cacab25f", null ],
+    [ "SetSameLevelPreviousActive", "d5/da4/class_left_area.html#ac03a20de8186ba4f4ee9fd3a8fd21096", null ],
     [ "UnfocusGrid", "d5/da4/class_left_area.html#a08e8f824dc9aa7ea4ee618e349fd0d8d", null ],
     [ "UpdateInterval", "d5/da4/class_left_area.html#a42e4b360bf0d3f641767685cd5089432", null ],
     [ "UpdateSelectionIcons", "d5/da4/class_left_area.html#a3f67745929afe3cb93f06abf1f2507fa", null ],

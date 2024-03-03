@@ -64,6 +64,7 @@ var dir_598262a6a7bafb5d22d26b5db317d363 =
     [ "ProgressAsync.c", "d4/d3f/_progress_async_8c.html", "d4/d3f/_progress_async_8c" ],
     [ "RemotelyActivatedItemBehaviour.c", "d4/db7/_remotely_activated_item_behaviour_8c.html", "d4/db7/_remotely_activated_item_behaviour_8c" ],
     [ "Sound.c", "d1/d13/_sound_8c.html", "d1/d13/_sound_8c" ],
+    [ "SurfaceInfo.c", "d3/d62/_surface_info_8c.html", "d3/d62/_surface_info_8c" ],
     [ "SyncEvents.c", "d5/d83/_sync_events_8c.html", "d5/d83/_sync_events_8c" ],
     [ "TriggerCarrierBase.c", "d4/db3/_trigger_carrier_base_8c.html", "d4/db3/_trigger_carrier_base_8c" ],
     [ "UndergroundAreaLoader.c", "d3/d3a/_underground_area_loader_8c.html", "d3/d3a/_underground_area_loader_8c" ],

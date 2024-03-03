@@ -1,6 +1,6 @@
 var class_script_console_items_tab =
 [
-    [ "ScriptConsoleItemsTab", "d0/db7/class_script_console_items_tab.html#a28b0c20bc5672625bcc00bde698e9bf9", null ],
+    [ "ScriptConsoleItemsTab", "d0/db7/class_script_console_items_tab.html#aacbd2d7b4dd3b31ac172e29ca228bbd5", null ],
     [ "~ScriptConsoleItemsTab", "d0/db7/class_script_console_items_tab.html#a3b59bc69045c855284e35130ea47e409", null ],
     [ "AddItemToPreset", "d0/db7/class_script_console_items_tab.html#a775399f26283919b7a865a43cb9bd272", null ],
     [ "ChangeFilter", "d0/db7/class_script_console_items_tab.html#a17eb7609fc4a98f35d09382bd1990293", null ],
@@ -115,5 +115,7 @@ var class_script_console_items_tab =
     [ "m_SpawnInInvButton", "d0/db7/class_script_console_items_tab.html#a9c37b84f278f7019f3a2099e0305dac1", null ],
     [ "m_SpawnOnCursor", "d0/db7/class_script_console_items_tab.html#a25ec40a84fd7e9aefc4a6f1b90e25077", null ],
     [ "m_SpawnOnTarget", "d0/db7/class_script_console_items_tab.html#a759f0f742773d78ebaed1252269faebb", null ],
+    [ "m_WithPhysics", "d0/db7/class_script_console_items_tab.html#a2e39d68a87a9281a344d323e2e0645ec", null ],
+    [ "m_WithPhysicsCheckbox", "d0/db7/class_script_console_items_tab.html#a3d184292842cb533f9bbf740424e557a", null ],
     [ "PRESETS_SELECTED_ROW", "d0/db7/class_script_console_items_tab.html#ac042444ab8cfadec7cad071a4d4ad484", null ]
 ];

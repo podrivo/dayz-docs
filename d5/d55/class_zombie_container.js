@@ -20,6 +20,7 @@ var class_zombie_container =
     [ "IsZombieEquipmentActive", "d5/d55/class_zombie_container.html#ae5fc6eefe32386ab9cc6d3364ecb4872", null ],
     [ "ItemAttached", "d5/d55/class_zombie_container.html#ad60e86ff08bd998e8cc992406814ccf5", null ],
     [ "ItemDetached", "d5/d55/class_zombie_container.html#ae106822c0d7becbe4533add202cf1312", null ],
+    [ "MouseClick", "d5/d55/class_zombie_container.html#a89661798da566cad90bd8764f3d15ac4", null ],
     [ "OnDropReceivedFromGhostArea", "d5/d55/class_zombie_container.html#a424f5540cee1b56b57c7937186bdfc90", null ],
     [ "OnDropReceivedFromHeader", "d5/d55/class_zombie_container.html#a5f51d12a155546ba924479ffb6436aaa", null ],
     [ "Select", "d5/d55/class_zombie_container.html#adc0e4e7a01ffbed3fbc88d2c159357e1", null ],

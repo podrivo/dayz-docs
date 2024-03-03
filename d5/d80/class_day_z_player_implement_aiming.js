@@ -4,6 +4,7 @@ var class_day_z_player_implement_aiming =
     [ "ApplyBreathingPattern", "d5/d80/class_day_z_player_implement_aiming.html#ae2baf2edabbaf2e5873d13fa03df3c37", null ],
     [ "ApplyHorizontalNoise", "d5/d80/class_day_z_player_implement_aiming.html#a526ff5151cfa3ed33ca1b68bf79e77aa", null ],
     [ "ApplyShakes", "d5/d80/class_day_z_player_implement_aiming.html#a02a37b37f126aa3dc2109324c54287e4", null ],
+    [ "CalculateSpeedMultiplier", "d5/d80/class_day_z_player_implement_aiming.html#a54893943389bcdb5b8ff0fd98cc176f7", null ],
     [ "CalculateSwayMultiplier", "d5/d80/class_day_z_player_implement_aiming.html#a3a01a4d7cf2464e9bd50d94a98c9358a", null ],
     [ "CalculateWeight", "d5/d80/class_day_z_player_implement_aiming.html#aad9eac220a1c01e19089db88931f243c", null ],
     [ "DbgPrintAimingImplement", "d5/d80/class_day_z_player_implement_aiming.html#ab9fce789a77c78f59f8663a2e63ec66b", null ],

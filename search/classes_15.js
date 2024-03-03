@@ -10,13 +10,14 @@ var searchData=
   ['vicinityitemmanager_7',['VicinityItemManager',['../d2/dde/class_vicinity_item_manager.html',1,'']]],
   ['vicinityobjects_8',['VicinityObjects',['../df/d59/class_vicinity_objects.html',1,'']]],
   ['vicinityslotscontainer_9',['VicinitySlotsContainer',['../d8/d7b/class_vicinity_slots_container.html',1,'']]],
-  ['vitaminbottle_10',['VitaminBottle',['../dd/d45/class_vitamin_bottle.html',1,'']]],
-  ['vobject_11',['vobject',['../d3/d5c/classvobject.html',1,'']]],
-  ['vodka_12',['Vodka',['../df/d69/class_vodka.html',1,'']]],
-  ['vomitstuffedmdfr_13',['VomitStuffedMdfr',['../d0/df0/class_vomit_stuffed_mdfr.html',1,'']]],
-  ['vonmanager_14',['VONManager',['../d3/d7a/class_v_o_n_manager.html',1,'']]],
-  ['vonmanagerbase_15',['VONManagerBase',['../df/dba/class_v_o_n_manager_base.html',1,'']]],
-  ['vss_16',['VSS',['../da/da9/class_v_s_s.html',1,'']]],
-  ['vss_5fbase_17',['VSS_Base',['../db/d47/class_v_s_s___base.html',1,'']]],
-  ['vssrecoil_18',['VSSRecoil',['../d7/d68/class_v_s_s_recoil.html',1,'']]]
+  ['vikhr_10',['Vikhr',['../d3/dc8/class_vikhr.html',1,'']]],
+  ['vitaminbottle_11',['VitaminBottle',['../dd/d45/class_vitamin_bottle.html',1,'']]],
+  ['vobject_12',['vobject',['../d3/d5c/classvobject.html',1,'']]],
+  ['vodka_13',['Vodka',['../df/d69/class_vodka.html',1,'']]],
+  ['vomitstuffedmdfr_14',['VomitStuffedMdfr',['../d0/df0/class_vomit_stuffed_mdfr.html',1,'']]],
+  ['vonmanager_15',['VONManager',['../d3/d7a/class_v_o_n_manager.html',1,'']]],
+  ['vonmanagerbase_16',['VONManagerBase',['../df/dba/class_v_o_n_manager_base.html',1,'']]],
+  ['vss_17',['VSS',['../da/da9/class_v_s_s.html',1,'']]],
+  ['vss_5fbase_18',['VSS_Base',['../db/d47/class_v_s_s___base.html',1,'']]],
+  ['vssrecoil_19',['VSSRecoil',['../d7/d68/class_v_s_s_recoil.html',1,'']]]
 ];

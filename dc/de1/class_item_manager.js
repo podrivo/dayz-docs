@@ -9,6 +9,7 @@ var class_item_manager =
     [ "DeserializeDefaultOpenStates", "dc/de1/class_item_manager.html#a2584aa58bb3e8dd06209a4f9393ec1dd", null ],
     [ "EvaluateContainerDragabilityDefault", "dc/de1/class_item_manager.html#ab486fbd18dcbc9bf5de1210042282dd0", null ],
     [ "GetCenterDropzone", "dc/de1/class_item_manager.html#a016b10c05826bb4fefce90354d7ced82", null ],
+    [ "GetChosenCombinationFlag", "dc/de1/class_item_manager.html#ab4b6afa3b02516211dca510fc199f89b", null ],
     [ "GetCombinationFlags", "dc/de1/class_item_manager.html#a5336d2f7eab84ef2fdacea60fa1bebea", null ],
     [ "GetDefaultHeaderOpenState", "dc/de1/class_item_manager.html#ad3e1e0803dc5e9d2f3da3c32863ac759", null ],
     [ "GetDefaultOpenState", "dc/de1/class_item_manager.html#a763a50a88ac8ff2c2a785a4de20e1ca6", null ],

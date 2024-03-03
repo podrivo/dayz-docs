@@ -3,7 +3,7 @@ var class_day_z_creature_a_i =
     [ "CommandHandler", "df/d1b/class_day_z_creature_a_i.html#ac1bd1056db23fad453b1ffabe090d89d", null ],
     [ "ComputeDamageHitParams", "df/d1b/class_day_z_creature_a_i.html#a4ff61f6363e20d0b40fb9b956aad55b3", null ],
     [ "ComputeHitDirectionAngleDeg", "df/d1b/class_day_z_creature_a_i.html#a2fefdf1bfabd7c4028686353a21ebb87", null ],
-    [ "ConvertNonlethalDamage", "df/d1b/class_day_z_creature_a_i.html#aa21c15816d08349cd8bbd24a6e248841", null ],
+    [ "ConvertNonlethalDamage", "df/d1b/class_day_z_creature_a_i.html#ac49b508117426256559fadecf8536339", null ],
     [ "DayZAnimal", "df/d1b/class_day_z_creature_a_i.html#a92da661af2fc9e83114c32123b850f6b", null ],
     [ "EEHitBy", "df/d1b/class_day_z_creature_a_i.html#aaa71dbcbf6d68e04387f4b74ad7e90a9", null ],
     [ "EOnContact", "df/d1b/class_day_z_creature_a_i.html#ad70fb93ae4fecf6872c783905d1253de", null ],

@@ -38,6 +38,7 @@ var class_inventory___base =
     [ "HasProxyParts", "d7/d5d/class_inventory___base.html#a991c34740480400ce51630016f6824bc", null ],
     [ "HescoBox", "d7/d5d/class_inventory___base.html#a6eef1d20d4e17eed03febb72a1d84104", null ],
     [ "HideOnItem", "d7/d5d/class_inventory___base.html#ab76da693c67f3779ccc43e8e08735180", null ],
+    [ "InitItemVariables", "d7/d5d/class_inventory___base.html#aeb21a678bf81cb11979d821d61eaeeec", null ],
     [ "IsContainer", "d7/d5d/class_inventory___base.html#ada59923e2d740ffca32807d0ded46ebd", null ],
     [ "IsDeployable", "d7/d5d/class_inventory___base.html#ab18e11ed223759f876177531c553dfbe", null ],
     [ "IsElectricAppliance", "d7/d5d/class_inventory___base.html#a9dd85b89ef9ea00cf240d958f38d58e5", null ],

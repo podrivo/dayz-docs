@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.23.157045 · Nov 30, 2023</div>
+   <div id="projectbrief">v1.24.157551 · Feb 29, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -117,8 +117,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a54787499372ae713fe5e1b6b1414a6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43ee881b2f5a771a850d43d2bfe6b006"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/class_crossbow___base.html#a43ee881b2f5a771a850d43d2bfe6b006">GetChanceToJam</a> ()</td></tr>
 <tr class="separator:a43ee881b2f5a771a850d43d2bfe6b006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05eab95952a189dc9e08ccecec41b51a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/class_crossbow___base.html#a05eab95952a189dc9e08ccecec41b51a">OnDebugSpawn</a> ()</td></tr>
-<tr class="separator:a05eab95952a189dc9e08ccecec41b51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894814ffeaf0a76254404fdde519d756"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/class_crossbow___base.html#a894814ffeaf0a76254404fdde519d756">OnDebugSpawnEx</a> (DebugSpawnParams params)</td></tr>
+<tr class="separator:a894814ffeaf0a76254404fdde519d756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade72c81a3b4cec7ff3ed52aeceea183"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/class_crossbow___base.html#aade72c81a3b4cec7ff3ed52aeceea183">CanBeUsedForSuicide</a> ()</td></tr>
+<tr class="separator:aade72c81a3b4cec7ff3ed52aeceea183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>base for Crossbow @NOTE name copies config base class </p>
@@ -149,6 +151,31 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aade72c81a3b4cec7ff3ed52aeceea183" name="aade72c81a3b4cec7ff3ed52aeceea183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade72c81a3b4cec7ff3ed52aeceea183">&#9670;&#160;</a></span>CanBeUsedForSuicide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> CanBeUsedForSuicide </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a43ee881b2f5a771a850d43d2bfe6b006" name="a43ee881b2f5a771a850d43d2bfe6b006"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43ee881b2f5a771a850d43d2bfe6b006">&#9670;&#160;</a></span>GetChanceToJam()</h2>
 
@@ -201,8 +228,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a05eab95952a189dc9e08ccecec41b51a" name="a05eab95952a189dc9e08ccecec41b51a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05eab95952a189dc9e08ccecec41b51a">&#9670;&#160;</a></span>OnDebugSpawn()</h2>
+<a id="a894814ffeaf0a76254404fdde519d756" name="a894814ffeaf0a76254404fdde519d756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894814ffeaf0a76254404fdde519d756">&#9670;&#160;</a></span>OnDebugSpawnEx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,9 +238,10 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void OnDebugSpawn </td>
+          <td class="memname">override void OnDebugSpawnEx </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">DebugSpawnParams&#160;</td>
+          <td class="paramname"><em>params</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -254,7 +282,7 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>4_World/Entities/Firearms/Archery/<a class="el" href="../../d9/d3c/_crossbow_8c.html">Crossbow.c</a></li>
+<li>P:/scripts/4_World/Entities/Firearms/Archery/<a class="el" href="../../d9/d3c/_crossbow_8c.html">Crossbow.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

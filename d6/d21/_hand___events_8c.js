@@ -56,6 +56,8 @@ var _hand___events_8c =
     [ "JUNCTURE_NOT_REQUIRED", "d6/d21/_hand___events_8c.html#aa9b6b375319722eb938eaf5e54b2ae8b", null ],
     [ "m_AnimationID", "d6/d21/_hand___events_8c.html#ad353414b58f9a488d8cf41986f4bb82b", null ],
     [ "m_EventID", "d6/d21/_hand___events_8c.html#ab4215c09806526ec1b8651c3fe1d94d0", null ],
+    [ "m_IsJuncture", "d6/d21/_hand___events_8c.html#a599b5d9d7a36d94792f853d248ffdd48", null ],
+    [ "m_IsRemote", "d6/d21/_hand___events_8c.html#a0e6be58035858799a108f80b94afd542", null ],
     [ "m_Player", "d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354", null ],
     [ "m_Src", "d6/d21/_hand___events_8c.html#a504ab69882d7085a6f9891ddb5154d0f", null ]
 ];

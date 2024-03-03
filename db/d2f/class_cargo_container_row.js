@@ -21,6 +21,8 @@ var class_cargo_container_row =
     [ "ColumnOnDraggingOver7", "db/d2f/class_cargo_container_row.html#a4614e7cab9916ff5e378db82533e5fe2", null ],
     [ "ColumnOnDraggingOver8", "db/d2f/class_cargo_container_row.html#a67aa7dcc236186dc917b91ecccfa5d6e", null ],
     [ "ColumnOnDraggingOver9", "db/d2f/class_cargo_container_row.html#a4eca44a6b5635ed5d714d76820dbcd33", null ],
+    [ "DraggingOver", "db/d2f/class_cargo_container_row.html#a05db08a28405c0a1a1394d262a083927", null ],
+    [ "DropReceived", "db/d2f/class_cargo_container_row.html#a547cd09802ec4173f2ae6eab2b5201f7", null ],
     [ "GetFocusedColumn", "db/d2f/class_cargo_container_row.html#a35645fe123dfd3240f8feac2e9d46cbf", null ],
     [ "GetIconSize", "db/d2f/class_cargo_container_row.html#a9cddf861ee4e6bf7a3a55b1220a2d8c2", null ],
     [ "GetWidth", "db/d2f/class_cargo_container_row.html#a7c14171a723844d5423bd8b06dad8692", null ],

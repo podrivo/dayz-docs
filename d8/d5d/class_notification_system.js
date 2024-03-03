@@ -21,7 +21,7 @@ var class_notification_system =
     [ "m_OnNotificationAdded", "d8/d5d/class_notification_system.html#a2b9d3090b685cdc912db2090eec8d442", null ],
     [ "m_OnNotificationRemoved", "d8/d5d/class_notification_system.html#aefb5c501ad3ca9488499e5ee55b60a2e", null ],
     [ "m_TimeArray", "d8/d5d/class_notification_system.html#aac6684b0fe30b8f77f578129223ec105", null ],
-    [ "m_TimeElapsed", "d8/d5d/class_notification_system.html#affd22973bd5da2d5ff6f4ad9e0b2c8f7", null ],
+    [ "m_TimeElapsed", "d8/d5d/class_notification_system.html#a57964e050e58ab918e6797b9441b0832", null ],
     [ "MAX_NOTIFICATIONS", "d8/d5d/class_notification_system.html#aa51bbe43b62bdf861348ba717f909a23", null ],
     [ "NOTIFICATION_FADE_TIME", "d8/d5d/class_notification_system.html#a3676598f5cfb667a8b9dffe03b3c9baf", null ],
     [ "UPDATE_INTERVAL_THRESHOLD", "d8/d5d/class_notification_system.html#a8e468efebb9a402c2032350fea89fc4c", null ]

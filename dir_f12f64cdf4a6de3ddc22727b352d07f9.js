@@ -102,6 +102,7 @@ var dir_f12f64cdf4a6de3ddc22727b352d07f9 =
     [ "ActionPushCar.c", "dc/df3/_action_push_car_8c.html", "dc/df3/_action_push_car_8c" ],
     [ "ActionRaiseFlag.c", "d8/d86/_action_raise_flag_8c.html", "d8/d86/_action_raise_flag_8c" ],
     [ "ActionRaiseMegaphone.c", "d8/d2d/_action_raise_megaphone_8c.html", "d8/d2d/_action_raise_megaphone_8c" ],
+    [ "ActionRefuelTorch.c", "dc/dd3/_action_refuel_torch_8c.html", "dc/dd3/_action_refuel_torch_8c" ],
     [ "ActionRepairCarChassis.c", "da/dff/_action_repair_car_chassis_8c.html", "da/dff/_action_repair_car_chassis_8c" ],
     [ "ActionRepairCarChassisWithBlowtorch.c", "da/da1/_action_repair_car_chassis_with_blowtorch_8c.html", "da/da1/_action_repair_car_chassis_with_blowtorch_8c" ],
     [ "ActionRepairCarEngine.c", "d0/dff/_action_repair_car_engine_8c.html", "d0/dff/_action_repair_car_engine_8c" ],

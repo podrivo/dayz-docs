@@ -69,6 +69,7 @@ var dir_3bab331040b8b18063a612a5058e4c0b =
     [ "SoftSkillsManager.c", "d6/d88/_soft_skills_manager_8c.html", "d6/d88/_soft_skills_manager_8c" ],
     [ "SqfDebugWatcher.c", "db/dff/_sqf_debug_watcher_8c.html", "db/dff/_sqf_debug_watcher_8c" ],
     [ "StaminaHandler.c", "d5/d6b/_stamina_handler_8c.html", "d5/d6b/_stamina_handler_8c" ],
+    [ "StaminaModifierData.c", "dd/ded/_stamina_modifier_data_8c.html", "dd/ded/_stamina_modifier_data_8c" ],
     [ "StaminaSoundHandler.c", "dd/de6/_stamina_sound_handler_8c.html", "dd/de6/_stamina_sound_handler_8c" ],
     [ "StanceIndicator.c", "de/d2e/_stance_indicator_8c.html", "de/d2e/_stance_indicator_8c" ],
     [ "ToggleSelections.c", "db/d7a/_toggle_selections_8c.html", "db/d7a/_toggle_selections_8c" ],

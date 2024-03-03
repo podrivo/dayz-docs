@@ -80,6 +80,8 @@ var class_layout_holder =
     [ "SetNextRightActive", "d5/d08/class_layout_holder.html#ac9b5b88574ffc51f696730a166ddc11a", null ],
     [ "SetOpenForSlotIcon", "d5/d08/class_layout_holder.html#ab077053006dc4e1a57773e69d119eae6", null ],
     [ "SetPreviousActive", "d5/d08/class_layout_holder.html#a066b3907a813fed286500bba017fff9e", null ],
+    [ "SetSameLevelNextActive", "d5/d08/class_layout_holder.html#a036356d2a773aea1d60f073d375e5daf", null ],
+    [ "SetSameLevelPreviousActive", "d5/d08/class_layout_holder.html#ac226dd6187aeb11d28c9eed145cc983d", null ],
     [ "SetSlotIcon", "d5/d08/class_layout_holder.html#a5da47a3b8710f09dad9c7a38f1dfe18d", null ],
     [ "ShowContent", "d5/d08/class_layout_holder.html#af38603ca21cb44ef47e49c5ca52b8632", null ],
     [ "SplitItem", "d5/d08/class_layout_holder.html#a368b8af3309c7e643ea5b52a619dce02", null ],

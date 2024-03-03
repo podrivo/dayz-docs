@@ -23,6 +23,8 @@ var class_particle_list =
     [ "BLEEDING_SOURCE_LIGHT", "dd/dd2/class_particle_list.html#a1707fea6a64385af134050dd3169150b", null ],
     [ "BLOOD_SURFACE_CHUNKS", "dd/dd2/class_particle_list.html#ad0e1ef9a723024182a6aad89dbba586f", null ],
     [ "BLOOD_SURFACE_DROPS", "dd/dd2/class_particle_list.html#a2c26105a0f822717d0b0c6c06af48035", null ],
+    [ "BOLT_CUPID_HIT", "dd/dd2/class_particle_list.html#a9c919de5e14e5ba5f109d8411ea95fa2", null ],
+    [ "BOLT_CUPID_TAIL", "dd/dd2/class_particle_list.html#a6c836b4fb917501d56396d4469a7440c", null ],
     [ "BONFIRE_FIRE", "dd/dd2/class_particle_list.html#a466e4f3b05e78f1a4b81decf9a48f04e", null ],
     [ "BONFIRE_SMOKE", "dd/dd2/class_particle_list.html#ac70749ca4a0c4fb695d943b5d5fbe0ad", null ],
     [ "BREATH_VAPOUR_HEAVY", "dd/dd2/class_particle_list.html#ac5654c7c111002e091ad95196da4937a", null ],

@@ -3,6 +3,7 @@ var _day_z_player_melee_fight_logic___light_heavy_8c =
     [ "EFightLogicCooldownCategory", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a10a732d87c726ece4b159359962b2f21", [
       [ "EVADE", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a10a732d87c726ece4b159359962b2f21a44b6aa8f48a563e397e0bf69b95f2542", null ]
     ] ],
+    [ "CanFight", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a409b9b56fa82d2b2aacdc1331a4e257a", null ],
     [ "DamageHands", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a840552fb4e47fe8cf3b6ccc223ecc90d", null ],
     [ "DayZPlayerMeleeFightLogic_LightHeavy", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a2cf38279323e85ee14c6b3b54908f4ed", null ],
     [ "DetermineFinisherAmmo", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a2a13f96ce978436b1ab2d92117114241", null ],
@@ -55,5 +56,6 @@ var _day_z_player_melee_fight_logic___light_heavy_8c =
     [ "m_IsInComboRange", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a112666d96e8fe2fa9b5674917778754b", null ],
     [ "m_MeleeCombat", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a20295029b3dc0729be7ae4945c331c11", null ],
     [ "m_Mission", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#abf6a33df5543121d918ff26d76b825fc", null ],
+    [ "m_Player", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a9dd2585f9b6cb233c97468e2356201f7", null ],
     [ "m_WasPreviousHitProcessed", "d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#ac7ad8a53d6edf018f6af179e05eab3db", null ]
 ];

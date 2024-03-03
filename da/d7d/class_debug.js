@@ -34,7 +34,7 @@ var class_debug =
     [ "LogArrayString", "da/d7d/class_debug.html#a52edb07623481ad3734bcb6c85fa0036", null ],
     [ "LogError", "da/d7d/class_debug.html#a9ae808a4fa8292553d58c6abdffb645a", null ],
     [ "LogInfo", "da/d7d/class_debug.html#ac8f040758b80ee690a6eaa8bb562274a", null ],
-    [ "LogMessage", "da/d7d/class_debug.html#ab6ad154cb8a154043a10a3ba153b6cf0", null ],
+    [ "LogMessage", "da/d7d/class_debug.html#a2fcc7f39a7db546a4b2361ac29056ee7", null ],
     [ "LogWarning", "da/d7d/class_debug.html#af4408b0e50366bb0b8e101d86afa18da", null ],
     [ "MeleeLog", "da/d7d/class_debug.html#a4dd7112ec4728984a7fdb29b39f08e2d", null ],
     [ "ParticleLog", "da/d7d/class_debug.html#af5ee1d173cee094ef23abf661f548e00", null ],

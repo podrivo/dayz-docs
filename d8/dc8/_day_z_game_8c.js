@@ -45,7 +45,7 @@ var _day_z_game_8c =
     [ "IsLoading", "d8/dc8/_day_z_game_8c.html#a276e26b9eaf0f4efb9fa09ba76da9270", null ],
     [ "LoadingScreen", "d8/dc8/_day_z_game_8c.html#a97b2e5bc38aa5bb5e658b42f611bc3b5", null ],
     [ "LoginQueueBase", "d8/dc8/_day_z_game_8c.html#a1ecb71a70f68108e3506766fa86d353c", null ],
-    [ "OnClick", "d8/dc8/_day_z_game_8c.html#ab3a769af93cbb13ac262b55be7977c93", null ],
+    [ "OnClick", "d8/dc8/_day_z_game_8c.html#aee6a27cad085ec84d5f5dbb765b63b53", null ],
     [ "OnTimer", "d9/dc3/group___tools.html#ga0ba9963ea974271cfff1d940aa300f15", null ],
     [ "OnUpdate", "d8/dc8/_day_z_game_8c.html#ab35c8e132ffcbb7ede38d67746ab2adc", null ],
     [ "SetPosition", "d8/dc8/_day_z_game_8c.html#aec8c45759d39ea299ef42821201a846d", null ],

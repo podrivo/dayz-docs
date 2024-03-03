@@ -6,7 +6,7 @@ var _flare_simulation_8c =
     [ "FlareSimulation", "dd/d3b/_flare_simulation_8c.html#a6b98247ff61b3f8b06198499df73c751", null ],
     [ "FlareSimulation_Blue", "dd/d3b/_flare_simulation_8c.html#a95262aa0e14721443e0e0305d1687aa4", null ],
     [ "FlareSimulation_Green", "dd/d3b/_flare_simulation_8c.html#a5e125af4fcb5b90709b4c9a0e45a51e3", null ],
-    [ "FlareSimulation_Red", "dd/d3b/_flare_simulation_8c.html#a46e13bafb2874db34fc112e861e644aa", null ],
+    [ "FlareSimulation_Red", "dd/d3b/_flare_simulation_8c.html#aaf1916021bbabe57787a140018725ce1", null ],
     [ "OnActivation", "dd/d3b/_flare_simulation_8c.html#aeb9cc170ced1de1398baa364f715685e", null ],
     [ "OnFire", "dd/d3b/_flare_simulation_8c.html#a850ea64f676f160712961b6a351bcd4b", null ],
     [ "OnTermination", "dd/d3b/_flare_simulation_8c.html#ac93f9906f56a361da83e548aef5828ca", null ],

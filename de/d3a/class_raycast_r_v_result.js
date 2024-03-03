@@ -7,5 +7,6 @@ var class_raycast_r_v_result =
     [ "hierLevel", "de/d3a/class_raycast_r_v_result.html#ac96c1a4b316192c42c3b3341a7fbcf87", null ],
     [ "obj", "de/d3a/class_raycast_r_v_result.html#a3a6f22968f6ad522baa85c809b856bae", null ],
     [ "parent", "de/d3a/class_raycast_r_v_result.html#a8d03ddfd7e3867e410d271cd721548d5", null ],
-    [ "pos", "de/d3a/class_raycast_r_v_result.html#a2d152fcf6a0392a3904f515fc3368f1b", null ]
+    [ "pos", "de/d3a/class_raycast_r_v_result.html#a2d152fcf6a0392a3904f515fc3368f1b", null ],
+    [ "surface", "de/d3a/class_raycast_r_v_result.html#a31c527aa50142beca3e8dcf86bee72eb", null ]
 ];

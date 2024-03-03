@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DayZ Scripts: 3_Game/dayzplayer.c File Reference</title>
+<title>DayZ Scripts: P:/scripts/3_Game/dayzplayer.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.23.157045 · Nov 30, 2023</div>
+   <div id="projectbrief">v1.24.157551 · Feb 29, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -139,269 +139,284 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2860fdc8efd9f9900230061eface585e">STANCEIDX_RAISEDCROUCH</a>
 , <br />
 &#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a20434605143703506759ba8a2dba703b">STANCEIDX_RAISEDPRONE</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae494d79a7fde14544ea2c53d508bbad4">STANCEIDX_RAISED</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a01132cd350d466fc913f86b2bc311bb7">STANCEMASK_ERECT</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a34a0b33121ca17bd8944d92090276e61">STANCEMASK_CROUCH</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1f46e0a97f7b6e5cbd16e854c33d4184">STANCEMASK_PRONE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8fa912c92a88504078ff8219c816a058">STANCEMASK_RAISEDERECT</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1f46e0a97f7b6e5cbd16e854c33d4184">STANCEMASK_PRONE</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8fa912c92a88504078ff8219c816a058">STANCEMASK_RAISEDERECT</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac966e00ce09f3f4289e78b8a1baad1ab">STANCEMASK_RAISEDCROUCH</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8a47e9048cab1ac8394cee70712fb6e5">STANCEMASK_RAISEDPRONE</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9eeb4da07dccd22103c5bbda1056f56a">STANCEMASK_ALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aae4b369a9d282bb2915ceb69aa869e68">STANCEMASK_NOTRAISED</a> = STANCEMASK_ERECT | STANCEMASK_CROUCH | STANCEMASK_PRONE
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9eeb4da07dccd22103c5bbda1056f56a">STANCEMASK_ALL</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aae4b369a9d282bb2915ceb69aa869e68">STANCEMASK_NOTRAISED</a> = STANCEMASK_ERECT | STANCEMASK_CROUCH | STANCEMASK_PRONE
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9d48ede97875bc82b4a5672719d2b725">STANCEMASK_RAISED</a> = STANCEMASK_RAISEDERECT | STANCEMASK_RAISEDCROUCH | STANCEMASK_RAISEDPRONE
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab10c54fbeacb8abb460226e200fb38c2">MOVEMENT_IDLE</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6234066e767f7778b98e79c9509a7f50">MOVEMENT_WALK</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9fbfcb559b2fa7c6b056c07677d8f378">MOVEMENT_RUN</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6234066e767f7778b98e79c9509a7f50">MOVEMENT_WALK</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9fbfcb559b2fa7c6b056c07677d8f378">MOVEMENT_RUN</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a45d645ba69100d1eebd771f4c1387ca1">MOVEMENT_SPRINT</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7de778f952efbff01f69487f44f838d0">ROTATION_DISABLE</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a050f550793b00112bc1c59e86940b106">ROTATION_ENABLE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad332b37da8f0a17c3daa6bab87e6a799">MOVEMENTIDX_SLIDE</a> = -2
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a050f550793b00112bc1c59e86940b106">ROTATION_ENABLE</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad332b37da8f0a17c3daa6bab87e6a799">MOVEMENTIDX_SLIDE</a> = -2
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af461c98f5f3360778b8fb7eb3a06d82c">MOVEMENTIDX_IDLE</a> = 0
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abc46a3ca37da9eb33e969babb6baa33b">MOVEMENTIDX_WALK</a> = 1
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a334ab500d23f01e131277c98c8063350">MOVEMENTIDX_RUN</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a817c545b175ee5c9fd7e3b58b48fc90e">MOVEMENTIDX_SPRINT</a> = 3
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a334ab500d23f01e131277c98c8063350">MOVEMENTIDX_RUN</a> = 2
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a817c545b175ee5c9fd7e3b58b48fc90e">MOVEMENTIDX_SPRINT</a> = 3
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad4215952986b3538197d8f9a064433f0">MOVEMENTIDX_CROUCH_RUN</a> = 4
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0f45a64c544f49ca0fc89e66f53ec3da">MELEE_LIGHT</a> = 0
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a50f634136052b79bd9d9b67f0b098573">MELEE_HEAVY</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8a3bd84061f9a96567e52d11498c75d2">VEHICLECLASS_CAR</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a50f634136052b79bd9d9b67f0b098573">MELEE_HEAVY</a> = 1
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8a3bd84061f9a96567e52d11498c75d2">VEHICLECLASS_CAR</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afa1733458097c31bf6b04d0fce6829ff">VEHICLECLASS_HELI</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad2a04dfdf4fbe0a72349f3f470b09c28">VEHICLESEAT_DRIVER</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad64075ff3018782902875606e362d572">VEHICLESEAT_CODRIVER</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5461fbcc26809a622eafa063a533c866">VEHICLESEAT_PASSENGER_L</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad64075ff3018782902875606e362d572">VEHICLESEAT_CODRIVER</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5461fbcc26809a622eafa063a533c866">VEHICLESEAT_PASSENGER_L</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a39915d85ac16c6ceefdf774653e967b4">VEHICLESEAT_PASSENGER_R</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afc9d6823b816745e72547eef12b3efdf">DEATH_DEFAULT</a> = -1
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae8cf273e69726fd62883dd06722d3b70">DEATH_PULL_OUT_TRANSPORT</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a93d0535d53e2dfdf31222b99b5b933a1">DEATH_BODY</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae8cf273e69726fd62883dd06722d3b70">DEATH_PULL_OUT_TRANSPORT</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a93d0535d53e2dfdf31222b99b5b933a1">DEATH_BODY</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a92a77e9e905264774b71c3ad009246a2">DEATH_FAST</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af938fa5bbab6557f00bfd1cc129a0bc8">DEATH_WATER</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae20582e9fe43e71c585784099ede68c6">DEATH_FALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac7d2fbe83a4398dd12f12b8fd2c199bd">DEATH_UNCON_ON_LAND</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae20582e9fe43e71c585784099ede68c6">DEATH_FALL</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac7d2fbe83a4398dd12f12b8fd2c199bd">DEATH_UNCON_ON_LAND</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7dcc0644ba970dd1a3722dafa41f4a19">DEATH_UNCON_IN_WATER</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5f40d4249d73585a4d38546adf5797da">COMMANDID_NONE</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2bac8cab46e2f7c6b2cabc5c39b7f5c8">COMMANDID_MOVE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a92a6139d295372952fbeb821c22d2cf3">COMMANDID_ACTION</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2bac8cab46e2f7c6b2cabc5c39b7f5c8">COMMANDID_MOVE</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a92a6139d295372952fbeb821c22d2cf3">COMMANDID_ACTION</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5675ba8d8b46d5ff34da9e3a10805022">COMMANDID_MELEE</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a84590d6e60e5a6dea52693d90e574fc3">COMMANDID_MELEE2</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a79cf8dea04ed761f7e758e6dcd94f1d6">COMMANDID_FALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac14826e60dc7b6ef714d9b97265282a2">COMMANDID_DEATH</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a79cf8dea04ed761f7e758e6dcd94f1d6">COMMANDID_FALL</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac14826e60dc7b6ef714d9b97265282a2">COMMANDID_DEATH</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad6ff330d2ddb944e9ed6ba696f39f6b6">COMMANDID_DAMAGE</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5100effcec5a01828de27e6a1afef33c">COMMANDID_LADDER</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afd798d1bbbf0cb0daa8f1c958cc2a7b6">COMMANDID_UNCONSCIOUS</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a451c9ca8502bd1a93f81243615f66dc4">COMMANDID_SWIM</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afd798d1bbbf0cb0daa8f1c958cc2a7b6">COMMANDID_UNCONSCIOUS</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a451c9ca8502bd1a93f81243615f66dc4">COMMANDID_SWIM</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab42d084a7ff96886d589ba991cfb9f1a">COMMANDID_VEHICLE</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab4a9c24aefb2706057898a17866fb831">COMMANDID_CLIMB</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9af384c4eb5ec0a423199a4fc6454374">COMMANDID_SCRIPT</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6a61ac0a6e25fac4148ae5c13f92ca3d">COMMANDID_MOD_LOOKAT</a>
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9af384c4eb5ec0a423199a4fc6454374">COMMANDID_SCRIPT</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6a61ac0a6e25fac4148ae5c13f92ca3d">COMMANDID_MOD_LOOKAT</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9847d7ba37441530583bf1f5a5554dbb">COMMANDID_MOD_WEAPONS</a>
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acaa4566aa6e8b4f96d8ee769c3550644">COMMANDID_MOD_ACTION</a>
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a359ce9ab9cefd6ecacd934d86709804b">COMMANDID_MOD_DAMAGE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaba9c3db0682f5694a7ae363d375001b">CMD_ACTIONINT_INTERRUPT</a> = -2
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a359ce9ab9cefd6ecacd934d86709804b">COMMANDID_MOD_DAMAGE</a>
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaba9c3db0682f5694a7ae363d375001b">CMD_ACTIONINT_INTERRUPT</a> = -2
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1105acd28dedfca7131a83fc45dff630">CMD_ACTIONINT_FINISH</a> = -1
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae10a74a2e4d731bc52e9edaf78027162">CMD_ACTIONINT_END</a> = 0
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abb40d6202a4ae1e12cf6287f956def9b">CMD_ACTIONINT_ACTION</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8e9d9cabf528ea620302a3e7e403c17b">CMD_ACTIONINT_ACTIONLOOP</a> = 2
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abb40d6202a4ae1e12cf6287f956def9b">CMD_ACTIONINT_ACTION</a> = 1
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8e9d9cabf528ea620302a3e7e403c17b">CMD_ACTIONINT_ACTIONLOOP</a> = 2
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82ab33d84e4f94c9a8382cd6a0081037">CMD_ACTIONMOD_DRINK</a> = 0
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8932a9d4022b49aab254bd62d272abf8">CMD_ACTIONMOD_EAT</a> = 1
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acdf1c699fb9b586a3c4fd30b765ffffc">CMD_ACTIONMOD_EMPTY_VESSEL</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac560516e703e61a7c8ddfbfc862c0d16">CMD_ACTIONMOD_CATCHRAIN</a> = 3
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acdf1c699fb9b586a3c4fd30b765ffffc">CMD_ACTIONMOD_EMPTY_VESSEL</a> = 2
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac560516e703e61a7c8ddfbfc862c0d16">CMD_ACTIONMOD_CATCHRAIN</a> = 3
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adb0252f6947193312e6e8340bc795071">CMD_ACTIONMOD_VIEWCOMPASS</a> = 7
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa9961820836d2e465f57399911f2ce97">CMD_ACTIONMOD_ITEM_TUNE</a> = 9
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a43da3af985cb93d86877d0adac268518">CMD_ACTIONMOD_GIVEL</a> = 10
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab7f1ad37836112edc85b1455c39627eb">CMD_ACTIONMOD_GIVER</a> = 11
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a43da3af985cb93d86877d0adac268518">CMD_ACTIONMOD_GIVEL</a> = 10
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab7f1ad37836112edc85b1455c39627eb">CMD_ACTIONMOD_GIVER</a> = 11
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a572d07c1fc06ad064270e7f0e323571a">CMD_ACTIONMOD_SHAVE</a> = 12
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8f0bcecbc31a3032068061293864674a">CMD_ACTIONMOD_FILLMAG</a> = 13
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acb3051c65f1d28b9a9915bb9c98bce5a">CMD_ACTIONMOD_EMPTYMAG</a> = 14
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad6804963037d836921acb6ae49e9449a">CMD_ACTIONMOD_OPENITEM</a> = 15
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acb3051c65f1d28b9a9915bb9c98bce5a">CMD_ACTIONMOD_EMPTYMAG</a> = 14
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad6804963037d836921acb6ae49e9449a">CMD_ACTIONMOD_OPENITEM</a> = 15
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad780f96429cacd10c0f3747b605beaef">CMD_ACTIONMOD_TAKETEMPSELF</a> = 18
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acb1eeb9c4a8e229be33bedfeac8381d2">CMD_ACTIONMOD_VIEWMAP</a> = 19
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a16b06bffe2c1bde5b7c538ab1712e813">CMD_ACTIONMOD_RAISEITEM</a> = 20
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af9dc507e06cd27b561f957d3e142e4ae">CMD_ACTIONMOD_SEARCHINVENTORY</a> = 21
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a16b06bffe2c1bde5b7c538ab1712e813">CMD_ACTIONMOD_RAISEITEM</a> = 20
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af9dc507e06cd27b561f957d3e142e4ae">CMD_ACTIONMOD_SEARCHINVENTORY</a> = 21
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a077a069ef8cd459e9a3035733842dc1c">CMD_ACTIONMOD_CRAFTING</a> = 22
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac9da51b9229f0b86c652c9245f88b579">CMD_ACTIONMOD_RESTRAINEDSTRUGGLE</a> = 23
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a440764a72639236d1d8718acea0e2e2d">CMD_ACTIONMOD_COVERHEAD_SELF</a> = 24
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adf831a70ad24ffede080fb3b75b76399">CMD_ACTIONMOD_COVERHEAD_TARGET</a> = 25
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a440764a72639236d1d8718acea0e2e2d">CMD_ACTIONMOD_COVERHEAD_SELF</a> = 24
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adf831a70ad24ffede080fb3b75b76399">CMD_ACTIONMOD_COVERHEAD_TARGET</a> = 25
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9ba7ea66c63a8409a8ed0e36d1aee17e">CMD_ACTIONMOD_SET_ALARM</a> = 250
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7d572fd81ad197cd0e39d39338a667d7">CMD_ACTIONMOD_SET_KITCHENTIMER</a> = 252
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae7648d82e5526432669f56c767f0cb1b">CMD_ACTIONMOD_RESET_KITCHENTIMER</a> = 253
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae26e5940c36dccfd3f2fed39c1745d35">CMD_ACTIONMOD_PICKUP_HANDS</a> = 500
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae7648d82e5526432669f56c767f0cb1b">CMD_ACTIONMOD_RESET_KITCHENTIMER</a> = 253
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae26e5940c36dccfd3f2fed39c1745d35">CMD_ACTIONMOD_PICKUP_HANDS</a> = 500
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abe26404ef0f14793bcf014d3b78bed3f">CMD_ACTIONMOD_PICKUP_INVENTORY</a> = 501
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3e6a8f93984dbee9e91611ff54a9446e">CMD_ACTIONMOD_LICKBATTERY</a> = 502
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5eae846a04b8cbb7944080a26d98b7a3">CMD_ACTIONMOD_LIGHTFLARE</a> = 503
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad65235e4ca1826f12ba9adb112055d4f">CMD_ACTIONMOD_LITCHEMLIGHT</a> = 504
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5eae846a04b8cbb7944080a26d98b7a3">CMD_ACTIONMOD_LIGHTFLARE</a> = 503
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad65235e4ca1826f12ba9adb112055d4f">CMD_ACTIONMOD_LITCHEMLIGHT</a> = 504
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8dc5e9c94909f0d5e4ba22724171c4d0">CMD_ACTIONMOD_UNPINGRENAGE</a> = 505
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afbb6552f482583269332d0f606041676">CMD_ACTIONMOD_OPENDOORFW</a> = 506
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0da71fea58dceb21d56799b0d961119c">CMD_ACTIONMOD_OPENLID</a> = 507
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aedc3bc3501da941b12fd51e05ae46066">CMD_ACTIONMOD_CLOSELID</a> = 508
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0da71fea58dceb21d56799b0d961119c">CMD_ACTIONMOD_OPENLID</a> = 507
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aedc3bc3501da941b12fd51e05ae46066">CMD_ACTIONMOD_CLOSELID</a> = 508
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6cee4c5b823dd30a014f066ad6c835bc">CMD_ACTIONMOD_ITEM_ON</a> = 509
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1bf0b2e46a95fdd7564683b96d8006cd">CMD_ACTIONMOD_ITEM_OFF</a> = 510
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac6752763716ec3ac83bbc896ba18f66a">CMD_ACTIONMOD_BATONEXTEND</a> = 511
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4a084dfda899639a932753d7d3645cdc">CMD_ACTIONMOD_BATONRETRACT</a> = 512
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac6752763716ec3ac83bbc896ba18f66a">CMD_ACTIONMOD_BATONEXTEND</a> = 511
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4a084dfda899639a932753d7d3645cdc">CMD_ACTIONMOD_BATONRETRACT</a> = 512
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab35fa8f09a0ae3284aac46147956d0e5">CMD_ACTIONMOD_UNLOCKHANDCUFFTARGET</a> = 513
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a713a26cf7120798888c72628cc03487f">CMD_ACTIONMOD_FISHINGRODEXTEND</a> = 514
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7e11e986680931ff689978c5b20ea094">CMD_ACTIONMOD_FISHINGRODRETRACT</a> = 515
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aab0c0c5899921a61deb6a31d3f247375">CMD_ACTIONMOD_CLEANHANDSBOTTLE</a> = 516
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7e11e986680931ff689978c5b20ea094">CMD_ACTIONMOD_FISHINGRODRETRACT</a> = 515
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aab0c0c5899921a61deb6a31d3f247375">CMD_ACTIONMOD_CLEANHANDSBOTTLE</a> = 516
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881addcfdbad3dc956accf3cb544c24fabc0">CMD_ACTIONMOD_OPENITEM_ONCE</a> = 517
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a01813458f4f4b25e5fc97171877546ed">CMD_ACTIONMOD_ATTACHSCOPE</a> = 518
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a193ae78a36ed97a395b3de8876bc02cf">CMD_ACTIONMOD_ATTACHBARREL</a> = 519
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6c481ffb9686d991054678286f1788c1">CMD_ACTIONMOD_EMPTYSEEDSPACK</a> = 520
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a193ae78a36ed97a395b3de8876bc02cf">CMD_ACTIONMOD_ATTACHBARREL</a> = 519
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6c481ffb9686d991054678286f1788c1">CMD_ACTIONMOD_EMPTYSEEDSPACK</a> = 520
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a17d16e92cbcdde0649b3b9799b50cd1e">CMD_ACTIONMOD_INTERACTONCE</a> = 521
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af0c0a8f38d4efc110738d31fc52c3723">CMD_ACTIONMOD_ATTACHITEM</a> = 522
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6a48e836a7e8b30a61c8dfaad148cb75">CMD_ACTIONMOD_CLOSEITEM_ONCE</a> = 523
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a92cc0f005388ec67ef02b439efef2762">CMD_ACTIONMOD_FOLDITEM_ONCE</a> = 524
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6a48e836a7e8b30a61c8dfaad148cb75">CMD_ACTIONMOD_CLOSEITEM_ONCE</a> = 523
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a92cc0f005388ec67ef02b439efef2762">CMD_ACTIONMOD_FOLDITEM_ONCE</a> = 524
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7d33cfd2f5e24c8504f83616827ffee6">CMD_ACTIONMOD_UNFOLDITEM_ONCE</a> = 525
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa628c9a4ad7b196f2d15c4974ebb3425">CMD_ACTIONMOD_PRESS_TRIGGER</a> = 526
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2d85cbbad06e2325704cbd5cc5b9d4a6">CMD_ACTIONMOD_STOP_ALARM</a> = 251
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4">CMD_ACTIONMOD_EAT_PILL</a> = 527
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2d85cbbad06e2325704cbd5cc5b9d4a6">CMD_ACTIONMOD_STOP_ALARM</a> = 251
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4">CMD_ACTIONMOD_EAT_PILL</a> = 527
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a180ab943f9aeceb589d3b5db0dbf6525">CMD_ACTIONMOD_EAT_TABLET</a> = 528
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ade0adfbe261b0a89154e6e852b8f469e">CMD_ACTIONMOD_HEATPACK</a> = 529
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4">CMD_ACTIONMOD_DROPITEM_HANDS</a> = 900
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef">CMD_ACTIONMOD_DROPITEM_INVENTORY</a> = 901
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66">CMD_ACTIONFB_DRINK</a> = 0
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8cf597d8fc3281dcee70ced1d5184a18">CMD_ACTIONMOD_BLOODTEST</a> = 530
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a35474557a32eef6f982597df7b8fcc6d">CMD_ACTIONMOD_BLOODTESTOTHER</a> = 531
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4">CMD_ACTIONMOD_DROPITEM_HANDS</a> = 900
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef">CMD_ACTIONMOD_DROPITEM_INVENTORY</a> = 901
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66">CMD_ACTIONFB_DRINK</a> = 0
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3f24a2b67f25b4cc10363e70db1333fd">CMD_ACTIONFB_EAT</a> = 1
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a74a2dda3adf8d046f9211721b9ef831c">CMD_ACTIONFB_CATCHRAIN</a> = 3
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aed9fd79b20bb6b97ace7c5392db7eb37">CMD_ACTIONFB_ITEM_TUNE</a> = 9
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aed9fd79b20bb6b97ace7c5392db7eb37">CMD_ACTIONFB_ITEM_TUNE</a> = 9
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af31ac0a911f357f7ff4d76c6bacbac89">CMD_ACTIONFB_GIVEL</a> = 10
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af31ac0a911f357f7ff4d76c6bacbac89">CMD_ACTIONFB_GIVEL</a> = 10
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a70e251700104a222db70523e924b02af">CMD_ACTIONFB_GIVER</a> = 11
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a033af898184771fc052453c0bf7c7db3">CMD_ACTIONFB_FILLMAG</a> = 13
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abe28d46a005d525c902abcccbaeb057a">CMD_ACTIONFB_EMPTYMAG</a> = 14
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abe28d46a005d525c902abcccbaeb057a">CMD_ACTIONFB_EMPTYMAG</a> = 14
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a452ad6de4b478c5563154aec0d132b5e">CMD_ACTIONFB_DRINKPOND</a> = 50
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a452ad6de4b478c5563154aec0d132b5e">CMD_ACTIONFB_DRINKPOND</a> = 50
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a4c13fba1075e2900fbcaac86475a3600">CMD_ACTIONFB_DRINKWELL</a> = 51
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab6f46a0105387ca14489db3b280be52b">CMD_ACTIONFB_FILLBOTTLEWELL</a> = 52
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac389a99239ad3ceb0f5b249e3f803b95">CMD_ACTIONFB_FIREESTINGUISHER</a> = 53
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac389a99239ad3ceb0f5b249e3f803b95">CMD_ACTIONFB_FIREESTINGUISHER</a> = 53
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1a0bb53a2ec11e4d7046b6577ad99d91">CMD_ACTIONFB_WRING</a> = 54
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1a0bb53a2ec11e4d7046b6577ad99d91">CMD_ACTIONFB_WRING</a> = 54
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1618d475a8a8eeca1a07fddddd7f1e4f">CMD_ACTIONFB_FISHING</a> = 56
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9f2cc9b0a3981515bafbdd1dabbd1e07">CMD_ACTIONFB_CPR</a> = 57
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a34fce013b27c92a75633c5c440687006">CMD_ACTIONFB_BANDAGE</a> = 58
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a34fce013b27c92a75633c5c440687006">CMD_ACTIONFB_BANDAGE</a> = 58
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a43d5903ffce24df40f365ef9494c2c15">CMD_ACTIONFB_CRAFTING</a> = 59
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a43d5903ffce24df40f365ef9494c2c15">CMD_ACTIONFB_CRAFTING</a> = 59
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ac0d9123669fe2f44605bce1770b3f2ff">CMD_ACTIONFB_INTERACT</a> = 60
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afde467aca84af145be02ca9f70e2307c">CMD_ACTIONFB_FORCEFEED</a> = 62
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aff2e59eae7969e07d7f871bee97f55fa">CMD_ACTIONFB_BANDAGETARGET</a> = 63
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aff2e59eae7969e07d7f871bee97f55fa">CMD_ACTIONFB_BANDAGETARGET</a> = 63
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a161ea5d0b75f3d2e4601389d892f3d8b">CMD_ACTIONFB_SPRAYPLANT</a> = 64
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a161ea5d0b75f3d2e4601389d892f3d8b">CMD_ACTIONFB_SPRAYPLANT</a> = 64
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab816bd79046e0bcd6463be4aadd48eb0">CMD_ACTIONFB_STARTFIRE</a> = 65
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881adce4e132e7be55241680745ffd7b2541">CMD_ACTIONFB_ANIMALSKINNING</a> = 66
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad312b26dba76f9ed0cb22060b8d418d8">CMD_ACTIONFB_WASHHANDSWELL</a> = 67
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ad312b26dba76f9ed0cb22060b8d418d8">CMD_ACTIONFB_WASHHANDSWELL</a> = 67
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaa340427279666783e4efc9dfabd2895">CMD_ACTIONFB_WASHHANDSPOND</a> = 68
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aaa340427279666783e4efc9dfabd2895">CMD_ACTIONFB_WASHHANDSPOND</a> = 68
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab3c6f271a12989d1e39e4a5020e9d6ea">CMD_ACTIONFB_SALINEBLOODBAGTARGET</a> = 69
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3da387c245359d3e7e0dc6f628cff24f">CMD_ACTIONFB_SALINEBLOODBAG</a> = 70
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acf01459a498f648712cb6b3827e82edd">CMD_ACTIONFB_STITCHUPSELF</a> = 71
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881acf01459a498f648712cb6b3827e82edd">CMD_ACTIONFB_STITCHUPSELF</a> = 71
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a50d8e6d88ee11b6bf20e547836264627">CMD_ACTIONFB_VOMIT</a> = 72
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a50d8e6d88ee11b6bf20e547836264627">CMD_ACTIONFB_VOMIT</a> = 72
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a56855ac690b07daaa85c8b2da1d69463">CMD_ACTIONFB_UNRESTRAINTARGET</a> = 73
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1c2a57a88c082dc16b5021398d7dee75">CMD_ACTIONFB_RESTRAINTARGET</a> = 74
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab48cb9eab4ff8676691e6e43eb49ccfd">CMD_ACTIONFB_CHECKPULSE</a> = 76
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab48cb9eab4ff8676691e6e43eb49ccfd">CMD_ACTIONFB_CHECKPULSE</a> = 76
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6943fbc3eb1b460dc45bfba12624563a">CMD_ACTIONFB_CLEANWOUNDSTARGET</a> = 78
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6943fbc3eb1b460dc45bfba12624563a">CMD_ACTIONFB_CLEANWOUNDSTARGET</a> = 78
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aebb2f4ddfcc5c7d1b6824d60f8e9d933">CMD_ACTIONFB_COLLECTBLOODSELF</a> = 81
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a69a918196178725a39d9a5d9b5ff3e18">CMD_ACTIONFB_EMPTY_VESSEL</a> = 82
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ace25c5894b9017496fecc0fd8a40d15e">CMD_ACTIONFB_OPENITEM</a> = 83
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ace25c5894b9017496fecc0fd8a40d15e">CMD_ACTIONFB_OPENITEM</a> = 83
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1cb70fb85c536bbd51f1c125bba08f90">CMD_ACTIONFB_HACKBUSH</a> = 85
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1cb70fb85c536bbd51f1c125bba08f90">CMD_ACTIONFB_HACKBUSH</a> = 85
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae1980aa5d01433db8e8ce880a111571d">CMD_ACTIONFB_HACKTREE</a> = 86
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6339dfb0d640870d75d6654c20bdb6d6">CMD_ACTIONFB_TAKETEMPSELF</a> = 87
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5f4e0c7ffd6e697095cdf222bd01b778">CMD_ACTIONFB_DIG</a> = 88
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5f4e0c7ffd6e697095cdf222bd01b778">CMD_ACTIONFB_DIG</a> = 88
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afca6543308b43895a2f3ea8d1bbca7b4">CMD_ACTIONFB_DIGUPCACHE</a> = 89
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afca6543308b43895a2f3ea8d1bbca7b4">CMD_ACTIONFB_DIGUPCACHE</a> = 89
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa42151748ee308b1a4cdf11d1bb86d04">CMD_ACTIONFB_DIGMANIPULATE</a> = 90
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aedf06824a4cc2823230a25515f917842">CMD_ACTIONFB_DEPLOY_HEAVY</a> = 95
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3c90132d71baee951a6daa999f1e6331">CMD_ACTIONFB_DEPLOY_2HD</a> = 96
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3c90132d71baee951a6daa999f1e6331">CMD_ACTIONFB_DEPLOY_2HD</a> = 96
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5021b3a52953cb85bf6e36661b03cc2c">CMD_ACTIONFB_DEPLOY_1HD</a> = 97
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5021b3a52953cb85bf6e36661b03cc2c">CMD_ACTIONFB_DEPLOY_1HD</a> = 97
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7d5dcfabc47a8d6f9b3158c58ba2b9d3">CMD_ACTIONFB_BLOWFIREPLACE</a> = 98
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a192a85593097c5a1f13dea353511327d">CMD_ACTIONFB_VIEWMAP</a> = 99
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a033aeb6c9546ccda41155784eb2ca2e7">CMD_ACTIONFB_VIEWCOMPASS</a> = 100
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a033aeb6c9546ccda41155784eb2ca2e7">CMD_ACTIONFB_VIEWCOMPASS</a> = 100
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a09c71c81ae919bc3006bd2539f8066f1">CMD_ACTIONFB_FILLBOTTLEPOND</a> = 101
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a09c71c81ae919bc3006bd2539f8066f1">CMD_ACTIONFB_FILLBOTTLEPOND</a> = 101
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a1843b75f38227312015049051d64b0e7">CMD_ACTIONFB_PLACING_HEAVY</a> = 102
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af623d33489c3d0a3bc2038fce08fa6ed">CMD_ACTIONFB_PLACING_2HD</a> = 103
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9b1be8682166325e7a7a04d1bb2d113c">CMD_ACTIONFB_PLACING_1HD</a> = 104
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9b1be8682166325e7a7a04d1bb2d113c">CMD_ACTIONFB_PLACING_1HD</a> = 104
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0fe6dbcf7c4acd219f250a67a56efd0a">CMD_ACTIONFB_CUTBARK</a> = 105
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0fe6dbcf7c4acd219f250a67a56efd0a">CMD_ACTIONFB_CUTBARK</a> = 105
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aba01aa417a9025690c3849cf285e38d5">CMD_ACTIONFB_VIEWNOTE</a> = 106
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af234ac42f846daf1014ce91af9876820">CMD_ACTIONFB_SEARCHINVENTORY</a> = 107
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a10dcc89536f3f8d73fed1687313d0ee2">CMD_GESTUREFB_LOOKOPTICS</a> = 108
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a10dcc89536f3f8d73fed1687313d0ee2">CMD_GESTUREFB_LOOKOPTICS</a> = 108
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9cd12f4efb058c926cdd449eb6c9464b">CMD_ACTIONFB_MINEROCK</a> = 109
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9cd12f4efb058c926cdd449eb6c9464b">CMD_ACTIONFB_MINEROCK</a> = 109
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab64d2944a054e58d2208ec2b1c23cb09">CMD_ACTIONFB_RAISEITEM</a> = 110
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a5474826d33f76074a97f764cee255267">CMD_ACTIONFB_RESTRAINEDSTRUGGLE</a> = 111
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7960a701452867a6af64a7f48ceebae2">CMD_ACTIONFB_RESTRAINSELF</a> = 112
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a7960a701452867a6af64a7f48ceebae2">CMD_ACTIONFB_RESTRAINSELF</a> = 112
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af888d25efd8e5565b9d0798a96dbb047">CMD_ACTIONFB_ASSEMBLE</a> = 113
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af888d25efd8e5565b9d0798a96dbb047">CMD_ACTIONFB_ASSEMBLE</a> = 113
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ab9674e503d1de37b1fb7624732ed8993">CMD_ACTIONFB_DISASSEMBLE</a> = 114
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aea7fbb0db8cb05ac7e7b780c6f5de572">CMD_ACTIONFB_FLAME_REPAIR</a> = 115
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a106c6280709e1d0260d8d83dacf60ffa">CMD_ACTIONFB_TURN_VALVE</a> = 116
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a106c6280709e1d0260d8d83dacf60ffa">CMD_ACTIONFB_TURN_VALVE</a> = 116
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569">CMD_ACTIONFB_SET_ALARM</a> = 250
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569">CMD_ACTIONFB_SET_ALARM</a> = 250
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a19305e1c7a0b8d63efd21a70ff91d35f">CMD_ACTIONFB_SHOVEL_DIG</a> = 117
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a819f03cb327b656e2db53510c6265585">CMD_ACTIONFB_VEHICLE_PUSH</a> = 118
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa34ee18b158aee73453364b186bc62fb">CMD_ACTIONFB_PATCHING_TIRE</a> = 119
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6cf599306aa042fa8a12ac1d051b2251">CMD_ACTIONFB_PICKUP_HANDS</a> = 500
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa9cdd6c8c34c92b46a713acf1a009a87">CMD_ACTIONFB_PATCHING_DUCTTAPE</a> = 120
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fadb4c5ba9d12da9c91375d05013a04">CMD_ACTIONFB_PATCHING_SEWING</a> = 121
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a312d2eab90acc66b39a5697a5013e983">CMD_ACTIONFB_PATCHING_LEATHER_SEWING_KIT</a> = 122
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a88bcc3d0b751635a71972060c8f2d6ed">CMD_ACTIONFB_SPLITTING_FIREWOOD</a> = 123
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa4aded47e25481aa8c73f9d8ed3c7bc3">CMD_ACTIONFB_BREAKING_STICK</a> = 124
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881afd056306b1d206a04ba88d4c6d7ee457">CMD_ACTIONFB_CLEANING_WEAPON</a> = 125
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6cf599306aa042fa8a12ac1d051b2251">CMD_ACTIONFB_PICKUP_HANDS</a> = 500
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae1840de4d39743dd653819542c090c6d">CMD_ACTIONFB_PICKUP_INVENTORY</a> = 501
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121">CMD_ACTIONFB_LICKBATTERY</a> = 502
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121">CMD_ACTIONFB_LICKBATTERY</a> = 502
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a687229198cc811fdaf504e1209203ffa">CMD_ACTIONFB_LIGHTFLARE</a> = 503
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a815fec8e83eac7aa0393b9146648bba0">CMD_ACTIONFB_LITCHEMLIGHT</a> = 504
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a815fec8e83eac7aa0393b9146648bba0">CMD_ACTIONFB_LITCHEMLIGHT</a> = 504
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a344d7a3c9e634e2edf668a0870a63034">CMD_ACTIONFB_UNPINGRENAGE</a> = 505
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fcf401fd0b203e31b1f7fef04528499">CMD_ACTIONFB_ITEM_ON</a> = 506
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fcf401fd0b203e31b1f7fef04528499">CMD_ACTIONFB_ITEM_ON</a> = 506
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0bb8f473c14de5c04d087d04de2b6e3f">CMD_ACTIONFB_ITEM_OFF</a> = 507
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa47a8d84b96b96af80f63e0baddd6d45">CMD_ACTIONFB_HANDCUFFTARGET</a> = 508
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aa47a8d84b96b96af80f63e0baddd6d45">CMD_ACTIONFB_HANDCUFFTARGET</a> = 508
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a72f71ba3b549abb1be0c8bba282d1919">CMD_ACTIONFB_MORPHINE</a> = 509
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aafde8c143cbdfff90f223124aa697971">CMD_ACTIONFB_INJECTION</a> = 510
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881aafde8c143cbdfff90f223124aa697971">CMD_ACTIONFB_INJECTION</a> = 510
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a13336299ffab21bd9e82b4c9ef957028">CMD_ACTIONFB_INJECTIONTARGET</a> = 511
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0bce5aa06cb1230bbaa1a3fffe8fb6d1">CMD_ACTIONFB_DRINKSIP</a> = 512
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a0bce5aa06cb1230bbaa1a3fffe8fb6d1">CMD_ACTIONFB_DRINKSIP</a> = 512
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2499ddde36d1d4aab531901102e02522">CMD_ACTIONFB_CLEANHANDSBOTTLE</a> = 513
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82d4f7d6e9a215abf76b7471b93affb5">CMD_ACTIONFB_OPENITEM_ONCE</a> = 514
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a82d4f7d6e9a215abf76b7471b93affb5">CMD_ACTIONFB_OPENITEM_ONCE</a> = 514
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a35c24a40d55fc7d23c1ec930fd970523">CMD_ACTIONFB_POKE</a> = 515
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6b8a1c82977543e34e30a989ea808611">CMD_ACTIONFB_ATTACHSCOPE</a> = 516
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6b8a1c82977543e34e30a989ea808611">CMD_ACTIONFB_ATTACHSCOPE</a> = 516
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2fcb862b7872790dca548c94cf9d7374">CMD_ACTIONFB_ATTACHBARREL</a> = 517
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9de82006128f175a8e591de44443eac9">CMD_ACTIONFB_RESTRAIN</a> = 518
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a9de82006128f175a8e591de44443eac9">CMD_ACTIONFB_RESTRAIN</a> = 518
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881af45026903963b8e9beb62a6a1c4fde2e">CMD_ACTIONFB_PICKUP_HEAVY</a> = 519
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8189c4a2fe3fd2d1ab29b7b394fd3f3a">CMD_ACTIONFB_PRESS_TRIGGER</a> = 526
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8189c4a2fe3fd2d1ab29b7b394fd3f3a">CMD_ACTIONFB_PRESS_TRIGGER</a> = 526
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ace3369846920d313228ffaa044454806">CMD_ACTIONFB_RAISE_FLAG</a> = 600
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a965663080a6172e10bc261dd876bb925">CMD_ACTIONFB_LOWER_FLAG</a> = 601
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a173698d6a7e31caae176d60a813b640f">CMD_ACTIONFB_STOP_ALARM</a> = 251
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae178aae214557b400ffc69933916a20a">CMD_ACTIONFB_EAT_PILL</a> = 527
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a965663080a6172e10bc261dd876bb925">CMD_ACTIONFB_LOWER_FLAG</a> = 601
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a173698d6a7e31caae176d60a813b640f">CMD_ACTIONFB_STOP_ALARM</a> = 251
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881ae178aae214557b400ffc69933916a20a">CMD_ACTIONFB_EAT_PILL</a> = 527
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a27c19ef0efa8f9512df5c6cff55e9c09">CMD_ACTIONFB_EAT_TABLET</a> = 528
-, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c">CMD_ACTIONFB_HEATPACK</a> = 529
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c">CMD_ACTIONFB_HEATPACK</a> = 529
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a6fab283212cde9f3a7076d0cbe55663d">CMD_ACTIONFB_DROPITEM_HANDS</a> = 900
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abae2d5fc461fecbbdae509901f64c649">CMD_TRAILER_MASK</a> = 3006
+, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a2389773f45fd8e92a0f3b9837eca24f8">CMD_TRAILER_MASK_02</a> = 3007
 , <br />
 &#160;&#160;<a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44">CMD_ACTIONMOD_STARTENGINE</a> = 300
 , <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881abd0d92cd274516dd4a926f356c42b6d8">CMD_ACTIONMOD_TOOTHORN</a> = 301
@@ -582,15 +597,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a7fa8ac2e6831ab58e08840336f14fab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a7fa8ac2e6831ab58e08840336f14fab8">SendRecoilOffsetZ</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> offset)</td></tr>
 <tr class="memdesc:a7fa8ac2e6831ab58e08840336f14fab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">m_fCamPosOffsetZ info, used to adjust near plane in DayZPlayerCameraIronsights now  <br /></td></tr>
 <tr class="separator:a7fa8ac2e6831ab58e08840336f14fab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3721de91fdbc54fff4c0ec0dd23a9fed"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../df/dd2/class_day_z_player_type_step_sound_lookup_table.html">DayZPlayerTypeStepSoundLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a3721de91fdbc54fff4c0ec0dd23a9fed">GetSoundBuilder</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> eventId, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> parameterHash)</td></tr>
+<tr class="memitem:a3721de91fdbc54fff4c0ec0dd23a9fed"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../df/dd2/class_day_z_player_type_step_sound_lookup_table.html">DayZPlayerTypeStepSoundLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a3721de91fdbc54fff4c0ec0dd23a9fed">GetSoundBuilder</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> eventId, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> parameterHash)</td></tr>
 <tr class="separator:a3721de91fdbc54fff4c0ec0dd23a9fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07e734d5063f7b4b0030c6ae653f053f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db9/class_sound_object_builder.html">SoundObjectBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a07e734d5063f7b4b0030c6ae653f053f">GetSoundBuilder</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> eventId, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pMovement, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pSurfaceHash, <a class="el" href="../../d1/d0d/_day_z_anim_events_8c.html#abf5c5e3e198bab13b000991b2ea0bf8b">AnimBootsType</a> pBoots)</td></tr>
+<tr class="memitem:a07e734d5063f7b4b0030c6ae653f053f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db9/class_sound_object_builder.html">SoundObjectBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a07e734d5063f7b4b0030c6ae653f053f">GetSoundBuilder</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> eventId, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pMovement, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pSurfaceHash, <a class="el" href="../../d1/d0d/_day_z_anim_events_8c.html#abf5c5e3e198bab13b000991b2ea0bf8b">AnimBootsType</a> pBoots)</td></tr>
 <tr class="separator:a07e734d5063f7b4b0030c6ae653f053f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea8174c17396f6c205062d17adafda58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d27/_noise_8c.html#aceda78b4f4625e1c9901f7bf4a7f5cf0">NoiseParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#aea8174c17396f6c205062d17adafda58">GetNoiseParams</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> eventId)</td></tr>
+<tr class="memitem:aea8174c17396f6c205062d17adafda58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d27/_noise_8c.html#aceda78b4f4625e1c9901f7bf4a7f5cf0">NoiseParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#aea8174c17396f6c205062d17adafda58">GetNoiseParams</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> eventId)</td></tr>
 <tr class="separator:aea8174c17396f6c205062d17adafda58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb6cc4bb70980229ecae098bb6075970"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d2/d9f/class_day_z_player_type_attachment_sound_lookup_table.html">DayZPlayerTypeAttachmentSoundLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#acb6cc4bb70980229ecae098bb6075970">GetSoundEvent</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> event_id)</td></tr>
+<tr class="memitem:acb6cc4bb70980229ecae098bb6075970"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d2/d9f/class_day_z_player_type_attachment_sound_lookup_table.html">DayZPlayerTypeAttachmentSoundLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#acb6cc4bb70980229ecae098bb6075970">GetSoundEvent</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> event_id)</td></tr>
 <tr class="separator:acb6cc4bb70980229ecae098bb6075970"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a00ff4c3559b2b0f203e1ef71ff9e21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db9/class_sound_object_builder.html">SoundObjectBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a1a00ff4c3559b2b0f203e1ef71ff9e21">GetSoundBuilder</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> eventId, <a class="el" href="../../d5/d92/classstring.html">string</a> <a class="el" href="../../d0/dd4/_cfg_player_spawn_data_json_8c.html#ad99b887e4b51af1a438d1fb17e5c54a3">slotName</a>, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> attachmentHash)</td></tr>
+<tr class="memitem:a1a00ff4c3559b2b0f203e1ef71ff9e21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db9/class_sound_object_builder.html">SoundObjectBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a1a00ff4c3559b2b0f203e1ef71ff9e21">GetSoundBuilder</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> eventId, <a class="el" href="../../d5/d92/classstring.html">string</a> <a class="el" href="../../d0/dd4/_cfg_player_spawn_data_json_8c.html#ad99b887e4b51af1a438d1fb17e5c54a3">slotName</a>, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> attachmentHash)</td></tr>
 <tr class="separator:a1a00ff4c3559b2b0f203e1ef71ff9e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9ae1998034f7a5cd9d5a9a0efeebe5"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../db/d97/class_vegetation_sound.html">VegetationSound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a8c9ae1998034f7a5cd9d5a9a0efeebe5">SetDefaultItemInHandsProfile</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pAnimInstanceName, <a class="el" href="../../d1/d74/class_human_item_behavior_cfg.html">HumanItemBehaviorCfg</a> pBehaviorCfg)</td></tr>
 <tr class="separator:a8c9ae1998034f7a5cd9d5a9a0efeebe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -603,12 +618,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ad15b8e4acef278635f4fed3374f4687b"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ad15b8e4acef278635f4fed3374f4687b">ResetItemInHandsProfiles</a> ()</td></tr>
 <tr class="memdesc:ad15b8e4acef278635f4fed3374f4687b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset profiles  <br /></td></tr>
 <tr class="separator:ad15b8e4acef278635f4fed3374f4687b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae2d0b63669763e34d4f0f8670192f6"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a5ae2d0b63669763e34d4f0f8670192f6">AddItemInHandsProfile</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pItemClass, <a class="el" href="../../d5/d92/classstring.html">string</a> pAnimInstanceName, <a class="el" href="../../d1/d74/class_human_item_behavior_cfg.html">HumanItemBehaviorCfg</a> pBehaviorCfg)</td></tr>
+<tr class="memitem:a5ae2d0b63669763e34d4f0f8670192f6"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a5ae2d0b63669763e34d4f0f8670192f6">AddItemInHandsProfile</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pItemClass, <a class="el" href="../../d5/d92/classstring.html">string</a> pAnimInstanceName, <a class="el" href="../../d1/d74/class_human_item_behavior_cfg.html">HumanItemBehaviorCfg</a> pBehaviorCfg)</td></tr>
 <tr class="memdesc:a5ae2d0b63669763e34d4f0f8670192f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">VKOSTIK: DO NOT FORGET !!! HumanItemBehaviorCfg.m_iPerItemCameraUD - per item camera user data - enables you setup different cameras for different items in hands.  <br /></td></tr>
 <tr class="separator:a5ae2d0b63669763e34d4f0f8670192f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a3abc058a21c8adab0aa73c2e8a76e9"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a0a3abc058a21c8adab0aa73c2e8a76e9">AddItemInHandsProfileIK</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pItemClass, <a class="el" href="../../d5/d92/classstring.html">string</a> pAnimInstanceName, <a class="el" href="../../d1/d74/class_human_item_behavior_cfg.html">HumanItemBehaviorCfg</a> pBehaviorCfg, <a class="el" href="../../d5/d92/classstring.html">string</a> pIkPoseAnim, <a class="el" href="../../d5/d92/classstring.html">string</a> pWeaponStates=&quot;&quot;)</td></tr>
+<tr class="memitem:a0a3abc058a21c8adab0aa73c2e8a76e9"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a0a3abc058a21c8adab0aa73c2e8a76e9">AddItemInHandsProfileIK</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pItemClass, <a class="el" href="../../d5/d92/classstring.html">string</a> pAnimInstanceName, <a class="el" href="../../d1/d74/class_human_item_behavior_cfg.html">HumanItemBehaviorCfg</a> pBehaviorCfg, <a class="el" href="../../d5/d92/classstring.html">string</a> pIkPoseAnim, <a class="el" href="../../d5/d92/classstring.html">string</a> pWeaponStates=&quot;&quot;)</td></tr>
 <tr class="separator:a0a3abc058a21c8adab0aa73c2e8a76e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad25b1ec00fb90193a7d2aef69414715"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#aad25b1ec00fb90193a7d2aef69414715">AddItemBoneRemap</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pItemClass, <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d5/d92/classstring.html">string</a> &gt; pBoneRemap)</td></tr>
+<tr class="memitem:aad25b1ec00fb90193a7d2aef69414715"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#aad25b1ec00fb90193a7d2aef69414715">AddItemBoneRemap</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pItemClass, <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d5/d92/classstring.html">string</a> &gt; pBoneRemap)</td></tr>
 <tr class="separator:aad25b1ec00fb90193a7d2aef69414715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a650ed04f882f91bbd8df779e5878cd2c"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a650ed04f882f91bbd8df779e5878cd2c">DebugPreloadAnimationInstances</a> ()</td></tr>
 <tr class="memdesc:a650ed04f882f91bbd8df779e5878cd2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug / hack - loads all animation instances  <br /></td></tr>
@@ -616,7 +631,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a7074bf2b8c380d543bfaf1f1133d5a88"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a7074bf2b8c380d543bfaf1f1133d5a88">ResetCameraCreators</a> ()</td></tr>
 <tr class="memdesc:a7074bf2b8c380d543bfaf1f1133d5a88"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets camera creators  <br /></td></tr>
 <tr class="separator:a7074bf2b8c380d543bfaf1f1133d5a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1af2a4c918b184f5a04fd54e8b5a1d"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a2c1af2a4c918b184f5a04fd54e8b5a1d">RegisterCameraCreator</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pCameraID, <a class="el" href="../../d2/db4/classtypename.html">typename</a> pCameraType)</td></tr>
+<tr class="memitem:a2c1af2a4c918b184f5a04fd54e8b5a1d"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a2c1af2a4c918b184f5a04fd54e8b5a1d">RegisterCameraCreator</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pCameraID, <a class="el" href="../../d2/db4/classtypename.html">typename</a> pCameraType)</td></tr>
 <tr class="memdesc:a2c1af2a4c918b184f5a04fd54e8b5a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers camera creator - camera type =&gt; camera type (must be descendant of DayZPlayerCamera)  <br /></td></tr>
 <tr class="separator:a2c1af2a4c918b184f5a04fd54e8b5a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fb86b9dcf55885155a70b0d2cec95ef"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a2fb86b9dcf55885155a70b0d2cec95ef">RegisterCameraOnChangeFnStatic</a> (<a class="el" href="../../d2/db4/classtypename.html">typename</a> pClass, <a class="el" href="../../d5/d92/classstring.html">string</a> pFnName)</td></tr>
@@ -637,7 +652,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a2990743698d670d839d7afd5ab104b80"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a2990743698d670d839d7afd5ab104b80">SetCameraShootParams</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pRayDistance, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pRayRadius, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pMaxAngleCos)</td></tr>
 <tr class="memdesc:a2990743698d670d839d7afd5ab104b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets aim limits for a player  <br /></td></tr>
 <tr class="separator:a2990743698d670d839d7afd5ab104b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5cd796ee9be51cb550db1699b3dc944"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ac5cd796ee9be51cb550db1699b3dc944">GetHeadBoneIdx</a> ()</td></tr>
+<tr class="memitem:ac5cd796ee9be51cb550db1699b3dc944"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ac5cd796ee9be51cb550db1699b3dc944">GetHeadBoneIdx</a> ()</td></tr>
 <tr class="separator:ac5cd796ee9be51cb550db1699b3dc944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7ae9db0db824ec442cadbc883f3ed48"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ac7ae9db0db824ec442cadbc883f3ed48">RegisterStepEvent</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> pEventType, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pFilterTimeout)</td></tr>
 <tr class="memdesc:ac7ae9db0db824ec442cadbc883f3ed48"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="../../db/d2e/class_day_z_player.html#ad482dbbe14284552629859fd89bad353">DayZPlayer.OnStepEvent()</a>;  <br /></td></tr>
@@ -686,7 +701,7 @@ Functions</h2></td></tr>
 <tr class="separator:a75d7459010bf214e7250d8f41e3855ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe574c1e09a1b2c92fd2a3f829811b9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#afe574c1e09a1b2c92fd2a3f829811b9b">LoadVegetationSounds</a> ()</td></tr>
 <tr class="separator:afe574c1e09a1b2c92fd2a3f829811b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59553acdb23271cd840771a7ad4fec6c"><td class="memItemLeft" align="right" valign="top">AnimSoundEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a59553acdb23271cd840771a7ad4fec6c">GetSoundWeaponEvent</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> event_id)</td></tr>
+<tr class="memitem:a59553acdb23271cd840771a7ad4fec6c"><td class="memItemLeft" align="right" valign="top">AnimSoundEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a59553acdb23271cd840771a7ad4fec6c">GetSoundWeaponEvent</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> event_id)</td></tr>
 <tr class="separator:a59553acdb23271cd840771a7ad4fec6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b569e83e675a0332a655b16d4fe2cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a50b569e83e675a0332a655b16d4fe2cd">RegisterHitComponentsForAI</a> ()</td></tr>
 <tr class="memdesc:a50b569e83e675a0332a655b16d4fe2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">register hit components for AI melee (used by attacking AI)  <br /></td></tr>
@@ -730,10 +745,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a906b402c12e147fb467180bf74706e22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a906b402c12e147fb467180bf74706e22">AimingModel</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, <a class="el" href="../../de/d4b/class_s_day_z_player_aiming_model.html">SDayZPlayerAimingModel</a> pModel)</td></tr>
 <tr class="memdesc:a906b402c12e147fb467180bf74706e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; aiming model ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:a906b402c12e147fb467180bf74706e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6350a0773d57dbef4c073d8ac3ba7cdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6350a0773d57dbef4c073d8ac3ba7cdf">CommandHandler</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pCurrentCommandID, <a class="el" href="../../d9/db9/classbool.html">bool</a> pCurrentCommandFinished)</td></tr>
+<tr class="memitem:a6350a0773d57dbef4c073d8ac3ba7cdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6350a0773d57dbef4c073d8ac3ba7cdf">CommandHandler</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pCurrentCommandID, <a class="el" href="../../d9/db9/classbool.html">bool</a> pCurrentCommandFinished)</td></tr>
 <tr class="memdesc:a6350a0773d57dbef4c073d8ac3ba7cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; command handling ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:a6350a0773d57dbef4c073d8ac3ba7cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10808d1f92a1080ffd022dca67e67c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a10808d1f92a1080ffd022dca67e67c12">CameraHandler</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pCameraMode)</td></tr>
+<tr class="memitem:a10808d1f92a1080ffd022dca67e67c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a10808d1f92a1080ffd022dca67e67c12">CameraHandler</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pCameraMode)</td></tr>
 <tr class="memdesc:a10808d1f92a1080ffd022dca67e67c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; camera handling ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:a10808d1f92a1080ffd022dca67e67c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f0bac197ac2e0e4885bda0f0ed4e5ef"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d3/d58/dayzplayer_8c.html#aec7df242d6c8a470331cdb4d38bb4ab4">DayZPlayerCamera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6f0bac197ac2e0e4885bda0f0ed4e5ef">GetCurrentCamera</a> ()</td></tr>
@@ -742,24 +757,24 @@ Functions</h2></td></tr>
 <tr class="memitem:ac2e383b47c9aa81fae18e3a4f7ded405"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ac2e383b47c9aa81fae18e3a4f7ded405">GetCurrentCameraTransform</a> (out <a class="el" href="../../d7/dfc/classvector.html">vector</a> position, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> direction, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> rotation)</td></tr>
 <tr class="memdesc:ac2e383b47c9aa81fae18e3a4f7ded405"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets transform of current player camera  <br /></td></tr>
 <tr class="separator:ac2e383b47c9aa81fae18e3a4f7ded405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9db37b05de52bea8381c35ea431e85e7"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9db37b05de52bea8381c35ea431e85e7">GetCurrentPerItemCameraUD</a> ()</td></tr>
+<tr class="memitem:a9db37b05de52bea8381c35ea431e85e7"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9db37b05de52bea8381c35ea431e85e7">GetCurrentPerItemCameraUD</a> ()</td></tr>
 <tr class="memdesc:a9db37b05de52bea8381c35ea431e85e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets current camera  <br /></td></tr>
 <tr class="separator:a9db37b05de52bea8381c35ea431e85e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16a26e94aa7f0d755b6578f776f22e6a"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a16a26e94aa7f0d755b6578f776f22e6a">IsCameraBlending</a> ()</td></tr>
 <tr class="separator:a16a26e94aa7f0d755b6578f776f22e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90bbfbe4eac90f8b3da8ea40a28cf534"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a90bbfbe4eac90f8b3da8ea40a28cf534">AnimCallCommand</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pCommand, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pParamInt, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pParamFloat)</td></tr>
+<tr class="memitem:a90bbfbe4eac90f8b3da8ea40a28cf534"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a90bbfbe4eac90f8b3da8ea40a28cf534">AnimCallCommand</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pCommand, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pParamInt, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pParamFloat)</td></tr>
 <tr class="memdesc:a90bbfbe4eac90f8b3da8ea40a28cf534"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; animation graph functions ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:a90bbfbe4eac90f8b3da8ea40a28cf534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9be07577a51a938ca85fede39aa99b04"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9be07577a51a938ca85fede39aa99b04">AnimSetFloat</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pVar, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pFlt)</td></tr>
+<tr class="memitem:a9be07577a51a938ca85fede39aa99b04"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9be07577a51a938ca85fede39aa99b04">AnimSetFloat</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pVar, <a class="el" href="../../d4/dc3/classfloat.html">float</a> pFlt)</td></tr>
 <tr class="separator:a9be07577a51a938ca85fede39aa99b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5401b56e8934e6d761f8c2f8635e1d"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9f5401b56e8934e6d761f8c2f8635e1d">AnimSetInt</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pVar, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pInt)</td></tr>
+<tr class="memitem:a9f5401b56e8934e6d761f8c2f8635e1d"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9f5401b56e8934e6d761f8c2f8635e1d">AnimSetInt</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pVar, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pInt)</td></tr>
 <tr class="separator:a9f5401b56e8934e6d761f8c2f8635e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2671b15abcfb35f343f09ec01a09bb90"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a2671b15abcfb35f343f09ec01a09bb90">AnimSetBool</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pVar, <a class="el" href="../../d9/db9/classbool.html">bool</a> pBool)</td></tr>
+<tr class="memitem:a2671b15abcfb35f343f09ec01a09bb90"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a2671b15abcfb35f343f09ec01a09bb90">AnimSetBool</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pVar, <a class="el" href="../../d9/db9/classbool.html">bool</a> pBool)</td></tr>
 <tr class="separator:a2671b15abcfb35f343f09ec01a09bb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac38ab48a1a15aedb02fb5c98548c201c"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ac38ab48a1a15aedb02fb5c98548c201c">Random</a> ()</td></tr>
+<tr class="memitem:ac38ab48a1a15aedb02fb5c98548c201c"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ac38ab48a1a15aedb02fb5c98548c201c">Random</a> ()</td></tr>
 <tr class="memdesc:ac38ab48a1a15aedb02fb5c98548c201c"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; deterministic random numbers ---------------------&mdash;  <br /></td></tr>
 <tr class="separator:ac38ab48a1a15aedb02fb5c98548c201c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56af590fd74d489b7a821178a9d1037e"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a56af590fd74d489b7a821178a9d1037e">RandomRange</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pRange)</td></tr>
+<tr class="memitem:a56af590fd74d489b7a821178a9d1037e"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a56af590fd74d489b7a821178a9d1037e">RandomRange</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pRange)</td></tr>
 <tr class="memdesc:a56af590fd74d489b7a821178a9d1037e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random number in range of &lt;0,pRange-1&gt; - !!! use this only during deterministic simulation (CommandHandler)  <br /></td></tr>
 <tr class="separator:a56af590fd74d489b7a821178a9d1037e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9903beb5d318f7a8b7688c503a39b9"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a1a9903beb5d318f7a8b7688c503a39b9">Random01</a> ()</td></tr>
@@ -768,7 +783,7 @@ Functions</h2></td></tr>
 <tr class="memitem:af33f6a5d590ab4d4fabff14b823a859f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#af33f6a5d590ab4d4fabff14b823a859f">IsEyeZoom</a> ()</td></tr>
 <tr class="memdesc:af33f6a5d590ab4d4fabff14b823a859f"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRICATED(use GetEyeZoomLevel()) returns true if player is using EyeZoom, otherwise false.  <br /></td></tr>
 <tr class="separator:af33f6a5d590ab4d4fabff14b823a859f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9528488b6e6ee30676335ba86453f97b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9528488b6e6ee30676335ba86453f97b">GetEyeZoomLevel</a> ()</td></tr>
+<tr class="memitem:a9528488b6e6ee30676335ba86453f97b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a9528488b6e6ee30676335ba86453f97b">GetEyeZoomLevel</a> ()</td></tr>
 <tr class="memdesc:a9528488b6e6ee30676335ba86453f97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns eye zoom level, uses ECameraZoomType values  <br /></td></tr>
 <tr class="separator:a9528488b6e6ee30676335ba86453f97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade32f6f1b4b06d98e56133d30d29f734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ade32f6f1b4b06d98e56133d30d29f734">IsShootingFromCamera</a> ()</td></tr>
@@ -786,10 +801,10 @@ Functions</h2></td></tr>
 <tr class="memitem:af258e21fdbd59ee0d897366c6134b28b"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../dc/d9c/class_melee_combat_data.html">MeleeCombatData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#af258e21fdbd59ee0d897366c6134b28b">GetMeleeCombatData</a> ()</td></tr>
 <tr class="memdesc:af258e21fdbd59ee0d897366c6134b28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes melee hit  <br /></td></tr>
 <tr class="separator:af258e21fdbd59ee0d897366c6134b28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7750b427c0a6c6ed423b3e98584d68c7"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a7750b427c0a6c6ed423b3e98584d68c7">ProcessMeleeHit</a> (<a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a> pMeleeWeapon, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pMeleeModeIndex, <a class="el" href="../../d8/d83/class_object.html">Object</a> pTarget, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pComponentIndex, <a class="el" href="../../d7/dfc/classvector.html">vector</a> pHitWorldPos)</td></tr>
+<tr class="memitem:a7750b427c0a6c6ed423b3e98584d68c7"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a7750b427c0a6c6ed423b3e98584d68c7">ProcessMeleeHit</a> (<a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a> pMeleeWeapon, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pMeleeModeIndex, <a class="el" href="../../d8/d83/class_object.html">Object</a> pTarget, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pComponentIndex, <a class="el" href="../../d7/dfc/classvector.html">vector</a> pHitWorldPos)</td></tr>
 <tr class="memdesc:a7750b427c0a6c6ed423b3e98584d68c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes melee hit (uses component index)  <br /></td></tr>
 <tr class="separator:a7750b427c0a6c6ed423b3e98584d68c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae61ff5fa34348ac3fd12e463c8132ac9"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ae61ff5fa34348ac3fd12e463c8132ac9">ProcessMeleeHitName</a> (<a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a> pMeleeWeapon, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pMeleeModeIndex, <a class="el" href="../../d8/d83/class_object.html">Object</a> pTarget, <a class="el" href="../../d5/d92/classstring.html">string</a> pComponentName, <a class="el" href="../../d7/dfc/classvector.html">vector</a> pHitWorldPos)</td></tr>
+<tr class="memitem:ae61ff5fa34348ac3fd12e463c8132ac9"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ae61ff5fa34348ac3fd12e463c8132ac9">ProcessMeleeHitName</a> (<a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a> pMeleeWeapon, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pMeleeModeIndex, <a class="el" href="../../d8/d83/class_object.html">Object</a> pTarget, <a class="el" href="../../d5/d92/classstring.html">string</a> pComponentName, <a class="el" href="../../d7/dfc/classvector.html">vector</a> pHitWorldPos)</td></tr>
 <tr class="memdesc:ae61ff5fa34348ac3fd12e463c8132ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes melee hit (uses component name)  <br /></td></tr>
 <tr class="separator:ae61ff5fa34348ac3fd12e463c8132ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0b5fdf06584a878f85133c4315d95fd"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d1/d1f/_client_kicked_module_8c.html#adb5510e10479c41057efebabbed5d0c4">EClientKicked</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ab0b5fdf06584a878f85133c4315d95fd">GetKickOffReason</a> ()</td></tr>
@@ -798,7 +813,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6760922bbdc520e2ceef6886de1633b6"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6760922bbdc520e2ceef6886de1633b6">ReleaseNetworkControls</a> ()</td></tr>
 <tr class="memdesc:a6760922bbdc520e2ceef6886de1633b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; release controls ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:a6760922bbdc520e2ceef6886de1633b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ffe6a02f966cdb234b988d1c68a631e"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6ffe6a02f966cdb234b988d1c68a631e">SendSyncJuncture</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pJunctureID, <a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a> ctx)</td></tr>
+<tr class="memitem:a6ffe6a02f966cdb234b988d1c68a631e"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6ffe6a02f966cdb234b988d1c68a631e">SendSyncJuncture</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pJunctureID, <a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a> ctx)</td></tr>
 <tr class="memdesc:a6ffe6a02f966cdb234b988d1c68a631e"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; sync stuff ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:a6ffe6a02f966cdb234b988d1c68a631e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1804b59718729979a44cc9bb7ddc1b68"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a1804b59718729979a44cc9bb7ddc1b68">StoreInputForRemotes</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a> ctx)</td></tr>
@@ -810,7 +825,7 @@ Functions</h2></td></tr>
 <tr class="separator:a900841f979f4a0e55d2381ce71c5b142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89d583965bbec03c0afff348ff99cbd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a89d583965bbec03c0afff348ff99cbd4">GetCurrentWaterLevel</a> ()</td></tr>
 <tr class="separator:a89d583965bbec03c0afff348ff99cbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e18f69b45fc7198283513dc8d8fd55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ae4e18f69b45fc7198283513dc8d8fd55">IsPlayerInStance</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> pStanceMask)</td></tr>
+<tr class="memitem:ae4e18f69b45fc7198283513dc8d8fd55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ae4e18f69b45fc7198283513dc8d8fd55">IsPlayerInStance</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> pStanceMask)</td></tr>
 <tr class="memdesc:ae4e18f69b45fc7198283513dc8d8fd55"><td class="mdescLeft">&#160;</td><td class="mdescRight">-------------&mdash; camera additiona functions ----------------------&mdash;  <br /></td></tr>
 <tr class="separator:ae4e18f69b45fc7198283513dc8d8fd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aa92e9b1a11970dbd28b74a754692c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a7aa92e9b1a11970dbd28b74a754692c7">OnInputForRemote</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a> ctx)</td></tr>
@@ -856,10 +871,10 @@ Variables</h2></td></tr>
 <tr class="memitem:a6d04f6d82f549a390570d804a7e76d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a6d04f6d82f549a390570d804a7e76d6e">m_fPredictCollisionRadius</a></td></tr>
 <tr class="memdesc:a6d04f6d82f549a390570d804a7e76d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sphere radius used for collision prediction  <br /></td></tr>
 <tr class="separator:a6d04f6d82f549a390570d804a7e76d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a10062d77bd73e2a39c71d0df8d8ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a32a10062d77bd73e2a39c71d0df8d8ce">m_iDirectBone</a></td></tr>
+<tr class="memitem:a32a10062d77bd73e2a39c71d0df8d8ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a32a10062d77bd73e2a39c71d0df8d8ce">m_iDirectBone</a></td></tr>
 <tr class="memdesc:a32a10062d77bd73e2a39c71d0df8d8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">-1 no bone, &gt;= 0 - bone index camera is bound to, m_CameraTM is offset to the bone  <br /></td></tr>
 <tr class="separator:a32a10062d77bd73e2a39c71d0df8d8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22dac2d23366716ff24bb9c1af51892a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a22dac2d23366716ff24bb9c1af51892a">m_iDirectBoneMode</a></td></tr>
+<tr class="memitem:a22dac2d23366716ff24bb9c1af51892a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a22dac2d23366716ff24bb9c1af51892a">m_iDirectBoneMode</a></td></tr>
 <tr class="separator:a22dac2d23366716ff24bb9c1af51892a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38707cbdd8d751a3900c133ea9fabca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#ae38707cbdd8d751a3900c133ea9fabca">m_fInsideCamera</a></td></tr>
 <tr class="memdesc:ae38707cbdd8d751a3900c133ea9fabca"><td class="mdescLeft">&#160;</td><td class="mdescRight">0 not used, 1 - pos, 2 - rot, 3 - pos+rot applied as a parent to m_CameraTM, 4 as 3 but cam aligned with Y  <br /></td></tr>
@@ -942,7 +957,7 @@ Variables</h2></td></tr>
 <tr class="separator:a48ceb80917a0060652c0f8d1906f52f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a235770b2aca22b1579182c21423b4a19"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="../../d3/d58/dayzplayer_8c.html#a6bf3172c861dd775de5c544fed868499">DayZPlayerInstanceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a235770b2aca22b1579182c21423b4a19">m_iCamMode</a></td></tr>
 <tr class="separator:a235770b2aca22b1579182c21423b4a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a630deafcc4bcfbd9908c5a8d7ca95e5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a630deafcc4bcfbd9908c5a8d7ca95e5e">m_iCurrentCommandID</a></td></tr>
+<tr class="memitem:a630deafcc4bcfbd9908c5a8d7ca95e5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a630deafcc4bcfbd9908c5a8d7ca95e5e">m_iCurrentCommandID</a></td></tr>
 <tr class="separator:a630deafcc4bcfbd9908c5a8d7ca95e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a821652ab10a87c58a29cb5a1fda6e08a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a821652ab10a87c58a29cb5a1fda6e08a">m_fOrientationAngle</a></td></tr>
 <tr class="separator:a821652ab10a87c58a29cb5a1fda6e08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -950,11 +965,11 @@ Variables</h2></td></tr>
 <tr class="separator:a0c3fe237d4b47ff248a1e20b6baddfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da3bdd45d2dca6f4a44ef881cea5a8d"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../de/d4b/class_s_day_z_player_aiming_model.html">SDayZPlayerAimingModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a7da3bdd45d2dca6f4a44ef881cea5a8d">SIMPLE_SELECTION_MELEE_RIFLE</a> = 0</td></tr>
 <tr class="separator:a7da3bdd45d2dca6f4a44ef881cea5a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90b8eb1ed0e75b1c11fe5d99a3226bf2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a90b8eb1ed0e75b1c11fe5d99a3226bf2">SIMPLE_SELECTION_MELEE_MELEE</a> = 1</td></tr>
+<tr class="memitem:a90b8eb1ed0e75b1c11fe5d99a3226bf2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a90b8eb1ed0e75b1c11fe5d99a3226bf2">SIMPLE_SELECTION_MELEE_MELEE</a> = 1</td></tr>
 <tr class="separator:a90b8eb1ed0e75b1c11fe5d99a3226bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228b769fda3f0a17e75a0f913e05a73b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a228b769fda3f0a17e75a0f913e05a73b">SIMPLE_SELECTION_SHOULDER_RIFLE</a> = 2</td></tr>
+<tr class="memitem:a228b769fda3f0a17e75a0f913e05a73b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a228b769fda3f0a17e75a0f913e05a73b">SIMPLE_SELECTION_SHOULDER_RIFLE</a> = 2</td></tr>
 <tr class="separator:a228b769fda3f0a17e75a0f913e05a73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26be64c4f9e8aa4d5a28fc8da44db5a9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a26be64c4f9e8aa4d5a28fc8da44db5a9">SIMPLE_SELECTION_SHOULDER_MELEE</a> = 3</td></tr>
+<tr class="memitem:a26be64c4f9e8aa4d5a28fc8da44db5a9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d58/dayzplayer_8c.html#a26be64c4f9e8aa4d5a28fc8da44db5a9">SIMPLE_SELECTION_SHOULDER_MELEE</a> = 3</td></tr>
 <tr class="separator:a26be64c4f9e8aa4d5a28fc8da44db5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -1000,6 +1015,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aff2cb1844ee9c8e66caeab7d5595d830" name="a6fd289b7043f1412362529ab769d7881aff2cb1844ee9c8e66caeab7d5595d830"></a>STANCEIDX_RAISEDERECT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a2860fdc8efd9f9900230061eface585e" name="a6fd289b7043f1412362529ab769d7881a2860fdc8efd9f9900230061eface585e"></a>STANCEIDX_RAISEDCROUCH&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a20434605143703506759ba8a2dba703b" name="a6fd289b7043f1412362529ab769d7881a20434605143703506759ba8a2dba703b"></a>STANCEIDX_RAISEDPRONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ae494d79a7fde14544ea2c53d508bbad4" name="a6fd289b7043f1412362529ab769d7881ae494d79a7fde14544ea2c53d508bbad4"></a>STANCEIDX_RAISED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a01132cd350d466fc913f86b2bc311bb7" name="a6fd289b7043f1412362529ab769d7881a01132cd350d466fc913f86b2bc311bb7"></a>STANCEMASK_ERECT&#160;</td><td class="fielddoc"><p>stance masks </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a34a0b33121ca17bd8944d92090276e61" name="a6fd289b7043f1412362529ab769d7881a34a0b33121ca17bd8944d92090276e61"></a>STANCEMASK_CROUCH&#160;</td><td class="fielddoc"></td></tr>
@@ -1153,6 +1169,8 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4" name="a6fd289b7043f1412362529ab769d7881a696e1a6548f5d205434e6ea929dfe5e4"></a>CMD_ACTIONMOD_EAT_PILL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a180ab943f9aeceb589d3b5db0dbf6525" name="a6fd289b7043f1412362529ab769d7881a180ab943f9aeceb589d3b5db0dbf6525"></a>CMD_ACTIONMOD_EAT_TABLET&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ade0adfbe261b0a89154e6e852b8f469e" name="a6fd289b7043f1412362529ab769d7881ade0adfbe261b0a89154e6e852b8f469e"></a>CMD_ACTIONMOD_HEATPACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a8cf597d8fc3281dcee70ced1d5184a18" name="a6fd289b7043f1412362529ab769d7881a8cf597d8fc3281dcee70ced1d5184a18"></a>CMD_ACTIONMOD_BLOODTEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a35474557a32eef6f982597df7b8fcc6d" name="a6fd289b7043f1412362529ab769d7881a35474557a32eef6f982597df7b8fcc6d"></a>CMD_ACTIONMOD_BLOODTESTOTHER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4" name="a6fd289b7043f1412362529ab769d7881ae5aafeb6d0ae99b639302e6b707b35c4"></a>CMD_ACTIONMOD_DROPITEM_HANDS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef" name="a6fd289b7043f1412362529ab769d7881aa93d0c4ce1f5d3a79ee6f4d93e2c6eef"></a>CMD_ACTIONMOD_DROPITEM_INVENTORY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66" name="a6fd289b7043f1412362529ab769d7881ac200baf09c03167edb545d5040268a66"></a>CMD_ACTIONFB_DRINK&#160;</td><td class="fielddoc"><hr  />
@@ -1224,6 +1242,13 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569" name="a6fd289b7043f1412362529ab769d7881a18c75acc66260ec390a0c0a73155c569"></a>CMD_ACTIONFB_SET_ALARM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a19305e1c7a0b8d63efd21a70ff91d35f" name="a6fd289b7043f1412362529ab769d7881a19305e1c7a0b8d63efd21a70ff91d35f"></a>CMD_ACTIONFB_SHOVEL_DIG&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a819f03cb327b656e2db53510c6265585" name="a6fd289b7043f1412362529ab769d7881a819f03cb327b656e2db53510c6265585"></a>CMD_ACTIONFB_VEHICLE_PUSH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aa34ee18b158aee73453364b186bc62fb" name="a6fd289b7043f1412362529ab769d7881aa34ee18b158aee73453364b186bc62fb"></a>CMD_ACTIONFB_PATCHING_TIRE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aa9cdd6c8c34c92b46a713acf1a009a87" name="a6fd289b7043f1412362529ab769d7881aa9cdd6c8c34c92b46a713acf1a009a87"></a>CMD_ACTIONFB_PATCHING_DUCTTAPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a6fadb4c5ba9d12da9c91375d05013a04" name="a6fd289b7043f1412362529ab769d7881a6fadb4c5ba9d12da9c91375d05013a04"></a>CMD_ACTIONFB_PATCHING_SEWING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a312d2eab90acc66b39a5697a5013e983" name="a6fd289b7043f1412362529ab769d7881a312d2eab90acc66b39a5697a5013e983"></a>CMD_ACTIONFB_PATCHING_LEATHER_SEWING_KIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a88bcc3d0b751635a71972060c8f2d6ed" name="a6fd289b7043f1412362529ab769d7881a88bcc3d0b751635a71972060c8f2d6ed"></a>CMD_ACTIONFB_SPLITTING_FIREWOOD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aa4aded47e25481aa8c73f9d8ed3c7bc3" name="a6fd289b7043f1412362529ab769d7881aa4aded47e25481aa8c73f9d8ed3c7bc3"></a>CMD_ACTIONFB_BREAKING_STICK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881afd056306b1d206a04ba88d4c6d7ee457" name="a6fd289b7043f1412362529ab769d7881afd056306b1d206a04ba88d4c6d7ee457"></a>CMD_ACTIONFB_CLEANING_WEAPON&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a6cf599306aa042fa8a12ac1d051b2251" name="a6fd289b7043f1412362529ab769d7881a6cf599306aa042fa8a12ac1d051b2251"></a>CMD_ACTIONFB_PICKUP_HANDS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ae1840de4d39743dd653819542c090c6d" name="a6fd289b7043f1412362529ab769d7881ae1840de4d39743dd653819542c090c6d"></a>CMD_ACTIONFB_PICKUP_INVENTORY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121" name="a6fd289b7043f1412362529ab769d7881a2994a0041ee5f119e5b68d365bc3f121"></a>CMD_ACTIONFB_LICKBATTERY&#160;</td><td class="fielddoc"></td></tr>
@@ -1252,8 +1277,13 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a27c19ef0efa8f9512df5c6cff55e9c09" name="a6fd289b7043f1412362529ab769d7881a27c19ef0efa8f9512df5c6cff55e9c09"></a>CMD_ACTIONFB_EAT_TABLET&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c" name="a6fd289b7043f1412362529ab769d7881a3d073e6a385f22df680e522e511ac33c"></a>CMD_ACTIONFB_HEATPACK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a6fab283212cde9f3a7076d0cbe55663d" name="a6fd289b7043f1412362529ab769d7881a6fab283212cde9f3a7076d0cbe55663d"></a>CMD_ACTIONFB_DROPITEM_HANDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44" name="a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44"></a>CMD_ACTIONMOD_STARTENGINE&#160;</td><td class="fielddoc"><hr  />
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881abae2d5fc461fecbbdae509901f64c649" name="a6fd289b7043f1412362529ab769d7881abae2d5fc461fecbbdae509901f64c649"></a>CMD_TRAILER_MASK&#160;</td><td class="fielddoc"><hr  />
  <h2><a class="anchor" id="autotoc_md4"></a>
+-------------------— TRAILER -----------------------—</h2>
+</td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a2389773f45fd8e92a0f3b9837eca24f8" name="a6fd289b7043f1412362529ab769d7881a2389773f45fd8e92a0f3b9837eca24f8"></a>CMD_TRAILER_MASK_02&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44" name="a6fd289b7043f1412362529ab769d7881a66145703dc73c61425f98fa7a9848f44"></a>CMD_ACTIONMOD_STARTENGINE&#160;</td><td class="fielddoc"><hr  />
+ <h2><a class="anchor" id="autotoc_md5"></a>
 -------------------— VEHICLES ----------------------—</h2>
 </td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881abd0d92cd274516dd4a926f356c42b6d8" name="a6fd289b7043f1412362529ab769d7881abd0d92cd274516dd4a926f356c42b6d8"></a>CMD_ACTIONMOD_TOOTHORN&#160;</td><td class="fielddoc"></td></tr>
@@ -1265,7 +1295,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aed64db43b888cd62dfa49e3d00c0ff2a" name="a6fd289b7043f1412362529ab769d7881aed64db43b888cd62dfa49e3d00c0ff2a"></a>CMD_ACTIONMOD_SHIFTGEAR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ad7b2466810cfec781bae37945e9c64e0" name="a6fd289b7043f1412362529ab769d7881ad7b2466810cfec781bae37945e9c64e0"></a>CMD_ACTIONMOD_HEADLIGHT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881aaac42afe38dc5990fb88f7477e5fe27b" name="a6fd289b7043f1412362529ab769d7881aaac42afe38dc5990fb88f7477e5fe27b"></a>CMD_GESTUREMOD_GREETING&#160;</td><td class="fielddoc"><hr  />
- <h2><a class="anchor" id="autotoc_md5"></a>
+ <h2><a class="anchor" id="autotoc_md6"></a>
 -------------------— GESTURES ----------------------—</h2>
 <p>modifier (differential animation) </p>
 </td></tr>
@@ -1340,7 +1370,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881adb597d4daa13cc1312b7c115212f0a90" name="a6fd289b7043f1412362529ab769d7881adb597d4daa13cc1312b7c115212f0a90"></a>CMD_GESTUREFB_SURRENDERIN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a56ae75fc2be25848f68fa11d002f25d2" name="a6fd289b7043f1412362529ab769d7881a56ae75fc2be25848f68fa11d002f25d2"></a>CMD_GESTUREFB_SURRENDEROUT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a15c69c05d8c3f352be0336ce2f818e8c" name="a6fd289b7043f1412362529ab769d7881a15c69c05d8c3f352be0336ce2f818e8c"></a>CMD_TRAILER_WAKE_UP&#160;</td><td class="fielddoc"><hr  />
- <h2><a class="anchor" id="autotoc_md6"></a>
+ <h2><a class="anchor" id="autotoc_md7"></a>
 -------------------— TRAILER -----------------------—</h2>
 </td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881ac7a0f2d06a2cb190af3631871aaccab6" name="a6fd289b7043f1412362529ab769d7881ac7a0f2d06a2cb190af3631871aaccab6"></a>CMD_TRAILER_DEAD_BODY&#160;</td><td class="fielddoc"></td></tr>
@@ -1349,7 +1379,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a88c09d898f96e6e2ed3d4cc145215754" name="a6fd289b7043f1412362529ab769d7881a88c09d898f96e6e2ed3d4cc145215754"></a>CMD_TRAILER_WALK_AWAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881acec32431b14e5f7e187d7f9245d07414" name="a6fd289b7043f1412362529ab769d7881acec32431b14e5f7e187d7f9245d07414"></a>CMD_TRAILER_DEAD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6fd289b7043f1412362529ab769d7881a75c8eb8f0291a120a19c3cda60b8b8a7" name="a6fd289b7043f1412362529ab769d7881a75c8eb8f0291a120a19c3cda60b8b8a7"></a>CMD_SUICIDEFB_1HD&#160;</td><td class="fielddoc"><hr  />
- <h2><a class="anchor" id="autotoc_md7"></a>
+ <h2><a class="anchor" id="autotoc_md8"></a>
 -------------------— SUICIDE -----------------------—</h2>
 <p>fb (full body) </p>
 </td></tr>
@@ -1404,7 +1434,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> AddItemBoneRemap </td>
+          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> AddItemBoneRemap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td>
           <td class="paramname"><em>pItemClass</em>, </td>
@@ -1433,7 +1463,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> AddItemInHandsProfile </td>
+          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> AddItemInHandsProfile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td>
           <td class="paramname"><em>pItemClass</em>, </td>
@@ -1470,7 +1500,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> AddItemInHandsProfileIK </td>
+          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> AddItemInHandsProfileIK </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td>
           <td class="paramname"><em>pItemClass</em>, </td>
@@ -1549,13 +1579,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native void AnimCallCommand </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pCommand</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pParamInt</em>, </td>
         </tr>
         <tr>
@@ -1586,7 +1616,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native void AnimSetBool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pVar</em>, </td>
         </tr>
         <tr>
@@ -1614,7 +1644,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native void AnimSetFloat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pVar</em>, </td>
         </tr>
         <tr>
@@ -1642,13 +1672,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native void AnimSetInt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pVar</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pInt</em>&#160;</td>
         </tr>
         <tr>
@@ -1668,9 +1698,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> CameraHandler </td>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> CameraHandler </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pCameraMode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1735,7 +1765,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pCurrentCommandID</em>, </td>
         </tr>
         <tr>
@@ -2065,6 +2095,8 @@ Variables</h2></td></tr>
 <p>-------------&mdash; camera additional functions ----------------------&mdash; </p>
 <p>gets current camera </p>
 
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a5ca040290445bcd87cc4093607353c29">ManBase::OnReceivedHit()</a>.</p>
+
 </div>
 </div>
 <a id="ac2e383b47c9aa81fae18e3a4f7ded405" name="ac2e383b47c9aa81fae18e3a4f7ded405"></a>
@@ -2131,7 +2163,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> GetCurrentPerItemCameraUD </td>
+          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetCurrentPerItemCameraUD </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2310,7 +2342,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> GetEyeZoomLevel </td>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetEyeZoomLevel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2351,7 +2383,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> GetHeadBoneIdx </td>
+          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetHeadBoneIdx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2396,7 +2428,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a011a42999649907ec00e68361b2d3ab6">ManBase::CheckForBurlap()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abb7e1126d073cdb7e7f81e0ec3cfc2df">ManBase::CheckLiftWeapon()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a9aea97032ad8d8adb57ecd8691eafbd2">ManBase::CloseInventoryMenu()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#af518addd8ca6ecba428ecee6b06506a9">ManBase::EOnFrame()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a2c1dc59876423c59a463cf7e95d85d8b">ManBase::EOnPostFrame()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a889c22e67908876c0f87eb7e58a1fa8a">ManBase::GetCraftingRecipeID()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a2731e77365c090d55fd098fedd5d2b1e">GetDebugName()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a30605c628302b32a52f9b67b49111790">ManBase::HideClothing()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a50fbe85478fb553a0344241e0ce75fec">ManBase::Message()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abecc6d5b2ebaba1fd71e4625fd94f863">ManBase::NeedInventoryJunctureFromServer()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a8b2630988be0f5b201410595eebc931c">ManBase::OnCommandHandlerTick()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a581f115736bd14818068d16470c0005f">ManBase::OnQuickBarContinuousUseEnd()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a53615b8d1d611d1d464a91b7205ab048">ManBase::OnQuickBarContinuousUseStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a9880d74a6b7fc9a37f0b8b551cd378a5">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a23f886d53b513cd9424769403fbf6866">ManBase::OnRPC()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abce169bce9d7217c9def172013cf981a">ManBase::OnSelectPlayer()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a7e4f286146752cfcf0f3f9ad425bc466">DayZPlayer::OnSoundEvent()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a3639d092ab04ebd6b39be7743336f57c">ManBase::OnSpawnedFromConsole()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a8c0fb93cbb0e3230d5da086fb8fee4ae">DayZPlayer::OnSprintEnd()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a7453b6cae42252c17f31e82774fba45e">DayZPlayer::OnSprintStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a7042fe353836b02710cebbfad9464a7f">ManBase::OnUnconsciousStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#af485ba9caca9a432b56274e1e99a8bee">ManBase::OnUnconsciousStop()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a4f266b66f19e5611e23e0a17e69e1ad4">ManBase::OnUnconsciousUpdate()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a8cbb96c6ea998779df60d2eb02223d84">ManBase::ProcessHandDamage()</a>, <a class="el" href="../../d4/d87/class_man_base.html#ae9383b1e70f9ade6ee4b2a2869ed787b">ManBase::ReloadWeapon()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a72cf1e6ca4dea34dce61b6291ff73bbc">ManBase::RequestResetADSSync()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a7cc38af2306af012dc651ae13029bbd7">ManBase::RequestSoundEventEx()</a>, <a class="el" href="../../d4/d87/class_man_base.html#ac58dc0daf03e4b1f75b5b51e92ed5011">ManBase::SetCraftingRecipeID()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a0a9ef8a1a54b5bd1335f52b4f6bca022">ManBase::SetHairLevelToHide()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a52831c5fa8fa94d26786cf444b23cb25">ManBase::SpawnEntityOnGroundPos()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#af332dfd5599ad6ff00ff71e110c41054">StoreInputForRemotes()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a2418edc59b76254d4356e59089e08329">ManBase::TogglePlacingLocal()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a20cae8d29ef6e69e0e8a19c35f38a6ec">DayZPlayer::TriggerPullPlayerOutOfVehicleImpl()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a12b88205e7422d09884016e9cbd0e7e3">ValidateHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#ac7881512061aab4a17eefe7bc5531257">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a10df1fd150c7c0fcdd437c246cddcd01">ValidateSyncMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a011a42999649907ec00e68361b2d3ab6">ManBase::CheckForBurlap()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abb7e1126d073cdb7e7f81e0ec3cfc2df">ManBase::CheckLiftWeapon()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a9aea97032ad8d8adb57ecd8691eafbd2">ManBase::CloseInventoryMenu()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a0b890527890e27c33ee483d2c4c2a3ae">DayZPlayer::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a0b890527890e27c33ee483d2c4c2a3ae">ManBase::CommandHandler()</a>, <a class="el" href="../../d4/d87/class_man_base.html#af518addd8ca6ecba428ecee6b06506a9">ManBase::EOnFrame()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a2c1dc59876423c59a463cf7e95d85d8b">ManBase::EOnPostFrame()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a889c22e67908876c0f87eb7e58a1fa8a">ManBase::GetCraftingRecipeID()</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a2731e77365c090d55fd098fedd5d2b1e">GetDebugName()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a30605c628302b32a52f9b67b49111790">ManBase::HideClothing()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a50fbe85478fb553a0344241e0ce75fec">ManBase::Message()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abecc6d5b2ebaba1fd71e4625fd94f863">ManBase::NeedInventoryJunctureFromServer()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a8b2630988be0f5b201410595eebc931c">ManBase::OnCommandHandlerTick()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a581f115736bd14818068d16470c0005f">ManBase::OnQuickBarContinuousUseEnd()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a53615b8d1d611d1d464a91b7205ab048">ManBase::OnQuickBarContinuousUseStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a9880d74a6b7fc9a37f0b8b551cd378a5">ManBase::OnQuickBarSingleUse()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a5ca040290445bcd87cc4093607353c29">ManBase::OnReceivedHit()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a23f886d53b513cd9424769403fbf6866">ManBase::OnRPC()</a>, <a class="el" href="../../d4/d87/class_man_base.html#abce169bce9d7217c9def172013cf981a">ManBase::OnSelectPlayer()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a7e4f286146752cfcf0f3f9ad425bc466">DayZPlayer::OnSoundEvent()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a3639d092ab04ebd6b39be7743336f57c">ManBase::OnSpawnedFromConsole()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a8c0fb93cbb0e3230d5da086fb8fee4ae">DayZPlayer::OnSprintEnd()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a7453b6cae42252c17f31e82774fba45e">DayZPlayer::OnSprintStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a7042fe353836b02710cebbfad9464a7f">ManBase::OnUnconsciousStart()</a>, <a class="el" href="../../d4/d87/class_man_base.html#af485ba9caca9a432b56274e1e99a8bee">ManBase::OnUnconsciousStop()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a4f266b66f19e5611e23e0a17e69e1ad4">ManBase::OnUnconsciousUpdate()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a8cbb96c6ea998779df60d2eb02223d84">ManBase::ProcessHandDamage()</a>, <a class="el" href="../../d4/d87/class_man_base.html#ae9383b1e70f9ade6ee4b2a2869ed787b">ManBase::ReloadWeapon()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a72cf1e6ca4dea34dce61b6291ff73bbc">ManBase::RequestResetADSSync()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a7cc38af2306af012dc651ae13029bbd7">ManBase::RequestSoundEventEx()</a>, <a class="el" href="../../d4/d87/class_man_base.html#ac58dc0daf03e4b1f75b5b51e92ed5011">ManBase::SetCraftingRecipeID()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a0a9ef8a1a54b5bd1335f52b4f6bca022">ManBase::SetHairLevelToHide()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a52831c5fa8fa94d26786cf444b23cb25">ManBase::SpawnEntityOnGroundPos()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#af332dfd5599ad6ff00ff71e110c41054">StoreInputForRemotes()</a>, <a class="el" href="../../d4/d87/class_man_base.html#a2418edc59b76254d4356e59089e08329">ManBase::TogglePlacingLocal()</a>, <a class="el" href="../../db/d2e/class_day_z_player.html#a20cae8d29ef6e69e0e8a19c35f38a6ec">DayZPlayer::TriggerPullPlayerOutOfVehicleImpl()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a12b88205e7422d09884016e9cbd0e7e3">ValidateHandEvent()</a>, <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#ac7881512061aab4a17eefe7bc5531257">ValidateSwap()</a>, and <a class="el" href="../../da/ddc/_day_z_player_inventory_8c.html#a10df1fd150c7c0fcdd437c246cddcd01">ValidateSyncMove()</a>.</p>
 
 </div>
 </div>
@@ -2447,7 +2479,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d9/d27/_noise_8c.html#aceda78b4f4625e1c9901f7bf4a7f5cf0">NoiseParams</a> GetNoiseParams </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>eventId</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2617,13 +2649,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">class <a class="el" href="../../df/dd2/class_day_z_player_type_step_sound_lookup_table.html">DayZPlayerTypeStepSoundLookupTable</a> GetSoundBuilder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>eventId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>parameterHash</em>&#160;</td>
         </tr>
         <tr>
@@ -2645,19 +2677,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d5/db9/class_sound_object_builder.html">SoundObjectBuilder</a> GetSoundBuilder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>eventId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pMovement</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pSurfaceHash</em>, </td>
         </tr>
         <tr>
@@ -2685,7 +2717,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d5/db9/class_sound_object_builder.html">SoundObjectBuilder</a> GetSoundBuilder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>eventId</em>, </td>
         </tr>
         <tr>
@@ -2697,7 +2729,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>attachmentHash</em>&#160;</td>
         </tr>
         <tr>
@@ -2719,7 +2751,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">class <a class="el" href="../../d2/d9f/class_day_z_player_type_attachment_sound_lookup_table.html">DayZPlayerTypeAttachmentSoundLookupTable</a> GetSoundEvent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>event_id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2773,7 +2805,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">AnimSoundEvent GetSoundWeaponEvent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>event_id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3009,7 +3041,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsPlayerInStance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pStanceMask</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3239,7 +3271,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pMeleeModeIndex</em>, </td>
         </tr>
         <tr>
@@ -3251,7 +3283,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pComponentIndex</em>, </td>
         </tr>
         <tr>
@@ -3287,7 +3319,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pMeleeModeIndex</em>, </td>
         </tr>
         <tr>
@@ -3327,7 +3359,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> Random </td>
+          <td class="memname">proto native <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> Random </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3369,7 +3401,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a> RandomRange </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pRange</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3416,7 +3448,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native void RegisterCameraCreator </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pCameraID</em>, </td>
         </tr>
         <tr>
@@ -3780,7 +3812,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">proto native void SendSyncJuncture </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pJunctureID</em>, </td>
         </tr>
         <tr>
@@ -4638,7 +4670,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> m_iCurrentCommandID</td>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> m_iCurrentCommandID</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4652,7 +4684,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> m_iDirectBone</td>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> m_iDirectBone</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4668,7 +4700,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> m_iDirectBoneMode</td>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> m_iDirectBoneMode</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4987,7 +5019,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> SIMPLE_SELECTION_MELEE_MELEE = 1</td>
+          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> SIMPLE_SELECTION_MELEE_MELEE = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5019,7 +5051,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> SIMPLE_SELECTION_SHOULDER_MELEE = 3</td>
+          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> SIMPLE_SELECTION_SHOULDER_MELEE = 3</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5035,7 +5067,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a59d59e3bb8290a3d616dbe455fb12251">int</a> SIMPLE_SELECTION_SHOULDER_RIFLE = 2</td>
+          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> SIMPLE_SELECTION_SHOULDER_RIFLE = 2</td>
         </tr>
       </table>
 </div><div class="memdoc">

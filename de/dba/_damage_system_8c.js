@@ -10,6 +10,7 @@ var _damage_system_8c =
     [ "GetDamageDisplayName", "de/dba/_damage_system_8c.html#a17be887e076ebefc161fb2b1e551ea92", null ],
     [ "GetDamageZoneFromComponentName", "de/dba/_damage_system_8c.html#a77c203dfcd1e78753ce2fbb285ba5183", null ],
     [ "GetDamageZoneMap", "de/dba/_damage_system_8c.html#a436f7f8fc36fbf4455c56b4ce08b8b67", null ],
+    [ "ResetAllZones", "de/dba/_damage_system_8c.html#ac82167197ceffc42dfabd1813a70a491", null ],
     [ "CLOSE_COMBAT", "de/dba/_damage_system_8c.html#aca6cc3f8e32a50a9006c06429553268e", null ],
     [ "CUSTOM", "de/dba/_damage_system_8c.html#adb36c4e2bb36018570c94f4e1ad0f19c", null ],
     [ "EXPLOSION", "de/dba/_damage_system_8c.html#a2777a6a860740aea7706a3534e077c05", null ],

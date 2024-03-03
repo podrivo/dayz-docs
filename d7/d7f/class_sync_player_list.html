@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.23.157045 · Nov 30, 2023</div>
+   <div id="projectbrief">v1.24.157551 · Feb 29, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -185,7 +185,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../dd/db4/class_player_identity_base.html#ab0dc99e62b929b574455516e9dd8b0ef">PlayerIdentityBase::GetPlainId()</a>, <a class="el" href="../../dd/db4/class_player_identity_base.html#a76aba90f6c86dd35e900bf87dd311e36">PlayerIdentityBase::GetPlainName()</a>, <a class="el" href="../../d3/d21/class_world.html#a58f731cb88b463999d47ad16a176e3d6">World::GetPlayerList()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a86452ae125fd078b6e74c3786051968c">CGame::GetWorld()</a>, <a class="el" href="../../dc/d26/class_debug_print.html#acc7269f72097e281ace2e6302edc12e6">DebugPrint::LogErrorAndTrace()</a>, <a class="el" href="../../d7/d7f/class_sync_player_list.html#af8ad3443550a2c99bf2412cd912cb28e">m_PlayerList</a>, <a class="el" href="../../d6/dfc/class_sync_player.html#afdf11560336e1749b79701305d946d42">SyncPlayer::m_PlayerName</a>, and <a class="el" href="../../d6/dfc/class_sync_player.html#ae5560a0ab0092405468fa967d7750f09">SyncPlayer::m_UID</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a68c132b8dbde88371aaf5649aa277f83">CGame::GetPlayerIndentities()</a>, <a class="el" href="../../d6/dfc/class_sync_player.html#a682a00165f21d14449c7e20d6d948658">SyncPlayer::m_Identity</a>, <a class="el" href="../../d7/d7f/class_sync_player_list.html#af8ad3443550a2c99bf2412cd912cb28e">m_PlayerList</a>, <a class="el" href="../../d6/dfc/class_sync_player.html#afdf11560336e1749b79701305d946d42">SyncPlayer::m_PlayerName</a>, and <a class="el" href="../../d6/dfc/class_sync_player.html#ae5560a0ab0092405468fa967d7750f09">SyncPlayer::m_UID</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dd7/class_sync_events.html#afa650e11f58b9afb7719bbe075922108">SyncEvents::SendPlayerList()</a>.</p>
 
@@ -212,12 +212,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d7f/class_sync_player_list.html#a0e3fbd726acbd1ba01a981aaa4a34d72">Compare()</a>, <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#aa0b6c4cbd5bc7d63671de2b64fac5e75">UIScriptedMenu::CreateFakePlayerList()</a>, <a class="el" href="../../d7/d7f/class_sync_player_list.html#af30b7592115b1b4c5d6ec911ffe72510">CreatePlayerList()</a>, <a class="el" href="../../d5/daf/class_client_data.html#a8d13d352518e225eb04de2b2fce11b16">ClientData::GetSimplePlayerList()</a>, <a class="el" href="../../d5/daf/class_client_data.html#a8e04abad34f2ca123fcd85a0e8931a7c">ClientData::GetSimplePlayerList()</a>, <a class="el" href="../../d0/d36/class_online_services.html#a1568487bf766e40a42bf6a8654b5c6ca">OnlineServices::OnFriendsAsync()</a>, <a class="el" href="../../df/df4/class_scripted_widget_event_handler.html#a76c0e1d2abc155fefc8ca81b0b6b7717">ScriptedWidgetEventHandler::Reload()</a>, <a class="el" href="../../d5/daf/class_client_data.html#ad691504c814e3a0f16f18c972fb6f058">ClientData::ResetClientData()</a>, and <a class="el" href="../../d5/daf/class_client_data.html#a2bcd05ad5d503f2905392614eac72046">ClientData::SyncEvent_OnRecievedPlayerList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d7f/class_sync_player_list.html#a0e3fbd726acbd1ba01a981aaa4a34d72">Compare()</a>, <a class="el" href="../../d1/d5b/class_u_i_scripted_menu.html#aa0b6c4cbd5bc7d63671de2b64fac5e75">UIScriptedMenu::CreateFakePlayerList()</a>, <a class="el" href="../../d7/d7f/class_sync_player_list.html#af30b7592115b1b4c5d6ec911ffe72510">CreatePlayerList()</a>, <a class="el" href="../../d5/daf/class_client_data.html#a8d13d352518e225eb04de2b2fce11b16">ClientData::GetSimplePlayerList()</a>, <a class="el" href="../../d5/daf/class_client_data.html#a8e04abad34f2ca123fcd85a0e8931a7c">ClientData::GetSimplePlayerList()</a>, <a class="el" href="../../d0/d36/class_online_services.html#a1568487bf766e40a42bf6a8654b5c6ca">OnlineServices::OnFriendsAsync()</a>, <a class="el" href="../../df/df4/class_scripted_widget_event_handler.html#a76c0e1d2abc155fefc8ca81b0b6b7717">ScriptedWidgetEventHandler::Reload()</a>, <a class="el" href="../../d5/daf/class_client_data.html#ad691504c814e3a0f16f18c972fb6f058">ClientData::ResetClientData()</a>, <a class="el" href="../../d5/daf/class_client_data.html#a2bcd05ad5d503f2905392614eac72046">ClientData::SyncEvent_OnRecievedPlayerList()</a>, and <a class="el" href="../../d5/daf/class_client_data.html#aa854f5baeb07abc629323ca858473b9a">ClientData::SyncEvent_PreprocessPlayerList()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>3_Game/Client/<a class="el" href="../../d4/d55/_sync_player_list_8c.html">SyncPlayerList.c</a></li>
+<li>P:/scripts/3_Game/Client/<a class="el" href="../../d4/d55/_sync_player_list_8c.html">SyncPlayerList.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

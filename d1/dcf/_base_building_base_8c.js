@@ -26,6 +26,7 @@ var _base_building_base_8c =
     [ "DestroyAreaDamage", "d1/dcf/_base_building_base_8c.html#a95b8c33babb3a1cd5a0c7045ef3689c3", null ],
     [ "DestroyConstruction", "d1/dcf/_base_building_base_8c.html#a80a7fca638fa79d2a6470263e841a2d7", null ],
     [ "DestroyConstructionKit", "d1/dcf/_base_building_base_8c.html#af92de9560e7abe817030ab491cb5bb7e", null ],
+    [ "EEDelete", "d1/dcf/_base_building_base_8c.html#a83a1e547e0d1e65ad421070058a093a9", null ],
     [ "EEHealthLevelChanged", "d1/dcf/_base_building_base_8c.html#a56edaa75fb618ddf0aa2354f005cdd6e", null ],
     [ "EEInit", "d1/dcf/_base_building_base_8c.html#a58793c1561abb560da4377da77ad6dea", null ],
     [ "EEItemAttached", "d1/dcf/_base_building_base_8c.html#ac063b6124c64033d904f29247d8eb45a", null ],

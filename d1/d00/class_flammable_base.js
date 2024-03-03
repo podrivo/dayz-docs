@@ -36,6 +36,7 @@ var class_flammable_base =
     [ "HasFlammableMaterial", "d1/d00/class_flammable_base.html#ab82ea3929dacabea878b0247abacd5c8", null ],
     [ "Init", "d1/d00/class_flammable_base.html#a1e3b6d38df0786ccf7f938d60e386aae", null ],
     [ "IsIgnited", "d1/d00/class_flammable_base.html#a6c94d44b7f25f8f025c2c046f9064ac1", null ],
+    [ "IsRagDryEnough", "d1/d00/class_flammable_base.html#ad0f008c545108d6a1dd528d64676b723", null ],
     [ "LockRags", "d1/d00/class_flammable_base.html#a18fb793b63cef1d97cbf318af90564b6", null ],
     [ "OnAttachmentQuantityChangedEx", "d1/d00/class_flammable_base.html#aa53d13c06b7821ef946b6739e37b877f", null ],
     [ "OnDebugSpawn", "d1/d00/class_flammable_base.html#a05eab95952a189dc9e08ccecec41b51a", null ],

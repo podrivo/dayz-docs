@@ -21,6 +21,8 @@ var class_right_area =
     [ "SelectItem", "d2/d5d/class_right_area.html#a383e2b17b590a3c79c9e2938c44fc490", null ],
     [ "SetLayoutName", "d2/d5d/class_right_area.html#ae1f8b6c1655377c9d528afc512183bf0", null ],
     [ "SetParentWidget", "d2/d5d/class_right_area.html#aadb6be42c82ef08cb03d667ce26fddde", null ],
+    [ "SetSameLevelNextActive", "d2/d5d/class_right_area.html#afe875be9961f0146c900b903cacab25f", null ],
+    [ "SetSameLevelPreviousActive", "d2/d5d/class_right_area.html#ac03a20de8186ba4f4ee9fd3a8fd21096", null ],
     [ "SplitItem", "d2/d5d/class_right_area.html#af722b11ffb8375871c4dadc84e2aa9e4", null ],
     [ "SwapItemsInOrder", "d2/d5d/class_right_area.html#ac2091c9fd9ceffe4fee936b8d2ea9921", null ],
     [ "TransferItem", "d2/d5d/class_right_area.html#a46f4ee6c24b7f56695d7bf16ae0755d4", null ],

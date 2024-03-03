@@ -48,6 +48,7 @@ var class_plugin_config_handler =
     [ "GetItemParams", "d4/d49/class_plugin_config_handler.html#a3dc185bc6f81b174d4847a0f6d8bbd15", null ],
     [ "GetItemQuantity", "d4/d49/class_plugin_config_handler.html#a4fa0f1b884226d38f5bad8004c297fff", null ],
     [ "GetItemSearch", "d4/d49/class_plugin_config_handler.html#a92b1a677c289c95d5ed97dec37a00f7d", null ],
+    [ "GetItemWithPhysics", "d4/d49/class_plugin_config_handler.html#a32b3518a2c7d087ce47222b395a9e976", null ],
     [ "GetLocationsData", "d4/d49/class_plugin_config_handler.html#a64deff8b80e42fb7aadeb8a0c97bbfb0", null ],
     [ "GetLogsEnabled", "d4/d49/class_plugin_config_handler.html#a392a9be034a7a3b5e261e1006aaa7066", null ],
     [ "GetMergeType", "d4/d49/class_plugin_config_handler.html#ab68de3535447050906b04015933622d8", null ],
@@ -132,6 +133,7 @@ var class_plugin_config_handler =
     [ "SetItemHealth", "d4/d49/class_plugin_config_handler.html#a8b90e5dda77b4bedd87e9b3eaabf8472", null ],
     [ "SetItemQuantity", "d4/d49/class_plugin_config_handler.html#a2fad3a3cc391c65bc2539154b3d47d17", null ],
     [ "SetItemSearch", "d4/d49/class_plugin_config_handler.html#a52a46a0d511eaf1eb7e1298deb73ec28", null ],
+    [ "SetItemWithPhysics", "d4/d49/class_plugin_config_handler.html#a2144e3b6219510b61a3aa734c1cb7eae", null ],
     [ "SetLogsEnabled", "d4/d49/class_plugin_config_handler.html#a8fb5e3a6c8e8f57b6a66973e53d8307c", null ],
     [ "SetMergeType", "d4/d49/class_plugin_config_handler.html#a34fb4f779f1706dc0e08b112df0d5fc8", null ],
     [ "SetPreset", "d4/d49/class_plugin_config_handler.html#af9b587d52d2d52b65c034519c129645e", null ],
@@ -209,6 +211,7 @@ var class_plugin_config_handler =
     [ "SUB_PARAM_ITEM_HEALTH", "d4/d49/class_plugin_config_handler.html#a6203f664903d20b93f426031b9b4d7d9", null ],
     [ "SUB_PARAM_ITEM_NAME", "d4/d49/class_plugin_config_handler.html#aa51e99570bc522283fd24fbf064a67a3", null ],
     [ "SUB_PARAM_ITEM_QUANTITY", "d4/d49/class_plugin_config_handler.html#a13758848857d624c23a353b41f76d436", null ],
+    [ "SUB_PARAM_ITEM_WITH_PHYSICS", "d4/d49/class_plugin_config_handler.html#a46258fcfee9bc2230258f6bf0f222413", null ],
     [ "TEMP_VIS", "d4/d49/class_plugin_config_handler.html#ab5f09051b0ebc75badcd408d87835a20", null ],
     [ "VERSION_VIS", "d4/d49/class_plugin_config_handler.html#afdab0e66539cda27df60b1daced0c96a", null ]
 ];

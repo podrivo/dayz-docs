@@ -30,9 +30,7 @@ var hierarchy =
       [ "ActionTurnOnHelmetFlashlight", "d9/da2/class_action_turn_on_helmet_flashlight.html", null ],
       [ "AnimatedActionBase", "d7/d94/class_animated_action_base.html", [
         [ "ActionContinuousBase", "d6/d3f/class_action_continuous_base.html", [
-          [ "ActionBandageBase", "dc/d1d/class_action_bandage_base.html", [
-            [ "ActionBandageSelf", "d0/d25/class_action_bandage_self.html", null ]
-          ] ],
+          [ "ActionBandageBase", "dc/d1d/class_action_bandage_base.html", null ],
           [ "ActionBreakLongWoodenStick", "dc/d09/class_action_break_long_wooden_stick.html", null ],
           [ "ActionBuildPart", "d3/d35/class_action_build_part.html", null ],
           [ "ActionBuildShelter", "db/d71/class_action_build_shelter.html", null ],
@@ -311,6 +309,7 @@ var hierarchy =
           [ "ActionPlugIn", "de/dcb/class_action_plug_in.html", null ],
           [ "ActionPlugIntoFence", "d6/d34/class_action_plug_into_fence.html", null ],
           [ "ActionPlugTargetIntoThis", "d3/dbe/class_action_plug_target_into_this.html", null ],
+          [ "ActionRefuelTorch", "dd/d64/class_action_refuel_torch.html", null ],
           [ "ActionRepairWithToolFromHands", "d1/d31/class_action_repair_with_tool_from_hands.html", null ],
           [ "ActionStopEngine", "dc/d0e/class_action_stop_engine.html", null ],
           [ "ActionTakeMaterialToHandsSwitch", "dd/da3/class_action_take_material_to_hands_switch.html", null ],
@@ -464,14 +463,6 @@ var hierarchy =
       [ "AIBehaviourHLDataZombie2", "d8/dfe/class_a_i_behaviour_h_l_data_zombie2.html", null ]
     ] ],
     [ "AliceBag_ColorBase", "d3/dd0/class_alice_bag___color_base.html", null ],
-    [ "Ammo_40mm_Base", null, [
-      [ "Ammo_40mm_Explosive", "d5/dfb/class_ammo__40mm___explosive.html", null ],
-      [ "Ammo_40mm_Smoke_ColorBase", "d5/dbd/class_ammo__40mm___smoke___color_base.html", [
-        [ "Ammo_40mm_Smoke_Black", "d4/d06/class_ammo__40mm___smoke___black.html", null ],
-        [ "Ammo_40mm_Smoke_Green", "d3/d07/class_ammo__40mm___smoke___green.html", null ],
-        [ "Ammo_40mm_Smoke_White", "d2/da7/class_ammo__40mm___smoke___white.html", null ]
-      ] ]
-    ] ],
     [ "AmmoCamParams", "dd/df2/class_ammo_cam_params.html", null ],
     [ "AmmoEffects", "db/d46/class_ammo_effects.html", null ],
     [ "AmmoTypesAPI", "de/d92/class_ammo_types_a_p_i.html", null ],
@@ -515,7 +506,6 @@ var hierarchy =
     [ "array< EntityAI >", "d2/d41/classarray.html", null ],
     [ "array< float >", "d2/d41/classarray.html", null ],
     [ "array< ImageWidget >", "d2/d41/classarray.html", null ],
-    [ "array< int >", "d2/d41/classarray.html", null ],
     [ "array< ItemBase >", "d2/d41/classarray.html", null ],
     [ "array< K >", "d2/d41/classarray.html", null ],
     [ "array< Land_Underground_Panel >", "d2/d41/classarray.html", null ],
@@ -525,6 +515,7 @@ var hierarchy =
     [ "array< Man >", "d2/d41/classarray.html", null ],
     [ "array< Object >", "d2/d41/classarray.html", null ],
     [ "array< Param >", "d2/d41/classarray.html", null ],
+    [ "array< Param3 >", "d2/d41/classarray.html", null ],
     [ "array< Particle >", "d2/d41/classarray.html", null ],
     [ "array< ParticleSource >", "d2/d41/classarray.html", null ],
     [ "array< PlayerBase >", "d2/d41/classarray.html", null ],
@@ -585,10 +576,10 @@ var hierarchy =
     [ "array< ref NotificationRuntimeData >", "d2/d41/classarray.html", null ],
     [ "array< ref OverheatingParticle >", "d2/d41/classarray.html", null ],
     [ "array< ref Param >", "d2/d41/classarray.html", null ],
-    [ "array< ref Param2< EntityAI, int > >", "d2/d41/classarray.html", null ],
-    [ "array< ref Param4< int, int, float, bool > >", "d2/d41/classarray.html", null ],
+    [ "array< ref Param2< EntityAI, Param3 > >", "d2/d41/classarray.html", null ],
+    [ "array< ref Param4< Param3, Param3, float, bool > >", "d2/d41/classarray.html", null ],
     [ "array< ref Param5< vector, vector, string, ref array< string >, string > >", "d2/d41/classarray.html", null ],
-    [ "array< ref Param6< vector, vector, float, float, float, int > >", "d2/d41/classarray.html", null ],
+    [ "array< ref Param6< vector, vector, float, float, float, Param3 > >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerSpawnPresetComplexChildrenType >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerSpawnPresetDiscreteCargoSetData >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerSpawnPresetSlotData >", "d2/d41/classarray.html", null ],
@@ -1267,15 +1258,7 @@ var hierarchy =
     [ "EmoteLauncher", "d9/df0/class_emote_launcher.html", null ],
     [ "EnProfiler", "db/d2b/class_en_profiler.html", null ],
     [ "EnScript", "de/dbc/class_en_script.html", null ],
-    [ "Entity", "d2/d96/class_entity.html", [
-      [ "FlareSimulation", "d5/d89/class_flare_simulation.html", [
-        [ "FlareSimulation_Green", "d2/ddf/class_flare_simulation___green.html", null ]
-      ] ],
-      [ "SmokeSimulation", "d1/d67/class_smoke_simulation.html", [
-        [ "SmokeSimulation_Green", "db/d30/class_smoke_simulation___green.html", null ],
-        [ "SmokeSimulation_White", "d4/d2d/class_smoke_simulation___white.html", null ]
-      ] ]
-    ] ],
+    [ "Entity", "d2/d96/class_entity.html", null ],
     [ "EntityAI", "df/df9/class_entity_a_i.html", null ],
     [ "EntityLightSource", "d7/d29/class_entity_light_source.html", null ],
     [ "EntranceLight", null, [
@@ -1901,6 +1884,7 @@ var hierarchy =
     [ "JsonApiHandle", "d9/d8f/class_json_api_handle.html", null ],
     [ "JsonControlMappingInfo", "d9/d09/class_json_control_mapping_info.html", null ],
     [ "JsonFileLoader< Class T >", "dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html", null ],
+    [ "JsonHintsData", "d6/df7/class_json_hints_data.html", null ],
     [ "JsonMissionLoaderData", "d6/d52/class_json_mission_loader_data.html", null ],
     [ "JsonObject", "d7/d22/class_json_object.html", null ],
     [ "JsonUndergroundAreaTriggerData", "d1/d13/class_json_underground_area_trigger_data.html", null ],
@@ -1960,6 +1944,14 @@ var hierarchy =
         [ "Ammo_308WinTracer", "d9/d7b/class_ammo__308_win_tracer.html", null ],
         [ "Ammo_357", "da/d49/class_ammo__357.html", null ],
         [ "Ammo_380", "dc/d42/class_ammo__380.html", null ],
+        [ "Ammo_40mm_Base", "d9/d72/class_ammo__40mm___base.html", [
+          [ "Ammo_40mm_Explosive", "d5/dfb/class_ammo__40mm___explosive.html", null ],
+          [ "Ammo_40mm_Smoke_ColorBase", "d5/dbd/class_ammo__40mm___smoke___color_base.html", [
+            [ "Ammo_40mm_Smoke_Black", "d4/d06/class_ammo__40mm___smoke___black.html", null ],
+            [ "Ammo_40mm_Smoke_Green", "d3/d07/class_ammo__40mm___smoke___green.html", null ],
+            [ "Ammo_40mm_Smoke_White", "d2/da7/class_ammo__40mm___smoke___white.html", null ]
+          ] ]
+        ] ],
         [ "Ammo_45ACP", "dc/d5b/class_ammo__45_a_c_p.html", null ],
         [ "Ammo_545x39", "d7/d76/class_ammo__545x39.html", null ],
         [ "Ammo_545x39Tracer", "dd/d10/class_ammo__545x39_tracer.html", null ],
@@ -2047,7 +2039,8 @@ var hierarchy =
       [ "Mag_ShockCartridge", "d1/d7d/class_mag___shock_cartridge.html", null ],
       [ "Mag_UMP_25Rnd", "dc/d42/class_mag___u_m_p__25_rnd.html", null ],
       [ "Mag_VAL_20Rnd", "de/d0e/class_mag___v_a_l__20_rnd.html", null ],
-      [ "Mag_VSS_10Rnd", "d6/d4e/class_mag___v_s_s__10_rnd.html", null ]
+      [ "Mag_VSS_10Rnd", "d6/d4e/class_mag___v_s_s__10_rnd.html", null ],
+      [ "Mag_Vikhr_30Rnd", "d2/d4b/class_mag___vikhr__30_rnd.html", null ]
     ] ],
     [ "Magnum_Base", "d5/d08/class_magnum___base.html", null ],
     [ "MaleFeet_Base", "de/ddf/class_male_feet___base.html", null ],
@@ -2069,10 +2062,14 @@ var hierarchy =
       [ "CfgParam", "d2/d9b/class_cfg_param.html", null ],
       [ "CollisionOverlapCallback", "da/d0d/class_collision_overlap_callback.html", null ],
       [ "ColorValuesData", "d0/db0/class_color_values_data.html", null ],
+      [ "CupidsBoltSimulation", "d7/db9/class_cupids_bolt_simulation.html", null ],
       [ "DayZIntroScene", "da/dcf/class_day_z_intro_scene.html", [
         [ "DayZIntroScenePC", "d1/d75/class_day_z_intro_scene_p_c.html", null ]
       ] ],
       [ "DayZIntroSceneXbox", "da/d9b/class_day_z_intro_scene_xbox.html", null ],
+      [ "FlareSimulation", "d5/d89/class_flare_simulation.html", [
+        [ "FlareSimulation_Green", "d2/ddf/class_flare_simulation___green.html", null ]
+      ] ],
       [ "GameOptions", "da/dd5/class_game_options.html", null ],
       [ "Hud", "d5/dbf/class_hud.html", null ],
       [ "IEntity", "dc/da9/class_i_entity.html", null ],
@@ -2088,6 +2085,7 @@ var hierarchy =
       [ "MenuData", "d9/db7/class_menu_data.html", null ],
       [ "OptionsAccess", "d6/d93/class_options_access.html", null ],
       [ "Param", "de/d90/class_param.html", [
+        [ "Param10< Class T1, Class T2, Class T3, Class T4, Class T5, Class T6, Class T7, Class T8, Class T9, Class T10 >", "d9/d81/class_param10_3_01_class_01_t1_00_01_class_01_t2_00_01_class_01_t3_00_01_class_01_t4_00_01_class1839d681b97754a2237e074bba42bd52.html", null ],
         [ "Param7< Class T1, Class T2, Class T3, Class T4, Class T5, Class T6, Class T7 >", "d9/d26/class_param7_3_01_class_01_t1_00_01_class_01_t2_00_01_class_01_t3_00_01_class_01_t4_00_01_class_1e4526455547b8517571e0711b232e99.html", null ],
         [ "Param8< Class T1, Class T2, Class T3, Class T4, Class T5, Class T6, Class T7, Class T8 >", "dc/dc5/class_param8_3_01_class_01_t1_00_01_class_01_t2_00_01_class_01_t3_00_01_class_01_t4_00_01_class_63754a290a31e34e0282907cabade72f.html", null ],
         [ "Param9< Class T1, Class T2, Class T3, Class T4, Class T5, Class T6, Class T7, Class T8, Class T9 >", "d3/d64/class_param9_3_01_class_01_t1_00_01_class_01_t2_00_01_class_01_t3_00_01_class_01_t4_00_01_class_6eab16d50ba30afffba50744d0057ba6.html", null ]
@@ -2121,7 +2119,6 @@ var hierarchy =
         [ "MainMenuButtonEffect", "d8/dc2/class_main_menu_button_effect.html", null ],
         [ "MapHandler", "d4/dc5/class_map_handler.html", null ],
         [ "RightGap", "d8/d7f/class_right_gap.html", null ],
-        [ "ScriptConsoleToolTipEventHandler", "d9/dba/class_script_console_tool_tip_event_handler.html", null ],
         [ "ScrollBarContainer", "d9/d53/class_scroll_bar_container.html", null ],
         [ "SpacerBase", "d2/d7a/class_spacer_base.html", [
           [ "HorizontalSpacer", "de/de9/class_horizontal_spacer.html", null ],
@@ -2137,6 +2134,10 @@ var hierarchy =
         [ "ScriptJunctureData", "dc/d6e/class_script_juncture_data.html", null ],
         [ "ScriptRPC", "d5/d8a/class_script_r_p_c.html", null ],
         [ "ScriptRemoteInputUserData", "df/d03/class_script_remote_input_user_data.html", null ]
+      ] ],
+      [ "SmokeSimulation", "d1/d67/class_smoke_simulation.html", [
+        [ "SmokeSimulation_Green", "db/d30/class_smoke_simulation___green.html", null ],
+        [ "SmokeSimulation_White", "d4/d2d/class_smoke_simulation___white.html", null ]
       ] ],
       [ "TotalDamageResult", "d7/d7b/class_total_damage_result.html", null ],
       [ "TraceParam", "d7/ddf/class_trace_param.html", [
@@ -2352,11 +2353,15 @@ var hierarchy =
     ] ],
     [ "Param2", "d2/d04/class_param2.html", null ],
     [ "Param2< float, float >", "d2/d04/class_param2.html", null ],
-    [ "Param2< int, float >", "d2/d04/class_param2.html", null ],
-    [ "Param2< int, int >", "d2/d04/class_param2.html", null ],
-    [ "Param2< int, string >", "d2/d04/class_param2.html", null ],
+    [ "Param2< Param3, float >", "d2/d04/class_param2.html", null ],
+    [ "Param2< Param3, Param3 >", "d2/d04/class_param2.html", null ],
+    [ "Param2< Param3, string >", "d2/d04/class_param2.html", null ],
     [ "Param2< string, float >", "d2/d04/class_param2.html", null ],
     [ "Param2< string, string >", "d2/d04/class_param2.html", null ],
+    [ "Param3", "db/d86/class_param3.html", null ],
+    [ "Param3< float, float, bool >", "db/d86/class_param3.html", null ],
+    [ "Param3< float, float, float >", "db/d86/class_param3.html", null ],
+    [ "Param3< Param3, Param3, bool >", "db/d86/class_param3.html", null ],
     [ "ParamedicJacket_ColorBase", "d4/d11/class_paramedic_jacket___color_base.html", null ],
     [ "ParamedicPants_ColorBase", "db/d9b/class_paramedic_pants___color_base.html", null ],
     [ "ParticleBase", null, [
@@ -2777,7 +2782,8 @@ var hierarchy =
       [ "Saiga_Base", "d4/d97/class_saiga___base.html", null ],
       [ "VSS_Base", "db/d47/class_v_s_s___base.html", [
         [ "ASVAL", "d3/d24/class_a_s_v_a_l.html", null ],
-        [ "VSS", "da/da9/class_v_s_s.html", null ]
+        [ "VSS", "da/da9/class_v_s_s.html", null ],
+        [ "Vikhr", "d3/dc8/class_vikhr.html", null ]
       ] ]
     ] ],
     [ "RifleBoltLock_Base", null, [
@@ -3240,6 +3246,10 @@ var hierarchy =
     [ "Slot_weaponUnderSlugM4", "dc/d42/class_cfg_slots_1_1_slot__weapon_under_slug_m4.html", null ],
     [ "Slot_weaponWrap", "d0/d8a/class_cfg_slots_1_1_slot__weapon_wrap.html", null ],
     [ "Slot_WoodenStick", "db/dc7/class_cfg_slots_1_1_slot___wooden_stick.html", null ],
+    [ "SMDataBase", "d9/d95/class_s_m_data_base.html", null ],
+    [ "SMDataExponential", null, [
+      [ "SMDataHoldBreath", "df/dcc/class_s_m_data_hold_breath.html", null ]
+    ] ],
     [ "SmokeGrenadeBase", "d3/d4c/class_smoke_grenade_base.html", null ],
     [ "SmptAnimMetaADD", "d9/d71/class_smpt_anim_meta_a_d_d.html", null ],
     [ "SmptAnimMetaBase", "d4/d01/class_smpt_anim_meta_base.html", null ],
@@ -3264,8 +3274,11 @@ var hierarchy =
     [ "SqfDebugWatcher", "da/de9/class_sqf_debug_watcher.html", null ],
     [ "Stamina", "dd/da7/class_stamina.html", null ],
     [ "StaminaConsumers", "d4/d08/class_stamina_consumers.html", null ],
+    [ "StaminaHandler", "d7/d1a/class_stamina_handler.html", null ],
     [ "StaminaLowFilterBase", "d3/d09/class_stamina_low_filter_base.html", null ],
-    [ "StaminaModifiers", "db/d2d/class_stamina_modifiers.html", null ],
+    [ "StaminaModifier", null, [
+      [ "StaminaModifierExponential", "d0/d10/class_stamina_modifier_exponential.html", null ]
+    ] ],
     [ "StaminaSoundEventBase", "d8/d32/class_stamina_sound_event_base.html", null ],
     [ "StaminaSoundHandlerBase", "d4/dc5/class_stamina_sound_handler_base.html", null ],
     [ "StanceIndicator", "d9/df3/class_stance_indicator.html", null ],
@@ -3288,6 +3301,7 @@ var hierarchy =
     [ "string", "d5/d92/classstring.html", null ],
     [ "SuppressorBase", "d1/d1f/class_suppressor_base.html", null ],
     [ "Surface", "d1/d1a/class_surface.html", null ],
+    [ "SurfaceInfo", "d5/dc8/class_surface_info.html", null ],
     [ "SurgicalGloves_ColorBase", "df/d66/class_surgical_gloves___color_base.html", null ],
     [ "SurrenderData", "da/dd4/class_surrender_data.html", null ],
     [ "SwapOldAndNewMagazine", "de/d0e/class_swap_old_and_new_magazine.html", null ],

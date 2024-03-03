@@ -8,6 +8,7 @@ var _v_o_n_manager_8c =
     [ "OnEvent", "dd/d43/_v_o_n_manager_8c.html#ac7ecc522138d7e70c68f044effd43c73", null ],
     [ "OnVOIPThresholdChanged", "dd/d43/_v_o_n_manager_8c.html#aa66d74880425f2fe484928b1861baa5f", null ],
     [ "ShowVoiceNotification", "dd/d43/_v_o_n_manager_8c.html#aaeb0b3a998677a85fa9cf51a6d7cf42b", null ],
+    [ "UpdateVoiceIcon", "dd/d43/_v_o_n_manager_8c.html#a8244cbf6c818e60f6ad424c0fe624524", null ],
     [ "VONManagerBase", "dd/d43/_v_o_n_manager_8c.html#a26fa4d89ccbaada1c508a3b3f9d4e022", null ],
     [ "VONManagerImplementation", "dd/d43/_v_o_n_manager_8c.html#a49bfeeb79e0404b0d5eaabae24c6a068", null ],
     [ "~VONManagerImplementation", "dd/d43/_v_o_n_manager_8c.html#a746a4da635062b4c582d8e055c2d64ae", null ],
