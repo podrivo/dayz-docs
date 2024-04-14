@@ -19,9 +19,7 @@ var hierarchy =
     [ "ActionBase", null, [
       [ "ActionFoldMap", "d7/d14/class_action_fold_map.html", null ],
       [ "ActionGetInTransport", "d3/d30/class_action_get_in_transport.html", null ],
-      [ "ActionInstantBase", "df/d53/class_action_instant_base.html", [
-        [ "ActionDebug", "da/df2/class_action_debug.html", null ]
-      ] ],
+      [ "ActionInstantBase", "df/d53/class_action_instant_base.html", null ],
       [ "ActionSwitchSeats", "d4/d65/class_action_switch_seats.html", null ],
       [ "ActionToggleNVG", "d7/dac/class_action_toggle_n_v_g.html", null ],
       [ "ActionTurnOffHeadtorch", "d3/d0d/class_action_turn_off_headtorch.html", null ],

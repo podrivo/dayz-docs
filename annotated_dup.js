@@ -117,7 +117,6 @@ var annotated_dup =
     [ "ActionCreateIndoorFireplace", "d0/d80/class_action_create_indoor_fireplace.html", "d0/d80/class_action_create_indoor_fireplace" ],
     [ "ActionCreateIndoorOven", "db/de0/class_action_create_indoor_oven.html", "db/de0/class_action_create_indoor_oven" ],
     [ "ActionData", "da/d5a/class_action_data.html", "da/d5a/class_action_data" ],
-    [ "ActionDebug", "da/df2/class_action_debug.html", "da/df2/class_action_debug" ],
     [ "ActionDebugReciveData", "de/d5a/class_action_debug_recive_data.html", "de/d5a/class_action_debug_recive_data" ],
     [ "ActionDeconstructShelter", "d6/d4e/class_action_deconstruct_shelter.html", "d6/d4e/class_action_deconstruct_shelter" ],
     [ "ActionDeCraftDrysackBagCB", "d9/d41/class_action_de_craft_drysack_bag_c_b.html", "d9/d41/class_action_de_craft_drysack_bag_c_b" ],
