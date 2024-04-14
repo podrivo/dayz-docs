@@ -21,6 +21,7 @@ Changelog
 --
 
 Version 1.24
+- [Update 4 v1.24.157828 · Apr 11, 2024](https://forums.dayz.com/topic/259072-stable-update-124/?page=3&tab=comments#comment-2493582)
 - [Update 3 v1.24.157623 · Mar 07, 2024](https://forums.dayz.com/topic/259072-stable-update-124/?page=3&tab=comments#comment-2493037)
 - [Update 2 v1.24.157551 · Feb 29, 2024](https://forums.dayz.com/topic/259072-stable-update-124/?page=2&tab=comments#comment-2492939)
 - [Update 1 v1.24.157448 · Feb 20, 2024](https://forums.dayz.com/topic/259072-stable-update-124/)
