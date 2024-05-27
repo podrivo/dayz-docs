@@ -21,6 +21,9 @@ var _b_i_o_s_error_module_8c =
       [ "UPDATE_REQUIRED_AND_DOWNLOADED", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1adfe2c440059d88eb354a346176a7f225", null ],
       [ "COMUNICATION_ERROR", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a10b3daa79fc1896f7944183791af1c2e", null ],
       [ "UNKNOWN", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1ab6aedfcb4a10d1a01e272f492e2c2765", null ],
-      [ "BAD_SCRIPT", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a37c39cc1fade92fcaa3d733180e474f0", null ]
+      [ "BAD_SCRIPT", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a37c39cc1fade92fcaa3d733180e474f0", null ],
+      [ "COMMUNICATION_TIMED_OUT", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a28f9e542c647f001abb74e93fac277f8", null ],
+      [ "COMMUNICATION_RESET", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a82d8911bcefdfc1001ab0446dc54dbe3", null ],
+      [ "COMMUNICATION_ABORTED", "d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a9fe746b8a5c2ca538722838e7d92c217", null ]
     ] ]
 ];

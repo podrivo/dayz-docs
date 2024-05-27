@@ -168,6 +168,7 @@ var _e_diag_menu_i_ds_8c =
       [ "FINISHERS_FINISHER_FORCED", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a54040b1109530fcf9f4b46a116e6bdd6", null ],
       [ "SOUNDS_MENU", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336afae35e960dc1fdd3c99972cfa215beb4", null ],
       [ "SOUNDS_ITEM_IMPACT_SOUNDS", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a7848c0aee35caaffae77b4b0293d4a62", null ],
+      [ "SOUNDS_DYNAMIC_MUSIC_PLAYER_STATS", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a60793f9cc2e1c64f359801fe03494169", null ],
       [ "CAMERATOOLS_MENU", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a75cbe5155916a0ff444e8b17637eb4ed", null ],
       [ "CAMERATOOLS_ENABLE_REMOTE_CAMERA", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a247fd43d66844de20d0ac6171230fa04", null ],
       [ "CAMERATOOLS_ENABLE_REMOTE_CAMERA_BROADCAST", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a524d67125ae4abe8a65823384167e997", null ],

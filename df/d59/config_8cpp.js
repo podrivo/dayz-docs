@@ -386,5 +386,6 @@ var config_8cpp =
     [ "Slot_TrapPrey_1", "d8/d9c/class_cfg_slots_1_1_slot___trap_prey__1.html", "d8/d9c/class_cfg_slots_1_1_slot___trap_prey__1" ],
     [ "Slot_TrapPrey_2", "d4/dec/class_cfg_slots_1_1_slot___trap_prey__2.html", "d4/dec/class_cfg_slots_1_1_slot___trap_prey__2" ],
     [ "Slot_TrapPrey_3", "dd/d5f/class_cfg_slots_1_1_slot___trap_prey__3.html", "dd/d5f/class_cfg_slots_1_1_slot___trap_prey__3" ],
-    [ "Slot_TrapPrey_4", "de/d75/class_cfg_slots_1_1_slot___trap_prey__4.html", "de/d75/class_cfg_slots_1_1_slot___trap_prey__4" ]
+    [ "Slot_TrapPrey_4", "de/d75/class_cfg_slots_1_1_slot___trap_prey__4.html", "de/d75/class_cfg_slots_1_1_slot___trap_prey__4" ],
+    [ "_ARMA_", "df/d59/config_8cpp.html#af799d6402f336c74756424ae9ef16506", null ]
 ];

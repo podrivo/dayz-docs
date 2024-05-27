@@ -10,6 +10,7 @@ var dir_48567c8e08b0881cd46486fcc05495d6 =
     [ "SawedoffIzh18.c", "d4/dad/_sawedoff_izh18_8c.html", "d4/dad/_sawedoff_izh18_8c" ],
     [ "Scout.c", "d0/df6/_scout_8c.html", "d0/df6/_scout_8c" ],
     [ "SSG82.c", "d0/d0a/_s_s_g82_8c.html", "d0/d0a/_s_s_g82_8c" ],
+    [ "SV98.c", "d3/dca/_s_v98_8c.html", "d3/dca/_s_v98_8c" ],
     [ "SVD.c", "d0/d97/_s_v_d_8c.html", "d0/d97/_s_v_d_8c" ],
     [ "Trumpet.c", "de/dff/_trumpet_8c.html", "de/dff/_trumpet_8c" ],
     [ "Winchester70.c", "d8/dc6/_winchester70_8c.html", "d8/dc6/_winchester70_8c" ]

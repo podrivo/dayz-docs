@@ -19,6 +19,7 @@ var dir_0ed91739e2aafd88742b7d4cf78296ee =
     [ "Man.c", "d3/dcd/3___game_2_entities_2_man_8c.html", "d3/dcd/3___game_2_entities_2_man_8c" ],
     [ "Object.c", "dd/d93/_object_8c.html", "dd/d93/_object_8c" ],
     [ "ObjectTyped.c", "d7/d68/_object_typed_8c.html", "d7/d68/_object_typed_8c" ],
+    [ "Pawn.c", "d8/d52/_pawn_8c.html", null ],
     [ "ScriptedEntity.c", "dc/d9f/_scripted_entity_8c.html", "dc/d9f/_scripted_entity_8c" ],
     [ "SoundOnVehicle.c", "db/dbd/_sound_on_vehicle_8c.html", "db/dbd/_sound_on_vehicle_8c" ]
 ];

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.24.157828 · Apr 11, 2024</div>
+   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,6 +137,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a10b3daa79fc1896f7944183791af1c2e">COMUNICATION_ERROR</a>
 , <a class="el" href="../../d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1ab6aedfcb4a10d1a01e272f492e2c2765">UNKNOWN</a> = -1
 , <a class="el" href="../../d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a37c39cc1fade92fcaa3d733180e474f0">BAD_SCRIPT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a28f9e542c647f001abb74e93fac277f8">COMMUNICATION_TIMED_OUT</a>
+, <a class="el" href="../../d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a82d8911bcefdfc1001ab0446dc54dbe3">COMMUNICATION_RESET</a>
+, <a class="el" href="../../d6/da5/_b_i_o_s_error_module_8c.html#a112301e9d14b76a1669e09f081559cd1a9fe746b8a5c2ca538722838e7d92c217">COMMUNICATION_ABORTED</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a112301e9d14b76a1669e09f081559cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible Error codes for bios API. This is the list of errors that can be returned from bios API. Errors after UNKNOWN are extended errors that are not present in the native API. <br  />
@@ -195,11 +199,17 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1adfe2c440059d88eb354a346176a7f225" name="a112301e9d14b76a1669e09f081559cd1adfe2c440059d88eb354a346176a7f225"></a>UPDATE_REQUIRED_AND_DOWNLOADED&#160;</td><td class="fielddoc"><p>22 - [PS] Mandatory update exist and is ready to install. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1a10b3daa79fc1896f7944183791af1c2e" name="a112301e9d14b76a1669e09f081559cd1a10b3daa79fc1896f7944183791af1c2e"></a>COMUNICATION_ERROR&#160;</td><td class="fielddoc"><p>23 - Resource is unreachable or unavailable, can be 404 or no internet connection (etc.) </p>
+<tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1a10b3daa79fc1896f7944183791af1c2e" name="a112301e9d14b76a1669e09f081559cd1a10b3daa79fc1896f7944183791af1c2e"></a>COMUNICATION_ERROR&#160;</td><td class="fielddoc"><p>23 - Resource is unreachable or unavailable, can be 404 or no internet connection (etc.) - general communication error. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1ab6aedfcb4a10d1a01e272f492e2c2765" name="a112301e9d14b76a1669e09f081559cd1ab6aedfcb4a10d1a01e272f492e2c2765"></a>UNKNOWN&#160;</td><td class="fielddoc"><p>24 - Any other error. Can be returned from any call. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1a37c39cc1fade92fcaa3d733180e474f0" name="a112301e9d14b76a1669e09f081559cd1a37c39cc1fade92fcaa3d733180e474f0"></a>BAD_SCRIPT&#160;</td><td class="fielddoc"><p>25 - Extended error. Script not properly linked with engine. May be removed in future. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1a28f9e542c647f001abb74e93fac277f8" name="a112301e9d14b76a1669e09f081559cd1a28f9e542c647f001abb74e93fac277f8"></a>COMMUNICATION_TIMED_OUT&#160;</td><td class="fielddoc"><p>26 - Connection has timed out. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1a82d8911bcefdfc1001ab0446dc54dbe3" name="a112301e9d14b76a1669e09f081559cd1a82d8911bcefdfc1001ab0446dc54dbe3"></a>COMMUNICATION_RESET&#160;</td><td class="fielddoc"><p>27 - Connection was reset. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a112301e9d14b76a1669e09f081559cd1a9fe746b8a5c2ca538722838e7d92c217" name="a112301e9d14b76a1669e09f081559cd1a9fe746b8a5c2ca538722838e7d92c217"></a>COMMUNICATION_ABORTED&#160;</td><td class="fielddoc"><p>28 - Connection was aborted. </p>
 </td></tr>
 </table>
 

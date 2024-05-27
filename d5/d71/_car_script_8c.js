@@ -11,6 +11,7 @@ var _car_script_8c =
     [ "BrakeLightsShineOn", "d5/d71/_car_script_8c.html#a6dd5640f16b673a75a194365e2a47f33", null ],
     [ "BrakesRearLight", "d5/d71/_car_script_8c.html#a191242b1cf021cdc064d49648df72a63", null ],
     [ "CanManipulateSpareWheel", "d5/d71/_car_script_8c.html#a90dcd4a1218584f575e4f8f43d8fdcd0", null ],
+    [ "CanPutIntoHands", "d5/d71/_car_script_8c.html#a9c46909a8838ed5e1786f94e56237b43", null ],
     [ "CanReachSeatFromDoors", "d5/d71/_car_script_8c.html#ac62a9e18e4af270d5866407833114447", null ],
     [ "CanReceiveAttachment", "d5/d71/_car_script_8c.html#ae7bd4d02b82fa1017e3a4cf7e3caba18", null ],
     [ "CanReleaseAttachment", "d5/d71/_car_script_8c.html#a76f479c91419f4a76f665cc2a0648014", null ],

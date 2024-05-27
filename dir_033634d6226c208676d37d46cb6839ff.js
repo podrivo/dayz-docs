@@ -43,6 +43,7 @@ var dir_033634d6226c208676d37d46cb6839ff =
     [ "SkorpionRecoil.c", "d5/d09/_skorpion_recoil_8c.html", "d5/d09/_skorpion_recoil_8c" ],
     [ "SKSRecoil.c", "dd/d29/_s_k_s_recoil_8c.html", "dd/d29/_s_k_s_recoil_8c" ],
     [ "SSG82Recoil.c", "d9/d46/_s_s_g82_recoil_8c.html", "d9/d46/_s_s_g82_recoil_8c" ],
+    [ "SV98Recoil.c", "d4/d54/_s_v98_recoil_8c.html", "d4/d54/_s_v98_recoil_8c" ],
     [ "SvdRecoil.c", "d7/d63/_svd_recoil_8c.html", "d7/d63/_svd_recoil_8c" ],
     [ "Ump45Recoil.c", "db/d6f/_ump45_recoil_8c.html", "db/d6f/_ump45_recoil_8c" ],
     [ "VSSRecoil.c", "d8/d46/_v_s_s_recoil_8c.html", "d8/d46/_v_s_s_recoil_8c" ],

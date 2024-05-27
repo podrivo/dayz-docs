@@ -61,5 +61,6 @@ var _magazines_8c =
     [ "Mag_SSG82_5rnd", "d7/d41/class_mag___s_s_g82__5rnd.html", null ],
     [ "Mag_M14_10Rnd", "d9/dcb/class_mag___m14__10_rnd.html", null ],
     [ "Mag_M14_20Rnd", "dc/dde/class_mag___m14__20_rnd.html", null ],
-    [ "Mag_Vikhr_30Rnd", "d2/d4b/class_mag___vikhr__30_rnd.html", null ]
+    [ "Mag_Vikhr_30Rnd", "d2/d4b/class_mag___vikhr__30_rnd.html", null ],
+    [ "Mag_SV98_10Rnd", "d4/d59/class_mag___s_v98__10_rnd.html", null ]
 ];

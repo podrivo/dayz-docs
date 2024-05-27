@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.24.157828 · Apr 11, 2024</div>
+   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,7 +124,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac03b8faf21665d7257172ff0961ff524"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this item is activated by other.  <br /></td></tr>
 <tr class="separator:ac03b8faf21665d7257172ff0961ff524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22c92ea2ca551f9894095ffd4154e6d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#ad22c92ea2ca551f9894095ffd4154e6d">OnActivate</a> ()</td></tr>
-<tr class="memdesc:ad22c92ea2ca551f9894095ffd4154e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">HumanCommandScript fully scriptable command.  <br /></td></tr>
 <tr class="separator:ad22c92ea2ca551f9894095ffd4154e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b28177ea528659f35679edcfe0bb36f"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a6b28177ea528659f35679edcfe0bb36f">CanExplodeInFire</a> ()</td></tr>
 <tr class="separator:a6b28177ea528659f35679edcfe0bb36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -376,11 +375,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>HumanCommandScript fully scriptable command. </p>
-<dl class="section warning"><dt>Warning</dt><dd>NON-MANAGED, will be managed by C++ once it is sent to the CommandHandler through Human.StartCommand_Script </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>So ideally, it is best to set up the HumanCommandScript, not create any instances and start it through Human.StartCommand_ScriptInst In case an instance needs to be created, it needs manual deletion if not sent to the CommandHandler But deleting it while it is in the CommandHandler will cause crashes constructor must have 1st parameter to be Human virtual to be overridden called when command starts </dd></dl>
-
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../de/d0e/_modifier_base_8c.html#aaf6ee4d1f067be1038b7a662af6af1bf">GetPlayer()</a>, <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#afbe253ef8f808d8e9cf45dc7fefa9c01">m_TimerLoopSound</a>, and <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#aafbfef1d76a0267d0869ba9678d2fe1e">PlaySoundActivate()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d0e/_modifier_base_8c.html#ae8753efaeea05f65094a4875a694a368">Activate()</a>, <a class="el" href="../../d2/d2f/class_antibiotics_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">AntibioticsMdfr::OnReconnect()</a>, <a class="el" href="../../da/da1/class_charcoal_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">CharcoalMdfr::OnReconnect()</a>, <a class="el" href="../../d3/d85/class_fatigue_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">FatigueMdfr::OnReconnect()</a>, <a class="el" href="../../da/de4/class_fever_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">FeverMdfr::OnReconnect()</a>, <a class="el" href="../../d4/d54/class_hemolytic_reaction_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">HemolyticReactionMdfr::OnReconnect()</a>, <a class="el" href="../../d3/da5/class_poisoning_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">PoisoningMdfr::OnReconnect()</a>, <a class="el" href="../../d4/dc0/class_wet_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">WetMdfr::OnReconnect()</a>, <a class="el" href="../../df/d80/class_disinfection_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">DisinfectionMdfr::OnReconnect()</a>, <a class="el" href="../../df/d8b/class_drowning_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">DrowningMdfr::OnReconnect()</a>, <a class="el" href="../../de/d92/class_epinephrine_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">EpinephrineMdfr::OnReconnect()</a>, <a class="el" href="../../d9/d9a/class_flies_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">FliesMdfr::OnReconnect()</a>, <a class="el" href="../../d4/d6f/class_immunity_boost.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">ImmunityBoost::OnReconnect()</a>, <a class="el" href="../../d6/d0f/class_mask_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">MaskMdfr::OnReconnect()</a>, <a class="el" href="../../d0/d5e/class_morphine_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">MorphineMdfr::OnReconnect()</a>, <a class="el" href="../../dc/d5a/class_pain_killers_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">PainKillersMdfr::OnReconnect()</a>, and <a class="el" href="../../d5/dd9/class_saline_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13">SalineMdfr::OnReconnect()</a>.</p>
 
 </div>
 </div>
@@ -635,7 +632,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d3/d3a/_underground_area_loader_8c.html#af4b5180d61f839c99de2d15fdcda4568">GetPosition</a>, <a class="el" href="../../d2/d03/class_s_effect_manager.html#af0e79eb49231c4fb5ae3467be05f43a0">SEffectManager::PlaySound()</a>, and <a class="el" href="../../d9/d89/class_effect_sound.html#af5eacfbd1ed6f18ade3c93953dece0d1">EffectSound::SetAutodestroy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#ad22c92ea2ca551f9894095ffd4154e6d">OnActivate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a106f4e7cb7e00a24f6fc24c4819a76c3">OnActivate()</a>.</p>
 
 </div>
 </div>
@@ -809,7 +806,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#ad22c92ea2ca551f9894095ffd4154e6d">OnActivate()</a>, <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a7061b4e200bcad2499e0afb71cc25ccd">StartActivate()</a>, and <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a6f57c2cfceac064ee3cec2c7fe860364">~LandMineTrap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/_trap_base_8c.html#a106f4e7cb7e00a24f6fc24c4819a76c3">OnActivate()</a>, <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a7061b4e200bcad2499e0afb71cc25ccd">StartActivate()</a>, and <a class="el" href="../../d7/dc3/_trap___land_mine_8c.html#a6f57c2cfceac064ee3cec2c7fe860364">~LandMineTrap()</a>.</p>
 
 </div>
 </div>

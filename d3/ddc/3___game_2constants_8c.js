@@ -258,6 +258,7 @@ var 3___game_2constants_8c =
     [ "NONE", "d1/d5d/group___cpp_enums.html#ga964a86fa0b891851a4b33c49c738d541", null ],
     [ "NUM_OF_CHANNELS", "d3/dcd/group___message_c_m_d.html#ga7ff6a802fdc3827fbe8e5454b21d3121", null ],
     [ "NVG_OCCLUDER", "d1/d5d/group___cpp_enums.html#gac08a7538ca487ec4e498e0fe66cd6b5f", null ],
+    [ "OPTIONS_SOUND_AMBIENT_SOUND_MODE", "d2/d68/group___emote_i_ds.html#ga010013030edc3386b4719f6fba49a382", null ],
     [ "PLAYER_CHAT_MSG", "dc/d7c/group___chat_messages_visibility.html#ga9d470a1e7bfed15832c2c298335bf3eb", null ],
     [ "PROJECTED_CURSOR_DISTANCE", "d2/d68/group___emote_i_ds.html#ga52087ffb8b4e7ca74d13334c5c1f3380", null ],
     [ "PUMPKIN_OCCLUDER", "d1/d5d/group___cpp_enums.html#ga290fbe7409c8381b52e369d1d4de59f5", null ],

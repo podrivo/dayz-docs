@@ -11,6 +11,7 @@ var dir_83cc0c8eba4a72bfe3adb008d3261509 =
     [ "ECrewMemberState.c", "d8/d80/_e_crew_member_state_8c.html", "d8/d80/_e_crew_member_state_8c" ],
     [ "EDayZProfilesOptions.c", "d0/d96/_e_day_z_profiles_options_8c.html", "d0/d96/_e_day_z_profiles_options_8c" ],
     [ "EDiagMenuIDs.c", "d9/dbc/_e_diag_menu_i_ds_8c.html", "d9/dbc/_e_diag_menu_i_ds_8c" ],
+    [ "EDynamicMusicPlayerCategory.c", "d8/d06/_e_dynamic_music_player_category_8c.html", "d8/d06/_e_dynamic_music_player_category_8c" ],
     [ "EGameStateIcons.c", "df/df3/_e_game_state_icons_8c.html", "df/df3/_e_game_state_icons_8c" ],
     [ "EMeleeTargetType.c", "df/d94/_e_melee_target_type_8c.html", "df/d94/_e_melee_target_type_8c" ],
     [ "EMixedSoundStates.c", "da/d9c/_e_mixed_sound_states_8c.html", "da/d9c/_e_mixed_sound_states_8c" ],

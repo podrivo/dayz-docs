@@ -1,4 +1,4 @@
 var examples =
 [
-    [ "P:/scripts/3_game/systems/inventory/inventoryslots.c", "d9/d21/_p_1_2scripts_23_game_2systems_2inventory_2inventoryslots_8c-example.html", null ]
+    [ "P:/scripts/3_Game/Systems/Inventory/InventorySlots.c", "d5/d70/_p_1_2scripts_23__game_2_systems_2_inventory_2_inventory_slots_8c-example.html", null ]
 ];
