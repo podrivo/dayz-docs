@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.24.157828 · Apr 11, 2024</div>
+   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -110,8 +110,67 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a285333e43a6d9a6558523094c83a096e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a830d821b779c0814e9d378a50b2c896f"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_contaminated_area___base.html#a830d821b779c0814e9d378a50b2c896f">OnPlayerExitServer</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, <a class="el" href="../../d6/d9f/class_effect_trigger.html">EffectTrigger</a> trigger)</td></tr>
 <tr class="separator:a830d821b779c0814e9d378a50b2c896f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89117103e533490810b61c707b33a390"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_contaminated_area___base.html#a89117103e533490810b61c707b33a390">InitZoneClient</a> ()</td></tr>
+<tr class="separator:a89117103e533490810b61c707b33a390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a1e547e0d1e65ad421070058a093a9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_contaminated_area___base.html#a83a1e547e0d1e65ad421070058a093a9">EEDelete</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> parent)</td></tr>
+<tr class="separator:a83a1e547e0d1e65ad421070058a093a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a83a1e547e0d1e65ad421070058a093a9" name="a83a1e547e0d1e65ad421070058a093a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a1e547e0d1e65ad421070058a093a9">&#9670;&#160;</a></span>EEDelete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void EEDelete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dd/d61/dayzgame_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>.</p>
+
+</div>
+</div>
+<a id="a89117103e533490810b61c707b33a390" name="a89117103e533490810b61c707b33a390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89117103e533490810b61c707b33a390">&#9670;&#160;</a></span>InitZoneClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void InitZoneClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d4/d30/class_dynamic_music_location_types.html#a339d6ae50352e58f2f2b29eecc5a5c34">DynamicMusicLocationTypes::CONTAMINATED_ZONE</a>, <a class="el" href="../../dd/d61/dayzgame_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, and <a class="el" href="../../d5/d44/class_effect_area.html#af3c960f8d8e676c260d328e5f7b32d74">EffectArea::m_Radius</a>.</p>
+
+</div>
+</div>
 <a id="a285333e43a6d9a6558523094c83a096e" name="a285333e43a6d9a6558523094c83a096e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a285333e43a6d9a6558523094c83a096e">&#9670;&#160;</a></span>OnPlayerEnterServer()</h2>
 
@@ -185,7 +244,7 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/4_World/Classes/ContaminatedArea/<a class="el" href="../../de/d48/_contaminated_area_8c.html">ContaminatedArea.c</a></li>
+<li>P:/scripts/4_world/classes/contaminatedarea/<a class="el" href="../../d5/db4/contaminatedarea_8c.html">contaminatedarea.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

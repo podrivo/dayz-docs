@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.24.157828 · Apr 11, 2024</div>
+   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -130,17 +130,17 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Invokers for ParticleBase events, called from events. </p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> EnableOnEndPrint(<a class="code hl_function" href="../../d8/d8c/_particle_base_8c.html#a0891c73da58d29861340a81f6be81125">ParticleBase</a> psrc)</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> EnableOnEndPrint(<a class="code hl_function" href="../../d8/d20/particlebase_8c.html#a0891c73da58d29861340a81f6be81125">ParticleBase</a> psrc)</div>
 <div class="line">{</div>
 <div class="line">    psrc.GetEvents().Event_OnParticleEnd.Insert(PrintParticleEnded);</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> PrintParticleEnded(<a class="code hl_function" href="../../d8/d8c/_particle_base_8c.html#a0891c73da58d29861340a81f6be81125">ParticleBase</a> psrc)</div>
+<div class="line"><span class="keywordtype">void</span> PrintParticleEnded(<a class="code hl_function" href="../../d8/d20/particlebase_8c.html#a0891c73da58d29861340a81f6be81125">ParticleBase</a> psrc)</div>
 <div class="line">{</div>
 <div class="line">    <a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>(<span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot;%1 ended.&quot;</span>, psrc.GetDebugNameNative());</div>
 <div class="line">}</div>
-<div class="ttc" id="a_particle_base_8c_html_a0891c73da58d29861340a81f6be81125"><div class="ttname"><a href="../../d8/d8c/_particle_base_8c.html#a0891c73da58d29861340a81f6be81125">ParticleBase</a></div><div class="ttdeci">void ParticleBase()</div><div class="ttdoc">ctor</div><div class="ttdef"><b>Definition</b> ParticleBase.c:71</div></div>
 <div class="ttc" id="agroup___debug_html_gaaa9351d895a1f244a26fd635c378c536"><div class="ttname"><a href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a></div><div class="ttdeci">proto void Print(void var)</div><div class="ttdoc">Prints content of variable to console/log.</div></div>
+<div class="ttc" id="aparticlebase_8c_html_a0891c73da58d29861340a81f6be81125"><div class="ttname"><a href="../../d8/d20/particlebase_8c.html#a0891c73da58d29861340a81f6be81125">ParticleBase</a></div><div class="ttdeci">void ParticleBase()</div><div class="ttdoc">ctor</div><div class="ttdef"><b>Definition</b> particlebase.c:71</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a0dfefd35b2190d489d4728b9e6012b25" name="a0dfefd35b2190d489d4728b9e6012b25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dfefd35b2190d489d4728b9e6012b25">&#9670;&#160;</a></span>Event_OnParticleEnd</h2>
@@ -168,7 +168,7 @@ Private Attributes</h2></td></tr>
 <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a>: Called when particle ends naturally or after the particle is stopped and there are no emitors active anymore </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Looped never ends naturally and need to be stopped </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_particle_base_8c.html#a3cc2bbd94b8a97314ec8376c00e6aa85">OnParticleEnd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d20/particlebase_8c.html#a3cc2bbd94b8a97314ec8376c00e6aa85">OnParticleEnd()</a>.</p>
 
 </div>
 </div>
@@ -195,7 +195,7 @@ Private Attributes</h2></td></tr>
 <p>Called when particle receives a parent. </p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a>: Not present </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_particle_base_8c.html#aa7996b3b565d3714d89c92da2929915f">OnParticleParented()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d20/particlebase_8c.html#aa7996b3b565d3714d89c92da2929915f">OnParticleParented()</a>.</p>
 
 </div>
 </div>
@@ -224,7 +224,7 @@ Private Attributes</h2></td></tr>
 <dd>
 <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a>: Called when ResetParticleNative is successful </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_particle_base_8c.html#a0b583569338a229c73ccc699a45c7bc1">OnParticleReset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d20/particlebase_8c.html#a0b583569338a229c73ccc699a45c7bc1">OnParticleReset()</a>.</p>
 
 </div>
 </div>
@@ -253,7 +253,7 @@ Private Attributes</h2></td></tr>
 <dd>
 <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a>: Called when PlayParticleNative is successful </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_particle_base_8c.html#aab1c2d7dc38b18a57b2f5355d71e78c6">OnParticleStart()</a>, and <a class="el" href="../../de/d27/class_effect_particle.html#aee93f615dac2fc8b2ca1c3879f43e466">EffectParticle::SetParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d20/particlebase_8c.html#aab1c2d7dc38b18a57b2f5355d71e78c6">OnParticleStart()</a>, and <a class="el" href="../../de/d27/class_effect_particle.html#aee93f615dac2fc8b2ca1c3879f43e466">EffectParticle::SetParticle()</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ Private Attributes</h2></td></tr>
 <dd>
 <a class="el" href="../../de/d38/class_particle_source.html" title="Entity which has the particle instance as an ObjectComponent.">ParticleSource</a>: Called when StopParticleNative is successful, when the particle ends and when the particle is destroyed while it is playing </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_particle_base_8c.html#a97c3330238d75104c202cee5a00b3097">OnParticleStop()</a>, and <a class="el" href="../../de/d27/class_effect_particle.html#aee93f615dac2fc8b2ca1c3879f43e466">EffectParticle::SetParticle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d20/particlebase_8c.html#a97c3330238d75104c202cee5a00b3097">OnParticleStop()</a>, and <a class="el" href="../../de/d27/class_effect_particle.html#aee93f615dac2fc8b2ca1c3879f43e466">EffectParticle::SetParticle()</a>.</p>
 
 </div>
 </div>
@@ -309,12 +309,12 @@ Private Attributes</h2></td></tr>
 <p>Called when particle is orphaned. </p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="../../de/d85/class_particle.html" title="Legacy way of using particles in the game.">Particle</a>: Not present </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_particle_base_8c.html#ad4cfd98d0a476daa9e65c70e787762d1">OnParticleUnParented()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d20/particlebase_8c.html#ad4cfd98d0a476daa9e65c70e787762d1">OnParticleUnParented()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>P:/scripts/3_Game/Particles/<a class="el" href="../../d8/d8c/_particle_base_8c.html">ParticleBase.c</a></li>
+<li>P:/scripts/3_game/particles/<a class="el" href="../../d8/d20/particlebase_8c.html">particlebase.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

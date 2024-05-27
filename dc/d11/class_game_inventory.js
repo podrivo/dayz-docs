@@ -3,6 +3,7 @@ var class_game_inventory =
     [ "AddEntityToInventory", "dc/d11/class_game_inventory.html#a7040711e6cd2802738bbd0d5f86b7316", null ],
     [ "AddInventoryReservation", "dc/d11/class_game_inventory.html#a87c957675bae7a68df3b4c03bbd03b25", null ],
     [ "AddInventoryReservationEx", "dc/d11/class_game_inventory.html#a65592dfc21243755e92072ee9a798188", null ],
+    [ "AreChildrenAccessible", "dc/d11/class_game_inventory.html#aca35612afecd19fdde9f1d679ac4f380", null ],
     [ "AttachmentCount", "dc/d11/class_game_inventory.html#a303bd1112f9338ffb544f7c99ee78b1b", null ],
     [ "CanAddAttachment", "dc/d11/class_game_inventory.html#a2d2b2e6950125c44d91b3739732ee829", null ],
     [ "CanAddAttachmentEx", "dc/d11/class_game_inventory.html#aa9c090b5145d93ac9fb77d95bbf858d1", null ],

@@ -528,6 +528,7 @@ var hierarchy =
     [ "array< ref array< bool > >", "d2/d41/classarray.html", null ],
     [ "array< ref array< float > >", "d2/d41/classarray.html", null ],
     [ "array< ref array< V > >", "d2/d41/classarray.html", null ],
+    [ "array< ref array< vector > >", "d2/d41/classarray.html", null ],
     [ "array< ref BillboardSet >", "d2/d41/classarray.html", null ],
     [ "array< ref CachedServerInfo >", "d2/d41/classarray.html", null ],
     [ "array< ref CallQueueContext >", "d9/d0c/classarray_3_01ref_01_call_queue_context_01_4.html", null ],
@@ -545,6 +546,7 @@ var hierarchy =
     [ "array< ref DayZCreatureAnimScriptDebugAnimEventData >", "d2/d41/classarray.html", null ],
     [ "array< ref DayZCreatureAnimScriptDebugAnimPredictionData >", "d2/d41/classarray.html", null ],
     [ "array< ref DayZCreatureAnimScriptDebugAnimTagData >", "d2/d41/classarray.html", null ],
+    [ "array< ref DynamicMusicTrackData >", "d2/d41/classarray.html", null ],
     [ "array< ref FireworksLauncherClientEventBase >", "d2/d41/classarray.html", null ],
     [ "array< ref FSMStateBase >", "d2/d41/classarray.html", null ],
     [ "array< ref FSMTransition< FSMStateBase, FSMEventBase, FSMActionBase, FSMGuardBase > >", "d2/d41/classarray.html", null ],
@@ -675,6 +677,7 @@ var hierarchy =
         [ "CZ527_Base", "d2/df4/class_c_z527___base.html", null ],
         [ "CZ550_Base", "dd/dc8/class_c_z550___base.html", null ],
         [ "SSG82_Base", "d7/d99/class_s_s_g82___base.html", null ],
+        [ "SV98_Base", "da/d69/class_s_v98___base.html", null ],
         [ "Scout_Base", "dc/d35/class_scout___base.html", null ]
       ] ]
     ] ],
@@ -1195,6 +1198,14 @@ var hierarchy =
     [ "DrowningSoundEventBase", "d4/d7d/class_drowning_sound_event_base.html", null ],
     [ "DryBag_ColorBase", "d9/d8f/class_dry_bag___color_base.html", null ],
     [ "DummyItem", "dc/dbf/class_dummy_item.html", null ],
+    [ "DynamicMusicLocationTypes", "d4/d30/class_dynamic_music_location_types.html", null ],
+    [ "DynamicMusicPlayer", "d4/d79/class_dynamic_music_player.html", null ],
+    [ "DynamicMusicPlayerRegistry", "da/ddb/class_dynamic_music_player_registry.html", [
+      [ "DynamicMusicPlayerRegistryChernarus", "db/dc2/class_dynamic_music_player_registry_chernarus.html", null ],
+      [ "DynamicMusicPlayerRegistryEnoch", "d3/d75/class_dynamic_music_player_registry_enoch.html", null ]
+    ] ],
+    [ "DynamicMusicPlayerSettings", "d8/d88/class_dynamic_music_player_settings.html", null ],
+    [ "DynamicMusicTrackData", "d0/dff/class_dynamic_music_track_data.html", null ],
     [ "DZ_Scripts", "dd/d5b/class_cfg_patches_1_1_d_z___scripts.html", null ],
     [ "Easing", "dc/dc0/class_easing.html", null ],
     [ "EconomyLogCategories", "df/dd4/class_economy_log_categories.html", null ],
@@ -1406,6 +1417,7 @@ var hierarchy =
     [ "Hologram", "dd/df5/class_hologram.html", null ],
     [ "Hoodie_ColorBase", "d1/de7/class_hoodie___color_base.html", null ],
     [ "HudDebugWinBase", "d4/d42/class_hud_debug_win_base.html", null ],
+    [ "HudDebugWinHealthEntry", "d7/de5/class_hud_debug_win_health_entry.html", null ],
     [ "HumanAnimInterface", "de/d2d/class_human_anim_interface.html", null ],
     [ "HumanCommandActionCallback", "dc/d02/class_human_command_action_callback.html", [
       [ "ActionBaseCB", "dd/d7f/class_action_base_c_b.html", [
@@ -1615,6 +1627,7 @@ var hierarchy =
     [ "HumanCommandLadder", "d2/dde/class_human_command_ladder.html", null ],
     [ "HumanCommandMelee2", "d2/da8/class_human_command_melee2.html", null ],
     [ "HumanCommandMove", "dd/db0/class_human_command_move.html", null ],
+    [ "HumanCommandScript", "dd/d0e/class_human_command_script.html", null ],
     [ "HumanCommandUnconscious", "d4/da1/class_human_command_unconscious.html", null ],
     [ "HumanCommandVehicle", "d1/d1f/class_human_command_vehicle.html", null ],
     [ "HumanCommandWeapons", "da/dd0/class_human_command_weapons.html", null ],
@@ -2029,6 +2042,7 @@ var hierarchy =
       [ "Mag_STANAGCoupled_30Rnd", "d4/dce/class_mag___s_t_a_n_a_g_coupled__30_rnd.html", null ],
       [ "Mag_STANAG_30Rnd", "d3/db0/class_mag___s_t_a_n_a_g__30_rnd.html", null ],
       [ "Mag_STANAG_60Rnd", "da/d33/class_mag___s_t_a_n_a_g__60_rnd.html", null ],
+      [ "Mag_SV98_10Rnd", "d4/d59/class_mag___s_v98__10_rnd.html", null ],
       [ "Mag_SVD_10Rnd", "d7/d12/class_mag___s_v_d__10_rnd.html", null ],
       [ "Mag_Saiga_5Rnd", "d8/d44/class_mag___saiga__5_rnd.html", null ],
       [ "Mag_Saiga_8Rnd", "d7/df0/class_mag___saiga__8_rnd.html", null ],
@@ -2703,6 +2717,7 @@ var hierarchy =
       [ "Ruger1022Recoil", "dc/d71/class_ruger1022_recoil.html", null ],
       [ "SKSRecoil", "da/dd1/class_s_k_s_recoil.html", null ],
       [ "SSG82Recoil", "dc/d70/class_s_s_g82_recoil.html", null ],
+      [ "SV98Recoil", "d0/dc3/class_s_v98_recoil.html", null ],
       [ "ScoutRecoil", "d5/d3c/class_scout_recoil.html", null ],
       [ "SiagaRecoil", "d8/dd4/class_siaga_recoil.html", null ],
       [ "SvdRecoil", "d4/dbe/class_svd_recoil.html", null ],
@@ -2854,6 +2869,7 @@ var hierarchy =
     [ "ShortJeans_ColorBase", "dd/d16/class_short_jeans___color_base.html", null ],
     [ "SHumanCommandSwimSettings", "d2/dec/class_s_human_command_swim_settings.html", null ],
     [ "SHumanGlobalSettings", "d5/d88/class_s_human_global_settings.html", null ],
+    [ "SimpleCircularBuffer< Class T >", "df/d0b/class_simple_circular_buffer_3_01_class_01_t_01_4.html", null ],
     [ "SimpleListboxWidget", "dd/df4/class_simple_listbox_widget.html", null ],
     [ "SimpleMovingAverage< Class T >", "d0/d9c/class_simple_moving_average_3_01_class_01_t_01_4.html", null ],
     [ "SimpleProgressBarWidget", "d1/d26/class_simple_progress_bar_widget.html", null ],

@@ -7,6 +7,7 @@ var class_entity =
     [ "AdjustExclusionAccessCondition", "d2/d96/class_entity.html#a87928894f974e72caf50ebb78873f637", null ],
     [ "AdjustExclusionAccessPropagation", "d2/d96/class_entity.html#af13447bdcebf0a2cbfae254d80ddac52", null ],
     [ "AfterStoreLoad", "d2/d96/class_entity.html#a333b698990921abbc28b2bef64778ed6", null ],
+    [ "AreChildrenAccessible", "d2/d96/class_entity.html#aca35612afecd19fdde9f1d679ac4f380", null ],
     [ "AttemptDestructionBehaviour", "d2/d96/class_entity.html#ac25945c4a3a4213fd08b8a83848c522f", null ],
     [ "CanAssignAttachmentsToQuickbar", "d2/d96/class_entity.html#a3a316b9fb0fb2b0dc6cd57409bc2d640", null ],
     [ "CanAssignToQuickbar", "d2/d96/class_entity.html#a89d8f4b29995c64b0f7ec35d05a38039", null ],

@@ -13,6 +13,7 @@ var class_mission =
     [ "EnableAllInputs", "db/dad/class_mission.html#a1ee9bd433bdd3a716071906911fa3fc8", null ],
     [ "GetActiveRefresherLocations", "db/dad/class_mission.html#a0a434dcfd6b15a74850f110e8487cab2", null ],
     [ "GetControlDisabledMode", "db/dad/class_mission.html#a02e65f0c12ae62d7b49631f0efd54575", null ],
+    [ "GetDynamicMusicPlayer", "db/dad/class_mission.html#af10d501c4ad73e858d542f94be320aee", null ],
     [ "GetEffectWidgets", "db/dad/class_mission.html#a72e19e44a4dc19eabfb30ae30cf63cfc", null ],
     [ "GetHud", "db/dad/class_mission.html#a1b381ca4e050a4a7504e3a0643260359", null ],
     [ "GetInventoryDropCallback", "db/dad/class_mission.html#a0c7f2d52c4153b986049d6a5f0ede6ac", null ],
@@ -24,6 +25,7 @@ var class_mission =
     [ "GetOnInputDeviceDisconnected", "db/dad/class_mission.html#ac1e986a6bcd5b2e89562e74792d62f98", null ],
     [ "GetOnInputPresetChanged", "db/dad/class_mission.html#a3463ee9fda49245b27fb1bba6a13436a", null ],
     [ "GetOnModMenuVisibilityChanged", "db/dad/class_mission.html#a90153a63101508f0f2609883ac44022f", null ],
+    [ "GetOnTimeChanged", "db/dad/class_mission.html#a2238f8ebdcca2c0fcf49fbc040b1f1f0", null ],
     [ "GetRainProcurementHandler", "db/dad/class_mission.html#a144a2b34c13377e1920b6ee0427de437", null ],
     [ "GetRespawnModeClient", "db/dad/class_mission.html#a31509db81f21161e3e75498eeee8e9b2", null ],
     [ "GetVoiceLevelTimers", "db/dad/class_mission.html#a2b40649881d97987e805bc1f90cdc037", null ],
@@ -82,5 +84,6 @@ var class_mission =
     [ "m_OnInputDeviceDisconnected", "db/dad/class_mission.html#a42d7fe3f46a8ac026463ea937ace3303", null ],
     [ "m_OnInputPresetChanged", "db/dad/class_mission.html#a695b8b1086e16061d11c4348826065bf", null ],
     [ "m_OnModMenuVisibilityChanged", "db/dad/class_mission.html#a4221dce2353b39ecdf06ff3088182732", null ],
+    [ "m_OnTimeChanged", "db/dad/class_mission.html#a4a5e6e4bf9ca71e7447883cdfc70d246", null ],
     [ "MissionScript", "db/dad/class_mission.html#a53ff0fd25a1d5a39b5bc4c82d8040ea5", null ]
 ];

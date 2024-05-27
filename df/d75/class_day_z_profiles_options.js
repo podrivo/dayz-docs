@@ -1,6 +1,6 @@
 var class_day_z_profiles_options =
 [
-    [ "DayZProfilesOptions", "df/d75/class_day_z_profiles_options.html#a3062d6ab93f2440700b0aaeb0375aaf5", null ],
+    [ "DayZProfilesOptions", "df/d75/class_day_z_profiles_options.html#adc5de810254ccc6501e04a1e1aadcb1d", null ],
     [ "GetProfileOption", "df/d75/class_day_z_profiles_options.html#a0ed1867eeb93624fc70629cd148249b2", null ],
     [ "GetProfileOptionBool", "df/d75/class_day_z_profiles_options.html#a322b554bd0b4db58d15f0628b9ff964e", null ],
     [ "GetProfileOptionDefault", "df/d75/class_day_z_profiles_options.html#a538901e0e31722b39cf4315b898346eb", null ],
@@ -25,5 +25,9 @@ var class_day_z_profiles_options =
     [ "m_DayZProfilesOptions", "df/d75/class_day_z_profiles_options.html#ae8ec15be632166d211a2b15eb669f112", null ],
     [ "m_DayZProfilesOptionsBool", "df/d75/class_day_z_profiles_options.html#a85119136dd1bd3ad0055dd1133a32019", null ],
     [ "m_DayZProfilesOptionsFloat", "df/d75/class_day_z_profiles_options.html#a6605f47e8c8e9e64e616e615bf82799f", null ],
-    [ "m_DayZProfilesOptionsInt", "df/d75/class_day_z_profiles_options.html#a71d389ea401c07d555d5551fbfe48eb0", null ]
+    [ "m_DayZProfilesOptionsInt", "df/d75/class_day_z_profiles_options.html#a71d389ea401c07d555d5551fbfe48eb0", null ],
+    [ "m_Game", "df/d75/class_day_z_profiles_options.html#a5e3525da80c726bf00822d722fe17682", null ],
+    [ "m_OnBoolOptionChanged", "df/d75/class_day_z_profiles_options.html#acc0b81cb62c8fe8db59e4b09e6c6dcd8", null ],
+    [ "m_OnFloatOptionChanged", "df/d75/class_day_z_profiles_options.html#a0be981f2237927528279ee4ba5d2fd17", null ],
+    [ "m_OnIntOptionChanged", "df/d75/class_day_z_profiles_options.html#a671c8749c75c13152c3fcc80ec8d3185", null ]
 ];

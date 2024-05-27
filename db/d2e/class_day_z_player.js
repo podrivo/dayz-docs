@@ -46,6 +46,7 @@ var class_day_z_player =
     [ "GetSlidePoseAngle", "db/d2e/class_day_z_player.html#a1c1ecc659a6d3d73b67a50c80593c677", null ],
     [ "GetSurfaceType", "db/d2e/class_day_z_player.html#ab83bcbef87fdc25b074978dd58941c29", null ],
     [ "GetThrowing", "db/d2e/class_day_z_player.html#ad046bca2c52523f013cacf0bab6a292c", null ],
+    [ "GetTransportCache", "db/d2e/class_day_z_player.html#a3d19d5e780f20a291b9b14ba840a350c", null ],
     [ "GetTypeOfDeath", "db/d2e/class_day_z_player.html#a3b73830eaad55c5263f801d925d90388", null ],
     [ "GetWeaponManager", "db/d2e/class_day_z_player.html#a63bef0fe2df7879e05ac3cd03c9bc58c", null ],
     [ "HandleADS", "db/d2e/class_day_z_player.html#a89833e3a69d0a90baf062444e6a13a43", null ],

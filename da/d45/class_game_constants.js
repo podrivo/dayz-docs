@@ -91,6 +91,7 @@ var class_game_constants =
     [ "HEATISO_THRESHOLD_LOW", "d2/d68/group___emote_i_ds.html#gaf2ab4808220fae2e4c7e458007fdc226", null ],
     [ "HEATISO_THRESHOLD_MEDIUM", "d2/d68/group___emote_i_ds.html#ga87fe108989d387fbe97996dd5a92db7c", null ],
     [ "INVENTORY_ENTITY_DROP_OVERLAP_DEPTH", "d2/d68/group___emote_i_ds.html#gaab13223f0bf010c4de5165814e675e28", null ],
+    [ "INVENTORY_MAX_REACHABLE_DEPTH_ATT", "d2/d68/group___emote_i_ds.html#gaf09fa9dffb2deaafdc2794cf7f40c798", null ],
     [ "ITEM_TEMPERATURE_TO_EXPLODE_MIN", "d2/d68/group___emote_i_ds.html#ga9b0314b5cf2182e375168c770e6533ab", null ],
     [ "LIQUID_RAIN_AMOUNT_COEF_BASE", "d6/d55/group___environment_cfg.html#ga41a8e268414525aab2019136dd096e50", null ],
     [ "LOADING_SCREEN_HINT_INTERVAL", "d2/d68/group___emote_i_ds.html#gaa00670a8667a46f8722ff3a301e0ad92", null ],

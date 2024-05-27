@@ -5,6 +5,7 @@ var class_player_spawn_handler =
     [ "GetRandomCharacterPreset", "dc/d04/class_player_spawn_handler.html#a0011cc23a871943f347445ac052aa79f", null ],
     [ "HandleNewItem", "dc/d04/class_player_spawn_handler.html#ada4889715347e799acee7f51073e3a95", null ],
     [ "IsInitialized", "dc/d04/class_player_spawn_handler.html#ab2c217951b4362bb6661a1e863105320", null ],
+    [ "IsWeaponAndMagazineType", "dc/d04/class_player_spawn_handler.html#a4f54accab11fbba48cc3ae740f347547", null ],
     [ "LoadData", "dc/d04/class_player_spawn_handler.html#a3700c46bbcf43becd1b062622661f89d", null ],
     [ "ProcessCargoEquipment", "dc/d04/class_player_spawn_handler.html#a73b1dfab0a02a7379662f19553bd08bd", null ],
     [ "ProcessEquipmentData", "dc/d04/class_player_spawn_handler.html#a3e46245c5d938e1ace7e50d6b4819a82", null ],

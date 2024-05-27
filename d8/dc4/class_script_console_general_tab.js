@@ -50,6 +50,7 @@ var class_script_console_general_tab =
     [ "m_HudDCharStats", "d8/dc4/class_script_console_general_tab.html#aba512d26e85300f68409f4db97ea2945", null ],
     [ "m_HudDCharStomach", "d8/dc4/class_script_console_general_tab.html#a6522bad00ca15b8e6506de8dc055aa29", null ],
     [ "m_HudDFreeCamCross", "d8/dc4/class_script_console_general_tab.html#a0213277cd73f62b8e325d38bef8de990", null ],
+    [ "m_HudDHealth", "d8/dc4/class_script_console_general_tab.html#af991e634ac5a4b07bfcf76d5193478ec", null ],
     [ "m_HudDTemperature", "d8/dc4/class_script_console_general_tab.html#a407f45a2c6ed0d0a87f67a842728e1bb", null ],
     [ "m_HudDVersion", "d8/dc4/class_script_console_general_tab.html#aa8847b2c1b1d0e09bde95c508ac14686", null ],
     [ "m_LateInit", "d8/dc4/class_script_console_general_tab.html#aac3a50aeeafe11d4f69291c96c7197b1", null ],

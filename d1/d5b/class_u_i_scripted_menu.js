@@ -87,6 +87,7 @@ var class_u_i_scripted_menu =
     [ "CancelEnteringAlternateKeybind", "d1/d5b/class_u_i_scripted_menu.html#a48dfe8c1a73739469677bc1bf2067e84", null ],
     [ "CancelEnteringKeybind", "d1/d5b/class_u_i_scripted_menu.html#a28f96a69a7f645941aeafd460715723f", null ],
     [ "CanChangeHintPage", "d1/d5b/class_u_i_scripted_menu.html#afd0f093edde3250a3efe156d3cd794ee", null ],
+    [ "CanOpenMenu", "d1/d5b/class_u_i_scripted_menu.html#a6ccc39d8e7ce5008deb80f2d014de7d0", null ],
     [ "CanSaveDefaultCharacter", "d1/d5b/class_u_i_scripted_menu.html#a25995296a5b65d32e6de9e2feec7f470", null ],
     [ "CanStoreBeOpened", "d1/d5b/class_u_i_scripted_menu.html#a6b0abd87cb0f494f89546cd9acf0bb77", null ],
     [ "ChangeAccount", "d1/d5b/class_u_i_scripted_menu.html#a3fc3fd58a4401589a06e1febcf07bc2e", null ],

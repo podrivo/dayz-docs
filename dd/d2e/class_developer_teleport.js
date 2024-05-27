@@ -1,5 +1,6 @@
 var class_developer_teleport =
 [
+    [ "GetPlayerRootForTeleporting", "dd/d2e/class_developer_teleport.html#a9b4138721e5dac4299f638acb87dbcde", null ],
     [ "OnRPC", "dd/d2e/class_developer_teleport.html#a7f9db9ea8972a36389c6c5cb271a1134", null ],
     [ "OnRPCSetPlayerDirection", "dd/d2e/class_developer_teleport.html#a60925918b78d65d2de1bebc0b0ec8afa", null ],
     [ "OnRPCSetPlayerPosition", "dd/d2e/class_developer_teleport.html#ac1030410fb1d3e91935d53fd02ce6cee", null ],

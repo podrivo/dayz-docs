@@ -201,7 +201,6 @@ var class_recipe_base =
     [ "CanDo", "db/d2a/class_recipe_base.html#a2fccf53c170d8bd20172a7aea135ee6c", null ],
     [ "CanDo", "db/d2a/class_recipe_base.html#a2fccf53c170d8bd20172a7aea135ee6c", null ],
     [ "CanDo", "db/d2a/class_recipe_base.html#a2fccf53c170d8bd20172a7aea135ee6c", null ],
-    [ "CanDo", "db/d2a/class_recipe_base.html#a2fccf53c170d8bd20172a7aea135ee6c", null ],
     [ "CheckConditions", "db/d2a/class_recipe_base.html#a78146afbaa14fb1a72ab31344dc3f022", null ],
     [ "CheckIngredientMatch", "db/d2a/class_recipe_base.html#a52f96b5c9341c3fc6333250c909c93a4", null ],
     [ "CheckRecipe", "db/d2a/class_recipe_base.html#a009b89c3f1348e0549bc5e3fe0a7b269", null ],

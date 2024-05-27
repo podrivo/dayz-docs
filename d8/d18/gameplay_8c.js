@@ -136,7 +136,8 @@ var gameplay_8c =
       [ "OPTION_SERVER_INFO", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada7544c05c474f207de7fc4553ed50653f", null ],
       [ "OPTION_BLEEDINGINDICATION", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada32e6da6ddb8e67a938eb79a1303bd1e8", null ],
       [ "OPTION_CONNECTIVITY_INFO", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada04f7b11fd777d255786d319e95f23fe4", null ],
-      [ "OPTION_HUD_BRIGHTNESS", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae9596ece45e1c755aab044b6192f07b1", null ]
+      [ "OPTION_HUD_BRIGHTNESS", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae9596ece45e1c755aab044b6192f07b1", null ],
+      [ "OPTION_AMBIENT_MUSIC_MODE", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae559b87c44b7d383fbc8cf7ef2e5e1d7", null ]
     ] ],
     [ "GetAttachmentSlotsArray", "d8/d18/gameplay_8c.html#a3c369c09d1dafd47c1c8b381b2613426", null ],
     [ "GetConfigArrayCountFromSlotID", "d8/d18/gameplay_8c.html#a169d61d7e19e98a55ab72d794af50167", null ],

@@ -113,6 +113,7 @@ var class_weapon =
     [ "m_DOFProperties", "db/de5/class_weapon.html#a935c8bf91c4a4874804751a7d1ae4147", null ],
     [ "m_fsm", "db/de5/class_weapon.html#a68b26e5d6a87bff2e104bfc0accc869d", null ],
     [ "m_isJammed", "db/de5/class_weapon.html#a60207df8906a468f6361367a5247be0e", null ],
+    [ "m_LastLiftHit", "db/de5/class_weapon.html#a682afcdb53dd4cc8136a8fddd96ede43", null ],
     [ "m_LastLiftPosition", "db/de5/class_weapon.html#a2512ce917581b70cb5b9d4537578af0c", null ],
     [ "m_LiftWeapon", "db/de5/class_weapon.html#a1ca36fd9ed6eabdbb06248e0affd5161", null ],
     [ "m_magazineSimpleSelectionIndex", "db/de5/class_weapon.html#a86bfd5735550bb84e4cbac165bb10642", null ],
