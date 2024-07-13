@@ -21,6 +21,8 @@ Changelog
 --
 
 Version 1.25
+- [Update 3 v1.25.158396 · Jul 03, 2024](https://forums.dayz.com/topic/259858-stable-update-125/?page=2&tab=comments#comment-2498253)
+- [Update 2 v1.25.158344 · Jun 19, 2024](https://forums.dayz.com/topic/259858-stable-update-125/?page=2&tab=comments#comment-2498026)
 - [Update 1 v1.25.158199 · May 27, 2024](https://forums.dayz.com/topic/259858-stable-update-125/)
 
 Version 1.24
