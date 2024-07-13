@@ -139,6 +139,7 @@ var dir_6c6395a7e3dc00a27c006d5b7fc43d31 =
     [ "PaddedGloves_ColorBase.c", "dc/daf/_padded_gloves___color_base_8c.html", "dc/daf/_padded_gloves___color_base_8c" ],
     [ "ParamedicJacket_ColorBase.c", "d2/db7/_paramedic_jacket___color_base_8c.html", "d2/db7/_paramedic_jacket___color_base_8c" ],
     [ "ParamedicPants_ColorBase.c", "da/d83/_paramedic_pants___color_base_8c.html", "da/d83/_paramedic_pants___color_base_8c" ],
+    [ "PaydayMask_ColorBase.c", "d1/def/_payday_mask___color_base_8c.html", "d1/def/_payday_mask___color_base_8c" ],
     [ "PetushokHat_ColorBase.c", "d0/d9b/_petushok_hat___color_base_8c.html", "d0/d9b/_petushok_hat___color_base_8c" ],
     [ "PilotkaCap.c", "d0/d2f/_pilotka_cap_8c.html", "d0/d2f/_pilotka_cap_8c" ],
     [ "PlateCarrierHolster.c", "d4/d26/_plate_carrier_holster_8c.html", "d4/d26/_plate_carrier_holster_8c" ],

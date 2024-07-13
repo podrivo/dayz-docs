@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
+   <div id="projectbrief">v1.25.158396 · Jul 03, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -347,6 +347,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a588987196392b6c15878bb9b068cdfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a681ed9c8d5daf9aa689a057b5b5bfc5d"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a681ed9c8d5daf9aa689a057b5b5bfc5d">IsRestrained</a> ()</td></tr>
 <tr class="separator:a681ed9c8d5daf9aa689a057b5b5bfc5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3369336df5a6962297507424b049d1fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a3369336df5a6962297507424b049d1fe">OnRestrainStartedChangeClient</a> ()</td></tr>
+<tr class="separator:a3369336df5a6962297507424b049d1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1090dcd6c280d972c4f46c3e3623376e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a1090dcd6c280d972c4f46c3e3623376e">OnRestrainChangeClient</a> ()</td></tr>
+<tr class="separator:a1090dcd6c280d972c4f46c3e3623376e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a074d6a8b3ce6d5ed5aebdf1d6efb4952"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a074d6a8b3ce6d5ed5aebdf1d6efb4952">IsInventoryVisible</a> ()</td></tr>
 <tr class="separator:a074d6a8b3ce6d5ed5aebdf1d6efb4952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06cbd09fbd36765f4687ba8c252864aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a06cbd09fbd36765f4687ba8c252864aa">CanManipulateInventory</a> ()</td></tr>
@@ -1471,8 +1475,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa8d72b26fc083cdaa977d6b943c70337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5215046808efc693d016eda485970633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a5215046808efc693d016eda485970633">m_IsRestrained</a></td></tr>
 <tr class="separator:a5215046808efc693d016eda485970633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb8554af24e4cf7a2dd3e9c7fd5a3aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a5cb8554af24e4cf7a2dd3e9c7fd5a3aa">m_IsRestrainedLocal</a></td></tr>
+<tr class="separator:a5cb8554af24e4cf7a2dd3e9c7fd5a3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ed261f1afb7ba8177b8e5aaed0bf41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a74ed261f1afb7ba8177b8e5aaed0bf41">m_IsRestrainStarted</a></td></tr>
 <tr class="separator:a74ed261f1afb7ba8177b8e5aaed0bf41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8357e5c47bb185c1243cb46c6d41e7bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a8357e5c47bb185c1243cb46c6d41e7bd">m_IsRestrainStartedLocal</a></td></tr>
+<tr class="separator:a8357e5c47bb185c1243cb46c6d41e7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce2bcfcd1c755c5bf5b33837efe240f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#a3ce2bcfcd1c755c5bf5b33837efe240f">m_IsRestrainPrelocked</a></td></tr>
 <tr class="separator:a3ce2bcfcd1c755c5bf5b33837efe240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af964c363bc34840d862109d4e0b7b4a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/class_man_base.html#af964c363bc34840d862109d4e0b7b4a2">m_ImmunityBoosted</a></td></tr>
@@ -3622,7 +3630,7 @@ Static Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="../../de/d7a/class_item_base.html">ItemBase</a></code> Created item <div class="fragment"><div class="line"><a class="code hl_class" href="../../de/d7a/class_item_base.html">ItemBase</a> item = <a class="code hl_variable" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>.GetPlayer().CreateInInventory(<span class="stringliteral">&quot;Consumable_GardenLime&quot;</span>, <span class="stringliteral">&quot;cargo_weapon&quot;</span>);</div>
-<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition</b> DayZGame.c:3746</div></div>
+<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition</b> DayZGame.c:3758</div></div>
 <div class="ttc" id="aclass_item_base_html"><div class="ttname"><a href="../../de/d7a/class_item_base.html">ItemBase</a></div><div class="ttdef"><b>Definition</b> InventoryItem.c:731</div></div>
 </div><!-- fragment --> </dd></dl>
 
@@ -11768,6 +11776,33 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1090dcd6c280d972c4f46c3e3623376e" name="a1090dcd6c280d972c4f46c3e3623376e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1090dcd6c280d972c4f46c3e3623376e">&#9670;&#160;</a></span>OnRestrainChangeClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnRestrainChangeClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d7/d75/class_u_i_manager.html#a33afa8c476425f75b3f66050ab5c6a08">UIManager::FindMenu()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ac7e6886eef7485897279cffc48f83fca">CGame::GetUIManager()</a>, <a class="el" href="../../db/dad/class_mission.html#ad59866e2e77c85faa51cf355d7ee1360">Mission::HideInventory()</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#gab1dbc0e819839e5664c9fd8bd8b31deb">MENU_INVENTORY</a>, and <a class="el" href="../../d7/d7f/group___menu_i_d.html#gab558421359de42606335611d57f9b2a0">MENU_RADIAL_QUICKBAR</a>.</p>
+
+</div>
+</div>
 <a id="aebc130bcc7a307ef516134485272da68" name="aebc130bcc7a307ef516134485272da68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebc130bcc7a307ef516134485272da68">&#9670;&#160;</a></span>OnRestrainStart()</h2>
 
@@ -11792,6 +11827,33 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../db/dad/class_mission.html#acaf3d597d53379c5a0af462f6b27a5af">Mission::RemoveActiveInputExcludes()</a>, and <a class="el" href="../../db/dad/class_mission.html#a245bbac0cb9cbef86198faca126cb5b3">Mission::RemoveActiveInputRestriction()</a>.</p>
+
+</div>
+</div>
+<a id="a3369336df5a6962297507424b049d1fe" name="a3369336df5a6962297507424b049d1fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3369336df5a6962297507424b049d1fe">&#9670;&#160;</a></span>OnRestrainStartedChangeClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnRestrainStartedChangeClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d7/d75/class_u_i_manager.html#a33afa8c476425f75b3f66050ab5c6a08">UIManager::FindMenu()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a283dae9ebf4a1b966f37da39bc7b9ce3">CGame::GetMission()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ac7e6886eef7485897279cffc48f83fca">CGame::GetUIManager()</a>, <a class="el" href="../../db/dad/class_mission.html#ad59866e2e77c85faa51cf355d7ee1360">Mission::HideInventory()</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#gab1dbc0e819839e5664c9fd8bd8b31deb">MENU_INVENTORY</a>, and <a class="el" href="../../d7/d7f/group___menu_i_d.html#gab558421359de42606335611d57f9b2a0">MENU_RADIAL_QUICKBAR</a>.</p>
 
 </div>
 </div>
@@ -20599,6 +20661,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5cb8554af24e4cf7a2dd3e9c7fd5a3aa" name="a5cb8554af24e4cf7a2dd3e9c7fd5a3aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cb8554af24e4cf7a2dd3e9c7fd5a3aa">&#9670;&#160;</a></span>m_IsRestrainedLocal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_IsRestrainedLocal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3ce2bcfcd1c755c5bf5b33837efe240f" name="a3ce2bcfcd1c755c5bf5b33837efe240f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ce2bcfcd1c755c5bf5b33837efe240f">&#9670;&#160;</a></span>m_IsRestrainPrelocked</h2>
 
@@ -20632,6 +20716,28 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_IsRestrainStarted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8357e5c47bb185c1243cb46c6d41e7bd" name="a8357e5c47bb185c1243cb46c6d41e7bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8357e5c47bb185c1243cb46c6d41e7bd">&#9670;&#160;</a></span>m_IsRestrainStartedLocal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_IsRestrainStartedLocal</td>
         </tr>
       </table>
   </td>

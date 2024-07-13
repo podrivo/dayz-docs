@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
+   <div id="projectbrief">v1.25.158396 · Jul 03, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -161,6 +161,8 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>SelectNextActionCategory()&#160;:&#160;<a class="el" href="d5/db9/_action_manager_base_8c.html#a39be437f0909916b27ba679a33d9ba88">ActionManagerBase.c</a></li>
 <li>SelectPrevAction()&#160;:&#160;<a class="el" href="d2/df5/_action_input_8c.html#abd0622eee09b29b2f9b9c4fa738da4c4">ActionInput.c</a>, <a class="el" href="d5/db9/_action_manager_base_8c.html#afca81eb855d115708e923f588bfafbd3">ActionManagerBase.c</a></li>
 <li>SelectPrevActionCategory()&#160;:&#160;<a class="el" href="d5/db9/_action_manager_base_8c.html#a7866242f66ab9f34499d8d99a4529697">ActionManagerBase.c</a></li>
+<li>SelectRandomTrackIndexFromCategory()&#160;:&#160;<a class="el" href="d4/d5c/_dynamic_music_player_8c.html#aac869d2bb5aeea1de0005fbc855c28eb">DynamicMusicPlayer.c</a></li>
+<li>SelectRandomTrackIndexFromCategoryPriorityFlagFirst()&#160;:&#160;<a class="el" href="d4/d5c/_dynamic_music_player_8c.html#a1fe9a6518e6003ac26c349b628c96bc3">DynamicMusicPlayer.c</a></li>
 <li>SelectServer()&#160;:&#160;<a class="el" href="d7/de3/_server_browser_tab_8c.html#a21b45af17bc8a023b4537c1ddf4a5435">ServerBrowserTab.c</a></li>
 <li>SelectStoreCartridge()&#160;:&#160;<a class="el" href="d8/da5/_day_z_player_utils_8c.html#a4fd77c2a6f4a02f057bc3a2f7020a597">DayZPlayerUtils.c</a></li>
 <li>SelectWeaponMode()&#160;:&#160;<a class="el" href="d8/d5d/_day_z_player_implement_melee_combat_8c.html#acc60168723042e54ea603d9ce9fdf376">DayZPlayerImplementMeleeCombat.c</a></li>
@@ -279,6 +281,7 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>SetCanPerformEmote()&#160;:&#160;<a class="el" href="d7/d6b/_gestures_menu_8c.html#ac11f49d09ef1fb6f2b7b1b1b9ff55186">GesturesMenu.c</a></li>
 <li>SetCanSpeak()&#160;:&#160;<a class="el" href="d5/d82/4___world_2_entities_2_core_2_inherited_2_inventory_item_8c.html#a17b97ce94c36595a6419e80c46c52e23">InventoryItem.c</a></li>
 <li>SetCarHornState()&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a760f2e0cdc5126242abcac9f312377a6">CarScript.c</a></li>
+<li>SetCategory()&#160;:&#160;<a class="el" href="d4/d5c/_dynamic_music_player_8c.html#ae51eeca92a0efe73fa38ac08372df80b">DynamicMusicPlayer.c</a></li>
 <li>SetCEBasedQuantity()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#ab3f50ebad0e6c904b57f40f05762ed09">ItemBase.c</a></li>
 <li>SetCleanness()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#a60fdafce418196197f83f783169e9140">ItemBase.c</a></li>
 <li>SetClippingInfo()&#160;:&#160;<a class="el" href="dc/d9f/_scripted_entity_8c.html#a0521804c839919fd470715c268b2437f">ScriptedEntity.c</a></li>
@@ -471,6 +474,7 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>SetScreenSize()&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#ga97c72faa68d8a4ef68961e5a3a5c11c6">EnWidgets.c</a></li>
 <li>SetScriptEvents()&#160;:&#160;<a class="el" href="d8/d6f/_particle_manager_8c.html#ab17c9f008e9dc4dbc2cd5b0d55782e22">ParticleManager.c</a></li>
 <li>SetSelectedLightSourceIdx()&#160;:&#160;<a class="el" href="de/dfe/_player_light_manager_8c.html#a0c8833cc0f3b289bc148b5397c5173bd">PlayerLightManager.c</a></li>
+<li>SetSelectedTrackFromCategory()&#160;:&#160;<a class="el" href="d4/d5c/_dynamic_music_player_8c.html#adb52a1bcba3fc421a6cc8b79c9302caf">DynamicMusicPlayer.c</a></li>
 <li>SetShotcutEnable()&#160;:&#160;<a class="el" href="da/d4d/_quick_bar_base_8c.html#aed19725f1399d72f1a22b144a34ee6e8">QuickBarBase.c</a></li>
 <li>SetSize()&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#ga2ca21b9a3b72faea2d2297c89e178e97">EnWidgets.c</a>, <a class="el" href="da/d4d/_quick_bar_base_8c.html#aa5d7fc29b8d93434a511c0c258218647">QuickBarBase.c</a></li>
 <li>SetSkyPlanet()&#160;:&#160;<a class="el" href="dc/d3d/proto_8c.html#a84cbc4b071ec98a49177bd81a14129e7">proto.c</a></li>
@@ -516,6 +520,7 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>SetTextSmart()&#160;:&#160;<a class="el" href="d1/db8/_option_selector_multistate_8c.html#a160f775f21db25730039913444e706d8">OptionSelectorMultistate.c</a></li>
 <li>SetThrowingMode()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a3ccd6f9e7a03bccf94cb41bd3d8525eb">human.c</a></li>
 <li>SetTime()&#160;:&#160;<a class="el" href="d5/d74/_notification_system_8c.html#a5badf8ecd567b95a4733cc214e8ed418">NotificationSystem.c</a></li>
+<li>SetTimeOfDate()&#160;:&#160;<a class="el" href="d4/d5c/_dynamic_music_player_8c.html#aba2883dec2896ecd7d4f9f02402eb390">DynamicMusicPlayer.c</a></li>
 <li>SetTitle()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#a85d10a08b93b41e9696d777ec987f182">DayZGame.c</a></li>
 <li>SetToolsOneHanded()&#160;:&#160;<a class="el" href="de/d84/_day_z_player_cfg_base_8c.html#a8dcc2e9223aa13637f824de48b826937">DayZPlayerCfgBase.c</a></li>
 <li>SetTransform()&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#ga93c78d0bb0fc827950a06351889947dc">EnWidgets.c</a></li>
@@ -576,8 +581,8 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>SHOULDER_RIGHT&#160;:&#160;<a class="el" href="d4/df6/group___gamepad.html#gga7a2d71f78acae0c6efa38d7f1fea596fab4b4f6a622d0e9b415a40c4f0c00913d">EnSystem.c</a></li>
 <li>ShouldRemoveInsider()&#160;:&#160;<a class="el" href="dc/d69/_area_damage_trigger_base_8c.html#a99d72c6c52d65a866f838fe47bfd966c">AreaDamageTriggerBase.c</a></li>
 <li>ShouldSimulationBeDisabled()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a54343aa832bf2be25e23041c035ca5c0">human.c</a>, <a class="el" href="d8/d32/_day_z_player_implement_8c.html#a0b6fb85e23288cd86cfd9e978e78c116">DayZPlayerImplement.c</a></li>
-<li>SHOW&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093af6b54e2f964c3204c88d0d82a509f65a">human.c</a></li>
 <li>Show()&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#ga56fa395c2863af66b4edff55fa9c34d4">EnWidgets.c</a>, <a class="el" href="d8/dc8/_day_z_game_8c.html#ace79e5f49885e486e8e1d48ff0666476">DayZGame.c</a>, <a class="el" href="db/d14/_plugin_day_z_creature_a_i_debug_8c.html#ace79e5f49885e486e8e1d48ff0666476">PluginDayZCreatureAIDebug.c</a>, <a class="el" href="da/d69/_plugin_dayz_player_debug_8c.html#ace79e5f49885e486e8e1d48ff0666476">PluginDayzPlayerDebug.c</a>, <a class="el" href="dd/d3f/_script_console_enf_script_tab_8c.html#afad588066d9a9b5ae87ad8d90459045b">ScriptConsoleEnfScriptTab.c</a>, <a class="el" href="d8/ddd/_hud_debug_win_char_agents_8c.html#accf383118946aaf8a037e9533c0d129c">HudDebugWinCharAgents.c</a>, <a class="el" href="d2/df4/_hud_debug_win_char_modifiers_8c.html#accf383118946aaf8a037e9533c0d129c">HudDebugWinCharModifiers.c</a>, <a class="el" href="df/dbf/_hud_debug_win_health_8c.html#accf383118946aaf8a037e9533c0d129c">HudDebugWinHealth.c</a></li>
+<li>SHOW&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093af6b54e2f964c3204c88d0d82a509f65a">human.c</a></li>
 <li>SHOW_CONNECTIVITYINFO&#160;:&#160;<a class="el" href="d7/dd3/group___h_u_d_visibility.html#ga97c40e40fbf9a26747c3f3f0380dec84">constants.c</a></li>
 <li>SHOW_CROSSHAIR&#160;:&#160;<a class="el" href="d7/dd3/group___h_u_d_visibility.html#gae51e4347aa367b3aae856a7e9c896878">constants.c</a></li>
 <li>SHOW_HUD&#160;:&#160;<a class="el" href="d7/dd3/group___h_u_d_visibility.html#ga8a9751db58be606c395e4325a072b140">constants.c</a></li>
@@ -610,8 +615,8 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>SIMPLE_SELECTION_MELEE_RIFLE&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a7da3bdd45d2dca6f4a44ef881cea5a8d">dayzplayer.c</a></li>
 <li>SIMPLE_SELECTION_SHOULDER_MELEE&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a26be64c4f9e8aa4d5a28fc8da44db5a9">dayzplayer.c</a></li>
 <li>SIMPLE_SELECTION_SHOULDER_RIFLE&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a228b769fda3f0a17e75a0f913e05a73b">dayzplayer.c</a></li>
-<li>Simulate()&#160;:&#160;<a class="el" href="d5/dcf/_a_i_behaviour_8c.html#ae9ea1588ac80b8dacb1f19f70b03be56">AIBehaviour.c</a>, <a class="el" href="dd/d3b/_flare_simulation_8c.html#a706ff59c9412a795711dee9397b60605">FlareSimulation.c</a></li>
 <li>SIMULATE&#160;:&#160;<a class="el" href="d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13aa1022ff97dac8e2d5d80d53c4cecd132">EnEntity.c</a></li>
+<li>Simulate()&#160;:&#160;<a class="el" href="d5/dcf/_a_i_behaviour_8c.html#ae9ea1588ac80b8dacb1f19f70b03be56">AIBehaviour.c</a>, <a class="el" href="dd/d3b/_flare_simulation_8c.html#a706ff59c9412a795711dee9397b60605">FlareSimulation.c</a></li>
 <li>SIMULATE_DIVISION_BY_ZERO&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336ad777240040069c360a4016c2944260e9">EDiagMenuIDs.c</a></li>
 <li>SIMULATE_ERROR_FUNCTION&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336af4157b42421289d8c4a15817221311d8">EDiagMenuIDs.c</a></li>
 <li>SIMULATE_INFINITE_LOOP&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336ade604f0f018e866ce3b139ec9c86bef6">EDiagMenuIDs.c</a></li>
@@ -870,8 +875,8 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>STANCEMASK_RAISEDPRONE&#160;:&#160;<a class="el" href="d3/d58/dayzplayer_8c.html#a6fd289b7043f1412362529ab769d7881a8a47e9048cab1ac8394cee70712fb6e5">dayzplayer.c</a></li>
 <li>StandardActionInput()&#160;:&#160;<a class="el" href="d2/df5/_action_input_8c.html#a618e1521cc4ab68c725ba93051b75577">ActionInput.c</a></li>
 <li>StandUp()&#160;:&#160;<a class="el" href="d7/da1/_fireworks_base_8c.html#ade5c006396a27b7cb6231dc2e4cf9dad">FireworksBase.c</a></li>
-<li>Start()&#160;:&#160;<a class="el" href="d5/d2d/_effect_8c.html#a07aaf1227e4d645f15e0a964f54ef291">Effect.c</a>, <a class="el" href="d5/dbe/_p_p_e_request_platforms_base_8c.html#af67521bf171fb35393b0dbe54dcdb424">PPERequestPlatformsBase.c</a>, <a class="el" href="d6/d59/_action_base_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionBase.c</a>, <a class="el" href="d1/d08/_action_sequential_base_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionSequentialBase.c</a>, <a class="el" href="dd/d00/_action_pack_tent_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionPackTent.c</a>, <a class="el" href="df/dbb/_action_take_item_to_hands_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionTakeItemToHands.c</a>, <a class="el" href="df/d32/_firearm_action_load_bullet_8c.html#a41a32155201921d885c85cc4c0bd2962">FirearmActionLoadBullet.c</a></li>
 <li>START&#160;:&#160;<a class="el" href="d0/dd9/_contaminated_area___dynamic_8c.html#abd1af643088884800b81cf3058ed14cca13d000b4d7dc70d90239b7430d1eb6b2">ContaminatedArea_Dynamic.c</a></li>
+<li>Start()&#160;:&#160;<a class="el" href="d5/d2d/_effect_8c.html#a07aaf1227e4d645f15e0a964f54ef291">Effect.c</a>, <a class="el" href="d5/dbe/_p_p_e_request_platforms_base_8c.html#af67521bf171fb35393b0dbe54dcdb424">PPERequestPlatformsBase.c</a>, <a class="el" href="d6/d59/_action_base_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionBase.c</a>, <a class="el" href="d1/d08/_action_sequential_base_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionSequentialBase.c</a>, <a class="el" href="dd/d00/_action_pack_tent_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionPackTent.c</a>, <a class="el" href="df/dbb/_action_take_item_to_hands_8c.html#a41a32155201921d885c85cc4c0bd2962">ActionTakeItemToHands.c</a>, <a class="el" href="df/d32/_firearm_action_load_bullet_8c.html#a41a32155201921d885c85cc4c0bd2962">FirearmActionLoadBullet.c</a></li>
 <li>START_FIRE&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#ac523f890645efb2e9c546fb4fc0ea4eaae402764bd0d3a932a6d9fe137d231bb0">FireplaceBase.c</a></li>
 <li>START_NO_BATTERY&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a0e975900bd08671e44aa146ef916fcdf">CarScript.c</a></li>
 <li>START_NO_FUEL&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a151e3443b47971e9b6464ca02f2a86ab">CarScript.c</a></li>
@@ -920,8 +925,8 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>STOMACH_ENERGY&#160;:&#160;<a class="el" href="d3/d65/_player_stats_p_c_o_8c.html#a9c98259ffaa9803fd0e05524402b8035a68b275a92b5a97136b824d42bfa147b1">PlayerStatsPCO.c</a></li>
 <li>STOMACH_SOLID&#160;:&#160;<a class="el" href="d3/d65/_player_stats_p_c_o_8c.html#a9c98259ffaa9803fd0e05524402b8035a44366ab53c0e19230265ffcc76e85bab">PlayerStatsPCO.c</a></li>
 <li>STOMACH_WATER&#160;:&#160;<a class="el" href="d3/d65/_player_stats_p_c_o_8c.html#a9c98259ffaa9803fd0e05524402b8035aba2fd7c634307664dfb521aa4de8fd09">PlayerStatsPCO.c</a></li>
-<li>STOP&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a679ee5320d66c8322e310daeb2ee99b8">EnWidgets.c</a></li>
 <li>Stop()&#160;:&#160;<a class="el" href="d5/d2d/_effect_8c.html#a17a237457e57625296e6b24feb19c60a">Effect.c</a>, <a class="el" href="d5/dbe/_p_p_e_request_platforms_base_8c.html#a5a4bc391b56257ff058a7eed2d1d2e68">PPERequestPlatformsBase.c</a>, <a class="el" href="d9/dc3/group___tools.html#ga17a237457e57625296e6b24feb19c60a">tools.c</a>, <a class="el" href="d3/df6/_infected_sound_event_base_8c.html#ab7e8b20a4331f044f2ad2f9d86ebffe9">InfectedSoundEventBase.c</a>, <a class="el" href="d5/db4/_infected_sound_event_handler_8c.html#a17a237457e57625296e6b24feb19c60a">InfectedSoundEventHandler.c</a>, <a class="el" href="d7/dfc/_sound_events_8c.html#a17a237457e57625296e6b24feb19c60a">SoundEvents.c</a></li>
+<li>STOP&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#gga04c094810fbccc908d892a0f9007f4c8a679ee5320d66c8322e310daeb2ee99b8">EnWidgets.c</a></li>
 <li>STOP_OK&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a58c3ea3ca9a04a915c009438a2c67897">CarScript.c</a></li>
 <li>StopAllEffects()&#160;:&#160;<a class="el" href="de/da7/_p_p_e_manager_8c.html#a23c9ee9ccb5145214a008010f02751f3">PPEManager.c</a></li>
 <li>StopAllMusic()&#160;:&#160;<a class="el" href="d2/dcf/_anniversary_music_source_8c.html#a569abba28ed52fcb542fa11da9be11cc">AnniversaryMusicSource.c</a></li>
@@ -943,6 +948,7 @@ $(document).ready(function(){initNavTree('globals_s.html',''); initResizable(); 
 <li>StopSlideShow()&#160;:&#160;<a class="el" href="d6/db5/_ui_hint_panel_8c.html#a08ad9b0f927eeca88e5e9c31fa8b4e74">UiHintPanel.c</a></li>
 <li>StopSourceBleedingIndication()&#160;:&#160;<a class="el" href="df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#abdabebef570b4ffbdb303b3bf730b5a1">BleedingSource.c</a></li>
 <li>StopSwimming()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a45e8c8f464420e0592dd716a7686db60">human.c</a></li>
+<li>StopTrack()&#160;:&#160;<a class="el" href="d4/d5c/_dynamic_music_player_8c.html#a1a72da5aab96b7bcd7390d822055bbb6">DynamicMusicPlayer.c</a></li>
 <li>StopWatchRequest()&#160;:&#160;<a class="el" href="da/dbd/_plugin_item_diagnostic_8c.html#ab155432c98fd953c0d27c58757123bb2">PluginItemDiagnostic.c</a></li>
 <li>Storage&#160;:&#160;<a class="el" href="db/d35/_central_economy_8c.html#a7e7dd5141e5fc7b4be21933820c99c59">CentralEconomy.c</a></li>
 <li>STORAGE_VERSION&#160;:&#160;<a class="el" href="d3/d3c/_modifiers_manager_8c.html#a25a1f5ed25534a65e875f6fde47a1d13">ModifiersManager.c</a>, <a class="el" href="d8/dec/_player_stomach_8c.html#a25a1f5ed25534a65e875f6fde47a1d13">PlayerStomach.c</a></li>

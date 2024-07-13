@@ -8,6 +8,7 @@ var class_menu_data =
     [ "GetLastServerAddress", "d9/db7/class_menu_data.html#a5b5bd4d838ff0a0b38179d1beea911ad", null ],
     [ "GetLastServerName", "d9/db7/class_menu_data.html#a9ae5a6cd5597463d29a1dfaa4866aa38", null ],
     [ "GetLastServerPort", "d9/db7/class_menu_data.html#a2daea21d8bda36043f9ffc8554c44002", null ],
+    [ "GetLastSteamQueryPort", "d9/db7/class_menu_data.html#af47c2f279e862e9f700c0a80cfe17401", null ],
     [ "GetMenuDefaultCharacterDataInstance", "d9/db7/class_menu_data.html#a3a4e8a0c314e387f7ba2bd113a6fca4d", null ],
     [ "LoadCharactersLocal", "d9/db7/class_menu_data.html#a4bcdf04c9fc5fb900b2bc404c3ab33ff", null ],
     [ "OnGetDefaultCharacter", "d9/db7/class_menu_data.html#ac0770af053940251a46fed970e4d7dd4", null ],

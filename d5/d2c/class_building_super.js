@@ -1,7 +1,6 @@
 var class_building_super =
 [
     [ "BonfireHeating", "d5/d2c/class_building_super.html#aeaf29da52a03546256b420a16e8ded22", null ],
-    [ "BuildingWithFireplace", "d5/d2c/class_building_super.html#a1b706293ff0ff59134cae537da935722", null ],
     [ "EEDelete", "d5/d2c/class_building_super.html#a83a1e547e0d1e65ad421070058a093a9", null ],
     [ "EEInit", "d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea", null ],
     [ "GetLiquidThroughputCoef", "d5/d2c/class_building_super.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],

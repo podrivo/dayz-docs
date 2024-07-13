@@ -9,6 +9,7 @@ var class_world_data =
     [ "GetBaseEnvTemperature", "d0/d24/class_world_data.html#a6c4b6d257d283d5c6dacac7287d7f06b", null ],
     [ "GetBaseEnvTemperatureExact", "d0/d24/class_world_data.html#a0467d2873783066219d1067077200485", null ],
     [ "GetDayTemperature", "d0/d24/class_world_data.html#a5a0ec29eac3e1bf446cf9c6ad5ac5c43", null ],
+    [ "GetDaytime", "d0/d24/class_world_data.html#ac7f335b68d8e6f4a9ed2e2a4fe7a8af4", null ],
     [ "GetNightTemperature", "d0/d24/class_world_data.html#a037ec8c57c90ae9a0ef0c3198bfec27a", null ],
     [ "Init", "d0/d24/class_world_data.html#a1e3b6d38df0786ccf7f938d60e386aae", null ],
     [ "Init", "d0/d24/class_world_data.html#a8045e088b31fe0754fb20cb0a5ff0dc9", null ],

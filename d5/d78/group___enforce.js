@@ -47,6 +47,7 @@ var group___enforce =
       [ "GetEndNow", "dd/d17/class_managed.html#a11eb19b07917dcfb1b8c25bca0a1ba7b", null ],
       [ "GetHealth", "dd/d17/class_managed.html#a561bdb38654403002667e4e0bc09ebcc", null ],
       [ "GetLastPlayedServer", "dd/d17/class_managed.html#acc5e1b2ca4aed2c8e1c0bd7ef27f901e", null ],
+      [ "GetLastPlayedServerEx", "dd/d17/class_managed.html#ad34128cdc7dcb815ffcc29ca87dfab27", null ],
       [ "GetNextCharacterID", "dd/d17/class_managed.html#a635295008cab46e58a8a77d0aa6efcb5", null ],
       [ "GetPosition", "dd/d17/class_managed.html#a68c83d319275347dcd1c0c4da8734703", null ],
       [ "GetPrevCharacterID", "dd/d17/class_managed.html#a29952dc839e05ee490d453ee6346b3bb", null ],

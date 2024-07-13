@@ -41,5 +41,18 @@ var _rock_base_8c =
     [ "Static_rock_stone9", "d3/db7/class_static__rock__stone9.html", null ],
     [ "Static_rock_stone9_moss", "d7/de6/class_static__rock__stone9__moss.html", null ],
     [ "Static_rock_stone10", "d8/d16/class_static__rock__stone10.html", null ],
-    [ "Static_rock_stone10_moss", "dc/dfd/class_static__rock__stone10__moss.html", null ]
+    [ "Static_rock_stone10_moss", "dc/dfd/class_static__rock__stone10__moss.html", null ],
+    [ "Static_rock_wallh4", "db/da7/class_static__rock__wallh4.html", null ],
+    [ "Static_rock_wallh5", "d3/dcd/class_static__rock__wallh5.html", null ],
+    [ "Static_rock_wallh6", "d0/de9/class_static__rock__wallh6.html", null ],
+    [ "Static_stone10", "d5/dd3/class_static__stone10.html", null ],
+    [ "Static_stone10_moss", "dc/d79/class_static__stone10__moss.html", null ],
+    [ "Static_stone6", "dc/d47/class_static__stone6.html", null ],
+    [ "Static_stone6_moss", "d8/d83/class_static__stone6__moss.html", null ],
+    [ "Static_stone7", "d4/d48/class_static__stone7.html", null ],
+    [ "Static_stone7_moss", "dd/d70/class_static__stone7__moss.html", null ],
+    [ "Static_stone8", "d2/dd3/class_static__stone8.html", null ],
+    [ "Static_stone8_moss", "dc/d44/class_static__stone8__moss.html", null ],
+    [ "Static_stone9", "d2/daa/class_static__stone9.html", null ],
+    [ "Static_stone9_moss", "df/d82/class_static__stone9__moss.html", null ]
 ];

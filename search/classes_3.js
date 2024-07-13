@@ -112,11 +112,11 @@ var searchData=
   ['dummyitem_109',['DummyItem',['../dc/dbf/class_dummy_item.html',1,'']]],
   ['dynamicarea_5fflare_110',['DynamicArea_Flare',['../d1/dd5/class_dynamic_area___flare.html',1,'']]],
   ['dynamicmusiclocationtypes_111',['DynamicMusicLocationTypes',['../d4/d30/class_dynamic_music_location_types.html',1,'']]],
-  ['dynamicmusicplayer_112',['DynamicMusicPlayer',['../d4/d79/class_dynamic_music_player.html',1,'']]],
-  ['dynamicmusicplayerregistry_113',['DynamicMusicPlayerRegistry',['../da/ddb/class_dynamic_music_player_registry.html',1,'']]],
-  ['dynamicmusicplayerregistrychernarus_114',['DynamicMusicPlayerRegistryChernarus',['../db/dc2/class_dynamic_music_player_registry_chernarus.html',1,'']]],
-  ['dynamicmusicplayerregistryenoch_115',['DynamicMusicPlayerRegistryEnoch',['../d3/d75/class_dynamic_music_player_registry_enoch.html',1,'']]],
-  ['dynamicmusicplayersettings_116',['DynamicMusicPlayerSettings',['../d8/d88/class_dynamic_music_player_settings.html',1,'']]],
-  ['dynamicmusictrackdata_117',['DynamicMusicTrackData',['../d0/dff/class_dynamic_music_track_data.html',1,'']]],
+  ['dynamicmusicplayerregistry_112',['DynamicMusicPlayerRegistry',['../da/ddb/class_dynamic_music_player_registry.html',1,'']]],
+  ['dynamicmusicplayerregistrychernarus_113',['DynamicMusicPlayerRegistryChernarus',['../db/dc2/class_dynamic_music_player_registry_chernarus.html',1,'']]],
+  ['dynamicmusicplayerregistryenoch_114',['DynamicMusicPlayerRegistryEnoch',['../d3/d75/class_dynamic_music_player_registry_enoch.html',1,'']]],
+  ['dynamicmusicplayersettings_115',['DynamicMusicPlayerSettings',['../d8/d88/class_dynamic_music_player_settings.html',1,'']]],
+  ['dynamicmusicplayertimeofday_116',['DynamicMusicPlayerTimeOfDay',['../d9/db7/class_dynamic_music_player_time_of_day.html',1,'']]],
+  ['dynamicmusicplayertrackhistorylookuptype_117',['DynamicMusicPlayerTrackHistoryLookupType',['../d0/de3/class_dynamic_music_player_track_history_lookup_type.html',1,'']]],
   ['dz_5fscripts_118',['DZ_Scripts',['../dd/d5b/class_cfg_patches_1_1_d_z___scripts.html',1,'CfgPatches']]]
 ];

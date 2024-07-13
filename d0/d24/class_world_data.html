@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.25.158199 · May 27, 2024</div>
+   <div id="projectbrief">v1.25.158396 · Jul 03, 2024</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -119,6 +119,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a14e94f9eeb27c85048e6b2200e6c7c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a091c00e71915214e4b56aef99e6c8780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/class_world_data.html#a091c00e71915214e4b56aef99e6c8780">GetApproxSunsetTime</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> monthday)</td></tr>
 <tr class="separator:a091c00e71915214e4b56aef99e6c8780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f335b68d8e6f4a9ed2e2a4fe7a8af4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/class_world_data.html#ac7f335b68d8e6f4a9ed2e2a4fe7a8af4">GetDaytime</a> ()</td></tr>
+<tr class="separator:ac7f335b68d8e6f4a9ed2e2a4fe7a8af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f2ae9afd7eca3d71c6204b49869017e"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/class_world_data.html#a9f2ae9afd7eca3d71c6204b49869017e">CalcBaseEnvironmentTemperature</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> monthday, <a class="el" href="../../d4/dc3/classfloat.html">float</a> daytime)</td></tr>
 <tr class="separator:a9f2ae9afd7eca3d71c6204b49869017e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6968f21f4784246bebe54b8274dec66b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/class_world_data.html#a6968f21f4784246bebe54b8274dec66b">UpdateBaseEnvTemperature</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> timeslice)</td></tr>
@@ -517,6 +519,33 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d0/d24/class_world_data.html#affad756da5972020a83cbba86ce6154a">m_DayTemperature</a>.</p>
+
+</div>
+</div>
+<a id="ac7f335b68d8e6f4a9ed2e2a4fe7a8af4" name="ac7f335b68d8e6f4a9ed2e2a4fe7a8af4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f335b68d8e6f4a9ed2e2a4fe7a8af4">&#9670;&#160;</a></span>GetDaytime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetDaytime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/dca/class_world_data_daytime.html#ab9f23d33e03de885905687a8b3d56383">WorldDataDaytime::DAWN</a>, <a class="el" href="../../d8/dca/class_world_data_daytime.html#aa73bc391ce2cf3af7e2cd6ae594537e5">WorldDataDaytime::DAY</a>, <a class="el" href="../../d8/dca/class_world_data_daytime.html#abeb77ef1b585b51aa4be3bc732725576">WorldDataDaytime::DUSK</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, <a class="el" href="../../d3/d21/class_world.html#a9b39feca16897807aaf79052f1492eca">World::GetDate()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a86452ae125fd078b6e74c3786051968c">CGame::GetWorld()</a>, and <a class="el" href="../../d8/dca/class_world_data_daytime.html#a5e82f1d786b384d33a41244883cfe67a">WorldDataDaytime::NIGHT</a>.</p>
 
 </div>
 </div>

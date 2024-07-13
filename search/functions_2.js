@@ -145,7 +145,7 @@ var searchData=
   ['buildfloatingcursor_142',['BuildFloatingCursor',['../dd/dbc/class_action_targets_cursor.html#a0ec4ac03337a0bb4e0d6e271614751f4',1,'ActionTargetsCursor']]],
   ['building_143',['Building',['../df/df9/class_entity_a_i.html#ab1395ad1661a71f20df2a30f0a9ab90c',1,'EntityAI']]],
   ['buildingbase_144',['BuildingBase',['../d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#a11a85c959d293a551cfe9da1e983d7ce',1,'Building.c']]],
-  ['buildingwithfireplace_145',['BuildingWithFireplace',['../d5/d2c/class_building_super.html#a1b706293ff0ff59134cae537da935722',1,'BuildingSuper']]],
+  ['buildingwithfireplace_145',['BuildingWithFireplace',['../dd/d47/class_building_with_fireplace.html#a1b706293ff0ff59134cae537da935722',1,'BuildingWithFireplace']]],
   ['buildlayout_146',['BuildLayout',['../df/df4/class_scripted_widget_event_handler.html#aa11af7054f62a7350b9e2c3e617a2303',1,'ScriptedWidgetEventHandler::BuildLayout()'],['../d6/db5/_ui_hint_panel_8c.html#aa11af7054f62a7350b9e2c3e617a2303',1,'BuildLayout():&#160;UiHintPanel.c']]],
   ['buildmessages_147',['BuildMessages',['../d1/d5b/class_u_i_scripted_menu.html#ab740f8a3bfad903667fb5ec46495d5c0',1,'UIScriptedMenu']]],
   ['buildpartserver_148',['BuildPartServer',['../de/df0/_construction_8c.html#a1f076909902911df8bd3a3e6f8763d59',1,'Construction.c']]],

@@ -345,6 +345,7 @@ var group___widget_a_p_i =
       [ "GetSelectedIndex", "df/df4/class_scripted_widget_event_handler.html#a67b090e26789ec9d6f4e1aab66bc1ebe", null ],
       [ "GetSelectedPlayer", "df/df4/class_scripted_widget_event_handler.html#af90fca178b32812f48c29f2f964bb738", null ],
       [ "GetServerID", "df/df4/class_scripted_widget_event_handler.html#af5e70ca5625e7c1e1e53d2a0aee2d2aa", null ],
+      [ "GetSteamQueryPort", "df/df4/class_scripted_widget_event_handler.html#a261eb976d8186f5b5fc3d093cdedc832", null ],
       [ "GetTab", "df/df4/class_scripted_widget_event_handler.html#a345011931fdb6f3f7f91d7b9cf742e3f", null ],
       [ "GetTabCount", "df/df4/class_scripted_widget_event_handler.html#a3b228a2d791802c2cbef732cb6e4cfda", null ],
       [ "GetTimeString", "df/df4/class_scripted_widget_event_handler.html#a757166f646bf552e6434cf41dce6bda5", null ],
