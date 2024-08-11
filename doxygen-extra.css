@@ -56,8 +56,8 @@ body {
 } */
 
 #bigger ~ h1 {
-    font-size: 180%;
-    line-height: 140%;
+    font-size: 1.5rem;
+    line-height: 150%;
     margin-top: 48px;
     margin-bottom: 16px;
 }
@@ -156,15 +156,38 @@ div.contents a {
     text-decoration: underline;
 }
 
-#bigger ~ p, #bigger ~ ul li a {
+#bigger ~ p, #bigger ~ ul li a, #bigger ~ table {
     font-size: 20px;
     line-height: 28px;
 }
 
 #bigger ~ ul {
     padding-left: 20px;
-    margin-top: -10px;
     margin-bottom: 28px;
+}
+
+
+/* Table Markdown */
+#bigger ~ table.markdownTable {
+    width: 100%;
+    margin: 0;
+    margin-top: 48px;
+}
+
+#bigger ~ table .markdownTableHeadLeft {
+    width: 50%;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    background: inherit;
+    font-size: 1.5rem;
+    line-height: 150%;
+    padding-bottom: 16px;
+}
+
+#bigger ~ table .markdownTableBodyLeft {
+    padding: 0;
+    border: 0;
 }
 
 
