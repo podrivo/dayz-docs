@@ -55,11 +55,11 @@ body {
     line-height: 24px;
 } */
 
-h1 {
-    font-size: 150%;
-    line-height: 28px;
+#bigger ~ h1 {
+    font-size: 180%;
+    line-height: 140%;
     margin-top: 48px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 
@@ -80,6 +80,7 @@ body #mainpage, table #mainpage, div #mainpage, p #mainpage, dl #mainpage {
     font-size: 260%;
     font-weight: 700;
     line-height: 140%;
+    padding: 0;
 }
 
 #projectbrief {
@@ -125,7 +126,9 @@ div.header {
 }
 
 div.header .title {
-    margin: 48px 0px 24px;
+    margin: 28px 0px 24px;
+    font-size: 260%;
+    line-height: 140%;
 }
 
 
@@ -160,6 +163,8 @@ div.contents a {
 
 #bigger ~ ul {
     padding-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 28px;
 }
 
 
