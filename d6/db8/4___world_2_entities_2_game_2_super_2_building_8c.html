@@ -348,8 +348,16 @@ Variables</h2></td></tr>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R8ZT2QC248"></script>
 <script>
+  // Analytics
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-R8ZT2QC248');
+  // Favicon
+  document.addEventListener("DOMContentLoaded", function() {
+    var link = document.createElement("link");
+    link.rel = "icon";
+    link.href = "/favicon.svg";
+    document.head.appendChild(link);
+  });
 </script>
