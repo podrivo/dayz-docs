@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"d5/d80/class_day_z_player_implement_aiming.html#a19af7f7aed080d401035eb5eb79389eb":[2,0,1137,46],
+"d5/d80/class_day_z_player_implement_aiming.html#a1ab690ec25798331b6da7afaa2b7c4c3":[2,0,1137,14],
 "d5/d80/class_day_z_player_implement_aiming.html#a21df97fde9578ff2d1cb219299ecb41b":[2,0,1137,13],
 "d5/d80/class_day_z_player_implement_aiming.html#a247db971569c01fb3b0a026ad57e4197":[2,0,1137,30],
 "d5/d80/class_day_z_player_implement_aiming.html#a27605b6739ab5baa2341cc4a837ed691":[2,0,1137,49],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "d5/d98/group___math.html#gad4bda5b3bc14918180815cc99e823b5b":[1,4,8],
 "d5/d98/group___math.html#gae11a21c82242ed84f0bd7f435e57e7ea":[1,4,51],
 "d5/d98/group___math.html#gae404cb6f8d93f20fded11cad6c2126ab":[1,4,2],
-"d5/d98/group___math.html#gae93d8438793f39c04afbe3b656c23b75":[1,4,39],
-"d5/d98/group___math.html#gaec605c18b3705628b82a4e2a9c1f5fb3":[1,4,22],
-"d5/d98/group___math.html#gaf6caba2d6f3900fd01a0ae6d3df14ccd":[1,4,47]
+"d5/d98/group___math.html#gae93d8438793f39c04afbe3b656c23b75":[1,4,39]
 };

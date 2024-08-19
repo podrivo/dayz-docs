@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"d4/da6/_spooky_area_8c.html#a830d821b779c0814e9d378a50b2c896f":[3,0,0,3,0,7,7,5],
+"d4/da6/_spooky_area_8c.html#a89117103e533490810b61c707b33a390":[3,0,0,3,0,7,7,2],
 "d4/da6/class_medical_scrubs_pants___color_base.html":[2,0,1790],
 "d4/da7/_armband___color_base_8c.html":[3,0,0,3,1,9,3,3],
 "d4/da7/_meat_tenderizer_8c.html":[3,0,0,3,1,9,7,10,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "d4/dd3/_sliced_pumpkin_8c.html":[3,0,0,3,1,9,5,53],
 "d4/dd3/class_cfg_slots_1_1_slot___bus_wheel__1__2.html":[2,0,975,23],
 "d4/dd3/class_cfg_slots_1_1_slot___bus_wheel__1__2.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,975,23,0],
-"d4/dd3/class_cfg_slots_1_1_slot___bus_wheel__1__2.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,975,23,3],
-"d4/dd3/class_cfg_slots_1_1_slot___bus_wheel__1__2.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,975,23,1],
-"d4/dd3/class_cfg_slots_1_1_slot___bus_wheel__1__2.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,975,23,2]
+"d4/dd3/class_cfg_slots_1_1_slot___bus_wheel__1__2.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,975,23,3]
 };

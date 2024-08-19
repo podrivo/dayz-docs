@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"db/d07/class_cfg_slots_1_1_slot___niva_wheel__2__1.html":[2,0,975,199],
+"db/d07/class_cfg_slots_1_1_slot___niva_wheel__2__1.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,975,199,0],
 "db/d07/class_cfg_slots_1_1_slot___niva_wheel__2__1.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,975,199,3],
 "db/d07/class_cfg_slots_1_1_slot___niva_wheel__2__1.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,975,199,1],
 "db/d07/class_cfg_slots_1_1_slot___niva_wheel__2__1.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,975,199,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "db/d26/class_widget_layout_name.html#a558034586a9dcf0bd7ddbf6c8b6dc5b4":[2,0,2728,17],
 "db/d26/class_widget_layout_name.html#a585653369e978deeaea8b9bacb77d36b":[2,0,2728,24],
 "db/d26/class_widget_layout_name.html#a5a98aeeb37f1edf1f92783b1ce255f63":[2,0,2728,6],
-"db/d26/class_widget_layout_name.html#a62ec2df4d4025f4f5111a3a607aa65a3":[2,0,2728,25],
-"db/d26/class_widget_layout_name.html#a704bc1740ca80fc370ef3f38955cc7d9":[2,0,2728,29],
-"db/d26/class_widget_layout_name.html#a718e87d98ff0c66445baef95b12d0aab":[2,0,2728,12]
+"db/d26/class_widget_layout_name.html#a62ec2df4d4025f4f5111a3a607aa65a3":[2,0,2728,25]
 };

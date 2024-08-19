@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"d9/de0/class_server_browser_tab.html#afbe146cfc7e9c0b5c09b29df20dd6900":[2,0,2184,44],
+"d9/de0/class_server_browser_tab.html#afbe146cfc7e9c0b5c09b29df20dd6900":[2,0,2184,45],
 "d9/de1/_action_turn_off_spotlight_8c.html":[3,0,0,3,0,30,1,2,48],
 "d9/de1/class_day_z_creature_anim_script_debug.html":[2,0,1117],
 "d9/de1/class_day_z_creature_anim_script_debug.html#a03b74509aa7a731c32f59c010dd0f3d0":[2,0,1117,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "da/d06/class_json_api_struct.html#a8389e2e43b5e4467f44e846a94ee4c88":[2,0,1583,37],
 "da/d06/class_json_api_struct.html#a8b90bbab580e8ccd7988261c40c84c2d":[2,0,1583,36],
 "da/d06/class_json_api_struct.html#a90afb29455fc314e1cb215fbb8f335cd":[2,0,1583,33],
-"da/d06/class_json_api_struct.html#a942bf36d6b7daf201ba2a8f9f022fdaf":[2,0,1583,35],
-"da/d06/class_json_api_struct.html#a974a2ac32c8ba7a767326a4ff60a7fda":[2,0,1583,0],
-"da/d06/class_json_api_struct.html#aa044c1428893f3c4c90294acf22ec241":[2,0,1583,1]
+"da/d06/class_json_api_struct.html#a942bf36d6b7daf201ba2a8f9f022fdaf":[2,0,1583,35]
 };

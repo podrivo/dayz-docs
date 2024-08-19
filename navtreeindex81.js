@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#a6eb7ab07852776ee9e60fe1ca524d18d":[3,0,0,3,1,6,0,0,4],
+"d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#a786de7d1ba91597c34737cf53ec9cb8a":[3,0,0,3,1,6,0,0,1],
 "d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#a98dca8629655bb33fc72bb202ca2fb3c":[3,0,0,3,1,6,0,0,8],
 "d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#aeed2298397022ee394f580779cc6fb06":[3,0,0,3,1,6,0,0,6],
 "d6/db8/4___world_2_entities_2_game_2_super_2_building_8c.html#afff6aa7201eb061ee2d0a22765e6b0a7":[3,0,0,3,1,6,0,0,5],
@@ -176,8 +178,8 @@ var NAVTREEINDEX81 =
 "d6/dd7/class_display_element_badge.html#a87d1d39fcbf705799c8f7e2781f638a7":[2,0,1190,1],
 "d6/dd7/class_display_element_badge.html#a91a0515ae2bd0b0caf428240f7fb3d51":[2,0,1190,6],
 "d6/dd7/class_display_element_badge.html#a98a3323e3b6b969eeed2415308c10cbe":[2,0,1190,2],
-"d6/dd7/class_display_element_badge.html#aa15e303cfeeba78f51c9057f1abf76b9":[2,0,1190,9],
 "d6/dd7/class_display_element_badge.html#aa15e303cfeeba78f51c9057f1abf76b9":[2,0,1190,10],
+"d6/dd7/class_display_element_badge.html#aa15e303cfeeba78f51c9057f1abf76b9":[2,0,1190,9],
 "d6/dd7/class_display_element_badge.html#ad053e77e06157cffabbf8d994e579022":[2,0,1190,8],
 "d6/dd7/class_display_element_badge.html#afaefbce7dc55c4e8c0815f64bd05c12a":[2,0,1190,7],
 "d6/dd8/_land___village___pub_8c.html":[3,0,0,3,1,1,2,1,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a15bd463321d5258a0800830606f398c2":[3,0,0,2,11,1,2,3],
 "d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a227db150275940a7c4d543a40d13651c":[3,0,0,2,11,1,2,8],
 "d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a2c1687cf05eca67fe2697549be354d83":[3,0,0,2,11,1,2,9],
-"d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a50311d559d698b7b9ebe2a4309f53c09":[3,0,0,2,11,1,2,5],
-"d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a5ab90eb98af8c57256021664c3187d16":[3,0,0,2,11,1,2,10],
-"d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a6e6eaf90f796293c15ef5132bd05bbeb":[3,0,0,2,11,1,2,4]
+"d6/ddf/_json_api_8c.html#a84e5620412975bc11f66b1b848796ef6a50311d559d698b7b9ebe2a4309f53c09":[3,0,0,2,11,1,2,5]
 };

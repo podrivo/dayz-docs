@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"da/da8/class_magazine_hide.html":[2,0,1760],
+"da/da8/class_magazine_hide.html#aeeb67608a70dc7d07a8dc62f5fa43fb8":[2,0,1760,0],
 "da/da9/_blood_regen_8c.html":[3,0,0,3,0,18,0,3],
 "da/da9/class_v_s_s.html":[2,0,2674],
 "da/da9/class_v_s_s.html#a0f1c962310c90d4daf7bf76302192bf5":[2,0,2674,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "da/dc7/class_action_dig_worms.html#a4804232ff62479ab1bdcda0a92df386c":[2,0,145,9],
 "da/dc7/class_action_dig_worms.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,145,4],
 "da/dc7/class_action_dig_worms.html#a732f32e7996ac2253ffd6f6e239594fb":[2,0,145,3],
-"da/dc7/class_action_dig_worms.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,145,1],
-"da/dc7/class_action_dig_worms.html#ab80733e1a8c145c8ee7b04476d535d72":[2,0,145,5],
-"da/dc7/class_action_dig_worms.html#aba51e6fb279797318af73e89a6208e71":[2,0,145,10]
+"da/dc7/class_action_dig_worms.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,145,1]
 };

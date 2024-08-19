@@ -1,5 +1,7 @@
 var NAVTREEINDEX164 =
 {
+"dd/daa/_s_k_s_8c.html":[3,0,0,3,1,5,1,11],
+"dd/daa/_s_k_s_8c.html#a496f480a38bc47c75fd30e182684c1f0":[3,0,0,3,1,5,1,11,13],
 "dd/daa/_s_k_s_8c.html#a5505b40857f04731ef377a6be07e9d8c":[3,0,0,3,1,5,1,11,10],
 "dd/daa/_s_k_s_8c.html#a6ce26a62afab55d7606ad4e92428b30c":[3,0,0,3,1,5,1,11,18],
 "dd/daa/_s_k_s_8c.html#a74791b937fea43bf3802581271979e1d":[3,0,0,3,1,5,1,11,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX164 =
 "dd/dbf/class_claymore_mine.html#a83a1e547e0d1e65ad421070058a093a9":[2,0,1007,3],
 "dd/dbf/class_claymore_mine.html#a887b6004c3899ea2c9888d8f3e1d90f9":[2,0,1007,21],
 "dd/dbf/class_claymore_mine.html#a94e94836ed80bf81df4751938ab00cbc":[2,0,1007,1],
-"dd/dbf/class_claymore_mine.html#a98bbbd58f1f5b67099deef56e0abe0c5":[2,0,1007,12],
-"dd/dbf/class_claymore_mine.html#aafac0842577356f878e87cbecd8dbdc1":[2,0,1007,4],
-"dd/dbf/class_claymore_mine.html#ab18e11ed223759f876177531c553dfbe":[2,0,1007,13]
+"dd/dbf/class_claymore_mine.html#a98bbbd58f1f5b67099deef56e0abe0c5":[2,0,1007,12]
 };

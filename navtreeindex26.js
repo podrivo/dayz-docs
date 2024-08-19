@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"d2/d7e/class_firearm_action_unjam.html#ab80733e1a8c145c8ee7b04476d535d72":[2,0,1302,5],
+"d2/d7f/_bleeding_indication_static_info_8c.html":[3,0,0,3,0,3,1],
 "d2/d7f/_shock_8c.html":[3,0,0,3,0,18,0,21],
 "d2/d82/class_land___ruin___house_big3.html":[2,0,1629],
 "d2/d83/class_bush_hard__t___pinus_sylvestris__1f.html":[2,0,848],
@@ -80,9 +82,9 @@ var NAVTREEINDEX26 =
 "d2/d89/class_cfg_slots_1_1_slot___niva_trunk.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,975,196,1],
 "d2/d89/class_cfg_slots_1_1_slot___niva_trunk.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,975,196,2],
 "d2/d89/class_clothing_base.html":[2,0,1015],
-"d2/d89/class_clothing_base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1015,3],
 "d2/d89/class_clothing_base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1015,1],
 "d2/d89/class_clothing_base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1015,2],
+"d2/d89/class_clothing_base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1015,3],
 "d2/d89/class_clothing_base.html#abbd8d4142787998dba20c9b75567c440":[2,0,1015,0],
 "d2/d8b/_area_exposure_8c.html":[3,0,0,3,0,18,0,0,0],
 "d2/d8c/_blood_splatter_8c.html":[3,0,0,2,5,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "d2/d96/class_entity.html#a37c27393c09cdde3200a7db0b5ee96d1":[2,0,1256,195],
 "d2/d96/class_entity.html#a386fd5dcce03eff3c3b9d8f5777d5464":[2,0,1256,382],
 "d2/d96/class_entity.html#a3946fc4f3b7d4331c7b0d25fe4040645":[2,0,1256,21],
-"d2/d96/class_entity.html#a39906f40f23217372cd80e285c8dd115":[2,0,1256,303],
-"d2/d96/class_entity.html#a3a04d4146a8b984ac29f4f3c8b27140e":[2,0,1256,30],
-"d2/d96/class_entity.html#a3a316b9fb0fb2b0dc6cd57409bc2d640":[2,0,1256,9]
+"d2/d96/class_entity.html#a39906f40f23217372cd80e285c8dd115":[2,0,1256,303]
 };

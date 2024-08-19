@@ -1,5 +1,7 @@
 var NAVTREEINDEX109 =
 {
+"d9/d1a/class_cfg_slots_1_1_slot__weapon_muzzle_m4.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,975,369,1],
+"d9/d1a/class_cfg_slots_1_1_slot__weapon_muzzle_m4.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,975,369,2],
 "d9/d1b/_hands_container_8c.html":[3,0,0,4,0,5,2,5],
 "d9/d1b/class_notifier_base.html":[2,0,1863],
 "d9/d1b/class_notifier_base.html#a0f5708fda4333b83b796739572f7eaba":[2,0,1863,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX109 =
 "d9/d3c/_crossbow_8c.html#a9f0df85435ab4d7e6f2e78383b86f52b":[3,0,0,3,1,5,0,1,12],
 "d9/d3c/_crossbow_8c.html#aa40f8697dfa587f8adabc8640bc98ad8":[3,0,0,3,1,5,0,1,11],
 "d9/d3c/_crossbow_8c.html#aac14d196e64cad535c5aa50f0c954df3":[3,0,0,3,1,5,0,1,8],
-"d9/d3c/_crossbow_8c.html#ab49d3803bebd844c3f873106849df18a":[3,0,0,3,1,5,0,1,5],
-"d9/d3c/_crossbow_8c.html#ab8ceb2242345d76b191c714026ba1efe":[3,0,0,3,1,5,0,1,14],
-"d9/d3c/_crossbow_8c.html#ac73a681f7812b22f3c723c04fe58d193":[3,0,0,3,1,5,0,1,3]
+"d9/d3c/_crossbow_8c.html#ab49d3803bebd844c3f873106849df18a":[3,0,0,3,1,5,0,1,5]
 };

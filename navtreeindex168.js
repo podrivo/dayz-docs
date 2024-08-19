@@ -1,5 +1,7 @@
 var NAVTREEINDEX168 =
 {
+"dd/ded/_stamina_modifier_data_8c.html#a5ac228717663cfc08532c3be49b1f54f":[3,0,0,3,0,69,6],
+"dd/ded/_stamina_modifier_data_8c.html#a5e800b3a72bee9e2a62ef07754415531":[3,0,0,3,0,69,7],
 "dd/ded/_stamina_modifier_data_8c.html#a5f95b50aca45a525e3c71c61a07f2d7d":[3,0,0,3,0,69,3],
 "dd/ded/_stamina_modifier_data_8c.html#a8045e088b31fe0754fb20cb0a5ff0dc9":[3,0,0,3,0,69,2],
 "dd/ded/_stamina_modifier_data_8c.html#ae4c23bcf33517f4258eb4b118bea7dda":[3,0,0,3,0,69,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX168 =
 "de/d02/class_hatchback__02.html":[2,0,1400],
 "de/d02/class_hatchback__02.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1400,0],
 "de/d03/4___world_2_entities_2_game_2_super_2_man_8c.html":[3,0,0,3,1,6,0,3],
-"de/d03/4___world_2_entities_2_game_2_super_2_man_8c.html#a9ba24b675cbdfbb09b0161625c4b421a":[3,0,0,3,1,6,0,3,0],
-"de/d04/_component_animal_bleeding_8c.html":[3,0,0,2,18,0,2],
-"de/d05/game_lib_components_8c.html":[3,0,0,1,0,0]
+"de/d03/4___world_2_entities_2_game_2_super_2_man_8c.html#a9ba24b675cbdfbb09b0161625c4b421a":[3,0,0,3,1,6,0,3,0]
 };

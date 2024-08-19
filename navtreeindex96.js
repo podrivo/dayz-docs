@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"d8/d26/_hud_debug_8c.html#aef6771cd26df6cd77152c6184cfafda7":[3,0,0,4,0,22,21],
+"d8/d26/_hud_debug_8c.html#af00320d226f29d8e7cb080b42fa72c45":[3,0,0,4,0,22,0],
 "d8/d26/_hud_debug_8c.html#af52fba056325c71e0a210bf9abde5dc9":[3,0,0,4,0,22,1],
 "d8/d26/_hud_debug_8c.html#affd50c5c1389d0d7aa3e7e901303bedc":[3,0,0,4,0,22,27],
 "d8/d26/_spooky_area_misc_8c.html":[3,0,0,3,0,7,8],
@@ -188,8 +190,8 @@ var NAVTREEINDEX96 =
 "d8/d3c/class_powered_optic___base.html#aa5ed8e64b26437fa90d3fd1297b240be":[2,0,2017,21],
 "d8/d3c/class_powered_optic___base.html#ababc78e33200f63e503587d956dd6fab":[2,0,2017,4],
 "d8/d3c/class_powered_optic___base.html#abcc799d79d600cc5ed378357a30e71fb":[2,0,2017,24],
-"d8/d3c/class_powered_optic___base.html#abf45da335d07e3e78aa558714d3c38e8":[2,0,2017,12],
 "d8/d3c/class_powered_optic___base.html#abf45da335d07e3e78aa558714d3c38e8":[2,0,2017,13],
+"d8/d3c/class_powered_optic___base.html#abf45da335d07e3e78aa558714d3c38e8":[2,0,2017,12],
 "d8/d3c/class_powered_optic___base.html#ac063b6124c64033d904f29247d8eb45a":[2,0,2017,1],
 "d8/d3c/class_powered_optic___base.html#ac1e86f9f8240aa963d3f1017295d5424":[2,0,2017,3],
 "d8/d3c/class_powered_optic___base.html#ac49b1cab32f5eab70aab44528726e721":[2,0,2017,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "d8/d43/class_hip_pack___party.html":[2,0,1446],
 "d8/d44/_plugin_diag_menu_server_8c.html":[3,0,0,3,2,0,1,3],
 "d8/d44/class_duct_tape.html":[2,0,1207],
-"d8/d44/class_duct_tape.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,1207,0],
-"d8/d44/class_mag___saiga__5_rnd.html":[2,0,1745],
-"d8/d45/3___game_2_entities_2_building_8c.html":[3,0,0,2,6,0]
+"d8/d44/class_duct_tape.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,1207,0]
 };

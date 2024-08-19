@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"d7/df2/_emote_classes_8c.html#aee76b24ca96dbc81cfdb73710031a283":[3,0,0,3,0,11,1,34],
+"d7/df3/class_bloody_hands.html":[2,0,756],
 "d7/df3/class_bloody_hands.html#a0fee72dda128152334ff65b8ecfac340":[2,0,756,4],
 "d7/df3/class_bloody_hands.html#a3f970bbfd1fdd187b95460f16402d91b":[2,0,756,3],
 "d7/df3/class_bloody_hands.html#a504432b119d0a97041959a7db5c78843":[2,0,756,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "d8/d18/gameplay_8c.html#a0c073c5a57fa3dc05725df8bcdf10aa8":[3,0,0,2,44,52],
 "d8/d18/gameplay_8c.html#a0dc950f3dd50a2e71d11dad344d91c56":[3,0,0,2,44,45],
 "d8/d18/gameplay_8c.html#a0f73de79a184f51240837f68795545a7":[3,0,0,2,44,57],
-"d8/d18/gameplay_8c.html#a0fde1b8235984490c2df5f496e9d6d8b":[3,0,0,2,44,42],
-"d8/d18/gameplay_8c.html#a1189f36c21a3bab9acaab25a7e9a3ca2":[3,0,0,2,44,56],
-"d8/d18/gameplay_8c.html#a11a86fd63b6b5e8976eae59f74295e04":[3,0,0,2,44,110]
+"d8/d18/gameplay_8c.html#a0fde1b8235984490c2df5f496e9d6d8b":[3,0,0,2,44,42]
 };

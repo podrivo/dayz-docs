@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"d5/d06/class_bios_client_services.html#a040fcffcda11d8aa912826f12ddddc0b":[2,0,727,2],
+"d5/d06/class_bios_client_services.html#a297f5f59ace5a79ca4eb4b180e32d18a":[2,0,727,0],
 "d5/d06/class_bios_client_services.html#a402c4c751e963d0e6bb519d558157d06":[2,0,727,1],
 "d5/d06/class_bios_client_services.html#a7279701f9c03232ff328f000389d3407":[2,0,727,4],
 "d5/d06/class_bios_client_services.html#a7b3d53bf0cc809ef7745d514713c2c34":[2,0,727,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88aca86827046e31a415cca40aec59c982e":[3,0,0,3,0,27,1,2,0,25],
 "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ad669b1be048d39313c673d78456df47e":[3,0,0,3,0,27,1,2,0,3],
 "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ae2327858a43ce17045d42cc9f0b405b0":[3,0,0,3,0,27,1,2,0,4],
-"d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ae879c44fbfa1a07bdf9723192a85761b":[3,0,0,3,0,27,1,2,0,23],
-"d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ae91797ed8edb88e9053c5c9ddfd431cd":[3,0,0,3,0,27,1,2,0,6],
-"d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88af9c7336ea4b049921f28feabcf6dcdf1":[3,0,0,3,0,27,1,2,0,10]
+"d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ae879c44fbfa1a07bdf9723192a85761b":[3,0,0,3,0,27,1,2,0,23]
 };

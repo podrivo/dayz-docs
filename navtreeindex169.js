@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"de/d04/_component_animal_bleeding_8c.html":[3,0,0,2,18,0,2],
+"de/d05/game_lib_components_8c.html":[3,0,0,1,0,0],
 "de/d07/_action_gag_target_8c.html":[3,0,0,3,0,30,1,0,81],
 "de/d08/_attachment_categories_container_8c.html":[3,0,0,4,0,5,3,0],
 "de/d08/_startup_menu_8c.html":[3,0,0,4,0,55],
@@ -247,7 +249,5 @@ var NAVTREEINDEX169 =
 "de/d1f/class_action_craft_bolts.html#a022f8785b18c2cc13470c77144dcb075":[2,0,85,3],
 "de/d1f/class_action_craft_bolts.html#a18ce36bd43c8a24b3200f83bdedb5e59":[2,0,85,9],
 "de/d1f/class_action_craft_bolts.html#a2b48daf7a4f2ceac2631d0b49a0ac689":[2,0,85,0],
-"de/d1f/class_action_craft_bolts.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,85,2],
-"de/d1f/class_action_craft_bolts.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,85,1],
-"de/d1f/class_action_craft_bolts.html#aeff6075497ad3a18fc8854ebbd12e38a":[2,0,85,7]
+"de/d1f/class_action_craft_bolts.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,85,2]
 };

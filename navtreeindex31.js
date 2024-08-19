@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"d2/dc5/class_json_serializer.html#a9a69af73d088dd037f3b08a821d67561":[2,0,1597,0],
+"d2/dc5/class_json_serializer.html#ac978eb96fddcebda73fb63f3f17f3012":[2,0,1597,3],
 "d2/dc5/class_json_serializer.html#ad0afae31c4dc7f81bc0f9eec108eba06":[2,0,1597,1],
 "d2/dc7/_attach_pouches_holster_8c.html":[3,0,0,3,0,22,0,3],
 "d2/dc7/class_cholera_mdfr.html":[2,0,991],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "d2/de6/class_c_game.html#a0ae2520da465b6c9882f5c2670a2ddd8":[2,0,976,465],
 "d2/de6/class_c_game.html#a0bc198b9be247017f6244979473275f4":[2,0,976,315],
 "d2/de6/class_c_game.html#a0c5ca3bf51b63ad40075501da1238425":[2,0,976,108],
-"d2/de6/class_c_game.html#a0c5e340d267c0124362762622209ba31":[2,0,976,438],
-"d2/de6/class_c_game.html#a0c88046f6c3747e2f48ff9fb4f90ad59":[2,0,976,451],
-"d2/de6/class_c_game.html#a0d41e05a58e79bd155d32fad5be3fbac":[2,0,976,462]
+"d2/de6/class_c_game.html#a0c5e340d267c0124362762622209ba31":[2,0,976,438]
 };

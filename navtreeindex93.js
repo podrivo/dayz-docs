@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"d7/dda/class_bit_array.html#a639c0adc86f2d475b0a8e4b679a3494f":[2,0,739,1],
+"d7/dda/class_bit_array.html#aaeca0600bc1cede8af73642deeb481dc":[2,0,739,5],
 "d7/dda/class_bit_array.html#abda7d43fb09719f4bf01ccaa43155879":[2,0,739,2],
 "d7/dda/class_bit_array.html#aff0c98a6bd5a3aae92fc283668fc65c7":[2,0,739,4],
 "d7/dda/class_map_widget.html":[2,0,1780],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "d7/df2/_emote_classes_8c.html#ad14fe248a6cb7717de356b78d756642a":[3,0,0,3,0,11,1,1],
 "d7/df2/_emote_classes_8c.html#ad53b7639cf31c8b139305fcb40230eca":[3,0,0,3,0,11,1,3],
 "d7/df2/_emote_classes_8c.html#ae33227f6ff32ecadf1b9a572d091e331":[3,0,0,3,0,11,1,9],
-"d7/df2/_emote_classes_8c.html#aed753b2fff649626dddc06c23e3be7a2":[3,0,0,3,0,11,1,29],
-"d7/df2/_emote_classes_8c.html#aee76b24ca96dbc81cfdb73710031a283":[3,0,0,3,0,11,1,34],
-"d7/df3/class_bloody_hands.html":[2,0,756]
+"d7/df2/_emote_classes_8c.html#aed753b2fff649626dddc06c23e3be7a2":[3,0,0,3,0,11,1,29]
 };

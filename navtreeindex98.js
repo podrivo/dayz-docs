@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aa35e6b4eec104eebfba7ca8c924335bf5":[3,0,0,3,1,25,0,10],
+"d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aa552dbfc018bbff8b37c76efea76ca893":[3,0,0,3,1,25,0,4],
 "d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aa69bdc0ba557f9579213379d18951f9c6":[3,0,0,3,1,25,0,8],
 "d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aa7f6da8ce904f34ce9d7c685b0567c6f3":[3,0,0,3,1,25,0,5],
 "d8/d5d/_day_z_player_implement_melee_combat_8c.html#aa261ab406ec33906c5ef3f41c4ac5d2aaa2114fab6a2eafdb257ace34b586c776":[3,0,0,3,1,25,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "d8/d6f/class_attachments.html#ad64f1e238642be0ca330d16bca258da4":[2,0,669,25],
 "d8/d6f/class_attachments.html#ad660ad8408b37d7233e777455ac4ff53":[2,0,669,41],
 "d8/d6f/class_attachments.html#adce654ac932b7301cf770c86bba9b432":[2,0,669,9],
-"d8/d6f/class_attachments.html#ae0006af3714e47b6690a62dc77c844b5":[2,0,669,35],
-"d8/d6f/class_attachments.html#ae17c4ebbd1413112255663fb8c0932cb":[2,0,669,7],
-"d8/d6f/class_attachments.html#ae5f6a973416a9599d55d1292e27c1bd5":[2,0,669,24]
+"d8/d6f/class_attachments.html#ae0006af3714e47b6690a62dc77c844b5":[2,0,669,35]
 };

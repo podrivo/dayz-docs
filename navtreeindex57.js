@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"d4/d9e/human_8c.html#a6f9242c4cfda09e9a3e214b125a158d3":[3,0,0,2,48,179],
+"d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093":[3,0,0,2,48,22],
 "d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093a2058365a30c4d6d0336d8b56aa9ffd5a":[3,0,0,2,48,22,6],
 "d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093a369e4c7218568f1409bc7c9bb651069a":[3,0,0,2,48,22,10],
 "d4/d9e/human_8c.html#a70aa34d22d03160ea5e3d5248cd37093a41291884f8822b528f71251320100d78":[3,0,0,2,48,22,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "d4/da6/_spooky_area_8c.html":[3,0,0,3,0,7,7],
 "d4/da6/_spooky_area_8c.html#a58793c1561abb560da4377da77ad6dea":[3,0,0,3,0,7,7,1],
 "d4/da6/_spooky_area_8c.html#a76f4e4b51b4025ee919dcf5fa28b28b4":[3,0,0,3,0,7,7,3],
-"d4/da6/_spooky_area_8c.html#a7dc0909f5b443b28956792287ee6c702":[3,0,0,3,0,7,7,4],
-"d4/da6/_spooky_area_8c.html#a830d821b779c0814e9d378a50b2c896f":[3,0,0,3,0,7,7,5],
-"d4/da6/_spooky_area_8c.html#a89117103e533490810b61c707b33a390":[3,0,0,3,0,7,7,2]
+"d4/da6/_spooky_area_8c.html#a7dc0909f5b443b28956792287ee6c702":[3,0,0,3,0,7,7,4]
 };

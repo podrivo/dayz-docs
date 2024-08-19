@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"d7/d6b/_gestures_menu_8c.html#a53a8df87b81bc7ea1f3b65eed333063e":[3,0,0,4,0,20,11],
+"d7/d6b/_gestures_menu_8c.html#a815e4e5775a3ca046bebba652aaaa14d":[3,0,0,4,0,20,10],
 "d7/d6b/_gestures_menu_8c.html#a8c6fa552e1737d547e706becbab0fcb3":[3,0,0,4,0,20,13],
 "d7/d6b/_gestures_menu_8c.html#a9760f127681dc90c1f039c4260566d8c":[3,0,0,4,0,20,5],
 "d7/d6b/_gestures_menu_8c.html#ab8c0da8da3a071d3e04d089b58d51a2a":[3,0,0,4,0,20,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "d7/d83/class_building_inventory.html":[2,0,815],
 "d7/d84/_action_force_drink_alcohol_8c.html":[3,0,0,3,0,30,1,0,1,28],
 "d7/d84/_p_p_e_film_grain_8c.html":[3,0,0,2,14,0,0,6],
-"d7/d84/class_action_fold_bandana_to_head.html":[2,0,232],
-"d7/d84/class_action_fold_bandana_to_head.html#ae37f159d6387f955a6598971d2c9920f":[2,0,232,0],
-"d7/d84/class_action_fold_bandana_to_head.html#af127b91bedeb70f79583b0183d86be98":[2,0,232,1]
+"d7/d84/class_action_fold_bandana_to_head.html":[2,0,232]
 };

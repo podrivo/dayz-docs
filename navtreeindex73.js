@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"d5/df1/class_eff_breath_vapour_medium.html":[2,0,1228],
+"d5/df1/class_eff_breath_vapour_medium.html#a34004a788b20e80334ae39ab5e7c28b1":[2,0,1228,0],
 "d5/df2/_bot_events_8c.html":[3,0,0,3,4,0,10],
 "d5/df4/_bone_knife_8c.html":[3,0,0,3,1,9,31],
 "d5/df4/_rifle_re_chambering_8c.html":[3,0,0,3,1,5,2,0,6],
@@ -46,10 +48,10 @@ var NAVTREEINDEX73 =
 "d5/df6/group___file.html#gga031770da453a180e21dcbef5cf5aeab6af38784ef4b08f294d4a78f62181729a0":[1,10,3,4,2],
 "d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea41ae0a505430bf564b119bc82db7592d":[1,10,3,3,1],
 "d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea41ae0a505430bf564b119bc82db7592d":[1,10,9],
-"d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea626af06d585fcb18d2cd6cdec0d235cf":[1,10,3,3,2],
 "d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea626af06d585fcb18d2cd6cdec0d235cf":[1,10,148],
-"d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea9d09f58160b1161920aad19080f568cc":[1,10,3,3,0],
+"d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea626af06d585fcb18d2cd6cdec0d235cf":[1,10,3,3,2],
 "d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea9d09f58160b1161920aad19080f568cc":[1,10,8],
+"d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aea9d09f58160b1161920aad19080f568cc":[1,10,3,3,0],
 "d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aeaef2863a469df3ea6871d640e3669a2f2":[1,10,3,3,3],
 "d5/df6/group___file.html#ggab6d091fc42473756488e3ba6fda6c4aeaef2863a469df3ea6871d640e3669a2f2":[1,10,10],
 "d5/df7/_continuous_action_progress_8c.html":[3,0,0,4,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "d6/d0e/class_inventory_item.html#a6f2fd351e999da0a3fed2bb42ec8a737":[2,0,1539,275],
 "d6/d0e/class_inventory_item.html#a6ff31a876fba89e2f0ae6c33af8cd551":[2,0,1539,195],
 "d6/d0e/class_inventory_item.html#a704274234435e972eeacddb68fedf69e":[2,0,1539,310],
-"d6/d0e/class_inventory_item.html#a70e7bc3529c4b55abf3c51db5a432671":[2,0,1539,108],
-"d6/d0e/class_inventory_item.html#a71481d75649499d6084def958eaf9e7e":[2,0,1539,285],
-"d6/d0e/class_inventory_item.html#a7157fc755fbd7822fa99c868ca69756a":[2,0,1539,8]
+"d6/d0e/class_inventory_item.html#a70e7bc3529c4b55abf3c51db5a432671":[2,0,1539,108]
 };

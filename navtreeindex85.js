@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"d7/d14/class_action_fold_map.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,236,1],
+"d7/d14/class_action_fold_map.html#ab80733e1a8c145c8ee7b04476d535d72":[2,0,236,4],
 "d7/d15/_weapon_start_action_8c.html":[3,0,0,3,1,5,2,0,22],
 "d7/d16/class_plant___cannabis.html":[2,0,1955],
 "d7/d17/_keybinding_element_8c.html":[3,0,0,4,0,6,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "d7/d22/class_json_object.html#ae138a4b9f44341631cf2f2fca63703fa":[2,0,1596,8],
 "d7/d22/class_json_object.html#ae59e4c97025d4b578396daba34e2ab88":[2,0,1596,12],
 "d7/d23/class_fox_pelt.html":[2,0,1332],
-"d7/d24/class_action_collect_sample_target_c_b.html":[2,0,67],
-"d7/d24/class_action_collect_sample_target_c_b.html#accfb238782010198bdb5128a8ee44300":[2,0,67,0],
-"d7/d25/_craft_hand_drill_kit_8c.html":[3,0,0,3,0,22,0,37]
+"d7/d24/class_action_collect_sample_target_c_b.html":[2,0,67]
 };

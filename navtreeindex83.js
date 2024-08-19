@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"d6/de6/class_component_energy_manager.html#adb02a7759f361eb1b31bed10224f2722":[2,0,1039,98],
+"d6/de6/class_component_energy_manager.html#adeaac69eb349fa4ecabff7c4c01157fc":[2,0,1039,53],
 "d6/de6/class_component_energy_manager.html#adef19e143c7da13a3b6292338665237e":[2,0,1039,137],
 "d6/de6/class_component_energy_manager.html#adf38b4aa90f7109868cc3ee6793588ec":[2,0,1039,126],
 "d6/de6/class_component_energy_manager.html#adfc6504c83b8d6eee0ff40c810a106ef":[2,0,1039,136],
@@ -242,12 +244,10 @@ var NAVTREEINDEX83 =
 "d6/df8/_item_drop_warning_menu_8c.html#aee6a27cad085ec84d5f5dbb765b63b53":[3,0,0,4,0,31,4],
 "d6/df8/class_option_selector_base.html":[2,0,1889],
 "d6/df8/class_option_selector_base.html#a010b9592b121aeff9d15355a29a79ee2":[2,0,1889,0],
-"d6/df8/class_option_selector_base.html#a04ee2c706364ff75f23781939df87928":[2,0,1889,23],
-"d6/df8/class_option_selector_base.html#a04ee2c706364ff75f23781939df87928":[2,0,1889,22],
 "d6/df8/class_option_selector_base.html#a04ee2c706364ff75f23781939df87928":[2,0,1889,21],
+"d6/df8/class_option_selector_base.html#a04ee2c706364ff75f23781939df87928":[2,0,1889,22],
+"d6/df8/class_option_selector_base.html#a04ee2c706364ff75f23781939df87928":[2,0,1889,23],
 "d6/df8/class_option_selector_base.html#a0a85cc7c144a4c7eeba5fbe6ecd893bb":[2,0,1889,17],
-"d6/df8/class_option_selector_base.html#a0b2a27b5e2351f66f2d8025f4797124c":[2,0,1889,27],
 "d6/df8/class_option_selector_base.html#a0b2a27b5e2351f66f2d8025f4797124c":[2,0,1889,28],
-"d6/df8/class_option_selector_base.html#a0ff1fa41ec6277a33684c979fa1fcfc5":[2,0,1889,3],
-"d6/df8/class_option_selector_base.html#a1761b178387cbae811472267972df121":[2,0,1889,20]
+"d6/df8/class_option_selector_base.html#a0b2a27b5e2351f66f2d8025f4797124c":[2,0,1889,27]
 };

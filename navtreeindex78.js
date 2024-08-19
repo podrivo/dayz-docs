@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"d6/d59/_action_base_8c.html#ad37cd855eec1e2636806ff274469540a":[3,0,0,3,0,30,5,42],
+"d6/d59/_action_base_8c.html#ad778ebddd6df1714f363ee2721702aed":[3,0,0,3,0,30,5,58],
 "d6/d59/_action_base_8c.html#ad9126422b01137470623133ad2b21703":[3,0,0,3,0,30,5,13],
 "d6/d59/_action_base_8c.html#adb7a179f0ce9195c7dc300367bbaf51a":[3,0,0,3,0,30,5,101],
 "d6/d59/_action_base_8c.html#adc0813e96c27638edc8c57cfbaa30c25":[3,0,0,3,0,30,5,110],
@@ -86,8 +88,8 @@ var NAVTREEINDEX78 =
 "d6/d5b/group___custom_emote_i_ds.html#ga989ef35af05e4fb2e85ca0568dd04c72":[1,23,0,5],
 "d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,0],
 "d6/d5b/group___custom_emote_i_ds.html#gaa4235d384cf9531e13ca4f0e44e41c53":[1,23,0,1],
-"d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,3],
 "d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,2],
+"d6/d5b/group___custom_emote_i_ds.html#gaf2fd7352ecddff7abaf8cd1f033eff7a":[1,23,0,3],
 "d6/d5c/_action_craft_improvised_eye_patch_8c.html":[3,0,0,3,0,30,1,0,22],
 "d6/d5c/class_agaricus_mushroom.html":[2,0,526],
 "d6/d5c/class_agaricus_mushroom.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,526,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca49968d28c6f404a9593fe8bf9cc91d2f":[3,0,0,4,0,16,2,9],
 "d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca4aa07c43848145d791f28b6f539d3257":[3,0,0,4,0,16,2,16],
 "d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca4aa80c2b068682a463fc708703ec385b":[3,0,0,4,0,16,2,12],
-"d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca529beea9776a63e6839e4b7d13a7ab34":[3,0,0,4,0,16,2,5],
-"d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca5b180168aeb9709c5601ee347691e7ac":[3,0,0,4,0,16,2,7],
-"d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca6710c62c0c4c4c6f6469c490da2a7f4a":[3,0,0,4,0,16,2,18]
+"d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07ca529beea9776a63e6839e4b7d13a7ab34":[3,0,0,4,0,16,2,5]
 };

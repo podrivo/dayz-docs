@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"d4/d49/class_plugin_config_handler.html#a917f69bc173818dca7180a32157a171d":[2,0,1992,144],
+"d4/d49/class_plugin_config_handler.html#a919d21f01869d969b39764aa51461468":[2,0,1992,1],
 "d4/d49/class_plugin_config_handler.html#a91a5b3aa2b6d3a4697c44ff57a3e066a":[2,0,1992,166],
 "d4/d49/class_plugin_config_handler.html#a92b1a677c289c95d5ed97dec37a00f7d":[2,0,1992,48],
 "d4/d49/class_plugin_config_handler.html#a92cbaeaad95a5e91fcb6169f5a7a3f1a":[2,0,1992,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "d4/d5a/_u_a_input_8c.html":[3,0,0,2,12,0],
 "d4/d5a/_u_a_input_8c.html#a616105f49c02ce570dbb5acb4b9b17f8":[3,0,0,2,12,0,4],
 "d4/d5c/_dynamic_music_player_8c.html":[3,0,0,2,17,3,0],
-"d4/d5c/_dynamic_music_player_8c.html#a0512b55cd417d097667021c3f06194d3":[3,0,0,2,17,3,0,64],
-"d4/d5c/_dynamic_music_player_8c.html#a07a404c8032cc7d324e2bf066622d1ca":[3,0,0,2,17,3,0,41],
-"d4/d5c/_dynamic_music_player_8c.html#a07d47fd3a26d2e220a7949c48af64477":[3,0,0,2,17,3,0,37]
+"d4/d5c/_dynamic_music_player_8c.html#a0512b55cd417d097667021c3f06194d3":[3,0,0,2,17,3,0,64]
 };
