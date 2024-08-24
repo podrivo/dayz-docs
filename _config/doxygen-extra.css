@@ -83,6 +83,11 @@ body #mainpage, table #mainpage, div #mainpage, p #mainpage, dl #mainpage {
     padding: 0;
 }
 
+#projectname a {
+    font-weight: 700;
+    color: currentColor;
+}
+
 #projectbrief {
     opacity: 0.6;
 }

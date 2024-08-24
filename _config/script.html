@@ -14,4 +14,17 @@
     link.href = "/favicon.svg";
     document.head.appendChild(link);
   });
+
+  // Index Link
+  document.addEventListener("DOMContentLoaded", function() {
+    var projectname = document.querySelector('#projectname')
+    var a = document.createElement('a');
+
+    a.innerHTML = projectname.innerHTML;
+    a.title = projectname.innerHTML;
+    a.href = "/";
+
+    projectname.innerHTML = "";
+    projectname.appendChild(a);
+  });
 </script>
