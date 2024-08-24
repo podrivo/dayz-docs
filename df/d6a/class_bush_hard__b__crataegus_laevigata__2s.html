@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.25.158593 · Aug 19, 2024</div>
+   <div id="projectbrief">PC Stable v1.25.158593</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -120,5 +120,15 @@ $(document).ready(function(){initNavTree('df/d6a/class_bush_hard__b__crataegus_l
     link.rel = "icon";
     link.href = "/favicon.svg";
     document.head.appendChild(link);
+  });
+  // Index Link
+  document.addEventListener("DOMContentLoaded", function() {
+    var projectname = document.querySelector('#projectname')
+    var a = document.createElement('a');
+    a.innerHTML = projectname.innerHTML;
+    a.title = projectname.innerHTML;
+    a.href = "/";
+    projectname.innerHTML = "";
+    projectname.appendChild(a);
   });
 </script>
