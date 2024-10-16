@@ -1,4 +1,4 @@
 var _wound_agent_8c =
 [
-    [ "AgentBase", "d1/dd5/class_agent_base.html", "d1/dd5/class_agent_base" ]
+    [ "WoundAgent", "dd/dd8/class_wound_agent.html", "dd/dd8/class_wound_agent" ]
 ];

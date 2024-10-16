@@ -24,6 +24,7 @@ var class_script_console_tab_base =
     [ "m_ConfigDebugProfileFixed", "d8/d29/class_script_console_tab_base.html#aae0fbeee55f3e398dac0f398a88c8177", null ],
     [ "m_Id", "d8/d29/class_script_console_tab_base.html#afdf210025b410f0ccd9cfcb782977f9a", null ],
     [ "m_IsSelected", "d8/d29/class_script_console_tab_base.html#a6fafadc8c9d4c2d2d11ce468a3d07fca", null ],
+    [ "m_IsShiftDown", "d8/d29/class_script_console_tab_base.html#a485bba8bcc8300b187c8eaa4a8b8baa2", null ],
     [ "m_Parent", "d8/d29/class_script_console_tab_base.html#ad5124b352e4097390f170847eca9d497", null ],
     [ "m_ParentRoot", "d8/d29/class_script_console_tab_base.html#a5a2a1622a2ab6006470ea9becc9aec68", null ],
     [ "m_Root", "d8/d29/class_script_console_tab_base.html#abc384ffa3d9e20d9963688d1e3492cb7", null ],

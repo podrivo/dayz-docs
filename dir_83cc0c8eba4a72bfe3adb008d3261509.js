@@ -13,6 +13,7 @@ var dir_83cc0c8eba4a72bfe3adb008d3261509 =
     [ "EDiagMenuIDs.c", "d9/dbc/_e_diag_menu_i_ds_8c.html", "d9/dbc/_e_diag_menu_i_ds_8c" ],
     [ "EDynamicMusicPlayerCategory.c", "d8/d06/_e_dynamic_music_player_category_8c.html", "d8/d06/_e_dynamic_music_player_category_8c" ],
     [ "EGameStateIcons.c", "df/df3/_e_game_state_icons_8c.html", "df/df3/_e_game_state_icons_8c" ],
+    [ "EMedicalDrugsType.c", "d9/d10/_e_medical_drugs_type_8c.html", "d9/d10/_e_medical_drugs_type_8c" ],
     [ "EMeleeTargetType.c", "df/d94/_e_melee_target_type_8c.html", "df/d94/_e_melee_target_type_8c" ],
     [ "EMixedSoundStates.c", "da/d9c/_e_mixed_sound_states_8c.html", "da/d9c/_e_mixed_sound_states_8c" ],
     [ "EPlayerStates.c", "da/dc7/_e_player_states_8c.html", "da/dc7/_e_player_states_8c" ],

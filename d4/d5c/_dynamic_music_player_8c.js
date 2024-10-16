@@ -17,6 +17,7 @@ var _dynamic_music_player_8c =
     [ "IsPriotitizedCategorySelected", "d4/d5c/_dynamic_music_player_8c.html#aa65de6208085e044550f6455949f7fbd", null ],
     [ "OnCategorySet", "d4/d5c/_dynamic_music_player_8c.html#aeedd319f2620f4d3e8de7d83803da894", null ],
     [ "OnFadeoutFinished", "d4/d5c/_dynamic_music_player_8c.html#a733fab53c9e507ecf3d1bd5ab0fd2760", null ],
+    [ "OnGameEvent", "d4/d5c/_dynamic_music_player_8c.html#a9e68a12b4a321bfbcd0d3c51e67a13f1", null ],
     [ "OnLocationMatched", "d4/d5c/_dynamic_music_player_8c.html#a610a377ddcb29facbd8739f967c3981c", null ],
     [ "OnNextTrackSelected", "d4/d5c/_dynamic_music_player_8c.html#aec6a6e922c851ad4644bc7dde355dea3", null ],
     [ "OnProfileOptionChanged", "d4/d5c/_dynamic_music_player_8c.html#abc242601cc0f77ae5914af41fe0a40c9", null ],

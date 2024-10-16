@@ -6,7 +6,6 @@ var class_fatigue_mdfr =
     [ "OnActivate", "d3/d85/class_fatigue_mdfr.html#a1b847c98f31a47197791a456d871074d", null ],
     [ "OnDeactivate", "d3/d85/class_fatigue_mdfr.html#aa123400511540c534d11d2f0771d862e", null ],
     [ "OnReconnect", "d3/d85/class_fatigue_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13", null ],
-    [ "OnTick", "d3/d85/class_fatigue_mdfr.html#a77cb9670680e8fd9dc2b6457c73c7952", null ],
     [ "FATIGUE_EVENT_INTERVAL_MAX", "d3/d85/class_fatigue_mdfr.html#a95e63037adee12671b44a244e238e3cd", null ],
     [ "FATIGUE_EVENT_INTERVAL_MIN", "d3/d85/class_fatigue_mdfr.html#a615e2e205f60088a3d51592abbaa89f9", null ],
     [ "m_NextEvent", "d3/d85/class_fatigue_mdfr.html#a477b3495de9ccf308262fed4cd83d0ea", null ],

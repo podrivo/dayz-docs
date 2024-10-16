@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -122,6 +122,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab9f9e67da395433a986c4fb85ca55ecd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#ab9f9e67da395433a986c4fb85ca55ecd">SetCookingUpdateTime</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> val)</td></tr>
+<tr class="separator:ab9f9e67da395433a986c4fb85ca55ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36408dd66af36052a9320b5dd9f35037"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook</a> (notnull <a class="el" href="../../de/d7a/class_item_base.html">ItemBase</a> pItem, <a class="el" href="../../de/d7a/class_item_base.html">ItemBase</a> cookingEquip, <a class="el" href="../../d2/d04/class_param2.html">Param2</a>&lt; <a class="el" href="../../d1/d48/_cooking_8c.html#a40ebb390d457f1e0091617e091d1e39d">CookingMethodType</a>, <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt; pCookingMethod, out <a class="el" href="../../d2/d04/class_param2.html">Param2</a>&lt; <a class="el" href="../../d9/db9/classbool.html">bool</a>, <a class="el" href="../../d9/db9/classbool.html">bool</a> &gt; pStateFlags)</td></tr>
 <tr class="separator:a36408dd66af36052a9320b5dd9f35037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8f84f684bfa8ba82bbda97f8cc07090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment</a> (<a class="el" href="../../de/d7a/class_item_base.html">ItemBase</a> cooking_equipment, <a class="el" href="../../d4/dc3/classfloat.html">float</a> cooking_time_coef=1)</td></tr>
@@ -172,7 +174,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:a3518470d923b234d27ccaace78fabf66"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many units from quantity of lard are remove at each stage  <br /></td></tr>
 <tr class="separator:a3518470d923b234d27ccaace78fabf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb05c713c9dcb409f9888a6bf324e54a"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#adb05c713c9dcb409f9888a6bf324e54a">COOKING_FOOD_QUANTITY_DECREASE_AMOUNT_LARD</a> = 0</td></tr>
-<tr class="memdesc:adb05c713c9dcb409f9888a6bf324e54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many units from quantity of item are removed at each stage when support material is NOT used  <br /></td></tr>
+<tr class="memdesc:adb05c713c9dcb409f9888a6bf324e54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many units from quantity of item are removed at each FoodStage change when support material is NOT used  <br /></td></tr>
 <tr class="separator:adb05c713c9dcb409f9888a6bf324e54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d50c92093b175d8a37ddb03fe044436"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a3d50c92093b175d8a37ddb03fe044436">DEFAULT_COOKING_TEMPERATURE</a> = 150</td></tr>
 <tr class="memdesc:a3d50c92093b175d8a37ddb03fe044436"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOT USED.  <br /></td></tr>
@@ -185,14 +187,16 @@ Variables</h2></td></tr>
 <tr class="separator:a534e0e228961ed90e06bca6f73bc2b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db6d1462ef50dbf786d2b5697f6769f"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a8db6d1462ef50dbf786d2b5697f6769f">LIQUID_VAPOR_QUANTITY</a> = 2</td></tr>
 <tr class="separator:a8db6d1462ef50dbf786d2b5697f6769f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ccf370ba3fa928373eb5942965036d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a9ccf370ba3fa928373eb5942965036d5">COOKING_EQUIPMENT_POT</a> = Pot</td></tr>
+<tr class="memitem:a9ccf370ba3fa928373eb5942965036d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a9ccf370ba3fa928373eb5942965036d5">COOKING_EQUIPMENT_POT</a> = <a class="el" href="../../d6/d29/class_pot.html">Pot</a></td></tr>
 <tr class="separator:a9ccf370ba3fa928373eb5942965036d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd30e153d4a2647f6fa601bbc9817b85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#acd30e153d4a2647f6fa601bbc9817b85">COOKING_EQUIPMENT_FRYINGPAN</a> = FryingPan</td></tr>
+<tr class="memitem:acd30e153d4a2647f6fa601bbc9817b85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#acd30e153d4a2647f6fa601bbc9817b85">COOKING_EQUIPMENT_FRYINGPAN</a> = <a class="el" href="../../d9/dbb/class_frying_pan.html">FryingPan</a></td></tr>
 <tr class="separator:acd30e153d4a2647f6fa601bbc9817b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10418c42c392800b0bf55542f6ed968e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a10418c42c392800b0bf55542f6ed968e">COOKING_EQUIPMENT_CAULDRON</a> = Cauldron</td></tr>
+<tr class="memitem:a10418c42c392800b0bf55542f6ed968e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a10418c42c392800b0bf55542f6ed968e">COOKING_EQUIPMENT_CAULDRON</a> = <a class="el" href="../../df/d16/class_cauldron.html">Cauldron</a></td></tr>
 <tr class="separator:a10418c42c392800b0bf55542f6ed968e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa736211a80d359a8f53f9c7fc91fb9c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#aa736211a80d359a8f53f9c7fc91fb9c6">COOKING_INGREDIENT_LARD</a> = Lard</td></tr>
 <tr class="separator:aa736211a80d359a8f53f9c7fc91fb9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8358da92761ec9a979d13aeca4405e09"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/_cooking_8c.html#a8358da92761ec9a979d13aeca4405e09">m_UpdateTime</a> = 1</td></tr>
+<tr class="separator:a8358da92761ec9a979d13aeca4405e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a40ebb390d457f1e0091617e091d1e39d" name="a40ebb390d457f1e0091617e091d1e39d"></a>
@@ -250,7 +254,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a3d50c92093b175d8a37ddb03fe044436">DEFAULT_COOKING_TEMPERATURE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#aa6c4dd9efea95432f039049ab3fa29fe">FOOD_MAX_COOKING_TEMPERATURE</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a3d50c92093b175d8a37ddb03fe044436">DEFAULT_COOKING_TEMPERATURE</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a8358da92761ec9a979d13aeca4405e09">m_UpdateTime</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga27b8a1a20fee9d97507ea3d84371e8a5">GameConstants::TEMP_COEF_COOKING_CATCHUP</a>, and <a class="el" href="../../d9/d00/group___entity_temperature.html#ga9109617433e8cd1599a6a95650d20f94">GameConstants::TEMP_COEF_COOKING_DEFAULT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a87910e253bdecf8768b07649ee104596">UpdateCookingState()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#ab5ea50bc941da1b9c868918dbbd09b3a">UpdateCookingStateOnStick()</a>.</p>
 
@@ -313,7 +317,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>cooking time coef override</p>
 
-<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#af6c31c841f99a17d39aa58c31a414e43">GetCookingMethodWithTimeOverride()</a>, <a class="el" href="../../d6/d12/class_cargo_base.html#a863c3f1c9bd6e97991a02f917c01f01e">CargoBase::GetItem()</a>, <a class="el" href="../../d6/d12/class_cargo_base.html#a620e7644768b037d0b9787fbd1d60bc5">CargoBase::GetItemCount()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a534e0e228961ed90e06bca6f73bc2b25">LIQUID_BOILING_POINT</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a8db6d1462ef50dbf786d2b5697f6769f">LIQUID_VAPOR_QUANTITY</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a10418c42c392800b0bf55542f6ed968e">COOKING_EQUIPMENT_CAULDRON</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a9ccf370ba3fa928373eb5942965036d5">COOKING_EQUIPMENT_POT</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#af6c31c841f99a17d39aa58c31a414e43">GetCookingMethodWithTimeOverride()</a>, <a class="el" href="../../d6/d12/class_cargo_base.html#a863c3f1c9bd6e97991a02f917c01f01e">CargoBase::GetItem()</a>, <a class="el" href="../../d6/d12/class_cargo_base.html#a620e7644768b037d0b9787fbd1d60bc5">CargoBase::GetItemCount()</a>, <a class="el" href="../../d9/da9/group___liquid_types.html#ga401baf9ddb35bebacfa4eb147bc5d786">LIQUID_NONE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a8db6d1462ef50dbf786d2b5697f6769f">LIQUID_VAPOR_QUANTITY</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>, and <a class="el" href="../../d9/dbb/class_frying_pan.html#a422376c33b82971205b6533191a97657">FryingPan::RefreshAudioVisualsOnClient()</a>.</p>
 
 </div>
 </div>
@@ -544,14 +548,33 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>state flags are in order: is_done, is_burned</p>
-<p>enable cooking <a class="el" href="../../dc/d9a/class_sound_event.html">SoundEvent</a></p>
 <p>update food</p>
 <p>check for done state from baking (exclude Lard from baked items)</p>
 <p>check for burned state</p>
 
-<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3dbd208579f9df9f2de07336bd2d1a23">Edible_Base::CanBeCooked()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ac270319aab466eb0ba3a84badea35629">Edible_Base::IsFoodBaked()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ab792d395c10c8f4331da0b294647e88d">Edible_Base::IsFoodBoiled()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a30e2110c121c22d5a39117e44810d12f">Edible_Base::IsFoodBurned()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a6db7db87ee2ddd992d2b43e38434c4e1">Edible_Base::IsFoodDried()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ae8d9fb5b0812570a4848e0522fd89bd8">Edible_Base::MakeSoundsOnClient()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a783cf4f9d873acaf8e8f6af4cd2f8a61">PARAM_BURN_DAMAGE_COEF</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#a87910e253bdecf8768b07649ee104596">UpdateCookingState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3dbd208579f9df9f2de07336bd2d1a23">Edible_Base::CanBeCooked()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ac270319aab466eb0ba3a84badea35629">Edible_Base::IsFoodBaked()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ab792d395c10c8f4331da0b294647e88d">Edible_Base::IsFoodBoiled()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a30e2110c121c22d5a39117e44810d12f">Edible_Base::IsFoodBurned()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a6db7db87ee2ddd992d2b43e38434c4e1">Edible_Base::IsFoodDried()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a8db6d1462ef50dbf786d2b5697f6769f">LIQUID_VAPOR_QUANTITY</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a783cf4f9d873acaf8e8f6af4cd2f8a61">PARAM_BURN_DAMAGE_COEF</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#a87910e253bdecf8768b07649ee104596">UpdateCookingState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment()</a>.</p>
+
+</div>
+</div>
+<a id="ab9f9e67da395433a986c4fb85ca55ecd" name="ab9f9e67da395433a986c4fb85ca55ecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f9e67da395433a986c4fb85ca55ecd">&#9670;&#160;</a></span>SetCookingUpdateTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetCookingUpdateTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a8358da92761ec9a979d13aeca4405e09">m_UpdateTime</a>.</p>
 
 </div>
 </div>
@@ -581,7 +604,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../df/d7c/class_edible___base.html#aedce8eb4e1710926321bb5d2d2acbb04">Edible_Base::ChangeFoodStage()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f">Edible_Base::GetCookingTime()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3ae0f609366dd29ccbb290e3b63a8895">Edible_Base::GetFoodStageType()</a>, and <a class="el" href="../../df/d7c/class_edible___base.html#a1adf12b0e589110d59348aa0fcdd0144">Edible_Base::SetCookingTime()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d7c/class_edible___base.html#aedce8eb4e1710926321bb5d2d2acbb04">Edible_Base::ChangeFoodStage()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f">Edible_Base::GetCookingTime()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3ae0f609366dd29ccbb290e3b63a8895">Edible_Base::GetFoodStageType()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ad2ec3790ecec440096f803e1f652d739">Edible_Base::ResetCookingTime()</a>, and <a class="el" href="../../df/d7c/class_edible___base.html#a1adf12b0e589110d59348aa0fcdd0144">Edible_Base::SetCookingTime()</a>.</p>
 
 </div>
 </div>
@@ -642,12 +665,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Change food stage</p>
-<p>Remove all modifiers</p>
+<p>enable cooking <a class="el" href="../../dc/d9a/class_sound_event.html">SoundEvent</a></p>
+<p>Change food stage to new, IF DIFFERENT</p>
 <p>any foodstage without lard</p>
 <p>any foodstage without lard</p>
 
-<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a5c0ab35e9d49e619dce85a71f836f7f2">Edible_Base::CanChangeToNewStage()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#aedce8eb4e1710926321bb5d2d2acbb04">Edible_Base::ChangeFoodStage()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a3518470d923b234d27ccaace78fabf66">COOKING_FOOD_QUANTITY_DECREASE_AMOUNT_NONE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a0fd7ba25b3e2cbe3fcebb45e0d708a55">COOKING_FOOD_TIME_INC_VALUE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#aa736211a80d359a8f53f9c7fc91fb9c6">COOKING_INGREDIENT_LARD</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a1391a1f3806d469af05f706991b06fce">COOKING_LARD_DECREASE_COEF</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#ab366622d8709e99dd6b56917e44400d9">DecreaseCookedItemQuantity()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f">Edible_Base::GetCookingTime()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3ae0f609366dd29ccbb290e3b63a8895">Edible_Base::GetFoodStageType()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a18394237343548d1f34597b5acee84ba">GetItemTypeFromCargo()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a9cad7203324279deff2314374f086c79">Edible_Base::GetNextFoodStageType()</a>, and <a class="el" href="../../df/d7c/class_edible___base.html#a1adf12b0e589110d59348aa0fcdd0144">Edible_Base::SetCookingTime()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a5c0ab35e9d49e619dce85a71f836f7f2">Edible_Base::CanChangeToNewStage()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#aedce8eb4e1710926321bb5d2d2acbb04">Edible_Base::ChangeFoodStage()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a3518470d923b234d27ccaace78fabf66">COOKING_FOOD_QUANTITY_DECREASE_AMOUNT_NONE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a0fd7ba25b3e2cbe3fcebb45e0d708a55">COOKING_FOOD_TIME_INC_VALUE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#aa736211a80d359a8f53f9c7fc91fb9c6">COOKING_INGREDIENT_LARD</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a1391a1f3806d469af05f706991b06fce">COOKING_LARD_DECREASE_COEF</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#ab366622d8709e99dd6b56917e44400d9">DecreaseCookedItemQuantity()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f">Edible_Base::GetCookingTime()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3ae0f609366dd29ccbb290e3b63a8895">Edible_Base::GetFoodStageType()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a18394237343548d1f34597b5acee84ba">GetItemTypeFromCargo()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a9cad7203324279deff2314374f086c79">Edible_Base::GetNextFoodStageType()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ae8d9fb5b0812570a4848e0522fd89bd8">Edible_Base::MakeSoundsOnClient()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ad2ec3790ecec440096f803e1f652d739">Edible_Base::ResetCookingTime()</a>, and <a class="el" href="../../df/d7c/class_edible___base.html#a1adf12b0e589110d59348aa0fcdd0144">Edible_Base::SetCookingTime()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>.</p>
 
@@ -678,8 +701,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Change food stage to new, IF DIFFERENT</p>
 
-<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a5c0ab35e9d49e619dce85a71f836f7f2">Edible_Base::CanChangeToNewStage()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#aedce8eb4e1710926321bb5d2d2acbb04">Edible_Base::ChangeFoodStage()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a3518470d923b234d27ccaace78fabf66">COOKING_FOOD_QUANTITY_DECREASE_AMOUNT_NONE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#ab366622d8709e99dd6b56917e44400d9">DecreaseCookedItemQuantity()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f">Edible_Base::GetCookingTime()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3ae0f609366dd29ccbb290e3b63a8895">Edible_Base::GetFoodStageType()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a9cad7203324279deff2314374f086c79">Edible_Base::GetNextFoodStageType()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ae8d9fb5b0812570a4848e0522fd89bd8">Edible_Base::MakeSoundsOnClient()</a>, and <a class="el" href="../../df/d7c/class_edible___base.html#a1adf12b0e589110d59348aa0fcdd0144">Edible_Base::SetCookingTime()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a5c0ab35e9d49e619dce85a71f836f7f2">Edible_Base::CanChangeToNewStage()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#aedce8eb4e1710926321bb5d2d2acbb04">Edible_Base::ChangeFoodStage()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a3518470d923b234d27ccaace78fabf66">COOKING_FOOD_QUANTITY_DECREASE_AMOUNT_NONE</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#ab366622d8709e99dd6b56917e44400d9">DecreaseCookedItemQuantity()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a75057cfbd62c1a655ea775be6b72927f">Edible_Base::GetCookingTime()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a3ae0f609366dd29ccbb290e3b63a8895">Edible_Base::GetFoodStageType()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#a9cad7203324279deff2314374f086c79">Edible_Base::GetNextFoodStageType()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ae8d9fb5b0812570a4848e0522fd89bd8">Edible_Base::MakeSoundsOnClient()</a>, <a class="el" href="../../df/d7c/class_edible___base.html#ad2ec3790ecec440096f803e1f652d739">Edible_Base::ResetCookingTime()</a>, and <a class="el" href="../../df/d7c/class_edible___base.html#a1adf12b0e589110d59348aa0fcdd0144">Edible_Base::SetCookingTime()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab48f248494c901ce8c35a431b8898469">CookOnStick()</a>.</p>
 
@@ -693,12 +717,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">COOKING_EQUIPMENT_CAULDRON = Cauldron</td>
+          <td class="memname">COOKING_EQUIPMENT_CAULDRON = <a class="el" href="../../df/d16/class_cauldron.html">Cauldron</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#a4d5b6a5da88f6f2ff2d3745adec3fb9d">GetCookingMethod()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#af6c31c841f99a17d39aa58c31a414e43">GetCookingMethodWithTimeOverride()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a4d5b6a5da88f6f2ff2d3745adec3fb9d">GetCookingMethod()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#af6c31c841f99a17d39aa58c31a414e43">GetCookingMethodWithTimeOverride()</a>.</p>
 
 </div>
 </div>
@@ -709,7 +733,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">COOKING_EQUIPMENT_FRYINGPAN = FryingPan</td>
+          <td class="memname">COOKING_EQUIPMENT_FRYINGPAN = <a class="el" href="../../d9/dbb/class_frying_pan.html">FryingPan</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -725,12 +749,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">COOKING_EQUIPMENT_POT = Pot</td>
+          <td class="memname">COOKING_EQUIPMENT_POT = <a class="el" href="../../d6/d29/class_pot.html">Pot</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#a4d5b6a5da88f6f2ff2d3745adec3fb9d">GetCookingMethod()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#af6c31c841f99a17d39aa58c31a414e43">GetCookingMethodWithTimeOverride()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment()</a>, <a class="el" href="../../d1/d48/_cooking_8c.html#a4d5b6a5da88f6f2ff2d3745adec3fb9d">GetCookingMethod()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#af6c31c841f99a17d39aa58c31a414e43">GetCookingMethodWithTimeOverride()</a>.</p>
 
 </div>
 </div>
@@ -754,7 +778,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>how many units from quantity of item are removed at each stage when support material is NOT used </p>
+<p>how many units from quantity of item are removed at each FoodStage change when support material is NOT used </p>
 
 </div>
 </div>
@@ -898,8 +922,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>.</p>
-
 </div>
 </div>
 <a id="a534e0e228961ed90e06bca6f73bc2b25" name="a534e0e228961ed90e06bca6f73bc2b25"></a>
@@ -921,8 +943,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment()</a>.</p>
 
 </div>
 </div>
@@ -946,7 +966,23 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#ab8f84f684bfa8ba82bbda97f8cc07090">CookWithEquipment()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>.</p>
+
+</div>
+</div>
+<a id="a8358da92761ec9a979d13aeca4405e09" name="a8358da92761ec9a979d13aeca4405e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8358da92761ec9a979d13aeca4405e09">&#9670;&#160;</a></span>m_UpdateTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> m_UpdateTime = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d48/_cooking_8c.html#a4ccb01fec99e779c2b55d72490f41e88">AddTemperatureToItem()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#ab9f9e67da395433a986c4fb85ca55ecd">SetCookingUpdateTime()</a>.</p>
 
 </div>
 </div>
@@ -970,7 +1006,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a752e4d1dca06da601b375195454f0f62">AddDamageToItemByFire()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#abb42e065e394aa15aa960a16f0032d50">AddDamageToItemByFireEx()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#abb42e065e394aa15aa960a16f0032d50">AddDamageToItemByFireEx()</a>, and <a class="el" href="../../d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037">ProcessItemToCook()</a>.</p>
 
 </div>
 </div>

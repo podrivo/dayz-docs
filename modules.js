@@ -5,6 +5,7 @@ var modules =
     [ "Debug utilities", "d0/d62/group___debug.html", "d0/d62/group___debug" ],
     [ "Entity system", "d0/df8/group___entity_a_p_i.html", "d0/df8/group___entity_a_p_i" ],
     [ "Math library", "d5/d98/group___math.html", "d5/d98/group___math" ],
+    [ "Math2D library", "d3/d78/group___math2_d.html", "d3/d78/group___math2_d" ],
     [ "Math3D library", "d5/dc8/group___math3_d_a_p_i.html", "d5/dc8/group___math3_d_a_p_i" ],
     [ "Physics system", "d5/d74/group___physics.html", "d5/d74/group___physics" ],
     [ "Enforce Script profiling API", "d8/db9/group___profiler.html", "d8/db9/group___profiler" ],

@@ -14,6 +14,7 @@ var class_human_command_vehicle =
     [ "JumpOutVehicle", "d1/d1f/class_human_command_vehicle.html#ac0ec7ff848bcecd7bb466212cb77dacc", null ],
     [ "KeepInVehicleSpaceAfterLeave", "d1/d1f/class_human_command_vehicle.html#a2c7cd24d91df404af0f0a83bcac26729", null ],
     [ "KnockedOutVehicle", "d1/d1f/class_human_command_vehicle.html#a222acdc62f9791a7062eb78165ecfb2c", null ],
+    [ "ProcessLeaveEvents", "d1/d1f/class_human_command_vehicle.html#a5f629ba74b39ee944ff1bb4ebc869a4a", null ],
     [ "SetClutchState", "d1/d1f/class_human_command_vehicle.html#a65919c5c822f9118e101c186005a894a", null ],
     [ "SetVehicleType", "d1/d1f/class_human_command_vehicle.html#af451da4b7b4c5f680d7fddfc6bd346cc", null ],
     [ "ShouldBeKnockedOut", "d1/d1f/class_human_command_vehicle.html#add8dac7079fc18864fbd23e8ae896810", null ],

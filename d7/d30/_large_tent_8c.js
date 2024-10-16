@@ -18,7 +18,6 @@ var _large_tent_8c =
     [ "OnPlacementComplete", "d7/d30/_large_tent_8c.html#a6ff31a876fba89e2f0ae6c33af8cd551", null ],
     [ "OnRPC", "d7/d30/_large_tent_8c.html#a23f886d53b513cd9424769403fbf6866", null ],
     [ "PlayRepackingLoopSound", "d7/d30/_large_tent_8c.html#ad4e378fbfad6f80446403d5da027cb5f", null ],
-    [ "SetActions", "d7/d30/_large_tent_8c.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
     [ "StopRepackingLoopSound", "d7/d30/_large_tent_8c.html#a023c9b2db29d55a2f53e8d6f0b726e54", null ],
     [ "~LargeTent", "d7/d30/_large_tent_8c.html#a94f1d6755f96b77bd1c342d9575d993b", null ],
     [ "m_RepackingLoopSound", "d7/d30/_large_tent_8c.html#a65638459114f88626eab1bf8ba51751f", null ]

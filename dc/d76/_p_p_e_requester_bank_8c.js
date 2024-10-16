@@ -34,6 +34,7 @@ var _p_p_e_requester_bank_8c =
     [ "REQ_GLASSESTACTICAL", "dc/d76/_p_p_e_requester_bank_8c.html#a09a48c373eee0ec26f7462aa00c9f1a6", null ],
     [ "REQ_GLASSESWELDING", "dc/d76/_p_p_e_requester_bank_8c.html#ad48ad7027ea81a441661581e624f0ce0", null ],
     [ "REQ_HEALTHHITEFFECTS", "dc/d76/_p_p_e_requester_bank_8c.html#a033bb73ced167b950e1aa74282a5cb83", null ],
+    [ "REQ_HMP_GHOST", "dc/d76/_p_p_e_requester_bank_8c.html#ad418d3b442d8bc3d2bab0a1d8211c2c7", null ],
     [ "REQ_INTROCHROMABB", "dc/d76/_p_p_e_requester_bank_8c.html#a37577d83e83fc6c63693d2f6c7dca741", null ],
     [ "REQ_INVENTORYBLUR", "dc/d76/_p_p_e_requester_bank_8c.html#a4918a03b0aa7eeb5c93b76c17758dafa", null ],
     [ "REQ_MENUEFFECTS", "dc/d76/_p_p_e_requester_bank_8c.html#adfade733d06363efd9751c02d21c4692", null ],

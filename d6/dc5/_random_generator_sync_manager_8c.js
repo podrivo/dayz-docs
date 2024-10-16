@@ -5,6 +5,7 @@ var _random_generator_sync_manager_8c =
       [ "RGSJam", "d6/dc5/_random_generator_sync_manager_8c.html#afe3bb26b57097f9a390bb1e8de15d84aa0011ce3671f557316f3f1b989ba5d333", null ],
       [ "RGSGeneric", "d6/dc5/_random_generator_sync_manager_8c.html#afe3bb26b57097f9a390bb1e8de15d84aaf3f26c2893d0ce8c29311ac5f7cf1cf2", null ],
       [ "RGSAimingModel", "d6/dc5/_random_generator_sync_manager_8c.html#afe3bb26b57097f9a390bb1e8de15d84aaa5c4100a0f1a10b1ac57a4004adf62f3", null ],
+      [ "RGSAnimalCatching", "d6/dc5/_random_generator_sync_manager_8c.html#afe3bb26b57097f9a390bb1e8de15d84aa36a9f49868b13df36c8db1b82ee507e0", null ],
       [ "Count", "d6/dc5/_random_generator_sync_manager_8c.html#afe3bb26b57097f9a390bb1e8de15d84aa928f33270be19855038d0245a0fa06a1", null ]
     ] ],
     [ "GetRandom01", "d6/dc5/_random_generator_sync_manager_8c.html#a67ad0d9d7476c29d014f9e1234fcc558", null ],

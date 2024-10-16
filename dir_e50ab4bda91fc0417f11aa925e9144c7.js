@@ -1,5 +1,6 @@
 var dir_e50ab4bda91fc0417f11aa925e9144c7 =
 [
+    [ "ServerBrowserDetailsContainer.c", "dd/d22/_server_browser_details_container_8c.html", null ],
     [ "ServerBrowserEntry.c", "db/d2e/_server_browser_entry_8c.html", null ],
     [ "ServerBrowserFavoritesTabConsolePages.c", "d6/d36/_server_browser_favorites_tab_console_pages_8c.html", "d6/d36/_server_browser_favorites_tab_console_pages_8c" ],
     [ "ServerBrowserFavoritesTabPc.c", "d7/d79/_server_browser_favorites_tab_pc_8c.html", "d7/d79/_server_browser_favorites_tab_pc_8c" ],

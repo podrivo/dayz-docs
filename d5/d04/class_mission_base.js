@@ -194,5 +194,6 @@ var class_mission_base =
     [ "m_VoiceLevelsWidgets", "d5/d04/class_mission_base.html#a7870efb3a8547017f536a0db6d347157", null ],
     [ "m_VoiceLevelTimers", "d5/d04/class_mission_base.html#ab835116c618439e1cd73ca8fc4a9d37e", null ],
     [ "m_VoNActive", "d5/d04/class_mission_base.html#aff5cd12d7ef551294693cfa31fab7f31", null ],
+    [ "m_Watermark", "d5/d04/class_mission_base.html#ad45ffd1090995f9d9a7d249684664a71", null ],
     [ "SCHEDULER_PLAYERS_PER_TICK", "d5/d04/class_mission_base.html#aa5f35dac31952cc5f71e3b877b71e927", null ]
 ];

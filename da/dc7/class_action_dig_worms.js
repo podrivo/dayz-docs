@@ -9,6 +9,5 @@ var class_action_dig_worms =
     [ "IsPlayerOnGround", "da/dc7/class_action_dig_worms.html#ac3e636c65c26bc35923500513ccec8ca", null ],
     [ "IsTargetFertile", "da/dc7/class_action_dig_worms.html#a060bd605d5ca239bf3afb71d4881df28", null ],
     [ "OnFinishProgressServer", "da/dc7/class_action_dig_worms.html#a00cda41fe9dd093059da5c4b83b591bc", null ],
-    [ "SetDiggingAnimation", "da/dc7/class_action_dig_worms.html#a4804232ff62479ab1bdcda0a92df386c", null ],
-    [ "SetupAction", "da/dc7/class_action_dig_worms.html#aba51e6fb279797318af73e89a6208e71", null ]
+    [ "SetDiggignAnimation", "da/dc7/class_action_dig_worms.html#a997d11ed0043eae4a0c52908f7bb4068", null ]
 ];

@@ -47,6 +47,7 @@ var class_cfg_gameplay_handler =
     [ "GetMovementTimeToStrafeSprint", "d7/dbe/class_cfg_gameplay_handler.html#ab22149986d248a79ba7be287b3cef1ff", null ],
     [ "GetObjectSpawnersArr", "d7/dbe/class_cfg_gameplay_handler.html#a0c44ec475ee45aa4ea82e1af51fe97ac", null ],
     [ "GetObstacleTraversalStaminaModifier", "d7/dbe/class_cfg_gameplay_handler.html#a10150c84718796053981eb9d94353012", null ],
+    [ "GetPlayerRestrictedAreaFiles", "d7/dbe/class_cfg_gameplay_handler.html#a0b741ebba771ec438a15766dac375037", null ],
     [ "GetPlayerSpawnGearPresetFiles", "d7/dbe/class_cfg_gameplay_handler.html#a9e050381cdcf51424ab2e50b2b2d4658", null ],
     [ "GetShockDepletionSpeed", "d7/dbe/class_cfg_gameplay_handler.html#a453325437b84037a485fee7ff65f4dd1", null ],
     [ "GetShockRefillSpeedConscious", "d7/dbe/class_cfg_gameplay_handler.html#a87c6e5f1af673415fa431c92b2ad8d91", null ],

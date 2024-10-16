@@ -11,6 +11,7 @@ var class_p_p_e_glow =
     [ "L_21_SHOCK", "dc/d5c/class_p_p_e_glow.html#a1939eda389e2546f5793962fe2f35e7d", null ],
     [ "L_22_BLOODLOSS", "dc/d5c/class_p_p_e_glow.html#a577cfe6b4a0d09857fb2cde5a14c1afb", null ],
     [ "L_23_GLASSES", "dc/d5c/class_p_p_e_glow.html#a85333139ca6169219fe7501f59c16c3d", null ],
+    [ "L_23_HMP", "dc/d5c/class_p_p_e_glow.html#a6f7753ecb21ca5fcd58cc82dfd2c8a13", null ],
     [ "L_23_NVG", "dc/d5c/class_p_p_e_glow.html#a266fd9df00b9eba62ef3fec6171b9ce0", null ],
     [ "L_23_TOXIC_TINT", "dc/d5c/class_p_p_e_glow.html#af0520a1753ea51528f3c01a13174c4a0", null ],
     [ "L_25_BURLAP", "dc/d5c/class_p_p_e_glow.html#a34a9774e623494b69636f3df5ca6d97d", null ],

@@ -8,7 +8,6 @@ var class_action_take_hybrid_attachment_to_hands =
     [ "GetInputType", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#ab6eb153abc42e514909126c621d01280", null ],
     [ "HasProgress", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#a6201cf1bf986bd9c1f571cb58a6946ed", null ],
     [ "HasProneException", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#addc04d3967e021e6b6bd259b82de083e", null ],
-    [ "OnExecuteClient", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#a7c0913512f25d83df6aa6530b769b65e", null ],
-    [ "OnExecuteImpl", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#a56bf5126fd08661f8207de53f4a643c0", null ],
-    [ "OnExecuteServer", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#a26c6922d796bdf663f49119e83fe26f8", null ]
+    [ "OnExecute", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#a8cd166a68dd6f387d58965b4b20698a5", null ],
+    [ "OnExecuteImpl", "d4/de2/class_action_take_hybrid_attachment_to_hands.html#a56bf5126fd08661f8207de53f4a643c0", null ]
 ];

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -129,6 +129,10 @@ Functions</h2></td></tr>
 <tr class="separator:a244020fca71c760963abbcf6dc5325ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db2c00c97b9a4c0036de45e3ee8c55e"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget</a> ()</td></tr>
 <tr class="separator:a9db2c00c97b9a4c0036de45e3ee8c55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79620a6e8731a184f089fe396400f60a"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs</a> ()</td></tr>
+<tr class="separator:a79620a6e8731a184f089fe396400f60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849ae5ef959892963e0b25aa145b340f"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade</a> ()</td></tr>
+<tr class="separator:a849ae5ef959892963e0b25aa145b340f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2043ab587070f79b1bb3fb1178742ce2"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a2043ab587070f79b1bb3fb1178742ce2">ProcessEyeAcco</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> timeSlice)</td></tr>
 <tr class="separator:a2043ab587070f79b1bb3fb1178742ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f4b8beb1eddbd0d9d2d981194208b4"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa1f4b8beb1eddbd0d9d2d981194208b4">ProcessLighting</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> timeSlice)</td></tr>
@@ -244,6 +248,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a79620a6e8731a184f089fe396400f60a" name="a79620a6e8731a184f089fe396400f60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79620a6e8731a184f089fe396400f60a">&#9670;&#160;</a></span>CalculateBreadCrumbs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void CalculateBreadCrumbs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a37f4a1cbaec4dfc1d304eaff83e0d842">ACCO_MODIFIER</a>, <a class="el" href="../../dc/d3d/proto_8c.html#a117bd706d35f6f2ae3f5db263b778704">ARGB()</a>, <a class="el" href="../../dd/d13/group___colors.html#ga67e1e0c1b9c65f5fd2a68c9323808c03">COLOR_RED</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a19505a06ebc6a7a6b84c0f3ac8b7ca60">DISTANCE_CUTOFF</a>, <a class="el" href="../../da/d7d/class_debug.html#a61d4b68dfc23555f0a0507ca0fdfbef5">Debug::DrawLine()</a>, <a class="el" href="../../da/d7d/class_debug.html#ab5b4a0ce34423a7b767733b535de8fe5">Debug::DrawSphere()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga094401a2b5687f6b5845a5717984cbb0">DiagMenu::GetBool()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8a6160aecb9d735ff56fc925a22d90fc">m_EyeAccoTarget</a>, <a class="el" href="../../d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354">m_Player</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8c1994acaedf490cc04dab2f88f05812">m_TransitionalTrigger</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae44707d42c7cba4dd83bf599c49fd88b">MAX_RATIO</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a7cfd0a759e949c282ea947346adcf5c1">RATIO_CUTOFF</a>, and <a class="el" href="../../d3/d27/class_day_z_physics.html#a25404b465f0329039f6d428637b4caae">DayZPhysics::RayCastBullet()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>.</p>
+
+</div>
+</div>
 <a id="aef0526d7f1f163d6512552ba8140997f" name="aef0526d7f1f163d6512552ba8140997f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef0526d7f1f163d6512552ba8140997f">&#9670;&#160;</a></span>CalculateEyeAcco()</h2>
 
@@ -281,9 +306,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a37f4a1cbaec4dfc1d304eaff83e0d842">ACCO_MODIFIER</a>, <a class="el" href="../../dc/d3d/proto_8c.html#a117bd706d35f6f2ae3f5db263b778704">ARGB()</a>, <a class="el" href="../../dd/d13/group___colors.html#ga67e1e0c1b9c65f5fd2a68c9323808c03">COLOR_RED</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a19505a06ebc6a7a6b84c0f3ac8b7ca60">DISTANCE_CUTOFF</a>, <a class="el" href="../../da/d7d/class_debug.html#a61d4b68dfc23555f0a0507ca0fdfbef5">Debug::DrawLine()</a>, <a class="el" href="../../da/d7d/class_debug.html#ab5b4a0ce34423a7b767733b535de8fe5">Debug::DrawSphere()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga094401a2b5687f6b5845a5717984cbb0">DiagMenu::GetBool()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a5ea16fa19c11f786c7b9f675d8cf8f2e">CGame::GetPlayer()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8a6160aecb9d735ff56fc925a22d90fc">m_EyeAccoTarget</a>, <a class="el" href="../../d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354">m_Player</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8c1994acaedf490cc04dab2f88f05812">m_TransitionalTrigger</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae44707d42c7cba4dd83bf599c49fd88b">MAX_RATIO</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a7cfd0a759e949c282ea947346adcf5c1">RATIO_CUTOFF</a>, and <a class="el" href="../../d3/d27/class_day_z_physics.html#a25404b465f0329039f6d428637b4caae">DayZPhysics::RayCastBullet()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8c1994acaedf490cc04dab2f88f05812">m_TransitionalTrigger</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a2043ab587070f79b1bb3fb1178742ce2">ProcessEyeAcco()</a>.</p>
+
+</div>
+</div>
+<a id="a849ae5ef959892963e0b25aa145b340f" name="a849ae5ef959892963e0b25aa145b340f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849ae5ef959892963e0b25aa145b340f">&#9670;&#160;</a></span>CalculateLinePointFade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void CalculateLinePointFade </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a37f4a1cbaec4dfc1d304eaff83e0d842">ACCO_MODIFIER</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga1fcadbbfb17cfe0fd958ac850fbaeee7">DbgUI::Begin()</a>, <a class="el" href="../../dd/d13/group___colors.html#ga67e1e0c1b9c65f5fd2a68c9323808c03">COLOR_RED</a>, <a class="el" href="../../dd/d13/group___colors.html#gafece9f43fd3cfa396624aad4aa7bba33">COLOR_YELLOW</a>, <a class="el" href="../../d7/dfc/classvector.html#ac2655918cffa3c9d24c73f93d40d77a5">vector::DistanceSq()</a>, <a class="el" href="../../da/d7d/class_debug.html#a61d4b68dfc23555f0a0507ca0fdfbef5">Debug::DrawLine()</a>, <a class="el" href="../../da/d7d/class_debug.html#ab5b4a0ce34423a7b767733b535de8fe5">Debug::DrawSphere()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#gaa84b630b3b32613f49053352ba95c9c2">DbgUI::End()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga094401a2b5687f6b5845a5717984cbb0">DiagMenu::GetBool()</a>, <a class="el" href="../../dd/d2d/class_animation_timer.html#afa4b83a1e555fa42075a741626001d11">AnimationTimer::IsRunning()</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a4b2661764c9b6412a82f9d9be68d1278">LIGHT_BLEND_SPEED_IN</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9448d4c5291191b350d8b1e2df1ee4aa">LIGHT_BLEND_SPEED_OUT</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a6b2300203d6d351f83571504dfcd5751">m_AnimTimerLightBlend</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8a6160aecb9d735ff56fc925a22d90fc">m_EyeAccoTarget</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a468bafd89f811f7ac355a7037e3e7099">m_LightingLerp</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a493bb9d85144a04bc486b4f5e9393c45">m_LightingLerpTarget</a>, <a class="el" href="../../d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354">m_Player</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a8c1994acaedf490cc04dab2f88f05812">m_TransitionalTrigger</a>, <a class="el" href="../../dd/d2d/class_animation_timer.html#a4b04af1c0c22f556f96d9deed707d41b">AnimationTimer::Run()</a>, <a class="el" href="../../d5/d78/group___enforce.html#ga7a883b203754a93b0812b058ca80effd">String()</a>, and <a class="el" href="../../d7/d90/group___debug_u_i.html#ga6b5a45748947842552d1627695abf80b">DbgUI::Text()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>.</p>
 
 </div>
 </div>
@@ -598,9 +644,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a86452ae125fd078b6e74c3786051968c">CGame::GetWorld()</a>, <a class="el" href="../../d3/d21/class_world.html#ae84cd1678b72f38ca5b410d403ffd9ed">World::LoadUserLightingCfg()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#afb0c30ae13c99f1ef4c0db794038af7e">m_NVRequester</a>, <a class="el" href="../../d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354">m_Player</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ac85e3633427a88fa2b367b27d1c21976">UNDERGROUND_LIGHTING</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a86452ae125fd078b6e74c3786051968c">CGame::GetWorld()</a>, <a class="el" href="../../d3/d21/class_world.html#ae84cd1678b72f38ca5b410d403ffd9ed">World::LoadUserLightingCfg()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#afb0c30ae13c99f1ef4c0db794038af7e">m_NVRequester</a>, <a class="el" href="../../d6/d21/_hand___events_8c.html#a02917914db83b7759e19cb7450c92354">m_Player</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ac85e3633427a88fa2b367b27d1c21976">UNDERGROUND_LIGHTING</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a141b632094639a683d407af561b8e325">UndergroundHandlerClient()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a1ded02f00010b27d1f3be9d3fb0e40d3">ManBase::GetUndergroundHandler()</a>, <a class="el" href="../../de/d15/_underground_trigger_8c.html#ac5b241ef6260c1cd54d237aa0509c487">OnEnterClientEvent()</a>, and <a class="el" href="../../de/d15/_underground_trigger_8c.html#a30a7fdef7555ee744d3183a68049822e">OnLeaveClientEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a1ded02f00010b27d1f3be9d3fb0e40d3">ManBase::GetUndergroundHandler()</a>, <a class="el" href="../../de/d15/_underground_trigger_8c.html#ac5b241ef6260c1cd54d237aa0509c487">OnEnterClientEvent()</a>, <a class="el" href="../../de/d15/_underground_trigger_8c.html#a30a7fdef7555ee744d3183a68049822e">OnLeaveClientEvent()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a141b632094639a683d407af561b8e325">UndergroundHandlerClient()</a>.</p>
 
 </div>
 </div>
@@ -658,7 +704,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>.</p>
 
 </div>
 </div>
@@ -690,7 +736,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>.</p>
 
 </div>
 </div>
@@ -706,7 +752,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -722,7 +768,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>.</p>
 
 </div>
 </div>
@@ -770,7 +816,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa373787333dd06d48926d00a31f0a784">OnUpdateTimerIn()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa3e2b713e925a805a8b7ea9e0f0e1377">OnUpdateTimerOut()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa373787333dd06d48926d00a31f0a784">OnUpdateTimerIn()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa3e2b713e925a805a8b7ea9e0f0e1377">OnUpdateTimerOut()</a>.</p>
 
 </div>
 </div>
@@ -786,7 +832,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a1703e6256275a5e1a598b75a72ef945e">ApplyEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f">CalculateEyeAcco()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a3adea1274bd821c3b09788d4b0f72f73">ProcessSound()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a1703e6256275a5e1a598b75a72ef945e">ApplyEyeAcco()</a>, <a class="el" href="../../d2/d3a/class_underground_bunker_handler_client.html#a18c7f3ede554f5a9b9d9a4c8b7be73d3">UndergroundBunkerHandlerClient::CalculateEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f">CalculateEyeAcco()</a>, <a class="el" href="../../d2/d3a/class_underground_bunker_handler_client.html#a540f75343565caddf499910f4ca01417">UndergroundBunkerHandlerClient::ProcessSound()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a3adea1274bd821c3b09788d4b0f72f73">ProcessSound()</a>.</p>
 
 </div>
 </div>
@@ -802,7 +848,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f">CalculateEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a20e623e155b9ebdf882dcc667dcbdf35">OnTriggerInsiderUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>, <a class="el" href="../../d2/d3a/class_underground_bunker_handler_client.html#a18c7f3ede554f5a9b9d9a4c8b7be73d3">UndergroundBunkerHandlerClient::CalculateEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f">CalculateEyeAcco()</a>, <a class="el" href="../../d2/d3a/class_underground_bunker_handler_client.html#a2299c4a115676d104aa6857072ccc5a5">UndergroundBunkerHandlerClient::CalculateEyeAccoTarget()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a20e623e155b9ebdf882dcc667dcbdf35">OnTriggerInsiderUpdate()</a>.</p>
 
 </div>
 </div>
@@ -834,7 +880,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a1703e6256275a5e1a598b75a72ef945e">ApplyEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa373787333dd06d48926d00a31f0a784">OnUpdateTimerIn()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa3e2b713e925a805a8b7ea9e0f0e1377">OnUpdateTimerOut()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa1f4b8beb1eddbd0d9d2d981194208b4">ProcessLighting()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a491447bc24ceefa94c03819116642b8e">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d3a/class_underground_bunker_handler_client.html#a1cb1967d996557ae872f42a32793349c">UndergroundBunkerHandlerClient::ApplyEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a1703e6256275a5e1a598b75a72ef945e">ApplyEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#ae71056751298f15c8e36314b75e9ae0e">OnUndergroundPresenceUpdate()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa373787333dd06d48926d00a31f0a784">OnUpdateTimerIn()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa3e2b713e925a805a8b7ea9e0f0e1377">OnUpdateTimerOut()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aa1f4b8beb1eddbd0d9d2d981194208b4">ProcessLighting()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a491447bc24ceefa94c03819116642b8e">Tick()</a>.</p>
 
 </div>
 </div>
@@ -849,6 +895,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>.</p>
 
 </div>
 </div>
@@ -894,7 +942,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a784d10ef37e440db38a8bcac17146de6">GetRequester()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a59ac48e9dddb23c5081399940c807576">SymptomBase::OnGetDeactivatedClient()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a01f1070c46e4cc24d25a0ea0869bc972">SymptomBase::OnInit()</a>, and <a class="el" href="../../d9/db3/class_symptom_base.html#a30da2e77547fc58f3ce425954682f3c1">SymptomBase::OnUpdateClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a784d10ef37e440db38a8bcac17146de6">GetRequester()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a45ccd5d78afb6e7cb2ba715fbd9f368b">SymptomBase::OnGetActivatedClient()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a59ac48e9dddb23c5081399940c807576">SymptomBase::OnGetDeactivatedClient()</a>, <a class="el" href="../../d9/db3/class_symptom_base.html#a01f1070c46e4cc24d25a0ea0869bc972">SymptomBase::OnInit()</a>, and <a class="el" href="../../d9/db3/class_symptom_base.html#a30da2e77547fc58f3ce425954682f3c1">SymptomBase::OnUpdateClient()</a>.</p>
 
 </div>
 </div>
@@ -910,7 +958,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f">CalculateEyeAcco()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a20e623e155b9ebdf882dcc667dcbdf35">OnTriggerInsiderUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f">CalculateEyeAcco()</a>, <a class="el" href="../../d2/d3a/class_underground_bunker_handler_client.html#a2299c4a115676d104aa6857072ccc5a5">UndergroundBunkerHandlerClient::CalculateEyeAccoTarget()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>, <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f">CalculateLinePointFade()</a>, and <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a20e623e155b9ebdf882dcc667dcbdf35">OnTriggerInsiderUpdate()</a>.</p>
 
 </div>
 </div>
@@ -926,7 +974,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>.</p>
 
 </div>
 </div>
@@ -942,7 +990,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e">CalculateEyeAccoTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a">CalculateBreadCrumbs()</a>.</p>
 
 </div>
 </div>

@@ -4,6 +4,8 @@ var class_human_command_weapons =
     [ "~HumanCommandWeapons", "da/dd0/class_human_command_weapons.html#aa373d084f08673d499172825fbb6702e", null ],
     [ "DebugIsEvent", "da/dd0/class_human_command_weapons.html#a7de08dd588d199dc8478c02fad403589", null ],
     [ "DebugResetEvents", "da/dd0/class_human_command_weapons.html#a222e990a82267479d36564e772e7ca3e", null ],
+    [ "GetAimingHandsOffsetLR", "da/dd0/class_human_command_weapons.html#a79b8c8a3d924524f441094ecf1b4c9b3", null ],
+    [ "GetAimingHandsOffsetUD", "da/dd0/class_human_command_weapons.html#a9fffe435b059ccfb9abfd77ea877ff47", null ],
     [ "GetBaseAimingAngleLR", "da/dd0/class_human_command_weapons.html#aa3d07983643d95f8ca32f5bd47627d4d", null ],
     [ "GetBaseAimingAngleUD", "da/dd0/class_human_command_weapons.html#a96e80198781e2bd6e30b1bbc3bc185bd", null ],
     [ "GetRunningAction", "da/dd0/class_human_command_weapons.html#a17128bfc2e8aa6ede6bade55bd4f1b98", null ],

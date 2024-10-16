@@ -54,6 +54,8 @@ var class_player_constants =
     [ "CHANCE_TO_BLEED_SLIDING_LADDER_PER_SEC", "d3/def/class_player_constants.html#a9966fa1fe3bd0c9695f3dfa0e9667661", null ],
     [ "CHECK_EVERY_N_STEP", "d3/def/class_player_constants.html#a8a106d3618c1c09f8a14d6b152f36412", null ],
     [ "CONSCIOUS_THRESHOLD", "d3/def/class_player_constants.html#a5263a4da8813d4f940c18a8ee93d758c", null ],
+    [ "CONSUMPTION_DAMAGE_PER_BITE", "d3/def/class_player_constants.html#a04570f3be1160fd015798cbccd6a79f9", null ],
+    [ "CONSUMPTION_DAMAGE_TEMP_THRESHOLD", "d3/def/class_player_constants.html#a046ea964545fdc15a7c6398f9511c21d", null ],
     [ "CONSUMPTION_MULTIPLIER_BASE", "d3/def/class_player_constants.html#ad68a729a91b24d3ce70d541923b8e7d5", null ],
     [ "CORPSE_STATE_DECAYED", "d3/def/class_player_constants.html#a991a35c819a0dad22b085d29579ffbbc", null ],
     [ "CORPSE_STATE_FRESH", "d3/def/class_player_constants.html#a380b065f47ca634c43f637e017dbd122", null ],

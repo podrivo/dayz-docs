@@ -7,7 +7,6 @@ var class_immunity_boost =
     [ "OnActivate", "d4/d6f/class_immunity_boost.html#a1b847c98f31a47197791a456d871074d", null ],
     [ "OnDeactivate", "d4/d6f/class_immunity_boost.html#aa123400511540c534d11d2f0771d862e", null ],
     [ "OnReconnect", "d4/d6f/class_immunity_boost.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13", null ],
-    [ "OnTick", "d4/d6f/class_immunity_boost.html#a77cb9670680e8fd9dc2b6457c73c7952", null ],
     [ "m_LastWaterLevel", "d4/d6f/class_immunity_boost.html#af45298b903c7b41c191b3127f977f9ba", null ],
     [ "m_MovementState", "d4/d6f/class_immunity_boost.html#aa20c94cf3a51fa5af0ca371fd70a7cd9", null ],
     [ "m_RegenTime", "d4/d6f/class_immunity_boost.html#a2a610ee598ca5a94e37b1f9eb310aa62", null ]

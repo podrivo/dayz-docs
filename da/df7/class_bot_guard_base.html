@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,6 +124,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a70584deb695f597bda126cd674da669d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fca658212dbc9bf39c17682a2e8a630"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/class_bot_guard_base.html#a2fca658212dbc9bf39c17682a2e8a630">GuardCondition</a> (<a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a> e)</td></tr>
 <tr class="separator:a2fca658212dbc9bf39c17682a2e8a630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae45e5903294fba858e175da49d7817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/class_bot_guard_base.html#adae45e5903294fba858e175da49d7817">BotGuardDebugEventMatches</a> (<a class="el" href="../../d9/d2c/class_bot_event_start_debug.html">BotEventStartDebug</a> e=NULL)</td></tr>
+<tr class="separator:adae45e5903294fba858e175da49d7817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fca658212dbc9bf39c17682a2e8a630"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/class_bot_guard_base.html#a2fca658212dbc9bf39c17682a2e8a630">GuardCondition</a> (<a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a> e)</td></tr>
+<tr class="separator:a2fca658212dbc9bf39c17682a2e8a630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -131,6 +135,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a96ce0a1816c5d8e7707853ac7c337164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a638408b09abc18ee318f32f6086997"><td class="memItemLeft" align="right" valign="top">ref <a class="el" href="../../da/df7/class_bot_guard_base.html">BotGuardBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/class_bot_guard_base.html#a8a638408b09abc18ee318f32f6086997">m_arg1</a></td></tr>
 <tr class="separator:a8a638408b09abc18ee318f32f6086997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6949d7f9d265ac93991c23f65b45ccfa"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d9/d2c/class_bot_event_start_debug.html">BotEventStartDebug</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/class_bot_guard_base.html#a6949d7f9d265ac93991c23f65b45ccfa">m_Event</a></td></tr>
+<tr class="separator:a6949d7f9d265ac93991c23f65b45ccfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>represents guard on a transition from state to state </p>
@@ -160,6 +166,32 @@ Private Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adae45e5903294fba858e175da49d7817" name="adae45e5903294fba858e175da49d7817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae45e5903294fba858e175da49d7817">&#9670;&#160;</a></span>BotGuardDebugEventMatches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BotGuardDebugEventMatches </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d2c/class_bot_event_start_debug.html">BotEventStartDebug</a>&#160;</td>
+          <td class="paramname"><em>e</em> = <code>NULL</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -234,7 +266,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a10a793b789637787bfc04dd09f1779ec" name="a10a793b789637787bfc04dd09f1779ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10a793b789637787bfc04dd09f1779ec">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a793b789637787bfc04dd09f1779ec">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +292,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2fca658212dbc9bf39c17682a2e8a630" name="a2fca658212dbc9bf39c17682a2e8a630"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +320,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2fca658212dbc9bf39c17682a2e8a630" name="a2fca658212dbc9bf39c17682a2e8a630"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +348,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2fca658212dbc9bf39c17682a2e8a630" name="a2fca658212dbc9bf39c17682a2e8a630"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,6 +372,34 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d9/d1c/_bot_8c.html#a2cc868d5ca0b15d073aac0daefb7dfeb">botDebugPrint()</a>.</p>
+
+</div>
+</div>
+<a id="a2fca658212dbc9bf39c17682a2e8a630" name="a2fca658212dbc9bf39c17682a2e8a630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fca658212dbc9bf39c17682a2e8a630">&#9670;&#160;</a></span>GuardCondition() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> GuardCondition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../d9/d2c/class_bot_event_start_debug.html#ae893e7ebf49693649a136e60e3cc4393">BotEventStartDebug::m_Id</a>.</p>
 
 </div>
 </div>
@@ -377,6 +437,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">ref <a class="el" href="../../da/df7/class_bot_guard_base.html">BotGuardBase</a> m_arg1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6949d7f9d265ac93991c23f65b45ccfa" name="a6949d7f9d265ac93991c23f65b45ccfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6949d7f9d265ac93991c23f65b45ccfa">&#9670;&#160;</a></span>m_Event</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected ref <a class="el" href="../../d9/d2c/class_bot_event_start_debug.html">BotEventStartDebug</a> m_Event</td>
         </tr>
       </table>
   </td>

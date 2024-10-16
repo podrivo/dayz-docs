@@ -49,6 +49,7 @@ var _action_manager_base_8c =
     [ "m_ActionWantEndRequest", "d5/db9/_action_manager_base_8c.html#a78708291ec338f5b05fa1c6e330018ff", null ],
     [ "m_CurrentActionData", "d5/db9/_action_manager_base_8c.html#aed62a4ad1d38acf13a562eb6c614a381", null ],
     [ "m_Interrupted", "d5/db9/_action_manager_base_8c.html#a000a23b17f99935883093f56369e9388", null ],
+    [ "m_IsRestrictedLookLimits", "d5/db9/_action_manager_base_8c.html#a10befccaa8a00c26f725f04d739348cf", null ],
     [ "m_PendingActionAcknowledgmentID", "d5/db9/_action_manager_base_8c.html#af4e438e9d299f1125aad9a077e31451d", null ],
     [ "m_Player", "d5/db9/_action_manager_base_8c.html#ada2ae7fece52d3ab27a3aa7ea67c369e", null ],
     [ "m_PrimaryAction", "d5/db9/_action_manager_base_8c.html#ae243145472de2f0d07635f2f95681f74", null ],

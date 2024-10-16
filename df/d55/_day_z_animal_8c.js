@@ -13,6 +13,7 @@ var _day_z_animal_8c =
     [ "BindVariableInt", "df/d55/_day_z_animal_8c.html#ad488bbb48881097a21a0571055359d68", null ],
     [ "CanBeSkinned", "df/d55/_day_z_animal_8c.html#ac41954dab14abd446b1c1ad9b3beab0e", null ],
     [ "DayZCreatureAnimInterface", "df/d55/_day_z_animal_8c.html#a53715fd8234227ecebc2f30bbc5b71f1", null ],
+    [ "DisableVicinityIcon", "df/d55/_day_z_animal_8c.html#a0089a36ce58db8239e22f8acca76314a", null ],
     [ "GetAnimInterface", "df/d55/_day_z_animal_8c.html#a0702ddf6a618773e0e13d041c510aece", null ],
     [ "GetBoneIndexByName", "df/d55/_day_z_animal_8c.html#a97fcb2d37001b1e9aee457e3514f423f", null ],
     [ "GetCurrentAnimationInstanceUUID", "df/d55/_day_z_animal_8c.html#a7ba32734393c2c4e52dbf93a1c456c24", null ],

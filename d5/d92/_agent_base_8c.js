@@ -1,4 +1,4 @@
 var _agent_base_8c =
 [
-    [ "MessageReceiverBase", "d5/d9b/class_message_receiver_base.html", "d5/d9b/class_message_receiver_base" ]
+    [ "AgentBase", "d1/dd5/class_agent_base.html", "d1/dd5/class_agent_base" ]
 ];

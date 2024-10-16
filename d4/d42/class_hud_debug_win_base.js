@@ -7,7 +7,7 @@ var class_hud_debug_win_base =
     [ "~HudDebugWinCharStomach", "d4/d42/class_hud_debug_win_base.html#a7267876a4505a6b6ebca3707ea3b5de8", null ],
     [ "~HudDebugWinTemperature", "d4/d42/class_hud_debug_win_base.html#a30bce542d10c5e37374bc223905c3e63", null ],
     [ "~HudDebugWinVersion", "d4/d42/class_hud_debug_win_base.html#a56f2f6880ac62c46951dd6ed3d05818d", null ],
-    [ "AddValue", "d4/d42/class_hud_debug_win_base.html#ae0c08b467585caeb950c4ca48b6002b6", null ],
+    [ "AddValue", "d4/d42/class_hud_debug_win_base.html#a66385ac0ffa482651c73c15c76ea5042", null ],
     [ "AddValue", "d4/d42/class_hud_debug_win_base.html#a63d16a24d0bda68857ac23b5596aa14d", null ],
     [ "AddValue", "d4/d42/class_hud_debug_win_base.html#a678cca4a7e5b9fd5ae3243f16aa7ac13", null ],
     [ "ClearValues", "d4/d42/class_hud_debug_win_base.html#ac2ce36cf3a02498b26f7da9f266d7de7", null ],

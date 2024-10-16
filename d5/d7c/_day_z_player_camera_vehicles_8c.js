@@ -29,5 +29,6 @@ var _day_z_player_camera_vehicles_8c =
     [ "m_fUpDownAngleAdd", "d5/d7c/_day_z_player_camera_vehicles_8c.html#a58960fc790b83be163478ca6411e95be", null ],
     [ "m_LagOffsetOrientation", "d5/d7c/_day_z_player_camera_vehicles_8c.html#a5e4b34e7688bea3621ab9e2bf050c83a", null ],
     [ "m_LagOffsetPosition", "d5/d7c/_day_z_player_camera_vehicles_8c.html#aa718470c447e740b583983eb0515a8ac", null ],
-    [ "m_Transport", "d5/d7c/_day_z_player_camera_vehicles_8c.html#aa413452c118357e4d04733037afa33bc", null ]
+    [ "m_Transport", "d5/d7c/_day_z_player_camera_vehicles_8c.html#aa413452c118357e4d04733037afa33bc", null ],
+    [ "UP_ANGLE_CAP", "d5/d7c/_day_z_player_camera_vehicles_8c.html#a46281c93db9a92b6ce375b7bad5c9719", null ]
 ];

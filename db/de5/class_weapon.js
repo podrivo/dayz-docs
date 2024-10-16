@@ -1,5 +1,6 @@
 var class_weapon =
 [
+    [ "AddJunctureToAttachedMagazine", "db/de5/class_weapon.html#aa1be7bd1e2f81d01ca5cd09f49197115", null ],
     [ "AfterStoreLoad", "db/de5/class_weapon.html#a94e94836ed80bf81df4751938ab00cbc", null ],
     [ "AssembleGun", "db/de5/class_weapon.html#ad305814599e7be86b271d3ce66bed3cd", null ],
     [ "CanBeUsedForSuicide", "db/de5/class_weapon.html#aade72c81a3b4cec7ff3ed52aeceea183", null ],
@@ -11,8 +12,10 @@ var class_weapon =
     [ "CanProcessWeaponEvents", "db/de5/class_weapon.html#adaf6c2b559234908ab57c43c825ce3cb", null ],
     [ "CanReleaseAttachment", "db/de5/class_weapon.html#a76f479c91419f4a76f665cc2a0648014", null ],
     [ "CanRemoveFromHands", "db/de5/class_weapon.html#aed925ee192783eac2b5b80458d1e6f3c", null ],
+    [ "ClearJunctureToAttachedMagazine", "db/de5/class_weapon.html#a3d2ad54abf980014d1e46020f1e414d3", null ],
     [ "CopyWeaponStateFrom", "db/de5/class_weapon.html#ab0d43fcc22c88449864b7724bf98446b", null ],
     [ "CreateWeaponWithAmmo", "db/de5/class_weapon.html#a2aa20a7fb466c129548d5af3bbfe52cb", null ],
+    [ "DelayedValidateAndRepair", "db/de5/class_weapon.html#a6374b62caed3310f4f584ee4779c5587", null ],
     [ "EEFired", "db/de5/class_weapon.html#a51352e656b781cedb86efd35fc326d94", null ],
     [ "EEInit", "db/de5/class_weapon.html#a58793c1561abb560da4377da77ad6dea", null ],
     [ "EEItemAttached", "db/de5/class_weapon.html#ac063b6124c64033d904f29247d8eb45a", null ],
@@ -109,6 +112,7 @@ var class_weapon =
     [ "m_ChanceToJam", "db/de5/class_weapon.html#a25313b2a0b6ac4dc8ea240c268f69bdf", null ],
     [ "m_ChanceToJamSync", "db/de5/class_weapon.html#a4bb560f55604f8a9a3b5598ddf5962a8", null ],
     [ "m_Charged", "db/de5/class_weapon.html#a327cd302b32869c407a9ea53dc0ae696", null ],
+    [ "m_DelayedValidationTimer", "db/de5/class_weapon.html#a7eb9a06001041e4d467ea95689d7b3fe", null ],
     [ "m_DmgPerShot", "db/de5/class_weapon.html#accec58df396d3732169c82c8a7c26b89", null ],
     [ "m_DOFProperties", "db/de5/class_weapon.html#a935c8bf91c4a4874804751a7d1ae4147", null ],
     [ "m_fsm", "db/de5/class_weapon.html#a68b26e5d6a87bff2e104bfc0accc869d", null ],
@@ -125,5 +129,6 @@ var class_weapon =
     [ "m_WeaponLiftCheckVerticalOffset", "db/de5/class_weapon.html#afa10babf2063915a35df8a5dde2a5d4a", null ],
     [ "m_WeaponOpen", "db/de5/class_weapon.html#a2da4b98c01fc372820908d9bbdaf8f95", null ],
     [ "SAMF_DEFAULT", "db/de5/class_weapon.html#a46a0e63a5e50856c2feb72d5bb6dc00b", null ],
-    [ "SAMF_RNG", "db/de5/class_weapon.html#ac1015be159647292bd0c7780fb2243d9", null ]
+    [ "SAMF_RNG", "db/de5/class_weapon.html#ac1015be159647292bd0c7780fb2243d9", null ],
+    [ "VALIDATE_DELAY", "db/de5/class_weapon.html#a048401b60778259010b8d40d61d30c24", null ]
 ];

@@ -19,6 +19,7 @@ var class_u_i_manager =
     [ "HideMenu", "d7/d75/class_u_i_manager.html#adce5f7e5c5b6d011a2da2fbea553b98a", null ],
     [ "HideScriptedMenu", "d7/d75/class_u_i_manager.html#a83b88d3ec40da841561052da89292535", null ],
     [ "IsCursorVisible", "d7/d75/class_u_i_manager.html#a40ef8623884a4f66217b142c1caef0d6", null ],
+    [ "IsDialogHiding", "d7/d75/class_u_i_manager.html#a968afdcf144bbd2907f22b41311d6e64", null ],
     [ "IsDialogQueued", "d7/d75/class_u_i_manager.html#a9411966b601c9fc2d65bdf1707389264", null ],
     [ "IsDialogVisible", "d7/d75/class_u_i_manager.html#a5fe397332e9cad321cab8b101edb754c", null ],
     [ "IsMenuOpen", "d7/d75/class_u_i_manager.html#af61e0bb642907dc17a7f6201cd22b9c6", null ],

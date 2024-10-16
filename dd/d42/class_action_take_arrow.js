@@ -6,6 +6,5 @@ var class_action_take_arrow =
     [ "CreateConditionComponents", "dd/d42/class_action_take_arrow.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "GetDisplayInteractObject", "dd/d42/class_action_take_arrow.html#a85d927fda0bae22c3ea20e4af773c8af", null ],
     [ "InventoryReservation", "dd/d42/class_action_take_arrow.html#a74736099606898676913372fbb35fc77", null ],
-    [ "OnExecuteClient", "dd/d42/class_action_take_arrow.html#a7c0913512f25d83df6aa6530b769b65e", null ],
-    [ "OnExecuteServer", "dd/d42/class_action_take_arrow.html#a26c6922d796bdf663f49119e83fe26f8", null ]
+    [ "OnExecute", "dd/d42/class_action_take_arrow.html#a8cd166a68dd6f387d58965b4b20698a5", null ]
 ];

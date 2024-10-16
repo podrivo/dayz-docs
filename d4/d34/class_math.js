@@ -45,6 +45,7 @@ var class_math =
     [ "SignInt", "d5/d98/group___math.html#ga924189095056334aef201069dba04f98", null ],
     [ "Sin", "d5/d98/group___math.html#gaccef64ebbbc15b51149fa890d24d730d", null ],
     [ "SmoothCD", "d5/d98/group___math.html#ga851531b8decb643d4f38392b14f3d2b4", null ],
+    [ "SmoothCDPI2PI", "d5/d98/group___math.html#ga109c3e34032f00e79975975f6f208b36", null ],
     [ "SqrFloat", "d5/d98/group___math.html#ga8fb21020a868fa48ab94ae271ea25a11", null ],
     [ "SqrInt", "d5/d98/group___math.html#gaa03c24d7719987cad19f8bd9287b1dbf", null ],
     [ "Sqrt", "d5/d98/group___math.html#gaf6caba2d6f3900fd01a0ae6d3df14ccd", null ],

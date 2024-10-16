@@ -54,7 +54,7 @@ var gameplay_8c =
     [ "ProgressEventParams", "d8/d18/gameplay_8c.html#ada2e9bc9c1177f88af2bae7e549d02b8", null ],
     [ "RespawnEventParams", "d8/d18/gameplay_8c.html#a0c073c5a57fa3dc05725df8bcdf10aa8", null ],
     [ "ScriptLogEventParams", "d8/d18/gameplay_8c.html#a3c2687b3826121519e592b1a84314375", null ],
-    [ "ServerFpsStatsUpdatedEventParams", "d8/d18/gameplay_8c.html#ac3daa9491fffef2e74090be25c5c3933", null ],
+    [ "ServerFpsStatsUpdatedEventParams", "d8/d18/gameplay_8c.html#a53e35151415aee4f6078e25445368682", null ],
     [ "SetFreeCameraEventParams", "d8/d18/gameplay_8c.html#af12e04c22088ac0f7591f699a5b6a429", null ],
     [ "SQFConsoleEventParams", "d8/d18/gameplay_8c.html#a1189f36c21a3bab9acaab25a7e9a3ca2", null ],
     [ "VONStartSpeakingEventParams", "d8/d18/gameplay_8c.html#a0f73de79a184f51240837f68795545a7", null ],
@@ -124,10 +124,15 @@ var gameplay_8c =
       [ "AT_OPTIONS_CONTROLLER_RS_YAXIS", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131af37f7c4429f671f6db084e25e68f18e1", null ],
       [ "AT_OPTIONS_CONTROLLER_RS_XAXIS_AIM_MOD", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131ae1f46af5a0fad44b69793af5a3a501eb", null ],
       [ "AT_OPTIONS_CONTROLLER_RS_YAXIS_AIM_MOD", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131a51a04e0f8ade9e1de226913cccbde2fc", null ],
-      [ "AT_OPTIONS_VON_INPUT_MODE", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131ae8facf7f2cdca4e8b3e7ce678b54a798", null ]
+      [ "AT_OPTIONS_VON_INPUT_MODE", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131ae8facf7f2cdca4e8b3e7ce678b54a798", null ],
+      [ "AT_OPTIONS_CONTROLLER_LS_DEADZONE", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131aa58fe7a9a3dbb4a23927caa17dd21fe3", null ],
+      [ "AT_OPTIONS_CONTROLLER_RS_DEADZONE", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131a41054c375f04b4023a024928ad019c93", null ],
+      [ "AT_OPTIONS_VISIBILITY_COMBO", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131a3df9e99afaac452e35a603aca7d6dd52", null ],
+      [ "AT_OPTIONS_OBJECT_VISIBILITY_COMBO", "d8/d18/gameplay_8c.html#af194843dc9b5d57ac6353cfb09cee131a247b1c1b7139bbb55a4058b66088f317", null ]
     ] ],
     [ "OptionIDsScript", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ad", [
       [ "OPTION_HUD", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adaf3784cc9b98ba8bbab7c2aa8d3a925a7", null ],
+      [ "OPTION_HUD_VEHICLE", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada0e22050c22a9663f7ecb520208241404", null ],
       [ "OPTION_CROSSHAIR", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adae7d6214c6549e06b387c7ed96185c7a4", null ],
       [ "OPTION_GAME_MESSAGES", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624ada844d3e06c3d58512ac6f3ea97e169d3f", null ],
       [ "OPTION_ADMIN_MESSAGES", "d8/d18/gameplay_8c.html#ae543a056d7b476a85d600091da2624adacda8892acb82970b46fd8d7c523a79c6", null ],

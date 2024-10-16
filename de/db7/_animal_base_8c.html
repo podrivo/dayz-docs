@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -116,6 +116,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d62/class_animal___cervus_elaphus.html">Animal_CervusElaphus</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc4/class_animal___rangifer_tarandus.html">Animal_RangiferTarandus</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/class_animal___gallus_gallus_domesticus.html">Animal_GallusGallusDomesticus</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9d/class_animal___gallus_gallus_domesticus_f.html">Animal_GallusGallusDomesticusF</a></td></tr>
@@ -131,6 +133,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6024f2c269d4bf1ac72ffb6f312fa308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab392f138aa79539fb1ea8d36f06e3b05"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/_animal_base_8c.html#ab392f138aa79539fb1ea8d36f06e3b05">IsRefresherSignalingViable</a> ()</td></tr>
 <tr class="separator:ab392f138aa79539fb1ea8d36f06e3b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eac97f778a0b671281b1de25e1ba99b"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/_animal_base_8c.html#a1eac97f778a0b671281b1de25e1ba99b">IsSelfAdjustingTemperature</a> ()</td></tr>
+<tr class="separator:a1eac97f778a0b671281b1de25e1ba99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee57bd2a707fcaaa09123dc251b8588"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/_animal_base_8c.html#a0ee57bd2a707fcaaa09123dc251b8588">DeathUpdate</a> ()</td></tr>
+<tr class="separator:a0ee57bd2a707fcaaa09123dc251b8588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9963015efd45ba5607f7ac42e039f4d7"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/_animal_base_8c.html#a9963015efd45ba5607f7ac42e039f4d7">CaptureSound</a> ()</td></tr>
 <tr class="separator:a9963015efd45ba5607f7ac42e039f4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7610f1938e082304c0a182cec4882c85"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/_animal_base_8c.html#a7610f1938e082304c0a182cec4882c85">ReleaseSound</a> ()</td></tr>
@@ -217,6 +223,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ee57bd2a707fcaaa09123dc251b8588" name="a0ee57bd2a707fcaaa09123dc251b8588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee57bd2a707fcaaa09123dc251b8588">&#9670;&#160;</a></span>DeathUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void DeathUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d3/d58/dayzplayer_8c.html#a63b07faaf1e23e09aa93602a6b2c0a67">m_DefaultHitComponent</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a453dfc47b8cac672c5fa19d41e093812">m_DefaultHitPositionComponent</a>, <a class="el" href="../../d3/d58/dayzplayer_8c.html#a4cf6d464f2dcc2ba86c93778d297a683">m_HitComponentsForAI</a>, <a class="el" href="../../dd/d6d/class_day_z_a_i_hit_component_helpers.html#a11a36a7e77cb9e7a94d71c76fff7de2d">DayZAIHitComponentHelpers::RegisterHitComponent()</a>, and <a class="el" href="../../d4/d8f/class_animal_base.html#a50b569e83e675a0332a655b16d4fe2cd">AnimalBase::RegisterHitComponentsForAI()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d96/class_entity.html#ab24f25878c2543944c81f6a91d8abd64">Entity::EEKilled()</a>.</p>
+
+</div>
+</div>
 <a id="a58793c1561abb560da4377da77ad6dea" name="a58793c1561abb560da4377da77ad6dea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58793c1561abb560da4377da77ad6dea">&#9670;&#160;</a></span>EEInit()</h2>
 
@@ -232,7 +259,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>, and <a class="el" href="../../de/db7/_animal_base_8c.html#af6cb938f8ed93b64d4be68ebd679c130">m_EyeLight</a>.</p>
+<p class="reference">References <a class="el" href="../../de/db7/_animal_base_8c.html#af6cb938f8ed93b64d4be68ebd679c130">m_EyeLight</a>.</p>
 
 </div>
 </div>
@@ -343,6 +370,25 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1eac97f778a0b671281b1de25e1ba99b" name="a1eac97f778a0b671281b1de25e1ba99b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eac97f778a0b671281b1de25e1ba99b">&#9670;&#160;</a></span>IsSelfAdjustingTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> IsSelfAdjustingTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d96/class_entity.html#aee3c3cff53ad7229a6cf12c668901e18">Entity::ProcessVariables()</a>.</p>
 
 </div>
 </div>

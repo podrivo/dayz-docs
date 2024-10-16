@@ -13,6 +13,7 @@ var class_particle =
     [ "GetMaxLifetime", "de/d85/class_particle.html#ad7adbda46f5f9d2f3012be94b31eee0a", null ],
     [ "GetParameter", "de/d85/class_particle.html#a414daa38b35061a7952ae9cda75bdc89", null ],
     [ "GetParameterEx", "de/d85/class_particle.html#aa0f2190bf11459d03ce0c9538096eaed", null ],
+    [ "GetParameterOriginal", "de/d85/class_particle.html#ab12eef905564c8703ea2d0c8cf588415", null ],
     [ "GetParticleCount", "de/d85/class_particle.html#aea47ea62db45f22cff05c5d1e08ade78", null ],
     [ "GetParticleID", "de/d85/class_particle.html#aca40ae53ba7e29487115f8d8c15da578", null ],
     [ "GetParticleParent", "de/d85/class_particle.html#a747ff044e1d6258287a9d523d0fa9f6d", null ],

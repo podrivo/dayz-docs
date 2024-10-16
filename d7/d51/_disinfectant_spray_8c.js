@@ -1,4 +1,4 @@
 var _disinfectant_spray_8c =
 [
-    [ "Edible_Base", "df/d7c/class_edible___base.html", "df/d7c/class_edible___base" ]
+    [ "DisinfectantSpray", "d3/ddc/class_disinfectant_spray.html", "d3/ddc/class_disinfectant_spray" ]
 ];

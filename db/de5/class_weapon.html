@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -218,6 +218,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac1015be159647292bd0c7780fb2243d9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ac1015be159647292bd0c7780fb2243d9">SAMF_RNG</a> = WeaponWithAmmoFlags.CHAMBER_RNG | WeaponWithAmmoFlags.QUANTITY_RNG</td></tr>
 <tr class="memdesc:ac1015be159647292bd0c7780fb2243d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random bullet quantity + maybe chambered round.  <br /></td></tr>
 <tr class="separator:ac1015be159647292bd0c7780fb2243d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048401b60778259010b8d40d61d30c24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a048401b60778259010b8d40d61d30c24">VALIDATE_DELAY</a> = 5.0</td></tr>
+<tr class="memdesc:a048401b60778259010b8d40d61d30c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validation on client side delay to have time properly synchronize attachments needed for check.  <br /></td></tr>
+<tr class="separator:a048401b60778259010b8d40d61d30c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecf992c4d17ae2c424a33356e96986a2"><td class="memItemLeft" align="right" valign="top">protected const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#aecf992c4d17ae2c424a33356e96986a2">DEFAULT_DAMAGE_ON_SHOT</a> = 0.05</td></tr>
 <tr class="separator:aecf992c4d17ae2c424a33356e96986a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3a99f79f84d22a71790543698d04a46"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; ref <a class="el" href="../../d9/d74/class_ability_record.html">AbilityRecord</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#af3a99f79f84d22a71790543698d04a46">m_abilities</a> = new <a class="el" href="../../d2/d41/classarray.html">array</a>&lt;ref <a class="el" href="../../d9/d74/class_ability_record.html">AbilityRecord</a>&gt;</td></tr>
@@ -275,6 +278,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a01d77e672b07e898d7475f6600e2ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acabb249db0dd310d20e8624e7cb3be8c"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3a">PhxInteractionLayers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#acabb249db0dd310d20e8624e7cb3be8c">hit_mask</a> = <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa762041e95dc7b081aaf6b0019dca8586">PhxInteractionLayers.CHARACTER</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1ae565a2eb1b9ddd41f0cefc3f33a087">PhxInteractionLayers.BUILDING</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaf5a83949bd019169467f675ef8c60ef9">PhxInteractionLayers.DOOR</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aada30f0dfe7c99ccb74e83ba77c5c118d">PhxInteractionLayers.VEHICLE</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aaa40171ea8c0980e35c7ad0ee529c8cfa">PhxInteractionLayers.ROADWAY</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa58c2bc22908015ec088d6cb81dd3112f">PhxInteractionLayers.TERRAIN</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa1e31c1d3e8d0acd75fe8a066c2b01396">PhxInteractionLayers.ITEM_SMALL</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa01f4dcc45340182711ad5c949bfa440b">PhxInteractionLayers.ITEM_LARGE</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aac9c04652d7bde83489037a941f229e65">PhxInteractionLayers.FENCE</a> | <a class="el" href="../../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa9c74caa56a3c05723eb1dbad44bc9bc3">PhxInteractionLayers.AI</a></td></tr>
 <tr class="separator:acabb249db0dd310d20e8624e7cb3be8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb9a06001041e4d467ea95689d7b3fe"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d8/d08/class_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a7eb9a06001041e4d467ea95689d7b3fe">m_DelayedValidationTimer</a></td></tr>
+<tr class="separator:a7eb9a06001041e4d467ea95689d7b3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Weapon With Ammo</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>Helpers for spawning ammo/magazine in weapon For the flags, either a combination of WeaponWithAmmoFlags can be used Or one of the preset 'const int' with 'SAMF_' prefix (SAMF_DEFAULT, SAMF_RNG) </p>
@@ -300,6 +305,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab082acf9e65a00e06f0545487cce422c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74753abf6c3a7ed24cfe682902683448"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a74753abf6c3a7ed24cfe682902683448">OnFireModeChange</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> fireMode)</td></tr>
 <tr class="separator:a74753abf6c3a7ed24cfe682902683448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6374b62caed3310f4f584ee4779c5587"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a6374b62caed3310f4f584ee4779c5587">DelayedValidateAndRepair</a> ()</td></tr>
+<tr class="separator:a6374b62caed3310f4f584ee4779c5587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaf3c148d24964a2a19799a344f089f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#aeaf3c148d24964a2a19799a344f089f7">ValidateAndRepair</a> ()</td></tr>
 <tr class="separator:aeaf3c148d24964a2a19799a344f089f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0580e19ee7c965536e590ae5f2c9ea8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#ad0580e19ee7c965536e590ae5f2c9ea8">OnInventoryEnter</a> (Man player)</td></tr>
@@ -394,6 +401,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aade72c81a3b4cec7ff3ed52aeceea183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05eab95952a189dc9e08ccecec41b51a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a05eab95952a189dc9e08ccecec41b51a">OnDebugSpawn</a> ()</td></tr>
 <tr class="separator:a05eab95952a189dc9e08ccecec41b51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1be7bd1e2f81d01ca5cd09f49197115"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#aa1be7bd1e2f81d01ca5cd09f49197115">AddJunctureToAttachedMagazine</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> timeoutMS)</td></tr>
+<tr class="separator:aa1be7bd1e2f81d01ca5cd09f49197115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2ad54abf980014d1e46020f1e414d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a3d2ad54abf980014d1e46020f1e414d3">ClearJunctureToAttachedMagazine</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player)</td></tr>
+<tr class="separator:a3d2ad54abf980014d1e46020f1e414d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aa20a7fb466c129548d5af3bbfe52cb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d9c/class_weapon___base.html">Weapon_Base</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a2aa20a7fb466c129548d5af3bbfe52cb">CreateWeaponWithAmmo</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> weaponType, <a class="el" href="../../d5/d92/classstring.html">string</a> magazineType=&quot;&quot;, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> flags=WeaponWithAmmoFlags.CHAMBER)</td></tr>
 <tr class="memdesc:a2aa20a7fb466c129548d5af3bbfe52cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create weapon with ammo.  <br /></td></tr>
 <tr class="separator:a2aa20a7fb466c129548d5af3bbfe52cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -401,6 +412,44 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>script counterpart to engine's class <a class="el" href="../../db/de5/class_weapon.html" title="script counterpart to engine&#39;s class Weapon">Weapon</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa1be7bd1e2f81d01ca5cd09f49197115" name="aa1be7bd1e2f81d01ca5cd09f49197115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1be7bd1e2f81d01ca5cd09f49197115">&#9670;&#160;</a></span>AddJunctureToAttachedMagazine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> AddJunctureToAttachedMagazine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>timeoutMS</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a1e1f6d796cb8f193899e3dd7c80117a6">CGame::AddInventoryJunctureEx()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+
+</div>
+</div>
 <a id="a94e94836ed80bf81df4751938ab00cbc" name="a94e94836ed80bf81df4751938ab00cbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94e94836ed80bf81df4751938ab00cbc">&#9670;&#160;</a></span>AfterStoreLoad()</h2>
 
@@ -591,7 +640,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ad02cadbbfe88b6fa28acd9649244d73c">IsChamberFiredOut()</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>, and <a class="el" href="../../d9/d3c/_crossbow_8c.html#aac14d196e64cad535c5aa50f0c954df3">IsJammed()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d8f/_weapon_stable_state_8c.html#ad02cadbbfe88b6fa28acd9649244d73c">IsChamberFiredOut()</a>, and <a class="el" href="../../d9/d3c/_crossbow_8c.html#aac14d196e64cad535c5aa50f0c954df3">IsJammed()</a>.</p>
 
 </div>
 </div>
@@ -711,6 +760,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3d2ad54abf980014d1e46020f1e414d3" name="a3d2ad54abf980014d1e46020f1e414d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2ad54abf980014d1e46020f1e414d3">&#9670;&#160;</a></span>ClearJunctureToAttachedMagazine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClearJunctureToAttachedMagazine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d2/de6/class_c_game.html#a37c705f85eb68d9c950e2239a318c324">CGame::ClearJuncture()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+
+</div>
+</div>
 <a id="ab0d43fcc22c88449864b7724bf98446b" name="ab0d43fcc22c88449864b7724bf98446b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0d43fcc22c88449864b7724bf98446b">&#9670;&#160;</a></span>CopyWeaponStateFrom()</h2>
 
@@ -791,6 +868,33 @@ Private Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The created weapon </dd></dl>
 
 <p class="reference">References <a class="el" href="../../db/d35/_central_economy_8c.html#a4389063907bd8acede7114e3887d6102">ECE_PLACE_ON_SURFACE</a>, <a class="el" href="../../d6/dae/group___debug_shape.html#ga30f13400906443efe9fb79540dc674b5">ErrorEx</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector::Zero</a>.</p>
+
+</div>
+</div>
+<a id="a6374b62caed3310f4f584ee4779c5587" name="a6374b62caed3310f4f584ee4779c5587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6374b62caed3310f4f584ee4779c5587">&#9670;&#160;</a></span>DelayedValidateAndRepair()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DelayedValidateAndRepair </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>.</p>
 
 </div>
 </div>
@@ -2249,7 +2353,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga0338557f21327edf5ad5080449203443">Math::Acos()</a>, <a class="el" href="../../d7/dfc/classvector.html#a62993545b7e0017e827ba3627da347f3">vector::AnglesToVector()</a>, <a class="el" href="../../d5/d98/group___math.html#ga5f81990d2c77a3ece927413449d76d32">Math::Asin()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga1fcadbbfb17cfe0fd958ac850fbaeee7">DbgUI::Begin()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga645f0262f039bf0387cbef4a01d97f9f">DbgUI::BeginCleanupScope()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../dd/d13/group___colors.html#ga2b44fba5aa42271c2d9d224a8f5583db">COLOR_BLUE</a>, <a class="el" href="../../dd/d13/group___colors.html#ga99b2555651fb3bdd7bca23e5b6553968">COLOR_GREEN</a>, <a class="el" href="../../dd/d13/group___colors.html#ga67e1e0c1b9c65f5fd2a68c9323808c03">COLOR_RED</a>, <a class="el" href="../../dd/d13/group___colors.html#gabc990b0efb30556e9b8e8680596cc9d2">COLOR_WHITE</a>, <a class="el" href="../../dd/d13/group___colors.html#gafece9f43fd3cfa396624aad4aa7bba33">COLOR_YELLOW</a>, <a class="el" href="../../d5/d98/group___math.html#gacbfd2fc3314cc3762ea0c3720979f8bc">Math::DEG2RAD</a>, <a class="el" href="../../d7/dfc/classvector.html#adafa60c456aeee3fe7b5f31f5802ffa1">vector::Dot()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#gaa84b630b3b32613f49053352ba95c9c2">DbgUI::End()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga79a4f56743729148efd79908662211f6">DbgUI::EndCleanupScope()</a>, <a class="el" href="../../d9/da4/class_raycast_r_v_params.html#a3fe4cf14fd6ea644bbe854f8ea845a72">RaycastRVParams::flags</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#aa3d07983643d95f8ca32f5bd47627d4d">HumanCommandWeapons::GetBaseAimingAngleLR()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a96e80198781e2bd6e30b1bbc3bc185bd">HumanCommandWeapons::GetBaseAimingAngleUD()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a12cef74155564a85f15164eb018f4134">CGame::GetCurrentCameraDirection()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a61e79318fea5de8eca31dbd52c2bc8e0">SurfaceInfo::GetEntryName()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a19da618d059e592dc31b81f92c3d478c">SurfaceInfo::GetName()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a0ca3dc06d73a1430813d596d17c735fc">SurfaceInfo::GetSurfaceType()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga9b63edea445b48aceb972b852d4cac45">DiagMenu::GetValue()</a>, <a class="el" href="../../d5/d98/group___math.html#ga6530404da328a85a6ff9bd3a37765087">Math::InverseLerp()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a57a1100bb2720937327008cbadb1cc22">SurfaceInfo::IsPassthrough()</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a3cafea2922faeea28e38014b98401212">HumanMovementState::IsRaised()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a4523fa2331ddf11434a752c361b89711">SurfaceInfo::IsSolid()</a>, <a class="el" href="../../d7/dfc/classvector.html#ab55fc3643d9b329c48834c72191a3aad">vector::Lerp()</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a919160cda95fa4c4a8c158b265baa798">HumanMovementState::m_CommandTypeId</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a5c8ddbef4894cfa7449386ca319283e0">HumanMovementState::m_fLeaning</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a0646359a1660fc604cf395394bbc8df3">HumanMovementState::m_iStanceIdx</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gad9cd1ae9ebfb393607cdb3bf6cd62956">Math3D::MatrixMultiply3()</a>, <a class="el" href="../../d7/dfc/classvector.html#a908a3b193cafd6cf76704e269e2a2462">vector::Multiply4()</a>, <a class="el" href="../../d7/dfc/classvector.html#a07ef4a32103d5318b7ced50c51204e8c">vector::Normalized()</a>, <a class="el" href="../../de/d3a/class_raycast_r_v_result.html#a2d152fcf6a0392a3904f515fc3368f1b">RaycastRVResult::pos</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d5/d98/group___math.html#gabb429aecc5bba8de3564e19ded7ef104">Math::RAD2DEG</a>, <a class="el" href="../../d3/d27/class_day_z_physics.html#a28c0819fe03bd794e2beae43a6261761">DayZPhysics::RaycastRVProxy()</a>, <a class="el" href="../../d7/dfc/classvector.html#ae383add80c52deea9482429683a02847">vector::RotateAroundZeroDeg()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga6eaf263a07e0b8a8895ed494afceed7d">Shape</a>, <a class="el" href="../../de/d3a/class_raycast_r_v_result.html#a31c527aa50142beca3e8dcf86bee72eb">RaycastRVResult::surface</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga6b5a45748947842552d1627695abf80b">DbgUI::Text()</a>, <a class="el" href="../../d9/da4/class_raycast_r_v_params.html#ac765329451135abec74c45e1897abf26">RaycastRVParams::type</a>, <a class="el" href="../../d7/dfc/classvector.html#a323c92620ed83ca5e6df94a02fdaac2c">vector::Up</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gaf1980c0a1bdebd3be1cba243dccbf342">Math3D::YawPitchRollMatrix()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector::Zero</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga0338557f21327edf5ad5080449203443">Math::Acos()</a>, <a class="el" href="../../d7/dfc/classvector.html#a62993545b7e0017e827ba3627da347f3">vector::AnglesToVector()</a>, <a class="el" href="../../d5/d98/group___math.html#ga5f81990d2c77a3ece927413449d76d32">Math::Asin()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga1fcadbbfb17cfe0fd958ac850fbaeee7">DbgUI::Begin()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga645f0262f039bf0387cbef4a01d97f9f">DbgUI::BeginCleanupScope()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../dd/d13/group___colors.html#ga2b44fba5aa42271c2d9d224a8f5583db">COLOR_BLUE</a>, <a class="el" href="../../dd/d13/group___colors.html#ga99b2555651fb3bdd7bca23e5b6553968">COLOR_GREEN</a>, <a class="el" href="../../dd/d13/group___colors.html#ga67e1e0c1b9c65f5fd2a68c9323808c03">COLOR_RED</a>, <a class="el" href="../../dd/d13/group___colors.html#gabc990b0efb30556e9b8e8680596cc9d2">COLOR_WHITE</a>, <a class="el" href="../../dd/d13/group___colors.html#gafece9f43fd3cfa396624aad4aa7bba33">COLOR_YELLOW</a>, <a class="el" href="../../d5/d98/group___math.html#gacbfd2fc3314cc3762ea0c3720979f8bc">Math::DEG2RAD</a>, <a class="el" href="../../d7/dfc/classvector.html#adafa60c456aeee3fe7b5f31f5802ffa1">vector::Dot()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#gaa84b630b3b32613f49053352ba95c9c2">DbgUI::End()</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga79a4f56743729148efd79908662211f6">DbgUI::EndCleanupScope()</a>, <a class="el" href="../../d9/da4/class_raycast_r_v_params.html#a3fe4cf14fd6ea644bbe854f8ea845a72">RaycastRVParams::flags</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a79b8c8a3d924524f441094ecf1b4c9b3">HumanCommandWeapons::GetAimingHandsOffsetLR()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a9fffe435b059ccfb9abfd77ea877ff47">HumanCommandWeapons::GetAimingHandsOffsetUD()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#aa3d07983643d95f8ca32f5bd47627d4d">HumanCommandWeapons::GetBaseAimingAngleLR()</a>, <a class="el" href="../../da/dd0/class_human_command_weapons.html#a96e80198781e2bd6e30b1bbc3bc185bd">HumanCommandWeapons::GetBaseAimingAngleUD()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a12cef74155564a85f15164eb018f4134">CGame::GetCurrentCameraDirection()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a61e79318fea5de8eca31dbd52c2bc8e0">SurfaceInfo::GetEntryName()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a19da618d059e592dc31b81f92c3d478c">SurfaceInfo::GetName()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a0ca3dc06d73a1430813d596d17c735fc">SurfaceInfo::GetSurfaceType()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga9b63edea445b48aceb972b852d4cac45">DiagMenu::GetValue()</a>, <a class="el" href="../../d5/d98/group___math.html#ga6530404da328a85a6ff9bd3a37765087">Math::InverseLerp()</a>, <a class="el" href="../../d7/dfc/classvector.html#a479845871b48c3b942f0af22b78ba957">vector::InvMultiply3()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a57a1100bb2720937327008cbadb1cc22">SurfaceInfo::IsPassthrough()</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a3cafea2922faeea28e38014b98401212">HumanMovementState::IsRaised()</a>, <a class="el" href="../../d5/dc8/class_surface_info.html#a4523fa2331ddf11434a752c361b89711">SurfaceInfo::IsSolid()</a>, <a class="el" href="../../d7/dfc/classvector.html#ab55fc3643d9b329c48834c72191a3aad">vector::Lerp()</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a919160cda95fa4c4a8c158b265baa798">HumanMovementState::m_CommandTypeId</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a5c8ddbef4894cfa7449386ca319283e0">HumanMovementState::m_fLeaning</a>, <a class="el" href="../../d2/d1b/class_human_movement_state.html#a0646359a1660fc604cf395394bbc8df3">HumanMovementState::m_iStanceIdx</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gad9cd1ae9ebfb393607cdb3bf6cd62956">Math3D::MatrixMultiply3()</a>, <a class="el" href="../../d7/dfc/classvector.html#a908a3b193cafd6cf76704e269e2a2462">vector::Multiply4()</a>, <a class="el" href="../../d7/dfc/classvector.html#a07ef4a32103d5318b7ced50c51204e8c">vector::Normalized()</a>, <a class="el" href="../../de/d3a/class_raycast_r_v_result.html#a2d152fcf6a0392a3904f515fc3368f1b">RaycastRVResult::pos</a>, <a class="el" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print()</a>, <a class="el" href="../../d5/d98/group___math.html#gabb429aecc5bba8de3564e19ded7ef104">Math::RAD2DEG</a>, <a class="el" href="../../d3/d27/class_day_z_physics.html#a28c0819fe03bd794e2beae43a6261761">DayZPhysics::RaycastRVProxy()</a>, <a class="el" href="../../d7/dfc/classvector.html#ae383add80c52deea9482429683a02847">vector::RotateAroundZeroDeg()</a>, <a class="el" href="../../dc/d49/group___diag_menu.html#ga6eaf263a07e0b8a8895ed494afceed7d">Shape</a>, <a class="el" href="../../de/d3a/class_raycast_r_v_result.html#a31c527aa50142beca3e8dcf86bee72eb">RaycastRVResult::surface</a>, <a class="el" href="../../d7/d90/group___debug_u_i.html#ga6b5a45748947842552d1627695abf80b">DbgUI::Text()</a>, <a class="el" href="../../d9/da4/class_raycast_r_v_params.html#ac765329451135abec74c45e1897abf26">RaycastRVParams::type</a>, <a class="el" href="../../d7/dfc/classvector.html#a323c92620ed83ca5e6df94a02fdaac2c">vector::Up</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#ga5bd1deb1c96276d94eeec6fe40955c41">Vector()</a>, <a class="el" href="../../d5/dc8/group___math3_d_a_p_i.html#gaf1980c0a1bdebd3be1cba243dccbf342">Math3D::YawPitchRollMatrix()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector::Zero</a>.</p>
 
 </div>
 </div>
@@ -3556,6 +3660,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7eb9a06001041e4d467ea95689d7b3fe" name="a7eb9a06001041e4d467ea95689d7b3fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eb9a06001041e4d467ea95689d7b3fe">&#9670;&#160;</a></span>m_DelayedValidationTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected ref <a class="el" href="../../d8/d08/class_timer.html">Timer</a> m_DelayedValidationTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="accec58df396d3732169c82c8a7c26b89" name="accec58df396d3732169c82c8a7c26b89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accec58df396d3732169c82c8a7c26b89">&#9670;&#160;</a></span>m_DmgPerShot</h2>
 
@@ -3937,6 +4063,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Random bullet quantity + maybe chambered round. </p>
+
+</div>
+</div>
+<a id="a048401b60778259010b8d40d61d30c24" name="a048401b60778259010b8d40d61d30c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048401b60778259010b8d40d61d30c24">&#9670;&#160;</a></span>VALIDATE_DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> VALIDATE_DELAY = 5.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validation on client side delay to have time properly synchronize attachments needed for check. </p>
 
 </div>
 </div>

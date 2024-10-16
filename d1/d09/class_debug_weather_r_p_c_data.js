@@ -8,5 +8,8 @@ var class_debug_weather_r_p_c_data =
     [ "m_OvercastValue", "d1/d09/class_debug_weather_r_p_c_data.html#adb066407ee4e1270ccd7b5188d2cc4d9", null ],
     [ "m_RainDuration", "d1/d09/class_debug_weather_r_p_c_data.html#a52e0c8d43ecf4c15689dded57c83467b", null ],
     [ "m_RainInterpolation", "d1/d09/class_debug_weather_r_p_c_data.html#af8b47297c37acbdce87fada75614192b", null ],
-    [ "m_RainValue", "d1/d09/class_debug_weather_r_p_c_data.html#a70f4bbba17a2a2fc51898233bd94ff51", null ]
+    [ "m_RainValue", "d1/d09/class_debug_weather_r_p_c_data.html#a70f4bbba17a2a2fc51898233bd94ff51", null ],
+    [ "m_SnowfallDuration", "d1/d09/class_debug_weather_r_p_c_data.html#af2b00be037c2ffc3968b805c9a40e20d", null ],
+    [ "m_SnowfallInterpolation", "d1/d09/class_debug_weather_r_p_c_data.html#a0c9326efc21233361116c4bc622f592e", null ],
+    [ "m_SnowfallValue", "d1/d09/class_debug_weather_r_p_c_data.html#ac522f3a75ba72380ee599ba2853b6c32", null ]
 ];

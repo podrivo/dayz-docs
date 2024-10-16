@@ -1,4 +1,4 @@
 var _craft_torch_8c =
 [
-    [ "RecipeBase", "db/d2a/class_recipe_base.html", "db/d2a/class_recipe_base" ]
+    [ "CraftTorch", "dd/db4/class_craft_torch.html", "dd/db4/class_craft_torch" ]
 ];

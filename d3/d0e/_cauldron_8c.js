@@ -1,4 +1,4 @@
 var _cauldron_8c =
 [
-    [ "Bottle_Base", "da/d60/class_bottle___base.html", "da/d60/class_bottle___base" ]
+    [ "Cauldron", "df/d16/class_cauldron.html", "df/d16/class_cauldron" ]
 ];

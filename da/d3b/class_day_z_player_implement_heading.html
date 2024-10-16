@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -111,6 +111,10 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a5288fab131f0a84c6a2d10d489157fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaefcf2cd1fd76237fbec3be1bb9c5028"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3b/class_day_z_player_implement_heading.html#aaefcf2cd1fd76237fbec3be1bb9c5028">RotateOrient</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, <a class="el" href="../../d3/d58/dayzplayer_8c.html#acf0ef1f5cd4036a95f0b5c79edc16803">SDayZPlayerHeadingModel</a> pModel, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> pLastHeadingDiff)</td></tr>
 <tr class="separator:aaefcf2cd1fd76237fbec3be1bb9c5028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4e8a7997f01b083b0d4ed83ee5474f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3b/class_day_z_player_implement_heading.html#a9d4e8a7997f01b083b0d4ed83ee5474f">RestrictHeading</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, <a class="el" href="../../d3/d58/dayzplayer_8c.html#acf0ef1f5cd4036a95f0b5c79edc16803">SDayZPlayerHeadingModel</a> pModel, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> pLastHeadingDiff, HeadingRestrictData restrictData)</td></tr>
+<tr class="separator:a9d4e8a7997f01b083b0d4ed83ee5474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14dd39167fb5327466c2a0e6d10d049b"><td class="memItemLeft" align="right" valign="top">static protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3b/class_day_z_player_implement_heading.html#a14dd39167fb5327466c2a0e6d10d049b">ClampAngle</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> angle, HeadingRestrictData restrictData)</td></tr>
+<tr class="separator:a14dd39167fb5327466c2a0e6d10d049b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d2b3eab9211cb99a27e5f4d50ea708e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3b/class_day_z_player_implement_heading.html#a1d2b3eab9211cb99a27e5f4d50ea708e">NoHeading</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> pDt, <a class="el" href="../../d3/d58/dayzplayer_8c.html#acf0ef1f5cd4036a95f0b5c79edc16803">SDayZPlayerHeadingModel</a> pModel, out <a class="el" href="../../d4/dc3/classfloat.html">float</a> pLastHeadingDiff)</td></tr>
 <tr class="separator:a1d2b3eab9211cb99a27e5f4d50ea708e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -120,6 +124,46 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:ab4edbaf51f434d8a3be222e25d55f2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a14dd39167fb5327466c2a0e6d10d049b" name="a14dd39167fb5327466c2a0e6d10d049b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14dd39167fb5327466c2a0e6d10d049b">&#9670;&#160;</a></span>ClampAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> ClampAngle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HeadingRestrictData&#160;</td>
+          <td class="paramname"><em>restrictData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, and <a class="el" href="../../d5/d98/group___math.html#gacbfd2fc3314cc3762ea0c3720979f8bc">Math::DEG2RAD</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d3b/class_day_z_player_implement_heading.html#a9d4e8a7997f01b083b0d4ed83ee5474f">RestrictHeading()</a>.</p>
+
+</div>
+</div>
 <a id="a5288fab131f0a84c6a2d10d489157fd0" name="a5288fab131f0a84c6a2d10d489157fd0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5288fab131f0a84c6a2d10d489157fd0">&#9670;&#160;</a></span>ClampHeading()</h2>
 
@@ -208,6 +252,58 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="../../db/d2e/class_day_z_player.html#a848919fbdbb3ed083917fb6a5bae0967">DayZPlayer::HeadingModel()</a>, and <a class="el" href="../../d4/d87/class_man_base.html#a848919fbdbb3ed083917fb6a5bae0967">ManBase::HeadingModel()</a>.</p>
+
+</div>
+</div>
+<a id="a9d4e8a7997f01b083b0d4ed83ee5474f" name="a9d4e8a7997f01b083b0d4ed83ee5474f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d4e8a7997f01b083b0d4ed83ee5474f">&#9670;&#160;</a></span>RestrictHeading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/db9/classbool.html">bool</a> RestrictHeading </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>pDt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d58/dayzplayer_8c.html#acf0ef1f5cd4036a95f0b5c79edc16803">SDayZPlayerHeadingModel</a>&#160;</td>
+          <td class="paramname"><em>pModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>pLastHeadingDiff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HeadingRestrictData&#160;</td>
+          <td class="paramname"><em>restrictData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../da/d3b/class_day_z_player_implement_heading.html#a14dd39167fb5327466c2a0e6d10d049b">ClampAngle()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d87/class_man_base.html#a848919fbdbb3ed083917fb6a5bae0967">ManBase::HeadingModel()</a>.</p>
 
 </div>
 </div>

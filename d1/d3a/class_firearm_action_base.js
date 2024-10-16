@@ -3,6 +3,7 @@ var class_firearm_action_base =
     [ "FirearmActionBase", "d1/d3a/class_firearm_action_base.html#a1454403a66df1c8145902d0d70efd8eb", null ],
     [ "ActionCondition", "d1/d3a/class_firearm_action_base.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
     [ "ActionConditionContinue", "d1/d3a/class_firearm_action_base.html#a1f7399d8d410ac172ef0e5f4c4bbb4eb", null ],
+    [ "AddActionJuncture", "d1/d3a/class_firearm_action_base.html#a52714a2e43ccca708509020f2d78c1d0", null ],
     [ "CanBePerformedFromInventory", "d1/d3a/class_firearm_action_base.html#a43db38795c580598539bfdd9e2cb417a", null ],
     [ "CanBeUsedOnBack", "d1/d3a/class_firearm_action_base.html#a1db50e3d7e6c9fffc8be8ca5abc847b2", null ],
     [ "CanBeUsedRaised", "d1/d3a/class_firearm_action_base.html#a52e3a0f5478512bbe048d9617b5bd4f6", null ],

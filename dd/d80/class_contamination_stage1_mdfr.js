@@ -5,8 +5,6 @@ var class_contamination_stage1_mdfr =
     [ "GetDebugText", "dd/d80/class_contamination_stage1_mdfr.html#a3fae6d6b0946cbe842c50c8ab274e1e4", null ],
     [ "Init", "dd/d80/class_contamination_stage1_mdfr.html#a8045e088b31fe0754fb20cb0a5ff0dc9", null ],
     [ "OnActivate", "dd/d80/class_contamination_stage1_mdfr.html#aa308cde615371bc9547d8541d973188b", null ],
-    [ "OnDeactivate", "dd/d80/class_contamination_stage1_mdfr.html#a6ab0d3ad2f7b2bdf0b084bfff5fce142", null ],
-    [ "OnTick", "dd/d80/class_contamination_stage1_mdfr.html#ae84c054b68ebfd7a4a1e35239e4a6aaa", null ],
     [ "AGENT_THRESHOLD_ACTIVATE", "dd/d80/class_contamination_stage1_mdfr.html#a26f9fd15a00330c021c7d5c1a55d039a", null ],
     [ "AGENT_THRESHOLD_DEACTIVATE", "dd/d80/class_contamination_stage1_mdfr.html#a8a52175bb14433033248c7c28f7ba038", null ],
     [ "EVENT_1_INTERVAL_MAX", "dd/d80/class_contamination_stage1_mdfr.html#a5a65fb5d6d64de2667c393259058c2de", null ],

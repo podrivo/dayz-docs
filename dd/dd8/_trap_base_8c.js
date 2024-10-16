@@ -53,7 +53,6 @@ var _trap_base_8c =
     [ "StopDeployLoopSound", "dd/dd8/_trap_base_8c.html#a581d53c0b9a95438b7642f051a706325", null ],
     [ "Synch", "dd/dd8/_trap_base_8c.html#a6c0d25d6f7749f82555d4b073214eb8f", null ],
     [ "TrapBase", "dd/dd8/_trap_base_8c.html#ace67d604c13f05cc159b5bc438b202f7", null ],
-    [ "~TrapBase", "dd/dd8/_trap_base_8c.html#add07091e609d77de5a284a22b4139bd1", null ],
     [ "DAMAGE_TRIGGER_MINE", "dd/dd8/_trap_base_8c.html#ab6a1c3344ff68c61b0f298dfca0d1b88", null ],
     [ "m_AddActivationDefect", "dd/dd8/_trap_base_8c.html#ad3498a0721b634226cb8232212d297f1", null ],
     [ "m_AddDeactivationDefect", "dd/dd8/_trap_base_8c.html#ae0e42a1236c389cc813354ac62981d34", null ],

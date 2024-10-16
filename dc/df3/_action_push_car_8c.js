@@ -1,19 +1,10 @@
 var _action_push_car_8c =
 [
-    [ "ActionPushCarDataReceiveData", "dd/d6a/class_action_push_car_data_receive_data.html", "dd/d6a/class_action_push_car_data_receive_data" ],
-    [ "CAContinuousRepeatPushCar", "d7/d5d/class_c_a_continuous_repeat_push_car.html", "d7/d5d/class_c_a_continuous_repeat_push_car" ],
+    [ "ActionPushCarData", "da/d20/class_action_push_car_data.html", "da/d20/class_action_push_car_data" ],
     [ "ActionPushCar", "dc/d0d/class_action_push_car.html", "dc/d0d/class_action_push_car" ],
-    [ "ApplyForce", "dc/df3/_action_push_car_8c.html#a52a24776fb7cd3c056448a815fc49ac8", null ],
-    [ "CreateActionComponent", "dc/df3/_action_push_car_8c.html#accfb238782010198bdb5128a8ee44300", null ],
-    [ "EndActionComponent", "dc/df3/_action_push_car_8c.html#af0d46c26688c4dac76faaf8af704daf0", null ],
-    [ "ProgressActionComponent", "dc/df3/_action_push_car_8c.html#a994e8ad8f0d45a863dcce5d21cd803a6", null ],
+    [ "CAContinuousRepeatPushCar", "d7/d5d/class_c_a_continuous_repeat_push_car.html", null ],
+    [ "ApplyForce", "dc/df3/_action_push_car_8c.html#a0b36da893db414fdbac2fc622fc98011", null ],
     [ "m_ActionDataPushCar", "dc/df3/_action_push_car_8c.html#a9dfb649128f854fd5a8f368cae54b537", null ],
     [ "m_Car", "dc/df3/_action_push_car_8c.html#afaafd819d98d7078839ff71a4e838d1e", null ],
-    [ "m_EndType", "dc/df3/_action_push_car_8c.html#a763fc8f544fbded79ce2bcfeb363a1f3", null ],
-    [ "m_HorizontalDirectionRandom", "dc/df3/_action_push_car_8c.html#a9f2a646fea6864f40de08e4cd52562de", null ],
-    [ "m_NeedUpdate", "dc/df3/_action_push_car_8c.html#ada4925d6c0b04b5c1acfc665e9fef770", null ],
-    [ "m_Origin", "dc/df3/_action_push_car_8c.html#a64118bfb6afc8f45d4b743d6c892430e", null ],
-    [ "m_PushDirection", "dc/df3/_action_push_car_8c.html#a7b3738e6012007e9f1ffa1aace86fe3e", null ],
-    [ "m_VerticalDirectionRandom", "dc/df3/_action_push_car_8c.html#a7eede7b0b489ee6fb9ff8fccb7b010a2", null ],
-    [ "PUSH_FORCE_IMPULSE_INCREMENT", "dc/df3/_action_push_car_8c.html#ab7265993b30387dda7ead214ee136de5", null ]
+    [ "PUSH_FORCE_IMPULSE_INCREMENT", "dc/df3/_action_push_car_8c.html#afcb3c3db236b7f7b6015c72726829c80", null ]
 ];

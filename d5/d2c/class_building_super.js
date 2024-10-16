@@ -3,6 +3,8 @@ var class_building_super =
     [ "BonfireHeating", "d5/d2c/class_building_super.html#aeaf29da52a03546256b420a16e8ded22", null ],
     [ "EEDelete", "d5/d2c/class_building_super.html#a83a1e547e0d1e65ad421070058a093a9", null ],
     [ "EEInit", "d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea", null ],
+    [ "GetLiquidSourceType", "d5/d2c/class_building_super.html#a4e50565a081e5a80867cbc50c0c8c9b3", null ],
+    [ "GetLiquidSourceType", "d5/d2c/class_building_super.html#a4e50565a081e5a80867cbc50c0c8c9b3", null ],
     [ "GetLiquidThroughputCoef", "d5/d2c/class_building_super.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],
     [ "GetLiquidThroughputCoef", "d5/d2c/class_building_super.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],
     [ "GetWaterSourceObjectType", "d5/d2c/class_building_super.html#ac8a9b708800f6e84edf0e87939168d22", null ],

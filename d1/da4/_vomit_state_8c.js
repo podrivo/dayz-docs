@@ -1,4 +1,4 @@
 var _vomit_state_8c =
 [
-    [ "SymptomBase", "d9/db3/class_symptom_base.html", "d9/db3/class_symptom_base" ]
+    [ "VomitSymptom", "d1/d67/class_vomit_symptom.html", "d1/d67/class_vomit_symptom" ]
 ];

@@ -29,6 +29,11 @@ var _car_8c =
       [ "DOORS", "d9/d06/_car_8c.html#a5df5796eb04de56ecab7e255085b76bfa77803bb69e8eaba2052987cd83cf2d35", null ],
       [ "PLAYER", "d9/d06/_car_8c.html#a5df5796eb04de56ecab7e255085b76bfade5dc3e0dbd007d995ed3e37bde5ce7e", null ]
     ] ],
+    [ "CarWheelWaterState", "d9/d06/_car_8c.html#a5f9e7b49804d4f9c1723cb0e1dd56ebe", [
+      [ "ON_LAND", "d9/d06/_car_8c.html#a5f9e7b49804d4f9c1723cb0e1dd56ebea28a997a3572a6bcfac255e45b6991ebc", null ],
+      [ "IN_WATER", "d9/d06/_car_8c.html#a5f9e7b49804d4f9c1723cb0e1dd56ebeadbb293b31059192be7dea3a935295edd", null ],
+      [ "UNDER_WATER", "d9/d06/_car_8c.html#a5f9e7b49804d4f9c1723cb0e1dd56ebea44d39e51f924aac178abc88bd599c574", null ]
+    ] ],
     [ "EIGTH", "d9/d06/_car_8c.html#a3196c3e0c5dfbe1fc874805b09d2e41d", null ],
     [ "ELEVENTH", "d9/d06/_car_8c.html#a02080b6dca4894f3218302bff4493832", null ],
     [ "FIFTEENTH", "d9/d06/_car_8c.html#a4c7bac4ca5fd52cebb4ad714f73fc371", null ],

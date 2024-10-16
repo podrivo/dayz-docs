@@ -186,6 +186,7 @@ var group___enforce =
       [ "REQ_GLASSESTACTICAL", "dd/d17/class_managed.html#a09a48c373eee0ec26f7462aa00c9f1a6", null ],
       [ "REQ_GLASSESWELDING", "dd/d17/class_managed.html#ad48ad7027ea81a441661581e624f0ce0", null ],
       [ "REQ_HEALTHHITEFFECTS", "dd/d17/class_managed.html#a033bb73ced167b950e1aa74282a5cb83", null ],
+      [ "REQ_HMP_GHOST", "dd/d17/class_managed.html#ad418d3b442d8bc3d2bab0a1d8211c2c7", null ],
       [ "REQ_INTROCHROMABB", "dd/d17/class_managed.html#a37577d83e83fc6c63693d2f6c7dca741", null ],
       [ "REQ_INVENTORYBLUR", "dd/d17/class_managed.html#a4918a03b0aa7eeb5c93b76c17758dafa", null ],
       [ "REQ_MENUEFFECTS", "dd/d17/class_managed.html#adfade733d06363efd9751c02d21c4692", null ],

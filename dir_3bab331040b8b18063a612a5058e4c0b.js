@@ -57,6 +57,7 @@ var dir_3bab331040b8b18063a612a5058e4c0b =
     [ "MouseBinding.c", "d9/dbd/_mouse_binding_8c.html", "d9/dbd/_mouse_binding_8c" ],
     [ "MouseButtonInfo.c", "db/d83/_mouse_button_info_8c.html", "db/d83/_mouse_button_info_8c" ],
     [ "NutritionalProfile.c", "d9/d94/_nutritional_profile_8c.html", "d9/d94/_nutritional_profile_8c" ],
+    [ "ObjectTemperatureStateData.c", "d8/d93/_object_temperature_state_data_8c.html", "d8/d93/_object_temperature_state_data_8c" ],
     [ "PlayerLightManager.c", "de/dfe/_player_light_manager_8c.html", "de/dfe/_player_light_manager_8c" ],
     [ "PlayerStomach.c", "d8/dec/_player_stomach_8c.html", "d8/dec/_player_stomach_8c" ],
     [ "PropertyModifiers.c", "d0/d5f/_property_modifiers_8c.html", "d0/d5f/_property_modifiers_8c" ],
@@ -74,7 +75,9 @@ var dir_3bab331040b8b18063a612a5058e4c0b =
     [ "StanceIndicator.c", "de/d2e/_stance_indicator_8c.html", "de/d2e/_stance_indicator_8c" ],
     [ "ToggleSelections.c", "db/d7a/_toggle_selections_8c.html", "db/d7a/_toggle_selections_8c" ],
     [ "TransferValues.c", "dc/d9e/_transfer_values_8c.html", null ],
+    [ "UndergroundBunkerHandlerClient.c", "d3/d3f/_underground_bunker_handler_client_8c.html", "d3/d3f/_underground_bunker_handler_client_8c" ],
     [ "UndergroundHandlerClient.c", "d4/dd4/_underground_handler_client_8c.html", "d4/dd4/_underground_handler_client_8c" ],
+    [ "UnderObjectDecalSpawnComponent.c", "d2/dbc/_under_object_decal_spawn_component_8c.html", "d2/dbc/_under_object_decal_spawn_component_8c" ],
     [ "WeaponDebug.c", "d3/d9b/_weapon_debug_8c.html", "d3/d9b/_weapon_debug_8c" ],
     [ "WrittenNoteData.c", "df/df8/_written_note_data_8c.html", "df/df8/_written_note_data_8c" ]
 ];

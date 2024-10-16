@@ -31,7 +31,7 @@ var _day_z_player_inventory_8c =
     [ "IsProxy", "da/ddc/_day_z_player_inventory_8c.html#afee33344cd3d639572a2716f2d58b8ac", null ],
     [ "IsServerOrLocalPlayer", "da/ddc/_day_z_player_inventory_8c.html#a6582c5b8e32f09c15c15fc39066c1a8e", null ],
     [ "NetSyncCurrentStateID", "da/ddc/_day_z_player_inventory_8c.html#a60775ad4b59bdda71af18ddfb3cce6e9", null ],
-    [ "OnAfterStoreLoad", "da/ddc/_day_z_player_inventory_8c.html#a0d4286bce8199bbfd9517a55e65ee2a9", null ],
+    [ "OnAfterStoreLoad", "da/ddc/_day_z_player_inventory_8c.html#aa110c23ed582b6fce03e9d947f750646", null ],
     [ "OnEventForRemoteWeapon", "da/ddc/_day_z_player_inventory_8c.html#ae403bbaae35f4690aa93409580c18847", null ],
     [ "OnHandEventForRemote", "da/ddc/_day_z_player_inventory_8c.html#aa58a2c9ab0b0c00df12ea9af3c6b1aae", null ],
     [ "OnHandleStoredInputUserData", "da/ddc/_day_z_player_inventory_8c.html#a20724b8927e4fea2e4b287a6143b3586", null ],

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -118,6 +118,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad9908c137ad5972b23b499d49e01a97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af14bfb320b4b75e172020007bc7ce0eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da2/class_u_a_quantity_consumed.html#af14bfb320b4b75e172020007bc7ce0eb">FILL_LIQUID</a> = 200</td></tr>
 <tr class="separator:af14bfb320b4b75e172020007bc7ce0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892ee4773dd70107232273fec289c1dc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da2/class_u_a_quantity_consumed.html#a892ee4773dd70107232273fec289c1dc">FILL_SNOW</a> = 100</td></tr>
+<tr class="separator:a892ee4773dd70107232273fec289c1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a747719cce8cb8c5b82fadd2a541d6cb9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da2/class_u_a_quantity_consumed.html#a747719cce8cb8c5b82fadd2a541d6cb9">POUR_LIQUID</a> = 100</td></tr>
 <tr class="separator:a747719cce8cb8c5b82fadd2a541d6cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dc7647a49b3e4e85c8ae1550a8c5ced"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da2/class_u_a_quantity_consumed.html#a0dc7647a49b3e4e85c8ae1550a8c5ced">DRAIN_LIQUID</a> = 100</td></tr>
@@ -304,7 +306,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../db/d52/class_action_eat_c_b.html#accfb238782010198bdb5128a8ee44300">ActionEatCB::CreateActionComponent()</a>, <a class="el" href="../../dc/db5/class_action_eat_fruit_c_b.html#accfb238782010198bdb5128a8ee44300">ActionEatFruitCB::CreateActionComponent()</a>, <a class="el" href="../../de/dc4/class_action_eat_meat_c_b.html#accfb238782010198bdb5128a8ee44300">ActionEatMeatCB::CreateActionComponent()</a>, <a class="el" href="../../d0/de1/class_action_force_feed_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceFeedCB::CreateActionComponent()</a>, <a class="el" href="../../d6/d4d/class_action_force_feed_small_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceFeedSmallCB::CreateActionComponent()</a>, <a class="el" href="../../dc/d15/class_action_force_feed_meat_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceFeedMeatCB::CreateActionComponent()</a>, and <a class="el" href="../../df/db8/class_action_force_a_bite_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceABiteCB::CreateActionComponent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d52/class_action_eat_c_b.html#accfb238782010198bdb5128a8ee44300">ActionEatCB::CreateActionComponent()</a>, <a class="el" href="../../dc/db5/class_action_eat_fruit_c_b.html#accfb238782010198bdb5128a8ee44300">ActionEatFruitCB::CreateActionComponent()</a>, <a class="el" href="../../de/dc4/class_action_eat_meat_c_b.html#accfb238782010198bdb5128a8ee44300">ActionEatMeatCB::CreateActionComponent()</a>, <a class="el" href="../../d0/de1/class_action_force_feed_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceFeedCB::CreateActionComponent()</a>, <a class="el" href="../../d6/d4d/class_action_force_feed_small_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceFeedSmallCB::CreateActionComponent()</a>, <a class="el" href="../../dc/d15/class_action_force_feed_meat_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceFeedMeatCB::CreateActionComponent()</a>, <a class="el" href="../../df/db8/class_action_force_a_bite_c_b.html#accfb238782010198bdb5128a8ee44300">ActionForceABiteCB::CreateActionComponent()</a>, and <a class="el" href="../../da/de4/_action_eat_snow_continuous_8c.html#a00cda41fe9dd093059da5c4b83b591bc">OnFinishProgressServer()</a>.</p>
 
 </div>
 </div>
@@ -343,6 +345,30 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> FILL_LIQUID = 200</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da4/class_action_fill_bottle_base_c_b.html#accfb238782010198bdb5128a8ee44300">ActionFillBottleBaseCB::CreateActionComponent()</a>.</p>
+
+</div>
+</div>
+<a id="a892ee4773dd70107232273fec289c1dc" name="a892ee4773dd70107232273fec289c1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892ee4773dd70107232273fec289c1dc">&#9670;&#160;</a></span>FILL_SNOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/dc3/classfloat.html">float</a> FILL_SNOW = 100</td>
         </tr>
       </table>
   </td>

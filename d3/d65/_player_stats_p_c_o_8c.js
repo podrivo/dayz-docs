@@ -59,18 +59,17 @@ var _player_stats_p_c_o_8c =
       [ "HEATBUFFER", "d3/d65/_player_stats_p_c_o_8c.html#a21345e6a2ea9d9bad439889534f11d9ca052899b25bb6197d3e06ba7a7bc009be", null ]
     ] ],
     [ "Get", "d3/d65/_player_stats_p_c_o_8c.html#a1b5c50ae548df052dfca80ad3d2d9baf", null ],
-    [ "GetPCO", "d3/d65/_player_stats_p_c_o_8c.html#ae9f8e94fb8900e17a4d5cc9e47249b73", null ],
     [ "GetStatObject", "d3/d65/_player_stats_p_c_o_8c.html#aef03ddb8219e921d992797b421d0ec88", null ],
     [ "GetVersion", "d3/d65/_player_stats_p_c_o_8c.html#ae8c6ea365e82aed2e4953b0b7cb1d8c6", null ],
     [ "Init", "d3/d65/_player_stats_p_c_o_8c.html#a1e3b6d38df0786ccf7f938d60e386aae", null ],
+    [ "OnAfterStoreLoad", "d3/d65/_player_stats_p_c_o_8c.html#a6373998ce3ba4ad5e5af1f0b9323689d", null ],
+    [ "OnRPC", "d3/d65/_player_stats_p_c_o_8c.html#abdc765142c7d9fa2c017982090949738", null ],
     [ "OnStoreLoad", "d3/d65/_player_stats_p_c_o_8c.html#a5d5ae443c41bd1c53880fdd006c0ddc0", null ],
     [ "OnStoreSave", "d3/d65/_player_stats_p_c_o_8c.html#ad975050d7a080cca462e74c604f404a2", null ],
-    [ "PCOHandlerStats", "d3/d65/_player_stats_p_c_o_8c.html#aa847beeaa907020fe6852d4f1c875a7a", null ],
-    [ "RegisterPCO", "d3/d65/_player_stats_p_c_o_8c.html#ac9b3b09d30144d959d82eb26ecf80a10", null ],
+    [ "PlayerStatsPCO_Base", "d3/d65/_player_stats_p_c_o_8c.html#a03e18ef4b8b51751d97e6f270645bbb2", null ],
     [ "RegisterStat", "d3/d65/_player_stats_p_c_o_8c.html#ae04db6628334e03956ca86c556fa4978", null ],
     [ "ResetAllStats", "d3/d65/_player_stats_p_c_o_8c.html#ae660ecd2664d95edd58ba18a00474046", null ],
-    [ "m_HighestVersion", "d3/d65/_player_stats_p_c_o_8c.html#af555d6edfba89208bdf2d7d1b758c675", null ],
-    [ "m_PCOs", "d3/d65/_player_stats_p_c_o_8c.html#af72c0feab65272f7d6260258111f81a8", null ],
-    [ "m_PlayerStats", "d3/d65/_player_stats_p_c_o_8c.html#a6caf6f44bc19583843551b62911b6e25", null ],
-    [ "PlayerStatsPCO_Base", "d3/d65/_player_stats_p_c_o_8c.html#a3590e77a3fbf291aeba09c0610dbe6c3", null ]
+    [ "SetPlayer", "d3/d65/_player_stats_p_c_o_8c.html#a6405f78072a56526049b4e0be62c087b", null ],
+    [ "m_Player", "d3/d65/_player_stats_p_c_o_8c.html#ad126755385402b37a5b1c4c9696a72fa", null ],
+    [ "m_PlayerStats", "d3/d65/_player_stats_p_c_o_8c.html#a6caf6f44bc19583843551b62911b6e25", null ]
 ];

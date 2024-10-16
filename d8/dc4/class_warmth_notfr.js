@@ -10,5 +10,6 @@ var class_warmth_notfr =
     [ "DEC_TRESHOLD_MED", "d8/dc4/class_warmth_notfr.html#aa8e86a4078cabf2056567ffddd2f4ffe", null ],
     [ "INC_TRESHOLD_HIGH", "d8/dc4/class_warmth_notfr.html#a8bd9dd0a9d21b47e247be3f1a913b748", null ],
     [ "INC_TRESHOLD_LOW", "d8/dc4/class_warmth_notfr.html#a5b6ab9470fd80647d920b204d2f7db7d", null ],
-    [ "INC_TRESHOLD_MED", "d8/dc4/class_warmth_notfr.html#a835eba15f52b4f279fe414a0c2dbb4f1", null ]
+    [ "INC_TRESHOLD_MED", "d8/dc4/class_warmth_notfr.html#a835eba15f52b4f279fe414a0c2dbb4f1", null ],
+    [ "m_AverageHeatComfortDeltaBuffer", "d8/dc4/class_warmth_notfr.html#a8767f09e26cd81177f5f07aff96aad36", null ]
 ];

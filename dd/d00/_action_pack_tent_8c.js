@@ -16,5 +16,6 @@ var _action_pack_tent_8c =
     [ "OnExecute", "dd/d00/_action_pack_tent_8c.html#a8cd166a68dd6f387d58965b4b20698a5", null ],
     [ "OnFinishProgressServer", "dd/d00/_action_pack_tent_8c.html#a00cda41fe9dd093059da5c4b83b591bc", null ],
     [ "SetupAction", "dd/d00/_action_pack_tent_8c.html#aba51e6fb279797318af73e89a6208e71", null ],
-    [ "Start", "dd/d00/_action_pack_tent_8c.html#a41a32155201921d885c85cc4c0bd2962", null ]
+    [ "Start", "dd/d00/_action_pack_tent_8c.html#a41a32155201921d885c85cc4c0bd2962", null ],
+    [ "UseMainItem", "dd/d00/_action_pack_tent_8c.html#ab5d3e8801c3fedefb05fa12886e9d9bf", null ]
 ];

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -110,7 +110,9 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FALL_DAMAGE_AMMO_HEALTH_ATTACHMENT&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a7a98b30d424ccc4e6492114c6f5ebe7e">DayZPlayerImplementFallDamage.c</a></li>
 <li>FALL_DAMAGE_AMMO_HEALTH_OTHER_ATTACHMENTS&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a300c8a38e55561d792b2d223a276b620">DayZPlayerImplementFallDamage.c</a></li>
 <li>FALL_DAMAGE_AMMO_SHOCK&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a7a51d611839efca248062e56aeed64e3">DayZPlayerImplementFallDamage.c</a></li>
+<li>FAST&#160;:&#160;<a class="el" href="d6/d54/_boat_water_effects_8c.html#a05178d36bf5180a0fc622113b80fbbb5af84c11ba888e499a8a282a3e6f5de7de">BoatWaterEffects.c</a></li>
 <li>FATIGUE&#160;:&#160;<a class="el" href="d5/d6b/_stamina_handler_8c.html#a376a4b9c6c3af250997c328957fdb965">StaminaHandler.c</a></li>
+<li>FatigueSoundEvent()&#160;:&#160;<a class="el" href="d5/dcb/_symptom_events_8c.html#a73ccf5f3e3b82c0260aa48c69abd5fc1">SymptomEvents.c</a></li>
 <li>FAVORITE&#160;:&#160;<a class="el" href="db/de7/_bios_lobby_service_8c.html#a390ac710e7d08a168242009afb40a28fafd3a8854adbf848c406058efeac956c9">BiosLobbyService.c</a>, <a class="el" href="d7/de3/_server_browser_tab_8c.html#a6d0b33e703e1291d0b60d4fe5a5e12ccafd3a8854adbf848c406058efeac956c9">ServerBrowserTab.c</a></li>
 <li>FD_AMMO&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#ab94ae05e2037905c1bcf3a6dc67a5991">DayZPlayerImplementFallDamage.c</a></li>
 <li>FD_DMG_FROM_HEIGHT&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a1da17ab8ea6201d6419aec5721adfde0">DayZPlayerImplementFallDamage.c</a></li>
@@ -118,6 +120,7 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FD_MAX_HEIGHT_LEG_BREAK&#160;:&#160;<a class="el" href="de/d1b/_day_z_player_implement_fall_damage_8c.html#a6fcc6b06154bf8f4ea0410ffa51943ef">DayZPlayerImplementFallDamage.c</a></li>
 <li>FEATURE&#160;:&#160;<a class="el" href="d3/d14/group___entity_attributes.html#ggacda3452546886b2b713c62c4a07fd52aa92b0bed91d6c1e5dfaaa5ddd661b9640">EnEntity.c</a></li>
 <li>FEATURE_TIME_ACCEL&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a909efd4c956dd7cb4d3e1a0d5a6155e5">EDiagMenuIDs.c</a></li>
+<li>FEATURE_TIME_ACCEL_DYNAMIC_MUSIC_PLAYER&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a78e8f3debb59a6e30737fdf63e8df8be">EDiagMenuIDs.c</a></li>
 <li>FEATURE_TIME_ACCEL_ENERGY_CONSUME&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a7f8a1109c45781e8ed33e7795ce8e77c">EDiagMenuIDs.c</a></li>
 <li>FEATURE_TIME_ACCEL_ENERGY_RECHARGE&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a955bf2e45c6e0ba03d0573b8c425bc62">EDiagMenuIDs.c</a></li>
 <li>FEATURE_TIME_ACCEL_FOOD_DECAY&#160;:&#160;<a class="el" href="d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a5ecedd4028d1b69f7a652fc5f7a2a8f3">EDiagMenuIDs.c</a></li>
@@ -141,11 +144,14 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FileHandle&#160;:&#160;<a class="el" href="d5/df6/group___file.html#ga72279d650834405bf8c972490d101c6b">EnSystem.c</a></li>
 <li>FileMode&#160;:&#160;<a class="el" href="d5/df6/group___file.html#ga031770da453a180e21dcbef5cf5aeab6">EnSystem.c</a></li>
 <li>FillAgentArray()&#160;:&#160;<a class="el" href="da/dbd/_plugin_item_diagnostic_8c.html#aa55cc91d909930375a32692cec983d94">PluginItemDiagnostic.c</a></li>
+<li>FillContainer()&#160;:&#160;<a class="el" href="d5/dfb/_liquid_8c.html#ac98b9b20f245fbb688b248bf3d2bd381">Liquid.c</a></li>
+<li>FillContainerEnviro()&#160;:&#160;<a class="el" href="d5/dfb/_liquid_8c.html#a3e2b8ea12e94d9056d64c98120480637">Liquid.c</a></li>
 <li>FillErrorDataMap()&#160;:&#160;<a class="el" href="df/d50/_connect_error_script_module_8c.html#aeb8046b7030b3cfe85e38dfa272365a9">ConnectErrorScriptModule.c</a>, <a class="el" href="d3/dce/_error_handler_module_8c.html#a13eef8bab9bd3e2c1eaf821ca9938377">ErrorHandlerModule.c</a></li>
 <li>FillServerFinalVars()&#160;:&#160;<a class="el" href="da/dbd/_plugin_item_diagnostic_8c.html#a4db904ffde038a859802d50871e34ae0">PluginItemDiagnostic.c</a></li>
 <li>FillUpCarFluids()&#160;:&#160;<a class="el" href="d5/d71/_car_script_8c.html#a392a9fb3aa6cebf2d52d96a42544e125">CarScript.c</a></li>
 <li>FillWithAgents()&#160;:&#160;<a class="el" href="da/dbd/_plugin_item_diagnostic_8c.html#a72f7ce61b218af351124d61599d03c76">PluginItemDiagnostic.c</a></li>
 <li>FilmGrain&#160;:&#160;<a class="el" href="dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643ecade0540ead50fe6be92c7baca8a225e5b">EnWorld.c</a></li>
+<li>FilterAgents()&#160;:&#160;<a class="el" href="d8/d81/_edible___base_8c.html#afdb010d1c38a40534242a2145e361d58">Edible_Base.c</a></li>
 <li>FilterObstructedObjectsByGrouping()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a67e371e63791b1443d7a4403501adfdd">MiscGameplayFunctions.c</a></li>
 <li>FilterObstructingObjects()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#afb7c471d722888587eb082dbcff37c79">MiscGameplayFunctions.c</a></li>
 <li>FILTERS&#160;:&#160;<a class="el" href="d7/de3/_server_browser_tab_8c.html#a69a7c3312dbb7ac43ba41c3bfcd8312d">ServerBrowserTab.c</a></li>
@@ -198,12 +204,17 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FireplaceToIndoorsLambda()&#160;:&#160;<a class="el" href="df/d83/_action_place_fireplace_indoor_8c.html#a2ed703661f28bead94376fe08f61f8a6">ActionPlaceFireplaceIndoor.c</a></li>
 <li>FireworksBase()&#160;:&#160;<a class="el" href="d7/da1/_fireworks_base_8c.html#adb430aa2db2c80551bfcf67f6fc21e94">FireworksBase.c</a></li>
 <li>FIRING&#160;:&#160;<a class="el" href="d7/da1/_fireworks_base_8c.html#a99a024998ac536510fcc22b1af41dbdda474a78665486aa3bf180bd018812bc9d">FireworksBase.c</a></li>
-<li>FIRST&#160;:&#160;<a class="el" href="d9/d06/_car_8c.html#ab389c83c7858103858a35c23ab0d3425">Car.c</a>, <a class="el" href="d1/d9d/_plugin_recipes_manager_base_8c.html#a6a7856cca1833641e731676636b193f1">PluginRecipesManagerBase.c</a>, <a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#add6e68d89d9976f50752092dc41fdbbba6a7856cca1833641e731676636b193f1">_constants.c</a></li>
 <li>First&#160;:&#160;<a class="el" href="da/d1f/_double_barrel___base_8c.html#a7b0705f7424c02739891d0c65447ecc1">DoubleBarrel_Base.c</a></li>
+<li>FIRST&#160;:&#160;<a class="el" href="d9/d06/_car_8c.html#ab389c83c7858103858a35c23ab0d3425">Car.c</a>, <a class="el" href="d1/d9d/_plugin_recipes_manager_base_8c.html#a6a7856cca1833641e731676636b193f1">PluginRecipesManagerBase.c</a>, <a class="el" href="dc/df1/4___world_2_classes_2_virtual_hud_2__constants_8c.html#add6e68d89d9976f50752092dc41fdbbba6a7856cca1833641e731676636b193f1">_constants.c</a></li>
 <li>FIRST_EVENT_CHECK_DELAY&#160;:&#160;<a class="el" href="d8/d26/_spooky_area_misc_8c.html#a086dbdac1d90dcc46ce05f76df61ca0c">SpookyAreaMisc.c</a></li>
 <li>FIRSTCONTACT&#160;:&#160;<a class="el" href="dc/d49/group___diag_menu.html#gaeb6b14a836d8cfc2698d5cc39198434c">EnDebug.c</a></li>
 <li>FISH_AGILITY&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#a3e65526190db71d77a63cb735720e095">FishingRod_Base.c</a></li>
 <li>FISH_PULL_CHANCE&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#ab1f4add1a3f1ff236fd4b22e2f102881">FishingRod_Base.c</a></li>
+<li>FISHING_BAIT_LOSS&#160;:&#160;<a class="el" href="d6/d5a/_action_fishing_new_8c.html#a9ef2ef00d73dca31cd01376bbf862f54">ActionFishingNew.c</a></li>
+<li>FISHING_DAMAGE&#160;:&#160;<a class="el" href="d6/d5a/_action_fishing_new_8c.html#ab2badf923175e704e32ac30ef1daeaf4">ActionFishingNew.c</a></li>
+<li>FISHING_GARBAGE_CHANCE&#160;:&#160;<a class="el" href="d6/d5a/_action_fishing_new_8c.html#a30b2e232ab3fd79507e7b57e3c55931e">ActionFishingNew.c</a></li>
+<li>FISHING_HOOK_LOSS&#160;:&#160;<a class="el" href="d6/d5a/_action_fishing_new_8c.html#a4a9d1fdaeb45aa35f8a2b1efb753b751">ActionFishingNew.c</a></li>
+<li>FISHING_SUCCESS&#160;:&#160;<a class="el" href="d6/d5a/_action_fishing_new_8c.html#aa923834f2e0c5adb17807296344e7920">ActionFishingNew.c</a></li>
 <li>FishingRod_Base()&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#a324993ffbd1a9e2ee76dc0681f53830d">FishingRod_Base.c</a></li>
 <li>FishPull()&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#a061ac9813568c8da14ca60d1bea3b98d">FishingRod_Base.c</a></li>
 <li>FitWindow()&#160;:&#160;<a class="el" href="d8/ddd/_hud_debug_win_char_agents_8c.html#a574a1ad69744c4cfab5e203a2010ee3c">HudDebugWinCharAgents.c</a>, <a class="el" href="d2/df4/_hud_debug_win_char_modifiers_8c.html#a574a1ad69744c4cfab5e203a2010ee3c">HudDebugWinCharModifiers.c</a></li>
@@ -213,13 +224,15 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FIXED&#160;:&#160;<a class="el" href="d5/d6b/_stamina_handler_8c.html#a41457d0c71cf541b4d7eb79f739305cb">StaminaHandler.c</a></li>
 <li>FIXED_INDEX&#160;:&#160;<a class="el" href="d8/d6f/_particle_manager_8c.html#ab444c378c8f3ada95baa6b17d743e2ceab85a8cc1cf1444733a60d74a843ce24c">ParticleManager.c</a></li>
 <li>Flag_Base&#160;:&#160;<a class="el" href="dd/d6b/_flag___base_8c.html#a51f2b965c04a41f97b57e95ad3e5e120">Flag_Base.c</a></li>
-<li>FLAG_STEP_INCREMENT&#160;:&#160;<a class="el" href="d3/dee/_action_constants_8c.html#af4989c692434d73b8979b3891a8a107d">ActionConstants.c</a></li>
 <li>FLAGS&#160;:&#160;<a class="el" href="d8/d6f/_particle_manager_8c.html#abfea2a2403e6dabd3eddfcca69d703e9">ParticleManager.c</a></li>
+<li>FLARE_SPIN_RADIUS&#160;:&#160;<a class="el" href="dd/d3b/_flare_simulation_8c.html#aab0ae789a126e3f5c440c402e1fc97cc">FlareSimulation.c</a></li>
+<li>FLARE_SPIN_RATE&#160;:&#160;<a class="el" href="dd/d3b/_flare_simulation_8c.html#aefb9d68ac383d7b94c6ecb203a709049">FlareSimulation.c</a></li>
 <li>FLAREAnimState&#160;:&#160;<a class="el" href="d6/dd0/_flaregun_8c.html#a94a48508f9de4c308a774a69b91c9fd9">Flaregun.c</a></li>
 <li>FlareLight()&#160;:&#160;<a class="el" href="d7/d9d/_flare_light_8c.html#a15e936203be347c7690dbc085237455b">FlareLight.c</a></li>
 <li>FlareLightBlue()&#160;:&#160;<a class="el" href="d7/d9d/_flare_light_8c.html#a86c3dcae7e6f39a6d3c5194ac5ecc7c8">FlareLight.c</a></li>
 <li>FlareLightGreen()&#160;:&#160;<a class="el" href="d7/d9d/_flare_light_8c.html#a9d608cca93bf97347d84aa47ba70c7a3">FlareLight.c</a></li>
 <li>FlareLightRed()&#160;:&#160;<a class="el" href="d7/d9d/_flare_light_8c.html#a9892961faeb83cf480d09be08f64117a">FlareLight.c</a></li>
+<li>FlareParticleUpdate()&#160;:&#160;<a class="el" href="dd/d3b/_flare_simulation_8c.html#a59852f10f483e7ffd2ccc15cc13dc230">FlareSimulation.c</a></li>
 <li>FlareSimulation()&#160;:&#160;<a class="el" href="dd/d3b/_flare_simulation_8c.html#a6b98247ff61b3f8b06198499df73c751">FlareSimulation.c</a></li>
 <li>FlareSimulation_Blue()&#160;:&#160;<a class="el" href="dd/d3b/_flare_simulation_8c.html#a95262aa0e14721443e0e0305d1687aa4">FlareSimulation.c</a></li>
 <li>FlareSimulation_Green()&#160;:&#160;<a class="el" href="dd/d3b/_flare_simulation_8c.html#a5e125af4fcb5b90709b4c9a0e45a51e3">FlareSimulation.c</a></li>
@@ -227,14 +240,15 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FLAREStableStateID&#160;:&#160;<a class="el" href="d6/dd0/_flaregun_8c.html#a2f979fdd8cbc87aab4152a13b56d2163">Flaregun.c</a></li>
 <li>FLASHBANG&#160;:&#160;<a class="el" href="d1/d5d/group___cpp_enums.html#ga55da870a6f94cb090facf41e855832b7">constants.c</a></li>
 <li>FlashGrenadeLight()&#160;:&#160;<a class="el" href="d8/da7/_grenade___base_8c.html#a0378ab926f58062bd0023102c36ab089">Grenade_Base.c</a></li>
+<li>FLIP_FROZEN&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fda28540d43513236a5d83ced895b75af29">EActions.c</a></li>
 <li>FLIPU&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#gga22177e6e3358b5dae620056212478a75a010fce4ded7abc41b3bd0d8f742e0e5c">EnWidgets.c</a></li>
 <li>FLIPV&#160;:&#160;<a class="el" href="d9/d0e/group___widget_a_p_i.html#gga22177e6e3358b5dae620056212478a75a69f7857bb0a415bd1700acf82700c4b4">EnWidgets.c</a></li>
 <li>FLOAT&#160;:&#160;<a class="el" href="d4/de2/_day_z_creature_8c.html#a2c907f81daf49e6e56ae7fdce0764dbea9cf4a0866224b0bb4a7a895da27c9c4c">DayZCreature.c</a></li>
 <li>FloatingCrossHair()&#160;:&#160;<a class="el" href="d4/d9f/_cross_hair_selector_8c.html#a6e10cf8f74e0727c7b6575edd9506b28">CrossHairSelector.c</a></li>
 <li>FModulus()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#aee6c090c366e820b89de4299b3772c99">MiscGameplayFunctions.c</a></li>
 <li>Focus()&#160;:&#160;<a class="el" href="d7/de3/_server_browser_tab_8c.html#a8e1773e99b5f3d5e9a6cf789cf14f8bc">ServerBrowserTab.c</a></li>
-<li>Fog&#160;:&#160;<a class="el" href="d9/d98/_weather_8c.html#a118843cce8444cb6b1e205a6f7b158c1">Weather.c</a></li>
 <li>FOG&#160;:&#160;<a class="el" href="d9/d98/_weather_8c.html#a5dca7ad77003ac5339f198b78de6d463a4b4d6cce0d8dbfc93df4ade050fdc665">Weather.c</a></li>
+<li>Fog&#160;:&#160;<a class="el" href="d9/d98/_weather_8c.html#a118843cce8444cb6b1e205a6f7b158c1">Weather.c</a></li>
 <li>FoldBaseBuildingObject()&#160;:&#160;<a class="el" href="d1/dcf/_base_building_base_8c.html#a97cc4900d63357df489a282ff2e18b41">BaseBuildingBase.c</a></li>
 <li>FOLDED&#160;:&#160;<a class="el" href="d0/d4a/_trap___trip_wire_8c.html#a25611e326fe1b4ab140780b9d9460044">Trap_TripWire.c</a></li>
 <li>FoldTripWire()&#160;:&#160;<a class="el" href="d0/d4a/_trap___trip_wire_8c.html#a74760c70d995dba9f713e3cf17ea9405">Trap_TripWire.c</a></li>
@@ -242,8 +256,12 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FOOD_STAGE_NEXT&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fda1268c8824c16297e978a06b654843594">EActions.c</a></li>
 <li>FOOD_STAGE_PREV&#160;:&#160;<a class="el" href="d0/db8/_e_actions_8c.html#ab13ea01ba7de7bcacfe6268aeb6b04fda89e382e2a5aa075d497a877f2674df7c">EActions.c</a></li>
 <li>FoodStageType&#160;:&#160;<a class="el" href="d1/d0e/_food_stage_8c.html#a41b01b1ab76bb334479607981e0f22e8">FoodStage.c</a></li>
+<li>FORCE_DRINK&#160;:&#160;<a class="el" href="d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a2fe12fb140912334d9279a1753daf713">PlayerSoundEventHandler.c</a></li>
+<li>FORCE_FEED&#160;:&#160;<a class="el" href="d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a5c31df1d17fff88ef3734ebf131ff46c">PlayerSoundEventHandler.c</a></li>
 <li>FORCE_WORLD_ROT&#160;:&#160;<a class="el" href="d7/d75/_particle_source_8c.html#af211ac9e81caf78faa6d872a10a62505">ParticleSource.c</a></li>
 <li>ForceAction()&#160;:&#160;<a class="el" href="d2/df5/_action_input_8c.html#a5b58f3224a36e0207baf6be7d0d44165">ActionInput.c</a></li>
+<li>ForceConsumeSoundEvent()&#160;:&#160;<a class="el" href="db/d25/_misc_events_8c.html#a53fd882d745a7d41d7e7b9e13c2520b7">MiscEvents.c</a></li>
+<li>ForceFeedSoundEvent()&#160;:&#160;<a class="el" href="db/d25/_misc_events_8c.html#a79e58eb94c1e955011a7cf2835c9988d">MiscEvents.c</a></li>
 <li>FORCEFPS&#160;:&#160;<a class="el" href="dc/d48/group___mesh_object.html#gabf9e27392edde366eb04a5d4ed8ae104">EnVisual.c</a></li>
 <li>ForceFreelook()&#160;:&#160;<a class="el" href="d3/dd8/_day_z_player_camera___base_8c.html#ade3f2fb67ced5c1f98e59e19a5e75354">DayZPlayerCamera_Base.c</a></li>
 <li>ForceStance()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a91c6bd84a85f9a092dda41d341df16c6">human.c</a></li>
@@ -266,7 +284,6 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>FRAME&#160;:&#160;<a class="el" href="d3/d14/group___entity_attributes.html#ggaa29339063b04471895b3cb38b17cdb13a200c1bcf1eaa8635daa3cbb5fdd2ebb6">EnEntity.c</a></li>
 <li>FREEZING&#160;:&#160;<a class="el" href="d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a75412e2bd8ba3afc57aea4165a1e26d3">PlayerSoundEventHandler.c</a></li>
 <li>FreezingSoundEvent()&#160;:&#160;<a class="el" href="db/d80/_heat_comfort_events_8c.html#ace0f2a175aec82461504d96a4ef16197">HeatComfortEvents.c</a></li>
-<li>FRESH&#160;:&#160;<a class="el" href="d3/dee/_action_constants_8c.html#af1b3f8f82c3eaa286956e1345175e71f">ActionConstants.c</a></li>
 <li>FRIEND_CONNECTED&#160;:&#160;<a class="el" href="d5/d74/_notification_system_8c.html#a25a31a4bdc02a0d0adb743e26dd14ba9ae11bf5dfdc372c73f21bceee4320112b">NotificationSystem.c</a></li>
 <li>FromEnum()&#160;:&#160;<a class="el" href="d3/d14/group___entity_attributes.html#ga9d32d0b7032fe5475eef2af8e5790e98">EnEntity.c</a></li>
 <li>FRONT&#160;:&#160;<a class="el" href="d6/d49/_e_transformation_axis_8c.html#acb95b6b3abdc25869b1293fad700bda5a76bd5ec6ea9d8a1b582d8d5e43102a02">ETransformationAxis.c</a></li>
@@ -280,7 +297,7 @@ $(document).ready(function(){initNavTree('globals_f.html',''); initResizable(); 
 <li>fsmDebugSpam()&#160;:&#160;<a class="el" href="d4/d99/_h_f_s_m_base_8c.html#a42ec7b4847da51d422f4b048151c94a1">HFSMBase.c</a></li>
 <li>FSMTransition&#160;:&#160;<a class="el" href="de/df2/_weapon___base_8c.html#a75cb9956af28760c53ebba36b0a0af17">Weapon_Base.c</a></li>
 <li>FSWAP&#160;:&#160;<a class="el" href="d1/dab/_inventory_combination_flags_8c.html#a0556ef17767440421e96c9b79a2ac730">InventoryCombinationFlags.c</a></li>
-<li>FUEL&#160;:&#160;<a class="el" href="d9/d06/_car_8c.html#a7e3ece2c12d3089c67bc1cc511b5fd3ea8bda58832a68157abbcdcbb92f2e797c">Car.c</a></li>
+<li>FUEL&#160;:&#160;<a class="el" href="dc/d02/_boat_8c.html#a1a7f4e6e850e86fec3e106de5f3d13b4a8bda58832a68157abbcdcbb92f2e797c">Boat.c</a>, <a class="el" href="d9/d06/_car_8c.html#a7e3ece2c12d3089c67bc1cc511b5fd3ea8bda58832a68157abbcdcbb92f2e797c">Car.c</a></li>
 <li>FUEL_BURN_RATE_DEFAULT&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#aa3743f8d8435ca434419d225675021d4">FireplaceBase.c</a></li>
 <li>FUEL_BURN_RATE_OVEN&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#a945409b800c6ae5738145027f9e292b4">FireplaceBase.c</a></li>
 <li>FUEL_BURN_RATE_STONES&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#aab90280d2cad804b2193cf6fc4c624f9">FireplaceBase.c</a></li>

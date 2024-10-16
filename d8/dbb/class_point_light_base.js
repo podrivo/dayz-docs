@@ -30,6 +30,7 @@ var class_point_light_base =
     [ "SetInteriorMode", "d8/dbb/class_point_light_base.html#a8c8069b05a60f36608af036bdde47cc9", null ],
     [ "StoveLight", "d8/dbb/class_point_light_base.html#a3bd1d93d55b38920b95245b4def0235b", null ],
     [ "TorchLight", "d8/dbb/class_point_light_base.html#ad934eb74be73f8bc1fcda5c8932af5c8", null ],
+    [ "WarheadStorageLight", "d8/dbb/class_point_light_base.html#a83de8e434ccacf1822b8eabb81ac26e0", null ],
     [ "XmasSleighLight", "d8/dbb/class_point_light_base.html#ae841664b933bb03e11182c5157623c5e", null ],
     [ "XmasTreeLight", "d8/dbb/class_point_light_base.html#aab1892b3ddf43f2587e828916105179f", null ],
     [ "ZombieMummyLight", "d8/dbb/class_point_light_base.html#a5111f84933d8e206c390a5c883352b16", null ],

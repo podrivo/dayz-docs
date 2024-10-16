@@ -114,6 +114,8 @@ var dir_16172909d47e0c14f9caca049b6c1810 =
     [ "Raycaster.c", "d3/dcd/_raycaster_8c.html", "d3/dcd/_raycaster_8c" ],
     [ "Refridgerator.c", "d6/d57/_refridgerator_8c.html", "d6/d57/_refridgerator_8c" ],
     [ "Roadflare.c", "d5/dfb/_roadflare_8c.html", "d5/dfb/_roadflare_8c" ],
+    [ "ScientificBriefcase.c", "dd/d2d/_scientific_briefcase_8c.html", "dd/d2d/_scientific_briefcase_8c" ],
+    [ "ScientificBriefcaseKeys.c", "d3/d29/_scientific_briefcase_keys_8c.html", "d3/d29/_scientific_briefcase_keys_8c" ],
     [ "Screwdriver.c", "d0/da0/_screwdriver_8c.html", "d0/da0/_screwdriver_8c" ],
     [ "SeedPackBase.c", "d2/d54/_seed_pack_base_8c.html", "d2/d54/_seed_pack_base_8c" ],
     [ "ShelterKit.c", "de/dd8/_shelter_kit_8c.html", "de/dd8/_shelter_kit_8c" ],

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -227,6 +227,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga54b2e970e58edf1d54c194281c6b8283"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/group___rigid_body.html#ga54b2e970e58edf1d54c194281c6b8283">dBodySetTargetMatrix</a> (notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> body, <a class="el" href="../../d7/dfc/classvector.html">vector</a> matrix[4], <a class="el" href="../../d4/dc3/classfloat.html">float</a> timeslice)</td></tr>
 <tr class="memdesc:ga54b2e970e58edf1d54c194281c6b8283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets target transformation. If timeslice == dt (simulation step delta time), it will happen in next step, otherwise in time = timeslice.  <br /></td></tr>
 <tr class="separator:ga54b2e970e58edf1d54c194281c6b8283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeeaf9507c2d5f0f253ae3703fa77552e"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/group___rigid_body.html#gaeeaf9507c2d5f0f253ae3703fa77552e">dBodyGetWorldTransform</a> (notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> body, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> matrix[4])</td></tr>
+<tr class="separator:gaeeaf9507c2d5f0f253ae3703fa77552e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec0d165b7ed0926f15648930999b1a33"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/group___rigid_body.html#gaec0d165b7ed0926f15648930999b1a33">dBodyGetDirectWorldTransform</a> (notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> body, out <a class="el" href="../../d7/dfc/classvector.html">vector</a> matrix[4])</td></tr>
+<tr class="separator:gaec0d165b7ed0926f15648930999b1a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa977bf8020939588f44d1e3f1697e327"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/group___rigid_body.html#gaa977bf8020939588f44d1e3f1697e327">dBodyGetKineticEnergy</a> (notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> body)</td></tr>
 <tr class="separator:gaa977bf8020939588f44d1e3f1697e327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga215665a4d6b653bdbc166ef8dad0d211"><td class="memItemLeft" align="right" valign="top">proto native <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/group___rigid_body.html#ga215665a4d6b653bdbc166ef8dad0d211">dBodyGetVelocityAt</a> (notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> body, <a class="el" href="../../d7/dfc/classvector.html">vector</a> globalpos)</td></tr>
@@ -416,7 +420,7 @@ Functions</h2></td></tr>
 
 <p>Applies impuls on a pos position in world coordinates. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/df3/_action_push_car_8c.html#a52a24776fb7cd3c056448a815fc49ac8">ApplyForce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/df3/_action_push_car_8c.html#a0b36da893db414fdbac2fc622fc98011">ApplyForce()</a>.</p>
 
 </div>
 </div>
@@ -847,6 +851,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gaec0d165b7ed0926f15648930999b1a33" name="gaec0d165b7ed0926f15648930999b1a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec0d165b7ed0926f15648930999b1a33">&#9670;&#160;</a></span>dBodyGetDirectWorldTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto native void dBodyGetDirectWorldTransform </td>
+          <td>(</td>
+          <td class="paramtype">notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>[4]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga4fc15e4db0d946ed860030eeadd6dc3d" name="ga4fc15e4db0d946ed860030eeadd6dc3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4fc15e4db0d946ed860030eeadd6dc3d">&#9670;&#160;</a></span>dBodyGetGeomInteractionLayer()</h2>
 
@@ -993,7 +1025,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/df3/_action_push_car_8c.html#a52a24776fb7cd3c056448a815fc49ac8">ApplyForce()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a65638cecaf096d3b309491d72546d326">CheckContactCache()</a>, and <a class="el" href="../../d5/d71/_car_script_8c.html#a979431c323600634ce75adfbedda51ab">GetMomentum()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/df3/_action_push_car_8c.html#a0b36da893db414fdbac2fc622fc98011">ApplyForce()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a65638cecaf096d3b309491d72546d326">CheckContactCache()</a>, and <a class="el" href="../../df/df9/class_entity_a_i.html#a979431c323600634ce75adfbedda51ab">EntityAI::GetMomentum()</a>.</p>
 
 </div>
 </div>
@@ -1022,6 +1054,38 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#a07f9b8f0e51242525d4c618354a03fe0">EOnPostSimulate()</a>, <a class="el" href="../../d6/d37/class_boat_script.html#ab6126f7a0a3546686450118bcc1e8d7b">BoatScript::HandleBoatSplashSound()</a>, <a class="el" href="../../d0/d36/class_action_get_out_transport.html#aa56c7f33ce181b2299c1d100d4d3a4a0">ActionGetOutTransport::ProcessGetOutTransportActionData()</a>, and <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga70ac517aa5d3b3af95f61a2d560d811f">Update()</a>.</p>
+
+</div>
+</div>
+<a id="gaeeaf9507c2d5f0f253ae3703fa77552e" name="gaeeaf9507c2d5f0f253ae3703fa77552e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeeaf9507c2d5f0f253ae3703fa77552e">&#9670;&#160;</a></span>dBodyGetWorldTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">proto native void dBodyGetWorldTransform </td>
+          <td>(</td>
+          <td class="paramtype">notnull <a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>[4]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d37/class_boat_script.html#ae50e93b0afe30d7e5d18ed62750a473d">BoatScript::EOnSimulate()</a>, and <a class="el" href="../../d6/d37/class_boat_script.html#aff5f5c56f35ec1a3c873d73571e50a92">BoatScript::OnEngineStop()</a>.</p>
 
 </div>
 </div>
@@ -1505,12 +1569,12 @@ Functions</h2></td></tr>
 <div class="line"><a class="code hl_function" href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a>( <a class="code hl_function" href="../../d7/d1e/group___rigid_body.html#ga3e827787960ad4f9fd63618e6bf20e8a">GetVelocity</a>(player) );</div>
 <div class="line"> </div>
 <div class="line">&gt;&gt; &lt;0,0,0&gt;</div>
-<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition</b> DayZGame.c:3758</div></div>
+<div class="ttc" id="a_day_z_game_8c_html_a5b4f7935d7cbb89f7a4610452d633707"><div class="ttname"><a href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a></div><div class="ttdeci">DayZGame g_Game</div><div class="ttdef"><b>Definition</b> DayZGame.c:3815</div></div>
 <div class="ttc" id="agroup___debug_html_gaaa9351d895a1f244a26fd635c378c536"><div class="ttname"><a href="../../d0/d62/group___debug.html#gaaa9351d895a1f244a26fd635c378c536">Print</a></div><div class="ttdeci">proto void Print(void var)</div><div class="ttdoc">Prints content of variable to console/log.</div></div>
 <div class="ttc" id="agroup___rigid_body_html_ga3e827787960ad4f9fd63618e6bf20e8a"><div class="ttname"><a href="../../d7/d1e/group___rigid_body.html#ga3e827787960ad4f9fd63618e6bf20e8a">GetVelocity</a></div><div class="ttdeci">proto native vector GetVelocity(notnull IEntity ent)</div><div class="ttdoc">Returns linear velocity.</div></div>
 </div><!-- fragment --> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#a65638cecaf096d3b309491d72546d326">CheckContactCache()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a07f9b8f0e51242525d4c618354a03fe0">EOnPostSimulate()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a979431c323600634ce75adfbedda51ab">GetMomentum()</a>, <a class="el" href="../../d3/de9/class_day_z_creature.html#aab14292ad58a7cf395f5200e8d18c8d2">DayZCreature::ModCommandHandlerBefore()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#acba5b2837a47ec398b44a0e8802b6459">OnContact()</a>, <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate()</a>, <a class="el" href="../../d2/d96/class_entity.html#a51cd720b31405fc6a25fbc44323cf148">Entity::RegisterTransportHit()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c.html#af5ca1e23035798fe2f034cdd5f36f702">ThrowAllItemsInInventory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d71/_car_script_8c.html#a65638cecaf096d3b309491d72546d326">CheckContactCache()</a>, <a class="el" href="../../d6/d37/class_boat_script.html#a2b98e8895f74933558afebe948377a1e">BoatScript::EOnContact()</a>, <a class="el" href="../../d6/d37/class_boat_script.html#a07f9b8f0e51242525d4c618354a03fe0">BoatScript::EOnPostSimulate()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#a07f9b8f0e51242525d4c618354a03fe0">EOnPostSimulate()</a>, <a class="el" href="../../df/df9/class_entity_a_i.html#a979431c323600634ce75adfbedda51ab">EntityAI::GetMomentum()</a>, <a class="el" href="../../dc/d23/class_boat_hud.html#ae0d70963c7efc2d163e710df9d38cc92">BoatHud::GetSpeedometer()</a>, <a class="el" href="../../d3/de9/class_day_z_creature.html#aab14292ad58a7cf395f5200e8d18c8d2">DayZCreature::ModCommandHandlerBefore()</a>, <a class="el" href="../../d5/d71/_car_script_8c.html#acba5b2837a47ec398b44a0e8802b6459">OnContact()</a>, <a class="el" href="../../d5/d7c/_day_z_player_camera_vehicles_8c.html#a33ce173bffe5efbb8e2e1af06a594805">OnUpdate()</a>, <a class="el" href="../../d2/d96/class_entity.html#a51cd720b31405fc6a25fbc44323cf148">Entity::RegisterTransportHit()</a>, and <a class="el" href="../../dc/d98/_misc_gameplay_functions_8c.html#af5ca1e23035798fe2f034cdd5f36f702">ThrowAllItemsInInventory()</a>.</p>
 
 </div>
 </div>

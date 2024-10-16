@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,6 +131,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2e93be3b0c56562927295e3fe28169f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be12174fdcbcb0edff7eb54f9630a7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a6be12174fdcbcb0edff7eb54f9630a7b">~EntityAI</a> ()</td></tr>
 <tr class="separator:a6be12174fdcbcb0edff7eb54f9630a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d0436d80f196ab9104089e396fe134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a72d0436d80f196ab9104089e396fe134">InitItemVariables</a> ()</td></tr>
+<tr class="separator:a72d0436d80f196ab9104089e396fe134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d6cf262c90e4062101a45b57b7e6126"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a5d6cf262c90e4062101a45b57b7e6126">DeferredInit</a> ()</td></tr>
 <tr class="separator:a5d6cf262c90e4062101a45b57b7e6126"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d722e33d5e4075d4f0fc88c7cb54bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">IsInitialized</a> ()</td></tr>
@@ -248,7 +250,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a357657ded604ecb97b76251146f7ac75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a357657ded604ecb97b76251146f7ac75">IsEmpty</a> ()</td></tr>
 <tr class="memdesc:a357657ded604ecb97b76251146f7ac75"><td class="mdescLeft">&#160;</td><td class="mdescRight">is this container empty or not, checks both cargo and attachments  <br /></td></tr>
 <tr class="separator:a357657ded604ecb97b76251146f7ac75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec58226752963042468b7025d77f5a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aec58226752963042468b7025d77f5a2e">IsSplitable</a> ()</td></tr>
+<tr class="memdesc:aec58226752963042468b7025d77f5a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns just the configured 'canBeSplit' bool  <br /></td></tr>
+<tr class="separator:aec58226752963042468b7025d77f5a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dfcd037402a281731a172a1ff89d843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a1dfcd037402a281731a172a1ff89d843">CanBeSplit</a> ()</td></tr>
+<tr class="memdesc:a1dfcd037402a281731a172a1ff89d843"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current splitability  <br /></td></tr>
 <tr class="separator:a1dfcd037402a281731a172a1ff89d843"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5685e0da689324318519cebbe3d71067"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a5685e0da689324318519cebbe3d71067">HasAnyCargo</a> ()</td></tr>
 <tr class="memdesc:a5685e0da689324318519cebbe3d71067"><td class="mdescLeft">&#160;</td><td class="mdescRight">is this container empty or not, checks only cargo  <br /></td></tr>
@@ -257,6 +263,13 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6f25353a36ed71c8be32844984ac7a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe0e893e5f8be7ae85c030ca61cca10b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#abe0e893e5f8be7ae85c030ca61cca10b">GetAttachmentsWithAttachments</a> ()</td></tr>
 <tr class="separator:abe0e893e5f8be7ae85c030ca61cca10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96c1608a4681344a59bd75a2c65042ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a96c1608a4681344a59bd75a2c65042ee">IsRoofAbove</a> ()</td></tr>
+<tr class="separator:a96c1608a4681344a59bd75a2c65042ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03b41c8ebeef2edf4b9c2b76b362fe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#af03b41c8ebeef2edf4b9c2b76b362fe4">SetRoofAbove</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> state)</td></tr>
+<tr class="separator:af03b41c8ebeef2edf4b9c2b76b362fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda512f5c2e9f66897d9bd28e0782d72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#acda512f5c2e9f66897d9bd28e0782d72">CheckForRoofLimited</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> timeTresholdMS=3000)</td></tr>
+<tr class="memdesc:acda512f5c2e9f66897d9bd28e0782d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Roof check for entity, limited by time (anti-spam solution)  <br /></td></tr>
+<tr class="separator:acda512f5c2e9f66897d9bd28e0782d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adac4b5411a2da62affc47b3aebe3eadf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#adac4b5411a2da62affc47b3aebe3eadf">GetAgents</a> ()</td></tr>
 <tr class="separator:adac4b5411a2da62affc47b3aebe3eadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07fbfd43ad0a754dc02ff6dd5ce9b311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a07fbfd43ad0a754dc02ff6dd5ce9b311">RemoveAgent</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> agent_id)</td></tr>
@@ -468,8 +481,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a3946fc4f3b7d4331c7b0d25fe4040645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6387adc8386f9539d27943afd9f0cb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aa6387adc8386f9539d27943afd9f0cb3">CanBeCombined</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> other_item, <a class="el" href="../../d9/db9/classbool.html">bool</a> reservation_check=true, <a class="el" href="../../d9/db9/classbool.html">bool</a> stack_max_limit=false)</td></tr>
 <tr class="separator:aa6387adc8386f9539d27943afd9f0cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1accffa1395c429ddc5dd9cdab313bba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a1accffa1395c429ddc5dd9cdab313bba">CombineItemsEx</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> entity2, <a class="el" href="../../d9/db9/classbool.html">bool</a> use_stack_max=false)</td></tr>
+<tr class="separator:a1accffa1395c429ddc5dd9cdab313bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d47d90cd4c78bf056b90a018761ee37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a4d47d90cd4c78bf056b90a018761ee37">SplitIntoStackMaxEx</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> destination_entity, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> slot_id)</td></tr>
+<tr class="separator:a4d47d90cd4c78bf056b90a018761ee37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a489ace2853dbad159b711d03591f2bea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a489ace2853dbad159b711d03591f2bea">CombineItemsClient</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> entity2, <a class="el" href="../../d9/db9/classbool.html">bool</a> use_stack_max=false)</td></tr>
 <tr class="separator:a489ace2853dbad159b711d03591f2bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6df2bdd2f96432c7136131bffe2994"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#abb6df2bdd2f96432c7136131bffe2994">SplitIntoStackMaxClient</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> destination_entity, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> slot_id)</td></tr>
+<tr class="separator:abb6df2bdd2f96432c7136131bffe2994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab69b295c610ba947998631b50837d3b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ab69b295c610ba947998631b50837d3b5">CanReceiveItemIntoCargo</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> item)</td></tr>
 <tr class="memdesc:ab69b295c610ba947998631b50837d3b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls this-&gt;CanReceiveItemIntoCargo(item)  <br /></td></tr>
 <tr class="separator:ab69b295c610ba947998631b50837d3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -658,21 +677,45 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a3790906043615e40c6f7859e50990b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f7ed8e2ffa7986c1b060a68d26ec766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#af314c3a601e8bcad07a607f60bce1176">EWetnessLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a4f7ed8e2ffa7986c1b060a68d26ec766">GetWetLevel</a> ()</td></tr>
 <tr class="separator:a4f7ed8e2ffa7986c1b060a68d26ec766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58de4fdc2b9c29a876ca61e155f55fb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a58de4fdc2b9c29a876ca61e155f55fb5">HasQuantity</a> ()</td></tr>
+<tr class="separator:a58de4fdc2b9c29a876ca61e155f55fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace92be92cf29ae58794f5ab39a6269ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ace92be92cf29ae58794f5ab39a6269ec">SetQuantity</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> value, <a class="el" href="../../d9/db9/classbool.html">bool</a> destroy_config=true, <a class="el" href="../../d9/db9/classbool.html">bool</a> destroy_forced=false, <a class="el" href="../../d9/db9/classbool.html">bool</a> allow_client=false, <a class="el" href="../../d9/db9/classbool.html">bool</a> clamp_to_stack_max=true)</td></tr>
+<tr class="separator:ace92be92cf29ae58794f5ab39a6269ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d57ac8a00fab716f6983223689ba4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#af5d57ac8a00fab716f6983223689ba4a">GetQuantity</a> ()</td></tr>
 <tr class="separator:af5d57ac8a00fab716f6983223689ba4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d4525d79f034ee65cf45c374123a3b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a7d4525d79f034ee65cf45c374123a3b0">GetQuantityNormalized</a> ()</td></tr>
+<tr class="separator:a7d4525d79f034ee65cf45c374123a3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a575a9a3ffd1ac6029401379ddd561cfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a575a9a3ffd1ac6029401379ddd561cfb">GetQuantityMax</a> ()</td></tr>
 <tr class="separator:a575a9a3ffd1ac6029401379ddd561cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac45c11fcb6c8914faf0e0a1fe64e01d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ac45c11fcb6c8914faf0e0a1fe64e01d3">GetQuantityMin</a> ()</td></tr>
+<tr class="separator:ac45c11fcb6c8914faf0e0a1fe64e01d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae758a37edd47defa74c66ba7d7b26a8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae758a37edd47defa74c66ba7d7b26a8a">SetQuantityToMinimum</a> ()</td></tr>
 <tr class="separator:ae758a37edd47defa74c66ba7d7b26a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa31c2ff86f6895c23305c8ff63f7a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#afa31c2ff86f6895c23305c8ff63f7a77">GetTargetQuantityMax</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> attSlotID=-1)</td></tr>
 <tr class="separator:afa31c2ff86f6895c23305c8ff63f7a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d4a24ae48b667bf6e2f86adcecdf3b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a5d4a24ae48b667bf6e2f86adcecdf3b3">GetQuickBarBonus</a> ()</td></tr>
 <tr class="separator:a5d4a24ae48b667bf6e2f86adcecdf3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81296bb3b17635b5d5e0972b9694537d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a81296bb3b17635b5d5e0972b9694537d">UseConfigInitTemperature</a> ()</td></tr>
+<tr class="separator:a81296bb3b17635b5d5e0972b9694537d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79bdcc73f788513f310522b3b1f1bf4"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ad79bdcc73f788513f310522b3b1f1bf4">InitTemperature</a> ()</td></tr>
+<tr class="separator:ad79bdcc73f788513f310522b3b1f1bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a697e550ee4183f2b6abbf49b3a0d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ad3a697e550ee4183f2b6abbf49b3a0d3">SetTemperatureDirect</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> value, <a class="el" href="../../d9/db9/classbool.html">bool</a> allow_client=false)</td></tr>
+<tr class="separator:ad3a697e550ee4183f2b6abbf49b3a0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20297f00bb9bc2db65d34716c2ebf435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a20297f00bb9bc2db65d34716c2ebf435">SetTemperature</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> value, <a class="el" href="../../d9/db9/classbool.html">bool</a> allow_client=false)</td></tr>
+<tr class="memdesc:a20297f00bb9bc2db65d34716c2ebf435"><td class="mdescLeft">&#160;</td><td class="mdescRight">not really deprecated, but missing context info from <a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>. Default values used instead.  <br /></td></tr>
 <tr class="separator:a20297f00bb9bc2db65d34716c2ebf435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3cf0914ac6611cca27ca76922beca42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ad3cf0914ac6611cca27ca76922beca42">AddTemperature</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> value)</td></tr>
 <tr class="separator:ad3cf0914ac6611cca27ca76922beca42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dc5d68ed79c5c4812f5dcdcd02afcea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a0dc5d68ed79c5c4812f5dcdcd02afcea">SetTemperatureEx</a> (<a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a> data)</td></tr>
+<tr class="memdesc:a0dc5d68ed79c5c4812f5dcdcd02afcea"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets temperature, handles base overheating and freezing state progression logics  <br /></td></tr>
+<tr class="separator:a0dc5d68ed79c5c4812f5dcdcd02afcea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab643eb0400914e9888c6a278585a8b3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ab643eb0400914e9888c6a278585a8b3c">RefreshTemperatureAccess</a> (<a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a> data)</td></tr>
+<tr class="memdesc:ab643eb0400914e9888c6a278585a8b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">refreshes access without setting temperature, keeps the source locked in  <br /></td></tr>
+<tr class="separator:ab643eb0400914e9888c6a278585a8b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2defe007341d860117c462a2e0b843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a0a2defe007341d860117c462a2e0b843">InterpolateTempData</a> (TemperatureDataInterpolated data)</td></tr>
+<tr class="separator:a0a2defe007341d860117c462a2e0b843"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a702e8a89f90950c5b552ae459f046ad3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a702e8a89f90950c5b552ae459f046ad3">SetTemperatureMax</a> ()</td></tr>
+<tr class="memdesc:a702e8a89f90950c5b552ae459f046ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">presumably for debug purposes?  <br /></td></tr>
 <tr class="separator:a702e8a89f90950c5b552ae459f046ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a597cefde4775c2427d52c7e88a482745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a597cefde4775c2427d52c7e88a482745">GetTemperature</a> ()</td></tr>
 <tr class="separator:a597cefde4775c2427d52c7e88a482745"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -682,6 +725,82 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a43ac0583354a56a5506331f1fc1ec9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c27393c09cdde3200a7db0b5ee96d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a37c27393c09cdde3200a7db0b5ee96d1">GetTemperatureMax</a> ()</td></tr>
 <tr class="separator:a37c27393c09cdde3200a7db0b5ee96d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2244e32c7666ab6737cd18630fbe72de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a2244e32c7666ab6737cd18630fbe72de">GetHeatPermeabilityCoef</a> ()</td></tr>
+<tr class="memdesc:a2244e32c7666ab6737cd18630fbe72de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns temperature change speed multiplier for this item and all its children (multiplicative interaction)  <br /></td></tr>
+<tr class="separator:a2244e32c7666ab6737cd18630fbe72de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774f363e3fbaaef961398f521d200dc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a774f363e3fbaaef961398f521d200dc2">GetTemperatureFreezeThreshold</a> ()</td></tr>
+<tr class="separator:a774f363e3fbaaef961398f521d200dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae437a802c1cbc5e9f5d113dc058215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#adae437a802c1cbc5e9f5d113dc058215">GetTemperatureThawThreshold</a> ()</td></tr>
+<tr class="separator:adae437a802c1cbc5e9f5d113dc058215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76fb004a9b21e7ab33a356c258a2a40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aa76fb004a9b21e7ab33a356c258a2a40">GetTemperatureFreezeTime</a> ()</td></tr>
+<tr class="separator:aa76fb004a9b21e7ab33a356c258a2a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dac3a63ff425bddc318ff9ea5786e06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a8dac3a63ff425bddc318ff9ea5786e06">GetTemperatureThawTime</a> ()</td></tr>
+<tr class="separator:a8dac3a63ff425bddc318ff9ea5786e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15983c567ea744bddf0ad41357839fc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a15983c567ea744bddf0ad41357839fc3">GetFreezeThawProgress</a> ()</td></tr>
+<tr class="memdesc:a15983c567ea744bddf0ad41357839fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">on server only  <br /></td></tr>
+<tr class="separator:a15983c567ea744bddf0ad41357839fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4627569ddafb802b6007125ed434159d"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a4627569ddafb802b6007125ed434159d">SetFreezeThawProgress</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> val)</td></tr>
+<tr class="memdesc:a4627569ddafb802b6007125ed434159d"><td class="mdescLeft">&#160;</td><td class="mdescRight">0-&gt;1 when freezing, 1-&gt;0 when thawing  <br /></td></tr>
+<tr class="separator:a4627569ddafb802b6007125ed434159d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab63515807e80f6b5563b7947a76dfcfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ab63515807e80f6b5563b7947a76dfcfc">CanFreeze</a> ()</td></tr>
+<tr class="separator:ab63515807e80f6b5563b7947a76dfcfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca2cd30a40dbcc134d82c58d0a76502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aaca2cd30a40dbcc134d82c58d0a76502">GetIsFrozen</a> ()</td></tr>
+<tr class="separator:aaca2cd30a40dbcc134d82c58d0a76502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4338afd385cc57188197fb943f9196"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a2d4338afd385cc57188197fb943f9196">SetFrozen</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> frozen)</td></tr>
+<tr class="separator:a2d4338afd385cc57188197fb943f9196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a26ef491684181c47a530f997bfe894"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a8a26ef491684181c47a530f997bfe894">HandleFreezingProgression</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> deltaHeat, <a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a> data)</td></tr>
+<tr class="separator:a8a26ef491684181c47a530f997bfe894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a54c6e5e2ae16c72f8731b2000f83f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a13a54c6e5e2ae16c72f8731b2000f83f">OnFreezeStateChangeClient</a> ()</td></tr>
+<tr class="separator:a13a54c6e5e2ae16c72f8731b2000f83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfc54b89280a12fc0a7cda2095e5bae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a8dfc54b89280a12fc0a7cda2095e5bae">OnFreezeStateChangeServer</a> ()</td></tr>
+<tr class="separator:a8dfc54b89280a12fc0a7cda2095e5bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554872f25531f151550ebc30764b6590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a554872f25531f151550ebc30764b6590">CanItemOverheat</a> ()</td></tr>
+<tr class="memdesc:a554872f25531f151550ebc30764b6590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overheat time CAN be 0, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga0fdbd63fd0c167a7eb07cfb3d8664cca">GameConstants.TEMPERATURE_TIME_OVERHEAT_MIN</a> is ignored if so.  <br /></td></tr>
+<tr class="separator:a554872f25531f151550ebc30764b6590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c4ce214f4f13834e232bd686fc8702"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a46c4ce214f4f13834e232bd686fc8702">GetItemOverheatThreshold</a> ()</td></tr>
+<tr class="memdesc:a46c4ce214f4f13834e232bd686fc8702"><td class="mdescLeft">&#160;</td><td class="mdescRight">if undefined, max temperature used as default  <br /></td></tr>
+<tr class="separator:a46c4ce214f4f13834e232bd686fc8702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84a564dc0cc3a377aaf5a085973802c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae84a564dc0cc3a377aaf5a085973802c">GetItemOverheatTime</a> ()</td></tr>
+<tr class="memdesc:ae84a564dc0cc3a377aaf5a085973802c"><td class="mdescLeft">&#160;</td><td class="mdescRight">any configured value &gt;= 0 will simulate overheating  <br /></td></tr>
+<tr class="separator:ae84a564dc0cc3a377aaf5a085973802c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6830fac8a91d55cc7bf2e4be30a2ae3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a6830fac8a91d55cc7bf2e4be30a2ae3d">IsItemOverheated</a> ()</td></tr>
+<tr class="separator:a6830fac8a91d55cc7bf2e4be30a2ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cde9c1c2bfb0b04b17001bfd83f7390"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a7cde9c1c2bfb0b04b17001bfd83f7390">GetItemOverheatProgress</a> ()</td></tr>
+<tr class="separator:a7cde9c1c2bfb0b04b17001bfd83f7390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f8c25df8b0b86b99c1f5971208372f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#af1f8c25df8b0b86b99c1f5971208372f">SetItemOverheatProgress</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> val, <a class="el" href="../../d4/dc3/classfloat.html">float</a> deltaTime=0)</td></tr>
+<tr class="separator:af1f8c25df8b0b86b99c1f5971208372f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb41c0f6d447844dbd89bb4484f7e44d"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#adb41c0f6d447844dbd89bb4484f7e44d">OnItemOverheatStart</a> ()</td></tr>
+<tr class="memdesc:adb41c0f6d447844dbd89bb4484f7e44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">override to implement desired overheat behavior on entity  <br /></td></tr>
+<tr class="separator:adb41c0f6d447844dbd89bb4484f7e44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea94ae6f2efe198511b367bb0d7401ea"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aea94ae6f2efe198511b367bb0d7401ea">OnItemOverheat</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> deltaTime)</td></tr>
+<tr class="separator:aea94ae6f2efe198511b367bb0d7401ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c38e3e710e0b7902914ba37e708898"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a19c38e3e710e0b7902914ba37e708898">OnItemOverheatEnd</a> ()</td></tr>
+<tr class="memdesc:a19c38e3e710e0b7902914ba37e708898"><td class="mdescLeft">&#160;</td><td class="mdescRight">note, that the deltaTime could be reverse-calculated and not totally accurate  <br /></td></tr>
+<tr class="separator:a19c38e3e710e0b7902914ba37e708898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f80ae2855adc43f4e13a5929bbf407f"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a9f80ae2855adc43f4e13a5929bbf407f">HandleItemOverheating</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> deltaHeat, <a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a> data)</td></tr>
+<tr class="separator:a9f80ae2855adc43f4e13a5929bbf407f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f680267f78c714d6fc160471767ba1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae0f680267f78c714d6fc160471767ba1">SetLiquidType</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> value, <a class="el" href="../../d9/db9/classbool.html">bool</a> allow_client=false)</td></tr>
+<tr class="separator:ae0f680267f78c714d6fc160471767ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ab2c07e9dacc9fba94d877b4f3e9ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aa2ab2c07e9dacc9fba94d877b4f3e9ee">GetLiquidType</a> ()</td></tr>
+<tr class="separator:aa2ab2c07e9dacc9fba94d877b4f3e9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee548ddd42c68cbc27b6a1279db4372b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aee548ddd42c68cbc27b6a1279db4372b">SetColor</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> r, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> g, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> b, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> a)</td></tr>
+<tr class="separator:aee548ddd42c68cbc27b6a1279db4372b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b471221a4bc83950ff4f536ca54241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a38b471221a4bc83950ff4f536ca54241">GetColor</a> (out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> r, out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> g, out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> b, out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> a)</td></tr>
+<tr class="separator:a38b471221a4bc83950ff4f536ca54241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b88ee6b3140ed1670002e6c48e648b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a6b88ee6b3140ed1670002e6c48e648b2">SetStoreLoad</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> value)</td></tr>
+<tr class="separator:a6b88ee6b3140ed1670002e6c48e648b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3bb457b5f1ccc4db1d367e4792b4c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a4e3bb457b5f1ccc4db1d367e4792b4c2">IsStoreLoad</a> ()</td></tr>
+<tr class="separator:a4e3bb457b5f1ccc4db1d367e4792b4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03642fb8f5f8f17b30f754f6979cc2e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a03642fb8f5f8f17b30f754f6979cc2e4">SetStoreLoadedQuantity</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> value)</td></tr>
+<tr class="separator:a03642fb8f5f8f17b30f754f6979cc2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d1f38d81cbd3b71641de6c48fb6ffa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a1d1f38d81cbd3b71641de6c48fb6ffa1">GetStoreLoadedQuantity</a> ()</td></tr>
+<tr class="separator:a1d1f38d81cbd3b71641de6c48fb6ffa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60fdafce418196197f83f783169e9140"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a60fdafce418196197f83f783169e9140">SetCleanness</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> value, <a class="el" href="../../d9/db9/classbool.html">bool</a> allow_client=false)</td></tr>
+<tr class="separator:a60fdafce418196197f83f783169e9140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6ddb6d56f9331d450ed4b19e376087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a8d6ddb6d56f9331d450ed4b19e376087">GetCleanness</a> ()</td></tr>
+<tr class="separator:a8d6ddb6d56f9331d450ed4b19e376087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023e13fb3e25f94e5f85320a53595f8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a023e13fb3e25f94e5f85320a53595f8f">IsServerCheck</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> allow_client)</td></tr>
+<tr class="separator:a023e13fb3e25f94e5f85320a53595f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d1b983049e62dbbde5dc22c435458bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d69/class_hidden_selections_data.html">HiddenSelectionsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a8d1b983049e62dbbde5dc22c435458bc">GetHiddenSelectionsData</a> ()</td></tr>
 <tr class="separator:a8d1b983049e62dbbde5dc22c435458bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9501afa018cd16861926870c3edfd69d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a9501afa018cd16861926870c3edfd69d">GetHiddenSelectionIndex</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> selection)</td></tr>
@@ -750,6 +869,32 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a86eff8222e18cb9a7f0411973e631f64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a86eff8222e18cb9a7f0411973e631f64">OnVariablesSynchronized</a> ()</td></tr>
 <tr class="memdesc:a86eff8222e18cb9a7f0411973e631f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on clients after receiving synchronization data from server.  <br /></td></tr>
 <tr class="separator:a86eff8222e18cb9a7f0411973e631f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fa3aa9fb255758ed81661e8ce7d185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae6fa3aa9fb255758ed81661e8ce7d185">IsVariableSet</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> variable)</td></tr>
+<tr class="memdesc:ae6fa3aa9fb255758ed81661e8ce7d185"><td class="mdescLeft">&#160;</td><td class="mdescRight">'true' if this variable has ever been changed from default  <br /></td></tr>
+<tr class="separator:ae6fa3aa9fb255758ed81661e8ce7d185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034eb7a2bc160f38d370e0d938571e52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a034eb7a2bc160f38d370e0d938571e52">SetVariableMask</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> variable)</td></tr>
+<tr class="separator:a034eb7a2bc160f38d370e0d938571e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873da33a8d58c534987b6e9d3f1c0583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a873da33a8d58c534987b6e9d3f1c0583">RemoveItemVariable</a> (<a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> variable)</td></tr>
+<tr class="memdesc:a873da33a8d58c534987b6e9d3f1c0583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes variable from variable mask, making it appear as though the variable has never been changed from default.  <br /></td></tr>
+<tr class="separator:a873da33a8d58c534987b6e9d3f1c0583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28bc07999b34c780c14dfa3c8b38262f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a28bc07999b34c780c14dfa3c8b38262f">TransferVariablesFloat</a> (<a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt; float_vars)</td></tr>
+<tr class="separator:a28bc07999b34c780c14dfa3c8b38262f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e2d96385a076b66c2bfc63338385f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae7e2d96385a076b66c2bfc63338385f6">GetVariablesFloat</a> ()</td></tr>
+<tr class="separator:ae7e2d96385a076b66c2bfc63338385f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61220fec996cfdbd0d7b76fef29ce918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a61220fec996cfdbd0d7b76fef29ce918">SaveVariables</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a> ctx)</td></tr>
+<tr class="separator:a61220fec996cfdbd0d7b76fef29ce918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c183751bd6ee547cff617852e476728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a9c183751bd6ee547cff617852e476728">LoadVariables</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a> ctx, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> version=-1)</td></tr>
+<tr class="separator:a9c183751bd6ee547cff617852e476728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f83e539f9bace9e6f346d225ef401c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a3f83e539f9bace9e6f346d225ef401c6">WriteVarsToCTX</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a> ctx)</td></tr>
+<tr class="memdesc:a3f83e539f9bace9e6f346d225ef401c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes to storage CTX.  <br /></td></tr>
+<tr class="separator:a3f83e539f9bace9e6f346d225ef401c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2818bccaadcd08d691a1a28a88108e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a2d2818bccaadcd08d691a1a28a88108e">ReadVarsFromCTX</a> (<a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a> ctx, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> version=-1)</td></tr>
+<tr class="memdesc:a2d2818bccaadcd08d691a1a28a88108e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads from storage CTX.  <br /></td></tr>
+<tr class="separator:a2d2818bccaadcd08d691a1a28a88108e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ee1b451d51306ce8354cf38962b896"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a73ee1b451d51306ce8354cf38962b896">SerializeNumericalVars</a> (<a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt; floats_out)</td></tr>
+<tr class="separator:a73ee1b451d51306ce8354cf38962b896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc668db52efb88232a795d74aeeab7cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#acc668db52efb88232a795d74aeeab7cb">DeSerializeNumericalVars</a> (<a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt; floats)</td></tr>
+<tr class="separator:acc668db52efb88232a795d74aeeab7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b974914f2fccdc13374973a6f46b17"><td class="memItemLeft" align="right" valign="top">proto native void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ad6b974914f2fccdc13374973a6f46b17">SetAITargetCallbacks</a> (<a class="el" href="../../d3/dc9/class_abstract_a_i_target_callbacks.html">AbstractAITargetCallbacks</a> callbacks)</td></tr>
 <tr class="separator:ad6b974914f2fccdc13374973a6f46b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af518addd8ca6ecba428ecee6b06506a9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#af518addd8ca6ecba428ecee6b06506a9">EOnFrame</a> (<a class="el" href="../../dc/da9/class_i_entity.html">IEntity</a> other, <a class="el" href="../../d4/dc3/classfloat.html">float</a> timeSlice)</td></tr>
@@ -863,9 +1008,16 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ad414eeefe86c6fde349bd307d963a6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57bd1c4b0238bd4b33063abde1a201ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a57bd1c4b0238bd4b33063abde1a201ab">ChangeIntoOnDetach</a> ()</td></tr>
 <tr class="separator:a57bd1c4b0238bd4b33063abde1a201ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d63d7d21e7198a0df1a22420c3e529"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae8d63d7d21e7198a0df1a22420c3e529">CanHaveTemperature</a> ()</td></tr>
+<tr class="memdesc:ae8d63d7d21e7198a0df1a22420c3e529"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true used on selected items that have a temperature effect and can processes temperature changes  <br /></td></tr>
+<tr class="separator:ae8d63d7d21e7198a0df1a22420c3e529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1badfebeff6ba333121120a5953523"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a9a1badfebeff6ba333121120a5953523">IsSelfAdjustingTemperature</a> ()</td></tr>
+<tr class="separator:a9a1badfebeff6ba333121120a5953523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabfd095f5b9264a3dbd55cfb76e6b227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aabfd095f5b9264a3dbd55cfb76e6b227">OnCEUpdate</a> ()</td></tr>
 <tr class="memdesc:aabfd095f5b9264a3dbd55cfb76e6b227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Central economy calls this function whenever going over all the entities.  <br /></td></tr>
 <tr class="separator:aabfd095f5b9264a3dbd55cfb76e6b227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3c3cff53ad7229a6cf12c668901e18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aee3c3cff53ad7229a6cf12c668901e18">ProcessVariables</a> ()</td></tr>
+<tr class="separator:aee3c3cff53ad7229a6cf12c668901e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39906f40f23217372cd80e285c8dd115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a39906f40f23217372cd80e285c8dd115">OnDebugSpawnEx</a> (DebugSpawnParams params)</td></tr>
 <tr class="separator:a39906f40f23217372cd80e285c8dd115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a802b10b6a3080e8b5613fc42dd52659d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a802b10b6a3080e8b5613fc42dd52659d">OnDebugSpawn</a> ()</td></tr>
@@ -1162,6 +1314,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af3230aea06f11e9066e0e038a26c0637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e13940643d22a478324b935eafafe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a56e13940643d22a478324b935eafafe8">m_WeightDirty</a> = 1</td></tr>
 <tr class="separator:a56e13940643d22a478324b935eafafe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88495f6e0be3fbc1c15df16474266423"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a88495f6e0be3fbc1c15df16474266423">m_RoofAbove</a> = false</td></tr>
+<tr class="separator:a88495f6e0be3fbc1c15df16474266423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f55f337c61824b0ee53faa88f91f632"><td class="memItemLeft" align="right" valign="top">private ref <a class="el" href="../../d6/d7f/_controls_xbox_new_8c.html#a9ec9dda576db2a36c42c1c3af155d07c">map</a>&lt; <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>, ref set&lt; <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a8f55f337c61824b0ee53faa88f91f632">m_AttachmentExclusionSlotMap</a></td></tr>
 <tr class="separator:a8f55f337c61824b0ee53faa88f91f632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b4c2fadcb1c278406cdc95936df3a5"><td class="memItemLeft" align="right" valign="top">private ref set&lt; <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a61b4c2fadcb1c278406cdc95936df3a5">m_AttachmentExclusionMaskGlobal</a></td></tr>
@@ -1174,7 +1328,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a85d80c15258035d04445a488f6072802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a074a04c3a444669bac393f8dc061d964"><td class="memItemLeft" align="right" valign="top">private ref <a class="el" href="../../d6/d69/class_hidden_selections_data.html">HiddenSelectionsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a074a04c3a444669bac393f8dc061d964">m_HiddenSelectionsData</a></td></tr>
 <tr class="separator:a074a04c3a444669bac393f8dc061d964"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae14d7244fd8994b3d754d3260e88c1d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aae14d7244fd8994b3d754d3260e88c1d">DEAD_REPLACE_DELAY</a> = 2000</td></tr>
+<tr class="memitem:aae14d7244fd8994b3d754d3260e88c1d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#aae14d7244fd8994b3d754d3260e88c1d">DEAD_REPLACE_DELAY</a> = 250</td></tr>
 <tr class="separator:aae14d7244fd8994b3d754d3260e88c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6bd035dd5af4543d527c69443918340"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae6bd035dd5af4543d527c69443918340">DELETE_CHECK_DELAY</a> = 100</td></tr>
 <tr class="separator:ae6bd035dd5af4543d527c69443918340"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1200,6 +1354,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a24c1f702c9de667725df6c757ad41396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6989474c281b05d8a484f087192d47d"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#af6989474c281b05d8a484f087192d47d">m_ElapsedSinceLastUpdate</a></td></tr>
 <tr class="separator:af6989474c281b05d8a484f087192d47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6bb1a4574a49e757ff1bc562eea4a65"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae6bb1a4574a49e757ff1bc562eea4a65">m_PreviousRoofTestTime</a> = 0</td></tr>
+<tr class="separator:ae6bb1a4574a49e757ff1bc562eea4a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f83c9f57703bec807901155b67f137"><td class="memItemLeft" align="right" valign="top">protected UTemperatureSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ac1f83c9f57703bec807901155b67f137">m_UniversalTemperatureSource</a></td></tr>
 <tr class="separator:ac1f83c9f57703bec807901155b67f137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe49ddaf2ed97b007056df811757a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#abbe49ddaf2ed97b007056df811757a77">m_PendingDelete</a> = false</td></tr>
@@ -1210,6 +1366,38 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a131c30ca9de9d8ef9b4e8679991d12b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10915fa9be834e6c9827ed06ea861b65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a10915fa9be834e6c9827ed06ea861b65">m_TransportHitVelocity</a></td></tr>
 <tr class="separator:a10915fa9be834e6c9827ed06ea861b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9244c22e4575dc376ad3051215d470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a0c9244c22e4575dc376ad3051215d470">m_VariablesMask</a></td></tr>
+<tr class="separator:a0c9244c22e4575dc376ad3051215d470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29937a3873dd78ff14146dd24f90910f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a29937a3873dd78ff14146dd24f90910f">m_VarTemperature</a></td></tr>
+<tr class="separator:a29937a3873dd78ff14146dd24f90910f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447a7aa01c84947b224bd89f1cf6b4ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a447a7aa01c84947b224bd89f1cf6b4ca">m_VarTemperatureInit</a></td></tr>
+<tr class="separator:a447a7aa01c84947b224bd89f1cf6b4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf237a115405b99c4609d672c5a6ec92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#adf237a115405b99c4609d672c5a6ec92">m_VarTemperatureMin</a></td></tr>
+<tr class="separator:adf237a115405b99c4609d672c5a6ec92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4b6f002f8373af7eda7b5a8eb8563a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#afb4b6f002f8373af7eda7b5a8eb8563a">m_VarTemperatureMax</a></td></tr>
+<tr class="separator:afb4b6f002f8373af7eda7b5a8eb8563a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d21bcb59ffa888e5e7e515173a455a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a80d21bcb59ffa888e5e7e515173a455a">m_VarTemperatureFreezeThreshold</a></td></tr>
+<tr class="separator:a80d21bcb59ffa888e5e7e515173a455a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd480d844fbfd66873b9f0b24549c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a2fd480d844fbfd66873b9f0b24549c68">m_VarTemperatureThawThreshold</a></td></tr>
+<tr class="separator:a2fd480d844fbfd66873b9f0b24549c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb673187e922f6e1182db67e72f79144"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#afb673187e922f6e1182db67e72f79144">m_VarTemperatureFreezeTime</a></td></tr>
+<tr class="separator:afb673187e922f6e1182db67e72f79144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3f78085f8600cbca15b142e02448e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#afe3f78085f8600cbca15b142e02448e6">m_VarTemperatureThawTime</a></td></tr>
+<tr class="separator:afe3f78085f8600cbca15b142e02448e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58815afa33a0554694cee98f0ef649ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a58815afa33a0554694cee98f0ef649ad">m_VarTemperatureOverheatTime</a></td></tr>
+<tr class="separator:a58815afa33a0554694cee98f0ef649ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5c9b099772fdeea16e27d7b87300a5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae5c9b099772fdeea16e27d7b87300a5c">m_VarHeatPermeabilityCoef</a></td></tr>
+<tr class="separator:ae5c9b099772fdeea16e27d7b87300a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4dffa4546d0a3f58c229af3f58be7f"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d3/de8/class_temperature_access_component.html">TemperatureAccessComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a3c4dffa4546d0a3f58c229af3f58be7f">m_TAC</a></td></tr>
+<tr class="separator:a3c4dffa4546d0a3f58c229af3f58be7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae161dd49979277aae397dacf447d9cb1"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae161dd49979277aae397dacf447d9cb1">m_IsFrozen</a></td></tr>
+<tr class="separator:ae161dd49979277aae397dacf447d9cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e691502960336fde2957b70906cf3e"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ad1e691502960336fde2957b70906cf3e">m_IsFrozenLocal</a></td></tr>
+<tr class="separator:ad1e691502960336fde2957b70906cf3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae486732c06d6c4dabfde8ff5d3bde119"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#ae486732c06d6c4dabfde8ff5d3bde119">m_FreezeThawProgress</a></td></tr>
+<tr class="separator:ae486732c06d6c4dabfde8ff5d3bde119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f541c14023cf3e671836530d0fa306"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a52f541c14023cf3e671836530d0fa306">m_OverheatProgress</a></td></tr>
+<tr class="separator:a52f541c14023cf3e671836530d0fa306"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3baa7723ff086f499122beaba8769aa5"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d4/d2d/class_script_invoker.html">ScriptInvoker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a3baa7723ff086f499122beaba8769aa5">m_OnItemAttached</a></td></tr>
 <tr class="separator:a3baa7723ff086f499122beaba8769aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2878ecc2c72811ec760ce3365f7eee"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d4/d2d/class_script_invoker.html">ScriptInvoker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#afd2878ecc2c72811ec760ce3365f7eee">m_OnItemDetached</a></td></tr>
@@ -1874,6 +2062,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>returns current splitability </p>
+
 </div>
 </div>
 <a id="afc5160fbb3733ec02b489266a3831566" name="afc5160fbb3733ec02b489266a3831566"></a>
@@ -1900,7 +2090,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d7/d1e/group___rigid_body.html#ga6c16eb476b8460d50e036a4fcb386ab2">dBodyIsActive()</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>, and <a class="el" href="../../df/df9/class_entity_a_i.html#ac658d3fd1c2d7c634c593d3e241a6af5">EntityAI::IsMan()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d1e/group___rigid_body.html#ga6c16eb476b8460d50e036a4fcb386ab2">dBodyIsActive()</a>, and <a class="el" href="../../df/df9/class_entity_a_i.html#ac658d3fd1c2d7c634c593d3e241a6af5">EntityAI::IsMan()</a>.</p>
 
 </div>
 </div>
@@ -2174,6 +2364,60 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab63515807e80f6b5563b7947a76dfcfc" name="ab63515807e80f6b5563b7947a76dfcfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab63515807e80f6b5563b7947a76dfcfc">&#9670;&#160;</a></span>CanFreeze()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> CanFreeze </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#adeb38f82748c28d846b5312bd7b6d9b7">CanHaveTemperature()</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a2454e6a4fb02475ba31ca9d521ceabd2">GetTemperatureFreezeThreshold()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#a913bc8c94860efa51b74c6d71cc3d613">GetTemperatureThawThreshold()</a>.</p>
+
+</div>
+</div>
+<a id="ae8d63d7d21e7198a0df1a22420c3e529" name="ae8d63d7d21e7198a0df1a22420c3e529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d63d7d21e7198a0df1a22420c3e529">&#9670;&#160;</a></span>CanHaveTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> CanHaveTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true used on selected items that have a temperature effect and can processes temperature changes </p>
+
+</div>
+</div>
 <a id="a3a04d4146a8b984ac29f4f3c8b27140e" name="a3a04d4146a8b984ac29f4f3c8b27140e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a04d4146a8b984ac29f4f3c8b27140e">&#9670;&#160;</a></span>CanIgniteItem()</h2>
 
@@ -2199,6 +2443,33 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Override this method and check if the given item can be ignited right now by this one. Evaluated on Server and Client. </p>
+
+</div>
+</div>
+<a id="a554872f25531f151550ebc30764b6590" name="a554872f25531f151550ebc30764b6590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a554872f25531f151550ebc30764b6590">&#9670;&#160;</a></span>CanItemOverheat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> CanItemOverheat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overheat time CAN be 0, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga0fdbd63fd0c167a7eb07cfb3d8664cca">GameConstants.TEMPERATURE_TIME_OVERHEAT_MIN</a> is ignored if so. </p>
 
 </div>
 </div>
@@ -2397,6 +2668,8 @@ Private Attributes</h2></td></tr>
 <p>calls this-&gt;CanReceiveAttachment(attachment) </p>
 <dl class="section return"><dt>Returns</dt><dd>true if action allowed</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>: return scriptConditionExecute(this, attachment, "CanReceiveAttachment"); </dd></dl>
+
+<p class="reference">References <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a0a4e944cf0e3e550e14551705c70e956">InventoryLocation::GetType()</a>.</p>
 
 </div>
 </div>
@@ -2924,6 +3197,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acda512f5c2e9f66897d9bd28e0782d72" name="acda512f5c2e9f66897d9bd28e0782d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda512f5c2e9f66897d9bd28e0782d72">&#9670;&#160;</a></span>CheckForRoofLimited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CheckForRoofLimited </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>timeTresholdMS</em> = <code>3000</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Roof check for entity, limited by time (anti-spam solution) </p>
+
+</div>
+</div>
 <a id="a490b454bb21c6fb20586ccfd1b765b06" name="a490b454bb21c6fb20586ccfd1b765b06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a490b454bb21c6fb20586ccfd1b765b06">&#9670;&#160;</a></span>ClearExclusionValueRecursive()</h2>
 
@@ -3070,6 +3371,42 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1accffa1395c429ddc5dd9cdab313bba" name="a1accffa1395c429ddc5dd9cdab313bba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1accffa1395c429ddc5dd9cdab313bba">&#9670;&#160;</a></span>CombineItemsEx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CombineItemsEx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>entity2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>use_stack_max</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3562,6 +3899,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acc668db52efb88232a795d74aeeab7cb" name="acc668db52efb88232a795d74aeeab7cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc668db52efb88232a795d74aeeab7cb">&#9670;&#160;</a></span>DeSerializeNumericalVars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeSerializeNumericalVars </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt;&#160;</td>
+          <td class="paramname"><em>floats</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga508b1867c6e0e338fc793045a4a7680a">Math::Round()</a>, and <a class="el" href="../../d6/d28/group___item_variables.html#ga91a0089790d8224d4b484a7e77fc64b2">VARIABLE_TEMPERATURE</a>.</p>
+
+</div>
+</div>
 <a id="a4401ea0e9fa6c4535d3b8d4f1cec1fb0" name="a4401ea0e9fa6c4535d3b8d4f1cec1fb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4401ea0e9fa6c4535d3b8d4f1cec1fb0">&#9670;&#160;</a></span>DestroyInventory()</h2>
 
@@ -3975,6 +4340,8 @@ Private Attributes</h2></td></tr>
 
 <p>Called upon object creation. </p>
 
+<p class="reference">References <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#adeb38f82748c28d846b5312bd7b6d9b7">CanHaveTemperature()</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+
 </div>
 </div>
 <a id="ab7e18b7d2fe87841e76d73cf6ecc286c" name="ab7e18b7d2fe87841e76d73cf6ecc286c"></a>
@@ -4058,6 +4425,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#af7ba31b759c9731da0d692896dc82fc1">CGame::GetTickTime()</a>.</p>
 
 </div>
 </div>
@@ -4201,7 +4570,7 @@ Private Attributes</h2></td></tr>
 
 <p>called on server when the entity is killed </p>
 
-<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">ScriptCallQueue::CallLater()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2a77cadad77bb527fcb269473b7610ce">CGame::GetAnalyticsServer()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d1/d55/class_analytics_manager_server.html#a953e1553312b0217ef93164a8019ac7e">AnalyticsManagerServer::OnEntityKilled()</a>, and <a class="el" href="../../de/db7/_animal_base_8c.html#a57f78023773e268aced849838649291a">ReplaceOnDeath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">ScriptCallQueue::CallLater()</a>, <a class="el" href="../../de/db7/_animal_base_8c.html#a0ee57bd2a707fcaaa09123dc251b8588">DeathUpdate()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a2a77cadad77bb527fcb269473b7610ce">CGame::GetAnalyticsServer()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d1/d55/class_analytics_manager_server.html#a953e1553312b0217ef93164a8019ac7e">AnalyticsManagerServer::OnEntityKilled()</a>, and <a class="el" href="../../de/db7/_animal_base_8c.html#a57f78023773e268aced849838649291a">ReplaceOnDeath()</a>.</p>
 
 </div>
 </div>
@@ -4418,7 +4787,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">ScriptCallQueue::CallLater()</a>, <a class="el" href="../../d5/d5c/group___components.html#gabadae4556ccc3142ec8849234a84c083">COMP_TYPE_ENERGY_MANAGER</a>, <a class="el" href="../../d2/de6/class_c_game.html#a899df8cb46eb1cbab2d3084a2c2e51be">CGame::ConfigIsExisting()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dc3/group___tools.html#gaaf491f3ecd1d9aefb35a16bf96ca420c">CALL_CATEGORY_SYSTEM</a>, <a class="el" href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">ScriptCallQueue::CallLater()</a>, <a class="el" href="../../d5/d5c/group___components.html#gabadae4556ccc3142ec8849234a84c083">COMP_TYPE_ENERGY_MANAGER</a>, <a class="el" href="../../d2/de6/class_c_game.html#a899df8cb46eb1cbab2d3084a2c2e51be">CGame::ConfigIsExisting()</a>, <a class="el" href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#aeb21a678bf81cb11979d821d61eaeeec">InitItemVariables()</a>.</p>
 
 </div>
 </div>
@@ -4979,6 +5348,79 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d6ddb6d56f9331d450ed4b19e376087" name="a8d6ddb6d56f9331d450ed4b19e376087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d6ddb6d56f9331d450ed4b19e376087">&#9670;&#160;</a></span>GetCleanness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetCleanness </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38b471221a4bc83950ff4f536ca54241" name="a38b471221a4bc83950ff4f536ca54241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b471221a4bc83950ff4f536ca54241">&#9670;&#160;</a></span>GetColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GetColor </td>
+          <td>(</td>
+          <td class="paramtype">out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -5552,6 +5994,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a15983c567ea744bddf0ad41357839fc3" name="a15983c567ea744bddf0ad41357839fc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15983c567ea744bddf0ad41357839fc3">&#9670;&#160;</a></span>GetFreezeThawProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetFreezeThawProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>on server only </p>
+
+</div>
+</div>
 <a id="a621b55a47a2ccaf1e1515c1e57b523b5" name="a621b55a47a2ccaf1e1515c1e57b523b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a621b55a47a2ccaf1e1515c1e57b523b5">&#9670;&#160;</a></span>GetHeatHazePower()</h2>
 
@@ -5599,6 +6068,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2244e32c7666ab6737cd18630fbe72de" name="a2244e32c7666ab6737cd18630fbe72de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2244e32c7666ab6737cd18630fbe72de">&#9670;&#160;</a></span>GetHeatPermeabilityCoef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetHeatPermeabilityCoef </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns temperature change speed multiplier for this item and all its children (multiplicative interaction) </p>
+<dl class="section note"><dt>Note</dt><dd>Values &gt; 1 accelerate, values in &lt;0,1) interval decelerate. Values &lt; 0 should not be used here, but I'm not your mom. </dd></dl>
 
 </div>
 </div>
@@ -6014,6 +6511,110 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaca2cd30a40dbcc134d82c58d0a76502" name="aaca2cd30a40dbcc134d82c58d0a76502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca2cd30a40dbcc134d82c58d0a76502">&#9670;&#160;</a></span>GetIsFrozen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> GetIsFrozen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cde9c1c2bfb0b04b17001bfd83f7390" name="a7cde9c1c2bfb0b04b17001bfd83f7390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cde9c1c2bfb0b04b17001bfd83f7390">&#9670;&#160;</a></span>GetItemOverheatProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetItemOverheatProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46c4ce214f4f13834e232bd686fc8702" name="a46c4ce214f4f13834e232bd686fc8702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c4ce214f4f13834e232bd686fc8702">&#9670;&#160;</a></span>GetItemOverheatThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetItemOverheatThreshold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if undefined, max temperature used as default </p>
+
+</div>
+</div>
+<a id="ae84a564dc0cc3a377aaf5a085973802c" name="ae84a564dc0cc3a377aaf5a085973802c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84a564dc0cc3a377aaf5a085973802c">&#9670;&#160;</a></span>GetItemOverheatTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetItemOverheatTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>any configured value &gt;= 0 will simulate overheating </p>
+
+</div>
+</div>
 <a id="a6f1cd229be8454a3a36b0e98ec32dff5" name="a6f1cd229be8454a3a36b0e98ec32dff5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f1cd229be8454a3a36b0e98ec32dff5">&#9670;&#160;</a></span>GetLifetime()</h2>
 
@@ -6119,6 +6720,31 @@ Private Attributes</h2></td></tr>
 <p>Returns liquid throughput coeficient. </p>
 
 <p class="reference">References <a class="el" href="../../da/dc5/group___liquid_throughputs.html#ga382cc11a765881065cb2300edf0fe09d">LIQUID_THROUGHPUT_DEFAULT</a>.</p>
+
+</div>
+</div>
+<a id="aa2ab2c07e9dacc9fba94d877b4f3e9ee" name="aa2ab2c07e9dacc9fba94d877b4f3e9ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2ab2c07e9dacc9fba94d877b4f3e9ee">&#9670;&#160;</a></span>GetLiquidType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetLiquidType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -6676,6 +7302,56 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac45c11fcb6c8914faf0e0a1fe64e01d3" name="ac45c11fcb6c8914faf0e0a1fe64e01d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac45c11fcb6c8914faf0e0a1fe64e01d3">&#9670;&#160;</a></span>GetQuantityMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> GetQuantityMin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d4525d79f034ee65cf45c374123a3b0" name="a7d4525d79f034ee65cf45c374123a3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d4525d79f034ee65cf45c374123a3b0">&#9670;&#160;</a></span>GetQuantityNormalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetQuantityNormalized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5d4a24ae48b667bf6e2f86adcecdf3b3" name="a5d4a24ae48b667bf6e2f86adcecdf3b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d4a24ae48b667bf6e2f86adcecdf3b3">&#9670;&#160;</a></span>GetQuickBarBonus()</h2>
 
@@ -6853,6 +7529,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1d1f38d81cbd3b71641de6c48fb6ffa1" name="a1d1f38d81cbd3b71641de6c48fb6ffa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d1f38d81cbd3b71641de6c48fb6ffa1">&#9670;&#160;</a></span>GetStoreLoadedQuantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetStoreLoadedQuantity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af3a9b76eb92256b23816b198a0ebe466" name="af3a9b76eb92256b23816b198a0ebe466"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3a9b76eb92256b23816b198a0ebe466">&#9670;&#160;</a></span>GetSuitableFinisherHitComponents()</h2>
 
@@ -6917,6 +7618,56 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a774f363e3fbaaef961398f521d200dc2" name="a774f363e3fbaaef961398f521d200dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a774f363e3fbaaef961398f521d200dc2">&#9670;&#160;</a></span>GetTemperatureFreezeThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetTemperatureFreezeThreshold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa76fb004a9b21e7ab33a356c258a2a40" name="aa76fb004a9b21e7ab33a356c258a2a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76fb004a9b21e7ab33a356c258a2a40">&#9670;&#160;</a></span>GetTemperatureFreezeTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetTemperatureFreezeTime </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -7006,6 +7757,56 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adae437a802c1cbc5e9f5d113dc058215" name="adae437a802c1cbc5e9f5d113dc058215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae437a802c1cbc5e9f5d113dc058215">&#9670;&#160;</a></span>GetTemperatureThawThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetTemperatureThawThreshold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8dac3a63ff425bddc318ff9ea5786e06" name="a8dac3a63ff425bddc318ff9ea5786e06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dac3a63ff425bddc318ff9ea5786e06">&#9670;&#160;</a></span>GetTemperatureThawTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> GetTemperatureThawTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab8e464001f617d2240670e4bd3e54950" name="ab8e464001f617d2240670e4bd3e54950"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8e464001f617d2240670e4bd3e54950">&#9670;&#160;</a></span>GetTurnableValveIndex()</h2>
 
@@ -7081,6 +7882,33 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d3/d3a/_underground_area_loader_8c.html#af4b5180d61f839c99de2d15fdcda4568">GetPosition</a>.</p>
+
+</div>
+</div>
+<a id="ae7e2d96385a076b66c2bfc63338385f6" name="ae7e2d96385a076b66c2bfc63338385f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7e2d96385a076b66c2bfc63338385f6">&#9670;&#160;</a></span>GetVariablesFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt; GetVariablesFloat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d1/d69/class_cached_objects_arrays.html#aa87dff9bd6bc6d47e7e4ead854a9a974">CachedObjectsArrays::ARRAY_FLOAT</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#af47716de8824cb58d80ffeda73a9865c">SerializeNumericalVars()</a>.</p>
 
 </div>
 </div>
@@ -7376,6 +8204,82 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a26ef491684181c47a530f997bfe894" name="a8a26ef491684181c47a530f997bfe894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a26ef491684181c47a530f997bfe894">&#9670;&#160;</a></span>HandleFreezingProgression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void HandleFreezingProgression </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>deltaHeat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a29b7b8c778e33aa5019d6b77bf1f15e9">GetTemperatureFreezeTime()</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a8384edd7de4b8d1c6d87490f78962461">GetTemperatureThawTime()</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a44d5810561af7c3224a38f5798a9c837">TemperatureData::m_InterpolatedFraction</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a7bbd23cfe228b3865c9da1a91eb88030">TemperatureData::m_UpdateTimeCoef</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a7abc76859c718a4e2121a5ee29baf76f">TemperatureData::m_UpdateTimeInfo</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga103ca3421fb2143e4d4313c56ae83658">GameConstants::TEMP_COEF_COOLING_GLOBAL</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga7ca2c4ad2ba88b8f4801b0a7c7735fda">GameConstants::TEMPERATURE_FREEZETHAW_LEGACY_COEF</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga8e24f9f5e919104a84c1ea6d9f8b59e0">GameConstants::TEMPERATURE_RATE_AVERAGE_ABS</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga7180e3dd7a113bc1f1e88b9b26b340d3">GameConstants::TEMPERATURE_SENSITIVITY_THRESHOLD</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#gabd85a485330fe0c9917902a3d6d24139">GameConstants::TEMPERATURE_TIME_FREEZE_MIN</a>, and <a class="el" href="../../d9/d00/group___entity_temperature.html#gadd28523d183a5aa147cad1a6ce351d96">GameConstants::TEMPERATURE_TIME_THAW_MIN</a>.</p>
+
+</div>
+</div>
+<a id="a9f80ae2855adc43f4e13a5929bbf407f" name="a9f80ae2855adc43f4e13a5929bbf407f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f80ae2855adc43f4e13a5929bbf407f">&#9670;&#160;</a></span>HandleItemOverheating()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void HandleItemOverheating </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>deltaHeat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d5/d98/group___math.html#gaa6376dcd0f724f11ba0b6bdf66b185ee">Math::Lerp()</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a44d5810561af7c3224a38f5798a9c837">TemperatureData::m_InterpolatedFraction</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a7abc76859c718a4e2121a5ee29baf76f">TemperatureData::m_UpdateTimeInfo</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga8e24f9f5e919104a84c1ea6d9f8b59e0">GameConstants::TEMPERATURE_RATE_AVERAGE_ABS</a>, and <a class="el" href="../../d9/d00/group___entity_temperature.html#ga0fdbd63fd0c167a7eb07cfb3d8664cca">GameConstants::TEMPERATURE_TIME_OVERHEAT_MIN</a>.</p>
+
+</div>
+</div>
 <a id="a5685e0da689324318519cebbe3d71067" name="a5685e0da689324318519cebbe3d71067"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5685e0da689324318519cebbe3d71067">&#9670;&#160;</a></span>HasAnyCargo()</h2>
 
@@ -7564,6 +8468,31 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>checks if any attachment or item state would interfere with this being attached into a different slot (Headgear -&gt; Mask) </p>
+
+</div>
+</div>
+<a id="a58de4fdc2b9c29a876ca61e155f55fb5" name="a58de4fdc2b9c29a876ca61e155f55fb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58de4fdc2b9c29a876ca61e155f55fb5">&#9670;&#160;</a></span>HasQuantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> HasQuantity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -7864,7 +8793,7 @@ Private Attributes</h2></td></tr>
 
 <p>Initialize map of damage zone display names for more optimized retrieval. </p>
 
-<p class="reference">References <a class="el" href="../../d7/d7f/group___menu_i_d.html#gaffa280014cd9af91abe74b767cf2a45b">CFG_MAGAZINESPATH</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#ga4eefa6610d914e19744cb7e377171479">CFG_VEHICLESPATH</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#gade71505908fa8ae2b1f0da309770c68a">CFG_WEAPONSPATH</a>, <a class="el" href="../../d5/da2/group___strings.html#ga188176fab9c1c285dc96beb8f859b278">string::Format()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab262f31358d18b5fc0f37c8196389cc3">CGame::FormatRawConfigStringKeys()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d7f/group___menu_i_d.html#gaffa280014cd9af91abe74b767cf2a45b">CFG_MAGAZINESPATH</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#ga4eefa6610d914e19744cb7e377171479">CFG_VEHICLESPATH</a>, <a class="el" href="../../d7/d7f/group___menu_i_d.html#gade71505908fa8ae2b1f0da309770c68a">CFG_WEAPONSPATH</a>, <a class="el" href="../../d5/da2/group___strings.html#ga188176fab9c1c285dc96beb8f859b278">string::Format()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ab262f31358d18b5fc0f37c8196389cc3">CGame::FormatRawConfigStringKeys()</a>, <a class="el" href="../../d5/dfb/_liquid_8c.html#aeca1ea4b3a980179c571b50629bbbc45">GetDisplayName()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../df/dee/4___world_2_classes_2_bleeding_sources_2_bleeding_source_8c.html#aeb4a6afbec7223ae143aed1d5627dc01">GetType()</a>, and <a class="el" href="../../d1/db8/_option_selector_multistate_8c.html#a46c20eb2a26abeb1e934cd66e1dd6484">path</a>.</p>
 
 </div>
 </div>
@@ -7948,6 +8877,33 @@ Private Attributes</h2></td></tr>
 <p>map stored on instance to better respond to various state changes </p>
 
 <p class="reference">References <a class="el" href="../../df/d36/class_inventory_slots.html#a9e7c0b2080f92c6a4c05c28f85d46046">InventorySlots::INVALID</a>.</p>
+
+</div>
+</div>
+<a id="a72d0436d80f196ab9104089e396fe134" name="a72d0436d80f196ab9104089e396fe134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72d0436d80f196ab9104089e396fe134">&#9670;&#160;</a></span>InitItemVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InitItemVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#adeb38f82748c28d846b5312bd7b6d9b7">CanHaveTemperature()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d4/dc3/classfloat.html#a18123b0ea48204268cd0f5ba59b3d066">float::LOWEST</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#af7dbda7167e22cb3417c16f78061ad80">MAX</a>.</p>
 
 </div>
 </div>
@@ -8054,6 +9010,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad79bdcc73f788513f310522b3b1f1bf4" name="ad79bdcc73f788513f310522b3b1f1bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79bdcc73f788513f310522b3b1f1bf4">&#9670;&#160;</a></span>InitTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void InitTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a2454e6a4fb02475ba31ca9d521ceabd2">GetTemperatureFreezeThreshold()</a>, and <a class="el" href="../../df/df9/class_entity_a_i.html#ac658d3fd1c2d7c634c593d3e241a6af5">EntityAI::IsMan()</a>.</p>
+
+</div>
+</div>
 <a id="ae23dd5a96cd1a218b75136c48d9f9502" name="ae23dd5a96cd1a218b75136c48d9f9502"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae23dd5a96cd1a218b75136c48d9f9502">&#9670;&#160;</a></span>InsertAgent()</h2>
 
@@ -8084,6 +9067,32 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a2defe007341d860117c462a2e0b843" name="a0a2defe007341d860117c462a2e0b843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2defe007341d860117c462a2e0b843">&#9670;&#160;</a></span>InterpolateTempData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterpolateTempData </td>
+          <td>(</td>
+          <td class="paramtype">TemperatureDataInterpolated&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -8546,8 +9555,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>.</p>
-
 </div>
 </div>
 <a id="a5d722e33d5e4075d4f0fc88c7cb54bd2" name="a5d722e33d5e4075d4f0fc88c7cb54bd2"></a>
@@ -8601,6 +9608,31 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d9/d0e/group___widget_a_p_i.html#ga1d63886deac2f225cc139143f9d79141">GetParent()</a>.</p>
+
+</div>
+</div>
+<a id="a6830fac8a91d55cc7bf2e4be30a2ae3d" name="a6830fac8a91d55cc7bf2e4be30a2ae3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6830fac8a91d55cc7bf2e4be30a2ae3d">&#9670;&#160;</a></span>IsItemOverheated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsItemOverheated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -8809,6 +9841,84 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a96c1608a4681344a59bd75a2c65042ee" name="a96c1608a4681344a59bd75a2c65042ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96c1608a4681344a59bd75a2c65042ee">&#9670;&#160;</a></span>IsRoofAbove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsRoofAbove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a1badfebeff6ba333121120a5953523" name="a9a1badfebeff6ba333121120a5953523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1badfebeff6ba333121120a5953523">&#9670;&#160;</a></span>IsSelfAdjustingTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsSelfAdjustingTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a023e13fb3e25f94e5f85320a53595f8f" name="a023e13fb3e25f94e5f85320a53595f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023e13fb3e25f94e5f85320a53595f8f">&#9670;&#160;</a></span>IsServerCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsServerCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allow_client</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d0/d62/group___debug.html#ga786b160dafbe15abb829786ba345cb15">Error()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, and <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
+
+</div>
+</div>
 <a id="aadaf39816ed9495b340adb80b7f4fd6a" name="aadaf39816ed9495b340adb80b7f4fd6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aadaf39816ed9495b340adb80b7f4fd6a">&#9670;&#160;</a></span>IsSetForDeletion()</h2>
 
@@ -8886,6 +9996,58 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Skinning. </p>
+
+</div>
+</div>
+<a id="aec58226752963042468b7025d77f5a2e" name="aec58226752963042468b7025d77f5a2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec58226752963042468b7025d77f5a2e">&#9670;&#160;</a></span>IsSplitable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsSplitable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns just the configured 'canBeSplit' bool </p>
+
+</div>
+</div>
+<a id="a4e3bb457b5f1ccc4db1d367e4792b4c2" name="a4e3bb457b5f1ccc4db1d367e4792b4c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3bb457b5f1ccc4db1d367e4792b4c2">&#9670;&#160;</a></span>IsStoreLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsStoreLoad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -9050,6 +10212,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae6fa3aa9fb255758ed81661e8ce7d185" name="ae6fa3aa9fb255758ed81661e8ce7d185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6fa3aa9fb255758ed81661e8ce7d185">&#9670;&#160;</a></span>IsVariableSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsVariableSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>'true' if this variable has ever been changed from default </p>
+
+</div>
+</div>
 <a id="a20384a6fe5046806557b0de424600cc9" name="a20384a6fe5046806557b0de424600cc9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20384a6fe5046806557b0de424600cc9">&#9670;&#160;</a></span>IsVisibleDuringDaylight()</h2>
 
@@ -9147,6 +10337,44 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c183751bd6ee547cff617852e476728" name="a9c183751bd6ee547cff617852e476728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c183751bd6ee547cff617852e476728">&#9670;&#160;</a></span>LoadVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> LoadVariables </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a>&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>version</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../de/dae/class_item_variable_flags.html#a43ae2b70206334efbf341485c04e18c7">ItemVariableFlags::FLOAT</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#a91931de33199ce4cb7e3b5b02024b08e">ReadVarsFromCTX()</a>.</p>
 
 </div>
 </div>
@@ -9834,7 +11062,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -9951,9 +11179,9 @@ Private Attributes</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// use m_ElapsedSinceLastUpdate for time-related purposes</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_entity_html_aabfd095f5b9264a3dbd55cfb76e6b227"><div class="ttname"><a href="../../d2/d96/class_entity.html#aabfd095f5b9264a3dbd55cfb76e6b227">Entity::OnCEUpdate</a></div><div class="ttdeci">void OnCEUpdate()</div><div class="ttdoc">Central economy calls this function whenever going over all the entities.</div><div class="ttdef"><b>Definition</b> EntityAI.c:2984</div></div>
+<div class="ttc" id="aclass_entity_html_aabfd095f5b9264a3dbd55cfb76e6b227"><div class="ttname"><a href="../../d2/d96/class_entity.html#aabfd095f5b9264a3dbd55cfb76e6b227">Entity::OnCEUpdate</a></div><div class="ttdeci">void OnCEUpdate()</div><div class="ttdoc">Central economy calls this function whenever going over all the entities.</div><div class="ttdef"><b>Definition</b> EntityAI.c:3766</div></div>
 </div><!-- fragment --> 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d2/de6/class_c_game.html#af7ba31b759c9731da0d692896dc82fc1">CGame::GetTickTime()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#af7ba31b759c9731da0d692896dc82fc1">CGame::GetTickTime()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#a38e2f8357a04e1a21939c73eb58e04ea">ProcessVariables()</a>.</p>
 
 </div>
 </div>
@@ -10229,6 +11457,56 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>.</p>
+
+</div>
+</div>
+<a id="a13a54c6e5e2ae16c72f8731b2000f83f" name="a13a54c6e5e2ae16c72f8731b2000f83f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a54c6e5e2ae16c72f8731b2000f83f">&#9670;&#160;</a></span>OnFreezeStateChangeClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnFreezeStateChangeClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8dfc54b89280a12fc0a7cda2095e5bae" name="a8dfc54b89280a12fc0a7cda2095e5bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dfc54b89280a12fc0a7cda2095e5bae">&#9670;&#160;</a></span>OnFreezeStateChangeServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnFreezeStateChangeServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -10547,6 +11825,86 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea94ae6f2efe198511b367bb0d7401ea" name="aea94ae6f2efe198511b367bb0d7401ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea94ae6f2efe198511b367bb0d7401ea">&#9670;&#160;</a></span>OnItemOverheat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void OnItemOverheat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>deltaTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19c38e3e710e0b7902914ba37e708898" name="a19c38e3e710e0b7902914ba37e708898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c38e3e710e0b7902914ba37e708898">&#9670;&#160;</a></span>OnItemOverheatEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void OnItemOverheatEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>note, that the deltaTime could be reverse-calculated and not totally accurate </p>
+
+</div>
+</div>
+<a id="adb41c0f6d447844dbd89bb4484f7e44d" name="adb41c0f6d447844dbd89bb4484f7e44d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb41c0f6d447844dbd89bb4484f7e44d">&#9670;&#160;</a></span>OnItemOverheatStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void OnItemOverheatStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>override to implement desired overheat behavior on entity </p>
 
 </div>
 </div>
@@ -10882,7 +12240,7 @@ Private Attributes</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_entity_html_ab8fb9b4105d97f4c7ba4bdd84d6c7de9"><div class="ttname"><a href="../../d2/d96/class_entity.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9">Entity::OnStoreLoad</a></div><div class="ttdeci">bool OnStoreLoad(ParamsReadContext ctx, int version)</div><div class="ttdoc">Called when data is loaded from persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2285</div></div>
+<div class="ttc" id="aclass_entity_html_ab8fb9b4105d97f4c7ba4bdd84d6c7de9"><div class="ttname"><a href="../../d2/d96/class_entity.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9">Entity::OnStoreLoad</a></div><div class="ttdeci">bool OnStoreLoad(ParamsReadContext ctx, int version)</div><div class="ttdoc">Called when data is loaded from persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2893</div></div>
 <div class="ttc" id="aclass_serializer_html"><div class="ttname"><a href="../../d0/dc2/class_serializer.html">Serializer</a></div><div class="ttdoc">Serialization general interface. Serializer API works with:</div><div class="ttdef"><b>Definition</b> Serializer.c:56</div></div>
 <div class="ttc" id="aclass_serializer_html_a34c68c9c93798008667c773b4818177d"><div class="ttname"><a href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read</a></div><div class="ttdeci">proto bool Read(void value_in)</div></div>
 </div><!-- fragment --> 
@@ -10927,7 +12285,7 @@ Private Attributes</h2></td></tr>
 <div class="line">    ctx.<a class="code hl_function" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Write</a>(a);</div>
 <div class="line">    ctx.<a class="code hl_function" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Write</a>(b);</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_entity_html_ad975050d7a080cca462e74c604f404a2"><div class="ttname"><a href="../../d2/d96/class_entity.html#ad975050d7a080cca462e74c604f404a2">Entity::OnStoreSave</a></div><div class="ttdeci">void OnStoreSave(ParamsWriteContext ctx)</div><div class="ttdoc">Engine calls this function to collect data from entity to store for persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2224</div></div>
+<div class="ttc" id="aclass_entity_html_ad975050d7a080cca462e74c604f404a2"><div class="ttname"><a href="../../d2/d96/class_entity.html#ad975050d7a080cca462e74c604f404a2">Entity::OnStoreSave</a></div><div class="ttdeci">void OnStoreSave(ParamsWriteContext ctx)</div><div class="ttdoc">Engine calls this function to collect data from entity to store for persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2829</div></div>
 <div class="ttc" id="aclass_serializer_html_a1d68a84f3eba695ac67220b1e071fd6d"><div class="ttname"><a href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write</a></div><div class="ttdeci">proto bool Write(void value_out)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="../../d6/de6/class_component_energy_manager.html#a3202b5c78ccc3eb501a5b82ac8b5f584">ComponentEnergyManager::GetEnergy()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#a364ac194d785b1bf0317a9905e9ca12d">ComponentEnergyManager::GetEnergySource()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#ae24c5bf29d1afdf204535da5d5a68dc9">ComponentEnergyManager::IsPassive()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#a280d9208abd359f0d3066bfe160ca23e">ComponentEnergyManager::IsPlugged()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#aff5a3c7129fcda6952366096fbf19e55">ComponentEnergyManager::IsSwitchedOn()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
@@ -11882,6 +13240,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aee3c3cff53ad7229a6cf12c668901e18" name="aee3c3cff53ad7229a6cf12c668901e18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee3c3cff53ad7229a6cf12c668901e18">&#9670;&#160;</a></span>ProcessVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProcessVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#adeb38f82748c28d846b5312bd7b6d9b7">CanHaveTemperature()</a>, <a class="el" href="../../d8/dc8/_day_z_game_8c.html#a5b4f7935d7cbb89f7a4610452d633707">g_Game</a>, <a class="el" href="../../de/db7/_animal_base_8c.html#a1eac97f778a0b671281b1de25e1ba99b">IsSelfAdjustingTemperature()</a>, and <a class="el" href="../../d9/d00/group___entity_temperature.html#ga5bd01eb763f9bfa9cec9cd9873adc4a8">GameConstants::TEMP_COEF_WORLD</a>.</p>
+
+</div>
+</div>
 <a id="a2081f1f64b0cf1976aec89eaf858956e" name="a2081f1f64b0cf1976aec89eaf858956e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2081f1f64b0cf1976aec89eaf858956e">&#9670;&#160;</a></span>PropagateExclusionValueRecursive()</h2>
 
@@ -11917,6 +13302,76 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d6/dc5/class_inventory_location.html#aec280ad00fb591910bbefb89b17cb070">InventoryLocation::GetSlot()</a>.</p>
+
+</div>
+</div>
+<a id="a2d2818bccaadcd08d691a1a28a88108e" name="a2d2818bccaadcd08d691a1a28a88108e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d2818bccaadcd08d691a1a28a88108e">&#9670;&#160;</a></span>ReadVarsFromCTX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> ReadVarsFromCTX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d18/gameplay_8c.html#a4ff67286551fc6c18504752a277c8bc1">ParamsReadContext</a>&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>version</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads from storage CTX. </p>
+
+<p class="reference">References <a class="el" href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read()</a>, and <a class="el" href="../../d6/d28/group___item_variables.html#ga91a0089790d8224d4b484a7e77fc64b2">VARIABLE_TEMPERATURE</a>.</p>
+
+</div>
+</div>
+<a id="ab643eb0400914e9888c6a278585a8b3c" name="ab643eb0400914e9888c6a278585a8b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab643eb0400914e9888c6a278585a8b3c">&#9670;&#160;</a></span>RefreshTemperatureAccess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RefreshTemperatureAccess </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>refreshes access without setting temperature, keeps the source locked in </p>
+
+<p class="reference">References <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#adeb38f82748c28d846b5312bd7b6d9b7">CanHaveTemperature()</a>, and <a class="el" href="../../da/d7d/class_debug.html#ac0a75400c551a91931b86b09125cfa59">Debug::Log()</a>.</p>
 
 </div>
 </div>
@@ -12157,7 +13612,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d7/d1e/group___rigid_body.html#ga7177f6588e2de1684e285e53f63ad300">dBodyApplyImpulse()</a>, <a class="el" href="../../d7/d1e/group___rigid_body.html#ga3e827787960ad4f9fd63618e6bf20e8a">GetVelocity()</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#acaa6651a76218d610828fc7e6df15a25">IsDamageDestroyed()</a>, and <a class="el" href="../../d7/dfc/classvector.html#ad45bf31a68542e955163264562648236">vector::Length()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d1e/group___rigid_body.html#ga7177f6588e2de1684e285e53f63ad300">dBodyApplyImpulse()</a>, <a class="el" href="../../d7/d1e/group___rigid_body.html#ga3e827787960ad4f9fd63618e6bf20e8a">GetVelocity()</a>, <a class="el" href="../../d7/dfc/classvector.html#ad45bf31a68542e955163264562648236">vector::Length()</a>, and <a class="el" href="../../d7/dfc/classvector.html#a2872bd9c10a1281a614a1a527683053a">vector::Normalize()</a>.</p>
 
 </div>
 </div>
@@ -12238,6 +13693,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a873da33a8d58c534987b6e9d3f1c0583" name="a873da33a8d58c534987b6e9d3f1c0583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873da33a8d58c534987b6e9d3f1c0583">&#9670;&#160;</a></span>RemoveItemVariable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoveItemVariable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes variable from variable mask, making it appear as though the variable has never been changed from default. </p>
+
+</div>
+</div>
 <a id="a69d35f14563f7f76496addfca04bc3ec" name="a69d35f14563f7f76496addfca04bc3ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69d35f14563f7f76496addfca04bc3ec">&#9670;&#160;</a></span>ReplaceOnDeath()</h2>
 
@@ -12260,6 +13743,62 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61220fec996cfdbd0d7b76fef29ce918" name="a61220fec996cfdbd0d7b76fef29ce918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61220fec996cfdbd0d7b76fef29ce918">&#9670;&#160;</a></span>SaveVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SaveVariables </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a>&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../de/dae/class_item_variable_flags.html#a43ae2b70206334efbf341485c04e18c7">ItemVariableFlags::FLOAT</a>, <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#adee5a270517ceb0d5d5c2e5e97a12608">WriteVarsToCTX()</a>.</p>
+
+</div>
+</div>
+<a id="a73ee1b451d51306ce8354cf38962b896" name="a73ee1b451d51306ce8354cf38962b896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ee1b451d51306ce8354cf38962b896">&#9670;&#160;</a></span>SerializeNumericalVars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SerializeNumericalVars </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt;&#160;</td>
+          <td class="paramname"><em>floats_out</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d6/d28/group___item_variables.html#ga91a0089790d8224d4b484a7e77fc64b2">VARIABLE_TEMPERATURE</a>.</p>
 
 </div>
 </div>
@@ -13016,6 +14555,90 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a60fdafce418196197f83f783169e9140" name="a60fdafce418196197f83f783169e9140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60fdafce418196197f83f783169e9140">&#9670;&#160;</a></span>SetCleanness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetCleanness </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allow_client</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee548ddd42c68cbc27b6a1279db4372b" name="aee548ddd42c68cbc27b6a1279db4372b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee548ddd42c68cbc27b6a1279db4372b">&#9670;&#160;</a></span>SetColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8d6f016c3c2cf9a05914fcf1235c24b1" name="a8d6f016c3c2cf9a05914fcf1235c24b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d6f016c3c2cf9a05914fcf1235c24b1">&#9670;&#160;</a></span>SetDiffuseAlpha()</h2>
 
@@ -13267,6 +14890,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4627569ddafb802b6007125ed434159d" name="a4627569ddafb802b6007125ed434159d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4627569ddafb802b6007125ed434159d">&#9670;&#160;</a></span>SetFreezeThawProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void SetFreezeThawProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>0-&gt;1 when freezing, 1-&gt;0 when thawing </p>
+
+</div>
+</div>
 <a id="a403b79c13bf10a9d576230ef207454dc" name="a403b79c13bf10a9d576230ef207454dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a403b79c13bf10a9d576230ef207454dc">&#9670;&#160;</a></span>SetFromProjectile()</h2>
 
@@ -13281,6 +14932,32 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d7/dd6/class_projectile_stopped_info.html">ProjectileStoppedInfo</a>&#160;</td>
           <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d4338afd385cc57188197fb943f9196" name="a2d4338afd385cc57188197fb943f9196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4338afd385cc57188197fb943f9196">&#9670;&#160;</a></span>SetFrozen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetFrozen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>frozen</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -13387,6 +15064,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af1f8c25df8b0b86b99c1f5971208372f" name="af1f8c25df8b0b86b99c1f5971208372f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f8c25df8b0b86b99c1f5971208372f">&#9670;&#160;</a></span>SetItemOverheatProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetItemOverheatProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>deltaTime</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>.</p>
+
+</div>
+</div>
 <a id="a23d8ba12dd30e4965f0297e97fb3ee8c" name="a23d8ba12dd30e4965f0297e97fb3ee8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23d8ba12dd30e4965f0297e97fb3ee8c">&#9670;&#160;</a></span>SetLifetime()</h2>
 
@@ -13458,6 +15173,42 @@ Private Attributes</h2></td></tr>
           <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
           <td class="paramname"><em>pType</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0f680267f78c714d6fc160471767ba1" name="ae0f680267f78c714d6fc160471767ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f680267f78c714d6fc160471767ba1">&#9670;&#160;</a></span>SetLiquidType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetLiquidType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allow_client</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -13682,6 +15433,60 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ace92be92cf29ae58794f5ab39a6269ec" name="ace92be92cf29ae58794f5ab39a6269ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace92be92cf29ae58794f5ab39a6269ec">&#9670;&#160;</a></span>SetQuantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> SetQuantity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>destroy_config</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>destroy_forced</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allow_client</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>clamp_to_stack_max</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae758a37edd47defa74c66ba7d7b26a8a" name="ae758a37edd47defa74c66ba7d7b26a8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae758a37edd47defa74c66ba7d7b26a8a">&#9670;&#160;</a></span>SetQuantityToMinimum()</h2>
 
@@ -13727,6 +15532,32 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af03b41c8ebeef2edf4b9c2b76b362fe4" name="af03b41c8ebeef2edf4b9c2b76b362fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af03b41c8ebeef2edf4b9c2b76b362fe4">&#9670;&#160;</a></span>SetRoofAbove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetRoofAbove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -13785,6 +15616,58 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
           <td class="paramname"><em>pValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b88ee6b3140ed1670002e6c48e648b2" name="a6b88ee6b3140ed1670002e6c48e648b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b88ee6b3140ed1670002e6c48e648b2">&#9670;&#160;</a></span>SetStoreLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetStoreLoad </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03642fb8f5f8f17b30f754f6979cc2e4" name="a03642fb8f5f8f17b30f754f6979cc2e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03642fb8f5f8f17b30f754f6979cc2e4">&#9670;&#160;</a></span>SetStoreLoadedQuantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetStoreLoadedQuantity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -13884,6 +15767,77 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>not really deprecated, but missing context info from <a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>. Default values used instead. </p>
+
+</div>
+</div>
+<a id="ad3a697e550ee4183f2b6abbf49b3a0d3" name="ad3a697e550ee4183f2b6abbf49b3a0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a697e550ee4183f2b6abbf49b3a0d3">&#9670;&#160;</a></span>SetTemperatureDirect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetTemperatureDirect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allow_client</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, and <a class="el" href="../../d6/d28/group___item_variables.html#ga91a0089790d8224d4b484a7e77fc64b2">VARIABLE_TEMPERATURE</a>.</p>
+
+</div>
+</div>
+<a id="a0dc5d68ed79c5c4812f5dcdcd02afcea" name="a0dc5d68ed79c5c4812f5dcdcd02afcea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dc5d68ed79c5c4812f5dcdcd02afcea">&#9670;&#160;</a></span>SetTemperatureEx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetTemperatureEx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets temperature, handles base overheating and freezing state progression logics </p>
+<p>CanFreeze</p>
+
+<p class="reference">References <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#adeb38f82748c28d846b5312bd7b6d9b7">CanHaveTemperature()</a>, <a class="el" href="../../d8/d81/_edible___base_8c.html#a11ed7cf723d5bfe7131270a51a93944b">CanItemOverheat()</a>, <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a090611f252876cc05f6633a56c891cc3">GetItemOverheatThreshold()</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a2454e6a4fb02475ba31ca9d521ceabd2">GetTemperatureFreezeThreshold()</a>, <a class="el" href="../../df/d2e/_item_base_8c.html#a913bc8c94860efa51b74c6d71cc3d613">GetTemperatureThawThreshold()</a>, <a class="el" href="../../da/d7d/class_debug.html#ac0a75400c551a91931b86b09125cfa59">Debug::Log()</a>, and <a class="el" href="../../d2/dbc/class_temperature_data.html#a5f46eb4f346a7c945b870292d5d5042e">TemperatureData::m_AdjustedTarget</a>.</p>
+
 </div>
 </div>
 <a id="a702e8a89f90950c5b552ae459f046ad3" name="a702e8a89f90950c5b552ae459f046ad3"></a>
@@ -13908,6 +15862,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>presumably for debug purposes? </p>
+
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c.html#a2454e6a4fb02475ba31ca9d521ceabd2">GetTemperatureFreezeThreshold()</a>.</p>
 
 </div>
 </div>
@@ -13934,6 +15892,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a034eb7a2bc160f38d370e0d938571e52" name="a034eb7a2bc160f38d370e0d938571e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a034eb7a2bc160f38d370e0d938571e52">&#9670;&#160;</a></span>SetVariableMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetVariableMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>.</p>
 
 </div>
 </div>
@@ -14366,6 +16352,78 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abb6df2bdd2f96432c7136131bffe2994" name="abb6df2bdd2f96432c7136131bffe2994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb6df2bdd2f96432c7136131bffe2994">&#9670;&#160;</a></span>SplitIntoStackMaxClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SplitIntoStackMaxClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>destination_entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>slot_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d47d90cd4c78bf056b90a018761ee37" name="a4d47d90cd4c78bf056b90a018761ee37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d47d90cd4c78bf056b90a018761ee37">&#9670;&#160;</a></span>SplitIntoStackMaxEx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SplitIntoStackMaxEx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>destination_entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td>
+          <td class="paramname"><em>slot_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae50807f42c91ab19f2a6f1c81d65fdf3" name="ae50807f42c91ab19f2a6f1c81d65fdf3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae50807f42c91ab19f2a6f1c81d65fdf3">&#9670;&#160;</a></span>SwitchItemSelectionTexture()</h2>
 
@@ -14461,6 +16519,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28bc07999b34c780c14dfa3c8b38262f" name="a28bc07999b34c780c14dfa3c8b38262f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28bc07999b34c780c14dfa3c8b38262f">&#9670;&#160;</a></span>TransferVariablesFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TransferVariablesFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d4/dc3/classfloat.html">float</a> &gt;&#160;</td>
+          <td class="paramname"><em>float_vars</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../df/d2e/_item_base_8c.html#ad58d75bd926b1e4be5723314caf9462d">DeSerializeNumericalVars()</a>.</p>
 
 </div>
 </div>
@@ -14678,6 +16764,63 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a81296bb3b17635b5d5e0972b9694537d" name="a81296bb3b17635b5d5e0972b9694537d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81296bb3b17635b5d5e0972b9694537d">&#9670;&#160;</a></span>UseConfigInitTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> UseConfigInitTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d8/d81/_edible___base_8c.html#a6756f76b9ab30a196b5734dc5b7d4c45">IsCorpse()</a>, and <a class="el" href="../../df/df9/class_entity_a_i.html#ac658d3fd1c2d7c634c593d3e241a6af5">EntityAI::IsMan()</a>.</p>
+
+</div>
+</div>
+<a id="a3f83e539f9bace9e6f346d225ef401c6" name="a3f83e539f9bace9e6f346d225ef401c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f83e539f9bace9e6f346d225ef401c6">&#9670;&#160;</a></span>WriteVarsToCTX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WriteVarsToCTX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d18/gameplay_8c.html#af1d1033fca2ebd02f4ba61051b6341c4">ParamsWriteContext</a>&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes to storage CTX. </p>
+
+<p class="reference">References <a class="el" href="../../d6/d28/group___item_variables.html#ga91a0089790d8224d4b484a7e77fc64b2">VARIABLE_TEMPERATURE</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Field Documentation</h2>
 <a id="aae14d7244fd8994b3d754d3260e88c1d" name="aae14d7244fd8994b3d754d3260e88c1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae14d7244fd8994b3d754d3260e88c1d">&#9670;&#160;</a></span>DEAD_REPLACE_DELAY</h2>
@@ -14689,7 +16832,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> DEAD_REPLACE_DELAY = 2000</td>
+          <td class="memname">const <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> DEAD_REPLACE_DELAY = 250</td>
         </tr>
       </table>
   </td>
@@ -15031,6 +17174,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae486732c06d6c4dabfde8ff5d3bde119" name="ae486732c06d6c4dabfde8ff5d3bde119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae486732c06d6c4dabfde8ff5d3bde119">&#9670;&#160;</a></span>m_FreezeThawProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> m_FreezeThawProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a074a04c3a444669bac393f8dc061d964" name="a074a04c3a444669bac393f8dc061d964"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a074a04c3a444669bac393f8dc061d964">&#9670;&#160;</a></span>m_HiddenSelectionsData</h2>
 
@@ -15064,6 +17229,50 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_Initialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae161dd49979277aae397dacf447d9cb1" name="ae161dd49979277aae397dacf447d9cb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae161dd49979277aae397dacf447d9cb1">&#9670;&#160;</a></span>m_IsFrozen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_IsFrozen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1e691502960336fde2957b70906cf3e" name="ad1e691502960336fde2957b70906cf3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e691502960336fde2957b70906cf3e">&#9670;&#160;</a></span>m_IsFrozenLocal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_IsFrozenLocal</td>
         </tr>
       </table>
   </td>
@@ -15449,6 +17658,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a52f541c14023cf3e671836530d0fa306" name="a52f541c14023cf3e671836530d0fa306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52f541c14023cf3e671836530d0fa306">&#9670;&#160;</a></span>m_OverheatProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> m_OverheatProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abbe49ddaf2ed97b007056df811757a77" name="abbe49ddaf2ed97b007056df811757a77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbe49ddaf2ed97b007056df811757a77">&#9670;&#160;</a></span>m_PendingDelete</h2>
 
@@ -15493,6 +17724,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae6bb1a4574a49e757ff1bc562eea4a65" name="ae6bb1a4574a49e757ff1bc562eea4a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6bb1a4574a49e757ff1bc562eea4a65">&#9670;&#160;</a></span>m_PreviousRoofTestTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d4/dc3/classfloat.html">float</a> m_PreviousRoofTestTime = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af3230aea06f11e9066e0e038a26c0637" name="af3230aea06f11e9066e0e038a26c0637"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3230aea06f11e9066e0e038a26c0637">&#9670;&#160;</a></span>m_RefresherViable</h2>
 
@@ -15504,6 +17757,50 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_RefresherViable = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88495f6e0be3fbc1c15df16474266423" name="a88495f6e0be3fbc1c15df16474266423"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88495f6e0be3fbc1c15df16474266423">&#9670;&#160;</a></span>m_RoofAbove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_RoofAbove = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c4dffa4546d0a3f58c229af3f58be7f" name="a3c4dffa4546d0a3f58c229af3f58be7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c4dffa4546d0a3f58c229af3f58be7f">&#9670;&#160;</a></span>m_TAC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected ref <a class="el" href="../../d3/de8/class_temperature_access_component.html">TemperatureAccessComponent</a> m_TAC</td>
         </tr>
       </table>
   </td>
@@ -15570,6 +17867,248 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">protected UTemperatureSource m_UniversalTemperatureSource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5c9b099772fdeea16e27d7b87300a5c" name="ae5c9b099772fdeea16e27d7b87300a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5c9b099772fdeea16e27d7b87300a5c">&#9670;&#160;</a></span>m_VarHeatPermeabilityCoef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarHeatPermeabilityCoef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c9244c22e4575dc376ad3051215d470" name="a0c9244c22e4575dc376ad3051215d470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9244c22e4575dc376ad3051215d470">&#9670;&#160;</a></span>m_VariablesMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> m_VariablesMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29937a3873dd78ff14146dd24f90910f" name="a29937a3873dd78ff14146dd24f90910f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29937a3873dd78ff14146dd24f90910f">&#9670;&#160;</a></span>m_VarTemperature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80d21bcb59ffa888e5e7e515173a455a" name="a80d21bcb59ffa888e5e7e515173a455a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d21bcb59ffa888e5e7e515173a455a">&#9670;&#160;</a></span>m_VarTemperatureFreezeThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureFreezeThreshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb673187e922f6e1182db67e72f79144" name="afb673187e922f6e1182db67e72f79144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb673187e922f6e1182db67e72f79144">&#9670;&#160;</a></span>m_VarTemperatureFreezeTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureFreezeTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a447a7aa01c84947b224bd89f1cf6b4ca" name="a447a7aa01c84947b224bd89f1cf6b4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a447a7aa01c84947b224bd89f1cf6b4ca">&#9670;&#160;</a></span>m_VarTemperatureInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureInit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb4b6f002f8373af7eda7b5a8eb8563a" name="afb4b6f002f8373af7eda7b5a8eb8563a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4b6f002f8373af7eda7b5a8eb8563a">&#9670;&#160;</a></span>m_VarTemperatureMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureMax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf237a115405b99c4609d672c5a6ec92" name="adf237a115405b99c4609d672c5a6ec92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf237a115405b99c4609d672c5a6ec92">&#9670;&#160;</a></span>m_VarTemperatureMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureMin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58815afa33a0554694cee98f0ef649ad" name="a58815afa33a0554694cee98f0ef649ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58815afa33a0554694cee98f0ef649ad">&#9670;&#160;</a></span>m_VarTemperatureOverheatTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureOverheatTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fd480d844fbfd66873b9f0b24549c68" name="a2fd480d844fbfd66873b9f0b24549c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fd480d844fbfd66873b9f0b24549c68">&#9670;&#160;</a></span>m_VarTemperatureThawThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureThawThreshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe3f78085f8600cbca15b142e02448e6" name="afe3f78085f8600cbca15b142e02448e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe3f78085f8600cbca15b142e02448e6">&#9670;&#160;</a></span>m_VarTemperatureThawTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_VarTemperatureThawTime</td>
         </tr>
       </table>
   </td>

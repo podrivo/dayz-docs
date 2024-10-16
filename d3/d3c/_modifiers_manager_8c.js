@@ -1,11 +1,6 @@
 var _modifiers_manager_8c =
 [
     [ "ModifierDebugObj", "d9/da9/class_modifier_debug_obj.html", "d9/da9/class_modifier_debug_obj" ],
-    [ "EActivationType", "d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2", [
-      [ "TRIGGER_EVENT_OFF", "d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2a8c1ab9fdf55f86d6cb4c1209e054ebe2", null ],
-      [ "TRIGGER_EVENT_ON_ACTIVATION", "d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2a9fd288cf4c8806ee5d69d643ae576430", null ],
-      [ "TRIGGER_EVENT_ON_CONNECT", "d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2a6121bd9cb33dd766463812f5936c3035", null ]
-    ] ],
     [ "eModifierSyncIDs", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0", [
       [ "MODIFIER_SYNC_WOUND_INFECT_1", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a6bbb69c158b548462efc13f9bd1150eb", null ],
       [ "MODIFIER_SYNC_WOUND_INFECT_2", "d3/d3c/_modifiers_manager_8c.html#a5c1716899a303fbac8533337fbc6ceb0a9c029365a847a5717403862f5ed3dd75", null ],
@@ -35,7 +30,7 @@ var _modifiers_manager_8c =
     [ "ResetAll", "d3/d3c/_modifiers_manager_8c.html#ad1b489218e37ecc5025dba3e4eeec7b7", null ],
     [ "SetModifierLock", "d3/d3c/_modifiers_manager_8c.html#ace1390f9fbca9fe44c2fdd0ab58441be", null ],
     [ "SetModifiers", "d3/d3c/_modifiers_manager_8c.html#a017e6dbd2f574154605cf1225a2346ad", null ],
-    [ "DEFAULT_TICK_TIME_ACTIVE", "d3/d3c/_modifiers_manager_8c.html#ad7b192f22a83d324fbb2fc7fea14ad09", null ],
+    [ "DEFAULT_TICK_TIME_ACTIVE", "d3/d3c/_modifiers_manager_8c.html#ae32c848845f7507725937f6e4832373f", null ],
     [ "DEFAULT_TICK_TIME_ACTIVE_SHORT", "d3/d3c/_modifiers_manager_8c.html#ac5b38c9a7d45b3576a7028958f9abcca", null ],
     [ "DEFAULT_TICK_TIME_INACTIVE", "d3/d3c/_modifiers_manager_8c.html#ab41b0cbf9fe485932fbffc19ea426bac", null ],
     [ "DEFAULT_TICK_TIME_INACTIVE_LONG", "d3/d3c/_modifiers_manager_8c.html#af38d7a2ebcfdc86567caa51ca9d70458", null ],
@@ -43,6 +38,8 @@ var _modifiers_manager_8c =
     [ "m_ModifierList", "d3/d3c/_modifiers_manager_8c.html#ad30167207c5f49bc30d8149cf0bc1835", null ],
     [ "m_ModifierListArray", "d3/d3c/_modifiers_manager_8c.html#ae06e8d93b8034c2d3b6139345d76178b", null ],
     [ "m_ParamList", "d3/d3c/_modifiers_manager_8c.html#acf3cda73bc6fe5c0eae3e01c470fe3bd", null ],
-    [ "m_Player", "d3/d3c/_modifiers_manager_8c.html#ac86fff4eb453898da6d2396e65aa0670", null ],
-    [ "STORAGE_VERSION", "d3/d3c/_modifiers_manager_8c.html#a25a1f5ed25534a65e875f6fde47a1d13", null ]
+    [ "m_Player", "d3/d3c/_modifiers_manager_8c.html#a4db3d46d75d2864daed52041fe1f0973", null ],
+    [ "STORAGE_VERSION", "d3/d3c/_modifiers_manager_8c.html#aaaefde60e57ca5f22ff7320414e6d54f", null ],
+    [ "TRIGGER_EVENT_OFF", "d3/d3c/_modifiers_manager_8c.html#a788f0f7edd59507ac2fc3d5344cf42f3", null ],
+    [ "TRIGGER_EVENT_ON_ACTIVATION", "d3/d3c/_modifiers_manager_8c.html#aefc5dbf9f2a16fe3dce28acab446e5bf", null ]
 ];

@@ -12,6 +12,8 @@ var class_cholera_mdfr =
     [ "CHANCE_OF_VOMIT", "d2/dc7/class_cholera_mdfr.html#a60d535644df5b7467de5e160299ca3e7", null ],
     [ "CHANCE_OF_VOMIT_AGENT", "d2/dc7/class_cholera_mdfr.html#a1063b13572f89c607fe978fdb914bef5", null ],
     [ "ENERGY_DRAIN_FROM_VOMIT", "d2/dc7/class_cholera_mdfr.html#ae0f0aca190fecf6d4dbcddc4d0046682", null ],
+    [ "m_Exhaustion", "d2/dc7/class_cholera_mdfr.html#ab2c2f7e8b3e0edd29f911aa6224d5d96", null ],
+    [ "m_ExhaustionTimer", "d2/dc7/class_cholera_mdfr.html#a17e2bf9021c01cb02ff2415077898091", null ],
     [ "STOMACH_MIN_VOLUME", "d2/dc7/class_cholera_mdfr.html#a1a1a92509958a6b8875d0c327bbd4213", null ],
     [ "WATER_DRAIN_FROM_VOMIT", "d2/dc7/class_cholera_mdfr.html#a4e971213e62da8093efc912a5f666dd2", null ],
     [ "WATER_LOSS_CHOLERA", "d2/dc7/class_cholera_mdfr.html#a24c2b6ab5d9f3b4fe14d8564477cf028", null ],

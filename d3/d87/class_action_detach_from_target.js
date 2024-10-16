@@ -7,8 +7,7 @@ var class_action_detach_from_target =
     [ "FindSlotIdToDetach", "d3/d87/class_action_detach_from_target.html#a228e751a21fa84b91084b84f72fdc5a8", null ],
     [ "GetDisplayInteractObject", "d3/d87/class_action_detach_from_target.html#a85d927fda0bae22c3ea20e4af773c8af", null ],
     [ "GetInputType", "d3/d87/class_action_detach_from_target.html#ab6eb153abc42e514909126c621d01280", null ],
-    [ "OnExecuteClient", "d3/d87/class_action_detach_from_target.html#a7c0913512f25d83df6aa6530b769b65e", null ],
-    [ "OnExecuteServer", "d3/d87/class_action_detach_from_target.html#a26c6922d796bdf663f49119e83fe26f8", null ],
+    [ "OnExecute", "d3/d87/class_action_detach_from_target.html#a8cd166a68dd6f387d58965b4b20698a5", null ],
     [ "Process", "d3/d87/class_action_detach_from_target.html#af5c468e94a16298c01b1da4f9529ec10", null ],
     [ "SetupAction", "d3/d87/class_action_detach_from_target.html#aba51e6fb279797318af73e89a6208e71", null ]
 ];

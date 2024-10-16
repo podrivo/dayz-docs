@@ -7,6 +7,7 @@ var class_plugin_recipes_manager_base =
     [ "CreateAllRecipes", "dd/d5d/class_plugin_recipes_manager_base.html#a1a4665bfff57def7ee0e05131e1b888c", null ],
     [ "GenerateHumanReadableRecipeList", "dd/d5d/class_plugin_recipes_manager_base.html#a83132f28c0bd0f95090cb9d8e3dd9b5a", null ],
     [ "GenerateRecipeCache", "dd/d5d/class_plugin_recipes_manager_base.html#afcd312879190acf3b20fd12a0c806879", null ],
+    [ "GetAnimationCommandUID", "dd/d5d/class_plugin_recipes_manager_base.html#acbad5ddebfe2e5878013e37dc23eaf05", null ],
     [ "GetIsInstaRecipe", "dd/d5d/class_plugin_recipes_manager_base.html#aeb986f9569bde720e49d996a927d5a78", null ],
     [ "GetMaxNumberOfRecipes", "dd/d5d/class_plugin_recipes_manager_base.html#abee49feb94f746511d8167a1ad9004d1", null ],
     [ "GetRecipeIntersection", "dd/d5d/class_plugin_recipes_manager_base.html#a939c9b48fefeb10180b32b59878307f8", null ],

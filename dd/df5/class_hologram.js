@@ -105,6 +105,8 @@ var class_hologram =
     [ "m_WatchtowerIgnoreComponentNames", "dd/df5/class_hologram.html#a0b51e32f2cb716c7a8e0b5772363b09e", null ],
     [ "m_y_p_r_previous", "dd/df5/class_hologram.html#aa069791257db66f87e17ed1e9b5c9606", null ],
     [ "m_YawPitchRollLimit", "dd/df5/class_hologram.html#a875ae364d56e35fb2c791a05421c8f89", null ],
+    [ "PLACEMENT_RC_END_OFFSET", "dd/df5/class_hologram.html#aa9926d66b6f90e6d59032e6707b4bba7", null ],
+    [ "PLACEMENT_RC_START_OFFSET", "dd/df5/class_hologram.html#af853e7e46959ae9f46d5292a84ebc9cf", null ],
     [ "PROJECTION_TRANSITION_MAX", "dd/df5/class_hologram.html#a4a4e95f884076763f54048f1783bb29a", null ],
     [ "PROJECTION_TRANSITION_MIN", "dd/df5/class_hologram.html#a2a0ae082aec30bc2b6ef609d9823df90", null ],
     [ "SELECTION_INVENTORY", "dd/df5/class_hologram.html#a099e220552fbfcc79bfd4c4cc87b35b5", null ],

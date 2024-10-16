@@ -1,5 +1,8 @@
 var class_json_data_area_data =
 [
+    [ "EffectDuration", "d8/dc8/class_json_data_area_data.html#a240c075af5964c2b0fa747a198e3d4e7", null ],
+    [ "EffectInterval", "d8/dc8/class_json_data_area_data.html#a4420cc587a5f0bc7920232b240a98cab", null ],
+    [ "EffectModifier", "d8/dc8/class_json_data_area_data.html#a008cc4548a45023c8ab11719bc9610ea", null ],
     [ "InnerPartDist", "d8/dc8/class_json_data_area_data.html#a7e0b949672b7c7ada0efc24596b9c08c", null ],
     [ "InnerRingCount", "d8/dc8/class_json_data_area_data.html#ae5ee5014fae6b490d8378388c721e4dd", null ],
     [ "NegHeight", "d8/dc8/class_json_data_area_data.html#ad464fab9f922cae3c11b49d8dec3f96c", null ],

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">v1.22.156718 · Sep 18, 2023</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,8 +109,26 @@ $(document).ready(function(){initNavTree('de/d72/class_refrigerator.html','../..
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R8ZT2QC248"></script>
 <script>
+  // Analytics
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-R8ZT2QC248');
+  // Favicon
+  document.addEventListener("DOMContentLoaded", function() {
+    var link = document.createElement("link");
+    link.rel = "icon";
+    link.href = "/favicon.svg";
+    document.head.appendChild(link);
+  });
+  // Index Link
+  document.addEventListener("DOMContentLoaded", function() {
+    var projectname = document.querySelector('#projectname')
+    var a = document.createElement('a');
+    a.innerHTML = projectname.innerHTML;
+    a.title = projectname.innerHTML;
+    a.href = "/";
+    projectname.innerHTML = "";
+    projectname.appendChild(a);
+  });
 </script>

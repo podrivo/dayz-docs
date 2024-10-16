@@ -1,5 +1,6 @@
 var _wood_base_8c =
 [
+    [ "TreeEffecterParameters", "d1/d9f/class_tree_effecter_parameters.html", "d1/d9f/class_tree_effecter_parameters" ],
     [ "EHarvestType", "da/deb/_wood_base_8c.html#ae80cbbfe62468ad69c0d16f0798621f5", [
       [ "NORMAL", "da/deb/_wood_base_8c.html#ae80cbbfe62468ad69c0d16f0798621f5a50d1448013c6f17125caee18aa418af7", null ],
       [ "BARK", "da/deb/_wood_base_8c.html#ae80cbbfe62468ad69c0d16f0798621f5a035e32e9bff4d52e7981bf9336bb89d3", null ]
@@ -18,15 +19,24 @@ var _wood_base_8c =
     [ "GetSecondaryDropsAmount", "da/deb/_wood_base_8c.html#ae88221a9067cc40d6165b75d87f16e9d", null ],
     [ "GetSecondaryOutput", "da/deb/_wood_base_8c.html#a0470189400a4e171ec637c4175c19bb8", null ],
     [ "GetToolDamage", "da/deb/_wood_base_8c.html#a85465c706c7e6fa6407b3cc23ad5130a", null ],
+    [ "Init", "da/deb/_wood_base_8c.html#af32de527ed00115290e4ad3f5cd0f1cf", null ],
     [ "InitMiningValues", "da/deb/_wood_base_8c.html#a0d7bd7b2ca3575f4c55794b0613294fd", null ],
     [ "IsCuttable", "da/deb/_wood_base_8c.html#a387867b8c5ae5bb5c610cfb4332a0b6a", null ],
     [ "IsWoodBase", "da/deb/_wood_base_8c.html#aaf1d430ce38ad37b5ee0985eb40cb1b4", null ],
+    [ "OnVariablesSynchronized", "da/deb/_wood_base_8c.html#ad183155e7592e816863539c54b6fa83f", null ],
+    [ "SetRadius", "da/deb/_wood_base_8c.html#a19263babb773b9519bdc2543e0ce6aa3", null ],
+    [ "TreeEffecter", "da/deb/_wood_base_8c.html#ab5cdb3ad5fbcc1dc5d65fdc98a56bf4f", null ],
     [ "WoodBase", "da/deb/_wood_base_8c.html#abbb29a17964fe9b913bd331a4b623137", null ],
+    [ "~TreeEffecter", "da/deb/_wood_base_8c.html#a2e6b8c405de5f9c9a7e8e8655ab1e367", null ],
     [ "m_BarkType", "da/deb/_wood_base_8c.html#a82cbd002be910fe03c3c37f4da1466b6", null ],
     [ "m_CycleTimeOverride", "da/deb/_wood_base_8c.html#ad709a874a0c3edb06646795695e5c6c5", null ],
+    [ "m_Effects", "da/deb/_wood_base_8c.html#aa97baea0ea514bcb5c727f78e31ccb11", null ],
     [ "m_IsCuttable", "da/deb/_wood_base_8c.html#ab656db92a3ba8c78c7a4861d29cb1986", null ],
+    [ "m_Plants", "da/deb/_wood_base_8c.html#a1b190af8a0d87002acd2ba80be0604c9", null ],
     [ "m_PrimaryDropsAmount", "da/deb/_wood_base_8c.html#a603a93f214d20bdc94ded72574a8587d", null ],
     [ "m_PrimaryOutput", "da/deb/_wood_base_8c.html#ae625f1c7d8d5b54ad20f61fb11180a51", null ],
+    [ "m_Radius", "da/deb/_wood_base_8c.html#ad36e8e583e4de00c6cecdaf84029d92a", null ],
+    [ "m_RadiusSync", "da/deb/_wood_base_8c.html#a6f7af000c1fe405a548a82831c1f4a5d", null ],
     [ "m_SecondaryDropsAmount", "da/deb/_wood_base_8c.html#a0052c4bca7e401c26ab783aafed761e5", null ],
     [ "m_SecondaryOutput", "da/deb/_wood_base_8c.html#a01fac2ef83f832f25fb78636da3f662d", null ],
     [ "m_ToolDamage", "da/deb/_wood_base_8c.html#a960225127659228afee9dd92109b5d9b", null ]

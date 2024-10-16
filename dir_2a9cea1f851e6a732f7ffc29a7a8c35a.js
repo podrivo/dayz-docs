@@ -11,6 +11,7 @@ var dir_2a9cea1f851e6a732f7ffc29a7a8c35a =
     [ "ScriptConsole", "dir_b44ff30fc9e62c0aab965211f6d38baf.html", "dir_b44ff30fc9e62c0aab965211f6d38baf" ],
     [ "ScriptedWindows", "dir_9bcf93d9bed13fd6bcc9dbcb0a0cfb42.html", "dir_9bcf93d9bed13fd6bcc9dbcb0a0cfb42" ],
     [ "ScriptsHudDebug", "dir_03ebbf3ed8179c4c24ab9f9af61a3d6a.html", "dir_03ebbf3ed8179c4c24ab9f9af61a3d6a" ],
+    [ "Vehicles", "dir_2c3af22184dc1f52238f1ecdc8f9cad3.html", "dir_2c3af22184dc1f52238f1ecdc8f9cad3" ],
     [ "ActionMenu.c", "d6/dfc/_action_menu_8c.html", "d6/dfc/_action_menu_8c" ],
     [ "ActionTargetsCursor.c", "d2/d0c/_action_targets_cursor_8c.html", "d2/d0c/_action_targets_cursor_8c" ],
     [ "BookMenu.c", "d5/da5/_book_menu_8c.html", "d5/da5/_book_menu_8c" ],
@@ -24,6 +25,7 @@ var dir_2a9cea1f851e6a732f7ffc29a7a8c35a =
     [ "HelpScreen.c", "df/dc0/_help_screen_8c.html", "df/dc0/_help_screen_8c" ],
     [ "HudDebug.c", "d8/d26/_hud_debug_8c.html", "d8/d26/_hud_debug_8c" ],
     [ "IngameHud.c", "d7/d65/_ingame_hud_8c.html", "d7/d65/_ingame_hud_8c" ],
+    [ "IngameHudHeatBuffer.c", "de/d9d/_ingame_hud_heat_buffer_8c.html", "de/d9d/_ingame_hud_heat_buffer_8c" ],
     [ "InGameMenu.c", "d4/d24/_in_game_menu_8c.html", "d4/d24/_in_game_menu_8c" ],
     [ "InGameMenuXbox.c", "d1/dd5/_in_game_menu_xbox_8c.html", "d1/dd5/_in_game_menu_xbox_8c" ],
     [ "InputDeviceDisconnectWarningMenu.c", "dc/d6d/_input_device_disconnect_warning_menu_8c.html", "dc/d6d/_input_device_disconnect_warning_menu_8c" ],
@@ -58,5 +60,6 @@ var dir_2a9cea1f851e6a732f7ffc29a7a8c35a =
     [ "StartupMenu.c", "de/d08/_startup_menu_8c.html", "de/d08/_startup_menu_8c" ],
     [ "StaticGUIUtils.c", "dd/dd0/_static_g_u_i_utils_8c.html", "dd/dd0/_static_g_u_i_utils_8c" ],
     [ "TitleScreenMenu.c", "d1/d36/_title_screen_menu_8c.html", "d1/d36/_title_screen_menu_8c" ],
+    [ "Watermark.c", "d2/db9/_watermark_8c.html", "d2/db9/_watermark_8c" ],
     [ "WidgetEventHandler.c", "de/d84/_widget_event_handler_8c.html", "de/d84/_widget_event_handler_8c" ]
 ];

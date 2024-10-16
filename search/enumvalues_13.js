@@ -40,11 +40,8 @@ var searchData=
   ['trigger_5fauto_5fend_37',['TRIGGER_AUTO_END',['../d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4abb4eb0b9c3a5d87095725b607319f86e',1,'Events.c']]],
   ['trigger_5fauto_5fstart_38',['TRIGGER_AUTO_START',['../d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a53cb172ceaff3584738f244f3e968c9d',1,'Events.c']]],
   ['trigger_5fdebug_39',['TRIGGER_DEBUG',['../d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a9a5a086cd025da863818c97c6e755925',1,'EDiagMenuIDs.c']]],
-  ['trigger_5fevent_5foff_40',['TRIGGER_EVENT_OFF',['../d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2a8c1ab9fdf55f86d6cb4c1209e054ebe2',1,'ModifiersManager.c']]],
-  ['trigger_5fevent_5fon_5factivation_41',['TRIGGER_EVENT_ON_ACTIVATION',['../d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2a9fd288cf4c8806ee5d69d643ae576430',1,'ModifiersManager.c']]],
-  ['trigger_5fevent_5fon_5fconnect_42',['TRIGGER_EVENT_ON_CONNECT',['../d3/d3c/_modifiers_manager_8c.html#a91438892389b25e59441949d005ef1a2a6121bd9cb33dd766463812f5936c3035',1,'ModifiersManager.c']]],
-  ['trigger_5fjam_43',['TRIGGER_JAM',['../d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a3a8c7c4efc9e776decb0dfe0d44c2400',1,'Events.c']]],
-  ['trigger_5fmenu_44',['TRIGGER_MENU',['../d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a0bb4264d4d2a028fb09a0e1884b0532e',1,'EDiagMenuIDs.c']]],
-  ['trigger_5fnoterrain_45',['TRIGGER_NOTERRAIN',['../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0ce2fcefb8d2bbd1b045c2130074778a',1,'DayZPhysics.c']]],
-  ['trigger_5fplayer_5fdebug_46',['TRIGGER_PLAYER_DEBUG',['../d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a4c498b65b66d2e43480ae8e8695e5f88',1,'EDiagMenuIDs.c']]]
+  ['trigger_5fjam_40',['TRIGGER_JAM',['../d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a3a8c7c4efc9e776decb0dfe0d44c2400',1,'Events.c']]],
+  ['trigger_5fmenu_41',['TRIGGER_MENU',['../d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a0bb4264d4d2a028fb09a0e1884b0532e',1,'EDiagMenuIDs.c']]],
+  ['trigger_5fnoterrain_42',['TRIGGER_NOTERRAIN',['../d6/de4/_day_z_physics_8c.html#a726c859fa381777c5894cba896f7db3aa0ce2fcefb8d2bbd1b045c2130074778a',1,'DayZPhysics.c']]],
+  ['trigger_5fplayer_5fdebug_43',['TRIGGER_PLAYER_DEBUG',['../d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a4c498b65b66d2e43480ae8e8695e5f88',1,'EDiagMenuIDs.c']]]
 ];

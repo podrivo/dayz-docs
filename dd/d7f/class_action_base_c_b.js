@@ -10,6 +10,7 @@ var class_action_base_c_b =
     [ "InitActionComponent", "dd/d7f/class_action_base_c_b.html#a27cc9314175cf5653b8522101bd132dc", null ],
     [ "Interrupt", "dd/d7f/class_action_base_c_b.html#ac1c30a63fcff78de5e4924f7ee2b822e", null ],
     [ "IsUserActionCallback", "dd/d7f/class_action_base_c_b.html#a88ebae5ac1bde41939a5391c15f78d6f", null ],
+    [ "OnAnimationEvent", "dd/d7f/class_action_base_c_b.html#a22bed5de968d9d839afa53bc1b8067c0", null ],
     [ "OnFinish", "dd/d7f/class_action_base_c_b.html#aa844cd28d168496e8cb52608ffd7ded1", null ],
     [ "ProgressActionComponent", "dd/d7f/class_action_base_c_b.html#a40ed6e7012311f79a356c7df1acc1789", null ],
     [ "SetActionData", "dd/d7f/class_action_base_c_b.html#ae89e2891a37b99878ece93a388d7c5fc", null ],

@@ -8,6 +8,12 @@ var class_trap_spawn_base =
     [ "GetDeploySoundset", "d6/d3e/class_trap_spawn_base.html#a14046891600537e83da30eb2e7a1f4d5", null ],
     [ "GetLoopDeploySoundset", "d6/d3e/class_trap_spawn_base.html#a4403b4f304acf2affb04880ba46a1313", null ],
     [ "GetLoopDeploySoundset", "d6/d3e/class_trap_spawn_base.html#a4403b4f304acf2affb04880ba46a1313", null ],
+    [ "InitCatchingComponent", "d6/d3e/class_trap_spawn_base.html#aef2668f4d5172fecef27053ebccd6e39", null ],
+    [ "InitCatchingComponent", "d6/d3e/class_trap_spawn_base.html#aef2668f4d5172fecef27053ebccd6e39", null ],
+    [ "InitCatchingComponent", "d6/d3e/class_trap_spawn_base.html#aef2668f4d5172fecef27053ebccd6e39", null ],
+    [ "InitTrapValues", "d6/d3e/class_trap_spawn_base.html#a9fec62f3bedc2a2fefe68d4077152f54", null ],
+    [ "InitTrapValues", "d6/d3e/class_trap_spawn_base.html#a9fec62f3bedc2a2fefe68d4077152f54", null ],
+    [ "InitTrapValues", "d6/d3e/class_trap_spawn_base.html#a9fec62f3bedc2a2fefe68d4077152f54", null ],
     [ "IsDeployable", "d6/d3e/class_trap_spawn_base.html#ab18e11ed223759f876177531c553dfbe", null ],
     [ "IsDeployable", "d6/d3e/class_trap_spawn_base.html#ab18e11ed223759f876177531c553dfbe", null ],
     [ "IsPlaceableAtPosition", "d6/d3e/class_trap_spawn_base.html#afd01b82a1d31ad71342c37463ab43c46", null ],
@@ -18,11 +24,5 @@ var class_trap_spawn_base =
     [ "OnVariablesSynchronized", "d6/d3e/class_trap_spawn_base.html#ad183155e7592e816863539c54b6fa83f", null ],
     [ "OnVariablesSynchronized", "d6/d3e/class_trap_spawn_base.html#ad183155e7592e816863539c54b6fa83f", null ],
     [ "SetActions", "d6/d3e/class_trap_spawn_base.html#afa39b7c4d3d085ef8514a87c32b81a4d", null ],
-    [ "SetupTrap", "d6/d3e/class_trap_spawn_base.html#a4eaa75c09257961659a66cde5f4f511b", null ],
-    [ "SpawnCatch", "d6/d3e/class_trap_spawn_base.html#af305318c2b4d82c1364fa35070049836", null ],
-    [ "SpawnCatch", "d6/d3e/class_trap_spawn_base.html#af305318c2b4d82c1364fa35070049836", null ],
-    [ "SpawnCatch", "d6/d3e/class_trap_spawn_base.html#af305318c2b4d82c1364fa35070049836", null ],
-    [ "Trap_FishNet", "d6/d3e/class_trap_spawn_base.html#aea8bc46cf2500eb5fb1c5278f6097080", null ],
-    [ "Trap_RabbitSnare", "d6/d3e/class_trap_spawn_base.html#a1577bec4af220997872a920ce711dda1", null ],
-    [ "Trap_SmallFish", "d6/d3e/class_trap_spawn_base.html#a13624c3feabacc62c03f18765fb575bd", null ]
+    [ "SetupTrap", "d6/d3e/class_trap_spawn_base.html#a4eaa75c09257961659a66cde5f4f511b", null ]
 ];

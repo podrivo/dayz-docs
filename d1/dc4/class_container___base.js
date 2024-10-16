@@ -16,8 +16,6 @@ var class_container___base =
     [ "FillInventory", "d1/dc4/class_container___base.html#af94375d4780324f7ec8948a82728cfed", null ],
     [ "GiftBox_Base", "d1/dc4/class_container___base.html#ab18e1b381d212398f329747d4c940f86", null ],
     [ "IsContainer", "d1/dc4/class_container___base.html#ada59923e2d740ffca32807d0ded46ebd", null ],
-    [ "IsContainer", "d1/dc4/class_container___base.html#ada59923e2d740ffca32807d0ded46ebd", null ],
-    [ "IsContainer", "d1/dc4/class_container___base.html#ada59923e2d740ffca32807d0ded46ebd", null ],
     [ "IsOpen", "d1/dc4/class_container___base.html#a05bac627bbb13f7329a1aff6e140219b", null ],
     [ "IsTakeable", "d1/dc4/class_container___base.html#ac04a39fa356ae48f99ac9fed3df8887d", null ],
     [ "OnDebugSpawn", "d1/dc4/class_container___base.html#a05eab95952a189dc9e08ccecec41b51a", null ],

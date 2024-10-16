@@ -7,6 +7,7 @@ var class_player_sound_event_base =
     [ "CanPlay", "d5/def/class_player_sound_event_base.html#aa2809b5a7b0d5fa93344fafc92075d51", null ],
     [ "DamageSoundEvents", "d5/def/class_player_sound_event_base.html#afde0dadb4209f49915680b015e3f0673", null ],
     [ "DrowningEvents", "d5/def/class_player_sound_event_base.html#a1993afc29ec73d77d0475cfa73f62a11", null ],
+    [ "ForceConsumeSoundEvent", "d5/def/class_player_sound_event_base.html#a53fd882d745a7d41d7e7b9e13c2520b7", null ],
     [ "HasHoldBreathException", "d5/def/class_player_sound_event_base.html#a5b7bd61e55e4cf683e3264a41c87bbdf", null ],
     [ "HasPriorityOverCurrent", "d5/def/class_player_sound_event_base.html#a286474a6b59c193baa69ae5266d4259b", null ],
     [ "HasPriorityOverCurrent", "d5/def/class_player_sound_event_base.html#a286474a6b59c193baa69ae5266d4259b", null ],

@@ -6,5 +6,6 @@ var _bot_events_8c =
     [ "BotEventEndOK", "d9/d2d/class_bot_event_end_o_k.html", null ],
     [ "BotEventEndFail", "de/d02/class_bot_event_end_fail.html", null ],
     [ "BotEventEndTimeout", "d2/dec/class_bot_event_end_timeout.html", null ],
-    [ "BotEventOnItemInHandsChanged", "de/d5c/class_bot_event_on_item_in_hands_changed.html", null ]
+    [ "BotEventOnItemInHandsChanged", "de/d5c/class_bot_event_on_item_in_hands_changed.html", null ],
+    [ "BotEventStartDebug", "d9/d2c/class_bot_event_start_debug.html", "d9/d2c/class_bot_event_start_debug" ]
 ];

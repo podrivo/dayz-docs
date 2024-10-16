@@ -1,7 +1,7 @@
 var _hud_debug_win_char_agents_8c =
 [
     [ "DebugAgentData", "d3/d02/class_debug_agent_data.html", "d3/d02/class_debug_agent_data" ],
-    [ "AddAgent", "d8/ddd/_hud_debug_win_char_agents_8c.html#a8647ce62475827e5257c3c9d7b7840a3", null ],
+    [ "AddAgent", "d8/ddd/_hud_debug_win_char_agents_8c.html#abcef4a560408bd87766206272b8b05e4", null ],
     [ "ClearAgents", "d8/ddd/_hud_debug_win_char_agents_8c.html#a2911f81a2013552e46287c0e03f7ca27", null ],
     [ "DebugGrowAgentsRequest", "d8/ddd/_hud_debug_win_char_agents_8c.html#a8850f0069ce1418fb525063ce1d951f6", null ],
     [ "DebugRemoveAgentsRequest", "d8/ddd/_hud_debug_win_char_agents_8c.html#aff32465209180c2b6c3da276b79ab912", null ],
@@ -17,5 +17,6 @@ var _hud_debug_win_char_agents_8c =
     [ "~HudDebugWinCharAgents", "d8/ddd/_hud_debug_win_char_agents_8c.html#a2aba940abb22d16715990f64f1169d6b", null ],
     [ "m_AgentWidgetData", "d8/ddd/_hud_debug_win_char_agents_8c.html#a2f3653248bf546b2c4bdf75c4fa82e3e", null ],
     [ "m_AgentWidgets", "d8/ddd/_hud_debug_win_char_agents_8c.html#a26c0fb3d78a820dad6edc2405467d839", null ],
-    [ "m_WgtAgents", "d8/ddd/_hud_debug_win_char_agents_8c.html#ac05b53b2384e80a3b0644d5fede696d8", null ]
+    [ "m_WgtAgents", "d8/ddd/_hud_debug_win_char_agents_8c.html#ac05b53b2384e80a3b0644d5fede696d8", null ],
+    [ "WgtModifiersContentPanelScript", "d8/ddd/_hud_debug_win_char_agents_8c.html#a503e8d63ddecbc6ba8584fa425f06dad", null ]
 ];

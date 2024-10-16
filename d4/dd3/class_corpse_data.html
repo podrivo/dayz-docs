@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -111,6 +111,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a629904745160c99c3dfc54872ae976bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62f0e4e725fbec678d0d3f6a4e6acf07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/class_corpse_data.html#a62f0e4e725fbec678d0d3f6a4e6acf07">UpdateCorpseState</a> (<a class="el" href="../../d9/db9/classbool.html">bool</a> force_check=false)</td></tr>
 <tr class="separator:a62f0e4e725fbec678d0d3f6a4e6acf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbe5236ef08045b230de234e9c33632"><td class="memItemLeft" align="right" valign="top">protected <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/class_corpse_data.html#a2cbe5236ef08045b230de234e9c33632">CanProgressDecay</a> ()</td></tr>
+<tr class="separator:a2cbe5236ef08045b230de234e9c33632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -128,6 +130,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae41ce96194442e2bbb6fd499a3cac920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c1000f3e3a8c07b0bba3d1cd72f5df2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/class_corpse_data.html#a5c1000f3e3a8c07b0bba3d1cd72f5df2">m_iTriesToGetLifetime</a></td></tr>
 <tr class="separator:a5c1000f3e3a8c07b0bba3d1cd72f5df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8343dd2ee9e95dcb3a0ccdc0899cfaf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/class_corpse_data.html#a8343dd2ee9e95dcb3a0ccdc0899cfaf1">m_LifetimeAdjusted</a> = <a class="el" href="../../d4/dc3/classfloat.html#a7b168e749397f2c3614bcc37d69aa72d">float.MIN</a></td></tr>
+<tr class="separator:a8343dd2ee9e95dcb3a0ccdc0899cfaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe228b96d3584dd63e2811e6b259bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/class_corpse_data.html#a7fe228b96d3584dd63e2811e6b259bb8">m_LastLifetime</a> = <a class="el" href="../../d4/dc3/classfloat.html#a7b168e749397f2c3614bcc37d69aa72d">float.MIN</a></td></tr>
+<tr class="separator:a7fe228b96d3584dd63e2811e6b259bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db3d46d75d2864daed52041fe1f0973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/class_corpse_data.html#a4db3d46d75d2864daed52041fe1f0973">m_Player</a></td></tr>
 <tr class="separator:a4db3d46d75d2864daed52041fe1f0973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -171,6 +177,35 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2cbe5236ef08045b230de234e9c33632" name="a2cbe5236ef08045b230de234e9c33632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbe5236ef08045b230de234e9c33632">&#9670;&#160;</a></span>CanProgressDecay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> CanProgressDecay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d4/dd3/class_corpse_data.html#a4db3d46d75d2864daed52041fe1f0973">m_Player</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dd3/class_corpse_data.html#a62f0e4e725fbec678d0d3f6a4e6acf07">UpdateCorpseState()</a>.</p>
+
+</div>
+</div>
 <a id="a62f0e4e725fbec678d0d3f6a4e6acf07" name="a62f0e4e725fbec678d0d3f6a4e6acf07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62f0e4e725fbec678d0d3f6a4e6acf07">&#9670;&#160;</a></span>UpdateCorpseState()</h2>
 
@@ -195,7 +230,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d3/def/class_player_constants.html#a991a35c819a0dad22b085d29579ffbbc">PlayerConstants::CORPSE_STATE_DECAYED</a>, <a class="el" href="../../d3/def/class_player_constants.html#a380b065f47ca634c43f637e017dbd122">PlayerConstants::CORPSE_STATE_FRESH</a>, <a class="el" href="../../d3/def/class_player_constants.html#af75d17712760bfb7c2fa6033fb3e3d55">PlayerConstants::CORPSE_STATE_MEDIUM</a>, <a class="el" href="../../d3/def/class_player_constants.html#ae442d14b33180db198e693d76b1fa2ff">PlayerConstants::CORPSE_THRESHOLD_DECAYED</a>, <a class="el" href="../../d3/def/class_player_constants.html#a13613bb674bfa7b084ea2c74b2377c40">PlayerConstants::CORPSE_THRESHOLD_MEDIUM</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a710f348d86e628afe0b21f9052a3641e">GET_LIFETIME_TRIES_MAX</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a96d96bf5215498aa4a2958a56dcba342">m_bUpdate</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#ae41ce96194442e2bbb6fd499a3cac920">m_iCorpseState</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a9f62b9fe12eaa9adfb1ca52362ed0bb1">m_iMaxLifetime</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a5c1000f3e3a8c07b0bba3d1cd72f5df2">m_iTriesToGetLifetime</a>, and <a class="el" href="../../d4/dd3/class_corpse_data.html#a4db3d46d75d2864daed52041fe1f0973">m_Player</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dd3/class_corpse_data.html#a2cbe5236ef08045b230de234e9c33632">CanProgressDecay()</a>, <a class="el" href="../../d3/def/class_player_constants.html#a991a35c819a0dad22b085d29579ffbbc">PlayerConstants::CORPSE_STATE_DECAYED</a>, <a class="el" href="../../d3/def/class_player_constants.html#a380b065f47ca634c43f637e017dbd122">PlayerConstants::CORPSE_STATE_FRESH</a>, <a class="el" href="../../d3/def/class_player_constants.html#af75d17712760bfb7c2fa6033fb3e3d55">PlayerConstants::CORPSE_STATE_MEDIUM</a>, <a class="el" href="../../d3/def/class_player_constants.html#ae442d14b33180db198e693d76b1fa2ff">PlayerConstants::CORPSE_THRESHOLD_DECAYED</a>, <a class="el" href="../../d3/def/class_player_constants.html#a13613bb674bfa7b084ea2c74b2377c40">PlayerConstants::CORPSE_THRESHOLD_MEDIUM</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a710f348d86e628afe0b21f9052a3641e">GET_LIFETIME_TRIES_MAX</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a96d96bf5215498aa4a2958a56dcba342">m_bUpdate</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#ae41ce96194442e2bbb6fd499a3cac920">m_iCorpseState</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a9f62b9fe12eaa9adfb1ca52362ed0bb1">m_iMaxLifetime</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a5c1000f3e3a8c07b0bba3d1cd72f5df2">m_iTriesToGetLifetime</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a7fe228b96d3584dd63e2811e6b259bb8">m_LastLifetime</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a8343dd2ee9e95dcb3a0ccdc0899cfaf1">m_LifetimeAdjusted</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a4db3d46d75d2864daed52041fe1f0973">m_Player</a>, and <a class="el" href="../../d0/d13/_en_convert_8c.html#a25608b609af2878d5a2f9cee6b2961b3">MIN</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d04/class_mission_base.html#afc7da3f56a9d3a41ad9ae34a1ff27f07">MissionBase::UpdateCorpseStatesServer()</a>.</p>
 
@@ -370,6 +405,54 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7fe228b96d3584dd63e2811e6b259bb8" name="a7fe228b96d3584dd63e2811e6b259bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe228b96d3584dd63e2811e6b259bb8">&#9670;&#160;</a></span>m_LastLifetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_LastLifetime = <a class="el" href="../../d4/dc3/classfloat.html#a7b168e749397f2c3614bcc37d69aa72d">float.MIN</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dd3/class_corpse_data.html#a62f0e4e725fbec678d0d3f6a4e6acf07">UpdateCorpseState()</a>.</p>
+
+</div>
+</div>
+<a id="a8343dd2ee9e95dcb3a0ccdc0899cfaf1" name="a8343dd2ee9e95dcb3a0ccdc0899cfaf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8343dd2ee9e95dcb3a0ccdc0899cfaf1">&#9670;&#160;</a></span>m_LifetimeAdjusted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_LifetimeAdjusted = <a class="el" href="../../d4/dc3/classfloat.html#a7b168e749397f2c3614bcc37d69aa72d">float.MIN</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dd3/class_corpse_data.html#a62f0e4e725fbec678d0d3f6a4e6acf07">UpdateCorpseState()</a>.</p>
+
+</div>
+</div>
 <a id="a4db3d46d75d2864daed52041fe1f0973" name="a4db3d46d75d2864daed52041fe1f0973"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4db3d46d75d2864daed52041fe1f0973">&#9670;&#160;</a></span>m_Player</h2>
 
@@ -390,7 +473,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dd3/class_corpse_data.html#a629904745160c99c3dfc54872ae976bc">CorpseData()</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a62f0e4e725fbec678d0d3f6a4e6acf07">UpdateCorpseState()</a>, and <a class="el" href="../../d5/d04/class_mission_base.html#afc7da3f56a9d3a41ad9ae34a1ff27f07">MissionBase::UpdateCorpseStatesServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dd3/class_corpse_data.html#a2cbe5236ef08045b230de234e9c33632">CanProgressDecay()</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a629904745160c99c3dfc54872ae976bc">CorpseData()</a>, <a class="el" href="../../d4/dd3/class_corpse_data.html#a62f0e4e725fbec678d0d3f6a4e6acf07">UpdateCorpseState()</a>, and <a class="el" href="../../d5/d04/class_mission_base.html#afc7da3f56a9d3a41ad9ae34a1ff27f07">MissionBase::UpdateCorpseStatesServer()</a>.</p>
 
 </div>
 </div>

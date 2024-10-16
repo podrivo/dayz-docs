@@ -29,6 +29,7 @@ var _cfg_gameplay_data_json_8c =
     [ "InitServer", "da/d9e/_cfg_gameplay_data_json_8c.html#a8e9e797bac533f7ce884d5e4ff32b999", null ],
     [ "lightingConfig", "da/d9e/_cfg_gameplay_data_json_8c.html#abf9d66932e1efadaa14e22af4bc45edd", null ],
     [ "objectSpawnersArr", "da/d9e/_cfg_gameplay_data_json_8c.html#a270d23d14fbd651c3a9f7585dde23346", null ],
+    [ "playerRestrictedAreaFiles", "da/d9e/_cfg_gameplay_data_json_8c.html#ae69e52230ae228e0f4189b4722a7d5d6", null ],
     [ "rotationSpeedJog", "da/d9e/_cfg_gameplay_data_json_8c.html#a184e15cec74b9888210911b03532d417", null ],
     [ "rotationSpeedSprint", "da/d9e/_cfg_gameplay_data_json_8c.html#a356eb993f17e7eaa17d4267a0ed2b75e", null ],
     [ "shockDepletionSpeed", "da/d9e/_cfg_gameplay_data_json_8c.html#aeb26ed2293648d9e828b7446f1ae2602", null ],

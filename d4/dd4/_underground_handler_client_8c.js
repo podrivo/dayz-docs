@@ -7,8 +7,10 @@ var _underground_handler_client_8c =
       [ "FULL", "d4/dd4/_underground_handler_client_8c.html#ad4ecd0babe6f8233807957f56e96fe8bad08f8ac0aa8dfb59589824359772459e", null ]
     ] ],
     [ "ApplyEyeAcco", "d4/dd4/_underground_handler_client_8c.html#a1703e6256275a5e1a598b75a72ef945e", null ],
+    [ "CalculateBreadCrumbs", "d4/dd4/_underground_handler_client_8c.html#a79620a6e8731a184f089fe396400f60a", null ],
     [ "CalculateEyeAcco", "d4/dd4/_underground_handler_client_8c.html#aef0526d7f1f163d6512552ba8140997f", null ],
     [ "CalculateEyeAccoTarget", "d4/dd4/_underground_handler_client_8c.html#a9db2c00c97b9a4c0036de45e3ee8c55e", null ],
+    [ "CalculateLinePointFade", "d4/dd4/_underground_handler_client_8c.html#a849ae5ef959892963e0b25aa145b340f", null ],
     [ "EnableLights", "d4/dd4/_underground_handler_client_8c.html#a2c64389601d9520d332594cc6895f091", null ],
     [ "GetRequester", "d4/dd4/_underground_handler_client_8c.html#a784d10ef37e440db38a8bcac17146de6", null ],
     [ "OnTriggerEnter", "d4/dd4/_underground_handler_client_8c.html#a9f90742ad89be5b138ae2f56207d3781", null ],

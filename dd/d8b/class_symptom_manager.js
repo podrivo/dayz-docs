@@ -1,7 +1,6 @@
 var class_symptom_manager =
 [
     [ "SymptomManager", "dd/d8b/class_symptom_manager.html#afca0236d278c30a1b5691fc31b461d51", null ],
-    [ "~SymptomManager", "dd/d8b/class_symptom_manager.html#a7a71537b21b8594c721b5da707258738", null ],
     [ "AutoactivateSymptoms", "dd/d8b/class_symptom_manager.html#aaca4fa3216b3333b119e411dfd1c7ca1", null ],
     [ "CleanUpPrimaryQueue", "dd/d8b/class_symptom_manager.html#ae9eb432e1b8d421e5d31e07070a0092f", null ],
     [ "ComparePriority", "dd/d8b/class_symptom_manager.html#a5cd58e5393eab873e1731e525237cf69", null ],

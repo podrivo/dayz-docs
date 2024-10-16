@@ -1,4 +1,4 @@
 var _canister_gasoline_8c =
 [
-    [ "Bottle_Base", "da/d60/class_bottle___base.html", "da/d60/class_bottle___base" ]
+    [ "CanisterGasoline", "d2/d68/class_canister_gasoline.html", "d2/d68/class_canister_gasoline" ]
 ];

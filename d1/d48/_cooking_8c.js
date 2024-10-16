@@ -19,6 +19,7 @@ var _cooking_8c =
     [ "GetMinTempToCook", "d1/d48/_cooking_8c.html#a0b44bfc5c0b902cf440f4296f4d69ddf", null ],
     [ "GetTimeToCook", "d1/d48/_cooking_8c.html#a716c6d7b5e94635c120c72926c817964", null ],
     [ "ProcessItemToCook", "d1/d48/_cooking_8c.html#a36408dd66af36052a9320b5dd9f35037", null ],
+    [ "SetCookingUpdateTime", "d1/d48/_cooking_8c.html#ab9f9e67da395433a986c4fb85ca55ecd", null ],
     [ "SmokeItem", "d1/d48/_cooking_8c.html#a983a64336a118a3d2b1edce9bac48826", null ],
     [ "TerminateCookingSounds", "d1/d48/_cooking_8c.html#a123de3a106a90a1146677eb631501bcb", null ],
     [ "UpdateCookingState", "d1/d48/_cooking_8c.html#a87910e253bdecf8768b07649ee104596", null ],
@@ -35,6 +36,7 @@ var _cooking_8c =
     [ "FOOD_MAX_COOKING_TEMPERATURE", "d1/d48/_cooking_8c.html#aa6c4dd9efea95432f039049ab3fa29fe", null ],
     [ "LIQUID_BOILING_POINT", "d1/d48/_cooking_8c.html#a534e0e228961ed90e06bca6f73bc2b25", null ],
     [ "LIQUID_VAPOR_QUANTITY", "d1/d48/_cooking_8c.html#a8db6d1462ef50dbf786d2b5697f6769f", null ],
+    [ "m_UpdateTime", "d1/d48/_cooking_8c.html#a8358da92761ec9a979d13aeca4405e09", null ],
     [ "PARAM_BURN_DAMAGE_COEF", "d1/d48/_cooking_8c.html#a783cf4f9d873acaf8e8f6af4cd2f8a61", null ],
     [ "TIME_WITH_SUPPORT_MATERIAL_COEF", "d1/d48/_cooking_8c.html#aa33523808ae3a2861da6dd6d7f2b3241", null ],
     [ "TIME_WITHOUT_SUPPORT_MATERIAL_COEF", "d1/d48/_cooking_8c.html#ac587277d3a738769499bd3dd0120322b", null ]

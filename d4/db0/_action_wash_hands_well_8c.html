@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -122,8 +122,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6b922d3bb1d26f790bc52030566ba2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9aa4864fae11769c65e644b5fd97c66"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db0/_action_wash_hands_well_8c.html#aa9aa4864fae11769c65e644b5fd97c66">ActionCondition</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, <a class="el" href="../../d2/d9f/_action_targets_8c.html#a2ab3de6f698cb230ae0c129e3e01b341">ActionTarget</a> target, <a class="el" href="../../de/d7a/class_item_base.html">ItemBase</a> item)</td></tr>
 <tr class="separator:aa9aa4864fae11769c65e644b5fd97c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00cda41fe9dd093059da5c4b83b591bc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db0/_action_wash_hands_well_8c.html#a00cda41fe9dd093059da5c4b83b591bc">OnFinishProgressServer</a> (<a class="el" href="../../da/d5a/class_action_data.html">ActionData</a> action_data)</td></tr>
+<tr class="memitem:a00cda41fe9dd093059da5c4b83b591bc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db0/_action_wash_hands_well_8c.html#a00cda41fe9dd093059da5c4b83b591bc">OnFinishProgressServer</a> (<a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a> action_data)</td></tr>
 <tr class="separator:a00cda41fe9dd093059da5c4b83b591bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50bcdc576aa92fd14cd8baa6df54f57"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db0/_action_wash_hands_well_8c.html#ab50bcdc576aa92fd14cd8baa6df54f57">IsLockTargetOnUse</a> ()</td></tr>
+<tr class="separator:ab50bcdc576aa92fd14cd8baa6df54f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa9aa4864fae11769c65e644b5fd97c66" name="aa9aa4864fae11769c65e644b5fd97c66"></a>
@@ -194,7 +196,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c.html#adb7a179f0ce9195c7dc300367bbaf51a">m_FullBody</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#adc0813e96c27638edc8c57cfbaa30c25">m_StanceMask</a>, and <a class="el" href="../../d6/d59/_action_base_8c.html#acfd9461deb0a3259e0f775fead5961d3">m_Text</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d59/_action_base_8c.html#a41781b4ec4e4be7acb93baf9e7c6c70b">m_CommandUID</a>, and <a class="el" href="../../d6/d59/_action_base_8c.html#ac25939d007cc07615028e1ec91815093">m_StanceMask</a>.</p>
 
 </div>
 </div>
@@ -213,7 +215,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../da/d8a/class_u_a_max_distances.html#a36cfe04935979ba1add2a9e465cc461b">UAMaxDistances::DEFAULT</a>, <a class="el" href="../../d6/d59/_action_base_8c.html#a733279ad481ba700333db91fa140e910">m_ConditionItem</a>, and <a class="el" href="../../d6/d59/_action_base_8c.html#a81fd8dac008261b8f2062657a645b0d4">m_ConditionTarget</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d8a/class_u_a_max_distances.html#a36cfe04935979ba1add2a9e465cc461b">UAMaxDistances::DEFAULT</a>.</p>
 
 </div>
 </div>
@@ -234,6 +236,23 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab50bcdc576aa92fd14cd8baa6df54f57" name="ab50bcdc576aa92fd14cd8baa6df54f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab50bcdc576aa92fd14cd8baa6df54f57">&#9670;&#160;</a></span>IsLockTargetOnUse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="../../d9/db9/classbool.html">bool</a> IsLockTargetOnUse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a00cda41fe9dd093059da5c4b83b591bc" name="a00cda41fe9dd093059da5c4b83b591bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00cda41fe9dd093059da5c4b83b591bc">&#9670;&#160;</a></span>OnFinishProgressServer()</h2>
 
@@ -243,14 +262,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">override void OnFinishProgressServer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d5a/class_action_data.html">ActionData</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a>&#160;</td>
           <td class="paramname"><em>action_data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d9/d5d/_plugin_manager_8c.html#a35050f82bea320b7a5336fc549630eaf">GetPlugin()</a>, <a class="el" href="../../da/d5a/class_action_data.html#a4db3d46d75d2864daed52041fe1f0973">ActionData::m_Player</a>, and <a class="el" href="../../d5/d6f/_plugin_lifespan_8c.html#a40fcf4bf90c76d2b2293d34e798bc531">PluginLifespan()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d5d/_plugin_manager_8c.html#a35050f82bea320b7a5336fc549630eaf">GetPlugin()</a>, and <a class="el" href="../../d5/d6f/_plugin_lifespan_8c.html#a40fcf4bf90c76d2b2293d34e798bc531">PluginLifespan()</a>.</p>
 
 </div>
 </div>

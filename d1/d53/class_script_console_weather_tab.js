@@ -61,5 +61,18 @@ var class_script_console_weather_tab =
     [ "m_RainValueSetText", "d1/d53/class_script_console_weather_tab.html#a88b024afdef1566c32c6675dd220e099", null ],
     [ "m_ResetButton", "d1/d53/class_script_console_weather_tab.html#adf32757d7117aee52d7120f2582e89c4", null ],
     [ "m_RPCTimer", "d1/d53/class_script_console_weather_tab.html#a7240fa9af981636a315d872f115232e9", null ],
+    [ "m_SnowfallDurationEditbox", "d1/d53/class_script_console_weather_tab.html#ad2cc2457102a73f30d0df51747afe41f", null ],
+    [ "m_SnowfallDurationMaxText", "d1/d53/class_script_console_weather_tab.html#a74f02dbbaca56180ffb04f83254c307d", null ],
+    [ "m_SnowfallDurationTimeSlider", "d1/d53/class_script_console_weather_tab.html#a77bc0d2cf76ea9647b8719f911d6ec43", null ],
+    [ "m_SnowfallDurationTimeValue", "d1/d53/class_script_console_weather_tab.html#a9600e379a1f5d4af1e2d2975a3beaeca", null ],
+    [ "m_SnowfallInterpolationEditbox", "d1/d53/class_script_console_weather_tab.html#aa39ab470d3f73a58ae649a3477c53f6d", null ],
+    [ "m_SnowfallInterpolationMaxText", "d1/d53/class_script_console_weather_tab.html#a9263ee24061a4e7938c32580b7d138f4", null ],
+    [ "m_SnowfallInterpolationTimeSlider", "d1/d53/class_script_console_weather_tab.html#ae596f26a168334bbf5df5c0a2f3c83d8", null ],
+    [ "m_SnowfallInterpolationTimeValue", "d1/d53/class_script_console_weather_tab.html#a5c8e726b36d5e5547d23f9b1c9e2344c", null ],
+    [ "m_SnowfallValue", "d1/d53/class_script_console_weather_tab.html#a9ee38354cad98b20349339a0c0197036", null ],
+    [ "m_SnowfallValueEditbox", "d1/d53/class_script_console_weather_tab.html#af0ccdb7c8909757bbf88aa5700af5235", null ],
+    [ "m_SnowfallValueGetSlider", "d1/d53/class_script_console_weather_tab.html#a2d49c3d7e64ad6655399e80da03ffb9f", null ],
+    [ "m_SnowfallValueSetSlider", "d1/d53/class_script_console_weather_tab.html#a7ebaa1b8f93141f7689b73c646886e29", null ],
+    [ "m_SnowfallValueSetText", "d1/d53/class_script_console_weather_tab.html#a1b15e391658c4398ba2942fc553e0166", null ],
     [ "m_UpdateButton", "d1/d53/class_script_console_weather_tab.html#aeeee7c7560741f537c8d3123495e696b", null ]
 ];

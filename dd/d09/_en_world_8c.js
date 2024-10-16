@@ -27,6 +27,7 @@ var _en_world_8c =
       [ "RotBlur", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca7c3b607a9a00ed5b6cef839d28cfe099", null ],
       [ "GodRays", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643ecad32671fa5232d1c225721c95c7b19165", null ],
       [ "Rain", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca96c49914e8ea2c7401032004954fe2eb", null ],
+      [ "Snowfall", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643ecac7588d27027bea590ac0895802943a4d", null ],
       [ "FilmGrain", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643ecade0540ead50fe6be92c7baca8a225e5b", null ],
       [ "RadialBlur", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca96a0790f06d9234cb2c1595bbdbfdb82", null ],
       [ "ChromAber", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca9ce940b6eb268a14f54b5312381a0e5f", null ],
@@ -40,7 +41,9 @@ var _en_world_8c =
       [ "Median", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643ecaf73a513956cd3c0a2aec3ac169367ab3", null ],
       [ "SunMask", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca8784aab944842cbf54e22949ffe344f6", null ],
       [ "GaussFilter", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca07942b5d0ec67adf96065a4af68f402e", null ],
-      [ "SSR", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca9a2d7a90fdf555e705456fa129863d29", null ]
+      [ "SSR", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca9a2d7a90fdf555e705456fa129863d29", null ],
+      [ "Distort", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643eca87454d9e765e443aa53125b021c273e2", null ],
+      [ "Ghost", "dd/dd2/group___camera.html#ggac5442d940bdd247b908f1f02efd643ecabe7d0b24cc3446c927e54e440af7566f", null ]
     ] ],
     [ "TraceFlags", "de/d65/group___world_trace.html#gae6702e9d0693293d048382c4f6547bcd", [
       [ "BONES", "de/d65/group___world_trace.html#ggae6702e9d0693293d048382c4f6547bcdaead851b5b23db979e66454d9b280b157", null ],

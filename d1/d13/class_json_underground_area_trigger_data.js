@@ -8,5 +8,6 @@ var class_json_underground_area_trigger_data =
     [ "InterpolationSpeed", "d1/d13/class_json_underground_area_trigger_data.html#a7b24ce39f131afe152d3d2d6ce227ca7", null ],
     [ "Orientation", "d1/d13/class_json_underground_area_trigger_data.html#a60d73767bfa371303716e3200cd91d9c", null ],
     [ "Position", "d1/d13/class_json_underground_area_trigger_data.html#af8aba43a40b76795661308c0f0fcf37e", null ],
-    [ "Size", "d1/d13/class_json_underground_area_trigger_data.html#ab02ede6d2d98558c07bc26e1b0353b94", null ]
+    [ "Size", "d1/d13/class_json_underground_area_trigger_data.html#ab02ede6d2d98558c07bc26e1b0353b94", null ],
+    [ "UseLinePointFade", "d1/d13/class_json_underground_area_trigger_data.html#a3b21ca95c7b2427dd17298c423e81848", null ]
 ];

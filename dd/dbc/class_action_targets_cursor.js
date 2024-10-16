@@ -12,6 +12,7 @@ var class_action_targets_cursor =
     [ "GetHud", "dd/dbc/class_action_targets_cursor.html#ae8bc762a0b0aa5d00f8c3dbe0270265a", null ],
     [ "GetItemCargoCount", "dd/dbc/class_action_targets_cursor.html#a44299eb4d734bfafc2d1a5a6d3ba96ee", null ],
     [ "GetItemDesc", "dd/dbc/class_action_targets_cursor.html#ac7334efdbbb5113bc97d1c7b0be94e52", null ],
+    [ "GetItemFrozen", "dd/dbc/class_action_targets_cursor.html#a9fab8d9d68ac25b777bcd993e1b0785d", null ],
     [ "GetItemHealth", "dd/dbc/class_action_targets_cursor.html#ab0e566b0a4c0c967e35f4201e689c815", null ],
     [ "GetItemQuantity", "dd/dbc/class_action_targets_cursor.html#a37dd7757dfa87c1b0db1e62ab47d69ef", null ],
     [ "GetOnScreenPosition", "dd/dbc/class_action_targets_cursor.html#afb416a738f51fa8ad8a4a80655ea8d07", null ],
@@ -71,6 +72,7 @@ var class_action_targets_cursor =
     [ "m_SelectedActionCategory", "dd/dbc/class_action_targets_cursor.html#af6dfae540d264d91e663b27131440476", null ],
     [ "m_Single", "dd/dbc/class_action_targets_cursor.html#a50a7b5232367ff9af5b36318a332e6a9", null ],
     [ "m_Target", "dd/dbc/class_action_targets_cursor.html#a9a8e3cf3a88fc2458141436d94c0b5f2", null ],
+    [ "m_TargetItemFrozen", "dd/dbc/class_action_targets_cursor.html#a3c15f90408df8ef276a3c4ddf51ce949", null ],
     [ "m_UseActionWrapper", "dd/dbc/class_action_targets_cursor.html#ab10ef418426ec1195edb415ec4b6294b", null ],
     [ "VISION_OBSTRUCTION_PPEFFECTS_TYPES", "dd/dbc/class_action_targets_cursor.html#a2963e57d89ef2f129ab48bd906551ed7", null ]
 ];

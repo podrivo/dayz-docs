@@ -7,6 +7,5 @@ var class_morphine_mdfr =
     [ "OnActivate", "d0/d5e/class_morphine_mdfr.html#a1b847c98f31a47197791a456d871074d", null ],
     [ "OnDeactivate", "d0/d5e/class_morphine_mdfr.html#aa123400511540c534d11d2f0771d862e", null ],
     [ "OnReconnect", "d0/d5e/class_morphine_mdfr.html#a0fb7c15d05ccbb1dd38ddd2b478d4e13", null ],
-    [ "OnTick", "d0/d5e/class_morphine_mdfr.html#a77cb9670680e8fd9dc2b6457c73c7952", null ],
     [ "LIFETIME", "d0/d5e/class_morphine_mdfr.html#a7ec4b9c53f607b7c09956bd8917b1780", null ]
 ];

@@ -13,357 +13,376 @@ var hierarchy =
         [ "ActionAttachOnTentProxy", "da/d22/class_action_attach_on_tent_proxy.html", null ]
       ] ],
       [ "ActionAttachOnTrap", "d8/db6/class_action_attach_on_trap.html", null ],
+      [ "ActionAttachSeeds", "d8/dd7/class_action_attach_seeds.html", null ],
       [ "ActionAttachWheels", "d2/d30/class_action_attach_wheels.html", null ],
       [ "ActionAttachWithSwitch", "d8/db6/class_action_attach_with_switch.html", null ]
     ] ],
-    [ "ActionBase", null, [
-      [ "ActionFoldMap", "d7/d14/class_action_fold_map.html", null ],
-      [ "ActionGetInTransport", "d3/d30/class_action_get_in_transport.html", null ],
-      [ "ActionInstantBase", "df/d53/class_action_instant_base.html", null ],
-      [ "ActionSwitchSeats", "d4/d65/class_action_switch_seats.html", null ],
-      [ "ActionToggleNVG", "d7/dac/class_action_toggle_n_v_g.html", null ],
-      [ "ActionTurnOffHeadtorch", "d3/d0d/class_action_turn_off_headtorch.html", null ],
-      [ "ActionTurnOffHelmetFlashlight", "d1/d7d/class_action_turn_off_helmet_flashlight.html", null ],
-      [ "ActionTurnOnHeadtorch", "d9/d9e/class_action_turn_on_headtorch.html", null ],
-      [ "ActionTurnOnHelmetFlashlight", "d9/da2/class_action_turn_on_helmet_flashlight.html", null ],
-      [ "AnimatedActionBase", "d7/d94/class_animated_action_base.html", [
-        [ "ActionContinuousBase", "d6/d3f/class_action_continuous_base.html", [
-          [ "ActionBandageBase", "dc/d1d/class_action_bandage_base.html", null ],
-          [ "ActionBreakLongWoodenStick", "dc/d09/class_action_break_long_wooden_stick.html", null ],
-          [ "ActionBuildPart", "d3/d35/class_action_build_part.html", null ],
-          [ "ActionBuildShelter", "db/d71/class_action_build_shelter.html", null ],
-          [ "ActionBurnSewSelf", "df/de6/class_action_burn_sew_self.html", null ],
-          [ "ActionBurnSewTarget", "d8/d5a/class_action_burn_sew_target.html", null ],
-          [ "ActionBuryBody", "db/df5/class_action_bury_body.html", null ],
-          [ "ActionCPR", "d8/d14/class_action_c_p_r.html", null ],
-          [ "ActionCarHornLong", "d0/d5f/class_action_car_horn_long.html", null ],
-          [ "ActionCheckPulseTarget", "dd/d0e/class_action_check_pulse_target.html", null ],
-          [ "ActionCollectBloodSelf", "dc/dab/class_action_collect_blood_self.html", null ],
-          [ "ActionCollectBloodTarget", "d6/d5e/class_action_collect_blood_target.html", null ],
-          [ "ActionCollectSampleSelf", "d6/dba/class_action_collect_sample_self.html", null ],
-          [ "ActionCollectSampleTarget", "dc/de5/class_action_collect_sample_target.html", null ],
-          [ "ActionConsume", "db/de9/class_action_consume.html", [
-            [ "ActionDrink", "d5/dc1/class_action_drink.html", [
-              [ "ActionDrinkAlcohol", "d0/d84/class_action_drink_alcohol.html", null ],
-              [ "ActionDrinkCan", "dd/d93/class_action_drink_can.html", null ],
-              [ "ActionDrinkCookingPot", "dc/ddf/class_action_drink_cooking_pot.html", null ],
-              [ "ActionDrinkDisinfectant", "d1/d03/class_action_drink_disinfectant.html", null ],
-              [ "ActionDrinkDisinfectant2", "d9/d52/class_action_drink_disinfectant2.html", null ]
+    [ "ActionBase_Basic", "d7/d90/class_action_base___basic.html", [
+      [ "ActionBase", "d8/d39/class_action_base.html", [
+        [ "ActionFoldMap", "d7/d14/class_action_fold_map.html", null ],
+        [ "ActionGetInTransport", "d3/d30/class_action_get_in_transport.html", null ],
+        [ "ActionGetOutTransport", "d0/d36/class_action_get_out_transport.html", null ],
+        [ "ActionInstantBase", "df/d53/class_action_instant_base.html", null ],
+        [ "ActionSwitchSeats", "d4/d65/class_action_switch_seats.html", null ],
+        [ "ActionToggleNVG", "d7/dac/class_action_toggle_n_v_g.html", null ],
+        [ "ActionTurnOffHeadtorch", "d3/d0d/class_action_turn_off_headtorch.html", null ],
+        [ "ActionTurnOffHelmetFlashlight", "d1/d7d/class_action_turn_off_helmet_flashlight.html", null ],
+        [ "ActionTurnOnHeadtorch", "d9/d9e/class_action_turn_on_headtorch.html", null ],
+        [ "ActionTurnOnHelmetFlashlight", "d9/da2/class_action_turn_on_helmet_flashlight.html", null ],
+        [ "AnimatedActionBase", "d7/d94/class_animated_action_base.html", [
+          [ "ActionContinuousBase", "d6/d3f/class_action_continuous_base.html", [
+            [ "ActionBandageBase", "dc/d1d/class_action_bandage_base.html", null ],
+            [ "ActionBreakLongWoodenStick", "dc/d09/class_action_break_long_wooden_stick.html", null ],
+            [ "ActionBuildPart", "d3/d35/class_action_build_part.html", null ],
+            [ "ActionBuildShelter", "db/d71/class_action_build_shelter.html", null ],
+            [ "ActionBurnSewSelf", "df/de6/class_action_burn_sew_self.html", null ],
+            [ "ActionBurnSewTarget", "d8/d5a/class_action_burn_sew_target.html", null ],
+            [ "ActionBuryBody", "db/df5/class_action_bury_body.html", null ],
+            [ "ActionCPR", "d8/d14/class_action_c_p_r.html", null ],
+            [ "ActionCarHornLong", "d0/d5f/class_action_car_horn_long.html", null ],
+            [ "ActionCheckPulseTarget", "dd/d0e/class_action_check_pulse_target.html", null ],
+            [ "ActionCollectBloodSelf", "dc/dab/class_action_collect_blood_self.html", null ],
+            [ "ActionCollectBloodTarget", "d6/d5e/class_action_collect_blood_target.html", null ],
+            [ "ActionCollectSampleSelf", "d6/dba/class_action_collect_sample_self.html", null ],
+            [ "ActionCollectSampleTarget", "dc/de5/class_action_collect_sample_target.html", null ],
+            [ "ActionConsume", "db/de9/class_action_consume.html", [
+              [ "ActionDrink", "d5/dc1/class_action_drink.html", [
+                [ "ActionDrinkAlcohol", "d0/d84/class_action_drink_alcohol.html", null ],
+                [ "ActionDrinkCan", "dd/d93/class_action_drink_can.html", null ],
+                [ "ActionDrinkCookingPot", "dc/ddf/class_action_drink_cooking_pot.html", null ],
+                [ "ActionDrinkDisinfectant", "d1/d03/class_action_drink_disinfectant.html", null ],
+                [ "ActionDrinkDisinfectant2", "d9/d52/class_action_drink_disinfectant2.html", null ]
+              ] ],
+              [ "ActionEatBig", "db/d0f/class_action_eat_big.html", [
+                [ "ActionEat", "d5/dac/class_action_eat.html", [
+                  [ "ActionEatCereal", "d0/d7e/class_action_eat_cereal.html", null ]
+                ] ],
+                [ "ActionEatCan", "df/d29/class_action_eat_can.html", null ],
+                [ "ActionEatFruit", "d9/d29/class_action_eat_fruit.html", null ],
+                [ "ActionEatMeat", "da/df0/class_action_eat_meat.html", null ],
+                [ "ActionEatSmall", "d3/d1b/class_action_eat_small.html", null ],
+                [ "ActionEatSmallCan", "de/d10/class_action_eat_small_can.html", null ]
+              ] ],
+              [ "ActionEatCharcoalTablets", "d0/d3b/class_action_eat_charcoal_tablets.html", null ],
+              [ "ActionEatPainkillerTablets", "df/d20/class_action_eat_painkiller_tablets.html", null ],
+              [ "ActionEatPurificationTablets", "d9/d7c/class_action_eat_purification_tablets.html", null ],
+              [ "ActionEatTetracyclineAntibiotics", "d0/d1b/class_action_eat_tetracycline_antibiotics.html", null ],
+              [ "ActionEatVitaminBottle", "df/db6/class_action_eat_vitamin_bottle.html", null ]
             ] ],
-            [ "ActionEatBig", "db/d0f/class_action_eat_big.html", [
-              [ "ActionEat", "d5/dac/class_action_eat.html", null ],
-              [ "ActionEatCan", "df/d29/class_action_eat_can.html", null ],
-              [ "ActionEatFruit", "d9/d29/class_action_eat_fruit.html", null ],
-              [ "ActionEatMeat", "da/df0/class_action_eat_meat.html", null ],
-              [ "ActionEatSmall", "d3/d1b/class_action_eat_small.html", null ],
-              [ "ActionEatSmallCan", "de/d10/class_action_eat_small_can.html", null ]
+            [ "ActionCookOnStick", "da/df8/class_action_cook_on_stick.html", null ],
+            [ "ActionCoverHeadSelf", "dd/d4e/class_action_cover_head_self.html", null ],
+            [ "ActionCoverHeadTarget", "da/da0/class_action_cover_head_target.html", null ],
+            [ "ActionCraft", "d7/d19/class_action_craft.html", null ],
+            [ "ActionCraftBolts", "de/d1f/class_action_craft_bolts.html", null ],
+            [ "ActionCraftBoltsFeather", "d1/d02/class_action_craft_bolts_feather.html", null ],
+            [ "ActionCraftBoneKnife", "d0/d54/class_action_craft_bone_knife.html", null ],
+            [ "ActionCraftBoneKnifeEnv", "d0/dda/class_action_craft_bone_knife_env.html", null ],
+            [ "ActionCraftImprovisedEyePatch", "d9/dba/class_action_craft_improvised_eye_patch.html", null ],
+            [ "ActionCraftImprovisedFaceCover", "d5/dac/class_action_craft_improvised_face_cover.html", null ],
+            [ "ActionCraftImprovisedFeetCover", "d6/d4e/class_action_craft_improvised_feet_cover.html", null ],
+            [ "ActionCraftImprovisedHandsCover", "d4/d0d/class_action_craft_improvised_hands_cover.html", null ],
+            [ "ActionCraftImprovisedHeadCover", "d5/dd6/class_action_craft_improvised_head_cover.html", null ],
+            [ "ActionCraftImprovisedLegsCover", "df/dbf/class_action_craft_improvised_legs_cover.html", null ],
+            [ "ActionCraftImprovisedTorsoCover", "d8/dce/class_action_craft_improvised_torso_cover.html", null ],
+            [ "ActionCraftRopeBelt", "dd/df3/class_action_craft_rope_belt.html", null ],
+            [ "ActionCraftStoneKnifeEnv", "d6/dc6/class_action_craft_stone_knife_env.html", null ],
+            [ "ActionCreateGreenhouseGardenPlot", "d9/d52/class_action_create_greenhouse_garden_plot.html", null ],
+            [ "ActionDeconstructShelter", "d6/d4e/class_action_deconstruct_shelter.html", null ],
+            [ "ActionDefibrilateBase", "de/d0d/class_action_defibrilate_base.html", [
+              [ "ActionDefibrilateSelf", "d2/d87/class_action_defibrilate_self.html", null ],
+              [ "ActionDefibrilateTarget", "d3/dc2/class_action_defibrilate_target.html", null ]
             ] ],
-            [ "ActionEatCharcoalTablets", "d0/d3b/class_action_eat_charcoal_tablets.html", null ],
-            [ "ActionEatPainkillerTablets", "df/d20/class_action_eat_painkiller_tablets.html", null ],
-            [ "ActionEatPurificationTablets", "d9/d7c/class_action_eat_purification_tablets.html", null ],
-            [ "ActionEatTetracyclineAntibiotics", "d0/d1b/class_action_eat_tetracycline_antibiotics.html", null ],
-            [ "ActionEatVitaminBottle", "df/db6/class_action_eat_vitamin_bottle.html", null ]
-          ] ],
-          [ "ActionCookOnStick", "da/df8/class_action_cook_on_stick.html", null ],
-          [ "ActionCoverHeadSelf", "dd/d4e/class_action_cover_head_self.html", null ],
-          [ "ActionCoverHeadTarget", "da/da0/class_action_cover_head_target.html", null ],
-          [ "ActionCraft", "d7/d19/class_action_craft.html", null ],
-          [ "ActionCraftBolts", "de/d1f/class_action_craft_bolts.html", null ],
-          [ "ActionCraftBoltsFeather", "d1/d02/class_action_craft_bolts_feather.html", null ],
-          [ "ActionCraftBoneKnife", "d0/d54/class_action_craft_bone_knife.html", null ],
-          [ "ActionCraftBoneKnifeEnv", "d0/dda/class_action_craft_bone_knife_env.html", null ],
-          [ "ActionCraftImprovisedEyePatch", "d9/dba/class_action_craft_improvised_eye_patch.html", null ],
-          [ "ActionCraftImprovisedFaceCover", "d5/dac/class_action_craft_improvised_face_cover.html", null ],
-          [ "ActionCraftImprovisedFeetCover", "d6/d4e/class_action_craft_improvised_feet_cover.html", null ],
-          [ "ActionCraftImprovisedHandsCover", "d4/d0d/class_action_craft_improvised_hands_cover.html", null ],
-          [ "ActionCraftImprovisedHeadCover", "d5/dd6/class_action_craft_improvised_head_cover.html", null ],
-          [ "ActionCraftImprovisedLegsCover", "df/dbf/class_action_craft_improvised_legs_cover.html", null ],
-          [ "ActionCraftImprovisedTorsoCover", "d8/dce/class_action_craft_improvised_torso_cover.html", null ],
-          [ "ActionCraftRopeBelt", "dd/df3/class_action_craft_rope_belt.html", null ],
-          [ "ActionCraftStoneKnifeEnv", "d6/dc6/class_action_craft_stone_knife_env.html", null ],
-          [ "ActionCreateGreenhouseGardenPlot", "d9/d52/class_action_create_greenhouse_garden_plot.html", null ],
-          [ "ActionDeconstructShelter", "d6/d4e/class_action_deconstruct_shelter.html", null ],
-          [ "ActionDefibrilateBase", "de/d0d/class_action_defibrilate_base.html", [
-            [ "ActionDefibrilateSelf", "d2/d87/class_action_defibrilate_self.html", null ],
-            [ "ActionDefibrilateTarget", "d3/dc2/class_action_defibrilate_target.html", null ]
-          ] ],
-          [ "ActionDeployBase", "d6/ded/class_action_deploy_base.html", [
-            [ "ActionDeployHuntingTrap", "df/dab/class_action_deploy_hunting_trap.html", null ]
-          ] ],
-          [ "ActionDestroyCombinationLock", "d1/d02/class_action_destroy_combination_lock.html", null ],
-          [ "ActionDestroyPart", "d3/df9/class_action_destroy_part.html", null ],
-          [ "ActionDigInStash", "dc/d5a/class_action_dig_in_stash.html", null ],
-          [ "ActionDigWorms", "da/dc7/class_action_dig_worms.html", null ],
-          [ "ActionDisinfectBase", "df/d28/class_action_disinfect_base.html", [
-            [ "ActionDisinfectTarget", "d4/d41/class_action_disinfect_target.html", null ]
-          ] ],
-          [ "ActionDisinfectPlant", "d5/d31/class_action_disinfect_plant.html", null ],
-          [ "ActionDismantleGardenPlot", "df/d87/class_action_dismantle_garden_plot.html", null ],
-          [ "ActionDismantlePart", "d6/d9d/class_action_dismantle_part.html", [
-            [ "ActionRepairPart", "db/d0a/class_action_repair_part.html", null ]
-          ] ],
-          [ "ActionDrainLiquid", "d5/d20/class_action_drain_liquid.html", null ],
-          [ "ActionEmptyBottleBase", "d8/d4b/class_action_empty_bottle_base.html", [
-            [ "ActionEmptyCookingPot", "d3/d60/class_action_empty_cooking_pot.html", null ]
-          ] ],
-          [ "ActionEmptyMagazine", "dc/d19/class_action_empty_magazine.html", null ],
-          [ "ActionFertilizeSlot", "da/db1/class_action_fertilize_slot.html", null ],
-          [ "ActionFillBottleBase", "d5/de4/class_action_fill_bottle_base.html", null ],
-          [ "ActionFillBrakes", "de/d46/class_action_fill_brakes.html", null ],
-          [ "ActionFillCoolant", "dd/d06/class_action_fill_coolant.html", null ],
-          [ "ActionFillFuel", "d8/d40/class_action_fill_fuel.html", null ],
-          [ "ActionFillGeneratorTank", "d5/d73/class_action_fill_generator_tank.html", null ],
-          [ "ActionFillObject", "d0/d55/class_action_fill_object.html", null ],
-          [ "ActionFillOil", "d5/d5e/class_action_fill_oil.html", null ],
-          [ "ActionFishingNew", "d1/ddc/class_action_fishing_new.html", null ],
-          [ "ActionGagSelf", "d5/d1f/class_action_gag_self.html", null ],
-          [ "ActionGagTarget", "d5/d86/class_action_gag_target.html", null ],
-          [ "ActionGiveBloodSelf", "d0/dbd/class_action_give_blood_self.html", null ],
-          [ "ActionGiveBloodTarget", "d3/dcc/class_action_give_blood_target.html", null ],
-          [ "ActionGiveSalineSelf", "de/df0/class_action_give_saline_self.html", null ],
-          [ "ActionGiveSalineTarget", "d3/d76/class_action_give_saline_target.html", null ],
-          [ "ActionIgniteFireplaceByAir", "dc/df1/class_action_ignite_fireplace_by_air.html", null ],
-          [ "ActionLoadMagazine", "d4/d9f/class_action_load_magazine.html", null ],
-          [ "ActionLoadMagazineQuick", "de/d0b/class_action_load_magazine_quick.html", null ],
-          [ "ActionLockAttachment", "d5/dd5/class_action_lock_attachment.html", null ],
-          [ "ActionLockDoors", "d6/d77/class_action_lock_doors.html", null ],
-          [ "ActionLowerFlag", "dc/ddc/class_action_lower_flag.html", null ],
-          [ "ActionMeasureTemperatureSelf", "d5/d02/class_action_measure_temperature_self.html", null ],
-          [ "ActionMeasureTemperatureTarget", "de/d46/class_action_measure_temperature_target.html", null ],
-          [ "ActionMineBase", "de/d9e/class_action_mine_base.html", [
-            [ "ActionMineBush", "d4/d29/class_action_mine_bush.html", [
-              [ "ActionMineBushByHand", "d8/d70/class_action_mine_bush_by_hand.html", null ]
+            [ "ActionDeployBase", "d6/ded/class_action_deploy_base.html", [
+              [ "ActionDeployHuntingTrap", "df/dab/class_action_deploy_hunting_trap.html", null ]
             ] ],
-            [ "ActionMineRock", "dc/dce/class_action_mine_rock.html", [
-              [ "ActionMineRock1H", "d3/d9b/class_action_mine_rock1_h.html", null ]
-            ] ]
+            [ "ActionDestroyCombinationLock", "d1/d02/class_action_destroy_combination_lock.html", null ],
+            [ "ActionDestroyPart", "d3/df9/class_action_destroy_part.html", null ],
+            [ "ActionDigInStash", "dc/d5a/class_action_dig_in_stash.html", null ],
+            [ "ActionDigWorms", "da/dc7/class_action_dig_worms.html", null ],
+            [ "ActionDisinfectBase", "df/d28/class_action_disinfect_base.html", [
+              [ "ActionDisinfectTarget", "d4/d41/class_action_disinfect_target.html", null ]
+            ] ],
+            [ "ActionDisinfectPlant", "d5/d31/class_action_disinfect_plant.html", null ],
+            [ "ActionDismantleGardenPlot", "df/d87/class_action_dismantle_garden_plot.html", null ],
+            [ "ActionDismantlePart", "d6/d9d/class_action_dismantle_part.html", [
+              [ "ActionRepairPart", "db/d0a/class_action_repair_part.html", null ]
+            ] ],
+            [ "ActionDrainLiquid", "d5/d20/class_action_drain_liquid.html", null ],
+            [ "ActionDummyContinuousRelease", "de/d4b/class_action_dummy_continuous_release.html", null ],
+            [ "ActionEmptyBottleBase", "d8/d4b/class_action_empty_bottle_base.html", [
+              [ "ActionEmptyCookingPot", "d3/d60/class_action_empty_cooking_pot.html", null ]
+            ] ],
+            [ "ActionEmptyMagazine", "dc/d19/class_action_empty_magazine.html", null ],
+            [ "ActionFertilizeSlot", "da/db1/class_action_fertilize_slot.html", null ],
+            [ "ActionFillBottleBase", "d5/de4/class_action_fill_bottle_base.html", [
+              [ "ActionFillBottleSnow", "dc/d6e/class_action_fill_bottle_snow.html", null ]
+            ] ],
+            [ "ActionFillBrakes", "de/d46/class_action_fill_brakes.html", null ],
+            [ "ActionFillCoolant", "dd/d06/class_action_fill_coolant.html", null ],
+            [ "ActionFillFuel", "d8/d40/class_action_fill_fuel.html", null ],
+            [ "ActionFillGeneratorTank", "d5/d73/class_action_fill_generator_tank.html", null ],
+            [ "ActionFillObject", "d0/d55/class_action_fill_object.html", null ],
+            [ "ActionFillOil", "d5/d5e/class_action_fill_oil.html", null ],
+            [ "ActionFishingNew", "d1/ddc/class_action_fishing_new.html", null ],
+            [ "ActionGagSelf", "d5/d1f/class_action_gag_self.html", null ],
+            [ "ActionGagTarget", "d5/d86/class_action_gag_target.html", null ],
+            [ "ActionGiveBloodSelf", "d0/dbd/class_action_give_blood_self.html", null ],
+            [ "ActionGiveBloodTarget", "d3/dcc/class_action_give_blood_target.html", null ],
+            [ "ActionGiveSalineSelf", "de/df0/class_action_give_saline_self.html", null ],
+            [ "ActionGiveSalineTarget", "d3/d76/class_action_give_saline_target.html", null ],
+            [ "ActionIgniteFireplaceByAir", "dc/df1/class_action_ignite_fireplace_by_air.html", null ],
+            [ "ActionLoadMagazine", "d4/d9f/class_action_load_magazine.html", null ],
+            [ "ActionLoadMagazineQuick", "de/d0b/class_action_load_magazine_quick.html", null ],
+            [ "ActionLockAttachment", "d5/dd5/class_action_lock_attachment.html", null ],
+            [ "ActionLockDoors", "d6/d77/class_action_lock_doors.html", null ],
+            [ "ActionLowerFlag", "dc/ddc/class_action_lower_flag.html", null ],
+            [ "ActionMeasureTemperatureSelf", "d5/d02/class_action_measure_temperature_self.html", null ],
+            [ "ActionMeasureTemperatureTarget", "de/d46/class_action_measure_temperature_target.html", null ],
+            [ "ActionMineBase", "de/d9e/class_action_mine_base.html", [
+              [ "ActionMineBush", "d4/d29/class_action_mine_bush.html", [
+                [ "ActionMineBushByHand", "d8/d70/class_action_mine_bush_by_hand.html", null ]
+              ] ],
+              [ "ActionMineRock", "dc/dce/class_action_mine_rock.html", [
+                [ "ActionMineRock1H", "d3/d9b/class_action_mine_rock1_h.html", null ]
+              ] ]
+            ] ],
+            [ "ActionMountBarbedWire", "d4/d3b/class_action_mount_barbed_wire.html", [
+              [ "ActionUnmountBarbedWire", "d5/d21/class_action_unmount_barbed_wire.html", null ]
+            ] ],
+            [ "ActionPackGift", "dc/d9b/class_action_pack_gift.html", null ],
+            [ "ActionPlaceOnGround", "d4/d04/class_action_place_on_ground.html", null ],
+            [ "ActionPourLiquid", "d0/dd9/class_action_pour_liquid.html", null ],
+            [ "ActionPushObject", "d6/d5b/class_action_push_object.html", [
+              [ "ActionPushBoat", "db/dc5/class_action_push_boat.html", null ],
+              [ "ActionPushCar", "dc/d0d/class_action_push_car.html", null ]
+            ] ],
+            [ "ActionRaiseFlag", "d0/dcd/class_action_raise_flag.html", null ],
+            [ "ActionReadPaper", "d7/d3a/class_action_read_paper.html", null ],
+            [ "ActionRepackTent", "d9/d91/class_action_repack_tent.html", null ],
+            [ "ActionRepairCarPart", "dc/db2/class_action_repair_car_part.html", null ],
+            [ "ActionRepairTent", "da/dff/class_action_repair_tent.html", [
+              [ "ActionRepairShelter", "dc/d92/class_action_repair_shelter.html", null ]
+            ] ],
+            [ "ActionRepairTentPart", "d5/da3/class_action_repair_tent_part.html", null ],
+            [ "ActionRepairVehiclePartBase", "d1/d77/class_action_repair_vehicle_part_base.html", [
+              [ "ActionRepairBoatChassis", "da/d3c/class_action_repair_boat_chassis.html", null ],
+              [ "ActionRepairCarChassis", "d6/dec/class_action_repair_car_chassis.html", null ]
+            ] ],
+            [ "ActionRestrainSelf", "d5/dba/class_action_restrain_self.html", null ],
+            [ "ActionRestrainTarget", "d1/db1/class_action_restrain_target.html", null ],
+            [ "ActionSawPlanks", "db/d86/class_action_saw_planks.html", null ],
+            [ "ActionSetAlarmClock", "da/d6f/class_action_set_alarm_clock.html", null ],
+            [ "ActionSetKitchenTimer", "df/d03/class_action_set_kitchen_timer.html", null ],
+            [ "ActionShave", "d5/d2d/class_action_shave.html", null ],
+            [ "ActionShaveTarget", "d7/d2c/class_action_shave_target.html", null ],
+            [ "ActionSortAmmoPile", "d7/da1/class_action_sort_ammo_pile.html", null ],
+            [ "ActionSplintSelf", "d5/dd5/class_action_splint_self.html", null ],
+            [ "ActionSplintTarget", "dd/dcb/class_action_splint_target.html", null ],
+            [ "ActionStripCarrierVest", "d5/daa/class_action_strip_carrier_vest.html", null ],
+            [ "ActionTestBloodTarget", "d1/dc7/class_action_test_blood_target.html", null ],
+            [ "ActionTransferLiquid", "de/d1b/class_action_transfer_liquid.html", null ],
+            [ "ActionUncoverHeadBase", "d6/d30/class_action_uncover_head_base.html", [
+              [ "ActionUncoverHeadTarget", "d6/d81/class_action_uncover_head_target.html", null ]
+            ] ],
+            [ "ActionUngagSelf", "d7/d45/class_action_ungag_self.html", null ],
+            [ "ActionUngagTarget", "da/dd1/class_action_ungag_target.html", null ],
+            [ "ActionUnlockDoors", "d6/d73/class_action_unlock_doors.html", null ],
+            [ "ActionUnpackBox", "d9/dbd/class_action_unpack_box.html", null ],
+            [ "ActionUnpackGift", "da/ded/class_action_unpack_gift.html", null ],
+            [ "ActionUnrestrainSelf", "d4/d52/class_action_unrestrain_self.html", null ],
+            [ "ActionUnrestrainTarget", "da/d74/class_action_unrestrain_target.html", null ],
+            [ "ActionUnrestrainTargetHands", "de/d76/class_action_unrestrain_target_hands.html", null ],
+            [ "ActionUpgradeTorchFromGasPump", "d6/d5b/class_action_upgrade_torch_from_gas_pump.html", null ],
+            [ "ActionUseRangefinder", "da/da4/class_action_use_rangefinder.html", null ],
+            [ "ActionViewCompass", "d7/d2a/class_action_view_compass.html", null ],
+            [ "ActionViewOptics", "d1/d12/class_action_view_optics.html", [
+              [ "ActionViewBinoculars", "d8/d4e/class_action_view_binoculars.html", null ]
+            ] ],
+            [ "ActionWashHandsItemContinuous", "d5/db9/class_action_wash_hands_item_continuous.html", null ],
+            [ "ActionWaterGardenSlot", "d1/dd9/class_action_water_garden_slot.html", null ],
+            [ "ActionWaterPlant", "d4/de7/class_action_water_plant.html", null ],
+            [ "ActionWorldCraft", "d6/def/class_action_world_craft.html", null ],
+            [ "ActionWringClothes", "d5/d00/class_action_wring_clothes.html", null ],
+            [ "ActionWritePaper", "df/d36/class_action_write_paper.html", null ]
           ] ],
-          [ "ActionMountBarbedWire", "d4/d3b/class_action_mount_barbed_wire.html", null ],
-          [ "ActionPackGift", "dc/d9b/class_action_pack_gift.html", null ],
-          [ "ActionPlaceOnGround", "d4/d04/class_action_place_on_ground.html", null ],
-          [ "ActionPourLiquid", "d0/dd9/class_action_pour_liquid.html", null ],
-          [ "ActionPushCar", "dc/d0d/class_action_push_car.html", null ],
-          [ "ActionRaiseFlag", "d0/dcd/class_action_raise_flag.html", null ],
-          [ "ActionReadPaper", "d7/d3a/class_action_read_paper.html", null ],
-          [ "ActionRepackTent", "d9/d91/class_action_repack_tent.html", null ],
-          [ "ActionRepairCarChassis", "d6/dec/class_action_repair_car_chassis.html", null ],
-          [ "ActionRepairTent", "da/dff/class_action_repair_tent.html", [
-            [ "ActionRepairShelter", "dc/d92/class_action_repair_shelter.html", null ]
+          [ "ActionInteractBase", "d0/d5b/class_action_interact_base.html", [
+            [ "ActionAnimateCarSelection", "de/d59/class_action_animate_car_selection.html", [
+              [ "ActionAnimateSeats", "d7/db3/class_action_animate_seats.html", null ],
+              [ "ActionSidePlateInteract", "d1/d83/class_action_side_plate_interact.html", null ]
+            ] ],
+            [ "ActionCarDoors", "db/d38/class_action_car_doors.html", [
+              [ "ActionCloseCarDoors", "d4/d06/class_action_close_car_doors.html", null ],
+              [ "ActionOpenCarDoors", "d8/d59/class_action_open_car_doors.html", null ]
+            ] ],
+            [ "ActionCarDoorsOutside", "d3/de4/class_action_car_doors_outside.html", [
+              [ "ActionCloseCarDoorsOutside", "d9/dde/class_action_close_car_doors_outside.html", null ],
+              [ "ActionOpenCarDoorsOutside", "d2/dbc/class_action_open_car_doors_outside.html", null ]
+            ] ],
+            [ "ActionCheckPulse", "d0/dea/class_action_check_pulse.html", null ],
+            [ "ActionCloseBarrel", "df/d77/class_action_close_barrel.html", null ],
+            [ "ActionCloseBarrelHoles", "dd/d58/class_action_close_barrel_holes.html", null ],
+            [ "ActionCloseDoors", "d5/d57/class_action_close_doors.html", null ],
+            [ "ActionCloseFence", "d3/d1f/class_action_close_fence.html", null ],
+            [ "ActionDetachFromTarget", "d3/d87/class_action_detach_from_target.html", [
+              [ "ActionDetachFromTarget_SpecificSlotsCategory", "d3/d69/class_action_detach_from_target___specific_slots_category.html", [
+                [ "ActionDetachFromTarget_SpecificSlotsCategory_Barrel", "d0/d7d/class_action_detach_from_target___specific_slots_category___barrel.html", null ]
+              ] ]
+            ] ],
+            [ "ActionDetachPowerSourceFromPanel", "d0/d11/class_action_detach_power_source_from_panel.html", null ],
+            [ "ActionEnterLadder", "df/d49/class_action_enter_ladder.html", null ],
+            [ "ActionExitLadder", "d2/d51/class_action_exit_ladder.html", null ],
+            [ "ActionFoldObject", "dd/d56/class_action_fold_object.html", null ],
+            [ "ActionHarvestCrops", "da/dbd/class_action_harvest_crops.html", null ],
+            [ "ActionITest", "da/d3f/class_action_i_test.html", null ],
+            [ "ActionInteractLoopBase", "d0/d5c/class_action_interact_loop_base.html", [
+              [ "ActionPickBerry", "d9/d0d/class_action_pick_berry.html", null ]
+            ] ],
+            [ "ActionNextCombinationLockDialOnTarget", "d6/df4/class_action_next_combination_lock_dial_on_target.html", null ],
+            [ "ActionOpenBarrel", "d3/df9/class_action_open_barrel.html", null ],
+            [ "ActionOpenBarrelHoles", "da/d93/class_action_open_barrel_holes.html", null ],
+            [ "ActionOpenDoors", "d0/dbe/class_action_open_doors.html", null ],
+            [ "ActionOpenFence", "df/da1/class_action_open_fence.html", null ],
+            [ "ActionOperatePanel", "d4/da2/class_action_operate_panel.html", [
+              [ "ActionOperatePanelPowerStation", "d0/dfd/class_action_operate_panel_power_station.html", null ]
+            ] ],
+            [ "ActionPickupChicken", "d0/dfa/class_action_pickup_chicken.html", null ],
+            [ "ActionPullBodyFromTransport", "d1/d27/class_action_pull_body_from_transport.html", null ],
+            [ "ActionPullOutPlug", "d9/d5b/class_action_pull_out_plug.html", null ],
+            [ "ActionRemovePlant", "de/d70/class_action_remove_plant.html", null ],
+            [ "ActionRemoveSeed", "d0/d20/class_action_remove_seed.html", null ],
+            [ "ActionRepositionPluggedItem", "dd/dbe/class_action_reposition_plugged_item.html", null ],
+            [ "ActionSwitchLights", "df/d71/class_action_switch_lights.html", null ],
+            [ "ActionTakeArrowToHands", "dd/ded/class_action_take_arrow_to_hands.html", null ],
+            [ "ActionTakeFireplaceFromBarrel", "d5/deb/class_action_take_fireplace_from_barrel.html", null ],
+            [ "ActionTakeFireplaceIndoor", "d6/d47/class_action_take_fireplace_indoor.html", null ],
+            [ "ActionTakeHybridAttachment", "d8/d0d/class_action_take_hybrid_attachment.html", null ],
+            [ "ActionTakeHybridAttachmentToHands", "d4/de2/class_action_take_hybrid_attachment_to_hands.html", null ],
+            [ "ActionTakeItem", "da/d5f/class_action_take_item.html", [
+              [ "ActionTakeArrow", "dd/d42/class_action_take_arrow.html", null ]
+            ] ],
+            [ "ActionTakeItemToHands", "d1/d07/class_action_take_item_to_hands.html", null ],
+            [ "ActionTakeMaterialToHands", "d4/d76/class_action_take_material_to_hands.html", null ],
+            [ "ActionTakeOvenIndoor", "dc/d55/class_action_take_oven_indoor.html", null ],
+            [ "ActionToggleTentOpen", "db/d0e/class_action_toggle_tent_open.html", null ],
+            [ "ActionTuneFrequencyOnGround", "dc/d13/class_action_tune_frequency_on_ground.html", null ],
+            [ "ActionTurnOffPowerGenerator", "d3/dab/class_action_turn_off_power_generator.html", null ],
+            [ "ActionTurnOffSpotlight", "da/d9d/class_action_turn_off_spotlight.html", null ],
+            [ "ActionTurnOffTransmitterOnGround", "dd/dc5/class_action_turn_off_transmitter_on_ground.html", null ],
+            [ "ActionTurnOffWhileOnGround", "d4/df1/class_action_turn_off_while_on_ground.html", null ],
+            [ "ActionTurnOnPowerGenerator", "dd/d0a/class_action_turn_on_power_generator.html", null ],
+            [ "ActionTurnOnSpotlight", "db/d64/class_action_turn_on_spotlight.html", null ],
+            [ "ActionTurnOnTransmitterOnGround", "df/d21/class_action_turn_on_transmitter_on_ground.html", null ],
+            [ "ActionTurnOnWhileOnGround", "da/d2d/class_action_turn_on_while_on_ground.html", null ],
+            [ "ActionUnplugThisByCord", "d6/d42/class_action_unplug_this_by_cord.html", null ],
+            [ "ActionUseUndergroundLever", "d9/d5c/class_action_use_underground_lever.html", null ]
           ] ],
-          [ "ActionRepairTentPart", "d5/da3/class_action_repair_tent_part.html", null ],
-          [ "ActionRestrainSelf", "d5/dba/class_action_restrain_self.html", null ],
-          [ "ActionRestrainTarget", "d1/db1/class_action_restrain_target.html", null ],
-          [ "ActionSawPlanks", "db/d86/class_action_saw_planks.html", null ],
-          [ "ActionSetAlarmClock", "da/d6f/class_action_set_alarm_clock.html", null ],
-          [ "ActionSetKitchenTimer", "df/d03/class_action_set_kitchen_timer.html", null ],
-          [ "ActionShave", "d5/d2d/class_action_shave.html", null ],
-          [ "ActionShaveTarget", "d7/d2c/class_action_shave_target.html", null ],
-          [ "ActionSortAmmoPile", "d7/da1/class_action_sort_ammo_pile.html", null ],
-          [ "ActionSplintSelf", "d5/dd5/class_action_splint_self.html", null ],
-          [ "ActionSplintTarget", "dd/dcb/class_action_splint_target.html", null ],
-          [ "ActionStripCarrierVest", "d5/daa/class_action_strip_carrier_vest.html", null ],
-          [ "ActionTestBloodSelf", "d3/db0/class_action_test_blood_self.html", null ],
-          [ "ActionTestBloodTarget", "d1/dc7/class_action_test_blood_target.html", null ],
-          [ "ActionTransferLiquid", "de/d1b/class_action_transfer_liquid.html", null ],
-          [ "ActionUncoverHeadBase", "d6/d30/class_action_uncover_head_base.html", [
-            [ "ActionUncoverHeadTarget", "d6/d81/class_action_uncover_head_target.html", null ]
-          ] ],
-          [ "ActionUngagSelf", "d7/d45/class_action_ungag_self.html", null ],
-          [ "ActionUngagTarget", "da/dd1/class_action_ungag_target.html", null ],
-          [ "ActionUnlockDoors", "d6/d73/class_action_unlock_doors.html", null ],
-          [ "ActionUnmountBarbedWire", "d5/d21/class_action_unmount_barbed_wire.html", null ],
-          [ "ActionUnpackBox", "d9/dbd/class_action_unpack_box.html", null ],
-          [ "ActionUnpackGift", "da/ded/class_action_unpack_gift.html", null ],
-          [ "ActionUnrestrainSelf", "d4/d52/class_action_unrestrain_self.html", null ],
-          [ "ActionUnrestrainTarget", "da/d74/class_action_unrestrain_target.html", null ],
-          [ "ActionUnrestrainTargetHands", "de/d76/class_action_unrestrain_target_hands.html", null ],
-          [ "ActionUpgradeTorchFromGasPump", "d6/d5b/class_action_upgrade_torch_from_gas_pump.html", null ],
-          [ "ActionUseRangefinder", "da/da4/class_action_use_rangefinder.html", null ],
-          [ "ActionViewCompass", "d7/d2a/class_action_view_compass.html", null ],
-          [ "ActionViewOptics", "d1/d12/class_action_view_optics.html", [
-            [ "ActionViewBinoculars", "d8/d4e/class_action_view_binoculars.html", null ]
-          ] ],
-          [ "ActionWashHandsItemContinuous", "d5/db9/class_action_wash_hands_item_continuous.html", null ],
-          [ "ActionWaterGardenSlot", "d1/dd9/class_action_water_garden_slot.html", null ],
-          [ "ActionWaterPlant", "d4/de7/class_action_water_plant.html", null ],
-          [ "ActionWorldCraft", "d6/def/class_action_world_craft.html", null ],
-          [ "ActionWringClothes", "d5/d00/class_action_wring_clothes.html", null ],
-          [ "ActionWritePaper", "df/d36/class_action_write_paper.html", null ]
+          [ "ActionSingleUseBase", "d1/d91/class_action_single_use_base.html", [
+            [ "ActionAttachOnSelection", "da/d7b/class_action_attach_on_selection.html", null ],
+            [ "ActionAttachPowerSourceToPanel", "d4/da7/class_action_attach_power_source_to_panel.html", null ],
+            [ "ActionAttachToConstruction", "d3/d62/class_action_attach_to_construction.html", null ],
+            [ "ActionBuildPartSwitch", "d1/d08/class_action_build_part_switch.html", null ],
+            [ "ActionClapBearTrapWithThisItem", "db/d02/class_action_clap_bear_trap_with_this_item.html", null ],
+            [ "ActionClose", "d4/d77/class_action_close.html", null ],
+            [ "ActionConsumeSingle", "d6/d3a/class_action_consume_single.html", [
+              [ "ActionBiteCharcoalTablets", "dc/d72/class_action_bite_charcoal_tablets.html", null ],
+              [ "ActionBitePainkillerTablets", "dc/d4b/class_action_bite_painkiller_tablets.html", null ],
+              [ "ActionBitePurificationTablets", "d7/df4/class_action_bite_purification_tablets.html", null ],
+              [ "ActionBiteTetracyclineAntibiotics", "d8/d54/class_action_bite_tetracycline_antibiotics.html", null ],
+              [ "ActionBiteVitaminBottle", "d8/d51/class_action_bite_vitamin_bottle.html", null ],
+              [ "ActionEatPillFromBottle", "d4/d25/class_action_eat_pill_from_bottle.html", null ],
+              [ "ActionEatTabletFromWrapper", "da/d51/class_action_eat_tablet_from_wrapper.html", null ],
+              [ "ActionTakeABite", "d8/d26/class_action_take_a_bite.html", [
+                [ "ActionTakeABiteCan", "d2/d79/class_action_take_a_bite_can.html", null ],
+                [ "ActionTakeASip", "d7/d51/class_action_take_a_sip.html", null ]
+              ] ]
+            ] ],
+            [ "ActionCreateIndoorFireplace", "d0/d80/class_action_create_indoor_fireplace.html", null ],
+            [ "ActionCreateIndoorOven", "db/de0/class_action_create_indoor_oven.html", null ],
+            [ "ActionDisinfectPlantBit", "d7/d00/class_action_disinfect_plant_bit.html", null ],
+            [ "ActionEmptySeedsPack", "dc/d58/class_action_empty_seeds_pack.html", null ],
+            [ "ActionFoldEntityToSlot", "d6/d66/class_action_fold_entity_to_slot.html", [
+              [ "ActionFoldBandanaToHead", "d7/d84/class_action_fold_bandana_to_head.html", null ],
+              [ "ActionFoldBandanaToMask", "dd/dee/class_action_fold_bandana_to_mask.html", null ]
+            ] ],
+            [ "ActionHandcuffTarget", "d2/dd4/class_action_handcuff_target.html", null ],
+            [ "ActionHandsPartSwitch", "df/d63/class_action_hands_part_switch.html", null ],
+            [ "ActionInjectSelf", "d6/d10/class_action_inject_self.html", [
+              [ "ActionInjectEpinephrineSelf", "d8/ddf/class_action_inject_epinephrine_self.html", null ],
+              [ "ActionInjectMorphineSelf", "dc/d91/class_action_inject_morphine_self.html", null ]
+            ] ],
+            [ "ActionInjectTarget", "db/d1a/class_action_inject_target.html", [
+              [ "ActionInjectEpinephrineTarget", "df/df4/class_action_inject_epinephrine_target.html", null ],
+              [ "ActionInjectMorphineTarget", "d5/df0/class_action_inject_morphine_target.html", null ]
+            ] ],
+            [ "ActionInsertSparkplug", "d5/de2/class_action_insert_sparkplug.html", null ],
+            [ "ActionMeasureBattery", "dd/d4c/class_action_measure_battery.html", null ],
+            [ "ActionNextCombinationLockDial", "d5/d0a/class_action_next_combination_lock_dial.html", null ],
+            [ "ActionOpen", "da/dc0/class_action_open.html", null ],
+            [ "ActionPlaceFireplaceIndoor", "db/d54/class_action_place_fireplace_indoor.html", null ],
+            [ "ActionPlaceFireplaceIntoBarrel", "df/dd9/class_action_place_fireplace_into_barrel.html", null ],
+            [ "ActionPlaceOvenIndoor", "d2/d86/class_action_place_oven_indoor.html", null ],
+            [ "ActionPlantSeed", "d1/d71/class_action_plant_seed.html", null ],
+            [ "ActionPlugIn", "de/dcb/class_action_plug_in.html", null ],
+            [ "ActionPlugIntoFence", "d6/d34/class_action_plug_into_fence.html", null ],
+            [ "ActionPlugTargetIntoThis", "d3/dbe/class_action_plug_target_into_this.html", null ],
+            [ "ActionRefuelTorch", "dd/d64/class_action_refuel_torch.html", null ],
+            [ "ActionRepairWithToolFromHands", "d1/d31/class_action_repair_with_tool_from_hands.html", null ],
+            [ "ActionStopEngine", "dc/d0e/class_action_stop_engine.html", null ],
+            [ "ActionStopEngineBoat", "d0/d6f/class_action_stop_engine_boat.html", null ],
+            [ "ActionTakeMaterialToHandsSwitch", "dd/da3/class_action_take_material_to_hands_switch.html", null ],
+            [ "ActionToggleNVMode", "d9/d11/class_action_toggle_n_v_mode.html", null ],
+            [ "ActionTogglePlaceObject", "d8/d94/class_action_toggle_place_object.html", [
+              [ "ActionTogglePlaceObjectDigging", "de/d4c/class_action_toggle_place_object_digging.html", null ]
+            ] ],
+            [ "ActionTriggerRemotely", "d0/d2b/class_action_trigger_remotely.html", null ],
+            [ "ActionTurnOffWeaponFlashlight", "d9/d68/class_action_turn_off_weapon_flashlight.html", null ],
+            [ "ActionTurnOffWhileInHands", "dd/d41/class_action_turn_off_while_in_hands.html", null ],
+            [ "ActionTurnOnWeaponFlashlight", "d5/d77/class_action_turn_on_weapon_flashlight.html", null ],
+            [ "ActionTurnOnWhileInHands", "d8/d4f/class_action_turn_on_while_in_hands.html", [
+              [ "ActionTurnOnChemlight", "db/d27/class_action_turn_on_chemlight.html", null ],
+              [ "ActionTurnOnHeatpack", "d5/d9f/class_action_turn_on_heatpack.html", null ]
+            ] ],
+            [ "ActionUnfoldEntity", "d9/d0d/class_action_unfold_entity.html", [
+              [ "ActionUnfoldBandana", "db/d01/class_action_unfold_bandana.html", null ]
+            ] ],
+            [ "ActionUseUndergroundPanel", "db/db7/class_action_use_underground_panel.html", null ],
+            [ "ActionWashHandsItem", "db/d38/class_action_wash_hands_item.html", null ],
+            [ "ActionWorldCraftCancel", "d7/d4f/class_action_world_craft_cancel.html", null ],
+            [ "ActionWorldCraftSwitch", "d7/d5e/class_action_world_craft_switch.html", null ],
+            [ "ActionWorldFlagActionSwitch", "df/d2c/class_action_world_flag_action_switch.html", null ],
+            [ "ActionWorldLiquidActionSwitch", "d5/d0a/class_action_world_liquid_action_switch.html", null ],
+            [ "ActionZoomIn", "d2/d90/class_action_zoom_in.html", null ],
+            [ "ActionZoomOut", "d5/dd7/class_action_zoom_out.html", null ]
+          ] ]
         ] ],
-        [ "ActionInteractBase", "d0/d5b/class_action_interact_base.html", [
-          [ "ActionAnimateCarSelection", "de/d59/class_action_animate_car_selection.html", [
-            [ "ActionAnimateSeats", "d7/db3/class_action_animate_seats.html", null ],
-            [ "ActionSidePlateInteract", "d1/d83/class_action_side_plate_interact.html", null ]
-          ] ],
-          [ "ActionCarDoors", "db/d38/class_action_car_doors.html", [
-            [ "ActionCloseCarDoors", "d4/d06/class_action_close_car_doors.html", null ],
-            [ "ActionOpenCarDoors", "d8/d59/class_action_open_car_doors.html", null ]
-          ] ],
-          [ "ActionCarDoorsOutside", "d3/de4/class_action_car_doors_outside.html", [
-            [ "ActionCloseCarDoorsOutside", "d9/dde/class_action_close_car_doors_outside.html", null ],
-            [ "ActionOpenCarDoorsOutside", "d2/dbc/class_action_open_car_doors_outside.html", null ]
-          ] ],
-          [ "ActionCheckPulse", "d0/dea/class_action_check_pulse.html", null ],
-          [ "ActionCloseBarrel", "df/d77/class_action_close_barrel.html", null ],
-          [ "ActionCloseBarrelHoles", "dd/d58/class_action_close_barrel_holes.html", null ],
-          [ "ActionCloseDoors", "d5/d57/class_action_close_doors.html", null ],
-          [ "ActionCloseFence", "d3/d1f/class_action_close_fence.html", null ],
-          [ "ActionDetachFromTarget", "d3/d87/class_action_detach_from_target.html", [
-            [ "ActionDetachFromTarget_SpecificSlotsCategory", "d3/d69/class_action_detach_from_target___specific_slots_category.html", [
-              [ "ActionDetachFromTarget_SpecificSlotsCategory_Barrel", "d0/d7d/class_action_detach_from_target___specific_slots_category___barrel.html", null ]
-            ] ]
-          ] ],
-          [ "ActionDetachPowerSourceFromPanel", "d0/d11/class_action_detach_power_source_from_panel.html", null ],
-          [ "ActionEnterLadder", "df/d49/class_action_enter_ladder.html", null ],
-          [ "ActionExitLadder", "d2/d51/class_action_exit_ladder.html", null ],
-          [ "ActionFoldObject", "dd/d56/class_action_fold_object.html", null ],
-          [ "ActionHarvestCrops", "da/dbd/class_action_harvest_crops.html", null ],
-          [ "ActionITest", "da/d3f/class_action_i_test.html", null ],
-          [ "ActionInteractLoopBase", "d0/d5c/class_action_interact_loop_base.html", [
-            [ "ActionPickBerry", "d9/d0d/class_action_pick_berry.html", null ]
-          ] ],
-          [ "ActionNextCombinationLockDialOnTarget", "d6/df4/class_action_next_combination_lock_dial_on_target.html", null ],
-          [ "ActionOpenBarrel", "d3/df9/class_action_open_barrel.html", null ],
-          [ "ActionOpenBarrelHoles", "da/d93/class_action_open_barrel_holes.html", null ],
-          [ "ActionOpenDoors", "d0/dbe/class_action_open_doors.html", null ],
-          [ "ActionOpenFence", "df/da1/class_action_open_fence.html", null ],
-          [ "ActionPickupChicken", "d0/dfa/class_action_pickup_chicken.html", null ],
-          [ "ActionPullBodyFromTransport", "d1/d27/class_action_pull_body_from_transport.html", null ],
-          [ "ActionPullOutPlug", "d9/d5b/class_action_pull_out_plug.html", null ],
-          [ "ActionRemovePlant", "de/d70/class_action_remove_plant.html", null ],
-          [ "ActionRemoveSeed", "d0/d20/class_action_remove_seed.html", null ],
-          [ "ActionRepositionPluggedItem", "dd/dbe/class_action_reposition_plugged_item.html", null ],
-          [ "ActionSwitchLights", "df/d71/class_action_switch_lights.html", null ],
-          [ "ActionTakeArrowToHands", "dd/ded/class_action_take_arrow_to_hands.html", null ],
-          [ "ActionTakeFireplaceFromBarrel", "d5/deb/class_action_take_fireplace_from_barrel.html", null ],
-          [ "ActionTakeFireplaceIndoor", "d6/d47/class_action_take_fireplace_indoor.html", null ],
-          [ "ActionTakeHybridAttachment", "d8/d0d/class_action_take_hybrid_attachment.html", null ],
-          [ "ActionTakeHybridAttachmentToHands", "d4/de2/class_action_take_hybrid_attachment_to_hands.html", null ],
-          [ "ActionTakeItem", "da/d5f/class_action_take_item.html", [
-            [ "ActionTakeArrow", "dd/d42/class_action_take_arrow.html", null ]
-          ] ],
-          [ "ActionTakeItemToHands", "d1/d07/class_action_take_item_to_hands.html", null ],
-          [ "ActionTakeMaterialToHands", "d4/d76/class_action_take_material_to_hands.html", null ],
-          [ "ActionTakeOvenIndoor", "dc/d55/class_action_take_oven_indoor.html", null ],
-          [ "ActionToggleTentOpen", "db/d0e/class_action_toggle_tent_open.html", null ],
-          [ "ActionTuneFrequencyOnGround", "dc/d13/class_action_tune_frequency_on_ground.html", null ],
-          [ "ActionTurnOffPowerGenerator", "d3/dab/class_action_turn_off_power_generator.html", null ],
-          [ "ActionTurnOffSpotlight", "da/d9d/class_action_turn_off_spotlight.html", null ],
-          [ "ActionTurnOffTransmitterOnGround", "dd/dc5/class_action_turn_off_transmitter_on_ground.html", null ],
-          [ "ActionTurnOffWhileOnGround", "d4/df1/class_action_turn_off_while_on_ground.html", null ],
-          [ "ActionTurnOnPowerGenerator", "dd/d0a/class_action_turn_on_power_generator.html", null ],
-          [ "ActionTurnOnSpotlight", "db/d64/class_action_turn_on_spotlight.html", null ],
-          [ "ActionTurnOnTransmitterOnGround", "df/d21/class_action_turn_on_transmitter_on_ground.html", null ],
-          [ "ActionTurnOnWhileOnGround", "da/d2d/class_action_turn_on_while_on_ground.html", null ],
-          [ "ActionUnplugThisByCord", "d6/d42/class_action_unplug_this_by_cord.html", null ],
-          [ "ActionUseUndergroundLever", "d9/d5c/class_action_use_underground_lever.html", null ]
-        ] ],
-        [ "ActionSingleUseBase", "d1/d91/class_action_single_use_base.html", [
-          [ "ActionAttachOnSelection", "da/d7b/class_action_attach_on_selection.html", null ],
-          [ "ActionAttachPowerSourceToPanel", "d4/da7/class_action_attach_power_source_to_panel.html", null ],
-          [ "ActionAttachToConstruction", "d3/d62/class_action_attach_to_construction.html", null ],
-          [ "ActionBuildPartSwitch", "d1/d08/class_action_build_part_switch.html", null ],
-          [ "ActionClapBearTrapWithThisItem", "db/d02/class_action_clap_bear_trap_with_this_item.html", null ],
-          [ "ActionClose", "d4/d77/class_action_close.html", null ],
-          [ "ActionConsumeSingle", "d6/d3a/class_action_consume_single.html", [
-            [ "ActionBiteCharcoalTablets", "dc/d72/class_action_bite_charcoal_tablets.html", null ],
-            [ "ActionBitePainkillerTablets", "dc/d4b/class_action_bite_painkiller_tablets.html", null ],
-            [ "ActionBitePurificationTablets", "d7/df4/class_action_bite_purification_tablets.html", null ],
-            [ "ActionBiteTetracyclineAntibiotics", "d8/d54/class_action_bite_tetracycline_antibiotics.html", null ],
-            [ "ActionBiteVitaminBottle", "d8/d51/class_action_bite_vitamin_bottle.html", null ],
-            [ "ActionEatPillFromBottle", "d4/d25/class_action_eat_pill_from_bottle.html", null ],
-            [ "ActionEatTabletFromWrapper", "da/d51/class_action_eat_tablet_from_wrapper.html", null ],
-            [ "ActionTakeABite", "d8/d26/class_action_take_a_bite.html", [
-              [ "ActionTakeABiteCan", "d2/d79/class_action_take_a_bite_can.html", null ],
-              [ "ActionTakeASip", "d7/d51/class_action_take_a_sip.html", null ]
-            ] ]
-          ] ],
-          [ "ActionCreateIndoorFireplace", "d0/d80/class_action_create_indoor_fireplace.html", null ],
-          [ "ActionCreateIndoorOven", "db/de0/class_action_create_indoor_oven.html", null ],
-          [ "ActionDisinfectPlantBit", "d7/d00/class_action_disinfect_plant_bit.html", null ],
-          [ "ActionEmptySeedsPack", "dc/d58/class_action_empty_seeds_pack.html", null ],
-          [ "ActionFoldEntityToSlot", "d6/d66/class_action_fold_entity_to_slot.html", [
-            [ "ActionFoldBandanaToHead", "d7/d84/class_action_fold_bandana_to_head.html", null ],
-            [ "ActionFoldBandanaToMask", "dd/dee/class_action_fold_bandana_to_mask.html", null ]
-          ] ],
-          [ "ActionHandcuffTarget", "d2/dd4/class_action_handcuff_target.html", null ],
-          [ "ActionHandsPartSwitch", "df/d63/class_action_hands_part_switch.html", null ],
-          [ "ActionInjectSelf", "d6/d10/class_action_inject_self.html", [
-            [ "ActionInjectEpinephrineSelf", "d8/ddf/class_action_inject_epinephrine_self.html", null ],
-            [ "ActionInjectMorphineSelf", "dc/d91/class_action_inject_morphine_self.html", null ]
-          ] ],
-          [ "ActionInjectTarget", "db/d1a/class_action_inject_target.html", [
-            [ "ActionInjectEpinephrineTarget", "df/df4/class_action_inject_epinephrine_target.html", null ],
-            [ "ActionInjectMorphineTarget", "d5/df0/class_action_inject_morphine_target.html", null ]
-          ] ],
-          [ "ActionInsertSparkplug", "d5/de2/class_action_insert_sparkplug.html", null ],
-          [ "ActionMeasureBattery", "dd/d4c/class_action_measure_battery.html", null ],
-          [ "ActionNextCombinationLockDial", "d5/d0a/class_action_next_combination_lock_dial.html", null ],
-          [ "ActionOpen", "da/dc0/class_action_open.html", null ],
-          [ "ActionPlaceFireplaceIndoor", "db/d54/class_action_place_fireplace_indoor.html", null ],
-          [ "ActionPlaceFireplaceIntoBarrel", "df/dd9/class_action_place_fireplace_into_barrel.html", null ],
-          [ "ActionPlaceOvenIndoor", "d2/d86/class_action_place_oven_indoor.html", null ],
-          [ "ActionPlantSeed", "d1/d71/class_action_plant_seed.html", null ],
-          [ "ActionPlugIn", "de/dcb/class_action_plug_in.html", null ],
-          [ "ActionPlugIntoFence", "d6/d34/class_action_plug_into_fence.html", null ],
-          [ "ActionPlugTargetIntoThis", "d3/dbe/class_action_plug_target_into_this.html", null ],
-          [ "ActionRefuelTorch", "dd/d64/class_action_refuel_torch.html", null ],
-          [ "ActionRepairWithToolFromHands", "d1/d31/class_action_repair_with_tool_from_hands.html", null ],
-          [ "ActionStopEngine", "dc/d0e/class_action_stop_engine.html", null ],
-          [ "ActionTakeMaterialToHandsSwitch", "dd/da3/class_action_take_material_to_hands_switch.html", null ],
-          [ "ActionToggleNVMode", "d9/d11/class_action_toggle_n_v_mode.html", null ],
-          [ "ActionTogglePlaceObject", "d8/d94/class_action_toggle_place_object.html", null ],
-          [ "ActionTriggerRemotely", "d0/d2b/class_action_trigger_remotely.html", null ],
-          [ "ActionTurnOffWeaponFlashlight", "d9/d68/class_action_turn_off_weapon_flashlight.html", null ],
-          [ "ActionTurnOffWhileInHands", "dd/d41/class_action_turn_off_while_in_hands.html", null ],
-          [ "ActionTurnOnWeaponFlashlight", "d5/d77/class_action_turn_on_weapon_flashlight.html", null ],
-          [ "ActionTurnOnWhileInHands", "d8/d4f/class_action_turn_on_while_in_hands.html", [
-            [ "ActionTurnOnChemlight", "db/d27/class_action_turn_on_chemlight.html", null ],
-            [ "ActionTurnOnHeatpack", "d5/d9f/class_action_turn_on_heatpack.html", null ]
-          ] ],
-          [ "ActionUnfoldEntity", "d9/d0d/class_action_unfold_entity.html", [
-            [ "ActionUnfoldBandana", "db/d01/class_action_unfold_bandana.html", null ]
-          ] ],
-          [ "ActionUseUndergroundPanel", "db/db7/class_action_use_underground_panel.html", null ],
-          [ "ActionWashHandsItem", "db/d38/class_action_wash_hands_item.html", null ],
-          [ "ActionWorldCraftCancel", "d7/d4f/class_action_world_craft_cancel.html", null ],
-          [ "ActionWorldCraftSwitch", "d7/d5e/class_action_world_craft_switch.html", null ],
-          [ "ActionWorldFlagActionSwitch", "df/d2c/class_action_world_flag_action_switch.html", null ],
-          [ "ActionWorldLiquidActionSwitch", "d5/d0a/class_action_world_liquid_action_switch.html", null ],
-          [ "ActionZoomIn", "d2/d90/class_action_zoom_in.html", null ],
-          [ "ActionZoomOut", "d5/dd7/class_action_zoom_out.html", null ]
+        [ "FirearmActionBase", "d1/d3a/class_firearm_action_base.html", [
+          [ "FirearmActionAttachMagazine", "d7/dfa/class_firearm_action_attach_magazine.html", null ],
+          [ "FirearmActionAttachMagazineQuick", "d0/d9d/class_firearm_action_attach_magazine_quick.html", null ],
+          [ "FirearmActionDetachMagazine_Old", "d3/de8/class_firearm_action_detach_magazine___old.html", null ],
+          [ "FirearmActionLoadBullet", "de/daa/class_firearm_action_load_bullet.html", null ],
+          [ "FirearmActionLoadMultiBullet", "de/d7e/class_firearm_action_load_multi_bullet.html", null ],
+          [ "FirearmActionLoadMultiBulletQuick", "da/ded/class_firearm_action_load_multi_bullet_quick.html", null ],
+          [ "FirearmActionLoadMultiBulletRadial", "d1/d40/class_firearm_action_load_multi_bullet_radial.html", null ],
+          [ "FirearmActionMechanicManipulate", "d1/d2c/class_firearm_action_mechanic_manipulate.html", null ],
+          [ "FirearmActionUnjam", "d2/d7e/class_firearm_action_unjam.html", null ]
         ] ]
-      ] ],
-      [ "FirearmActionBase", "d1/d3a/class_firearm_action_base.html", [
-        [ "FirearmActionAttachMagazine", "d7/dfa/class_firearm_action_attach_magazine.html", null ],
-        [ "FirearmActionAttachMagazineQuick", "d0/d9d/class_firearm_action_attach_magazine_quick.html", null ],
-        [ "FirearmActionDetachMagazine_Old", "d3/de8/class_firearm_action_detach_magazine___old.html", null ],
-        [ "FirearmActionLoadBullet", "de/daa/class_firearm_action_load_bullet.html", null ],
-        [ "FirearmActionLoadMultiBullet", "de/d7e/class_firearm_action_load_multi_bullet.html", null ],
-        [ "FirearmActionLoadMultiBulletQuick", "da/ded/class_firearm_action_load_multi_bullet_quick.html", null ],
-        [ "FirearmActionLoadMultiBulletRadial", "d1/d40/class_firearm_action_load_multi_bullet_radial.html", null ],
-        [ "FirearmActionMechanicManipulate", "d1/d2c/class_firearm_action_mechanic_manipulate.html", null ],
-        [ "FirearmActionUnjam", "d2/d7e/class_firearm_action_unjam.html", null ]
       ] ]
     ] ],
-    [ "ActionBase_Basic", "d7/d90/class_action_base___basic.html", null ],
     [ "ActionCarHornBase", "d4/d26/class_action_car_horn_base.html", null ],
     [ "ActionConstructor", "da/d16/class_action_constructor.html", null ],
-    [ "ActionData", "da/d5a/class_action_data.html", [
+    [ "ActionData", null, [
       [ "ActionGiveBloodData", "d1/d72/class_action_give_blood_data.html", null ],
       [ "AttachActionData", "da/df2/class_attach_action_data.html", null ],
       [ "CarHornActionData", "da/daf/class_car_horn_action_data.html", null ],
       [ "DetachActionData", "dd/d8d/class_detach_action_data.html", null ],
       [ "EmptyMagazineActionData", "d8/d9c/class_empty_magazine_action_data.html", null ],
-      [ "FishingActionData", "d1/d0e/class_fishing_action_data.html", null ],
       [ "GetOutTransportActionData", "d9/d54/class_get_out_transport_action_data.html", null ],
       [ "MineActionData", "d4/d7c/class_mine_action_data.html", null ],
       [ "PlaceObjectActionData", "d4/df8/class_place_object_action_data.html", null ],
       [ "SequentialActionData", "d7/d38/class_sequential_action_data.html", null ]
     ] ],
     [ "ActionDeployObject", null, [
-      [ "ActionDigGardenPlot", "dd/d90/class_action_dig_garden_plot.html", null ],
-      [ "ActionPlaceObject", "d3/d6a/class_action_place_object.html", null ]
+      [ "ActionDigGardenPlot", "dd/d90/class_action_dig_garden_plot.html", null ]
     ] ],
     [ "ActiondeployObjectCB", null, [
       [ "ActionDigGardenPlotCB", "d4/d9b/class_action_dig_garden_plot_c_b.html", null ],
@@ -426,23 +445,33 @@ var hierarchy =
     [ "ActionMineTree", null, [
       [ "ActionMineTreeBark", "d1/dc5/class_action_mine_tree_bark.html", null ]
     ] ],
+    [ "ActionPushObjectData", null, [
+      [ "ActionPushCarData", "da/d20/class_action_push_car_data.html", null ]
+    ] ],
     [ "ActionReciveData", null, [
       [ "ActionDebugReciveData", "de/d5a/class_action_debug_recive_data.html", null ],
-      [ "ActionPushCarDataReceiveData", "dd/d6a/class_action_push_car_data_receive_data.html", null ],
+      [ "ActionPushObjectDataReceiveData", "d9/d38/class_action_push_object_data_receive_data.html", null ],
       [ "AdvDetachMagActionReciveData", "d5/d5b/class_adv_detach_mag_action_recive_data.html", null ],
       [ "AttachMagazineActionReciveData", "d5/dc0/class_attach_magazine_action_recive_data.html", null ],
+      [ "BarbedWireActionReceiveData", "d2/d6f/class_barbed_wire_action_receive_data.html", null ],
       [ "BuildPartActionReciveData", "df/d2e/class_build_part_action_recive_data.html", null ],
       [ "DetachMagActionReciveData", "dc/d4b/class_detach_mag_action_recive_data.html", null ],
+      [ "FishingActionReceiveData", "da/dd8/class_fishing_action_receive_data.html", null ],
       [ "FlagTendencyActionReciveData", "dd/d9a/class_flag_tendency_action_recive_data.html", null ],
       [ "PlaceObjectActionReciveData", "dc/d64/class_place_object_action_recive_data.html", null ],
       [ "RepairCarChassisActionReciveData", "de/d6c/class_repair_car_chassis_action_recive_data.html", null ],
-      [ "RepairCarEngineActionReciveData", "db/d50/class_repair_car_engine_action_recive_data.html", null ],
-      [ "RepairCarPartActionReciveData", "dd/de0/class_repair_car_part_action_recive_data.html", null ],
       [ "RepairPartActionReciveData", "dd/d48/class_repair_part_action_recive_data.html", null ],
       [ "RepairTentActionReciveData", "d4/d66/class_repair_tent_action_recive_data.html", null ],
       [ "RepairTentPartActionReciveData", "d5/d63/class_repair_tent_part_action_recive_data.html", null ],
+      [ "RepairVehiclePartActionReciveData", "d5/d43/class_repair_vehicle_part_action_recive_data.html", [
+        [ "RepairCarEngineActionReciveData", "db/d50/class_repair_car_engine_action_recive_data.html", null ],
+        [ "RepairCarPartActionReciveData", "dd/de0/class_repair_car_part_action_recive_data.html", null ]
+      ] ],
       [ "TransferLiquidActionReciveData", "d0/d5a/class_transfer_liquid_action_recive_data.html", null ],
       [ "WorldCraftActionReciveData", "d8/d05/class_world_craft_action_recive_data.html", null ]
+    ] ],
+    [ "ActionRepairCarPartCB", null, [
+      [ "ActionRepairCarPartWithBlowtorchCB", "da/dae/class_action_repair_car_part_with_blowtorch_c_b.html", null ]
     ] ],
     [ "ActionSequentialBase", null, [
       [ "FirearmActionDetachMagazine", "d6/d55/class_firearm_action_detach_magazine.html", null ]
@@ -453,7 +482,6 @@ var hierarchy =
     [ "ActionTargets", "df/dba/class_action_targets.html", null ],
     [ "ActionVariantManager", "dd/dfb/class_action_variant_manager.html", null ],
     [ "AdvancedCommunication", "de/d56/class_advanced_communication.html", null ],
-    [ "AgentBase", "d1/dd5/class_agent_base.html", null ],
     [ "AIBehaviourHL", null, [
       [ "AIBehaviourHLZombie2", "d0/d45/class_a_i_behaviour_h_l_zombie2.html", null ]
     ] ],
@@ -471,7 +499,9 @@ var hierarchy =
     [ "Animal_CervusElaphus", "dc/d62/class_animal___cervus_elaphus.html", null ],
     [ "Animal_GallusGallusDomesticus", "d5/d8c/class_animal___gallus_gallus_domesticus.html", null ],
     [ "Animal_GallusGallusDomesticusF", "da/d9d/class_animal___gallus_gallus_domesticus_f.html", null ],
+    [ "Animal_RangiferTarandus", "d6/dc4/class_animal___rangifer_tarandus.html", null ],
     [ "AnimalBase", "d4/d8f/class_animal_base.html", null ],
+    [ "AnimalCatchingConstants", "d2/dd5/class_animal_catching_constants.html", null ],
     [ "AnimatorTimer", "d7/d10/class_animator_timer.html", null ],
     [ "AnimCommandBase", "d8/d05/class_anim_command_base.html", null ],
     [ "AnimEvent", "d8/d22/class_anim_event.html", null ],
@@ -496,11 +526,13 @@ var hierarchy =
     [ "AreaDamageTriggerBase", "d3/d0c/class_area_damage_trigger_base.html", null ],
     [ "Armband_ColorBase", "d1/d04/class_armband___color_base.html", null ],
     [ "array", "d2/d41/classarray.html", null ],
+    [ "array< AbstractWave >", "d2/d41/classarray.html", null ],
     [ "array< ActionInput >", "d2/d41/classarray.html", null ],
     [ "array< ButtonWidget >", "d2/d41/classarray.html", null ],
     [ "array< CargoBase >", "d2/d41/classarray.html", null ],
     [ "array< Class T >", "d8/d71/classarray_3_01_class_01_t_01_4.html", null ],
     [ "array< ConstructionPart >", "d2/d41/classarray.html", null ],
+    [ "array< EffectSound >", "d2/d41/classarray.html", null ],
     [ "array< EntityAI >", "d2/d41/classarray.html", null ],
     [ "array< float >", "d2/d41/classarray.html", null ],
     [ "array< ImageWidget >", "d2/d41/classarray.html", null ],
@@ -514,10 +546,8 @@ var hierarchy =
     [ "array< Object >", "d2/d41/classarray.html", null ],
     [ "array< Param >", "d2/d41/classarray.html", null ],
     [ "array< Param3 >", "d2/d41/classarray.html", null ],
-    [ "array< Particle >", "d2/d41/classarray.html", null ],
     [ "array< ParticleSource >", "d2/d41/classarray.html", null ],
     [ "array< PlayerBase >", "d2/d41/classarray.html", null ],
-    [ "array< PlayerStatRecord >", "d2/d41/classarray.html", null ],
     [ "array< ref AbilityRecord >", "d2/d41/classarray.html", null ],
     [ "array< ref ActionBase >", "d2/d41/classarray.html", null ],
     [ "array< ref ActionTarget >", "d2/d41/classarray.html", null ],
@@ -527,6 +557,7 @@ var hierarchy =
     [ "array< ref AnimStepEvent >", "d2/d41/classarray.html", null ],
     [ "array< ref array< bool > >", "d2/d41/classarray.html", null ],
     [ "array< ref array< float > >", "d2/d41/classarray.html", null ],
+    [ "array< ref array< ref array< float > > >", "d2/d41/classarray.html", null ],
     [ "array< ref array< V > >", "d2/d41/classarray.html", null ],
     [ "array< ref BillboardSet >", "d2/d41/classarray.html", null ],
     [ "array< ref CachedServerInfo >", "d2/d41/classarray.html", null ],
@@ -579,12 +610,13 @@ var hierarchy =
     [ "array< ref Param4< Param3, Param3, float, bool > >", "d2/d41/classarray.html", null ],
     [ "array< ref Param5< vector, vector, string, ref array< string >, string > >", "d2/d41/classarray.html", null ],
     [ "array< ref Param6< vector, vector, float, float, float, Param3 > >", "d2/d41/classarray.html", null ],
+    [ "array< ref PlayerRestrictedAreaInstance >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerSpawnPresetComplexChildrenType >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerSpawnPresetDiscreteCargoSetData >", "d2/d41/classarray.html", null ],
     [ "array< ref PlayerSpawnPresetSlotData >", "d2/d41/classarray.html", null ],
-    [ "array< ref PlayerStatBase >", "d2/d41/classarray.html", null ],
     [ "array< ref PluginDayZInfectedDebugAttackDesc >", "d2/d41/classarray.html", null ],
     [ "array< ref PluginDayzPlayerDebug_AbilityConfig >", "d2/d41/classarray.html", null ],
+    [ "array< ref PRAShapeBoxData >", "d2/d41/classarray.html", null ],
     [ "array< ref RadialQuickbarItem >", "d2/d41/classarray.html", null ],
     [ "array< ref RaycastRVResult >", "d2/d41/classarray.html", null ],
     [ "array< ref RecipeBase >", "d2/d41/classarray.html", null ],
@@ -594,7 +626,6 @@ var hierarchy =
     [ "array< ref ServerBrowserEntry >", "d2/d41/classarray.html", null ],
     [ "array< ref Slot >", "d2/d41/classarray.html", null ],
     [ "array< ref SlotsIcon >", "d2/d41/classarray.html", null ],
-    [ "array< ref StatDebugObject >", "d2/d41/classarray.html", null ],
     [ "array< ref SymptomBase >", "d2/d41/classarray.html", null ],
     [ "array< ref SyncedValue >", "d2/d41/classarray.html", null ],
     [ "array< ref SyncedValueAgent >", "d2/d41/classarray.html", null ],
@@ -618,6 +649,7 @@ var hierarchy =
     [ "array< typename >", "d2/d41/classarray.html", null ],
     [ "array< UTemperatureSource >", "d2/d41/classarray.html", null ],
     [ "array< vector >", "d2/d41/classarray.html", null ],
+    [ "array< VehicleHudBase >", "d2/d41/classarray.html", null ],
     [ "array< WeaponStateBase >", "d2/d41/classarray.html", null ],
     [ "array< Widget >", "d2/d41/classarray.html", null ],
     [ "ArrowManagerBase", "df/ddf/class_arrow_manager_base.html", [
@@ -633,6 +665,7 @@ var hierarchy =
     [ "AudioSystem", "df/d40/class_audio_system.html", null ],
     [ "BackendApi", "d2/d05/class_backend_api.html", null ],
     [ "Backlit", "da/d1e/class_backlit.html", null ],
+    [ "BaitData", "dc/d20/class_bait_data.html", null ],
     [ "Balaclava3Holes_ColorBase", "d1/ddf/class_balaclava3_holes___color_base.html", null ],
     [ "BalaclavaMask_ColorBase", "d1/d1d/class_balaclava_mask___color_base.html", null ],
     [ "Ballerinas_ColorBase", "d4/d66/class_ballerinas___color_base.html", null ],
@@ -671,6 +704,16 @@ var hierarchy =
     [ "BloodTypes", "db/d5e/class_blood_types.html", null ],
     [ "BloodyHands", "d7/df3/class_bloody_hands.html", null ],
     [ "Blouse_ColorBase", "d4/d58/class_blouse___color_base.html", null ],
+    [ "Boat", null, [
+      [ "BoatScript", "d6/d37/class_boat_script.html", [
+        [ "Boat_01_ColorBase", "d6/d29/class_boat__01___color_base.html", [
+          [ "Boat_01_Black", "d6/d41/class_boat__01___black.html", null ],
+          [ "Boat_01_Blue", "d5/d81/class_boat__01___blue.html", null ],
+          [ "Boat_01_Camo", "df/d6b/class_boat__01___camo.html", null ],
+          [ "Boat_01_Orange", "db/de7/class_boat__01___orange.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "BoltActionRifle_Base", "d3/d3e/class_bolt_action_rifle___base.html", [
       [ "BoltActionRifle_ExternalMagazine_Base", "df/d71/class_bolt_action_rifle___external_magazine___base.html", [
         [ "CZ527_Base", "d2/df4/class_c_z527___base.html", null ],
@@ -704,6 +747,7 @@ var hierarchy =
       [ "BotEventHuntedTargetLost", "dc/db9/class_bot_event_hunted_target_lost.html", null ],
       [ "BotEventOnItemInHandsChanged", "de/d5c/class_bot_event_on_item_in_hands_changed.html", null ],
       [ "BotEventStart", "db/d66/class_bot_event_start.html", null ],
+      [ "BotEventStartDebug", "d9/d2c/class_bot_event_start_debug.html", null ],
       [ "BotEventStop", "d0/d2e/class_bot_event_stop.html", null ],
       [ "BotEventWaitTimeout", "d2/d5f/class_bot_event_wait_timeout.html", null ]
     ] ],
@@ -721,7 +765,11 @@ var hierarchy =
       [ "BotTestSpamUserActions_Start", "d3/d18/class_bot_test_spam_user_actions___start.html", null ]
     ] ],
     [ "Bottle_Base", "da/d60/class_bottle___base.html", [
-      [ "Vodka", "df/d69/class_vodka.html", null ],
+      [ "CanisterGasoline", "d2/d68/class_canister_gasoline.html", null ],
+      [ "Cauldron", "df/d16/class_cauldron.html", null ],
+      [ "FilteringBottle", "de/dc0/class_filtering_bottle.html", null ],
+      [ "GlassBottle", "d8/dd5/class_glass_bottle.html", null ],
+      [ "Pot", "d6/d29/class_pot.html", null ],
       [ "WaterPouch_ColorBase", "d0/dbc/class_water_pouch___color_base.html", null ]
     ] ],
     [ "BotTrigger", "db/d0c/class_bot_trigger.html", [
@@ -750,23 +798,18 @@ var hierarchy =
     ] ],
     [ "BoxCollidingParams", "da/d47/class_box_colliding_params.html", null ],
     [ "Breeches_ColorBase", "dc/dc4/class_breeches___color_base.html", null ],
+    [ "BudenovkaHat_ColorBase", "d5/dce/class_budenovka_hat___color_base.html", null ],
     [ "Building", null, [
       [ "AnniversarySpotLight", "da/d04/class_anniversary_spot_light.html", null ]
     ] ],
     [ "BuildingBase", null, [
       [ "House", "df/d21/class_house.html", [
-        [ "EffectArea", "d5/d44/class_effect_area.html", [
-          [ "ContaminatedArea_Base", "dd/dce/class_contaminated_area___base.html", [
-            [ "ContaminatedArea_Dynamic", "d5/db0/class_contaminated_area___dynamic.html", [
-              [ "ContaminatedArea_Local", "dc/d57/class_contaminated_area___local.html", null ]
-            ] ]
-          ] ],
-          [ "SpookyArea", "dc/d7e/class_spooky_area.html", null ]
-        ] ],
         [ "Land_Bilboard_Base", "d1/de0/class_land___bilboard___base.html", null ],
         [ "Land_Underground_EntranceBase", "d4/d9e/class_land___underground___entrance_base.html", [
           [ "Land_Underground_Stairs_Exit", "d5/deb/class_land___underground___stairs___exit.html", null ]
         ] ],
+        [ "Land_WarheadStorage_Main", "d5/dc4/class_land___warhead_storage___main.html", null ],
+        [ "Land_WarheadStorage_PowerStation", "d6/d23/class_land___warhead_storage___power_station.html", null ],
         [ "StaticObj_Roadblock_Wood_Small", "da/d12/class_static_obj___roadblock___wood___small.html", null ]
       ] ],
       [ "Land_Underground_WaterReservoir_Water", "d2/d14/class_land___underground___water_reservoir___water.html", null ]
@@ -775,6 +818,7 @@ var hierarchy =
       [ "BuildingWithFireplace", "dd/d47/class_building_with_fireplace.html", [
         [ "Land_House_1W13_Dam", "dc/d38/class_land___house__1_w13___dam.html", null ],
         [ "Land_Mil_ControlTower", "da/dde/class_land___mil___control_tower.html", null ],
+        [ "Land_Misc_FireBarrel_ColorBase", "d8/dba/class_land___misc___fire_barrel___color_base.html", null ],
         [ "Land_Ruin_HouseBig1", "d2/d00/class_land___ruin___house_big1.html", null ],
         [ "Land_Ruin_HouseBig1_Half", "da/ddc/class_land___ruin___house_big1___half.html", null ],
         [ "Land_Ruin_HouseBig1_NoIvy", "dc/dbd/class_land___ruin___house_big1___no_ivy.html", null ],
@@ -790,7 +834,10 @@ var hierarchy =
         [ "Land_Ruin_HouseSmall1", "da/d80/class_land___ruin___house_small1.html", null ],
         [ "Land_Ruin_HouseSmall1_NoIvy", "da/d00/class_land___ruin___house_small1___no_ivy.html", null ],
         [ "Land_Ruin_HouseSmall2", "d3/dcb/class_land___ruin___house_small2.html", null ],
-        [ "Land_Ruin_HouseSmall2_NoIvy", "d9/d91/class_land___ruin___house_small2___no_ivy.html", null ]
+        [ "Land_Ruin_HouseSmall2_NoIvy", "d9/d91/class_land___ruin___house_small2___no_ivy.html", null ],
+        [ "Land_Tenement_Small_Brick", "d8/d49/class_land___tenement___small___brick.html", null ],
+        [ "Land_Tenement_Small_Brown", "da/d4f/class_land___tenement___small___brown.html", null ],
+        [ "Land_Tenement_Small_Yellow", "d9/d2f/class_land___tenement___small___yellow.html", null ]
       ] ],
       [ "ClutterCutter2x2", "d0/d5b/class_clutter_cutter2x2.html", null ],
       [ "ClutterCutter6x6", "d1/dd0/class_clutter_cutter6x6.html", null ],
@@ -809,7 +856,12 @@ var hierarchy =
       [ "AK_WoodBttstck", "df/d35/class_a_k___wood_bttstck.html", null ],
       [ "Fal_FoldingBttstck", "d7/da5/class_fal___folding_bttstck.html", null ],
       [ "Fal_OeBttstck", "dc/dcb/class_fal___oe_bttstck.html", null ],
-      [ "GhillieAtt_ColorBase", "da/d5d/class_ghillie_att___color_base.html", null ],
+      [ "GhillieAtt_ColorBase", "da/d5d/class_ghillie_att___color_base.html", [
+        [ "GhillieAtt_Mossy", "d4/db4/class_ghillie_att___mossy.html", null ],
+        [ "GhillieAtt_Tan", "d5/d73/class_ghillie_att___tan.html", null ],
+        [ "GhillieAtt_Winter", "d6/df7/class_ghillie_att___winter.html", null ],
+        [ "GhillieAtt_Woodland", "d9/de2/class_ghillie_att___woodland.html", null ]
+      ] ],
       [ "Groza_LowerReceiver", "d9/de8/class_groza___lower_receiver.html", null ],
       [ "M249_Bipod", "da/db8/class_m249___bipod.html", null ],
       [ "M4_CQBBttstck", "d4/d12/class_m4___c_q_b_bttstck.html", null ],
@@ -850,7 +902,9 @@ var hierarchy =
         [ "CAContinuousRepeat", "dc/dec/class_c_a_continuous_repeat.html", [
           [ "CAContinuousLoadMagazine", "db/df3/class_c_a_continuous_load_magazine.html", null ],
           [ "CAContinuousRepeatFishing", "db/d51/class_c_a_continuous_repeat_fishing.html", null ],
-          [ "CAContinuousRepeatPushCar", "d7/d5d/class_c_a_continuous_repeat_push_car.html", null ],
+          [ "CAContinuousRepeatPushObject", "db/dd1/class_c_a_continuous_repeat_push_object.html", [
+            [ "CAContinuousRepeatPushCar", "d7/d5d/class_c_a_continuous_repeat_push_car.html", null ]
+          ] ],
           [ "CAContinuousRepeatStartEngine", "de/d7e/class_c_a_continuous_repeat_start_engine.html", null ]
         ] ],
         [ "CAContinuousTime", "d1/dc2/class_c_a_continuous_time.html", [
@@ -893,6 +947,23 @@ var hierarchy =
     [ "CarWheel", "d6/d22/class_car_wheel.html", [
       [ "CarWheel_Ruined", "d0/d71/class_car_wheel___ruined.html", null ]
     ] ],
+    [ "CatchingContextBase", null, [
+      [ "CatchingContextPoissonBase", "d8/d50/class_catching_context_poisson_base.html", [
+        [ "CatchingContextFishingBase", "d2/d47/class_catching_context_fishing_base.html", [
+          [ "CatchingContextFishingRodAction", "d9/d6e/class_catching_context_fishing_rod_action.html", null ]
+        ] ]
+      ] ],
+      [ "CatchingContextTrapsBase", "dd/d8a/class_catching_context_traps_base.html", [
+        [ "CatchingContextTrapFishLarge", "d6/d05/class_catching_context_trap_fish_large.html", null ]
+      ] ]
+    ] ],
+    [ "CatchingResultBasic", "d5/da7/class_catching_result_basic.html", [
+      [ "CatchingResultBase", "dd/d93/class_catching_result_base.html", [
+        [ "CarchingResultFishingAction", "d2/d50/class_carching_result_fishing_action.html", null ],
+        [ "CatchingResultTrapBase", "d2/dc8/class_catching_result_trap_base.html", null ]
+      ] ]
+    ] ],
+    [ "CatchYieldBank", "da/dbe/class_catch_yield_bank.html", null ],
     [ "CCIBase", "db/dd7/class_c_c_i_base.html", [
       [ "CCIDummy", "d4/d29/class_c_c_i_dummy.html", null ],
       [ "CCINonRuined", "de/d86/class_c_c_i_non_ruined.html", null ],
@@ -923,6 +994,8 @@ var hierarchy =
     [ "CfgGameplayJson", "d9/df7/class_cfg_gameplay_json.html", null ],
     [ "CfgParamType", "d2/d53/class_cfg_param_type.html", null ],
     [ "CfgPatches", "db/d4a/class_cfg_patches.html", null ],
+    [ "CfgPlayerRestrictedAreaHandler", "d8/d71/class_cfg_player_restricted_area_handler.html", null ],
+    [ "CfgPlayerRestrictedAreaJsonData", "d2/d34/class_cfg_player_restricted_area_json_data.html", null ],
     [ "CfgSlots", "dd/d01/class_cfg_slots.html", null ],
     [ "CGame", "d2/de6/class_c_game.html", null ],
     [ "ChainedDropAndKillPlayerLambda", "d9/d01/class_chained_drop_and_kill_player_lambda.html", null ],
@@ -939,6 +1012,7 @@ var hierarchy =
     [ "CivSedanHood", "d6/d19/class_civ_sedan_hood.html", null ],
     [ "CivSedanTrunk", "d1/dfd/class_civ_sedan_trunk.html", null ],
     [ "Class", "d4/d14/class_class.html", null ],
+    [ "CleanHandsSoundEventBase", "da/db9/class_clean_hands_sound_event_base.html", null ],
     [ "ClientData", "d5/daf/class_client_data.html", null ],
     [ "ClockBase", null, [
       [ "AlarmClock_ColorBase", "d4/d47/class_alarm_clock___color_base.html", [
@@ -1010,13 +1084,23 @@ var hierarchy =
         [ "RopeBelt", "d7/dde/class_rope_belt.html", null ]
       ] ],
       [ "Glasses_Base", "d0/d3a/class_glasses___base.html", [
-        [ "EyeMask_ColorBase", "dc/d8f/class_eye_mask___color_base.html", null ]
+        [ "EyeMask_ColorBase", "dc/d8f/class_eye_mask___color_base.html", null ],
+        [ "SkiGoggles_ColorBase", "d9/d56/class_ski_goggles___color_base.html", [
+          [ "SkiGoggles_BlackYellow", "d3/daf/class_ski_goggles___black_yellow.html", null ],
+          [ "SkiGoggles_WhiteClear", "d5/d99/class_ski_goggles___white_clear.html", null ],
+          [ "SkiGoggles_WhiteDark", "d3/dab/class_ski_goggles___white_dark.html", null ]
+        ] ]
       ] ],
       [ "Gloves_Base", "df/d53/class_gloves___base.html", [
         [ "PaddedGloves_ColorBase", "d8/de0/class_padded_gloves___color_base.html", [
           [ "PaddedGloves_Beige", "d6/df5/class_padded_gloves___beige.html", null ],
           [ "PaddedGloves_Brown", "d5/d92/class_padded_gloves___brown.html", null ],
           [ "PaddedGloves_Threat", "d3/d54/class_padded_gloves___threat.html", null ]
+        ] ],
+        [ "SkiGloves_ColorBase", "d7/d01/class_ski_gloves___color_base.html", [
+          [ "SkiGloves_90s", "d7/d1c/class_ski_gloves__90s.html", null ],
+          [ "SkiGloves_Blue", "db/d2f/class_ski_gloves___blue.html", null ],
+          [ "SkiGloves_Red", "db/dd8/class_ski_gloves___red.html", null ]
         ] ]
       ] ],
       [ "HeadGear_Base", "dc/d7d/class_head_gear___base.html", [
@@ -1028,8 +1112,10 @@ var hierarchy =
         ] ],
         [ "NBCHoodBase", "d9/d5c/class_n_b_c_hood_base.html", [
           [ "NBCHoodGray", "df/db1/class_n_b_c_hood_gray.html", null ],
+          [ "NBCHoodWhite", "df/d1c/class_n_b_c_hood_white.html", null ],
           [ "NBCHoodYellow", "d9/d72/class_n_b_c_hood_yellow.html", null ]
         ] ],
+        [ "SnowstormUshanka_ColorBase", "d3/da2/class_snowstorm_ushanka___color_base.html", null ],
         [ "WitchHoodCoif_ColorBase", "d7/d6a/class_witch_hood_coif___color_base.html", [
           [ "WitchHoodCoif_Black", "df/db4/class_witch_hood_coif___black.html", null ],
           [ "WitchHoodCoif_Brown", "de/de8/class_witch_hood_coif___brown.html", null ],
@@ -1055,10 +1141,23 @@ var hierarchy =
           [ "PaydayMask_Wolf", "d5/da5/class_payday_mask___wolf.html", null ]
         ] ]
       ] ],
-      [ "Pants_Base", "d9/dc8/class_pants___base.html", null ],
+      [ "Pants_Base", "d9/dc8/class_pants___base.html", [
+        [ "NavyUniformPants", "dd/d97/class_navy_uniform_pants.html", null ]
+      ] ],
+      [ "Shemag_ColorBase", "d1/d17/class_shemag___color_base.html", [
+        [ "Shemag_Brown", "d7/df4/class_shemag___brown.html", null ],
+        [ "Shemag_Green", "dd/d22/class_shemag___green.html", null ],
+        [ "Shemag_Red", "d8/dc4/class_shemag___red.html", null ],
+        [ "Shemag_White", "d7/d3d/class_shemag___white.html", null ]
+      ] ],
       [ "Shoes_Base", "d9/d8f/class_shoes___base.html", null ],
       [ "Splint_Applied", "d2/d9d/class_splint___applied.html", null ],
-      [ "Top_Base", "d7/d03/class_top___base.html", null ],
+      [ "Top_Base", "d7/d03/class_top___base.html", [
+        [ "BushlatPoliceJacket_ColorBase", "dc/dbb/class_bushlat_police_jacket___color_base.html", [
+          [ "BushlatPoliceJacket_Blue", "d7/dcf/class_bushlat_police_jacket___blue.html", null ]
+        ] ],
+        [ "NavyUniformJacket", "d3/d84/class_navy_uniform_jacket.html", null ]
+      ] ],
       [ "Vest_Base", "d1/d9c/class_vest___base.html", [
         [ "PlateCarrierVest", "d7/df9/class_plate_carrier_vest.html", null ]
       ] ]
@@ -1212,6 +1311,7 @@ var hierarchy =
     [ "DeveloperFreeCamera", "d6/d94/class_developer_free_camera.html", null ],
     [ "DeveloperTeleport", "dd/d2e/class_developer_teleport.html", null ],
     [ "DiagMenu", "d2/dd2/class_diag_menu.html", null ],
+    [ "DigSoundEventBase", "da/d7c/class_dig_sound_event_base.html", null ],
     [ "DirtBikeHelmet_ColorBase", "d4/d09/class_dirt_bike_helmet___color_base.html", null ],
     [ "Dispatcher", "d2/d3f/class_dispatcher.html", null ],
     [ "DisplayElementBadge", "d6/dd7/class_display_element_badge.html", null ],
@@ -1225,7 +1325,8 @@ var hierarchy =
     [ "DynamicMusicLocationTypes", "d4/d30/class_dynamic_music_location_types.html", null ],
     [ "DynamicMusicPlayerRegistry", "da/ddb/class_dynamic_music_player_registry.html", [
       [ "DynamicMusicPlayerRegistryChernarus", "db/dc2/class_dynamic_music_player_registry_chernarus.html", null ],
-      [ "DynamicMusicPlayerRegistryEnoch", "d3/d75/class_dynamic_music_player_registry_enoch.html", null ]
+      [ "DynamicMusicPlayerRegistryEnoch", "d3/d75/class_dynamic_music_player_registry_enoch.html", null ],
+      [ "DynamicMusicPlayerRegistrySakhal", "d0/d23/class_dynamic_music_player_registry_sakhal.html", null ]
     ] ],
     [ "DynamicMusicPlayerSettings", "d8/d88/class_dynamic_music_player_settings.html", null ],
     [ "DynamicMusicPlayerTrackHistoryLookupType", "d0/de3/class_dynamic_music_player_track_history_lookup_type.html", null ],
@@ -1250,6 +1351,7 @@ var hierarchy =
           [ "Hit_Glass_Thin", "d2/dd9/class_hit___glass___thin.html", null ],
           [ "Hit_Grass", "db/d35/class_hit___grass.html", null ],
           [ "Hit_Gravel", "d8/d4f/class_hit___gravel.html", null ],
+          [ "Hit_Ice", "d6/d8e/class_hit___ice.html", null ],
           [ "Hit_MeatBones", "d4/d59/class_hit___meat_bones.html", [
             [ "Hit_MeatBones_MeleeFist", "de/d0e/class_hit___meat_bones___melee_fist.html", null ],
             [ "Hit_MeatBones_MeleePipeWrench", "df/d3c/class_hit___meat_bones___melee_pipe_wrench.html", null ],
@@ -1261,6 +1363,7 @@ var hierarchy =
           [ "Hit_Plastic", "df/d1c/class_hit___plastic.html", null ],
           [ "Hit_Rubber", "d9/d3a/class_hit___rubber.html", null ],
           [ "Hit_Sand", "d4/d21/class_hit___sand.html", null ],
+          [ "Hit_Snow", "d3/daa/class_hit___snow.html", null ],
           [ "Hit_Textile", "d3/d6e/class_hit___textile.html", null ],
           [ "Hit_Undefined", "d7/db3/class_hit___undefined.html", null ],
           [ "Hit_Water", "dd/d73/class_hit___water.html", null ],
@@ -1276,13 +1379,34 @@ var hierarchy =
         ] ],
         [ "EffVomit", "d5/dbd/class_eff_vomit.html", null ],
         [ "EffVomitBlood", "d8/d24/class_eff_vomit_blood.html", null ],
+        [ "EffWheelSmoke", "de/d30/class_eff_wheel_smoke.html", null ],
+        [ "EffectBoatWaterBase", "d3/ddc/class_effect_boat_water_base.html", [
+          [ "EffectBoatWaterBack", "d3/df1/class_effect_boat_water_back.html", null ]
+        ] ],
         [ "LandmineExplosion", "d8/d70/class_landmine_explosion.html", null ],
         [ "MenuCarEngineSmoke", "d3/d2b/class_menu_car_engine_smoke.html", null ],
         [ "MenuEvaporation", "dd/de6/class_menu_evaporation.html", null ]
       ] ],
       [ "EffectSound", "d9/d89/class_effect_sound.html", null ]
     ] ],
+    [ "EffectArea", null, [
+      [ "ContaminatedArea_Base", "dd/dce/class_contaminated_area___base.html", [
+        [ "ContaminatedArea_Dynamic", "d5/db0/class_contaminated_area___dynamic.html", [
+          [ "ContaminatedArea_Local", "dc/d57/class_contaminated_area___local.html", null ]
+        ] ]
+      ] ],
+      [ "HotSpringArea", "d3/d3a/class_hot_spring_area.html", null ],
+      [ "SpookyArea", "dc/d7e/class_spooky_area.html", null ],
+      [ "VolcanicArea", "d4/dd2/class_volcanic_area.html", null ]
+    ] ],
     [ "EffectAreaLoader", "d4/d6e/class_effect_area_loader.html", null ],
+    [ "EffecterBase", null, [
+      [ "ParticleEffecter", "d2/d19/class_particle_effecter.html", null ]
+    ] ],
+    [ "EffecterParameters", null, [
+      [ "ParticleEffecterParameters", "da/d7a/class_particle_effecter_parameters.html", null ],
+      [ "TreeEffecterParameters", "d1/d9f/class_tree_effecter_parameters.html", null ]
+    ] ],
     [ "EmbededButtonScript", "d0/ddf/class_embeded_button_script.html", null ],
     [ "EmoteBase", "d3/d03/class_emote_base.html", null ],
     [ "EmoteConstants", "d9/ddc/class_emote_constants.html", null ],
@@ -1343,6 +1467,7 @@ var hierarchy =
     [ "FlashbangEffect", "de/da3/class_flashbang_effect.html", null ],
     [ "FlatCap_ColorBase", "db/d19/class_flat_cap___color_base.html", null ],
     [ "float", "d4/dc3/classfloat.html", null ],
+    [ "ForceConsumeSoundEvent", "d0/d6e/class_force_consume_sound_event.html", null ],
     [ "FSMBase", "dc/d01/class_f_s_m_base.html", null ],
     [ "FSMBase< Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase >", "d8/d1b/class_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_01_ff05bd52b3b493f858f7641b9988f4c89.html", null ],
     [ "FSMTransition", "d8/d41/class_f_s_m_transition.html", null ],
@@ -1369,9 +1494,9 @@ var hierarchy =
     ] ],
     [ "GetFirstServerWithEmptySlotInput", "df/d9c/class_get_first_server_with_empty_slot_input.html", null ],
     [ "GetFirstServerWithEmptySlotResult", "d6/d6d/class_get_first_server_with_empty_slot_result.html", null ],
-    [ "GetServerModListResult", "d5/df8/class_get_server_mod_list_result.html", null ],
     [ "GetServersInput", "d9/d65/class_get_servers_input.html", null ],
     [ "GetServersResult", "dc/d1a/class_get_servers_result.html", null ],
+    [ "GetServersResultRow", "d5/d36/class_get_servers_result_row.html", null ],
     [ "GhillieBushrag_ColorBase", "d4/dea/class_ghillie_bushrag___color_base.html", null ],
     [ "GhillieHood_ColorBase", "dc/d90/class_ghillie_hood___color_base.html", null ],
     [ "GhillieSuit_ColorBase", "d3/dca/class_ghillie_suit___color_base.html", null ],
@@ -1406,6 +1531,7 @@ var hierarchy =
     [ "HatchbackDoors_Driver", "d1/d16/class_hatchback_doors___driver.html", null ],
     [ "HatchbackHood", "d5/d3a/class_hatchback_hood.html", null ],
     [ "HatchbackTrunk", "d2/d64/class_hatchback_trunk.html", null ],
+    [ "Headdress_Colorbase", "db/d84/class_headdress___colorbase.html", null ],
     [ "Headtorch_ColorBase", null, [
       [ "Headtorch_Black", "d6/d63/class_headtorch___black.html", null ],
       [ "Headtorch_Grey", "df/d2f/class_headtorch___grey.html", null ]
@@ -1520,6 +1646,7 @@ var hierarchy =
           [ "ActionEatFruitCB", "dc/db5/class_action_eat_fruit_c_b.html", null ],
           [ "ActionEatMeatCB", "de/dc4/class_action_eat_meat_c_b.html", null ],
           [ "ActionEatSmallCanCB", "dc/d77/class_action_eat_small_can_c_b.html", null ],
+          [ "ActionEatSnowContinuousCB", "d0/d18/class_action_eat_snow_continuous_c_b.html", null ],
           [ "ActionEmptyBottleBaseCB", "d4/d0b/class_action_empty_bottle_base_c_b.html", null ],
           [ "ActionExtinguishFireplaceByExtinguisherCB", "d1/d4e/class_action_extinguish_fireplace_by_extinguisher_c_b.html", null ],
           [ "ActionExtinguishFireplaceByLiquidCB", "d6/dd4/class_action_extinguish_fireplace_by_liquid_c_b.html", null ],
@@ -1532,6 +1659,7 @@ var hierarchy =
           [ "ActionFillGeneratorTankCB", "de/d89/class_action_fill_generator_tank_c_b.html", null ],
           [ "ActionFillObjectCB", "d0/d5b/class_action_fill_object_c_b.html", null ],
           [ "ActionFillOilCB", "d7/d9f/class_action_fill_oil_c_b.html", null ],
+          [ "ActionFishingNewCB", "d1/d70/class_action_fishing_new_c_b.html", null ],
           [ "ActionFoldBaseBuildingObjectCB", "db/dc8/class_action_fold_base_building_object_c_b.html", null ],
           [ "ActionForceConsumeCB", "de/dd9/class_action_force_consume_c_b.html", null ],
           [ "ActionForceDrinkCB", "d3/dc5/class_action_force_drink_c_b.html", null ],
@@ -1562,19 +1690,19 @@ var hierarchy =
           [ "ActionRaiseMegaphoneCB", "d3/dea/class_action_raise_megaphone_c_b.html", null ],
           [ "ActionReadPaperCB", "d4/d9c/class_action_read_paper_c_b.html", null ],
           [ "ActionRepackTentCB", "dc/dab/class_action_repack_tent_c_b.html", null ],
-          [ "ActionRepairCarChassisCB", "d6/d0b/class_action_repair_car_chassis_c_b.html", [
-            [ "ActionRepairCarChassisWithBlowtorchCB", "de/d3a/class_action_repair_car_chassis_with_blowtorch_c_b.html", null ]
-          ] ],
-          [ "ActionRepairCarEngineCB", "d7/d19/class_action_repair_car_engine_c_b.html", [
-            [ "ActionRepairCarEngineWithBlowtorchCB", "dd/d8b/class_action_repair_car_engine_with_blowtorch_c_b.html", null ]
-          ] ],
-          [ "ActionRepairCarPartCB", "d3/d2f/class_action_repair_car_part_c_b.html", [
-            [ "ActionRepairCarPartWithBlowtorchCB", "da/dae/class_action_repair_car_part_with_blowtorch_c_b.html", null ]
-          ] ],
           [ "ActionRepairItemWithBlowtorchCB", "db/d94/class_action_repair_item_with_blowtorch_c_b.html", null ],
           [ "ActionRepairPartCB", "d0/dc1/class_action_repair_part_c_b.html", null ],
           [ "ActionRepairTentCB", "df/d42/class_action_repair_tent_c_b.html", null ],
           [ "ActionRepairTentPartCB", "db/d94/class_action_repair_tent_part_c_b.html", null ],
+          [ "ActionRepairVehiclePartCB", "d2/dc6/class_action_repair_vehicle_part_c_b.html", [
+            [ "ActionRepairBoatEngineCB", "d2/d40/class_action_repair_boat_engine_c_b.html", null ],
+            [ "ActionRepairCarChassisCB", "d6/d0b/class_action_repair_car_chassis_c_b.html", [
+              [ "ActionRepairCarChassisWithBlowtorchCB", "de/d3a/class_action_repair_car_chassis_with_blowtorch_c_b.html", null ]
+            ] ],
+            [ "ActionRepairCarEngineCB", "d7/d19/class_action_repair_car_engine_c_b.html", [
+              [ "ActionRepairCarEngineWithBlowtorchCB", "dd/d8b/class_action_repair_car_engine_with_blowtorch_c_b.html", null ]
+            ] ]
+          ] ],
           [ "ActionRestrainSelfCB", "d8/da9/class_action_restrain_self_c_b.html", null ],
           [ "ActionRestrainTargetCB", "d3/d30/class_action_restrain_target_c_b.html", null ],
           [ "ActionSawPlanksCB", "d8/de5/class_action_saw_planks_c_b.html", null ],
@@ -1589,6 +1717,7 @@ var hierarchy =
           [ "ActionSplintSelfCB", "d1/d4e/class_action_splint_self_c_b.html", null ],
           [ "ActionSplintTargetCB", "d3/df9/class_action_splint_target_c_b.html", null ],
           [ "ActionStartCarCB", "d3/d71/class_action_start_car_c_b.html", null ],
+          [ "ActionStartEngineBoatCB", "de/d3d/class_action_start_engine_boat_c_b.html", null ],
           [ "ActionStripCarrierVestCB", "d9/d42/class_action_strip_carrier_vest_c_b.html", null ],
           [ "ActionTestBloodSelfCB", "d9/d21/class_action_test_blood_self_c_b.html", null ],
           [ "ActionTestBloodTargetCB", "db/dee/class_action_test_blood_target_c_b.html", null ],
@@ -1610,6 +1739,7 @@ var hierarchy =
           [ "ActionUpgradeTorchFromGasPumpCB", "d0/dad/class_action_upgrade_torch_from_gas_pump_c_b.html", null ],
           [ "ActionUseRangefinderCB", "d5/df5/class_action_use_rangefinder_c_b.html", null ],
           [ "ActionWashHandsItemContinuousCB", "d4/d60/class_action_wash_hands_item_continuous_c_b.html", null ],
+          [ "ActionWashHandsSnowCB", "db/dbc/class_action_wash_hands_snow_c_b.html", null ],
           [ "ActionWashHandsWaterCB", "db/dba/class_action_wash_hands_water_c_b.html", null ],
           [ "ActionWashHandsWellCB", "d0/d44/class_action_wash_hands_well_c_b.html", null ],
           [ "ActionWaterGardenSlotCB", "d0/dfa/class_action_water_garden_slot_c_b.html", null ],
@@ -1660,8 +1790,10 @@ var hierarchy =
     [ "HungerSoundHandlerBase", "df/d16/class_hunger_sound_handler_base.html", null ],
     [ "HunterPants_ColorBase", "d2/d70/class_hunter_pants___color_base.html", null ],
     [ "HuntingJacket_ColorBase", "d3/dee/class_hunting_jacket___color_base.html", null ],
+    [ "HuntingVest", "d2/d2d/class_hunting_vest.html", null ],
     [ "ImpactMaterials", "d2/d47/class_impact_materials.html", null ],
     [ "InfectedSoundEventBase", "d0/dd6/class_infected_sound_event_base.html", null ],
+    [ "IngameHudHeatBuffer", "de/d18/class_ingame_hud_heat_buffer.html", null ],
     [ "InjuryAnimValues", "d1/df9/class_injury_anim_values.html", null ],
     [ "InjuryHandlerThresholds", "d3/de1/class_injury_handler_thresholds.html", null ],
     [ "InjurySoundEvents", "d0/d2b/class_injury_sound_events.html", null ],
@@ -1689,6 +1821,7 @@ var hierarchy =
       [ "EpoxyPutty", "d1/de7/class_epoxy_putty.html", null ],
       [ "Fabric", "d3/db1/class_fabric.html", null ],
       [ "FireExtinguisher", "df/d1f/class_fire_extinguisher.html", null ],
+      [ "FryingPan", "d9/dbb/class_frying_pan.html", null ],
       [ "GorkaHelmetVisor", "d7/d07/class_gorka_helmet_visor.html", null ],
       [ "HandSaw", "dc/de0/class_hand_saw.html", null ],
       [ "HandcuffKeys", "d1/d33/class_handcuff_keys.html", null ],
@@ -1713,6 +1846,7 @@ var hierarchy =
       ] ],
       [ "SalineBag", "dc/dcd/class_saline_bag.html", null ],
       [ "SalineBagIV", "d6/dce/class_saline_bag_i_v.html", null ],
+      [ "ScientificBriefcaseKeys", "d2/d9d/class_scientific_briefcase_keys.html", null ],
       [ "SeedBase", "d5/d1d/class_seed_base.html", [
         [ "CannabisSeeds", "d6/d65/class_cannabis_seeds.html", null ],
         [ "PepperSeeds", "dc/db1/class_pepper_seeds.html", null ],
@@ -1756,12 +1890,13 @@ var hierarchy =
     ] ],
     [ "ITEM_SpawnerObject", "d9/dca/class_i_t_e_m___spawner_object.html", null ],
     [ "ItemBase", "de/d7a/class_item_base.html", [
-      [ "Bait", "dc/dd5/class_bait.html", null ],
+      [ "BaitBase", "d7/d23/class_bait_base.html", [
+        [ "Bait", "dc/dd5/class_bait.html", null ],
+        [ "BoneBait", "da/d0b/class_bone_bait.html", null ]
+      ] ],
       [ "Battery9V", "dd/da9/class_battery9_v.html", null ],
       [ "BatteryD", "d4/d9f/class_battery_d.html", null ],
       [ "Bone", "d7/d9b/class_bone.html", null ],
-      [ "BoneBait", "da/d0b/class_bone_bait.html", null ],
-      [ "BoneHook", "da/dce/class_bone_hook.html", null ],
       [ "BurlapStrip", "d6/d3d/class_burlap_strip.html", null ],
       [ "ButaneCanister", "d4/d68/class_butane_canister.html", null ],
       [ "CamoNetShelter", "de/d16/class_camo_net_shelter.html", null ],
@@ -1776,6 +1911,7 @@ var hierarchy =
       [ "Container_Base", "d1/dc4/class_container___base.html", [
         [ "AmmoBox", "d2/dd8/class_ammo_box.html", null ],
         [ "PlateCarrierPouches", "df/dd3/class_plate_carrier_pouches.html", null ],
+        [ "ScientificBriefcase", "d7/d53/class_scientific_briefcase.html", null ],
         [ "SmallProtectorCase", "df/d8d/class_small_protector_case.html", null ],
         [ "WaterproofBag_ColorBase", "de/dd2/class_waterproof_bag___color_base.html", [
           [ "WaterproofBag_Green", "db/dc2/class_waterproof_bag___green.html", null ],
@@ -1790,7 +1926,10 @@ var hierarchy =
         [ "Banana", "d7/d84/class_banana.html", null ],
         [ "BrisketSpread", "d7/d88/class_brisket_spread.html", null ],
         [ "Cannabis", "df/da6/class_cannabis.html", null ],
+        [ "ChelatingTablets", "d0/d1f/class_chelating_tablets.html", null ],
+        [ "CrabCan", "d1/dcb/class_crab_can.html", null ],
         [ "DisinfectantAlcohol", "df/db6/class_disinfectant_alcohol.html", null ],
+        [ "DisinfectantSpray", "d3/ddc/class_disinfectant_spray.html", null ],
         [ "DogFoodCan", "d2/d0d/class_dog_food_can.html", [
           [ "CatFoodCan", "d0/d89/class_cat_food_can.html", null ]
         ] ],
@@ -1805,6 +1944,7 @@ var hierarchy =
           [ "AmanitaMushroom", "d2/dfb/class_amanita_mushroom.html", null ],
           [ "AuriculariaMushroom", "db/d4e/class_auricularia_mushroom.html", null ],
           [ "BoletusMushroom", "d2/d29/class_boletus_mushroom.html", null ],
+          [ "CraterellusMushroom", "d7/d33/class_craterellus_mushroom.html", null ],
           [ "LactariusMushroom", "d9/d2a/class_lactarius_mushroom.html", null ],
           [ "MacrolepiotaMushroom", "da/d90/class_macrolepiota_mushroom.html", null ],
           [ "PleurotusMushroom", "de/dcb/class_pleurotus_mushroom.html", null ],
@@ -1841,6 +1981,12 @@ var hierarchy =
         [ "Zucchini", "de/d94/class_zucchini.html", null ]
       ] ],
       [ "FarmingHoe", "db/d2b/class_farming_hoe.html", null ],
+      [ "FishingHookBase", "d7/ddf/class_fishing_hook_base.html", [
+        [ "BoneHook", "da/dce/class_bone_hook.html", null ],
+        [ "Hook", "d2/d40/class_hook.html", null ],
+        [ "Jig", "d9/d41/class_jig.html", null ],
+        [ "WoodenHook", "d8/df4/class_wooden_hook.html", null ]
+      ] ],
       [ "FishingRod_Base_New", "d9/d26/class_fishing_rod___base___new.html", [
         [ "FishingRod", "df/d2a/class_fishing_rod.html", null ],
         [ "ImprovisedFishingRod", "d9/d9b/class_improvised_fishing_rod.html", null ],
@@ -1855,7 +2001,6 @@ var hierarchy =
       [ "GasMask_Filter", "d4/d97/class_gas_mask___filter.html", null ],
       [ "Head", "d9/da1/class_head.html", null ],
       [ "Heatpack", "dd/d05/class_heatpack.html", null ],
-      [ "Hook", "d2/d40/class_hook.html", null ],
       [ "LargeGasCanister", "dd/d03/class_large_gas_canister.html", null ],
       [ "MediumGasCanister", "d8/d08/class_medium_gas_canister.html", null ],
       [ "Netting", "d7/d39/class_netting.html", null ],
@@ -1961,7 +2106,7 @@ var hierarchy =
     [ "LightAI", "db/d41/class_light_a_i.html", null ],
     [ "LightAISuper", "d3/d64/class_light_a_i_super.html", null ],
     [ "Link< Class T >", "df/dcf/class_link_3_01_class_01_t_01_4.html", null ],
-    [ "Liquid", "db/d81/class_liquid.html", null ],
+    [ "LiquidInfo", "d3/d37/class_liquid_info.html", null ],
     [ "LOD", "d1/d96/class_l_o_d.html", null ],
     [ "LoginQueueBase", "db/dc1/class_login_queue_base.html", null ],
     [ "LoginScreenBase", "d4/d47/class_login_screen_base.html", null ],
@@ -2092,6 +2237,7 @@ var hierarchy =
         [ "BehaviourGroupInfectedPack", "d2/d11/class_behaviour_group_infected_pack.html", null ]
       ] ],
       [ "AIWorld", "de/dc4/class_a_i_world.html", null ],
+      [ "ActionOverrideData", "d1/da4/class_action_override_data.html", null ],
       [ "BackendCallback", "da/d90/class_backend_callback.html", null ],
       [ "BleedChanceData", "de/d4b/class_bleed_chance_data.html", null ],
       [ "CargoBase", "d6/d12/class_cargo_base.html", [
@@ -2186,6 +2332,10 @@ var hierarchy =
       ] ],
       [ "UIMenuPanel", "d7/dcd/class_u_i_menu_panel.html", null ],
       [ "VONManagerBase", "df/dba/class_v_o_n_manager_base.html", null ],
+      [ "VehicleHudBase", "d0/db6/class_vehicle_hud_base.html", [
+        [ "BoatHud", "dc/d23/class_boat_hud.html", null ],
+        [ "CarHud", "db/d4e/class_car_hud.html", null ]
+      ] ],
       [ "World", "d3/d21/class_world.html", null ]
     ] ],
     [ "ManBase", "d4/d87/class_man_base.html", null ],
@@ -2207,7 +2357,13 @@ var hierarchy =
     [ "MeleeCombatData", "dc/d9c/class_melee_combat_data.html", null ],
     [ "MeleeTargetData", "d8/d52/class_melee_target_data.html", null ],
     [ "MenuDefaultCharacterData", "da/d9c/class_menu_default_character_data.html", null ],
-    [ "MessageReceiverBase", "d5/d9b/class_message_receiver_base.html", null ],
+    [ "MessageReceiverBase", "d5/d9b/class_message_receiver_base.html", [
+      [ "AgentBase", "d1/dd5/class_agent_base.html", [
+        [ "HeavyMetalAgent", "da/dbc/class_heavy_metal_agent.html", null ],
+        [ "InfluenzaAgent", "d8/d4b/class_influenza_agent.html", null ],
+        [ "WoundAgent", "dd/dd8/class_wound_agent.html", null ]
+      ] ]
+    ] ],
     [ "MilitaryBeret_ColorBase", "d2/d29/class_military_beret___color_base.html", null ],
     [ "MilitaryBoots_ColorBase", "dc/d95/class_military_boots___color_base.html", null ],
     [ "MindStateSoundEventBase", "d6/daf/class_mind_state_sound_event_base.html", null ],
@@ -2228,6 +2384,7 @@ var hierarchy =
       [ "BrokenLegsMdfr", "d9/dcc/class_broken_legs_mdfr.html", null ],
       [ "BurningMdfr", "d0/d97/class_burning_mdfr.html", null ],
       [ "CharcoalMdfr", "da/da1/class_charcoal_mdfr.html", null ],
+      [ "ChelationMdfr", "db/d5b/class_chelation_mdfr.html", null ],
       [ "CholeraMdfr", "d2/dc7/class_cholera_mdfr.html", null ],
       [ "CommonColdMdfr", "d2/df6/class_common_cold_mdfr.html", null ],
       [ "ContaminationStage1Mdfr", "dd/d80/class_contamination_stage1_mdfr.html", null ],
@@ -2244,6 +2401,9 @@ var hierarchy =
       [ "HeartAttackMdfr", "dd/d5b/class_heart_attack_mdfr.html", null ],
       [ "HeatBufferMdfr", "da/d87/class_heat_buffer_mdfr.html", null ],
       [ "HeatComfortMdfr", "da/dae/class_heat_comfort_mdfr.html", null ],
+      [ "HeavyMetalMdfr", "d1/d37/class_heavy_metal_mdfr.html", [
+        [ "HeavyMetalPhase2Mdfr", "d8/dbd/class_heavy_metal_phase2_mdfr.html", null ]
+      ] ],
       [ "HemolyticReactionMdfr", "d4/d54/class_hemolytic_reaction_mdfr.html", null ],
       [ "HungerMdfr", "db/dc4/class_hunger_mdfr.html", null ],
       [ "ImmuneSystemMdfr", "d6/d8f/class_immune_system_mdfr.html", null ],
@@ -2252,6 +2412,7 @@ var hierarchy =
       [ "MaskMdfr", "d6/d0f/class_mask_mdfr.html", null ],
       [ "MorphineMdfr", "d0/d5e/class_morphine_mdfr.html", null ],
       [ "PainKillersMdfr", "dc/d5a/class_pain_killers_mdfr.html", null ],
+      [ "PneumoniaMdfr", "d6/d78/class_pneumonia_mdfr.html", null ],
       [ "PoisoningMdfr", "d3/da5/class_poisoning_mdfr.html", null ],
       [ "SalineMdfr", "d5/dd9/class_saline_mdfr.html", null ],
       [ "SalmonellaMdfr", "dc/d5d/class_salmonella_mdfr.html", null ],
@@ -2267,7 +2428,6 @@ var hierarchy =
       [ "UnconsciousnessMdfr", "dc/dfc/class_unconsciousness_mdfr.html", null ],
       [ "VomitStuffedMdfr", "d0/df0/class_vomit_stuffed_mdfr.html", null ],
       [ "WetMdfr", "d4/dc0/class_wet_mdfr.html", null ],
-      [ "WoundInfectStage1Mdfr", "d2/d88/class_wound_infect_stage1_mdfr.html", null ],
       [ "WoundInfectStage2Mdfr", "df/d01/class_wound_infect_stage2_mdfr.html", null ],
       [ "WoundInfectionMdfr", "df/d28/class_wound_infection_mdfr.html", null ]
     ] ],
@@ -2387,6 +2547,8 @@ var hierarchy =
     [ "OFSMBase", "d1/d2a/class_o_f_s_m_base.html", null ],
     [ "OFSMBase< Class FSMStateBase, Class FSMEventBase, Class FSMActionBase, Class FSMGuardBase >", "dc/d69/class_o_f_s_m_base_3_01_class_01_f_s_m_state_base_00_01_class_01_f_s_m_event_base_00_01_class_01435e9d74cc4290d138c404152b6f8f38.html", null ],
     [ "OKZKCap_ColorBase", "d6/d6d/class_o_k_z_k_cap___color_base.html", null ],
+    [ "OMKJacket_ColorBase", "d5/d5c/class_o_m_k_jacket___color_base.html", null ],
+    [ "OMKPants_ColorBase", "d8/d60/class_o_m_k_pants___color_base.html", null ],
     [ "OMNOGloves_ColorBase", "df/d77/class_o_m_n_o_gloves___color_base.html", null ],
     [ "OnlineServices", "d0/d36/class_online_services.html", null ],
     [ "OpenableBehaviour", "d9/d4b/class_openable_behaviour.html", null ],
@@ -2439,6 +2601,7 @@ var hierarchy =
       [ "MouflonPelt", "d4/d55/class_mouflon_pelt.html", null ],
       [ "PigPelt", "d3/dbb/class_pig_pelt.html", null ],
       [ "RabbitPelt", "d9/ddf/class_rabbit_pelt.html", null ],
+      [ "ReindeerPelt", "d9/d91/class_reindeer_pelt.html", null ],
       [ "SheepPelt", "d6/d5f/class_sheep_pelt.html", null ],
       [ "WolfPelt", "d5/d8c/class_wolf_pelt.html", null ]
     ] ],
@@ -2702,10 +2865,12 @@ var hierarchy =
         [ "TreeSoft_t_town_1sb", "d4/db7/class_tree_soft__t__town__1sb.html", null ]
       ] ]
     ] ],
+    [ "PlateCarrierHolster", "d4/d54/class_plate_carrier_holster.html", null ],
     [ "PlayerAgentPool", "da/da3/class_player_agent_pool.html", null ],
     [ "PlayerBase", "d5/da8/class_player_base.html", null ],
     [ "PlayerBaseClient", "dc/ddb/class_player_base_client.html", null ],
     [ "PlayerConstants", "d3/def/class_player_constants.html", null ],
+    [ "PlayerRestrictedAreaInstance", "d5/dc2/class_player_restricted_area_instance.html", null ],
     [ "PlayerSoundEventBase", "d5/def/class_player_sound_event_base.html", null ],
     [ "PlayerSoundManagerBase", "df/d88/class_player_sound_manager_base.html", null ],
     [ "PlayerSpawnDataInterpreted", "d2/dde/class_player_spawn_data_interpreted.html", null ],
@@ -2715,7 +2880,6 @@ var hierarchy =
     ] ],
     [ "PlayerStatBase", "d7/d7a/class_player_stat_base.html", null ],
     [ "PlayerStatRecord", "d5/d9a/class_player_stat_record.html", null ],
-    [ "PlayerStats", "d0/d80/class_player_stats.html", null ],
     [ "PlayerStatsPCO_Base", "da/d44/class_player_stats_p_c_o___base.html", null ],
     [ "PlayerStatsPCO_v115", "da/dd5/class_player_stats_p_c_o__v115.html", null ],
     [ "PluginBase", "dd/da1/class_plugin_base.html", [
@@ -2743,18 +2907,23 @@ var hierarchy =
       [ "ExplosiveLight", "dd/dd2/class_explosive_light.html", null ]
     ] ],
     [ "PoweredOptic_Base", "d8/d3c/class_powered_optic___base.html", null ],
+    [ "PowerGeneratorBase", null, [
+      [ "PowerGeneratorStatic", "d8/d06/class_power_generator_static.html", null ]
+    ] ],
     [ "PPEClassBase", "d3/ddf/class_p_p_e_class_base.html", [
       [ "PPEChromAber", "d8/d8a/class_p_p_e_chrom_aber.html", null ],
       [ "PPEColorGrading", "de/d32/class_p_p_e_color_grading.html", null ],
       [ "PPEColors", "d4/d4f/class_p_p_e_colors.html", null ],
       [ "PPEDOF", "d6/d98/class_p_p_e_d_o_f.html", null ],
       [ "PPEDepthOfField", "db/d17/class_p_p_e_depth_of_field.html", null ],
+      [ "PPEDistort", "d5/d51/class_p_p_e_distort.html", null ],
       [ "PPEDynamicBlur", "dd/d7f/class_p_p_e_dynamic_blur.html", null ],
       [ "PPEExposureNative", "d2/d6d/class_p_p_e_exposure_native.html", null ],
       [ "PPEEyeAccomodationNative", "d8/dcf/class_p_p_e_eye_accomodation_native.html", null ],
       [ "PPEFXAA", "de/db3/class_p_p_e_f_x_a_a.html", null ],
       [ "PPEFilmGrain", "dd/d86/class_p_p_e_film_grain.html", null ],
       [ "PPEGaussFilter", "d4/db2/class_p_p_e_gauss_filter.html", null ],
+      [ "PPEGhost", "d8/d3d/class_p_p_e_ghost.html", null ],
       [ "PPEGlow", "dc/d5c/class_p_p_e_glow.html", null ],
       [ "PPEGodRays", "d5/ded/class_p_p_e_god_rays.html", null ],
       [ "PPEHBAO", "d7/d5b/class_p_p_e_h_b_a_o.html", null ],
@@ -2766,6 +2935,7 @@ var hierarchy =
       [ "PPERotBlur", "da/d87/class_p_p_e_rot_blur.html", null ],
       [ "PPESMAA", "de/d5a/class_p_p_e_s_m_a_a.html", null ],
       [ "PPESSAO", "d1/d1a/class_p_p_e_s_s_a_o.html", null ],
+      [ "PPESnowfall", "d9/dca/class_p_p_e_snowfall.html", null ],
       [ "PPESunMask", "df/d01/class_p_p_e_sun_mask.html", null ],
       [ "PPEUnderWater", "da/d50/class_p_p_e_under_water.html", null ],
       [ "PPEWetDistort", "da/d73/class_p_p_e_wet_distort.html", null ]
@@ -2778,6 +2948,8 @@ var hierarchy =
     [ "PPERequester_MenuBase", "dd/d73/class_p_p_e_requester___menu_base.html", null ],
     [ "PPERequesterBase", "d0/d96/class_p_p_e_requester_base.html", null ],
     [ "PPERequestParamDataBase", "d0/dbb/class_p_p_e_request_param_data_base.html", null ],
+    [ "PRAShapeDataBase", "d3/dcc/class_p_r_a_shape_data_base.html", null ],
+    [ "PrepareAnimal", "df/d61/class_prepare_animal.html", null ],
     [ "PrepareFish", "d7/dc1/class_prepare_fish.html", null ],
     [ "PresenceNotifierNoiseEvents", "d2/daa/class_presence_notifier_noise_events.html", null ],
     [ "PressVest_ColorBase", "db/ddd/class_press_vest___color_base.html", null ],
@@ -2796,6 +2968,7 @@ var hierarchy =
     [ "RDG2SmokeGrenade_ColorBase", "d4/dc9/class_r_d_g2_smoke_grenade___color_base.html", null ],
     [ "RecipeBase", "db/d2a/class_recipe_base.html", [
       [ "CraftDrysackBag", "db/d13/class_craft_drysack_bag.html", null ],
+      [ "CraftTorch", "dd/db4/class_craft_torch.html", null ],
       [ "CraftWitchHoodCoif", "d6/d72/class_craft_witch_hood_coif.html", null ]
     ] ],
     [ "RecipeCacheData", "df/dca/class_recipe_cache_data.html", null ],
@@ -2875,6 +3048,7 @@ var hierarchy =
       [ "UnboxLambda", "d5/d36/class_unbox_lambda.html", null ],
       [ "UnrestrainSelfPlayer", "d6/d8e/class_unrestrain_self_player.html", null ]
     ] ],
+    [ "ReplaceSoundEventBase", "d8/d12/class_replace_sound_event_base.html", null ],
     [ "RestApi", "d7/d7e/class_rest_api.html", null ],
     [ "RestContext", "d6/d59/class_rest_context.html", null ],
     [ "RichTextWidget", "db/d96/class_rich_text_widget.html", null ],
@@ -2956,7 +3130,11 @@ var hierarchy =
         [ "Trigger", "d1/d4b/class_trigger.html", [
           [ "BarbedWireTrigger", "da/db5/class_barbed_wire_trigger.html", null ],
           [ "CylinderTrigger", "d5/de6/class_cylinder_trigger.html", [
-            [ "EffectTrigger", "d6/d9f/class_effect_trigger.html", null ]
+            [ "EffectTrigger", "d6/d9f/class_effect_trigger.html", [
+              [ "GeyserTrigger", "da/d78/class_geyser_trigger.html", null ],
+              [ "HotSpringTrigger", "d3/d4f/class_hot_spring_trigger.html", null ],
+              [ "VolcanicTrigger", "d4/d29/class_volcanic_trigger.html", null ]
+            ] ]
           ] ],
           [ "ManTrigger", "d7/d05/class_man_trigger.html", [
             [ "ConstructionBoxTrigger", "df/dd2/class_construction_box_trigger.html", null ]
@@ -2982,11 +3160,13 @@ var hierarchy =
     [ "SEffectManager", "d2/d03/class_s_effect_manager.html", null ],
     [ "Selection", "dd/d48/class_selection.html", null ],
     [ "SelectionTranslation", "d0/df1/class_selection_translation.html", null ],
+    [ "ServerBrowserHelperFunctions", "d1/d83/class_server_browser_helper_functions.html", null ],
     [ "ServerBrowserTab", "d9/de0/class_server_browser_tab.html", null ],
     [ "ServerBrowserTabConsolePages", "d4/d6d/class_server_browser_tab_console_pages.html", null ],
     [ "ServerBrowserTabPc", "de/d11/class_server_browser_tab_pc.html", null ],
     [ "set< Class T >", "d4/d57/classset_3_01_class_01_t_01_4.html", null ],
     [ "ShelterBase", "dc/ddb/class_shelter_base.html", null ],
+    [ "SherpaHat_ColorBase", "d7/d3d/class_sherpa_hat___color_base.html", null ],
     [ "Shirt_ColorBase", "d7/dc5/class_shirt___color_base.html", null ],
     [ "ShockDealtEffect", "d9/d63/class_shock_dealt_effect.html", null ],
     [ "ShockHandler", "d4/d5e/class_shock_handler.html", null ],
@@ -3003,7 +3183,7 @@ var hierarchy =
     [ "Slot_Armband", "da/db4/class_cfg_slots_1_1_slot___armband.html", null ],
     [ "Slot_Att_CombinationLock", "d4/dc8/class_cfg_slots_1_1_slot___att___combination_lock.html", null ],
     [ "Slot_Back", "d8/d90/class_cfg_slots_1_1_slot___back.html", null ],
-    [ "Slot_bait", "dd/d5d/class_cfg_slots_1_1_slot__bait.html", null ],
+    [ "Slot_Bait", "d0/d17/class_cfg_slots_1_1_slot___bait.html", null ],
     [ "Slot_Bark", "d1/d1c/class_cfg_slots_1_1_slot___bark.html", null ],
     [ "Slot_BatteryD", "df/d22/class_cfg_slots_1_1_slot___battery_d.html", null ],
     [ "Slot_Belt_Back", "d2/d2c/class_cfg_slots_1_1_slot___belt___back.html", null ],
@@ -3272,6 +3452,8 @@ var hierarchy =
     [ "Slot_Stones", "db/d66/class_cfg_slots_1_1_slot___stones.html", null ],
     [ "Slot_suppressorImpro", "d3/dbb/class_cfg_slots_1_1_slot__suppressor_impro.html", null ],
     [ "Slot_Trap_Bait", "d0/d81/class_cfg_slots_1_1_slot___trap___bait.html", null ],
+    [ "Slot_Trap_Bait_1", "de/df1/class_cfg_slots_1_1_slot___trap___bait__1.html", null ],
+    [ "Slot_Trap_Bait_2", "d4/da9/class_cfg_slots_1_1_slot___trap___bait__2.html", null ],
     [ "Slot_TrapPrey_1", "d8/d9c/class_cfg_slots_1_1_slot___trap_prey__1.html", null ],
     [ "Slot_TrapPrey_2", "d4/dec/class_cfg_slots_1_1_slot___trap_prey__2.html", null ],
     [ "Slot_TrapPrey_3", "dd/d5f/class_cfg_slots_1_1_slot___trap_prey__3.html", null ],
@@ -3428,7 +3610,9 @@ var hierarchy =
     [ "StatDebugObject", "df/dcc/class_stat_debug_object.html", null ],
     [ "StaticConstructionMethods", "d6/de8/class_static_construction_methods.html", null ],
     [ "StaticGUIUtils", "d2/d90/class_static_g_u_i_utils.html", null ],
-    [ "StaticTransmitter", "dc/de8/class_static_transmitter.html", null ],
+    [ "StaticTransmitter", null, [
+      [ "Land_Radio_PanelBig", "df/dcc/class_land___radio___panel_big.html", null ]
+    ] ],
     [ "StatsEventData", "d1/dee/class_stats_event_data.html", null ],
     [ "StatsEventDeathData", "d2/d37/class_stats_event_death_data.html", null ],
     [ "StatsEventDisconnectedData", "da/d0e/class_stats_event_disconnected_data.html", null ],
@@ -3445,7 +3629,10 @@ var hierarchy =
     [ "SwapOldAndNewMagazine", "de/d0e/class_swap_old_and_new_magazine.html", null ],
     [ "Sweater_ColorBase", "db/d8d/class_sweater___color_base.html", null ],
     [ "Switchable_Base", "d7/d67/class_switchable___base.html", null ],
-    [ "SymptomBase", "d9/db3/class_symptom_base.html", null ],
+    [ "SymptomBase", "d9/db3/class_symptom_base.html", [
+      [ "DeafnessCompleteSymptom", "d9/d24/class_deafness_complete_symptom.html", null ],
+      [ "VomitSymptom", "d1/d67/class_vomit_symptom.html", null ]
+    ] ],
     [ "SymptomManager", "dd/d8b/class_symptom_manager.html", null ],
     [ "SymptomSoundEventBase", "d7/da6/class_symptom_sound_event_base.html", null ],
     [ "SyncData", "df/dc0/class_sync_data.html", null ],
@@ -3458,6 +3645,14 @@ var hierarchy =
     [ "TacticalGloves_ColorBase", "da/d02/class_tactical_gloves___color_base.html", null ],
     [ "TacticalShirt_ColorBase", "d2/d15/class_tactical_shirt___color_base.html", null ],
     [ "TaloonBag_ColorBase", "dd/d4c/class_taloon_bag___color_base.html", null ],
+    [ "TemperatureAccessComponent", "d3/de8/class_temperature_access_component.html", null ],
+    [ "TemperatureAccessManager", "dd/da9/class_temperature_access_manager.html", null ],
+    [ "TemperatureAccessTypeBase", "d1/d53/class_temperature_access_type_base.html", [
+      [ "TemperatureAccessTypeCooking", "d0/d90/class_temperature_access_type_cooking.html", null ],
+      [ "TemperatureAccessTypeUTS", "de/d91/class_temperature_access_type_u_t_s.html", null ],
+      [ "TemperatureAccessTypeWorld", "d0/d1c/class_temperature_access_type_world.html", null ]
+    ] ],
+    [ "TemperatureData", "d2/dbc/class_temperature_data.html", null ],
     [ "TentBase", "d9/d6f/class_tent_base.html", null ],
     [ "TestClass", "d2/d74/class_test_class.html", null ],
     [ "TestFramework", null, [
@@ -3488,6 +3683,14 @@ var hierarchy =
     [ "TrackSuitPants_ColorBase", "d0/d0a/class_track_suit_pants___color_base.html", null ],
     [ "TransmitterBase", "d0/ddb/class_transmitter_base.html", null ],
     [ "Transport", "d3/d36/class_transport.html", null ],
+    [ "TransportMove", null, [
+      [ "BoatMove", "df/dd6/class_boat_move.html", [
+        [ "BoatScriptMove", "dc/de0/class_boat_script_move.html", null ]
+      ] ]
+    ] ],
+    [ "TransportOwnerState", null, [
+      [ "BoatOwnerState", "d6/de4/class_boat_owner_state.html", null ]
+    ] ],
     [ "TrapBase", "d8/dec/class_trap_base.html", null ],
     [ "TrapSpawnBase", "d6/d3e/class_trap_spawn_base.html", null ],
     [ "TrialService", "d0/d55/class_trial_service.html", null ],
@@ -3530,13 +3733,15 @@ var hierarchy =
     ] ],
     [ "typename", "d2/db4/classtypename.html", null ],
     [ "UADamageApplied", "d8/dc5/class_u_a_damage_applied.html", null ],
+    [ "UAFishingConstants", "d9/d18/class_u_a_fishing_constants.html", null ],
     [ "UAIDWrapper", "d0/db6/class_u_a_i_d_wrapper.html", null ],
     [ "UAInput", "d4/d84/class_u_a_input.html", null ],
     [ "UAInputAPI", "d6/ddd/class_u_a_input_a_p_i.html", null ],
     [ "UAInterface", "d3/d86/class_u_a_interface.html", null ],
+    [ "UAItemsSpreadRadius", "d1/de7/class_u_a_items_spread_radius.html", null ],
     [ "UAMaxDistances", "da/d8a/class_u_a_max_distances.html", null ],
+    [ "UAMisc", "d9/d02/class_u_a_misc.html", null ],
     [ "UAQuantityConsumed", "d9/da2/class_u_a_quantity_consumed.html", null ],
-    [ "UASoftSkillsWeight", "d0/dbd/class_u_a_soft_skills_weight.html", null ],
     [ "UATimeSpent", "d8/d3b/class_u_a_time_spent.html", null ],
     [ "UAWaterType", "dd/d68/class_u_a_water_type.html", null ],
     [ "UIManager", "d7/d75/class_u_i_manager.html", null ],
@@ -3552,13 +3757,20 @@ var hierarchy =
     [ "UIWidget", "d1/d68/class_u_i_widget.html", null ],
     [ "UKAssVest_ColorBase", "df/db2/class_u_k_ass_vest___color_base.html", null ],
     [ "UndergroundAreaLoader", "dd/de5/class_underground_area_loader.html", null ],
+    [ "UndergroundBunkerTriggerData", "d8/d38/class_underground_bunker_trigger_data.html", null ],
+    [ "UndergroundHandlerClient", null, [
+      [ "UndergroundBunkerHandlerClient", "d2/d3a/class_underground_bunker_handler_client.html", null ]
+    ] ],
+    [ "UndergroundTrigger", null, [
+      [ "UndergroundBunkerTrigger", "d3/da7/class_underground_bunker_trigger.html", null ]
+    ] ],
     [ "UndergroundTriggerCarrierBase", "d8/d55/class_underground_trigger_carrier_base.html", null ],
+    [ "UnderObjectDecalSpawnSettings", "d5/da1/class_under_object_decal_spawn_settings.html", null ],
     [ "UniversalTemperatureSourceDebug", "df/d6b/class_universal_temperature_source_debug.html", null ],
     [ "UniversalTemperatureSourceLambdaBase", "da/dfc/class_universal_temperature_source_lambda_base.html", [
       [ "UniversalTemperatureSourceLambdaBaseImpl", "dc/d85/class_universal_temperature_source_lambda_base_impl.html", [
         [ "UniversalTemperatureSourceLambdaFireplace", "dc/df9/class_universal_temperature_source_lambda_fireplace.html", null ]
-      ] ],
-      [ "UniversalTemperatureSourceLambdaEngine", "dc/d60/class_universal_temperature_source_lambda_engine.html", null ]
+      ] ]
     ] ],
     [ "UniversalTemperatureSourceSettings", "db/d79/class_universal_temperature_source_settings.html", null ],
     [ "Ushanka_ColorBase", "d5/d60/class_ushanka___color_base.html", null ],
@@ -3568,12 +3780,14 @@ var hierarchy =
     [ "vector", "d7/dfc/classvector.html", null ],
     [ "Vector2", "d8/dbe/class_vector2.html", null ],
     [ "VegetationSound", "db/d97/class_vegetation_sound.html", null ],
+    [ "VehicleContactData", "dc/dc0/class_vehicle_contact_data.html", null ],
     [ "VicinityItemManager", "d2/dde/class_vicinity_item_manager.html", null ],
     [ "VicinityObjects", "df/d59/class_vicinity_objects.html", null ],
     [ "vobject", "d3/d5c/classvobject.html", null ],
     [ "VONManager", "d3/d7a/class_v_o_n_manager.html", null ],
     [ "WaterLevelSettings", "d0/d51/class_water_level_settings.html", null ],
     [ "WaterLevelSnapshot", "df/d7c/class_water_level_snapshot.html", null ],
+    [ "Watermark", "da/d17/class_watermark.html", null ],
     [ "WBModuleDef", "dc/d3f/class_w_b_module_def.html", [
       [ "ResourceBrowser", "d3/d33/class_resource_browser.html", null ],
       [ "ScriptEditor", "db/d81/class_script_editor.html", null ],
@@ -3655,16 +3869,37 @@ var hierarchy =
     [ "WorkingBoots_ColorBase", "d2/da3/class_working_boots___color_base.html", null ],
     [ "WorkingGloves_ColorBase", "d2/d7a/class_working_gloves___color_base.html", null ],
     [ "WorldContainer_Base", null, [
+      [ "Refrigerator", "de/d72/class_refrigerator.html", null ],
       [ "RefrigeratorMinsk", "dc/d81/class_refrigerator_minsk.html", null ]
     ] ],
-    [ "WorldData", "d0/d24/class_world_data.html", null ],
+    [ "WorldData", "d0/d24/class_world_data.html", [
+      [ "EnochData", "dc/d97/class_enoch_data.html", null ],
+      [ "SakhalData", "d1/d14/class_sakhal_data.html", null ]
+    ] ],
     [ "WorldDataDaytime", "d8/dca/class_world_data_daytime.html", [
       [ "DynamicMusicPlayerTimeOfDay", "d9/db7/class_dynamic_music_player_time_of_day.html", null ]
     ] ],
+    [ "WorldDataWeatherSettings", "d7/dbe/class_world_data_weather_settings.html", null ],
     [ "WorldEditorAPI", "d9/d1b/class_world_editor_a_p_i.html", null ],
     [ "WorldEditorTool", "d7/dc5/class_world_editor_tool.html", null ],
     [ "WorldLighting", "d9/dfa/class_world_lighting.html", null ],
     [ "WrittenNoteData", "d4/d67/class_written_note_data.html", null ],
+    [ "YieldItemBase", "d9/de5/class_yield_item_base.html", [
+      [ "FishYieldItemBase", "d6/d7a/class_fish_yield_item_base.html", [
+        [ "YieldItemJunk", "dc/dbc/class_yield_item_junk.html", null ],
+        [ "YieldItemMackerel", "df/d33/class_yield_item_mackerel.html", null ],
+        [ "YieldItemSardines", "df/ddc/class_yield_item_sardines.html", null ],
+        [ "YieldItemShrimp", "da/de6/class_yield_item_shrimp.html", null ],
+        [ "YieldItemWalleyePollock", "d9/dee/class_yield_item_walleye_pollock.html", null ]
+      ] ],
+      [ "LandAnimalYieldItemBase", "d8/da7/class_land_animal_yield_item_base.html", [
+        [ "YieldItemCapraHircusBase", "db/d70/class_yield_item_capra_hircus_base.html", [
+          [ "YieldItemDeadChicken_Brown", "df/d23/class_yield_item_dead_chicken___brown.html", null ],
+          [ "YieldItemDeadChicken_White", "d9/dab/class_yield_item_dead_chicken___white.html", null ]
+        ] ],
+        [ "YieldItemDeadRabbit", "d3/dfa/class_yield_item_dead_rabbit.html", null ]
+      ] ]
+    ] ],
     [ "ZmijovkaCap_ColorBase", "d6/d16/class_zmijovka_cap___color_base.html", null ],
     [ "ZombieBase", "d2/ded/class_zombie_base.html", null ],
     [ "ZombieFemaleBase", "d7/dce/class_zombie_female_base.html", null ],

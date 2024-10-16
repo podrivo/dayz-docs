@@ -7,6 +7,7 @@ var dir_31061108f67df0ec09e3076544c294bd =
     [ "BoneRegen.c", "d5/d64/_bone_regen_8c.html", "d5/d64/_bone_regen_8c" ],
     [ "BreathVapourMdfr.c", "db/d04/_breath_vapour_mdfr_8c.html", "db/d04/_breath_vapour_mdfr_8c" ],
     [ "CharcoalMdfr.c", "db/d99/_charcoal_mdfr_8c.html", "db/d99/_charcoal_mdfr_8c" ],
+    [ "Chelation.c", "d3/db4/_chelation_8c.html", "d3/db4/_chelation_8c" ],
     [ "DisinfectMdfr.c", "d7/d6c/_disinfect_mdfr_8c.html", "d7/d6c/_disinfect_mdfr_8c" ],
     [ "Drowning.c", "d0/d89/_drowning_8c.html", "d0/d89/_drowning_8c" ],
     [ "EpinephrineMdfr.c", "d0/d42/_epinephrine_mdfr_8c.html", "d0/d42/_epinephrine_mdfr_8c" ],

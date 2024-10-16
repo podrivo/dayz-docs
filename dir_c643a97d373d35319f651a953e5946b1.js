@@ -2,6 +2,7 @@ var dir_c643a97d373d35319f651a953e5946b1 =
 [
     [ "Bot.c", "d9/d1c/_bot_8c.html", "d9/d1c/_bot_8c" ],
     [ "Bot_Hunt.c", "dc/d38/_bot___hunt_8c.html", "dc/d38/_bot___hunt_8c" ],
+    [ "Bot_StanceRandomizer.c", "d3/d30/_bot___stance_randomizer_8c.html", "d3/d30/_bot___stance_randomizer_8c" ],
     [ "Bot_TestAttachAndDropCycle.c", "d5/d93/_bot___test_attach_and_drop_cycle_8c.html", "d5/d93/_bot___test_attach_and_drop_cycle_8c" ],
     [ "Bot_TestItemMoveBackAndForth.c", "df/d75/_bot___test_item_move_back_and_forth_8c.html", "df/d75/_bot___test_item_move_back_and_forth_8c" ],
     [ "Bot_Tests.c", "dc/d1e/_bot___tests_8c.html", "dc/d1e/_bot___tests_8c" ],

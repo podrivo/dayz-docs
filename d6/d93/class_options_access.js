@@ -2,6 +2,7 @@ var class_options_access =
 [
     [ "Apply", "d6/d93/class_options_access.html#aa905f6c9b6bf05f3788e12fbcb0e1542", null ],
     [ "GetAccessType", "d6/d93/class_options_access.html#a5adaffe46d074c3abcfcfb3b98b75481", null ],
+    [ "GetAllItemsText", "d6/d93/class_options_access.html#abf5655dd37026c24532443b7ba70c55a", null ],
     [ "GetControlType", "d6/d93/class_options_access.html#a7ea96f5bc64c14b7699d17b1647a50b0", null ],
     [ "GetDefaultIndex", "d6/d93/class_options_access.html#a737defb083fe4d8ffe6816bdc40535d9", null ],
     [ "GetDefaultIndex", "d6/d93/class_options_access.html#a737defb083fe4d8ffe6816bdc40535d9", null ],

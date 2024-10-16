@@ -1,4 +1,4 @@
 var _vodka_8c =
 [
-    [ "Vodka", "df/d69/class_vodka.html", null ]
+    [ "GlassBottle", "d8/dd5/class_glass_bottle.html", "d8/dd5/class_glass_bottle" ]
 ];

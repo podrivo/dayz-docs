@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,12 +106,21 @@ $(document).ready(function(){initNavTree('dc/d85/class_universal_temperature_sou
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a512f0a48eb07b59c4f881e6eab579d48"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a512f0a48eb07b59c4f881e6eab579d48">DryItemsInVicinity</a> (<a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a> pSettings, <a class="el" href="../../d7/dfc/classvector.html">vector</a> position, out notnull <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d8/d83/class_object.html">Object</a> &gt; nearestObjects)</td></tr>
+<tr class="separator:a512f0a48eb07b59c4f881e6eab579d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097b36a841402cce7bc91cbc56f29a6d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">WarmAndCoolItemsInVicinity</a> (<a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a> pSettings, <a class="el" href="../../d7/dfc/classvector.html">vector</a> position, out notnull <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d8/d83/class_object.html">Object</a> &gt; nearestObjects)</td></tr>
+<tr class="separator:a097b36a841402cce7bc91cbc56f29a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae390be8bd48b4d1724fd54b462272de3"><td class="memItemLeft" align="right" valign="top">protected void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#ae390be8bd48b4d1724fd54b462272de3">UpdateVicinityTemperatureRecursive</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> ent, <a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a> dta, <a class="el" href="../../d4/dc3/classfloat.html">float</a> heatPermeabilityCoef=1.0)</td></tr>
+<tr class="separator:ae390be8bd48b4d1724fd54b462272de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6330bef7f44aab592a845fc07cd00f5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">Execute</a> (<a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a> pSettings, UniversalTemperatureSourceResult resultValues)</td></tr>
+<tr class="separator:af6330bef7f44aab592a845fc07cd00f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72964cd19dd64d974de14de55f4c3c4a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a72964cd19dd64d974de14de55f4c3c4a">DryItemsInVicinity</a> (<a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a> pSettings)</td></tr>
+<tr class="memdesc:a72964cd19dd64d974de14de55f4c3c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED.  <br /></td></tr>
 <tr class="separator:a72964cd19dd64d974de14de55f4c3c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a72964cd19dd64d974de14de55f4c3c4a" name="a72964cd19dd64d974de14de55f4c3c4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72964cd19dd64d974de14de55f4c3c4a">&#9670;&#160;</a></span>DryItemsInVicinity()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72964cd19dd64d974de14de55f4c3c4a">&#9670;&#160;</a></span>DryItemsInVicinity() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,11 +142,188 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>heat transfer to items (no in player possession)</p>
 
-<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ae89673d033dffbc2e954c763087083b2">CGame::GetObjectsAtPosition()</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a9bd83a26bbdee02d9de9c76e851b16da">UniversalTemperatureSourceSettings::m_Parent</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a95d9484423b4997bf70860a1bb683c32">UniversalTemperatureSourceSettings::m_Position</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae32479ab72f6ad39926085e95b35fe1a">UniversalTemperatureSourceSettings::m_RangeMax</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#af730bb7a8a553bce75ec079060e5b059">UniversalTemperatureSourceSettings::m_UpdateInterval</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, and <a class="el" href="../../d8/d23/group___item_wetness.html#gaa916d428baacb9a656c29e0004328e85">GameConstants::STATE_DAMP</a>.</p>
+<p>DEPRECATED. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d61/_universal_temperature_source_lambda_base_impl_8c.html#a72964cd19dd64d974de14de55f4c3c4a">DryItemsInVicinity()</a>, and <a class="el" href="../../dc/df9/class_universal_temperature_source_lambda_fireplace.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaFireplace::Execute()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a512f0a48eb07b59c4f881e6eab579d48">DryItemsInVicinity()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ae89673d033dffbc2e954c763087083b2">CGame::GetObjectsAtPosition()</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a9bd83a26bbdee02d9de9c76e851b16da">UniversalTemperatureSourceSettings::m_Parent</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a95d9484423b4997bf70860a1bb683c32">UniversalTemperatureSourceSettings::m_Position</a>, and <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae32479ab72f6ad39926085e95b35fe1a">UniversalTemperatureSourceSettings::m_RangeMax</a>.</p>
+
+</div>
+</div>
+<a id="a512f0a48eb07b59c4f881e6eab579d48" name="a512f0a48eb07b59c4f881e6eab579d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a512f0a48eb07b59c4f881e6eab579d48">&#9670;&#160;</a></span>DryItemsInVicinity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void DryItemsInVicinity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a>&#160;</td>
+          <td class="paramname"><em>pSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out notnull <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d8/d83/class_object.html">Object</a> &gt;&#160;</td>
+          <td class="paramname"><em>nearestObjects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>heat transfer to items (not in player possession)</p>
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#ga51ca3f3ae316fedcb232472d8979f2a9">Math::Clamp()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../da/dfc/class_universal_temperature_source_lambda_base.html#afe9beb255a1b2206772e869b3505e8e6">UniversalTemperatureSourceLambdaBase::m_ExecuteInterval</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a9bd83a26bbdee02d9de9c76e851b16da">UniversalTemperatureSourceSettings::m_Parent</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, and <a class="el" href="../../d8/d23/group___item_wetness.html#gaa916d428baacb9a656c29e0004328e85">GameConstants::STATE_DAMP</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a72964cd19dd64d974de14de55f4c3c4a">DryItemsInVicinity()</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="af6330bef7f44aab592a845fc07cd00f5" name="af6330bef7f44aab592a845fc07cd00f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6330bef7f44aab592a845fc07cd00f5">&#9670;&#160;</a></span>Execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Execute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a>&#160;</td>
+          <td class="paramname"><em>pSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UniversalTemperatureSourceResult&#160;</td>
+          <td class="paramname"><em>resultValues</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a512f0a48eb07b59c4f881e6eab579d48">DryItemsInVicinity()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#ae89673d033dffbc2e954c763087083b2">CGame::GetObjectsAtPosition()</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a9bd83a26bbdee02d9de9c76e851b16da">UniversalTemperatureSourceSettings::m_Parent</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a95d9484423b4997bf70860a1bb683c32">UniversalTemperatureSourceSettings::m_Position</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae32479ab72f6ad39926085e95b35fe1a">UniversalTemperatureSourceSettings::m_RangeMax</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a31d1ebb2bf7784360f756763fac14555">UniversalTemperatureSourceSettings::m_TemperatureMax</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">WarmAndCoolItemsInVicinity()</a>.</p>
+
+</div>
+</div>
+<a id="ae390be8bd48b4d1724fd54b462272de3" name="ae390be8bd48b4d1724fd54b462272de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae390be8bd48b4d1724fd54b462272de3">&#9670;&#160;</a></span>UpdateVicinityTemperatureRecursive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected void UpdateVicinityTemperatureRecursive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td>
+          <td class="paramname"><em>ent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/dbc/class_temperature_data.html">TemperatureData</a>&#160;</td>
+          <td class="paramname"><em>dta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>heatPermeabilityCoef</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a5f46eb4f346a7c945b870292d5d5042e">TemperatureData::m_AdjustedTarget</a>, <a class="el" href="../../d2/dbc/class_temperature_data.html#a6a2981920eaa52aecbd6679f359f943a">TemperatureData::m_HeatPermeabilityCoef</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga7180e3dd7a113bc1f1e88b9b26b340d3">GameConstants::TEMPERATURE_SENSITIVITY_THRESHOLD</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#ae390be8bd48b4d1724fd54b462272de3">UpdateVicinityTemperatureRecursive()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#ae390be8bd48b4d1724fd54b462272de3">UpdateVicinityTemperatureRecursive()</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">WarmAndCoolItemsInVicinity()</a>.</p>
+
+</div>
+</div>
+<a id="a097b36a841402cce7bc91cbc56f29a6d" name="a097b36a841402cce7bc91cbc56f29a6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097b36a841402cce7bc91cbc56f29a6d">&#9670;&#160;</a></span>WarmAndCoolItemsInVicinity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void WarmAndCoolItemsInVicinity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a>&#160;</td>
+          <td class="paramname"><em>pSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out notnull <a class="el" href="../../d2/d41/classarray.html">array</a>&lt; <a class="el" href="../../d8/d83/class_object.html">Object</a> &gt;&#160;</td>
+          <td class="paramname"><em>nearestObjects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>dist factor minimum should be at 0</p>
+
+<p class="reference">References <a class="el" href="../../d5/d98/group___math.html#gaae5a8127fc6393d55122ac12f2d16c16">Math::AbsFloat()</a>, <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, <a class="el" href="../../d7/dfc/classvector.html#a08a9344bf649a1f2442bb58cfa81bb6e">vector::Distance()</a>, <a class="el" href="../../d5/d98/group___math.html#ga6530404da328a85a6ff9bd3a37765087">Math::InverseLerp()</a>, <a class="el" href="../../da/dfc/class_universal_temperature_source_lambda_base.html#afe9beb255a1b2206772e869b3505e8e6">UniversalTemperatureSourceLambdaBase::m_ExecuteInterval</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a9bd83a26bbdee02d9de9c76e851b16da">UniversalTemperatureSourceSettings::m_Parent</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a81bde3373d32170cc131a5bf8726af36">UniversalTemperatureSourceSettings::m_RangeFull</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae32479ab72f6ad39926085e95b35fe1a">UniversalTemperatureSourceSettings::m_RangeMax</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae1987d60dceaeb24310aa81e20b956eb">UniversalTemperatureSourceSettings::m_TemperatureItemCap</a>, <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a73e93b9dc05dea5df60264a6e3577212">UniversalTemperatureSourceSettings::m_TemperatureItemCoef</a>, <a class="el" href="../../d5/d98/group___math.html#ga0b79da001711df4f5c5759cc8ac4585b">Math::Max()</a>, <a class="el" href="../../d9/d00/group___entity_temperature.html#ga7180e3dd7a113bc1f1e88b9b26b340d3">GameConstants::TEMPERATURE_SENSITIVITY_THRESHOLD</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#ae390be8bd48b4d1724fd54b462272de3">UpdateVicinityTemperatureRecursive()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">Execute()</a>.</p>
 
 </div>
 </div>

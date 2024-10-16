@@ -1,4 +1,4 @@
 var _frying_pan_8c =
 [
-    [ "Inventory_Base", "d7/d5d/class_inventory___base.html", "d7/d5d/class_inventory___base" ]
+    [ "FryingPan", "d9/dbb/class_frying_pan.html", "d9/dbb/class_frying_pan" ]
 ];

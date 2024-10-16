@@ -28,6 +28,8 @@ var dir_598262a6a7bafb5d22d26b5db317d363 =
     [ "Canvas.c", "d8/d16/_canvas_8c.html", "d8/d16/_canvas_8c" ],
     [ "CfgGameplayDataJson.c", "da/d9e/_cfg_gameplay_data_json_8c.html", "da/d9e/_cfg_gameplay_data_json_8c" ],
     [ "CfgGameplayHandler.c", "d4/ddf/_cfg_gameplay_handler_8c.html", "d4/ddf/_cfg_gameplay_handler_8c" ],
+    [ "CfgPlayerRestrictedAreaHandler.c", "dc/dc3/_cfg_player_restricted_area_handler_8c.html", "dc/dc3/_cfg_player_restricted_area_handler_8c" ],
+    [ "CfgPlayerRestrictedAreaJsonData.c", "dc/dea/_cfg_player_restricted_area_json_data_8c.html", "dc/dea/_cfg_player_restricted_area_json_data_8c" ],
     [ "Colors.c", "d2/d22/_colors_8c.html", "d2/d22/_colors_8c" ],
     [ "constants.c", "d3/ddc/3___game_2constants_8c.html", "d3/ddc/3___game_2constants_8c" ],
     [ "ControlSchemeManager.c", "d1/d2d/_control_scheme_manager_8c.html", "d1/d2d/_control_scheme_manager_8c" ],

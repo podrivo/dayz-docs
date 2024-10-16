@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -132,6 +132,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aaee13280ad07a33aaa28304b129b1742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ea463d1986d610ae490295b0479b99c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a4ea463d1986d610ae490295b0479b99c">OnAbort</a> (<a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a> e)</td></tr>
 <tr class="separator:a4ea463d1986d610ae490295b0479b99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898353b76e46049f7561e65ae07d9196"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a898353b76e46049f7561e65ae07d9196">OnExit</a> (<a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a> e)</td></tr>
+<tr class="separator:a898353b76e46049f7561e65ae07d9196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf66986e08676e65b1e4fbf3c5f69f48"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#abf66986e08676e65b1e4fbf3c5f69f48">OnUpdate</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> dt)</td></tr>
+<tr class="separator:abf66986e08676e65b1e4fbf3c5f69f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4bf2b0eb3ea0ba221c3afc93160a5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a3a4bf2b0eb3ea0ba221c3afc93160a5e">BotStanceRandomizer</a> (<a class="el" href="../../de/d69/class_bot.html">Bot</a> bot=NULL, <a class="el" href="../../d6/d45/class_bot_state_base.html">BotStateBase</a> parent=NULL)</td></tr>
+<tr class="separator:a3a4bf2b0eb3ea0ba221c3afc93160a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee13280ad07a33aaa28304b129b1742"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#aaee13280ad07a33aaa28304b129b1742">OnEntry</a> (<a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a> e)</td></tr>
+<tr class="separator:aaee13280ad07a33aaa28304b129b1742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a898353b76e46049f7561e65ae07d9196"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a898353b76e46049f7561e65ae07d9196">OnExit</a> (<a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a> e)</td></tr>
 <tr class="separator:a898353b76e46049f7561e65ae07d9196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf66986e08676e65b1e4fbf3c5f69f48"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#abf66986e08676e65b1e4fbf3c5f69f48">OnUpdate</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> dt)</td></tr>
@@ -278,6 +286,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af0258ee79929f8b1961139efb4dbdc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b67ff5d9d52cc73f78e256718f3a92a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a3b67ff5d9d52cc73f78e256718f3a92a">m_Tracking</a> = true</td></tr>
 <tr class="separator:a3b67ff5d9d52cc73f78e256718f3a92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22bd5eaf6b27a05d569f76e606c5538b"><td class="memItemLeft" align="right" valign="top">ref <a class="el" href="../../d2/d1b/class_human_movement_state.html">HumanMovementState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a22bd5eaf6b27a05d569f76e606c5538b">m_State</a> = new <a class="el" href="../../d2/d1b/class_human_movement_state.html">HumanMovementState</a>()</td></tr>
+<tr class="separator:a22bd5eaf6b27a05d569f76e606c5538b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9379be5adffc7e64f2b3693f2e80426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#ad9379be5adffc7e64f2b3693f2e80426">m_Entity</a></td></tr>
 <tr class="separator:ad9379be5adffc7e64f2b3693f2e80426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dd55777dc2c1df1cfd3b0312320c782"><td class="memItemLeft" align="right" valign="top">ref BotTestAttachAndDropCycle_Detaching&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d45/class_bot_state_base.html#a6dd55777dc2c1df1cfd3b0312320c782">m_Detaching</a></td></tr>
@@ -513,6 +523,42 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../d3/d45/_hand___states_8c.html#ac3e3346bc6f9bb504e43495424c91a51">Empty</a>, and <a class="el" href="../../d4/d5c/_dynamic_music_player_8c.html#a0512b55cd417d097667021c3f06194d3">m_Type</a>.</p>
+
+</div>
+</div>
+<a id="a3a4bf2b0eb3ea0ba221c3afc93160a5e" name="a3a4bf2b0eb3ea0ba221c3afc93160a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a4bf2b0eb3ea0ba221c3afc93160a5e">&#9670;&#160;</a></span>BotStanceRandomizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BotStanceRandomizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d69/class_bot.html">Bot</a>&#160;</td>
+          <td class="paramname"><em>bot</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d45/class_bot_state_base.html">BotStateBase</a>&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1042,7 +1088,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1070,7 +1116,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1096,7 +1142,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1122,7 +1168,35 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[4/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnEntry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>, and <a class="el" href="../../d5/db3/class_weapon_fire.html#a554194fbf83f198e8f8e9ecb7a31e330">WeaponFire::OnEntry()</a>.</p>
+
+</div>
+</div>
+<a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1150,7 +1224,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1176,7 +1250,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1202,7 +1276,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1230,7 +1304,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1256,7 +1330,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1284,7 +1358,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1312,7 +1386,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1338,7 +1412,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1364,7 +1438,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aaee13280ad07a33aaa28304b129b1742" name="aaee13280ad07a33aaa28304b129b1742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee13280ad07a33aaa28304b129b1742">&#9670;&#160;</a></span>OnEntry() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1392,7 +1466,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a80fd30df38b8287d46208685992e35e3" name="a80fd30df38b8287d46208685992e35e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80fd30df38b8287d46208685992e35e3">&#9670;&#160;</a></span>OnEntry() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80fd30df38b8287d46208685992e35e3">&#9670;&#160;</a></span>OnEntry() <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1420,7 +1494,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1448,7 +1522,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1474,7 +1548,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1500,7 +1574,35 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[4/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnExit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d84/class_bot_event_base.html">BotEventBase</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>, and <a class="el" href="../../d5/db3/class_weapon_fire.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponFire::OnExit()</a>.</p>
+
+</div>
+</div>
+<a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1528,7 +1630,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1554,7 +1656,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1580,7 +1682,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1608,7 +1710,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1634,7 +1736,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1660,7 +1762,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1686,7 +1788,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1712,7 +1814,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1738,7 +1840,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a898353b76e46049f7561e65ae07d9196" name="a898353b76e46049f7561e65ae07d9196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a898353b76e46049f7561e65ae07d9196">&#9670;&#160;</a></span>OnExit() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1761,12 +1863,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>, and <a class="el" href="../../d5/db3/class_weapon_fire.html#aa40f8697dfa587f8adabc8640bc98ad8">WeaponFire::OnExit()</a>.</p>
 
 </div>
 </div>
 <a id="a5458021779dc94855a77d2c598983062" name="a5458021779dc94855a77d2c598983062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5458021779dc94855a77d2c598983062">&#9670;&#160;</a></span>OnExit() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5458021779dc94855a77d2c598983062">&#9670;&#160;</a></span>OnExit() <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1913,7 +2015,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1941,7 +2043,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1969,7 +2071,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1995,7 +2097,35 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[4/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dd/db0/class_human_command_move.html#a91c6bd84a85f9a092dda41d341df16c6">HumanCommandMove::ForceStance()</a>, <a class="el" href="../../d6/d45/class_bot_state_base.html#a70b2384ff7bbcb9b9123f334e15bc8f4">GetPlayerOwner()</a>, <a class="el" href="../../dd/db0/class_human_command_move.html#aa644dd348335ef79db4a10fc8416c870">HumanCommandMove::IsChangingStance()</a>, <a class="el" href="../../d5/d6b/_weapon_fire_8c.html#a126e3ea2e23a8fededbff9547ad0ccb4">m_dtAccumulator</a>, and <a class="el" href="../../d8/d93/_object_temperature_state_data_8c.html#abcfde5c4d2ef2734fdfd753388cd1aa7">m_State</a>.</p>
+
+</div>
+</div>
+<a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2021,7 +2151,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2049,7 +2179,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2077,7 +2207,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2103,7 +2233,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2131,7 +2261,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2159,7 +2289,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2187,7 +2317,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2213,7 +2343,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2241,7 +2371,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf66986e08676e65b1e4fbf3c5f69f48" name="abf66986e08676e65b1e4fbf3c5f69f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf66986e08676e65b1e4fbf3c5f69f48">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2269,7 +2399,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="acd53430fe417b09eb6d32b1e20246fe5" name="acd53430fe417b09eb6d32b1e20246fe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd53430fe417b09eb6d32b1e20246fe5">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd53430fe417b09eb6d32b1e20246fe5">&#9670;&#160;</a></span>OnUpdate() <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2758,6 +2888,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a22bd5eaf6b27a05d569f76e606c5538b" name="a22bd5eaf6b27a05d569f76e606c5538b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22bd5eaf6b27a05d569f76e606c5538b">&#9670;&#160;</a></span>m_State</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ref <a class="el" href="../../d2/d1b/class_human_movement_state.html">HumanMovementState</a> m_State = new <a class="el" href="../../d2/d1b/class_human_movement_state.html">HumanMovementState</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af2b9c7aed7fa2488cc15161550919557" name="af2b9c7aed7fa2488cc15161550919557"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2b9c7aed7fa2488cc15161550919557">&#9670;&#160;</a></span>m_Target <span class="overload">[1/2]</span></h2>
 
@@ -2962,6 +3114,7 @@ Private Attributes</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>P:/scripts/4_World/Systems/Bot/<a class="el" href="../../dc/d38/_bot___hunt_8c.html">Bot_Hunt.c</a></li>
+<li>P:/scripts/4_World/Systems/Bot/<a class="el" href="../../d3/d30/_bot___stance_randomizer_8c.html">Bot_StanceRandomizer.c</a></li>
 <li>P:/scripts/4_World/Systems/Bot/<a class="el" href="../../d5/d93/_bot___test_attach_and_drop_cycle_8c.html">Bot_TestAttachAndDropCycle.c</a></li>
 <li>P:/scripts/4_World/Systems/Bot/<a class="el" href="../../df/d75/_bot___test_item_move_back_and_forth_8c.html">Bot_TestItemMoveBackAndForth.c</a></li>
 <li>P:/scripts/4_World/Systems/Bot/<a class="el" href="../../dc/dce/_bot___test_spawn_and_open_can_8c.html">Bot_TestSpawnAndOpenCan.c</a></li>

@@ -1,6 +1,5 @@
 var class_barrel___color_base =
 [
-    [ "Barrel_ColorBase", "de/da3/class_barrel___color_base.html#a6354e60b94c5f80e860b10152c5fcdab", null ],
     [ "BleachClothes", "de/da3/class_barrel___color_base.html#aee9d138cf0ba53fbbe3bb5fc5ce53db2", null ],
     [ "CanDetachAttachment", "de/da3/class_barrel___color_base.html#ae0d251e23b974adefb41a65a7c832b5e", null ],
     [ "CanPutInCargo", "de/da3/class_barrel___color_base.html#a5ea0aaf035a1939c725579219040c481", null ],
@@ -16,6 +15,7 @@ var class_barrel___color_base =
     [ "GetDamageSystemVersionChange", "de/da3/class_barrel___color_base.html#a8ad3357a624c597d2314f7dc3dbba97d", null ],
     [ "GetLiquidThroughputCoef", "de/da3/class_barrel___color_base.html#ae6a3670ec761f695c0d3489b0d5420c5", null ],
     [ "GetPlaceSoundset", "de/da3/class_barrel___color_base.html#a8c2dc96b8b4dcc70efe3b211654b13f1", null ],
+    [ "InitItemVariables", "de/da3/class_barrel___color_base.html#aeb21a678bf81cb11979d821d61eaeeec", null ],
     [ "IsLocked", "de/da3/class_barrel___color_base.html#a9c5ca6db77e6e3d30a98b7b98a7dafc8", null ],
     [ "IsOpen", "de/da3/class_barrel___color_base.html#a05bac627bbb13f7329a1aff6e140219b", null ],
     [ "Lock", "de/da3/class_barrel___color_base.html#a53a3a78b854acf689d8b29de56171358", null ],

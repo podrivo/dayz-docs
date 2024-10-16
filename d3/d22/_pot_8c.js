@@ -1,4 +1,4 @@
 var _pot_8c =
 [
-    [ "Bottle_Base", "da/d60/class_bottle___base.html", "da/d60/class_bottle___base" ]
+    [ "Pot", "d6/d29/class_pot.html", "d6/d29/class_pot" ]
 ];

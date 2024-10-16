@@ -81,6 +81,8 @@ var class_fireplace_base =
     [ "HasFlammableMaterial", "dc/dc1/class_fireplace_base.html#ab82ea3929dacabea878b0247abacd5c8", null ],
     [ "HeightStartCheckOverride", "dc/dc1/class_fireplace_base.html#a0eed1ee9f174a1f9ae9abd4cf30942f7", null ],
     [ "IgniteEntityAsFireplace", "dc/dc1/class_fireplace_base.html#a667ce76a2ad02b4eac70062b987ab029", null ],
+    [ "InitializeTemperatureSources", "dc/dc1/class_fireplace_base.html#a8588b78db4cd13feefd0f32b73d142f3", null ],
+    [ "InitializeTemperatureSources", "dc/dc1/class_fireplace_base.html#a8588b78db4cd13feefd0f32b73d142f3", null ],
     [ "IsBarrelWithHoles", "dc/dc1/class_fireplace_base.html#a16587c7437491f2e3d9e418545f9e213", null ],
     [ "IsBaseFireplace", "dc/dc1/class_fireplace_base.html#a260db76467e903464bcd59d37285a007", null ],
     [ "IsBaseFireplace", "dc/dc1/class_fireplace_base.html#a260db76467e903464bcd59d37285a007", null ],

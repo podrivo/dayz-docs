@@ -5,6 +5,7 @@ var _pelt___base_8c =
     [ "CowPelt", "d2/d4d/class_cow_pelt.html", null ],
     [ "PigPelt", "d3/dbb/class_pig_pelt.html", null ],
     [ "DeerPelt", "db/d9a/class_deer_pelt.html", null ],
+    [ "ReindeerPelt", "d9/d91/class_reindeer_pelt.html", null ],
     [ "GoatPelt", "d0/dfe/class_goat_pelt.html", null ],
     [ "BearPelt", "db/d27/class_bear_pelt.html", null ],
     [ "WolfPelt", "d5/d8c/class_wolf_pelt.html", null ],

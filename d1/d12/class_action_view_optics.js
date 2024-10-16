@@ -9,6 +9,7 @@ var class_action_view_optics =
     [ "ExitOptics", "d1/d12/class_action_view_optics.html#a32d1d94a84c5943e060ef25ec8367d2c", null ],
     [ "HasProgress", "d1/d12/class_action_view_optics.html#a6201cf1bf986bd9c1f571cb58a6946ed", null ],
     [ "HasTarget", "d1/d12/class_action_view_optics.html#ab80733e1a8c145c8ee7b04476d535d72", null ],
+    [ "IsCameraLockOnPerform", "d1/d12/class_action_view_optics.html#a900c715b6533879a73820054991a5945", null ],
     [ "IsFullBody", "d1/d12/class_action_view_optics.html#adb3a72ffadf06c89cfb05a6ba790f492", null ],
     [ "OnEndAnimationLoopClient", "d1/d12/class_action_view_optics.html#a06b78ab0e48f133cb539622212770115", null ],
     [ "OnEndAnimationLoopServer", "d1/d12/class_action_view_optics.html#acda6d37054929cd6366f74e65d1fcb37", null ],

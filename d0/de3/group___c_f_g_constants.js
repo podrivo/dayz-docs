@@ -1,7 +1,6 @@
 var group___c_f_g_constants =
 [
     [ "CFG_ARRAY_ITEMS_MAX", "d0/de3/group___c_f_g_constants.html#ga17699c19000fe39697235d5371903619", null ],
-    [ "CFG_FILE_ADDITIONAL_INFO", "d0/de3/group___c_f_g_constants.html#ga706b6fd1dedd7f8851082db65238bc93", null ],
     [ "CFG_FILE_DEBUG_DIR", "d0/de3/group___c_f_g_constants.html#gaa0949387b4d534ab344b9736299ab6de", null ],
     [ "CFG_FILE_DEBUG_PROFILE", "d0/de3/group___c_f_g_constants.html#ga1ffe25caedd3f2dc85c63fa5334c1b03", null ],
     [ "CFG_FILE_EMOTES_PROFILE", "d0/de3/group___c_f_g_constants.html#gaaa546a6693099556313d23ff61c04f06", null ],

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.25.158593</div>
+   <div id="projectbrief">PC Stable v1.26.158898</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -168,6 +168,7 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>dBodyEnableGravity()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#ga044301051ad7c0e408a52ef6dee0d4cf">EnPhysics.c</a></li>
 <li>dBodyGetAngularVelocity()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gaeb67acf9489482364efa03358027e249">EnPhysics.c</a></li>
 <li>dBodyGetCenterOfMass()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gab28243e4f5adbb163ef21fba5fa1b447">EnPhysics.c</a></li>
+<li>dBodyGetDirectWorldTransform()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gaec0d165b7ed0926f15648930999b1a33">EnPhysics.c</a></li>
 <li>dBodyGetGeom()&#160;:&#160;<a class="el" href="d2/d3b/group___geometry.html#gad2f2ad2dcde7aeb9bef3575f48b14f4f">EnPhysics.c</a></li>
 <li>dBodyGetGeomInteractionLayer()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#ga4fc15e4db0d946ed860030eeadd6dc3d">EnPhysics.c</a></li>
 <li>dBodyGetInteractionLayer()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gaff315d5521838a4c9e477fd06e956d0d">EnPhysics.c</a></li>
@@ -178,6 +179,7 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>dBodyGetMass()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gad3a2d3417a11ec522125988e84c735b4">EnPhysics.c</a></li>
 <li>dBodyGetNumGeoms()&#160;:&#160;<a class="el" href="d2/d3b/group___geometry.html#gabf21e2b0d463c01925c54a8457281f96">EnPhysics.c</a></li>
 <li>dBodyGetVelocityAt()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#ga215665a4d6b653bdbc166ef8dad0d211">EnPhysics.c</a></li>
+<li>dBodyGetWorldTransform()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gaeeaf9507c2d5f0f253ae3703fa77552e">EnPhysics.c</a></li>
 <li>dBodyIsActive()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#ga6c16eb476b8460d50e036a4fcb386ab2">EnPhysics.c</a></li>
 <li>dBodyIsDynamic()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gaea05a509e9ac3adf302e8bc35a6a619e">EnPhysics.c</a></li>
 <li>dBodyIsSet()&#160;:&#160;<a class="el" href="d7/d1e/group___rigid_body.html#gaec263f7d455170ec5aa2fedd6c62d0ef">EnPhysics.c</a></li>
@@ -197,10 +199,12 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>Deactivate()&#160;:&#160;<a class="el" href="de/d0e/_modifier_base_8c.html#ad612d0926324764327bf72adae591dbd">ModifierBase.c</a></li>
 <li>DeactivateAllModifiers()&#160;:&#160;<a class="el" href="d3/d3c/_modifiers_manager_8c.html#a460dfb1cbcfb5303676f2be4177d7b0a">ModifiersManager.c</a></li>
 <li>DeactivateByType()&#160;:&#160;<a class="el" href="d5/d4d/_notifiers_manager_8c.html#ab94d65efbea47565e0ae346956d57bec">NotifiersManager.c</a></li>
-<li>DeactivateCondition()&#160;:&#160;<a class="el" href="de/d0e/_modifier_base_8c.html#a8879cef16fda96986b90ccfea1af00d4">ModifierBase.c</a></li>
+<li>DeactivateCondition()&#160;:&#160;<a class="el" href="de/d0e/_modifier_base_8c.html#a70430daa80152fbce9912e294c9f2ae4">ModifierBase.c</a>, <a class="el" href="d1/d41/_heavy_metal_8c.html#a70430daa80152fbce9912e294c9f2ae4">HeavyMetal.c</a>, <a class="el" href="dc/dbb/_wound_infection_8c.html#a70430daa80152fbce9912e294c9f2ae4">WoundInfection.c</a></li>
 <li>DeactivateFishing()&#160;:&#160;<a class="el" href="d2/ddb/_fishing_rod___base_8c.html#ae0c637a3cc10fc6791ac484cc4ec0006">FishingRod_Base.c</a></li>
 <li>DeactivateModifier()&#160;:&#160;<a class="el" href="d3/d3c/_modifiers_manager_8c.html#a3b34513f708181c290fe5d51e7503a55">ModifiersManager.c</a>, <a class="el" href="d2/df4/_hud_debug_win_char_modifiers_8c.html#a4ef1d3d679450f6a70df629362c22a71">HudDebugWinCharModifiers.c</a></li>
 <li>DealAbsoluteDmg()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a2a34dc32bc8639774adc6f621a86581a">MiscGameplayFunctions.c</a></li>
+<li>DealEvinronmentAdjustedDmg()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a5bbe6572f8ceb25b40cc3a4956e887fc">MiscGameplayFunctions.c</a></li>
+<li>DeathUpdate()&#160;:&#160;<a class="el" href="de/db7/_animal_base_8c.html#a0ee57bd2a707fcaaa09123dc251b8588">AnimalBase.c</a></li>
 <li>Debug()&#160;:&#160;<a class="el" href="d2/ddb/_universal_temperature_source_8c.html#ae1b2e01cd24e2e8b018c9615bd3c51b2">UniversalTemperatureSource.c</a>, <a class="el" href="d5/d95/_remote_player_stat_debug_8c.html#ae1b2e01cd24e2e8b018c9615bd3c51b2">RemotePlayerStatDebug.c</a>, <a class="el" href="d9/de7/_display_status_8c.html#ae1b2e01cd24e2e8b018c9615bd3c51b2">DisplayStatus.c</a></li>
 <li>DebugBreak()&#160;:&#160;<a class="el" href="d0/d62/group___debug.html#gac0d90421a3875b8c64b8ea486b83f981">EnDebug.c</a></li>
 <li>DebugCustomState()&#160;:&#160;<a class="el" href="d1/dcf/_base_building_base_8c.html#ad0d1f824b4301eb55f53c594b5486a5c">BaseBuildingBase.c</a></li>
@@ -222,20 +226,23 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>Dec()&#160;:&#160;<a class="el" href="d8/dc8/_day_z_game_8c.html#ab114281e416a63a03f0343a737152d46">DayZGame.c</a></li>
 <li>Deconstruct()&#160;:&#160;<a class="el" href="d0/d62/_shelter_8c.html#a5c294314c533b59f81b9eaf5f0669f71">Shelter.c</a></li>
 <li>DecreaseCookedItemQuantity()&#160;:&#160;<a class="el" href="d1/d48/_cooking_8c.html#ab366622d8709e99dd6b56917e44400d9">Cooking.c</a></li>
+<li>DecreaseLifespan()&#160;:&#160;<a class="el" href="d9/d4d/_effect_manager_8c.html#a0c83c01e3ff8a7910abe3db87d817440">EffectManager.c</a></li>
 <li>DefaultCancelCondition()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#af67e880ad00b69eab6bf03c8395d3ec8">human.c</a></li>
 <li>DeferredEnableTrigger()&#160;:&#160;<a class="el" href="dd/dd8/_trap_base_8c.html#a19d2f44c6bac0ba37d0b7f24560020a6">TrapBase.c</a></li>
 <li>DeferredForceSwapEntities()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a3b5449270d338497ed7b3322fd7237eb">DayZPlayerInventory.c</a></li>
 <li>DeferredHandEvent()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a0cc8d3e40e436ad9af358065cb7f6b72">DayZPlayerInventory.c</a></li>
 <li>DeferredTakeToDst()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#a95dff1f33432f8c5eb5717b11196303b">DayZPlayerInventory.c</a></li>
 <li>DeferredWeaponFailed()&#160;:&#160;<a class="el" href="da/ddc/_day_z_player_inventory_8c.html#ad0e78b161731222ea7c0f161ea126aba">DayZPlayerInventory.c</a></li>
+<li>DeleteAttachedChildrenByTypename()&#160;:&#160;<a class="el" href="dc/d98/_misc_gameplay_functions_8c.html#a8ee99d294377b2ec1aeb3040d36dc6ce">MiscGameplayFunctions.c</a></li>
 <li>DeleteFile()&#160;:&#160;<a class="el" href="d5/df6/group___file.html#gad214a12fac64e623b389ac2db20b0317">EnSystem.c</a></li>
 <li>DeleteOldEntity()&#160;:&#160;<a class="el" href="d0/d81/_action_take_fireplace_from_barrel_8c.html#aa8931c6e714580c89d2b05ea1baeff50">ActionTakeFireplaceFromBarrel.c</a></li>
 <li>DeleteThis()&#160;:&#160;<a class="el" href="d7/dc3/_trap___land_mine_8c.html#a88d6d3cd2ac4200d3b57df74017e9571">Trap_LandMine.c</a></li>
 <li>DeleteTrigger()&#160;:&#160;<a class="el" href="dd/dd8/_trap_base_8c.html#ad566b67fc8ada7882b5a0a6522b55a01">TrapBase.c</a></li>
 <li>DeployableContainer_Base()&#160;:&#160;<a class="el" href="df/d74/_container___base_8c.html#a3cf6692e38aa991fd0c8a0e56f49b115">Container_Base.c</a></li>
 <li>Deserialize()&#160;:&#160;<a class="el" href="d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#a1fb1a8e0fa00a26a27631f2d9cc25c1d">Inventory.c</a></li>
+<li>DeserializeData()&#160;:&#160;<a class="el" href="dc/d8c/_catching_context_base_8c.html#afeb34f33acccde4ed9444fac774b357c">CatchingContextBase.c</a>, <a class="el" href="dd/d92/_catching_context_traps_8c.html#a4ec713e832b4f6eeeb582db9e212304b">CatchingContextTraps.c</a></li>
 <li>DeserializeElements()&#160;:&#160;<a class="el" href="d9/de7/_display_status_8c.html#acd91a881e212ed5bdb0d7723ab8aa821">DisplayStatus.c</a></li>
-<li>DeSerializeNumericalVars()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#acc668db52efb88232a795d74aeeab7cb">ItemBase.c</a></li>
+<li>DeSerializeNumericalVars()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#ad58d75bd926b1e4be5723314caf9462d">ItemBase.c</a></li>
 <li>Destroy()&#160;:&#160;<a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">EnDebug.c</a>, <a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">Effect.c</a>, <a class="el" href="d6/dae/group___debug_shape.html#ga638a3fcdb049ad795590a910ff04648a">AreaDamageManager.c</a></li>
 <li>DestroyAreaDamage()&#160;:&#160;<a class="el" href="d1/dcf/_base_building_base_8c.html#a95b8c33babb3a1cd5a0c7045ef3689c3">BaseBuildingBase.c</a>, <a class="el" href="d8/dbb/_fireplace_base_8c.html#a930f291b36ec40d7522619afdce76366">FireplaceBase.c</a></li>
 <li>DestroyCollisionTrigger()&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#aef1e702412713000668ad643250d64ec">Construction.c</a></li>
@@ -275,11 +282,13 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>DialNextNumber()&#160;:&#160;<a class="el" href="d2/d71/_combination_lock_8c.html#af01c6f3c238f62dc17ddaa70670fc4e7">CombinationLock.c</a></li>
 <li>DialogueErrorProperties()&#160;:&#160;<a class="el" href="d2/dbd/_error_properties_8c.html#a40f582bd582688c82d25de8b834122e0">ErrorProperties.c</a></li>
 <li>DigestAgents()&#160;:&#160;<a class="el" href="d8/dec/_player_stomach_8c.html#a9a420ca3a3f2b5914ece7a333557c3a9">PlayerStomach.c</a></li>
+<li>DigPrimarySoundEvent()&#160;:&#160;<a class="el" href="de/d3b/_action_surface_events_8c.html#aebb14a44f6860d779b963ff0881c2c51">ActionSurfaceEvents.c</a></li>
 <li>DirectCookingSlotsInUse()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#a14909c20b227886e0d4ede3f8f98feee">FireplaceBase.c</a></li>
 <li>DisableActivateCheck()&#160;:&#160;<a class="el" href="de/d0e/_modifier_base_8c.html#a771f17acf34676182be64e41430920e6">ModifierBase.c</a></li>
 <li>DisableControls()&#160;:&#160;<a class="el" href="d6/d1c/_day_z_player_melee_fight_logic___light_heavy_8c.html#a3b31c393798ffa332bf16200df21569c">DayZPlayerMeleeFightLogic_LightHeavy.c</a></li>
 <li>DisableDeactivateCheck()&#160;:&#160;<a class="el" href="de/d0e/_modifier_base_8c.html#a13bf3a75b607c3eb20546dbb90db2f2f">ModifierBase.c</a></li>
 <li>DisableMicromanagement()&#160;:&#160;<a class="el" href="d9/db1/5___mission_2_g_u_i_2_inventory_new_2_inventory_8c.html#ac9bd56805d82bce1948c18a0edfe384d">Inventory.c</a></li>
+<li>DisableVicinityIcon()&#160;:&#160;<a class="el" href="df/d55/_day_z_animal_8c.html#a0089a36ce58db8239e22f8acca76314a">DayZAnimal.c</a></li>
 <li>Disarm()&#160;:&#160;<a class="el" href="d0/d0a/_explosives_base_8c.html#a0c6b2b4e0c25672818ec334633d6de22">ExplosivesBase.c</a>, <a class="el" href="d9/dbc/_clock_base_8c.html#a590466f4f39d421f11fa089e1a03074c">ClockBase.c</a>, <a class="el" href="dd/dd8/_trap_base_8c.html#acc5cc8fcbe8fcfbe300f079a202fa273">TrapBase.c</a></li>
 <li>DisassembleOnLastDetach()&#160;:&#160;<a class="el" href="d8/dbb/_fireplace_base_8c.html#aaaa7c01329097cf6467404415bdbdb27">FireplaceBase.c</a></li>
 <li>DismantlePartServer()&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#aabd0835f9c999cac82097c9a2b43f0dd">Construction.c</a></li>
@@ -323,6 +332,7 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>DoAmmoExplosion()&#160;:&#160;<a class="el" href="df/d2e/_item_base_8c.html#aa0cf98b3c2cf157f6086d7434b881f87">ItemBase.c</a></li>
 <li>DoClimbTest()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a2524c03f013ab71da58a5276416618f5">human.c</a></li>
 <li>DoEverything()&#160;:&#160;<a class="el" href="dd/dbe/_en_profiler_tests_8c.html#a35e6bb81f638f47c4a0f021a82ea9b4f">EnProfilerTests.c</a></li>
+<li>DoPerformClimbTest()&#160;:&#160;<a class="el" href="d4/d9e/human_8c.html#a288f0f5fd041b40cb63c1d507e6b2172">human.c</a></li>
 <li>DoPlacingHeightCheck()&#160;:&#160;<a class="el" href="d2/df5/_trap___small_fish_8c.html#aacb31f548d3362e6322ae8fc0a9dc54e">Trap_SmallFish.c</a></li>
 <li>Down()&#160;:&#160;<a class="el" href="d7/de3/_server_browser_tab_8c.html#a8ecb72ff0fd235afbf997e25815a13d5">ServerBrowserTab.c</a></li>
 <li>DPrint()&#160;:&#160;<a class="el" href="d0/d62/group___debug.html#gad40897900c6420e1c23bace98c84e7c7">EnDebug.c</a></li>
@@ -343,7 +353,7 @@ $(document).ready(function(){initNavTree('globals_func_d.html',''); initResizabl
 <li>DropNonUsableMaterialsServer()&#160;:&#160;<a class="el" href="de/df0/_construction_8c.html#a01316ff7a45a1f02a7c892236e3d2cdc">Construction.c</a></li>
 <li>DrowningEvent1()&#160;:&#160;<a class="el" href="d9/d07/_drowning_events_8c.html#a694ce6decff58e0071d4e66aeed9ea71">DrowningEvents.c</a></li>
 <li>DrowningEvents()&#160;:&#160;<a class="el" href="d9/d07/_drowning_events_8c.html#a1993afc29ec73d77d0475cfa73f62a11">DrowningEvents.c</a></li>
-<li>DryItemsInVicinity()&#160;:&#160;<a class="el" href="d6/d61/_universal_temperature_source_lambda_base_impl_8c.html#a72964cd19dd64d974de14de55f4c3c4a">UniversalTemperatureSourceLambdaBaseImpl.c</a></li>
+<li>DryItemsInVicinity()&#160;:&#160;<a class="el" href="d6/d61/_universal_temperature_source_lambda_base_impl_8c.html#a512f0a48eb07b59c4f881e6eab579d48">UniversalTemperatureSourceLambdaBaseImpl.c</a></li>
 <li>dSetGravity()&#160;:&#160;<a class="el" href="d5/d74/group___physics.html#gafb944654295126ea460f51078c4b425a">EnPhysics.c</a></li>
 <li>dSetInteractionLayer()&#160;:&#160;<a class="el" href="d5/d74/group___physics.html#ga3007d9f8bc34470b0c8bda12778cd4fc">EnPhysics.c</a></li>
 <li>dSetTimeSlice()&#160;:&#160;<a class="el" href="d5/d74/group___physics.html#gaf59ae1af8d80fe6ba4f5eb424ffc91f5">EnPhysics.c</a></li>

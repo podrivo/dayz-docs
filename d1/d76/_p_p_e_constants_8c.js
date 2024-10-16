@@ -28,7 +28,8 @@ var _p_p_e_constants_8c =
       [ "PPP_FXAA", "d1/d76/_p_p_e_constants_8c.html#ad276cdedb5a3eae18144540aef237b95a88809c7c0942a9886c26636938a02c02", null ],
       [ "PPP_SMAA", "d1/d76/_p_p_e_constants_8c.html#ad276cdedb5a3eae18144540aef237b95ada0659e4e17975ca50a8cdc8fad7dcc2", null ],
       [ "PPP_GAUSS_FILTER", "d1/d76/_p_p_e_constants_8c.html#ad276cdedb5a3eae18144540aef237b95a767f29fad09ee707ba4a524196da606d", null ],
-      [ "PPP_MEDIAN", "d1/d76/_p_p_e_constants_8c.html#ad276cdedb5a3eae18144540aef237b95a3acbcf82f214de01c58ba97cfb8d6f4c", null ]
+      [ "PPP_MEDIAN", "d1/d76/_p_p_e_constants_8c.html#ad276cdedb5a3eae18144540aef237b95a3acbcf82f214de01c58ba97cfb8d6f4c", null ],
+      [ "PPP_DISTORT", "d1/d76/_p_p_e_constants_8c.html#ad276cdedb5a3eae18144540aef237b95ada273424d060bd97bacb9d1b9a130f09", null ]
     ] ],
     [ "PPEExceptions", "d1/d76/_p_p_e_constants_8c.html#a9e272c9bdd16c16284f7871e266096e5", [
       [ "NONE", "d1/d76/_p_p_e_constants_8c.html#a9e272c9bdd16c16284f7871e266096e5ac157bdf0b85a40d2619cbc8bc1ae5fe2", null ],

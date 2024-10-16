@@ -9,6 +9,7 @@ var _vehicle_anim_instances_8c =
       [ "S120", "d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7a311cc7d7003041691d6cb5b3dc6f19dc", null ],
       [ "MULTICAR", "d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7ab324f26b9b61c2547c2e9714155ced66", null ],
       [ "GOLF", "d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7a6815156fa2733cecd1d358a00907e049", null ],
-      [ "HMMWV", "d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7a48104b6d9a7984a7bd2cb7d792874b8f", null ]
+      [ "HMMWV", "d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7a48104b6d9a7984a7bd2cb7d792874b8f", null ],
+      [ "ZODIAC", "d5/d6f/_vehicle_anim_instances_8c.html#aea97ecd0eb9ad753d45d237593d859d7ab1301678f5895c195fc1bd9adbb25d1a", null ]
     ] ]
 ];

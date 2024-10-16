@@ -4,6 +4,7 @@ var dir_ca572308276e9dd28b39897081c916ef =
     [ "Building", "dir_3de5fcea24c69cb39b5bd11beadb957f.html", "dir_3de5fcea24c69cb39b5bd11beadb957f" ],
     [ "Core", "dir_88486c788d5dbb1ba854f9e8e2d79a25.html", "dir_88486c788d5dbb1ba854f9e8e2d79a25" ],
     [ "Creatures", "dir_d29bf3875bdfcff846342dd266fed9ec.html", "dir_d29bf3875bdfcff846342dd266fed9ec" ],
+    [ "Effects", "dir_2b90394f2a5212e2e4926981904cf30b.html", "dir_2b90394f2a5212e2e4926981904cf30b" ],
     [ "ExplosivesBase", "dir_d26efed990f60f039bd8d6a4f321a879.html", "dir_d26efed990f60f039bd8d6a4f321a879" ],
     [ "Firearms", "dir_7571236738e5aa173dda4c6f3be3852e.html", "dir_7571236738e5aa173dda4c6f3be3852e" ],
     [ "Game", "dir_7490177acaff32ae88815926e63a15fe.html", "dir_7490177acaff32ae88815926e63a15fe" ],

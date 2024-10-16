@@ -1,4 +1,4 @@
 var _enoch_8c =
 [
-    [ "WorldData", "d0/d24/class_world_data.html", "d0/d24/class_world_data" ]
+    [ "EnochData", "dc/d97/class_enoch_data.html", "dc/d97/class_enoch_data" ]
 ];

@@ -54,6 +54,7 @@ var _e_diag_menu_i_ds_8c =
       [ "MISC_FALLDAMAGE_DEBUG", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a1b7ece8c5a079c151a7f286b8e9e197d", null ],
       [ "MISC_DISPLAY_PLAYER_INFO", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336aeb6367d5c2ccf48cb6c5350c0dd73f35", null ],
       [ "MISC_UNIVERSAL_TEMPERATURE_SOURCES", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336af6ddd20683ba276ef4f238616bf4a9d2", null ],
+      [ "MISC_TARGET_TEMPERATURE", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a6477933153d6efdc0da1553bfb6ed6ab", null ],
       [ "MISC_DRAW_CHECKERBOARD", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a35a2c75d7be593ad854f370c2fcbfe55", null ],
       [ "MISC_BULLET_IMPACT", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a6c7381128d391dd4aea1f74bdadf8efe", null ],
       [ "MISC_PRESENCE_NOTIFIER_DBG", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a127709d6cbbcf2dcadb4a15d3532820f", null ],
@@ -87,6 +88,9 @@ var _e_diag_menu_i_ds_8c =
       [ "MISC_FREEZE_ENTITY", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a712c5322601d2e0446838aa8516d26eb", null ],
       [ "MISC_CONNECTION_STATS", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a3f5aa658b1a152357b24fb0941e3d4c1", null ],
       [ "MISC_PLAYER_SYMPTOMS_SHOW", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336adbae6753276afbb224de6a283bea4c87", null ],
+      [ "MISC_PLAYER_SYMPTOMS_TOGGLE_HMP", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a7094b1e4da8ba088323ac8bc0809b44f", null ],
+      [ "MISC_SHOW_PRA_ALL", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a50723738ef82ed0d1205745d14598ca0", null ],
+      [ "MISC_PRA_DETECT", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a021641671ccf3736c6e69fe4945b874e", null ],
       [ "MISC_INPUT_DEVICE_DISCONNECT_DBG", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a188089fd0f2a28250f811ebe111b80e4", null ],
       [ "MISC_DEBUG_MONITOR", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a982d1ff2f986527bcce70d71cbc4ee69", null ],
       [ "MISC_FORCE_HINT_INDEX", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a782af1ed0c4d68843ea0414a3ac8b90c", null ],
@@ -181,6 +185,9 @@ var _e_diag_menu_i_ds_8c =
       [ "FEATURE_TIME_ACCEL_ENERGY_CONSUME", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a7f8a1109c45781e8ed33e7795ce8e77c", null ],
       [ "FEATURE_TIME_ACCEL_ENERGY_RECHARGE", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a955bf2e45c6e0ba03d0573b8c425bc62", null ],
       [ "FEATURE_TIME_ACCEL_FOOD_DECAY", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a5ecedd4028d1b69f7a652fc5f7a2a8f3", null ],
+      [ "FEATURE_TIME_ACCEL_DYNAMIC_MUSIC_PLAYER", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a78e8f3debb59a6e30737fdf63e8df8be", null ],
+      [ "MATERIALDIAG_MENU", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336a71c901bcc8a7d6a7175006c04fd9838f", null ],
+      [ "MATERIALDIAG_GHOSTPP", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336aca6b646546c41c0b9f86fb58bfae7a5a", null ],
       [ "MODDED_MENU", "d9/dbc/_e_diag_menu_i_ds_8c.html#a85affb4d5021d4465be4205f8cd4e336af9406c6e0241e0a42c23afdce3ee8ae4", null ]
     ] ]
 ];

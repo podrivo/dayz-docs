@@ -9,6 +9,7 @@ var class_u_a_quantity_consumed =
     [ "EAT_NORMAL", "d9/da2/class_u_a_quantity_consumed.html#a30b2552282c6fd2eecc90d6735d2fcf4", null ],
     [ "EAT_SMALL", "d9/da2/class_u_a_quantity_consumed.html#a519baa82caa36844ed9b7f7f2639cf42", null ],
     [ "FILL_LIQUID", "d9/da2/class_u_a_quantity_consumed.html#af14bfb320b4b75e172020007bc7ce0eb", null ],
+    [ "FILL_SNOW", "d9/da2/class_u_a_quantity_consumed.html#a892ee4773dd70107232273fec289c1dc", null ],
     [ "FIREPLACE_EXTINGUISHER", "d9/da2/class_u_a_quantity_consumed.html#a87c52152ef258ba6cf068f71fac7ed4e", null ],
     [ "FIREPLACE_LIQUID", "d9/da2/class_u_a_quantity_consumed.html#a187ad19ab98554d4e1c7cf33924e4c76", null ],
     [ "FUEL", "d9/da2/class_u_a_quantity_consumed.html#a4e7b8b0cdc19d3f4f9c54653c7984c6a", null ],

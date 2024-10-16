@@ -11,6 +11,8 @@ var class_poisoning_mdfr =
     [ "AGENT_THRESHOLD_ACTIVATE", "d3/da5/class_poisoning_mdfr.html#a26f9fd15a00330c021c7d5c1a55d039a", null ],
     [ "AGENT_THRESHOLD_DEACTIVATE", "d3/da5/class_poisoning_mdfr.html#a8a52175bb14433033248c7c28f7ba038", null ],
     [ "ENERGY_DRAIN_FROM_VOMIT", "d3/da5/class_poisoning_mdfr.html#ae0f0aca190fecf6d4dbcddc4d0046682", null ],
+    [ "m_Exhaustion", "d3/da5/class_poisoning_mdfr.html#ab2c2f7e8b3e0edd29f911aa6224d5d96", null ],
+    [ "m_ExhaustionTimer", "d3/da5/class_poisoning_mdfr.html#a17e2bf9021c01cb02ff2415077898091", null ],
     [ "VOMIT_OCCURRENCES_PER_HOUR_MAX", "d3/da5/class_poisoning_mdfr.html#a74f18bf5dc2f02c373d6276a886bb8b9", null ],
     [ "VOMIT_OCCURRENCES_PER_HOUR_MIN", "d3/da5/class_poisoning_mdfr.html#aed771a47382aad5d9da1d53221ccab9a", null ],
     [ "WATER_DRAIN_FROM_VOMIT", "d3/da5/class_poisoning_mdfr.html#a4e971213e62da8093efc912a5f666dd2", null ]

@@ -3,6 +3,7 @@ var class_action_build_part =
     [ "ActionBuildPart", "d3/d35/class_action_build_part.html#a76e84a9a982f2e2ddfff4e7f01b4afb8", null ],
     [ "ActionCondition", "d3/d35/class_action_build_part.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
     [ "ActionConditionContinue", "d3/d35/class_action_build_part.html#a1f7399d8d410ac172ef0e5f4c4bbb4eb", null ],
+    [ "CanBeUsedInFreelook", "d3/d35/class_action_build_part.html#a65859fe0886de9d66dd98b92837e2291", null ],
     [ "CanBeUsedLeaning", "d3/d35/class_action_build_part.html#a0a08f55a068e9e74c6e3259b0f97edb5", null ],
     [ "CreateActionData", "d3/d35/class_action_build_part.html#a5e0f63043b33849610c0ad517a105a80", null ],
     [ "CreateConditionComponents", "d3/d35/class_action_build_part.html#a6b922d3bb1d26f790bc52030566ba2df", null ],

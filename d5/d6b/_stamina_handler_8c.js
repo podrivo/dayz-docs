@@ -41,6 +41,7 @@ var _stamina_handler_8c =
     [ "StaminaConsumers", "d5/d6b/_stamina_handler_8c.html#ab31625bfcaddc7d74cde5a18fed0faec", null ],
     [ "StaminaModifier", "d5/d6b/_stamina_handler_8c.html#a2a6283c4afba2a5e0a3e26dd898a5319", null ],
     [ "StaminaModifiers", "d5/d6b/_stamina_handler_8c.html#aa798d024acf1cbff4c3f08d562bd7bb0", null ],
+    [ "DISEASE_PNEUMONIA", "d5/d6b/_stamina_handler_8c.html#a266b7ed1a78ce33c72b84cfcea75e948", null ],
     [ "DROWNING", "d5/d6b/_stamina_handler_8c.html#a1f1cf775d3e5309542939630c394fa53", null ],
     [ "EPINEPHRINE", "d5/d6b/_stamina_handler_8c.html#ac685725dc144c4d07de262324e304cb2", null ],
     [ "EXPONENTIAL", "d5/d6b/_stamina_handler_8c.html#a86b391da2e58c0448712a10f6609a62c", null ],
@@ -63,5 +64,6 @@ var _stamina_handler_8c =
     [ "m_Tick", "d5/d6b/_stamina_handler_8c.html#a3a74a8e1bfc43a95f2e690e8e53cb1f4", null ],
     [ "m_Type", "d5/d6b/_stamina_handler_8c.html#a23cd83196cbe840c423d33e754dc9413", null ],
     [ "MASK", "d5/d6b/_stamina_handler_8c.html#ae51208c7fd555e7e63cd809a89e4220d", null ],
-    [ "RANDOMIZED", "d5/d6b/_stamina_handler_8c.html#a057b85ce9b6fc507d692b2bc1fcdfc97", null ]
+    [ "RANDOMIZED", "d5/d6b/_stamina_handler_8c.html#a057b85ce9b6fc507d692b2bc1fcdfc97", null ],
+    [ "VOMIT_EXHAUSTION", "d5/d6b/_stamina_handler_8c.html#a7b370eed635ebcf44f453605043fcdb9", null ]
 ];

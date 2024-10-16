@@ -9,6 +9,7 @@ var dir_309955c8565d2e3050dbb5409022779e =
     [ "PluginNutritionDumper.c", "da/df4/_plugin_nutrition_dumper_8c.html", "da/df4/_plugin_nutrition_dumper_8c" ],
     [ "PluginRemotePlayerDebugClient.c", "d1/d23/_plugin_remote_player_debug_client_8c.html", "d1/d23/_plugin_remote_player_debug_client_8c" ],
     [ "PluginRemotePlayerDebugServer.c", "d0/d49/_plugin_remote_player_debug_server_8c.html", "d0/d49/_plugin_remote_player_debug_server_8c" ],
+    [ "PluginTargetTemperature.c", "d8/dfe/_plugin_target_temperature_8c.html", "d8/dfe/_plugin_target_temperature_8c" ],
     [ "PluginUniversalTemperatureSourceClient.c", "d0/d09/_plugin_universal_temperature_source_client_8c.html", "d0/d09/_plugin_universal_temperature_source_client_8c" ],
     [ "PluginUniversalTemperatureSourceServer.c", "d7/d28/_plugin_universal_temperature_source_server_8c.html", "d7/d28/_plugin_universal_temperature_source_server_8c" ]
 ];

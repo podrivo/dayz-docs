@@ -36,6 +36,7 @@ var class_base_building_base =
     [ "CheckSlotVerticalDistance", "dd/d90/class_base_building_base.html#af9c24a58036bbdce3e5d318c3497b695", null ],
     [ "CloseFence", "dd/d90/class_base_building_base.html#a3023cddaa1badc52b2678fedd5b821a9", null ],
     [ "CreateAreaDamage", "dd/d90/class_base_building_base.html#a8865e06fc30886adb14e0a461d1de2a0", null ],
+    [ "EEItemDetached", "dd/d90/class_base_building_base.html#a870b0dcd0dfafe4a764232688d9356c0", null ],
     [ "Fence", "dd/d90/class_base_building_base.html#a251f42a5691e5f9f77366859ec2cade8", null ],
     [ "GateAttachmentConditions", "dd/d90/class_base_building_base.html#aa3dc922cf9e624ea2b208756af49acfc", null ],
     [ "GateAttachmentsSanityCheck", "dd/d90/class_base_building_base.html#a2e5b90d496b26c0ccf66f3711991cafc", null ],

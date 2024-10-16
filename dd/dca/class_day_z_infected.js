@@ -47,6 +47,7 @@ var class_day_z_infected =
     [ "IsMale", "dd/dca/class_day_z_infected.html#a5a994c9144fb0ecb56d9b9da77c436bc", null ],
     [ "IsManagingArrows", "dd/dca/class_day_z_infected.html#adb49305b137500377ea58863a002843a", null ],
     [ "IsRefresherSignalingViable", "dd/dca/class_day_z_infected.html#ab392f138aa79539fb1ea8d36f06e3b05", null ],
+    [ "IsSelfAdjustingTemperature", "dd/dca/class_day_z_infected.html#a1eac97f778a0b671281b1de25e1ba99b", null ],
     [ "IsZombie", "dd/dca/class_day_z_infected.html#a64f4f84a6e6c992f8dc1c79a64cc79da", null ],
     [ "IsZombieMilitary", "dd/dca/class_day_z_infected.html#af502d3157bcee38a457e5500ec9e9c31", null ],
     [ "OnRecoverFromDeath", "dd/dca/class_day_z_infected.html#a9949599c559ff57b821733be43a1fcf1", null ],

@@ -16,7 +16,8 @@ var _inventory_location_8c =
       [ "ATTACHMENT", "d6/d52/_inventory_location_8c.html#a71733d54d455853550df7ae602bf23ddaf369a8970895fdbddafe0edb2df85a06", null ],
       [ "CARGO", "d6/d52/_inventory_location_8c.html#a71733d54d455853550df7ae602bf23ddacf4048424379c278f3580634aac37a06", null ],
       [ "HANDS", "d6/d52/_inventory_location_8c.html#a71733d54d455853550df7ae602bf23ddac3eec710540a3d66749b9c7e0e432df6", null ],
-      [ "PROXYCARGO", "d6/d52/_inventory_location_8c.html#a71733d54d455853550df7ae602bf23dda09a276fa7832ff398c171c1ff968c8f9", null ]
+      [ "PROXYCARGO", "d6/d52/_inventory_location_8c.html#a71733d54d455853550df7ae602bf23dda09a276fa7832ff398c171c1ff968c8f9", null ],
+      [ "VEHICLE", "d6/d52/_inventory_location_8c.html#ad09049fb2b99c763369bfe6228aa81b3ada30f0dfe7c99ccb74e83ba77c5c118d", null ]
     ] ],
     [ "OptionalLocationReadFromContext", "d6/d52/_inventory_location_8c.html#acd983560cdc1ee3f9aaf3973617f1a86", null ],
     [ "OptionalLocationWriteToContext", "d6/d52/_inventory_location_8c.html#ad12db73d28b1b3de5cad36e8b5ab7d21", null ]

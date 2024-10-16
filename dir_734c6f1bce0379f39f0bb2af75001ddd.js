@@ -22,6 +22,8 @@ var dir_734c6f1bce0379f39f0bb2af75001ddd =
     [ "ActionOpenBarrelHoles.c", "d5/d84/_action_open_barrel_holes_8c.html", "d5/d84/_action_open_barrel_holes_8c" ],
     [ "ActionOpenDoors.c", "d2/d69/_action_open_doors_8c.html", "d2/d69/_action_open_doors_8c" ],
     [ "ActionOpenFence.c", "d7/ded/_action_open_fence_8c.html", "d7/ded/_action_open_fence_8c" ],
+    [ "ActionOperatePanel.c", "db/d61/_action_operate_panel_8c.html", "db/d61/_action_operate_panel_8c" ],
+    [ "ActionOperatePanelPowerStation.c", "db/d9b/_action_operate_panel_power_station_8c.html", "db/d9b/_action_operate_panel_power_station_8c" ],
     [ "ActionPackShelter.c", "d1/d40/_action_pack_shelter_8c.html", "d1/d40/_action_pack_shelter_8c" ],
     [ "ActionPackTent.c", "dd/d00/_action_pack_tent_8c.html", "dd/d00/_action_pack_tent_8c" ],
     [ "ActionPickBerry.c", "d9/de5/_action_pick_berry_8c.html", "d9/de5/_action_pick_berry_8c" ],

@@ -2,6 +2,7 @@ var class_action_get_in_transport =
 [
     [ "ActionGetInTransport", "d3/d30/class_action_get_in_transport.html#a582f8a4df496ef1ee793cf663680bad9", null ],
     [ "ActionCondition", "d3/d30/class_action_get_in_transport.html#aa9aa4864fae11769c65e644b5fd97c66", null ],
+    [ "AddActionJuncture", "d3/d30/class_action_get_in_transport.html#a52714a2e43ccca708509020f2d78c1d0", null ],
     [ "CanBeUsedInRestrain", "d3/d30/class_action_get_in_transport.html#a5ea74922236a5c49c4e670b694712d4b", null ],
     [ "CreateConditionComponents", "d3/d30/class_action_get_in_transport.html#a6b922d3bb1d26f790bc52030566ba2df", null ],
     [ "GetActionCategory", "d3/d30/class_action_get_in_transport.html#a47916ee46724ba7e9af26a002d3414a8", null ],

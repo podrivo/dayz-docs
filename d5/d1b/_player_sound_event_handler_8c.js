@@ -15,6 +15,7 @@ var _player_sound_event_handler_8c =
       [ "SYMPTOM_COUGH", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ab05cc97eab17620dd93b01ef99706499", null ],
       [ "SYMPTOM_LAUGHTER", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a4c37a44a6b23a49814511b9fbfc98a13", null ],
       [ "SYMPTOM_SNEEZE", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a34b9a326c8de30b86e0f42bf797e8bca", null ],
+      [ "SYMPTOM_GASP", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a88fc7bafff8a5e991e9018ed51e651fb", null ],
       [ "JUMP", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a1f28d4392b1c1e7da2af2283632d81e1", null ],
       [ "MELEE_ATTACK_LIGHT", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a96c99db548ffedd6457fef046fb3d986", null ],
       [ "INJURED_LIGHT", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88ac2fc48b3bc6736ff390f89dd2a7ff553", null ],
@@ -30,6 +31,8 @@ var _player_sound_event_handler_8c =
       [ "DROWNING_PAIN", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a4c44a649f15455011acbb5862a6d75d9", null ],
       [ "PICKUP_HEAVY", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88abf92be5aace3a0fe172818857957fc04", null ],
       [ "THIRST", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a517cb6cf5980e26c5387e2a7d1d19e2d", null ],
+      [ "FORCE_FEED", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a5c31df1d17fff88ef3734ebf131ff46c", null ],
+      [ "FORCE_DRINK", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a2fe12fb140912334d9279a1753daf713", null ],
       [ "ENUM_COUNT", "d5/d1b/_player_sound_event_handler_8c.html#ae40d08748e52403c01d49f8987673c88a3419c51ff893a0055351a7163edcb464", null ]
     ] ],
     [ "ConvertAnimIDtoEventID", "d5/d1b/_player_sound_event_handler_8c.html#afbc0cf898c0e87750993f212a9d485d1", null ],

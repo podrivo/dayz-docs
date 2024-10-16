@@ -55,6 +55,11 @@ var e_modifiers_8c =
       [ "MDF_MASK", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582a57c855f7da6d385e1128f67235f3004f", null ],
       [ "MDF_FLIES", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582ad92c7d957ce4d4ef679085a71c008321", null ],
       [ "MDF_DROWNING", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582a738c3941e8d816e6bca74faed061ac15", null ],
+      [ "MDF_HEAVYMETAL1", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582a1476af0d4e133c768124ee18cd2b31d3", null ],
+      [ "MDF_HEAVYMETAL2", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582af61cd243f7226bdb995b1ae83f9c94d1", null ],
+      [ "MDF_HEAVYMETAL3", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582a9eece3a49a5372631a90cf1e629c7164", null ],
+      [ "MDF_PNEUMONIA", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582a4be25af11aff137d42de19b842370f88", null ],
+      [ "MDF_CHELATION", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582aeb99024e303d20b96bb6b1371432d1bd", null ],
       [ "COUNT", "d9/d19/e_modifiers_8c.html#a38544df67f7f5b2fdf488d7705d7a582a2addb49878f50c95dc669e5fdbd130a2", null ]
     ] ]
 ];

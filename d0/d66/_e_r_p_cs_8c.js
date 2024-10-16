@@ -93,6 +93,7 @@ var _e_r_p_cs_8c =
       [ "RPC_SOUND_ARTILLERY_SINGLE", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a4cf74f4ebcbbae555443db7f93476fce", null ],
       [ "RPC_CFG_GAMEPLAY_SYNC", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a3b5eef7d7aa71316d365b0de32f45cb8", null ],
       [ "RPC_UNDERGROUND_SYNC", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37acc950b03a810620a503cfbc834d7e9d6", null ],
+      [ "RPC_PLAYERRESTRICTEDAREAS_SYNC", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a7422851129366cdb51f307bd9e02a12a", null ],
       [ "DEV_RPC_SPAWN_PRESET", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a541c6384b6b1e7cd865c547ccf4ae2c9", null ],
       [ "DEV_RPC_SET_TIME", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a49f940aa65b42797fae4ca53e30f0fa0", null ],
       [ "DEV_TEMP_UPDATE", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37ad43161fb2277df1374467e661241eec0", null ],
@@ -101,6 +102,7 @@ var _e_r_p_cs_8c =
       [ "DEV_UTS_DEBUG_DATA", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a254b819e39049aa02d01028f4214eec9", null ],
       [ "DEV_SET_WEATHER", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a017746e76be273b116be7ea95c513796", null ],
       [ "RPC_SET_BILLBOARDS", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a4267df55eb9dedf894c2fe767f964470", null ],
+      [ "RPC_PLAYER_STAT", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37a187c61901679ecef936e836f8cbf8502", null ],
       [ "RPC_END", "d0/d66/_e_r_p_cs_8c.html#a6ce2d98a3b8fbdba5b450abf2d6eab37ab92c339a5231732ab282e5b2ab4c2463", null ]
     ] ]
 ];

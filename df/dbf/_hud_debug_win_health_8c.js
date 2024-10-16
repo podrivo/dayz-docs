@@ -10,6 +10,7 @@ var _hud_debug_win_health_8c =
     [ "InitEntityEntries", "df/dbf/_hud_debug_win_health_8c.html#a818c2350a83bfe92b8259901a082a5f5", null ],
     [ "InitEntry", "df/dbf/_hud_debug_win_health_8c.html#a130714b6696d0b21d64501e89e400d0d", null ],
     [ "OnClick", "df/dbf/_hud_debug_win_health_8c.html#ab3a769af93cbb13ac262b55be7977c93", null ],
+    [ "RunRPC", "df/dbf/_hud_debug_win_health_8c.html#a0989bf5f4a7460f4bb84a233a93dabea", null ],
     [ "SetUpdate", "df/dbf/_hud_debug_win_health_8c.html#a18f91c2f28458f76d982865ecad720a5", null ],
     [ "Show", "df/dbf/_hud_debug_win_health_8c.html#accf383118946aaf8a037e9533c0d129c", null ],
     [ "Update", "d9/d0e/group___widget_a_p_i.html#ga70ac517aa5d3b3af95f61a2d560d811f", null ],
