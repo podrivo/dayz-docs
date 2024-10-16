@@ -27,6 +27,9 @@ Community links
 PC Stable Changelog
 --
 
+Version 1.26
+- [Update 1 · v1.26.158898 · Oct 15, 2024](https://forums.dayz.com/topic/264080-stable-update-126/)
+
 Version 1.25
 - [Update 4 · v1.25.158593 · Aug 19, 2024](https://forums.dayz.com/topic/259858-stable-update-125/?page=3&tab=comments#comment-2499067)
 - [Update 3 · v1.25.158396 · Jul 03, 2024](https://forums.dayz.com/topic/259858-stable-update-125/?page=2&tab=comments#comment-2498253)
