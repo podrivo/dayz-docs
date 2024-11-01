@@ -273,6 +273,7 @@ var class_u_i_scripted_menu =
     [ "IsFocusable", "d1/d5b/class_u_i_scripted_menu.html#ac94a6887c1e2a63f96e20d67c097d98b", null ],
     [ "IsFocusable", "d1/d5b/class_u_i_scripted_menu.html#ac94a6887c1e2a63f96e20d67c097d98b", null ],
     [ "IsFocusable", "d1/d5b/class_u_i_scripted_menu.html#ac94a6887c1e2a63f96e20d67c097d98b", null ],
+    [ "IsHandlingPlayerDeathEvent", "d1/d5b/class_u_i_scripted_menu.html#adf005a6f0d3d238d83768f20c51e657f", null ],
     [ "IsLocalPlayer", "d1/d5b/class_u_i_scripted_menu.html#a78386f068191a778c5ce8d23247d9dcc", null ],
     [ "IsMenuClosing", "d1/d5b/class_u_i_scripted_menu.html#af2cce8b4e9f3ab9272d88e78ffb1af21", null ],
     [ "IsMenuClosing", "d1/d5b/class_u_i_scripted_menu.html#af2cce8b4e9f3ab9272d88e78ffb1af21", null ],

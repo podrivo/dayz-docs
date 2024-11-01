@@ -1,5 +1,6 @@
 var NAVTREEINDEX145 =
 {
+"db/d60/class_icon.html#aaa4160de65ac77debe2902527ebfc4f2":[2,0,1600,23],
 "db/d60/class_icon.html#aaba7086adc0d7801ada65d5d22fd56dd":[2,0,1600,18],
 "db/d60/class_icon.html#aabdf788ebe905fc18f3ec7222e363170":[2,0,1600,69],
 "db/d60/class_icon.html#aac016a715fb4f99e58ef4deb09a7c53c":[2,0,1600,43],
@@ -81,8 +82,8 @@ var NAVTREEINDEX145 =
 "db/d68/_plugin_mission_config_8c.html":[3,0,0,3,2,0,2,0,4],
 "db/d69/class_mosin9130___base.html":[2,0,1925],
 "db/d69/class_mosin9130___base.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1925,0],
-"db/d69/class_mosin9130___base.html#ac70edd5184853723a0f14d8d7e9622cf":[2,0,1925,2],
 "db/d69/class_mosin9130___base.html#ac70edd5184853723a0f14d8d7e9622cf":[2,0,1925,1],
+"db/d69/class_mosin9130___base.html#ac70edd5184853723a0f14d8d7e9622cf":[2,0,1925,2],
 "db/d6a/_santas_beard_8c.html":[3,0,0,3,1,10,3,168],
 "db/d6b/class_civilian_belt.html":[2,0,1054],
 "db/d6b/class_civilian_belt.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,1054,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX145 =
 "db/d83/class_p_p_effects.html#a4819234d0c81762672cd3b7d0133122e":[2,0,2140,7],
 "db/d83/class_p_p_effects.html#a53f691c9f4b5e6159e0fc1efbb9fe810":[2,0,2140,77],
 "db/d83/class_p_p_effects.html#a5411cbcf4f1719f83a59914d7b4bcbfb":[2,0,2140,58],
-"db/d83/class_p_p_effects.html#a560cd8ad89e5adc70451a959a6bb0e8d":[2,0,2140,52],
-"db/d83/class_p_p_effects.html#a5622a51ff3f58b82ccecdb467160c553":[2,0,2140,13]
+"db/d83/class_p_p_effects.html#a560cd8ad89e5adc70451a959a6bb0e8d":[2,0,2140,52]
 };

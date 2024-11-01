@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"d7/df2/_emote_classes_8c.html#a32d5c31b66017fb6bd881315244af52e":[3,0,0,3,0,11,1,2],
 "d7/df2/_emote_classes_8c.html#a344328f08a4c6d48780a1c7ed8ba5108":[3,0,0,3,0,11,1,47],
 "d7/df2/_emote_classes_8c.html#a4e29308499863fb2ee8c87d8e16b0d46":[3,0,0,3,0,11,1,24],
 "d7/df2/_emote_classes_8c.html#a50ac929432d793a0af667532d11c6c2a":[3,0,0,3,0,11,1,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "d8/d11/class_input_utils.html#a48a1ef1fde96016b56e1428b670b59fb":[2,0,1621,14],
 "d8/d11/class_input_utils.html#a4bb6175632628ab60e74fc40d0fe627c":[2,0,1621,17],
 "d8/d11/class_input_utils.html#a52a929a5a7f4300444beaf489c2f2ec3":[2,0,1621,11],
-"d8/d11/class_input_utils.html#a605c0e1d02621f8873deab1474df3b82":[2,0,1621,12],
-"d8/d11/class_input_utils.html#a83abf71a3f942b0da35946fdee9c0729":[2,0,1621,8]
+"d8/d11/class_input_utils.html#a605c0e1d02621f8873deab1474df3b82":[2,0,1621,12]
 };

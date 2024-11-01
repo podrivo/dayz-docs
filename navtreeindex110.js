@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"d8/dbd/class_object_collision_info.html#a8011c737db2d0bad3c2dac5c626fcb5c":[2,0,1969,0],
 "d8/dbd/class_object_collision_info.html#affde19e7541612bb39351ea19cc1caec":[2,0,1969,3],
 "d8/dbd/class_static__rock__wallv.html":[2,0,2454],
 "d8/dbe/class_n_b_c_boots_base.html":[2,0,1945],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "d8/dc8/_day_z_game_8c.html#adf12206bae31c7d79c8165cc73e089fb":[3,0,0,2,38,56],
 "d8/dc8/_day_z_game_8c.html#adf9fe7e60a5acb5ea444b4f69086937f":[3,0,0,2,38,55],
 "d8/dc8/_day_z_game_8c.html#ae4b403a0299b417461afe6f692c943e7":[3,0,0,2,38,10],
-"d8/dc8/_day_z_game_8c.html#aec8c45759d39ea299ef42821201a846d":[3,0,0,2,38,39],
-"d8/dc8/_day_z_game_8c.html#aee6a27cad085ec84d5f5dbb765b63b53":[3,0,0,2,38,36]
+"d8/dc8/_day_z_game_8c.html#aec8c45759d39ea299ef42821201a846d":[3,0,0,2,38,39]
 };

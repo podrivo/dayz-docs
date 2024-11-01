@@ -1,5 +1,6 @@
 var NAVTREEINDEX164 =
 {
+"dc/de8/class_plugin_dayz_player_debug___weapons.html#a703aba879d640333231a257cc7415593":[2,0,2101,5],
 "dc/de8/class_plugin_dayz_player_debug___weapons.html#a885713be69a3a6687c66247b802ca5db":[2,0,2101,15],
 "dc/de8/class_plugin_dayz_player_debug___weapons.html#a8a828e1615850976f727ecc59b645014":[2,0,2101,14],
 "dc/de8/class_plugin_dayz_player_debug___weapons.html#a959442c0423966a528edc5ec213af03c":[2,0,2101,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX164 =
 "dd/d01/class_trap_trigger.html#a2e242d98db20ad2ab36ae419f3878996":[2,0,2563,5],
 "dd/d01/class_trap_trigger.html#a34e0355a7ef90e2770f21df2fec7045d":[2,0,2563,6],
 "dd/d01/class_trap_trigger.html#a4de033a62fc6485b73d01b1b56103ebb":[2,0,2563,0],
-"dd/d01/class_trap_trigger.html#a609bba70603b6f7bb3dc55a2ba21189f":[2,0,2563,4],
-"dd/d01/class_trap_trigger.html#a94d85bfa267f378e12a4f6afdea46af5":[2,0,2563,3]
+"dd/d01/class_trap_trigger.html#a609bba70603b6f7bb3dc55a2ba21189f":[2,0,2563,4]
 };

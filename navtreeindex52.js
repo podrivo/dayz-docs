@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d4/d49/class_plugin_config_handler.html#a91a5b3aa2b6d3a4697c44ff57a3e066a":[2,0,2098,166],
 "d4/d49/class_plugin_config_handler.html#a92b1a677c289c95d5ed97dec37a00f7d":[2,0,2098,48],
 "d4/d49/class_plugin_config_handler.html#a92cbaeaad95a5e91fcb6169f5a7a3f1a":[2,0,2098,34],
 "d4/d49/class_plugin_config_handler.html#a942100793ac3723d9919273b0ca3f547":[2,0,2098,119],
@@ -15,8 +16,8 @@ var NAVTREEINDEX52 =
 "d4/d49/class_plugin_config_handler.html#aa1232c1a6ca4d3c39035a7c44f6786e9":[2,0,2098,33],
 "d4/d49/class_plugin_config_handler.html#aa1ae1ee16f32bdf483e0dbc20536e24c":[2,0,2098,121],
 "d4/d49/class_plugin_config_handler.html#aa2d40fc205737d7fdf498f4651b92aef":[2,0,2098,88],
-"d4/d49/class_plugin_config_handler.html#aa2f25a068b3c4c8e233babd36f5ede20":[2,0,2098,40],
 "d4/d49/class_plugin_config_handler.html#aa2f25a068b3c4c8e233babd36f5ede20":[2,0,2098,41],
+"d4/d49/class_plugin_config_handler.html#aa2f25a068b3c4c8e233babd36f5ede20":[2,0,2098,40],
 "d4/d49/class_plugin_config_handler.html#aa51e99570bc522283fd24fbf064a67a3":[2,0,2098,212],
 "d4/d49/class_plugin_config_handler.html#aa6541181d64fcdbb666957eba86d4167":[2,0,2098,153],
 "d4/d49/class_plugin_config_handler.html#aa81e63f4b17588ecfcea56e02b399bb4":[2,0,2098,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "d4/d5a/_u_a_input_8c.html":[3,0,0,2,12,0],
 "d4/d5a/_u_a_input_8c.html#a616105f49c02ce570dbb5acb4b9b17f8":[3,0,0,2,12,0,4],
 "d4/d5c/_dynamic_music_player_8c.html":[3,0,0,2,17,4,0],
-"d4/d5c/_dynamic_music_player_8c.html#a0512b55cd417d097667021c3f06194d3":[3,0,0,2,17,4,0,65],
-"d4/d5c/_dynamic_music_player_8c.html#a07a404c8032cc7d324e2bf066622d1ca":[3,0,0,2,17,4,0,42]
+"d4/d5c/_dynamic_music_player_8c.html#a0512b55cd417d097667021c3f06194d3":[3,0,0,2,17,4,0,65]
 };

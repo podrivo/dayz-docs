@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"da/dc6/class_bush_soft.html#aa2c82973b5f599e24dbe93e946c9e380":[2,0,889,0],
 "da/dc6/class_static__rock__stone7.html":[2,0,2442],
 "da/dc7/_action_fold_base_building_object_8c.html":[3,0,0,3,0,30,1,0,78],
 "da/dc7/_action_fold_base_building_object_8c.html#a00cda41fe9dd093059da5c4b83b591bc":[3,0,0,3,0,30,1,0,78,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "da/ddc/_day_z_player_inventory_8c.html#a813d629d73e4b6b34443ec681a50fce7":[3,0,0,3,4,2,1,72],
 "da/ddc/_day_z_player_inventory_8c.html#a87b8925e164e95fa60f55d9ec767316c":[3,0,0,3,4,2,1,20],
 "da/ddc/_day_z_player_inventory_8c.html#a8ac9303b03a50e2409947d86d0529387":[3,0,0,3,4,2,1,43],
-"da/ddc/_day_z_player_inventory_8c.html#a8cedc4dd39b7128b13ca820ac9f65e88":[3,0,0,3,4,2,1,8],
-"da/ddc/_day_z_player_inventory_8c.html#a9117132371f8a19dd5038bed81a8be3e":[3,0,0,3,4,2,1,66]
+"da/ddc/_day_z_player_inventory_8c.html#a8cedc4dd39b7128b13ca820ac9f65e88":[3,0,0,3,4,2,1,8]
 };

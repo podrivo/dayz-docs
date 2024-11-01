@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"d7/dda/class_bit_array.html#a01efa03ef4019105c9e8a0c0a27c0498":[2,0,763,7],
 "d7/dda/class_bit_array.html#a4114f2389530fafe27aedcac87f7888c":[2,0,763,6],
 "d7/dda/class_bit_array.html#a50294ca67d6223ef69d695e64146bc7a":[2,0,763,3],
 "d7/dda/class_bit_array.html#a597658a01d429b77e8521122b3121d4e":[2,0,763,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "d7/df2/_emote_classes_8c.html#a27cfb88daa494c3ea72e37453a3a23c4":[3,0,0,3,0,11,1,30],
 "d7/df2/_emote_classes_8c.html#a291173b1e3082cf5c95d551a55013a47":[3,0,0,3,0,11,1,26],
 "d7/df2/_emote_classes_8c.html#a2914dae172f5ace076ebbe6e55597e6f":[3,0,0,3,0,11,1,40],
-"d7/df2/_emote_classes_8c.html#a2bd789dd3c4100209ca753b8f35b3562":[3,0,0,3,0,11,1,23],
-"d7/df2/_emote_classes_8c.html#a32d5c31b66017fb6bd881315244af52e":[3,0,0,3,0,11,1,2]
+"d7/df2/_emote_classes_8c.html#a2bd789dd3c4100209ca753b8f35b3562":[3,0,0,3,0,11,1,23]
 };

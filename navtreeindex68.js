@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d5/d6b/_stamina_handler_8c.html#ae0abe49dec1fe5a7292c07b128fca758":[3,0,0,3,0,69,12],
 "d5/d6b/_stamina_handler_8c.html#ae4c23bcf33517f4258eb4b118bea7dda":[3,0,0,3,0,69,50],
 "d5/d6b/_stamina_handler_8c.html#ae51208c7fd555e7e63cd809a89e4220d":[3,0,0,3,0,69,63],
 "d5/d6b/_stamina_handler_8c.html#ae842f01cd80e82b53642e9b1db7ce744":[3,0,0,3,0,69,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d5/d71/_car_script_8c.html#ab069f194c8651124f0aeaa6e100c92bd":[3,0,0,3,1,14,3,64],
 "d5/d71/_car_script_8c.html#ab0c8c3d5a3699bbfe746d559e7d39fc9":[3,0,0,3,1,14,3,55],
 "d5/d71/_car_script_8c.html#ab110c1ad759f395660b0ae9242843731":[3,0,0,3,1,14,3,59],
-"d5/d71/_car_script_8c.html#ab392fbfe76a2f623a8ecc09b04301fda":[3,0,0,3,1,14,3,166],
-"d5/d71/_car_script_8c.html#ab3c4b58e1661369de12cfa6a4706a620":[3,0,0,3,1,14,3,238]
+"d5/d71/_car_script_8c.html#ab392fbfe76a2f623a8ecc09b04301fda":[3,0,0,3,1,14,3,166]
 };

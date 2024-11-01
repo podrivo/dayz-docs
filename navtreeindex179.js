@@ -1,5 +1,6 @@
 var NAVTREEINDEX179 =
 {
+"de/d0b/class_action_load_magazine_quick.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,301,4],
 "de/d0b/class_action_load_magazine_quick.html#a890fea63df60664e0d0d5280d2f42add":[2,0,301,3],
 "de/d0b/class_action_load_magazine_quick.html#aa9aa4864fae11769c65e644b5fd97c66":[2,0,301,1],
 "de/d0b/class_action_load_magazine_quick.html#ab6eb153abc42e514909126c621d01280":[2,0,301,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX179 =
 "de/d1e/class_mag___c_m_a_g__20_rnd.html":[2,0,1813],
 "de/d1e/class_trace_box.html":[1,14,0,0,0,0,4],
 "de/d1f/_plugin_sound_debug_8c.html":[3,0,0,3,2,0,27],
-"de/d1f/_police_jacket_orel_8c.html":[3,0,0,3,1,10,3,154],
-"de/d1f/class_action_craft_bolts.html":[2,0,87]
+"de/d1f/_police_jacket_orel_8c.html":[3,0,0,3,1,10,3,154]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"d9/d77/class_cfg_slots_1_1_slot__weapon_optics_mosin.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,1029,381,2],
 "d9/d79/_cargo_8c.html":[3,0,0,2,17,5,1],
 "d9/d79/class_action_cover_head_self_c_b.html":[2,0,80],
 "d9/d79/class_action_cover_head_self_c_b.html#accfb238782010198bdb5128a8ee44300":[2,0,80,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "d9/d9b/class_improvised_fishing_rod.html":[2,0,1609],
 "d9/d9c/class_cfg_slots_1_1_slot___van__01___wheel__1__2.html":[2,0,1029,335],
 "d9/d9c/class_cfg_slots_1_1_slot___van__01___wheel__1__2.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,1029,335,0],
-"d9/d9c/class_cfg_slots_1_1_slot___van__01___wheel__1__2.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,1029,335,3],
-"d9/d9c/class_cfg_slots_1_1_slot___van__01___wheel__1__2.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,1029,335,1]
+"d9/d9c/class_cfg_slots_1_1_slot___van__01___wheel__1__2.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,1029,335,3]
 };

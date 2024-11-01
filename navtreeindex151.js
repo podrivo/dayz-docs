@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"dc/d1c/class_zagorky___color_base.html":[2,0,2934],
 "dc/d1c/class_zagorky___color_base.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,2934,0],
 "dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html":[3,0,0,3,1,6,14],
 "dc/d1d/4___world_2_entities_2_firearms_2_debug_8c.html#a40adfc1e22a9b751658055847f9c4b83":[3,0,0,3,1,6,14,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "dc/d38/class_environment.html#a646e906a2d690c10a1b6f474ae738957":[2,0,1329,0],
 "dc/d38/class_environment.html#a64984a911badb9da62a19cfb5142ad11":[2,0,1329,90],
 "dc/d38/class_environment.html#a67e0dc27dbf1d3b7b7a59234ed72d3bf":[2,0,1329,36],
-"dc/d38/class_environment.html#a6aef47b9445d3e64be067d0c14967b4c":[2,0,1329,74],
-"dc/d38/class_environment.html#a6cf49aee045c7cbe5bd12de2df02c4de":[2,0,1329,116]
+"dc/d38/class_environment.html#a6aef47b9445d3e64be067d0c14967b4c":[2,0,1329,74]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX211 =
 {
+"globals_func_w.html":[3,1,1,23],
 "globals_func_y.html":[3,1,1,24],
 "globals_func_~.html":[3,1,1,25],
 "globals_g.html":[3,1,0,7],
@@ -73,8 +74,8 @@ var NAVTREEINDEX211 =
 "globals_z.html":[3,1,0,26],
 "globals_~.html":[3,1,0,27],
 "hierarchy.html":[2,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#autotoc_md17":[0,0],
 "index.html#autotoc_md18":[0,1],
 "index.html#autotoc_md19":[0,2],

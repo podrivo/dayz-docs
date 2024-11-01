@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['s_5finstance_0',['s_instance',['../d1/d46/class_widget_event_handler.html#a697bf5e11a5d20c9140be506885608e5',1,'WidgetEventHandler']]],
-  ['s_5finstance_1',['s_Instance',['../d2/dde/class_vicinity_item_manager.html#abb58f947fea52cb14accf0c3aa628dc8',1,'VicinityItemManager']]],
+  ['s_5finstance_0',['s_Instance',['../d2/dde/class_vicinity_item_manager.html#abb58f947fea52cb14accf0c3aa628dc8',1,'VicinityItemManager']]],
+  ['s_5finstance_1',['s_instance',['../d1/d46/class_widget_event_handler.html#a697bf5e11a5d20c9140be506885608e5',1,'WidgetEventHandler']]],
   ['s_5fmsgprefix_2',['s_MsgPrefix',['../dc/d26/class_debug_print.html#a54bc4fa231bb05a7443f8c3168accc19',1,'DebugPrint']]],
   ['s_5fmsgstackmarked_3',['s_MsgStackMarked',['../dc/d26/class_debug_print.html#a2a03de4a9039987157ea0cd41e1455e9',1,'DebugPrint']]],
   ['s_5fmsgstackmarkend_4',['s_MsgStackMarkEnd',['../dc/d26/class_debug_print.html#ae65df545876a078a65e7dbc8c10068e0',1,'DebugPrint']]],

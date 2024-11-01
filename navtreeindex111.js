@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"d8/dc8/_day_z_game_8c.html#aee6a27cad085ec84d5f5dbb765b63b53":[3,0,0,2,38,36],
 "d8/dc8/_day_z_game_8c.html#af87b9b56325f5391a12867fe03f9aad8":[3,0,0,2,38,28],
 "d8/dc8/_day_z_game_8c.html#af97fb13d08fa8ecb740e0ae6b5bc45bb":[3,0,0,2,38,60],
 "d8/dc8/_day_z_game_8c.html#af9e2762507c222ff7be8a256838a0c89":[3,0,0,2,38,81],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a4a16e8af3e89cde67522d4014839af38":[3,0,0,3,1,6,2,2,2,15],
 "d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a4f583e2899a664f1a5ed0ab212077e2a":[3,0,0,3,1,6,2,2,2,9],
 "d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a53cb172ceaff3584738f244f3e968c9d":[3,0,0,3,1,6,2,2,2,4],
-"d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a6ce26a62afab55d7606ad4e92428b30c":[3,0,0,3,1,6,2,2,2,0],
-"d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a6da24a38ddef884bf2ae4d36dee98929":[3,0,0,3,1,6,2,2,2,17]
+"d8/dea/_events_8c.html#ad53b1021648ef8a1d90381386dbb58e4a6ce26a62afab55d7606ad4e92428b30c":[3,0,0,3,1,6,2,2,2,0]
 };

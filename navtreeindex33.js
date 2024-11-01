@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"d2/dc1/_en_audio_8c.html#a89f7695eb68eefe7fec12c5dcb241ed0":[3,0,0,0,0,1,1],
 "d2/dc2/class_punched_card.html":[2,0,2180],
 "d2/dc2/class_punched_card.html#ae0b55222add75f51bdbf8e33078e49b7":[2,0,2180,0],
 "d2/dc2/class_punched_card.html#afa39b7c4d3d085ef8514a87c32b81a4d":[2,0,2180,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "d2/ddf/class_c_c_t_cursor_no_ruin_check.html#a1718e7bba5e3b29e6151bd47eb5e7258":[2,0,1009,5],
 "d2/ddf/class_c_c_t_cursor_no_ruin_check.html#a25cb763702ecd30d0188d7838961ed00":[2,0,1009,0],
 "d2/ddf/class_c_c_t_cursor_no_ruin_check.html#a5f9d6500151bb110edc4c35082b5dffc":[2,0,1009,3],
-"d2/ddf/class_c_c_t_cursor_no_ruin_check.html#a81add820a890af43be08bd6138e05ec9":[2,0,1009,1],
-"d2/ddf/class_c_c_t_cursor_no_ruin_check.html#a8918b808eb89544b588f007e593ecdb0":[2,0,1009,4]
+"d2/ddf/class_c_c_t_cursor_no_ruin_check.html#a81add820a890af43be08bd6138e05ec9":[2,0,1009,1]
 };

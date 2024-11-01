@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"d6/d23/class_land___warhead_storage___power_station.html#abaf4bc6a7c5e75d5d8e5f24b2d3659b6":[2,0,1737,13],
 "d6/d23/class_land___warhead_storage___power_station.html#abc3090a1ea8c7a4054933f982d4b4cf4":[2,0,1737,33],
 "d6/d23/class_land___warhead_storage___power_station.html#ad183155e7592e816863539c54b6fa83f":[2,0,1737,15],
 "d6/d23/class_land___warhead_storage___power_station.html#ad2e26b3579a09b0f5513be82ec80b04e":[2,0,1737,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "d6/d3c/class_dbg_bleeding_indication_static_info.html#aae5468920ec7182c26941c87ba7ec58a":[2,0,1211,0],
 "d6/d3c/class_dbg_bleeding_indication_static_info.html#ac771477ec2559c059b132d64fc246e03":[2,0,1211,3],
 "d6/d3c/class_dbg_bleeding_indication_static_info.html#acdd894edf59678aa79b5a54aa4957d9b":[2,0,1211,11],
-"d6/d3c/class_dbg_bleeding_indication_static_info.html#ad67de76dc28dc77d41318bd3c4d84f62":[2,0,1211,7],
-"d6/d3c/class_dbg_bleeding_indication_static_info.html#ae6b315aff6e483fcd88c9f910ddae389":[2,0,1211,9]
+"d6/d3c/class_dbg_bleeding_indication_static_info.html#ad67de76dc28dc77d41318bd3c4d84f62":[2,0,1211,7]
 };

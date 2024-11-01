@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"d5/dc2/class_cfg_slots_1_1_slot___material___f_pole___wooden_log2.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,1029,139,2],
 "d5/dc2/class_player_restricted_area_instance.html":[2,0,2081],
 "d5/dc2/class_player_restricted_area_instance.html#a1593526de77bb00ed97edc1af8727f76":[2,0,2081,17],
 "d5/dc2/class_player_restricted_area_instance.html#a183dedca7a87e68becdf07f43ecb5812":[2,0,2081,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "d5/dd7/_action_disinfect_self_8c.html#a00cda41fe9dd093059da5c4b83b591bc":[3,0,0,3,0,30,1,3,0,5,6],
 "d5/dd7/_action_disinfect_self_8c.html#a2b51228f049403e15dcfaed3b197b6fd":[3,0,0,3,0,30,1,3,0,5,3],
 "d5/dd7/_action_disinfect_self_8c.html#a6b922d3bb1d26f790bc52030566ba2df":[3,0,0,3,0,30,1,3,0,5,4],
-"d5/dd7/_action_disinfect_self_8c.html#aa9aa4864fae11769c65e644b5fd97c66":[3,0,0,3,0,30,1,3,0,5,2],
-"d5/dd7/_action_disinfect_self_8c.html#ab80733e1a8c145c8ee7b04476d535d72":[3,0,0,3,0,30,1,3,0,5,5]
+"d5/dd7/_action_disinfect_self_8c.html#aa9aa4864fae11769c65e644b5fd97c66":[3,0,0,3,0,30,1,3,0,5,2]
 };

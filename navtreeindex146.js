@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"db/d83/class_p_p_effects.html#a5622a51ff3f58b82ccecdb467160c553":[2,0,2140,13],
 "db/d83/class_p_p_effects.html#a5b3222351aa48b57b67db636bcce2f7c":[2,0,2140,3],
 "db/d83/class_p_p_effects.html#a5deb352074ecbb636a0a0e20a630583e":[2,0,2140,44],
 "db/d83/class_p_p_effects.html#a626e3c685485c8813b6ae94115ead60c":[2,0,2140,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html":[2,0,1029,134],
 "db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,1029,134,0],
 "db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,1029,134,3],
-"db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,1029,134,1],
-"db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,1029,134,2]
+"db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,1029,134,1]
 };

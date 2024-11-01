@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"d3/dae/class_slots_icon.html#a3c15731bc0384e1e2105474bf6edc231":[2,0,2354,18],
 "d3/dae/class_slots_icon.html#a3da3ea312d0e0f7e51a2dfe3a4a64c2f":[2,0,2354,33],
 "d3/dae/class_slots_icon.html#a422abe5c1e33fc5c7d08a823d0377335":[2,0,2354,102],
 "d3/dae/class_slots_icon.html#a42e4b360bf0d3f641767685cd5089432":[2,0,2354,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "d3/dcf/class_roadflare.html#ab03f3e265d3c619523820c80db0d8503":[2,0,2242,33],
 "d3/dcf/class_roadflare.html#ab0bc5d5a61030cf16eb2f61cfd7b4a7b":[2,0,2242,38],
 "d3/dcf/class_roadflare.html#ab2df61f0d2a04faf06c95479ead62b60":[2,0,2242,55],
-"d3/dcf/class_roadflare.html#ab311cdf3df0e3547b7d3cd810e61ca61":[2,0,2242,10],
-"d3/dcf/class_roadflare.html#ab99a4ef9aa676f228c35135675451f24":[2,0,2242,40]
+"d3/dcf/class_roadflare.html#ab311cdf3df0e3547b7d3cd810e61ca61":[2,0,2242,10]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX109 =
 {
+"d8/dbb/_fireplace_base_8c.html#a6dd2a58b49721104e0079cb34fd417ef":[3,0,0,3,1,10,55,290],
 "d8/dbb/_fireplace_base_8c.html#a6f1ae7dc1df8edbbfe2261c8afb5da5f":[3,0,0,3,1,10,55,231],
 "d8/dbb/_fireplace_base_8c.html#a6f68854ceab4c553967b5dd473656ab6":[3,0,0,3,1,10,55,216],
 "d8/dbb/_fireplace_base_8c.html#a6f8780cb5e1565556e0561f64ce3607c":[3,0,0,3,1,10,55,301],
@@ -208,9 +209,9 @@ var NAVTREEINDEX109 =
 "d8/dbb/class_point_light_base.html#a7edf69dc0e9d447e4a7e25537275c3d9":[2,0,2118,8],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,2118,13],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,2118,14],
-"d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,2118,12],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,2118,10],
 "d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,2118,11],
+"d8/dbb/class_point_light_base.html#a7fed25634662984cb7fbd1151b41cae9":[2,0,2118,12],
 "d8/dbb/class_point_light_base.html#a83de8e434ccacf1822b8eabb81ac26e0":[2,0,2118,30],
 "d8/dbb/class_point_light_base.html#a883be311f35de01b2566be7caf1bd9bd":[2,0,2118,37],
 "d8/dbb/class_point_light_base.html#a8c8069b05a60f36608af036bdde47cc9":[2,0,2118,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX109 =
 "d8/dbd/class_heavy_metal_phase2_mdfr.html#ae84c054b68ebfd7a4a1e35239e4a6aaa":[2,0,1508,4],
 "d8/dbd/class_object_collision_info.html":[2,0,1969],
 "d8/dbd/class_object_collision_info.html#a18b899139e7f2270e29a90230cb6b4ef":[2,0,1969,2],
-"d8/dbd/class_object_collision_info.html#a2a8cc6fa7f97c4f47d3359befa6ab19a":[2,0,1969,1],
-"d8/dbd/class_object_collision_info.html#a8011c737db2d0bad3c2dac5c626fcb5c":[2,0,1969,0]
+"d8/dbd/class_object_collision_info.html#a2a8cc6fa7f97c4f47d3359befa6ab19a":[2,0,1969,1]
 };

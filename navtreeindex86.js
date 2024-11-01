@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"d6/dbc/class_default_action_input.html#a9ded4134ed8d70f9a0e01675169214e6":[2,0,1226,1],
 "d6/dbc/class_default_action_input.html#ada4783119023c7a224be46b7158b1b95":[2,0,1226,0],
 "d6/dbc/class_default_action_input.html#aecf24650b7377da61d741b989adad3a6":[2,0,1226,2],
 "d6/dbd/_action_eat_8c.html":[3,0,0,3,0,30,1,0,60],
@@ -134,8 +135,8 @@ var NAVTREEINDEX86 =
 "d6/dd7/class_display_element_badge.html#a87d1d39fcbf705799c8f7e2781f638a7":[2,0,1253,1],
 "d6/dd7/class_display_element_badge.html#a91a0515ae2bd0b0caf428240f7fb3d51":[2,0,1253,6],
 "d6/dd7/class_display_element_badge.html#a98a3323e3b6b969eeed2415308c10cbe":[2,0,1253,2],
-"d6/dd7/class_display_element_badge.html#aa15e303cfeeba78f51c9057f1abf76b9":[2,0,1253,10],
 "d6/dd7/class_display_element_badge.html#aa15e303cfeeba78f51c9057f1abf76b9":[2,0,1253,9],
+"d6/dd7/class_display_element_badge.html#aa15e303cfeeba78f51c9057f1abf76b9":[2,0,1253,10],
 "d6/dd7/class_display_element_badge.html#ad053e77e06157cffabbf8d994e579022":[2,0,1253,8],
 "d6/dd7/class_display_element_badge.html#afaefbce7dc55c4e8c0815f64bd05c12a":[2,0,1253,7],
 "d6/dd8/_land___village___pub_8c.html":[3,0,0,3,1,1,2,1,16],
@@ -241,13 +242,12 @@ var NAVTREEINDEX86 =
 "d6/de1/class_mask___base.html#aad5d9cab4ab598511b9ff00ab8dc9b0f":[2,0,1880,7],
 "d6/de1/class_mask___base.html#aafac0842577356f878e87cbecd8dbdc1":[2,0,1880,4],
 "d6/de1/class_mask___base.html#abb2c7bcca55bca7ce4bf27e4a811f28d":[2,0,1880,26],
-"d6/de1/class_mask___base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1880,17],
 "d6/de1/class_mask___base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1880,18],
 "d6/de1/class_mask___base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1880,19],
 "d6/de1/class_mask___base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1880,16],
+"d6/de1/class_mask___base.html#abb31df34d18be9cfd04b07d55bba5eec":[2,0,1880,17],
 "d6/de1/class_mask___base.html#abd4df19855f70f51c54baf6e0e52b488":[2,0,1880,35],
 "d6/de1/class_mask___base.html#ac119d62d5c3f066dccc7c6741b58544e":[2,0,1880,25],
 "d6/de1/class_mask___base.html#ac49b1cab32f5eab70aab44528726e721":[2,0,1880,27],
-"d6/de1/class_mask___base.html#addc33b4b37ffffa2ac3daa320e1ae72f":[2,0,1880,34],
-"d6/de1/class_mask___base.html#ae0d251e23b974adefb41a65a7c832b5e":[2,0,1880,1]
+"d6/de1/class_mask___base.html#addc33b4b37ffffa2ac3daa320e1ae72f":[2,0,1880,34]
 };

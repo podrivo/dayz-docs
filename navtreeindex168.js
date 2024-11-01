@@ -1,5 +1,6 @@
 var NAVTREEINDEX168 =
 {
+"dd/d5d/class_plugin_recipes_manager_base.html#a5cd3e4ba525b9c280662975cab16327a":[2,0,2111,50],
 "dd/d5d/class_plugin_recipes_manager_base.html#a5d0e28cfe3b57a4a63cb6bb60ce695db":[2,0,2111,33],
 "dd/d5d/class_plugin_recipes_manager_base.html#a61a5128525cda0eef6f16b1e50292467":[2,0,2111,23],
 "dd/d5d/class_plugin_recipes_manager_base.html#a662d3ea98e124aa7cfc74d0a8993fe5f":[2,0,2111,57],
@@ -248,6 +249,5 @@ var NAVTREEINDEX168 =
 "dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html#a1c52cd3d79b5456b908d5b6adbcd4fad":[2,0,1683,4],
 "dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html#a3d88df6fcc7f1f9d61545f1f2a033811":[2,0,1683,5],
 "dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html#a62167be4ae369516b09462fc028fcd49":[2,0,1683,0],
-"dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html#a7b7ab21dbd873fb87ddfbbe388df0b44":[2,0,1683,6],
-"dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html#ab80c9cb738a696afa8011ac7dd2beff3":[2,0,1683,8]
+"dd/d78/class_json_file_loader_3_01_class_01_t_01_4.html#a7b7ab21dbd873fb87ddfbbe388df0b44":[2,0,1683,6]
 };

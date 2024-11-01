@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158898</div>
+   <div id="projectbrief">PC Stable v1.26.158950</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -189,7 +189,7 @@ Private Member Functions</h2></td></tr>
 <div class="line"> queue.<a class="code hl_function" href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">CallLater</a>(obj.Test, 3000, <span class="keyword">true</span>); <span class="comment">// adds call &#39;obj.Test()&#39; into queue, and it will be executed each 3s</span></div>
 <div class="line"> queue.<a class="code hl_function" href="../../dc/dac/class_script_call_queue.html#a90d46bca4f2fee822c985500e877b926">Call</a>(obj.Hello, 72, <span class="stringliteral">&quot;world 2&quot;</span>); <span class="comment">// adds call &#39;obj.Hello(72, &quot;world 2&quot;)&#39; into queue, and it will be executed next frame (on next call of ScriptCallQueue.Tick)</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_c_game_html_a6fc4a6c17be8c60874f4e4a72649a2c1"><div class="ttname"><a href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue</a></div><div class="ttdeci">override ScriptCallQueue GetCallQueue(int call_category)</div><div class="ttdef"><b>Definition</b> DayZGame.c:1179</div></div>
+<div class="ttc" id="aclass_c_game_html_a6fc4a6c17be8c60874f4e4a72649a2c1"><div class="ttname"><a href="../../d2/de6/class_c_game.html#a6fc4a6c17be8c60874f4e4a72649a2c1">CGame::GetCallQueue</a></div><div class="ttdeci">override ScriptCallQueue GetCallQueue(int call_category)</div><div class="ttdef"><b>Definition</b> DayZGame.c:1184</div></div>
 <div class="ttc" id="aclass_script_call_queue_html"><div class="ttname"><a href="../../dc/dac/class_script_call_queue.html">ScriptCallQueue</a></div><div class="ttdoc">ScriptCallQueue Class provide &quot;lazy&quot; calls - when we don't want to execute function immediately but l...</div><div class="ttdef"><b>Definition</b> tools.c:53</div></div>
 <div class="ttc" id="aclass_script_call_queue_html_a436cc98ddd2565bccd74ef840efaa38a"><div class="ttname"><a href="../../dc/dac/class_script_call_queue.html#a436cc98ddd2565bccd74ef840efaa38a">ScriptCallQueue::CallLater</a></div><div class="ttdeci">proto void CallLater(func fn, int delay=0, bool repeat=false, void param1=NULL, void param2=NULL, void param3=NULL, void param4=NULL, void param5=NULL, void param6=NULL, void param7=NULL, void param8=NULL, void param9=NULL)</div><div class="ttdoc">adds call into the queue with given parameters and arguments (arguments are held in memory until the ...</div></div>
 <div class="ttc" id="aclass_script_call_queue_html_a90d46bca4f2fee822c985500e877b926"><div class="ttname"><a href="../../dc/dac/class_script_call_queue.html#a90d46bca4f2fee822c985500e877b926">ScriptCallQueue::Call</a></div><div class="ttdeci">proto void Call(func fn, void param1=NULL, void param2=NULL, void param3=NULL, void param4=NULL, void param5=NULL, void param6=NULL, void param7=NULL, void param8=NULL, void param9=NULL)</div><div class="ttdoc">adds call into the queue with given parameters and arguments (arguments are held in memory until the ...</div></div>

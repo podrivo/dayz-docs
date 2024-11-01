@@ -1,5 +1,6 @@
 var NAVTREEINDEX148 =
 {
+"db/dcd/_rest_api_8c.html#ae4789e7b6cc16554fc993ccfc91fc37f":[3,0,0,2,11,3,5],
 "db/dcd/class_ammo__762x39_tracer.html":[2,0,597],
 "db/dcf/_plugin_repairing_8c.html":[3,0,0,3,2,0,25],
 "db/dd0/_magnum_8c.html":[3,0,0,3,1,6,5,8],
@@ -14,8 +15,8 @@ var NAVTREEINDEX148 =
 "db/dd0/_magnum_8c.html#a8fba6d4213ebbe1820d719974f601736":[3,0,0,3,1,6,5,8,5],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9c":[3,0,0,3,1,6,5,8,4],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca6ce26a62afab55d7606ad4e92428b30c":[3,0,0,3,1,6,5,8,4,0],
-"db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,6,5,8,3,0],
 "db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,6,5,8,4,1],
+"db/dd0/_magnum_8c.html#a9c20a170ad58d56f28b10ce98f02cb9ca88ec7d5086d2469ba843c7fcceade8a6":[3,0,0,3,1,6,5,8,3,0],
 "db/dd0/_magnum_8c.html#a9f7122d8e57dcec0a8aa49227b8be502":[3,0,0,3,1,6,5,8,13],
 "db/dd0/_magnum_8c.html#aa40f8697dfa587f8adabc8640bc98ad8":[3,0,0,3,1,6,5,8,11],
 "db/dd0/_magnum_8c.html#aac14d196e64cad535c5aa50f0c954df3":[3,0,0,3,1,6,5,8,8],
@@ -141,8 +142,8 @@ var NAVTREEINDEX148 =
 "db/de5/class_weapon.html#a86bfd5735550bb84e4cbac165bb10642":[2,0,2840,120],
 "db/de5/class_weapon.html#a870b0dcd0dfafe4a764232688d9356c0":[2,0,2840,19],
 "db/de5/class_weapon.html#a893525a91cbcd48916cbb28902b5b90e":[2,0,2840,34],
-"db/de5/class_weapon.html#a899edd684c680e7c0a3448fef32f5892":[2,0,2840,37],
 "db/de5/class_weapon.html#a899edd684c680e7c0a3448fef32f5892":[2,0,2840,38],
+"db/de5/class_weapon.html#a899edd684c680e7c0a3448fef32f5892":[2,0,2840,37],
 "db/de5/class_weapon.html#a8d3037afa92ae221a061880116eb6fd0":[2,0,2840,92],
 "db/de5/class_weapon.html#a935c8bf91c4a4874804751a7d1ae4147":[2,0,2840,114],
 "db/de5/class_weapon.html#a94e94836ed80bf81df4751938ab00cbc":[2,0,2840,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX148 =
 "db/def/_action_build_part_8c.html#a1f5e35a1de042d810f40dc7892ae5c5c":[3,0,0,3,0,30,1,0,8,23],
 "db/def/_action_build_part_8c.html#a1f7399d8d410ac172ef0e5f4c4bbb4eb":[3,0,0,3,0,30,1,0,8,5],
 "db/def/_action_build_part_8c.html#a2b6dbc5004ccc3fb83b39577c5ae9b32":[3,0,0,3,0,30,1,0,8,16],
-"db/def/_action_build_part_8c.html#a2f3b237de46781390edea723f51ee450":[3,0,0,3,0,30,1,0,8,19],
-"db/def/_action_build_part_8c.html#a466eac7887a013e7294d1a4f0f9875fe":[3,0,0,3,0,30,1,0,8,11]
+"db/def/_action_build_part_8c.html#a2f3b237de46781390edea723f51ee450":[3,0,0,3,0,30,1,0,8,19]
 };

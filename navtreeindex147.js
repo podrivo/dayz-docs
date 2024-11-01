@@ -1,5 +1,6 @@
 var NAVTREEINDEX147 =
 {
+"db/da8/class_cfg_slots_1_1_slot___material___f_pole___metal_wire.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,1029,134,2],
 "db/da8/class_ruger1022___base.html":[2,0,2246],
 "db/da8/class_ruger1022___base.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,2246,0],
 "db/da8/class_ruger1022___base.html#ac70edd5184853723a0f14d8d7e9622cf":[2,0,2246,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX147 =
 "db/dcd/_rest_api_8c.html#ae343a028e59cd4464e1d2ae4a900594d":[3,0,0,2,11,3,3],
 "db/dcd/_rest_api_8c.html#ae343a028e59cd4464e1d2ae4a900594da7b2a2df995f476c9cdfb13f3aaccf330":[3,0,0,2,11,3,3,1],
 "db/dcd/_rest_api_8c.html#ae343a028e59cd4464e1d2ae4a900594dabf2acfc1536f608fd733057c780aa726":[3,0,0,2,11,3,3,0],
-"db/dcd/_rest_api_8c.html#ae343a028e59cd4464e1d2ae4a900594dac7a1b14d452153b0e38a102d83c48d13":[3,0,0,2,11,3,3,2],
-"db/dcd/_rest_api_8c.html#ae4789e7b6cc16554fc993ccfc91fc37f":[3,0,0,2,11,3,5]
+"db/dcd/_rest_api_8c.html#ae343a028e59cd4464e1d2ae4a900594dac7a1b14d452153b0e38a102d83c48d13":[3,0,0,2,11,3,3,2]
 };

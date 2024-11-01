@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"dc/d11/class_game_inventory.html#a01d5c57b1de038e10f6660a923211219":[2,0,1416,143],
 "dc/d11/class_game_inventory.html#a042a95b663f3782f5134103c7cf05887":[2,0,1416,89],
 "dc/d11/class_game_inventory.html#a04a8d7afe81bdeb65ea82afab53bd5fa":[2,0,1416,74],
 "dc/d11/class_game_inventory.html#a059ee2d75f46577c59cf068fd098477a":[2,0,1416,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "dc/d1a/class_get_servers_result.html#a6c9f44c56aa53a96e270d5bfb2c9cb4d":[2,0,1428,0],
 "dc/d1a/class_get_servers_result.html#a6ded1b6504d61f7837d36d755c7c73c3":[2,0,1428,2],
 "dc/d1a/class_get_servers_result.html#abfc1cf4f663773904cf9c29b8f128655":[2,0,1428,1],
-"dc/d1c/_totem_8c.html":[3,0,0,3,1,10,1,2],
-"dc/d1c/class_zagorky___color_base.html":[2,0,2934]
+"dc/d1c/_totem_8c.html":[3,0,0,3,1,10,1,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"d6/d0e/class_inventory_item.html#afb8877efa9205f8cb87bff9ccb47209f":[2,0,1628,164],
 "d6/d0e/class_inventory_item.html#afb8fece5a93de4651fe95beb07ff3288":[2,0,1628,181],
 "d6/d0e/class_inventory_item.html#afbb1a46a5bd0fa67705b280a34e1ab25":[2,0,1628,157],
 "d6/d0e/class_inventory_item.html#afc66b8659f1dc6856458373cdf7be60c":[2,0,1628,336],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "d6/d23/class_land___warhead_storage___power_station.html#a920704f2f5940090e94bc5138f40375c":[2,0,1737,17],
 "d6/d23/class_land___warhead_storage___power_station.html#a97d8898cac5cf8afe6482ed40e680166":[2,0,1737,1],
 "d6/d23/class_land___warhead_storage___power_station.html#aa292cdb288cb032dcf8b641374e88dea":[2,0,1737,6],
-"d6/d23/class_land___warhead_storage___power_station.html#aa6072776d516165062f09ca7f10678aa":[2,0,1737,18],
-"d6/d23/class_land___warhead_storage___power_station.html#abaf4bc6a7c5e75d5d8e5f24b2d3659b6":[2,0,1737,13]
+"d6/d23/class_land___warhead_storage___power_station.html#aa6072776d516165062f09ca7f10678aa":[2,0,1737,18]
 };

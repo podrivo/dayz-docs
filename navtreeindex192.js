@@ -1,5 +1,6 @@
 var NAVTREEINDEX192 =
 {
+"de/df0/_construction_8c.html#aa69354c279b50333a9920344bfce80e2":[3,0,0,3,0,2,0,41],
 "de/df0/_construction_8c.html#aabd0835f9c999cac82097c9a2b43f0dd":[3,0,0,3,0,2,0,18],
 "de/df0/_construction_8c.html#aaccbb03d20e01f568a4d8eaf5a83fd39":[3,0,0,3,0,2,0,56],
 "de/df0/_construction_8c.html#aae06cf6a4d0ed021e9ef6a9260c57897":[3,0,0,3,0,2,0,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX192 =
 "df/d02/_plugin_presence_notifier_8c.html#ab9ff4fca4b532087b60ae699b05bbf2e":[3,0,0,3,2,0,23,20],
 "df/d02/_plugin_presence_notifier_8c.html#aba0505c11b0a807229d7c683445a4fd7":[3,0,0,3,2,0,23,10],
 "df/d02/_plugin_presence_notifier_8c.html#ac919e8eb5c45e16b44eff9c1ff4dae4e":[3,0,0,3,2,0,23,22],
-"df/d02/_plugin_presence_notifier_8c.html#aca1ae67d602a2a6bd035085e514e95e8":[3,0,0,3,2,0,23,36],
-"df/d02/_plugin_presence_notifier_8c.html#acb0fafebe7be2e57f511fe083f9f64ce":[3,0,0,3,2,0,23,33]
+"df/d02/_plugin_presence_notifier_8c.html#aca1ae67d602a2a6bd035085e514e95e8":[3,0,0,3,2,0,23,36]
 };

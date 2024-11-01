@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"d3/def/class_player_constants.html#aa73359a9059056b40d58d68f5e637300":[2,0,2074,129],
 "d3/def/class_player_constants.html#aa875a47cf63db0997e6bd293471ab967":[2,0,2074,74],
 "d3/def/class_player_constants.html#aaba8025ac629aaa4cf58abc376f3bba5":[2,0,2074,86],
 "d3/def/class_player_constants.html#aacc777e53099c942bfdabd1892907905":[2,0,2074,159],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "d4/d0a/class_cfg_slots_1_1_slot___truck_battery.html#a79d1b0e96e042367a41a73d13a4a09f1":[2,0,1029,310,3],
 "d4/d0a/class_cfg_slots_1_1_slot___truck_battery.html#a8cb78570785fa7a30fb768eb84626d32":[2,0,1029,310,1],
 "d4/d0a/class_cfg_slots_1_1_slot___truck_battery.html#ab74e6bf80237ddc4109968cedc58c151":[2,0,1029,310,2],
-"d4/d0a/class_cfg_slots_1_1_slot___v3_s_hood.html":[2,0,1029,320],
-"d4/d0a/class_cfg_slots_1_1_slot___v3_s_hood.html#a4749eb4ff1eac6f4be45afb16fa91175":[2,0,1029,320,0]
+"d4/d0a/class_cfg_slots_1_1_slot___v3_s_hood.html":[2,0,1029,320]
 };

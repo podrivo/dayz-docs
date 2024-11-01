@@ -1,5 +1,6 @@
 var NAVTREEINDEX156 =
 {
+"dc/d81/class_army_pouch___color_base.html#a05eab95952a189dc9e08ccecec41b51a":[2,0,672,0],
 "dc/d81/class_refrigerator_minsk.html":[2,0,2202],
 "dc/d82/_hand___actions_8c.html":[3,0,0,2,17,5,3],
 "dc/d83/class_overheating_particle.html":[2,0,1997],
@@ -248,6 +249,5 @@ var NAVTREEINDEX156 =
 "dc/d98/_misc_gameplay_functions_8c.html#ad4a290a67dc415b16d59748f5d2092a0":[3,0,0,3,3,3,90],
 "dc/d98/_misc_gameplay_functions_8c.html#ad4fd229674250ece2418569706c4af9c":[3,0,0,3,3,3,51],
 "dc/d98/_misc_gameplay_functions_8c.html#add1c838e4b3ac62db1e2f835098499c1":[3,0,0,3,3,3,69],
-"dc/d98/_misc_gameplay_functions_8c.html#ae2ad7e8a734c42bbf2952f4517e7e7cb":[3,0,0,3,3,3,47],
-"dc/d98/_misc_gameplay_functions_8c.html#ae5f999f23774c37b15fb0f222928e27d":[3,0,0,3,3,3,77]
+"dc/d98/_misc_gameplay_functions_8c.html#ae2ad7e8a734c42bbf2952f4517e7e7cb":[3,0,0,3,3,3,47]
 };

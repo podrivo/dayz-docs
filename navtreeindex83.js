@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d6/d5e/class_action_collect_blood_target.html":[2,0,63],
 "d6/d5e/class_action_collect_blood_target.html#a2ebf3855cc8960864124ba5ca4949033":[2,0,63,2],
 "d6/d5e/class_action_collect_blood_target.html#a6b922d3bb1d26f790bc52030566ba2df":[2,0,63,1],
 "d6/d5e/class_action_collect_blood_target.html#a92051679b9f0b8fb6373e344ce0e555c":[2,0,63,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d6/d88/_soft_skills_manager_8c.html#a4db5cc050d02a0486e9a48c88a7c9d07":[3,0,0,3,0,67,8],
 "d6/d88/_soft_skills_manager_8c.html#a72a70b237fba6353e059675e57935bde":[3,0,0,3,0,67,7],
 "d6/d88/_soft_skills_manager_8c.html#a7cd72e2d7c3c7f384f42d0f11c4d6075":[3,0,0,3,0,67,1],
-"d6/d88/_soft_skills_manager_8c.html#abe8140b3d3060368ef636c5971d9737d":[3,0,0,3,0,67,5],
-"d6/d88/_soft_skills_manager_8c.html#ac13bcc15ea4365ce22fbaa4c4ca158ad":[3,0,0,3,0,67,10]
+"d6/d88/_soft_skills_manager_8c.html#abe8140b3d3060368ef636c5971d9737d":[3,0,0,3,0,67,5]
 };
