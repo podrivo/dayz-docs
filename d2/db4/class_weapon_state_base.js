@@ -5,6 +5,8 @@ var class_weapon_state_base =
     [ "AttachNewMagazine", "d2/db4/class_weapon_state_base.html#aed5399be5b088e1e61062ae87ef640da", null ],
     [ "DetachOldMagazine", "d2/db4/class_weapon_state_base.html#a5580d58ddb8102d6ba957252b3036462", null ],
     [ "FindNextFreeMuzzle", "d2/db4/class_weapon_state_base.html#a7c2157c356deb6581bac9341f5071e01", null ],
+    [ "GetCoolDown", "d2/db4/class_weapon_state_base.html#a0131a0d17b622c423a3cba7d9b149e3e", null ],
+    [ "GetCoolDown", "d2/db4/class_weapon_state_base.html#a7b3392e5b22c47bacc3224a9810c6490", null ],
     [ "GetFSM", "d2/db4/class_weapon_state_base.html#a39ef2d250f01c22bbf309d35bf188ca8", null ],
     [ "GetInternalStateID", "d2/db4/class_weapon_state_base.html#a893525a91cbcd48916cbb28902b5b90e", null ],
     [ "GetParentState", "d2/db4/class_weapon_state_base.html#a63b8a9374a5eeabf9cb8d39c136a5f4e", null ],

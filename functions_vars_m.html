@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158950</div>
+   <div id="projectbrief">PC Stable v1.26.159040</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -188,6 +188,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_ActiveSymptomIndexPrimary&#160;:&#160;<a class="el" href="dd/d8b/class_symptom_manager.html#a2bed648539732b8205ec26812e673b64">SymptomManager</a></li>
 <li>m_ActiveSymptomTypes&#160;:&#160;<a class="el" href="dd/d8b/class_symptom_manager.html#a148c5738673066ae437c86c47501dae5">SymptomManager</a></li>
 <li>m_ActiveTabIdx&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a9ae2de07497b4180e8ca286dd080fa9c">UIScriptedMenu</a></li>
+<li>m_ActiveTemperatureThreshold&#160;:&#160;<a class="el" href="db/d79/class_universal_temperature_source_settings.html#a5327571ec42ce776bc4ac90b3cf315ab">UniversalTemperatureSourceSettings</a></li>
 <li>m_ActiveUIMenuID&#160;:&#160;<a class="el" href="d3/d64/class_key_binding.html#abdd25182d428e9e147bf99b4aaeee3d6">KeyBinding</a>, <a class="el" href="dd/d12/class_mouse_binding.html#abdd25182d428e9e147bf99b4aaeee3d6">MouseBinding</a></li>
 <li>m_ActiveVaultType&#160;:&#160;<a class="el" href="dd/dca/class_day_z_infected.html#ab70d5db52ad06a757bbb84789ae0a80c">DayZInfected</a></li>
 <li>m_ActiveVehicleHUD&#160;:&#160;<a class="el" href="d5/dbf/class_hud.html#a55da335c72b4aab30f8d2bcbc1772147">Hud</a></li>
@@ -1032,6 +1033,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_CookingProcess&#160;:&#160;<a class="el" href="d2/df6/class_c_a_continuous_time_cooking.html#a8b9207e084b725da7a870697c29c092b">CAContinuousTimeCooking</a>, <a class="el" href="de/d7a/class_item_base.html#a548c0a82843ffa65a8cd3808fe23dab2">ItemBase</a></li>
 <li>m_CookingUpdateTime&#160;:&#160;<a class="el" href="d2/df6/class_c_a_continuous_time_cooking.html#af30e7891bc65cb811ac800abe9ad5e77">CAContinuousTimeCooking</a></li>
 <li>m_Cooldown&#160;:&#160;<a class="el" href="de/d99/class_day_z_infected_attack_type.html#af1a3bf3af0446340a7aec252767b073c">DayZInfectedAttackType</a>, <a class="el" href="d4/d64/class_spooky_event_base.html#a9370275e58369e512eb3260f370f21d6">SpookyEventBase</a></li>
+<li>m_coolDownTime&#160;:&#160;<a class="el" href="db/de5/class_weapon.html#a17eb879b79b5ad7958061884fa0b58cc">Weapon</a></li>
 <li>m_CooldownTimer&#160;:&#160;<a class="el" href="d2/daa/class_presence_notifier_noise_events.html#a062cc4a94a147a322866aea96246cab3">PresenceNotifierNoiseEvents</a></li>
 <li>m_CoolDownTimer&#160;:&#160;<a class="el" href="dc/d5e/class_soft_skills_manager.html#ab05ddcd8bb712a2954a7bcbe0ae7ada5">SoftSkillsManager</a></li>
 <li>m_CoolDownValue&#160;:&#160;<a class="el" href="dc/d5e/class_soft_skills_manager.html#ae2506a9f922bb86799f411a40a950c24">SoftSkillsManager</a></li>
@@ -1485,6 +1487,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_EnableDebugCrafting&#160;:&#160;<a class="el" href="dd/d5d/class_plugin_recipes_manager_base.html#a87354688fe41f82b6b4f452688643b9a">PluginRecipesManagerBase</a></li>
 <li>m_EnabledLogs&#160;:&#160;<a class="el" href="da/d7d/class_debug.html#a4a68e58c00935daac75de2432cc36ecd">Debug</a></li>
 <li>m_EnableHitIndication&#160;:&#160;<a class="el" href="dc/da8/class_bleeding_sources_manager_base.html#aba1ae96151350207dab187a0d779de7c">BleedingSourcesManagerBase</a></li>
+<li>m_EnableOnTemperatureControl&#160;:&#160;<a class="el" href="db/d79/class_universal_temperature_source_settings.html#abf0841ba1f408eb09775ea9dc81f3218">UniversalTemperatureSourceSettings</a></li>
 <li>m_endActionType&#160;:&#160;<a class="el" href="d2/db4/class_weapon_state_base.html#a31ba4723c187888c7009eee8ab61d4aa">WeaponStateBase</a></li>
 <li>m_endLoop&#160;:&#160;<a class="el" href="d2/db4/class_weapon_state_base.html#abc059269bd2ddd830ce2bc2b3dd63a11">WeaponStateBase</a></li>
 <li>m_EndNow&#160;:&#160;<a class="el" href="dd/d17/class_managed.html#a8f27be15db2b78970f3813e465c25cd9">Managed</a></li>
@@ -1671,7 +1674,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_FireParticle&#160;:&#160;<a class="el" href="d1/d00/class_flammable_base.html#a53960e1f373644b25ba1c80d94e3f102">FlammableBase</a></li>
 <li>m_FireplaceBrightness&#160;:&#160;<a class="el" href="d8/dbb/class_point_light_base.html#a55e91259c5aadba018fff035d3436646">PointLightBase</a></li>
 <li>m_FireplaceRadius&#160;:&#160;<a class="el" href="d8/dbb/class_point_light_base.html#acff072afdbfc3507f8165a25f22501f3">PointLightBase</a></li>
-<li>m_FirePointIndex&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#a77bc9df972f100ecb36e1277a51fefac">FireplaceBase</a></li>
+<li>m_FirePointIndex&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#a77bc9df972f100ecb36e1277a51fefac">FireplaceBase</a>, <a class="el" href="dc/d3c/class_fireplace_indoor.html#a77bc9df972f100ecb36e1277a51fefac">FireplaceIndoor</a></li>
 <li>m_FireRadius&#160;:&#160;<a class="el" href="d8/dbb/class_point_light_base.html#aca7ef724d8e6329ac6ea794b26dc01ea">PointLightBase</a></li>
 <li>m_FireSelectionName&#160;:&#160;<a class="el" href="db/d8f/class_bleeding_source_zone.html#a808fff0a7cac606c465eea252f15dcf6">BleedingSourceZone</a></li>
 <li>m_FireSound&#160;:&#160;<a class="el" href="da/de8/class_fireworks_launcher_client_event.html#a73be709419f8cafc2f27a0f712360e1a">FireworksLauncherClientEvent</a></li>
@@ -2128,6 +2131,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_ImpactSpeed&#160;:&#160;<a class="el" href="d6/d0e/class_inventory_item.html#aec590204c8f16d183aa619f4a955b58e">InventoryItem</a></li>
 <li>m_ImpactType&#160;:&#160;<a class="el" href="d3/ddb/class_eff_bullet_impact_base.html#a0cdf5eb05a01609803b20f0d553f99b3">EffBulletImpactBase</a></li>
 <li>m_Impulse&#160;:&#160;<a class="el" href="dc/dc0/class_vehicle_contact_data.html#a596cef28d942a84990481b27d5e47f41">VehicleContactData</a></li>
+<li>m_InactiveTemperatureThreshold&#160;:&#160;<a class="el" href="db/d79/class_universal_temperature_source_settings.html#aa717176973afafaa18eb81240ce5858f">UniversalTemperatureSourceSettings</a></li>
 <li>m_IncomingLambdaChange&#160;:&#160;<a class="el" href="d6/de1/class_mask___base.html#addc33b4b37ffffa2ac3daa320e1ae72f">Mask_Base</a></li>
 <li>m_Index&#160;:&#160;<a class="el" href="da/d2f/class_c_t_object_follower.html#a6c11dc7090ee5af7017481b744903bd9">CTObjectFollower</a>, <a class="el" href="d9/db5/class_fireworks_launcher.html#a54a6edfdfd1da0e8da5045bc504f9873">FireworksLauncher</a>, <a class="el" href="da/de8/class_fireworks_launcher_client_event.html#a6c11dc7090ee5af7017481b744903bd9">FireworksLauncherClientEvent</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a6c11dc7090ee5af7017481b744903bd9">ScriptedWidgetEventHandler</a></li>
 <li>m_IndexPrev&#160;:&#160;<a class="el" href="d9/db5/class_fireworks_launcher.html#a9a8a3894d07e596db4eb8f04f52623aa">FireworksLauncher</a></li>
@@ -2606,8 +2610,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_LastValidComponentIndex&#160;:&#160;<a class="el" href="d6/dec/class_action_repair_car_chassis.html#ad4e1d255b7aec4a80c1b3fdb118ab61b">ActionRepairCarChassis</a>, <a class="el" href="dc/db2/class_action_repair_car_part.html#a7501953287df7a0835c3fb6dd013efd0">ActionRepairCarPart</a>, <a class="el" href="da/dff/class_action_repair_tent.html#a7501953287df7a0835c3fb6dd013efd0">ActionRepairTent</a>, <a class="el" href="d5/da3/class_action_repair_tent_part.html#a7501953287df7a0835c3fb6dd013efd0">ActionRepairTentPart</a></li>
 <li>m_LastValidType&#160;:&#160;<a class="el" href="d6/dec/class_action_repair_car_chassis.html#a4a5a38549f681a411f6c9c4a182f2672">ActionRepairCarChassis</a>, <a class="el" href="dc/db2/class_action_repair_car_part.html#a12138d9ae069f786d0fe9c6b92a8d972">ActionRepairCarPart</a>, <a class="el" href="da/dff/class_action_repair_tent.html#a12138d9ae069f786d0fe9c6b92a8d972">ActionRepairTent</a>, <a class="el" href="d5/da3/class_action_repair_tent_part.html#a12138d9ae069f786d0fe9c6b92a8d972">ActionRepairTentPart</a></li>
 <li>m_LastWaterLevel&#160;:&#160;<a class="el" href="d4/d6f/class_immunity_boost.html#af45298b903c7b41c191b3127f977f9ba">ImmunityBoost</a>, <a class="el" href="d6/dfa/class_thirst_mdfr.html#af45298b903c7b41c191b3127f977f9ba">ThirstMdfr</a></li>
-<li>m_lastWeather&#160;:&#160;<a class="el" href="dc/d97/class_enoch_data.html#a627fe9e74122032009f1ad77549da2fa">EnochData</a>, <a class="el" href="d0/d24/class_world_data.html#a627fe9e74122032009f1ad77549da2fa">WorldData</a></li>
+<li>m_lastWeather&#160;:&#160;<a class="el" href="dc/d97/class_enoch_data.html#a627fe9e74122032009f1ad77549da2fa">EnochData</a></li>
 <li>m_LastWeather&#160;:&#160;<a class="el" href="d0/d24/class_world_data.html#a631c3366251a4074a461e79417a8bfff">WorldData</a></li>
+<li>m_lastWeather&#160;:&#160;<a class="el" href="d0/d24/class_world_data.html#a627fe9e74122032009f1ad77549da2fa">WorldData</a></li>
 <li>m_LateInit&#160;:&#160;<a class="el" href="d8/dc4/class_script_console_general_tab.html#aac3a50aeeafe11d4f69291c96c7197b1">ScriptConsoleGeneralTab</a></li>
 <li>m_LayerInfo&#160;:&#160;<a class="el" href="d9/d75/class_p_p_e_mat_class_parameter_command_data.html#a468fe6e03c76bcb521621756eb0941fa">PPEMatClassParameterCommandData</a></li>
 <li>m_LayoutName&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#a182126ea9f28c710a11899b9c3865638">ScriptedWidgetEventHandler</a></li>
@@ -2946,7 +2951,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_muzzle&#160;:&#160;<a class="el" href="dc/d3f/class_weapon_guard_base.html#acae9e8ac843a4f06f05d705be2e63b77">WeaponGuardBase</a></li>
 <li>m_MuzzleIndex&#160;:&#160;<a class="el" href="da/d51/class_weapon_particles_base.html#a8e92c23b46b5438b869de1090967cf63">WeaponParticlesBase</a></li>
 <li>m_MySocketID&#160;:&#160;<a class="el" href="d6/de6/class_component_energy_manager.html#ab141eeb51886e51d23f702a24f6f0373">ComponentEnergyManager</a></li>
-<li>m_Name&#160;:&#160;<a class="el" href="d5/dd5/class_action_lock_attachment.html#a2fb77be5fabf5cb1adbb7726e6dec5cb">ActionLockAttachment</a>, <a class="el" href="d6/d8f/class_construction_part.html#a47b482481f61a0e0959389f2547b658f">ConstructionPart</a>, <a class="el" href="db/d0c/class_cross_hair.html#afe942b303eee5ebb343ccae4a8583779">CrossHair</a>, <a class="el" href="d8/d88/class_day_z_a_i_hit_component.html#a47b482481f61a0e0959389f2547b658f">DayZAIHitComponent</a>, <a class="el" href="d3/d02/class_debug_agent_data.html#a47b482481f61a0e0959389f2547b658f">DebugAgentData</a>, <a class="el" href="da/d39/class_debug_modifier_data.html#a47b482481f61a0e0959389f2547b658f">DebugModifierData</a>, <a class="el" href="d9/d65/class_get_servers_input.html#a47b482481f61a0e0959389f2547b658f">GetServersInput</a>, <a class="el" href="d5/d36/class_get_servers_result_row.html#a47b482481f61a0e0959389f2547b658f">GetServersResultRow</a>, <a class="el" href="d9/da9/class_modifier_debug_obj.html#a47b482481f61a0e0959389f2547b658f">ModifierDebugObj</a>, <a class="el" href="de/deb/class_plugin_dayz_player_debug_user_data.html#afe942b303eee5ebb343ccae4a8583779">PluginDayzPlayerDebugUserData</a>, <a class="el" href="db/d2a/class_recipe_base.html#a47b482481f61a0e0959389f2547b658f">RecipeBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#afe942b303eee5ebb343ccae4a8583779">ScriptedWidgetEventHandler</a>, <a class="el" href="df/dcc/class_stat_debug_object.html#a47b482481f61a0e0959389f2547b658f">StatDebugObject</a>, <a class="el" href="d2/d88/class_synced_value.html#a47b482481f61a0e0959389f2547b658f">SyncedValue</a>, <a class="el" href="d4/db4/class_synced_value_modifier.html#a47b482481f61a0e0959389f2547b658f">SyncedValueModifier</a>, <a class="el" href="da/d51/class_weapon_particles_base.html#a47b482481f61a0e0959389f2547b658f">WeaponParticlesBase</a>, <a class="el" href="d9/d5e/class_workbench_plugin_attribute.html#a47b482481f61a0e0959389f2547b658f">WorkbenchPluginAttribute</a></li>
+<li>m_Name&#160;:&#160;<a class="el" href="d5/dd5/class_action_lock_attachment.html#a2fb77be5fabf5cb1adbb7726e6dec5cb">ActionLockAttachment</a>, <a class="el" href="d6/d8f/class_construction_part.html#a47b482481f61a0e0959389f2547b658f">ConstructionPart</a>, <a class="el" href="db/d0c/class_cross_hair.html#afe942b303eee5ebb343ccae4a8583779">CrossHair</a>, <a class="el" href="d8/d88/class_day_z_a_i_hit_component.html#a47b482481f61a0e0959389f2547b658f">DayZAIHitComponent</a>, <a class="el" href="d3/d02/class_debug_agent_data.html#a47b482481f61a0e0959389f2547b658f">DebugAgentData</a>, <a class="el" href="da/d39/class_debug_modifier_data.html#a47b482481f61a0e0959389f2547b658f">DebugModifierData</a>, <a class="el" href="d9/d65/class_get_servers_input.html#a47b482481f61a0e0959389f2547b658f">GetServersInput</a>, <a class="el" href="d5/d36/class_get_servers_result_row.html#a47b482481f61a0e0959389f2547b658f">GetServersResultRow</a>, <a class="el" href="d9/da9/class_modifier_debug_obj.html#a47b482481f61a0e0959389f2547b658f">ModifierDebugObj</a>, <a class="el" href="de/deb/class_plugin_dayz_player_debug_user_data.html#afe942b303eee5ebb343ccae4a8583779">PluginDayzPlayerDebugUserData</a>, <a class="el" href="db/d2a/class_recipe_base.html#a47b482481f61a0e0959389f2547b658f">RecipeBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#aba68be429b1c9abca1350bb550c7ec5d">ScriptedWidgetEventHandler</a>, <a class="el" href="df/dcc/class_stat_debug_object.html#a47b482481f61a0e0959389f2547b658f">StatDebugObject</a>, <a class="el" href="d2/d88/class_synced_value.html#a47b482481f61a0e0959389f2547b658f">SyncedValue</a>, <a class="el" href="d4/db4/class_synced_value_modifier.html#a47b482481f61a0e0959389f2547b658f">SyncedValueModifier</a>, <a class="el" href="da/d51/class_weapon_particles_base.html#a47b482481f61a0e0959389f2547b658f">WeaponParticlesBase</a>, <a class="el" href="d9/d5e/class_workbench_plugin_attribute.html#a47b482481f61a0e0959389f2547b658f">WorkbenchPluginAttribute</a></li>
 <li>m_NameMission&#160;:&#160;<a class="el" href="dd/d60/class_scene_data.html#a5493ac5dc4c82bab0c6652694a3577c9">SceneData</a></li>
 <li>m_NameScene&#160;:&#160;<a class="el" href="dd/d60/class_scene_data.html#abe0a488e7360ed942af91bfe615d3d0a">SceneData</a></li>
 <li>m_NameSelector&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a024f4fcf4c754b54cb0ba792eebcbb9f">UIScriptedMenu</a></li>
@@ -3133,7 +3138,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_OptimizeShadowsRadius&#160;:&#160;<a class="el" href="d7/d29/class_entity_light_source.html#a3e840751d02433a2e39638aa32dd6e39">EntityLightSource</a></li>
 <li>m_OptionChanged&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#ab756789c63b59a5ea14b46b81eebbac4">ScriptedWidgetEventHandler</a></li>
 <li>m_OptionFocused&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#ae0875da4a3f598d5f8ecc5ced84fa508">ScriptedWidgetEventHandler</a></li>
-<li>m_Options&#160;:&#160;<a class="el" href="d6/df8/class_option_selector_base.html#a3d531906d5de7ca6d5b2ebb9359407b3">OptionSelectorBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a3f5dc66c33cf5b123923ae9ce8815dfe">ScriptedWidgetEventHandler</a>, <a class="el" href="d1/d5b/class_u_i_scripted_menu.html#ae25bc30e721fe59748dd4d2c690b8dcc">UIScriptedMenu</a></li>
+<li>m_Options&#160;:&#160;<a class="el" href="d6/df8/class_option_selector_base.html#a3d531906d5de7ca6d5b2ebb9359407b3">OptionSelectorBase</a>, <a class="el" href="df/df4/class_scripted_widget_event_handler.html#a3f5dc66c33cf5b123923ae9ce8815dfe">ScriptedWidgetEventHandler</a>, <a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a9a864cd28a88815b403f7d24f0203f06">UIScriptedMenu</a></li>
 <li>m_OptionsButton&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a8b0887663e99186088e821c243666773">UIScriptedMenu</a></li>
 <li>m_OptionsMenu&#160;:&#160;<a class="el" href="da/dcf/class_day_z_intro_scene.html#a828e1323f4ae3d25cbfe6dcfb8a29f31">DayZIntroScene</a></li>
 <li>m_OptionUnfocused&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#a5c2f9ce2799ca22c049a3a2953de47ea">ScriptedWidgetEventHandler</a></li>
@@ -3249,6 +3254,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_ParentRoot&#160;:&#160;<a class="el" href="d8/d29/class_script_console_tab_base.html#a5a2a1622a2ab6006470ea9becc9aec68">ScriptConsoleTabBase</a></li>
 <li>m_ParentState&#160;:&#160;<a class="el" href="d6/d45/class_bot_state_base.html#af8a45a2fd8a34e4059123a1c15e1557b">BotStateBase</a></li>
 <li>m_parentState&#160;:&#160;<a class="el" href="d2/d9a/class_hand_state_base.html#afa9354e88db57053dc7b9d76ea50a52b">HandStateBase</a>, <a class="el" href="d2/db4/class_weapon_state_base.html#a88c199c6a87e0c1a595f4f795d2631d9">WeaponStateBase</a></li>
+<li>m_ParentTemperaturePrevious&#160;:&#160;<a class="el" href="df/d6b/class_universal_temperature_source_debug.html#ae621ec90659b4548c7823f5542790a1a">UniversalTemperatureSourceDebug</a></li>
 <li>m_ParentWidget&#160;:&#160;<a class="el" href="df/df4/class_scripted_widget_event_handler.html#aa6b61583d59b4f2bde7839a877755c76">ScriptedWidgetEventHandler</a></li>
 <li>m_ParFinalFire&#160;:&#160;<a class="el" href="d3/dcf/class_roadflare.html#af5bab77d3e0b06a3621ace8c7caaaba8">Roadflare</a></li>
 <li>m_ParInitialFire&#160;:&#160;<a class="el" href="d3/dcf/class_roadflare.html#a4dfb55fff4734f5e6c83d87a9afb8fef">Roadflare</a></li>
@@ -3855,9 +3861,8 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_RunningIndicators&#160;:&#160;<a class="el" href="d6/db9/class_gameplay_effects_data.html#a609b0528d3b4ecdae62f6807193ab4f6">GameplayEffectsData</a></li>
 <li>m_RunningTime&#160;:&#160;<a class="el" href="d4/d54/class_hemolytic_reaction_mdfr.html#a74ddb1bc98bbd910016210bda8560d1f">HemolyticReactionMdfr</a></li>
 <li>m_RunTime&#160;:&#160;<a class="el" href="dc/d02/class_human_command_action_callback.html#a1a0201c37fe6be3d42afbec5320b38c0">HumanCommandActionCallback</a></li>
-<li>m_sameWeatherCnt&#160;:&#160;<a class="el" href="dc/d97/class_enoch_data.html#a1b5f9e53eb59ff9454ffdb1f5d7ba921">EnochData</a></li>
+<li>m_sameWeatherCnt&#160;:&#160;<a class="el" href="dc/d97/class_enoch_data.html#a1b5f9e53eb59ff9454ffdb1f5d7ba921">EnochData</a>, <a class="el" href="d0/d24/class_world_data.html#a1b5f9e53eb59ff9454ffdb1f5d7ba921">WorldData</a></li>
 <li>m_SameWeatherCnt&#160;:&#160;<a class="el" href="d0/d24/class_world_data.html#a952efe7c20d03a8dc7feee4e19343636">WorldData</a></li>
-<li>m_sameWeatherCnt&#160;:&#160;<a class="el" href="d0/d24/class_world_data.html#a1b5f9e53eb59ff9454ffdb1f5d7ba921">WorldData</a></li>
 <li>m_Samples&#160;:&#160;<a class="el" href="df/d0b/class_simple_circular_buffer_3_01_class_01_t_01_4.html#ac33e4936398c89e694c9314c63eb5487">SimpleCircularBuffer&lt; Class T &gt;</a>, <a class="el" href="d0/d9c/class_simple_moving_average_3_01_class_01_t_01_4.html#ac33e4936398c89e694c9314c63eb5487">SimpleMovingAverage&lt; Class T &gt;</a></li>
 <li>m_Save&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#af886a75f622744295082949be7b60a46">UIScriptedMenu</a></li>
 <li>m_SaveEvent&#160;:&#160;<a class="el" href="d1/d5b/class_u_i_scripted_menu.html#a8ebc1901f8a3886a3ea90e3ce63a1991">UIScriptedMenu</a></li>
@@ -4141,9 +4146,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_SmallFireplaceTemperatureMax&#160;:&#160;<a class="el" href="dc/df9/class_universal_temperature_source_lambda_fireplace.html#adbbff86ef224b359e6569bbaaa14400e">UniversalTemperatureSourceLambdaFireplace</a></li>
 <li>m_SMDataEx&#160;:&#160;<a class="el" href="d0/d10/class_stamina_modifier_exponential.html#a8a60ed05127c6ae443c2d0c6f859c121">StaminaModifierExponential</a></li>
 <li>m_Smoke&#160;:&#160;<a class="el" href="de/d7a/class_item_base.html#aee982a3c8e578840ae3e25cad086dd90">ItemBase</a></li>
-<li>m_SmokePosX&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#af98c481f7b2fd653f72a4026a08334fd">FireplaceBase</a></li>
-<li>m_SmokePosY&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#a6695442b7291c7b20f3669db4889b5b5">FireplaceBase</a></li>
-<li>m_SmokePosZ&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#a54d0d77ac840e8dcf37ce9bee5875edd">FireplaceBase</a></li>
+<li>m_SmokePosX&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#af98c481f7b2fd653f72a4026a08334fd">FireplaceBase</a>, <a class="el" href="dc/d3c/class_fireplace_indoor.html#af98c481f7b2fd653f72a4026a08334fd">FireplaceIndoor</a></li>
+<li>m_SmokePosY&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#a6695442b7291c7b20f3669db4889b5b5">FireplaceBase</a>, <a class="el" href="dc/d3c/class_fireplace_indoor.html#a6695442b7291c7b20f3669db4889b5b5">FireplaceIndoor</a></li>
+<li>m_SmokePosZ&#160;:&#160;<a class="el" href="dc/dc1/class_fireplace_base.html#a54d0d77ac840e8dcf37ce9bee5875edd">FireplaceBase</a>, <a class="el" href="dc/d3c/class_fireplace_indoor.html#a54d0d77ac840e8dcf37ce9bee5875edd">FireplaceIndoor</a></li>
 <li>m_Smoothness&#160;:&#160;<a class="el" href="d9/d4b/class_camera_shake.html#a4671b1a49c4fa6b24a63126a6e80b472">CameraShake</a></li>
 <li>m_SmoothVel&#160;:&#160;<a class="el" href="dc/d39/class_hit_direction_effect_base.html#a23aee37624d8dd58914760040ab8f111">HitDirectionEffectBase</a></li>
 <li>m_Snowfall&#160;:&#160;<a class="el" href="dc/d38/class_environment.html#a7a3dd073240102abeb77ca62cc6d4001">Environment</a></li>
@@ -4367,7 +4372,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_StanceStandWalk&#160;:&#160;<a class="el" href="d5/dbf/class_hud.html#a467ca2af83298dafaf952904608ef04c">Hud</a></li>
 <li>m_StanceVariation&#160;:&#160;<a class="el" href="dd/dca/class_day_z_infected.html#ab93dce7b5924b4b3b64372f3694daf84">DayZInfected</a></li>
 <li>m_Start&#160;:&#160;<a class="el" href="d8/dba/class_bot_test_spam_user_actions.html#a5050f4fc76a9fafe1a918f09f4c9acac">BotTestSpamUserActions</a>, <a class="el" href="d2/d9a/class_hand_state_base.html#a6c31fdc73d606b6831aaa6cba6ad0c7a">HandStateBase</a></li>
-<li>m_start&#160;:&#160;<a class="el" href="d2/db4/class_weapon_state_base.html#af38654dcbc73a63dea47786a9aa250d3">WeaponStateBase</a></li>
+<li>m_start&#160;:&#160;<a class="el" href="d2/db4/class_weapon_state_base.html#a2df825e060640e9c4b823813449ddb08">WeaponStateBase</a></li>
 <li>m_startActionType&#160;:&#160;<a class="el" href="d2/db4/class_weapon_state_base.html#a2af60ccdc5fa5a945df80a5995e4a413">WeaponStateBase</a></li>
 <li>m_StartAttackButton&#160;:&#160;<a class="el" href="dd/da1/class_plugin_base.html#aa14d6a00d7402d4b5cd0dbcafce53f61">PluginBase</a></li>
 <li>m_StartCrawlingButton&#160;:&#160;<a class="el" href="dd/da1/class_plugin_base.html#adb37ee0a072c9c21efa0c070797bccf3">PluginBase</a></li>

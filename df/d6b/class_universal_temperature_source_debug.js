@@ -21,6 +21,7 @@ var class_universal_temperature_source_debug =
     [ "UniversalTemperatureSource", "df/d6b/class_universal_temperature_source_debug.html#a19460b43ef581707140867c175b241a3", null ],
     [ "Update", "df/d6b/class_universal_temperature_source_debug.html#ae6916211ec540439c9ab8182a6a12cf5", null ],
     [ "m_Lambda", "df/d6b/class_universal_temperature_source_debug.html#a1d4b22bb33ba85c5c27439ef9ac627f4", null ],
+    [ "m_ParentTemperaturePrevious", "df/d6b/class_universal_temperature_source_debug.html#ae621ec90659b4548c7823f5542790a1a", null ],
     [ "m_ResultValues", "df/d6b/class_universal_temperature_source_debug.html#a6a9700c683ed042f2cb345ff2e69bf41", null ],
     [ "m_Settings", "df/d6b/class_universal_temperature_source_debug.html#a9f76a55a25fe695b848355e43d2bed52", null ],
     [ "m_Timer", "df/d6b/class_universal_temperature_source_debug.html#a0b73578d06fe4daea8f502a25fe8ba78", null ]

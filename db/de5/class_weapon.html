@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158950</div>
+   <div id="projectbrief">PC Stable v1.26.159040</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -280,6 +280,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:acabb249db0dd310d20e8624e7cb3be8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7eb9a06001041e4d467ea95689d7b3fe"><td class="memItemLeft" align="right" valign="top">protected ref <a class="el" href="../../d8/d08/class_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a7eb9a06001041e4d467ea95689d7b3fe">m_DelayedValidationTimer</a></td></tr>
 <tr class="separator:a7eb9a06001041e4d467ea95689d7b3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17eb879b79b5ad7958061884fa0b58cc"><td class="memItemLeft" align="right" valign="top">private <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a17eb879b79b5ad7958061884fa0b58cc">m_coolDownTime</a> = 0</td></tr>
+<tr class="separator:a17eb879b79b5ad7958061884fa0b58cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Weapon With Ammo</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>Helpers for spawning ammo/magazine in weapon For the flags, either a combination of WeaponWithAmmoFlags can be used Or one of the preset 'const int' with 'SAMF_' prefix (SAMF_DEFAULT, SAMF_RNG) </p>
@@ -405,6 +407,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa1be7bd1e2f81d01ca5cd09f49197115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d2ad54abf980014d1e46020f1e414d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a3d2ad54abf980014d1e46020f1e414d3">ClearJunctureToAttachedMagazine</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player)</td></tr>
 <tr class="separator:a3d2ad54abf980014d1e46020f1e414d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e270a60387bd3e0af1865a2b9e2acd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a9e270a60387bd3e0af1865a2b9e2acd0">SetCoolDown</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> coolDownTime)</td></tr>
+<tr class="separator:a9e270a60387bd3e0af1865a2b9e2acd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0b06a7895d678ee1fd5295ab30f25a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a2f0b06a7895d678ee1fd5295ab30f25a">UpdateCoolDown</a> (<a class="el" href="../../d4/dc3/classfloat.html">float</a> dt)</td></tr>
+<tr class="separator:a2f0b06a7895d678ee1fd5295ab30f25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3709c50f3585529e65358bb87e1b7e7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a3709c50f3585529e65358bb87e1b7e7f">IsCoolDown</a> ()</td></tr>
+<tr class="separator:a3709c50f3585529e65358bb87e1b7e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aa20a7fb466c129548d5af3bbfe52cb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d9c/class_weapon___base.html">Weapon_Base</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de5/class_weapon.html#a2aa20a7fb466c129548d5af3bbfe52cb">CreateWeaponWithAmmo</a> (<a class="el" href="../../d5/d92/classstring.html">string</a> weaponType, <a class="el" href="../../d5/d92/classstring.html">string</a> magazineType=&quot;&quot;, <a class="el" href="../../da/dc2/3___game_2_entities_2_entity_a_i_8c.html#a90d3e5de4aff5bb7b00ab0a384150892">int</a> flags=WeaponWithAmmoFlags.CHAMBER)</td></tr>
 <tr class="memdesc:a2aa20a7fb466c129548d5af3bbfe52cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create weapon with ammo.  <br /></td></tr>
 <tr class="separator:a2aa20a7fb466c129548d5af3bbfe52cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2149,6 +2157,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3709c50f3585529e65358bb87e1b7e7f" name="a3709c50f3585529e65358bb87e1b7e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3709c50f3585529e65358bb87e1b7e7f">&#9670;&#160;</a></span>IsCoolDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> IsCoolDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a429c892072aceb4600503a23503a03f6" name="a429c892072aceb4600503a23503a03f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a429c892072aceb4600503a23503a03f6">&#9670;&#160;</a></span>IsIdle()</h2>
 
@@ -2977,6 +3010,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9e270a60387bd3e0af1865a2b9e2acd0" name="a9e270a60387bd3e0af1865a2b9e2acd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e270a60387bd3e0af1865a2b9e2acd0">&#9670;&#160;</a></span>SetCoolDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetCoolDown </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>coolDownTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad4b676f843921177cdeaa5e96b4d2fc3" name="ad4b676f843921177cdeaa5e96b4d2fc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4b676f843921177cdeaa5e96b4d2fc3">&#9670;&#160;</a></span>SetInitialState()</h2>
 
@@ -3343,6 +3402,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2f0b06a7895d678ee1fd5295ab30f25a" name="a2f0b06a7895d678ee1fd5295ab30f25a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f0b06a7895d678ee1fd5295ab30f25a">&#9670;&#160;</a></span>UpdateCoolDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateCoolDown </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeaf3c148d24964a2a19799a344f089f7" name="aeaf3c148d24964a2a19799a344f089f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaf3c148d24964a2a19799a344f089f7">&#9670;&#160;</a></span>ValidateAndRepair()</h2>
 
@@ -3649,6 +3734,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">protected <a class="el" href="../../d9/db9/classbool.html">bool</a> m_Charged = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17eb879b79b5ad7958061884fa0b58cc" name="a17eb879b79b5ad7958061884fa0b58cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17eb879b79b5ad7958061884fa0b58cc">&#9670;&#160;</a></span>m_coolDownTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private <a class="el" href="../../d4/dc3/classfloat.html">float</a> m_coolDownTime = 0</td>
         </tr>
       </table>
   </td>

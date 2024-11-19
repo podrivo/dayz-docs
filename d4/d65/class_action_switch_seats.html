@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158950</div>
+   <div id="projectbrief">PC Stable v1.26.159040</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -112,8 +112,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6b922d3bb1d26f790bc52030566ba2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9aa4864fae11769c65e644b5fd97c66"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d65/class_action_switch_seats.html#aa9aa4864fae11769c65e644b5fd97c66">ActionCondition</a> (<a class="el" href="../../d5/da8/class_player_base.html">PlayerBase</a> player, <a class="el" href="../../d2/d9f/_action_targets_8c.html#a2ab3de6f698cb230ae0c129e3e01b341">ActionTarget</a> target, <a class="el" href="../../de/d7a/class_item_base.html">ItemBase</a> item)</td></tr>
 <tr class="separator:aa9aa4864fae11769c65e644b5fd97c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41a32155201921d885c85cc4c0bd2962"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d65/class_action_switch_seats.html#a41a32155201921d885c85cc4c0bd2962">Start</a> (<a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a> action_data)</td></tr>
-<tr class="separator:a41a32155201921d885c85cc4c0bd2962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef48390c9e0535c77faa245088e8047d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d65/class_action_switch_seats.html#aef48390c9e0535c77faa245088e8047d">OnStart</a> (<a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a> action_data)</td></tr>
+<tr class="separator:aef48390c9e0535c77faa245088e8047d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2caf1c030cd197f2ba53cffa0d5b9237"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d65/class_action_switch_seats.html#a2caf1c030cd197f2ba53cffa0d5b9237">OnUpdate</a> (<a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a> action_data)</td></tr>
 <tr class="separator:a2caf1c030cd197f2ba53cffa0d5b9237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac606356eec5274b943e399d1261b3d15"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d65/class_action_switch_seats.html#ac606356eec5274b943e399d1261b3d15">CanBeUsedInVehicle</a> ()</td></tr>
@@ -218,7 +218,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a7428f61f07bb93f87c14171b5440dff8">InventoryLocation::SetVehicle()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d39/class_action_base.html#a94af2b60af523d64086b0bb63060e980">ActionBase::ClearActionJuncture()</a>, <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, and <a class="el" href="../../d6/dc5/class_inventory_location.html#a7428f61f07bb93f87c14171b5440dff8">InventoryLocation::SetVehicle()</a>.</p>
 
 </div>
 </div>
@@ -274,6 +274,34 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aef48390c9e0535c77faa245088e8047d" name="aef48390c9e0535c77faa245088e8047d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef48390c9e0535c77faa245088e8047d">&#9670;&#160;</a></span>OnStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a>&#160;</td>
+          <td class="paramname"><em>action_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../d1/d1f/class_human_command_vehicle.html#a56af3e0356dd410d8badb6f21a70b4e7">HumanCommandVehicle::SwitchSeat()</a>.</p>
+
+</div>
+</div>
 <a id="a2caf1c030cd197f2ba53cffa0d5b9237" name="a2caf1c030cd197f2ba53cffa0d5b9237"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2caf1c030cd197f2ba53cffa0d5b9237">&#9670;&#160;</a></span>OnUpdate()</h2>
 
@@ -299,34 +327,6 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="../../df/d13/_emote_manager_8c.html#afc12d18e19e10b35d361fbb09c7c1d54">End()</a>, <a class="el" href="../../d1/d1f/class_human_command_vehicle.html#a4f7b0494c027e1e0442cf5678d6aae70">HumanCommandVehicle::IsSwitchSeat()</a>, and <a class="el" href="../../dd/d40/group___u_a_i_ds.html#ga2a262864c0b574da7b58223194d07236">UA_START</a>.</p>
-
-</div>
-</div>
-<a id="a41a32155201921d885c85cc4c0bd2962" name="a41a32155201921d885c85cc4c0bd2962"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41a32155201921d885c85cc4c0bd2962">&#9670;&#160;</a></span>Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void Start </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d59/_action_base_8c.html#afed569492a6824c86798ac839f679651">ActionData</a>&#160;</td>
-          <td class="paramname"><em>action_data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d5/d78/group___enforce.html#ga197a8c75a3c7d301e8782009d86b30b4">Class::CastTo()</a>, and <a class="el" href="../../d1/d1f/class_human_command_vehicle.html#a56af3e0356dd410d8badb6f21a70b4e7">HumanCommandVehicle::SwitchSeat()</a>.</p>
 
 </div>
 </div>

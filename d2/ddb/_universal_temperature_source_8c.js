@@ -19,6 +19,8 @@ var _universal_temperature_source_8c =
     [ "m_Header", "d2/ddb/_universal_temperature_source_8c.html#a0c03ea880b646e914d66d43425a5e7df", null ],
     [ "m_Names", "d2/ddb/_universal_temperature_source_8c.html#a57e3760383322416429eb3c5a54c10f4", null ],
     [ "m_Pairs", "d2/ddb/_universal_temperature_source_8c.html#a4562ae4de3bd566981be370d80377478", null ],
-    [ "m_Temperature", "d2/ddb/_universal_temperature_source_8c.html#a3e4393f2310eb659b1106a9279347bda", null ],
+    [ "m_Temperature", "d2/ddb/_universal_temperature_source_8c.html#a20558b1852b206bcf0c9b2c4280794d7", null ],
+    [ "m_TemperatureHeatcomfort", "d2/ddb/_universal_temperature_source_8c.html#a59bb1094495eb589c923df3239e2dcdd", null ],
+    [ "m_TemperatureItem", "d2/ddb/_universal_temperature_source_8c.html#a26d0bf4acfad2fc69e5ca08268914427", null ],
     [ "m_Values", "d2/ddb/_universal_temperature_source_8c.html#aab37d68bf5de82d92ef7825de60f10a7", null ]
 ];

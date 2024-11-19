@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158950</div>
+   <div id="projectbrief">PC Stable v1.26.159040</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -349,6 +349,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a0fcd8344befc84c66f6d91bbb4d0c78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cad5c6e256183ce5c2968783307499b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a3cad5c6e256183ce5c2968783307499b">OnItemLocationChanged</a> (<a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> old_owner, <a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a> new_owner)</td></tr>
 <tr class="separator:a3cad5c6e256183ce5c2968783307499b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c9e63dc4a81241a53a9ef3821f8e59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a98c9e63dc4a81241a53a9ef3821f8e59">OnChildItemRemoved</a> (<a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a> item)</td></tr>
+<tr class="separator:a98c9e63dc4a81241a53a9ef3821f8e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90de5f8c6eda3a817ea89531b268753e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a90de5f8c6eda3a817ea89531b268753e">OnChildItemReceived</a> (<a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a> item)</td></tr>
+<tr class="separator:a90de5f8c6eda3a817ea89531b268753e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a851da0d4df714466b9f96aeb1febb2ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a851da0d4df714466b9f96aeb1febb2ff">OnItemAttachmentSlotChanged</a> (notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> oldLoc, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> newLoc)</td></tr>
 <tr class="separator:a851da0d4df714466b9f96aeb1febb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e2a43cd077db645fc7f3f8da2b24ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a2e2a43cd077db645fc7f3f8da2b24ae9">EEItemLocationChanged</a> (notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> oldLoc, notnull <a class="el" href="../../d6/dc5/class_inventory_location.html">InventoryLocation</a> newLoc)</td></tr>
@@ -725,6 +729,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a43ac0583354a56a5506331f1fc1ec9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c27393c09cdde3200a7db0b5ee96d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a37c27393c09cdde3200a7db0b5ee96d1">GetTemperatureMax</a> ()</td></tr>
 <tr class="separator:a37c27393c09cdde3200a7db0b5ee96d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111f86af9c2c1cedfed7d7330bfb7871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a111f86af9c2c1cedfed7d7330bfb7871">GetCookingTargetTemperature</a> (out <a class="el" href="../../d4/dc3/classfloat.html">float</a> temperature)</td></tr>
+<tr class="memdesc:a111f86af9c2c1cedfed7d7330bfb7871"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifically for cooking system, to get heat source target temperatures  <br /></td></tr>
+<tr class="separator:a111f86af9c2c1cedfed7d7330bfb7871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2244e32c7666ab6737cd18630fbe72de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/class_entity.html#a2244e32c7666ab6737cd18630fbe72de">GetHeatPermeabilityCoef</a> ()</td></tr>
 <tr class="memdesc:a2244e32c7666ab6737cd18630fbe72de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns temperature change speed multiplier for this item and all its children (multiplicative interaction)  <br /></td></tr>
 <tr class="separator:a2244e32c7666ab6737cd18630fbe72de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5544,6 +5551,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a111f86af9c2c1cedfed7d7330bfb7871" name="a111f86af9c2c1cedfed7d7330bfb7871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a111f86af9c2c1cedfed7d7330bfb7871">&#9670;&#160;</a></span>GetCookingTargetTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> GetCookingTargetTemperature </td>
+          <td>(</td>
+          <td class="paramtype">out <a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td>
+          <td class="paramname"><em>temperature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>specifically for cooking system, to get heat source target temperatures </p>
 
 </div>
 </div>
@@ -11179,9 +11214,61 @@ Private Attributes</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// use m_ElapsedSinceLastUpdate for time-related purposes</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_entity_html_aabfd095f5b9264a3dbd55cfb76e6b227"><div class="ttname"><a href="../../d2/d96/class_entity.html#aabfd095f5b9264a3dbd55cfb76e6b227">Entity::OnCEUpdate</a></div><div class="ttdeci">void OnCEUpdate()</div><div class="ttdoc">Central economy calls this function whenever going over all the entities.</div><div class="ttdef"><b>Definition</b> EntityAI.c:3766</div></div>
+<div class="ttc" id="aclass_entity_html_aabfd095f5b9264a3dbd55cfb76e6b227"><div class="ttname"><a href="../../d2/d96/class_entity.html#aabfd095f5b9264a3dbd55cfb76e6b227">Entity::OnCEUpdate</a></div><div class="ttdeci">void OnCEUpdate()</div><div class="ttdoc">Central economy calls this function whenever going over all the entities.</div><div class="ttdef"><b>Definition</b> EntityAI.c:3774</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="../../d8/d18/gameplay_8c.html#aebb1fa6632d513bc849994e7b6c9c93d">GetGame()</a>, <a class="el" href="../../d2/de6/class_c_game.html#af7ba31b759c9731da0d692896dc82fc1">CGame::GetTickTime()</a>, and <a class="el" href="../../df/d2e/_item_base_8c.html#a38e2f8357a04e1a21939c73eb58e04ea">ProcessVariables()</a>.</p>
+
+</div>
+</div>
+<a id="a90de5f8c6eda3a817ea89531b268753e" name="a90de5f8c6eda3a817ea89531b268753e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90de5f8c6eda3a817ea89531b268753e">&#9670;&#160;</a></span>OnChildItemReceived()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnChildItemReceived </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98c9e63dc4a81241a53a9ef3821f8e59" name="a98c9e63dc4a81241a53a9ef3821f8e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98c9e63dc4a81241a53a9ef3821f8e59">&#9670;&#160;</a></span>OnChildItemRemoved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OnChildItemRemoved </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d0e/class_inventory_item.html">InventoryItem</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -12240,7 +12327,7 @@ Private Attributes</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_entity_html_ab8fb9b4105d97f4c7ba4bdd84d6c7de9"><div class="ttname"><a href="../../d2/d96/class_entity.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9">Entity::OnStoreLoad</a></div><div class="ttdeci">bool OnStoreLoad(ParamsReadContext ctx, int version)</div><div class="ttdoc">Called when data is loaded from persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2893</div></div>
+<div class="ttc" id="aclass_entity_html_ab8fb9b4105d97f4c7ba4bdd84d6c7de9"><div class="ttname"><a href="../../d2/d96/class_entity.html#ab8fb9b4105d97f4c7ba4bdd84d6c7de9">Entity::OnStoreLoad</a></div><div class="ttdeci">bool OnStoreLoad(ParamsReadContext ctx, int version)</div><div class="ttdoc">Called when data is loaded from persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2901</div></div>
 <div class="ttc" id="aclass_serializer_html"><div class="ttname"><a href="../../d0/dc2/class_serializer.html">Serializer</a></div><div class="ttdoc">Serialization general interface. Serializer API works with:</div><div class="ttdef"><b>Definition</b> Serializer.c:56</div></div>
 <div class="ttc" id="aclass_serializer_html_a34c68c9c93798008667c773b4818177d"><div class="ttname"><a href="../../d0/dc2/class_serializer.html#a34c68c9c93798008667c773b4818177d">Serializer::Read</a></div><div class="ttdeci">proto bool Read(void value_in)</div></div>
 </div><!-- fragment --> 
@@ -12285,7 +12372,7 @@ Private Attributes</h2></td></tr>
 <div class="line">    ctx.<a class="code hl_function" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Write</a>(a);</div>
 <div class="line">    ctx.<a class="code hl_function" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Write</a>(b);</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_entity_html_ad975050d7a080cca462e74c604f404a2"><div class="ttname"><a href="../../d2/d96/class_entity.html#ad975050d7a080cca462e74c604f404a2">Entity::OnStoreSave</a></div><div class="ttdeci">void OnStoreSave(ParamsWriteContext ctx)</div><div class="ttdoc">Engine calls this function to collect data from entity to store for persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2829</div></div>
+<div class="ttc" id="aclass_entity_html_ad975050d7a080cca462e74c604f404a2"><div class="ttname"><a href="../../d2/d96/class_entity.html#ad975050d7a080cca462e74c604f404a2">Entity::OnStoreSave</a></div><div class="ttdeci">void OnStoreSave(ParamsWriteContext ctx)</div><div class="ttdoc">Engine calls this function to collect data from entity to store for persistence (on server side).</div><div class="ttdef"><b>Definition</b> EntityAI.c:2837</div></div>
 <div class="ttc" id="aclass_serializer_html_a1d68a84f3eba695ac67220b1e071fd6d"><div class="ttname"><a href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write</a></div><div class="ttdeci">proto bool Write(void value_out)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="../../d6/de6/class_component_energy_manager.html#a3202b5c78ccc3eb501a5b82ac8b5f584">ComponentEnergyManager::GetEnergy()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#a364ac194d785b1bf0317a9905e9ca12d">ComponentEnergyManager::GetEnergySource()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#ae24c5bf29d1afdf204535da5d5a68dc9">ComponentEnergyManager::IsPassive()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#a280d9208abd359f0d3066bfe160ca23e">ComponentEnergyManager::IsPlugged()</a>, <a class="el" href="../../d6/de6/class_component_energy_manager.html#aff5a3c7129fcda6952366096fbf19e55">ComponentEnergyManager::IsSwitchedOn()</a>, and <a class="el" href="../../d0/dc2/class_serializer.html#a1d68a84f3eba695ac67220b1e071fd6d">Serializer::Write()</a>.</p>

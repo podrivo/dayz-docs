@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158950</div>
+   <div id="projectbrief">PC Stable v1.26.159040</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -108,14 +108,8 @@ $(document).ready(function(){initNavTree('db/d79/class_universal_temperature_sou
 Private Attributes</h2></td></tr>
 <tr class="memitem:af730bb7a8a553bce75ec079060e5b059"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#af730bb7a8a553bce75ec079060e5b059">m_UpdateInterval</a> = 1.0</td></tr>
 <tr class="separator:af730bb7a8a553bce75ec079060e5b059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0ae223e16d801f16a66df0a259e1140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae0ae223e16d801f16a66df0a259e1140">m_TemperatureMin</a> = 0</td></tr>
-<tr class="memdesc:ae0ae223e16d801f16a66df0a259e1140"><td class="mdescLeft">&#160;</td><td class="mdescRight">how often the Update is ticking  <br /></td></tr>
-<tr class="separator:ae0ae223e16d801f16a66df0a259e1140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31d1ebb2bf7784360f756763fac14555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a31d1ebb2bf7784360f756763fac14555">m_TemperatureMax</a> = 100</td></tr>
-<tr class="memdesc:a31d1ebb2bf7784360f756763fac14555"><td class="mdescLeft">&#160;</td><td class="mdescRight">min temperature you can get from the TemperatureSource  <br /></td></tr>
-<tr class="separator:a31d1ebb2bf7784360f756763fac14555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1987d60dceaeb24310aa81e20b956eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae1987d60dceaeb24310aa81e20b956eb">m_TemperatureItemCap</a> = <a class="el" href="../../d6/d55/group___environment_cfg.html#gaf928dc81046957d002ed6afc15b48b9a">GameConstants.ITEM_TEMPERATURE_NEUTRAL_ZONE_MIDDLE</a></td></tr>
-<tr class="memdesc:ae1987d60dceaeb24310aa81e20b956eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">max temperature you can get from the TemperatureSource  <br /></td></tr>
+<tr class="memdesc:ae1987d60dceaeb24310aa81e20b956eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">how often the Update is ticking  <br /></td></tr>
 <tr class="separator:ae1987d60dceaeb24310aa81e20b956eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73e93b9dc05dea5df60264a6e3577212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a73e93b9dc05dea5df60264a6e3577212">m_TemperatureItemCoef</a> = <a class="el" href="../../d9/d00/group___entity_temperature.html#ga5fec7389140d6eb713324cde838d5126">GameConstants.TEMP_COEF_UTS</a></td></tr>
 <tr class="memdesc:a73e93b9dc05dea5df60264a6e3577212"><td class="mdescLeft">&#160;</td><td class="mdescRight">max temperature 'non-IsSelfAdjustingTemperature' entity in vicinity will get per update (cap);  <br /></td></tr>
@@ -129,25 +123,64 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae32479ab72f6ad39926085e95b35fe1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae32479ab72f6ad39926085e95b35fe1a">m_RangeMax</a> = 2</td></tr>
 <tr class="memdesc:ae32479ab72f6ad39926085e95b35fe1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">range where the full temperature is given to receiver  <br /></td></tr>
 <tr class="separator:ae32479ab72f6ad39926085e95b35fe1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0841ba1f408eb09775ea9dc81f3218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#abf0841ba1f408eb09775ea9dc81f3218">m_EnableOnTemperatureControl</a> = false</td></tr>
+<tr class="memdesc:abf0841ba1f408eb09775ea9dc81f3218"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum range where the receiver can get some temperature  <br /></td></tr>
+<tr class="separator:abf0841ba1f408eb09775ea9dc81f3218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5327571ec42ce776bc4ac90b3cf315ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a5327571ec42ce776bc4ac90b3cf315ab">m_ActiveTemperatureThreshold</a> = 0.0</td></tr>
+<tr class="memdesc:a5327571ec42ce776bc4ac90b3cf315ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable or disable activation/deactivation on set temperature  <br /></td></tr>
+<tr class="separator:a5327571ec42ce776bc4ac90b3cf315ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa717176973afafaa18eb81240ce5858f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#aa717176973afafaa18eb81240ce5858f">m_InactiveTemperatureThreshold</a> = 0.0</td></tr>
+<tr class="memdesc:aa717176973afafaa18eb81240ce5858f"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTS will be active on temperature &gt;= to this value.  <br /></td></tr>
+<tr class="separator:aa717176973afafaa18eb81240ce5858f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a04b27a1d11793604e993de7ab09f96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a6a04b27a1d11793604e993de7ab09f96">m_Updateable</a> = false</td></tr>
-<tr class="memdesc:a6a04b27a1d11793604e993de7ab09f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum range where the receiver can get some temperature  <br /></td></tr>
+<tr class="memdesc:a6a04b27a1d11793604e993de7ab09f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTS will be inactive on temperature &lt; to this value.  <br /></td></tr>
 <tr class="separator:a6a04b27a1d11793604e993de7ab09f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa73915ce094d8a7e65a02b1b78aab6ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#aa73915ce094d8a7e65a02b1b78aab6ec">m_ManualUpdate</a> = false</td></tr>
 <tr class="memdesc:aa73915ce094d8a7e65a02b1b78aab6ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the Update is running periodically  <br /></td></tr>
 <tr class="separator:aa73915ce094d8a7e65a02b1b78aab6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eecf905063ae3e69799ac75c91b7881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a7eecf905063ae3e69799ac75c91b7881">m_AffectStat</a> = false</td></tr>
-<tr class="memdesc:a7eecf905063ae3e69799ac75c91b7881"><td class="mdescLeft">&#160;</td><td class="mdescRight">update is called manually (ex. own tick of parent entity)  <br /></td></tr>
-<tr class="separator:a7eecf905063ae3e69799ac75c91b7881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae810b9ed0f73fcda0d42360bdc12f3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae810b9ed0f73fcda0d42360bdc12f3ed">m_IsWorldOverriden</a> = true</td></tr>
-<tr class="memdesc:ae810b9ed0f73fcda0d42360bdc12f3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the temperature generated is also set as Temperature Stat on Item itself  <br /></td></tr>
+<tr class="memdesc:ae810b9ed0f73fcda0d42360bdc12f3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">update is called manually (ex. own tick of parent entity)  <br /></td></tr>
 <tr class="separator:ae810b9ed0f73fcda0d42360bdc12f3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95d9484423b4997bf70860a1bb683c32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfc/classvector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a95d9484423b4997bf70860a1bb683c32">m_Position</a> = <a class="el" href="../../d7/dfc/classvector.html#a4921dce04a5e8384084c45b51e15419a">vector.Zero</a></td></tr>
 <tr class="memdesc:a95d9484423b4997bf70860a1bb683c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the stats can be overriden by coefficient/variables from <a class="el" href="../../d0/d24/class_world_data.html" title="Keeps information about currently loaded world, like temperature.">WorldData</a> (currently TemperatureCap only)  <br /></td></tr>
 <tr class="separator:a95d9484423b4997bf70860a1bb683c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bd83a26bbdee02d9de9c76e851b16da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df9/class_entity_a_i.html">EntityAI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a9bd83a26bbdee02d9de9c76e851b16da">m_Parent</a> = null</td></tr>
 <tr class="separator:a9bd83a26bbdee02d9de9c76e851b16da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eecf905063ae3e69799ac75c91b7881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a7eecf905063ae3e69799ac75c91b7881">m_AffectStat</a> = false</td></tr>
+<tr class="memdesc:a7eecf905063ae3e69799ac75c91b7881"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent <a class="el" href="../../d2/d96/class_entity.html">Entity</a> of the UTS  <br /></td></tr>
+<tr class="separator:a7eecf905063ae3e69799ac75c91b7881"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ae223e16d801f16a66df0a259e1140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#ae0ae223e16d801f16a66df0a259e1140">m_TemperatureMin</a> = 0</td></tr>
+<tr class="separator:ae0ae223e16d801f16a66df0a259e1140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d1ebb2bf7784360f756763fac14555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_universal_temperature_source_settings.html#a31d1ebb2bf7784360f756763fac14555">m_TemperatureMax</a> = 100</td></tr>
+<tr class="separator:a31d1ebb2bf7784360f756763fac14555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="a5327571ec42ce776bc4ac90b3cf315ab" name="a5327571ec42ce776bc4ac90b3cf315ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5327571ec42ce776bc4ac90b3cf315ab">&#9670;&#160;</a></span>m_ActiveTemperatureThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_ActiveTemperatureThreshold = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enable or disable activation/deactivation on set temperature </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../dc/d3c/class_fireplace_indoor.html#a6e1149c6c17903083ed5db099644ec14">FireplaceIndoor::FireplaceIndoor()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#a22cc30bb9a013970834f5644ddfac338">FireplaceBase::OvenIndoor()</a>, and <a class="el" href="../../df/d6b/class_universal_temperature_source_debug.html#ae6916211ec540439c9ab8182a6a12cf5">UniversalTemperatureSourceDebug::Update()</a>.</p>
+
+</div>
+</div>
 <a id="a7eecf905063ae3e69799ac75c91b7881" name="a7eecf905063ae3e69799ac75c91b7881"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7eecf905063ae3e69799ac75c91b7881">&#9670;&#160;</a></span>m_AffectStat</h2>
 
@@ -168,9 +201,60 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>update is called manually (ex. own tick of parent entity) </p>
+<p>parent <a class="el" href="../../d2/d96/class_entity.html">Entity</a> of the UTS </p>
+<p>DEPRECATED </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/df9/class_universal_temperature_source_lambda_fireplace.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaFireplace::Execute()</a>, and <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>.</p>
+</div>
+</div>
+<a id="abf0841ba1f408eb09775ea9dc81f3218" name="abf0841ba1f408eb09775ea9dc81f3218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf0841ba1f408eb09775ea9dc81f3218">&#9670;&#160;</a></span>m_EnableOnTemperatureControl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db9/classbool.html">bool</a> m_EnableOnTemperatureControl = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>maximum range where the receiver can get some temperature </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../dc/d3c/class_fireplace_indoor.html#a6e1149c6c17903083ed5db099644ec14">FireplaceIndoor::FireplaceIndoor()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#a22cc30bb9a013970834f5644ddfac338">FireplaceBase::OvenIndoor()</a>, and <a class="el" href="../../df/d6b/class_universal_temperature_source_debug.html#ae6916211ec540439c9ab8182a6a12cf5">UniversalTemperatureSourceDebug::Update()</a>.</p>
+
+</div>
+</div>
+<a id="aa717176973afafaa18eb81240ce5858f" name="aa717176973afafaa18eb81240ce5858f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa717176973afafaa18eb81240ce5858f">&#9670;&#160;</a></span>m_InactiveTemperatureThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_InactiveTemperatureThreshold = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>UTS will be active on temperature &gt;= to this value. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../dc/d3c/class_fireplace_indoor.html#a6e1149c6c17903083ed5db099644ec14">FireplaceIndoor::FireplaceIndoor()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#a22cc30bb9a013970834f5644ddfac338">FireplaceBase::OvenIndoor()</a>, and <a class="el" href="../../df/d6b/class_universal_temperature_source_debug.html#ae6916211ec540439c9ab8182a6a12cf5">UniversalTemperatureSourceDebug::Update()</a>.</p>
 
 </div>
 </div>
@@ -194,7 +278,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>if the temperature generated is also set as Temperature Stat on Item itself </p>
+<p>update is called manually (ex. own tick of parent entity) </p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, and <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>.</p>
 
@@ -246,7 +330,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a72964cd19dd64d974de14de55f4c3c4a">UniversalTemperatureSourceLambdaBaseImpl::DryItemsInVicinity()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a512f0a48eb07b59c4f881e6eab579d48">UniversalTemperatureSourceLambdaBaseImpl::DryItemsInVicinity()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaBaseImpl::Execute()</a>, <a class="el" href="../../dc/df9/class_universal_temperature_source_lambda_fireplace.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaFireplace::Execute()</a>, <a class="el" href="../../df/d6b/class_universal_temperature_source_debug.html#ae6916211ec540439c9ab8182a6a12cf5">UniversalTemperatureSourceDebug::Update()</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">UniversalTemperatureSourceLambdaBaseImpl::WarmAndCoolItemsInVicinity()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a72964cd19dd64d974de14de55f4c3c4a">UniversalTemperatureSourceLambdaBaseImpl::DryItemsInVicinity()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a512f0a48eb07b59c4f881e6eab579d48">UniversalTemperatureSourceLambdaBaseImpl::DryItemsInVicinity()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaBaseImpl::Execute()</a>, <a class="el" href="../../df/d6b/class_universal_temperature_source_debug.html#ae6916211ec540439c9ab8182a6a12cf5">UniversalTemperatureSourceDebug::Update()</a>, <a class="el" href="../../dc/df9/class_universal_temperature_source_lambda_fireplace.html#a2b4ee238d5de5c6e16043f91baeb4f37">UniversalTemperatureSourceLambdaFireplace::UpdateFireplaceTemperature()</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">UniversalTemperatureSourceLambdaBaseImpl::WarmAndCoolItemsInVicinity()</a>.</p>
 
 </div>
 </div>
@@ -350,7 +434,7 @@ Private Attributes</h2></td></tr>
 
 <p>used to determine speed of temperature change, and some temperature subsystems </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#a45a359d0ae46fc145a854b88453baf88">FireplaceBase::BarrelHoles_ColorBase()</a>, <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>, <a class="el" href="../../de/d59/class_car_script.html#a58793c1561abb560da4377da77ad6dea">CarScript::EEInit()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#affcbb24ef873e4eccd61b81f9483e2c4">FireplaceBase::Fireplace()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, and <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#a45a359d0ae46fc145a854b88453baf88">FireplaceBase::BarrelHoles_ColorBase()</a>, <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>, <a class="el" href="../../de/d59/class_car_script.html#a58793c1561abb560da4377da77ad6dea">CarScript::EEInit()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaBaseImpl::Execute()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#affcbb24ef873e4eccd61b81f9483e2c4">FireplaceBase::Fireplace()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../d9/dd3/class_fireplace_fire_barrel.html#a2d850ceb7f257cac3ddba5679d677663">FireplaceFireBarrel::FireplaceFireBarrel()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, and <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>.</p>
 
 </div>
 </div>
@@ -374,9 +458,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>max temperature you can get from the TemperatureSource </p>
+<p>how often the Update is ticking </p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#a45a359d0ae46fc145a854b88453baf88">FireplaceBase::BarrelHoles_ColorBase()</a>, <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>, <a class="el" href="../../de/d59/class_car_script.html#a58793c1561abb560da4377da77ad6dea">CarScript::EEInit()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#affcbb24ef873e4eccd61b81f9483e2c4">FireplaceBase::Fireplace()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">UniversalTemperatureSourceLambdaBaseImpl::WarmAndCoolItemsInVicinity()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#a45a359d0ae46fc145a854b88453baf88">FireplaceBase::BarrelHoles_ColorBase()</a>, <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>, <a class="el" href="../../de/d59/class_car_script.html#a58793c1561abb560da4377da77ad6dea">CarScript::EEInit()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaBaseImpl::Execute()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#affcbb24ef873e4eccd61b81f9483e2c4">FireplaceBase::Fireplace()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../d9/dd3/class_fireplace_fire_barrel.html#a2d850ceb7f257cac3ddba5679d677663">FireplaceFireBarrel::FireplaceFireBarrel()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>, and <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#a097b36a841402cce7bc91cbc56f29a6d">UniversalTemperatureSourceLambdaBaseImpl::WarmAndCoolItemsInVicinity()</a>.</p>
 
 </div>
 </div>
@@ -426,9 +510,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>min temperature you can get from the TemperatureSource </p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/class_fireplace_base.html#a45a359d0ae46fc145a854b88453baf88">FireplaceBase::BarrelHoles_ColorBase()</a>, <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>, <a class="el" href="../../de/d59/class_car_script.html#a58793c1561abb560da4377da77ad6dea">CarScript::EEInit()</a>, <a class="el" href="../../dc/d85/class_universal_temperature_source_lambda_base_impl.html#af6330bef7f44aab592a845fc07cd00f5">UniversalTemperatureSourceLambdaBaseImpl::Execute()</a>, <a class="el" href="../../dc/dc1/class_fireplace_base.html#affcbb24ef873e4eccd61b81f9483e2c4">FireplaceBase::Fireplace()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, and <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>.</p>
 
 </div>
 </div>
@@ -452,9 +534,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>how often the Update is ticking </p>
-
-<p class="reference">Referenced by <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../de/d7a/class_item_base.html#a58793c1561abb560da4377da77ad6dea">ItemBase::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>, <a class="el" href="../../de/d59/class_car_script.html#a58793c1561abb560da4377da77ad6dea">CarScript::EEInit()</a>, <a class="el" href="../../d8/dbb/_fireplace_base_8c.html#a590d2f8deb8d9337a227c685d87e75c1">FireplaceBase()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, and <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d29/class_boat__01___color_base.html#a58793c1561abb560da4377da77ad6dea">Boat_01_ColorBase::EEInit()</a>.</p>
 
 </div>
 </div>
@@ -478,7 +558,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>maximum range where the receiver can get some temperature </p>
+<p>UTS will be inactive on temperature &lt; to this value. </p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/db7/class_spooky_player_stalker.html#a58793c1561abb560da4377da77ad6dea">SpookyPlayerStalker::EEInit()</a>, <a class="el" href="../../d5/d2c/class_building_super.html#a58793c1561abb560da4377da77ad6dea">BuildingSuper::EEInit()</a>, <a class="el" href="../../d1/d00/class_flammable_base.html#a58793c1561abb560da4377da77ad6dea">FlammableBase::EEInit()</a>, <a class="el" href="../../d3/d3a/class_hot_spring_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">HotSpringArea::InitZoneServer()</a>, and <a class="el" href="../../d4/dd2/class_volcanic_area.html#a76f4e4b51b4025ee919dcf5fa28b28b4">VolcanicArea::InitZoneServer()</a>.</p>
 

@@ -1450,7 +1450,11 @@ var hierarchy =
     [ "FirefighterJacket_ColorBase", "da/d86/class_firefighter_jacket___color_base.html", null ],
     [ "FirefightersHelmet_ColorBase", "d7/d05/class_firefighters_helmet___color_base.html", null ],
     [ "FirefightersPants_ColorBase", "d8/d12/class_firefighters_pants___color_base.html", null ],
-    [ "FireplaceBase", "dc/dc1/class_fireplace_base.html", null ],
+    [ "FireplaceBase", "dc/dc1/class_fireplace_base.html", [
+      [ "FireplaceIndoor", "dc/d3c/class_fireplace_indoor.html", [
+        [ "FireplaceFireBarrel", "d9/dd3/class_fireplace_fire_barrel.html", null ]
+      ] ]
+    ] ],
     [ "FireworksBase", null, [
       [ "FireworksLauncher", "d9/db5/class_fireworks_launcher.html", [
         [ "Anniversary_FireworksLauncher", "d8/d69/class_anniversary___fireworks_launcher.html", null ]

@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">DayZ Scripts
    </div>
-   <div id="projectbrief">PC Stable v1.26.158950</div>
+   <div id="projectbrief">PC Stable v1.26.159040</div>
   </td>
  </tr>
    <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -144,8 +144,14 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3e4393f2310eb659b1106a9279347bda"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/_universal_temperature_source_8c.html#a3e4393f2310eb659b1106a9279347bda">m_Temperature</a> = 0</td></tr>
-<tr class="separator:a3e4393f2310eb659b1106a9279347bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d0bf4acfad2fc69e5ca08268914427"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/_universal_temperature_source_8c.html#a26d0bf4acfad2fc69e5ca08268914427">m_TemperatureItem</a> = 0</td></tr>
+<tr class="separator:a26d0bf4acfad2fc69e5ca08268914427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59bb1094495eb589c923df3239e2dcdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/_universal_temperature_source_8c.html#a59bb1094495eb589c923df3239e2dcdd">m_TemperatureHeatcomfort</a> = 0</td></tr>
+<tr class="memdesc:a59bb1094495eb589c923df3239e2dcdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item target temperature.  <br /></td></tr>
+<tr class="separator:a59bb1094495eb589c923df3239e2dcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20558b1852b206bcf0c9b2c4280794d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc3/classfloat.html">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/_universal_temperature_source_8c.html#a20558b1852b206bcf0c9b2c4280794d7">m_Temperature</a> = 0</td></tr>
+<tr class="memdesc:a20558b1852b206bcf0c9b2c4280794d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Player HC target(?) value.  <br /></td></tr>
+<tr class="separator:a20558b1852b206bcf0c9b2c4280794d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9279e79d671eec1e5e31b585c836dd32"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/_universal_temperature_source_8c.html#a9279e79d671eec1e5e31b585c836dd32">DELIMITER_KEYPAIR</a> = &quot;:&quot;</td></tr>
 <tr class="separator:a9279e79d671eec1e5e31b585c836dd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c03ea880b646e914d66d43425a5e7df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d92/classstring.html">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/_universal_temperature_source_8c.html#a0c03ea880b646e914d66d43425a5e7df">m_Header</a></td></tr>
@@ -474,14 +480,47 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e4393f2310eb659b1106a9279347bda" name="a3e4393f2310eb659b1106a9279347bda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e4393f2310eb659b1106a9279347bda">&#9670;&#160;</a></span>m_Temperature</h2>
+<a id="a20558b1852b206bcf0c9b2c4280794d7" name="a20558b1852b206bcf0c9b2c4280794d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20558b1852b206bcf0c9b2c4280794d7">&#9670;&#160;</a></span>m_Temperature</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">class <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a> m_Temperature = 0</td>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_Temperature = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Player HC target(?) value. </p>
+<p>DEPRECATED </p>
+
+</div>
+</div>
+<a id="a59bb1094495eb589c923df3239e2dcdd" name="a59bb1094495eb589c923df3239e2dcdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59bb1094495eb589c923df3239e2dcdd">&#9670;&#160;</a></span>m_TemperatureHeatcomfort</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc3/classfloat.html">float</a> m_TemperatureHeatcomfort = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Item target temperature. </p>
+
+</div>
+</div>
+<a id="a26d0bf4acfad2fc69e5ca08268914427" name="a26d0bf4acfad2fc69e5ca08268914427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d0bf4acfad2fc69e5ca08268914427">&#9670;&#160;</a></span>m_TemperatureItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">class <a class="el" href="../../db/d79/class_universal_temperature_source_settings.html">UniversalTemperatureSourceSettings</a> m_TemperatureItem = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">

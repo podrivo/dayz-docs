@@ -25,5 +25,6 @@ var class_power_generator_static =
     [ "m_ParentID2", "d8/d06/class_power_generator_static.html#a0130e57862de55290d6087cd867a0356", null ],
     [ "m_ParentID3", "d8/d06/class_power_generator_static.html#a85f8a320f13720661a352ed211ca8af0", null ],
     [ "m_ParentID4", "d8/d06/class_power_generator_static.html#afabba46e9f4dc3899991f5a4c0d3f05d", null ],
-    [ "m_PowerGenerators", "d8/d06/class_power_generator_static.html#a848585afdf1cf913063c617707e062f0", null ]
+    [ "m_PowerGenerators", "d8/d06/class_power_generator_static.html#a848585afdf1cf913063c617707e062f0", null ],
+    [ "SWITCH_COUNT", "d8/d06/class_power_generator_static.html#a47192f2e8593062f352d2417efc24995", null ]
 ];

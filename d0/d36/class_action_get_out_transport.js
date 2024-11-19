@@ -11,6 +11,7 @@ var class_action_get_out_transport =
     [ "GetInputType", "d0/d36/class_action_get_out_transport.html#ab6eb153abc42e514909126c621d01280", null ],
     [ "HandleReciveData", "d0/d36/class_action_get_out_transport.html#ae4b8096e050d0a62daa431588f8af715", null ],
     [ "HasProgress", "d0/d36/class_action_get_out_transport.html#a6201cf1bf986bd9c1f571cb58a6946ed", null ],
+    [ "HasTarget", "d0/d36/class_action_get_out_transport.html#ab80733e1a8c145c8ee7b04476d535d72", null ],
     [ "OnEnd", "d0/d36/class_action_get_out_transport.html#aa4e2512c61538ce6fbad115d6b6ebb27", null ],
     [ "OnEndServer", "d0/d36/class_action_get_out_transport.html#a2ebf3855cc8960864124ba5ca4949033", null ],
     [ "OnStart", "d0/d36/class_action_get_out_transport.html#aef48390c9e0535c77faa245088e8047d", null ],
